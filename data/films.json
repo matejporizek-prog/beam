@@ -1,0 +1,796 @@
+{
+  "generated_at": "2026-07-21T23:04:01+02:00",
+  "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
+  "films": [
+    {
+      "film_id": "andelske vejce",
+      "title_cz": "Andělské vejce",
+      "title_en": "Angel's Egg",
+      "original_title": "天使のたまご",
+      "year": 1985,
+      "synopsis": "V zatopeném městě se mladá dívka stará o velké vejce, které pečlivě drží v náručí. Věří, že je to vejce anděla. Z podivného vozu vystupuje chlapec s obrovskou zbraní. Hledá ptáka, kterého viděl ve snu. Zdá se, že v opuštěném městě mezi sebou tyto dvě postavy navazují křehké pouto, ale jedné noci chlapec dívčino vejce rozbije.",
+      "synopsis_language": "cs",
+      "runtime_min": 71,
+      "genres": [
+        "Animovaný",
+        "Fantasy",
+        "Mysteriózní",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Mamoru Oshii"
+      ],
+      "screenwriter": [
+        "Mamoru Oshii"
+      ],
+      "cast": [
+        "Keiichi Noda",
+        "Mako Hyodo",
+        "Jinpachi Nezu"
+      ],
+      "production_company": [
+        "Tokuma Shoten",
+        "Studio Deen"
+      ],
+      "poster_path": "/dqi68LqT8z4lduMg0xR2TZHkRId.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2025/09/12/6edd1134ddcf0fcae600d3dfb1dfc92e.jpg",
+      "backdrop_path": "/nZn384qWYugXu6U1N8Ya0Iv0NXE.jpg",
+      "trailer_youtube_key": "SqyVGzaQFpQ",
+      "age_rating": "NR (US)",
+      "tmdb_id": 15916,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=And%C4%9Blsk%C3%A9+vejce+1985",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "chica checa",
+      "title_cz": "Chica Checa",
+      "title_en": "Czech Girl",
+      "original_title": "Chica Checa",
+      "year": 2026,
+      "synopsis": "Widowed Zdena lives a quiet life as a postwoman in a small Czech village. When her beloved son Lukas returns home from France to say goodbye to his dying grandmother, his determination to make her seemingly impossible wish come true leads him to reveal a secret that challenges the values of the village: his queer life in Paris and his drag queen alter ego, Chica Checa.",
+      "synopsis_language": "en",
+      "runtime_min": 96,
+      "genres": [
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "Šimon Holý"
+      ],
+      "screenwriter": [
+        "Šimon Holý"
+      ],
+      "cast": [
+        "Pavla Tomicová",
+        "Alexandra Borbély",
+        "Jan Cina",
+        "Alena Doláková",
+        "Erwan Kepoa Falé",
+        "Jitka Schneiderová",
+        "Natálie Řehořová",
+        "Sara Venclovská"
+      ],
+      "production_company": [
+        "Silk Films",
+        "Česká televize",
+        "Arinafilm",
+        "The French Connection"
+      ],
+      "poster_path": "/qc1SF2xuOK7UPN7qVpCdv69v6si.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/06/23/a83d66ae30063875fddc9e360b4fce61.jpg",
+      "backdrop_path": "/aqmby2szGSgL6kYJMlP5oftaCyd.jpg",
+      "trailer_youtube_key": "XUKn2SK7UI0",
+      "age_rating": "12+",
+      "tmdb_id": 1339767,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Chica+Checa+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "den odhaleni",
+      "title_cz": "Den odhalení",
+      "title_en": "Disclosure Day",
+      "original_title": "Disclosure Day",
+      "year": 2026,
+      "synopsis": "Datový analytik Daniel ukradl svým zaměstnavatelům přísně tajné dokumenty, neboť je přesvědčen, že lidstvo má právo dozvědět se pravdu. Vládní organizace Wardex mu teď pochopitelně jde po krku. Televizní rosnička Margaret nemá o ničem z toho ani potuchy. Míří do práce jako každý den a doufá, že zpoždění, které nabrala, neohrozí její povýšení. Zjišťuje však, že něco je jinak. Hovoří jazyky, které se nikdy neučila, a ví velmi osobní věci ○ zcela neznámých lidech. Osudy Daniela a Margaret se již brzy mají protnout.",
+      "synopsis_language": "cs",
+      "runtime_min": 146,
+      "genres": [
+        "Vědeckofantastický",
+        "Thriller"
+      ],
+      "director": [
+        "Steven Spielberg"
+      ],
+      "screenwriter": [
+        "Steven Spielberg",
+        "David Koepp"
+      ],
+      "cast": [
+        "Emily Blunt",
+        "Josh O'Connor",
+        "Colin Firth",
+        "Colman Domingo",
+        "Eve Hewson",
+        "Wyatt Russell",
+        "Elizabeth Marvel",
+        "Henry Lloyd-Hughes"
+      ],
+      "production_company": [
+        "Universal Pictures",
+        "Amblin Entertainment"
+      ],
+      "poster_path": "/wVvRf7Yk1n27o2dsrwswdHWXqzV.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/04/24/f7b99ab08a2554ea5e2704691a571cd3.jpg",
+      "backdrop_path": "/flxau5Iu7bChQHsESqvGZ3FQRaI.jpg",
+      "trailer_youtube_key": "NzIiDnKDfdM",
+      "age_rating": "12+",
+      "tmdb_id": 1275779,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Den+odhalen%C3%AD+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "denik princezny",
+      "title_cz": "Deník princezny",
+      "title_en": "The Princess Diaries",
+      "original_title": "The Princess Diaries",
+      "year": 2001,
+      "synopsis": "Mia je nenápadná, inteligentní a mile ztřeštěná studentka střední školy. Žije v San Francisku se svou matkou, svobodomyslnou umělkyní. V neslušivých brýlích, s nemoderním účesem i oblečením jako z bazaru je tak trochu outsiderem mezi spolužačkami, které myslí jen na zábavu, parádu a na to, jak Miu zesměšnit. Ta marně vrhá zamilované pohledy na fešáckého třídního playboye Joshe. Josh si ale ošklivého kačátka Mii ani nevšimne. Pak se najednou objeví na scéně babička odkudsi z Evropy, kterou nikdy neviděla, a sdělí dívce šokující novinu. Její otec, kterého vůbec nepoznala, byl panovníkem malé evropské země, a protože nedávno zemřel, stává se Mia dědičkou trůnu. Babička královna slibuje, že z ní udělá princeznu jak má být. Patnáctiletá Mia musí řešit životní dilema zůstat obyčejnou studentkou nebo naplnit přání babičky a otce a převzít odpovědnost za vládu malé vzdálené země.",
+      "synopsis_language": "cs",
+      "runtime_min": 114,
+      "genres": [
+        "Komedie",
+        "Rodinný",
+        "Romantický"
+      ],
+      "director": [
+        "Garry Marshall"
+      ],
+      "screenwriter": [
+        "Gina Wendkos"
+      ],
+      "cast": [
+        "Anne Hathaway",
+        "Julie Andrews",
+        "Heather Matarazzo",
+        "Caroline Goodall",
+        "Héctor Elizondo",
+        "Robert Schwartzman",
+        "Erik von Detten",
+        "Patrick John Flueger"
+      ],
+      "production_company": [
+        "Bottom of the Ninth Productions",
+        "Walt Disney Pictures",
+        "BrownHouse Productions"
+      ],
+      "poster_path": "/iAtaYRrvAIdXQ8zYsVdcehWguWd.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/30/aa6f404335acb8ace1f341b9c3644fef.jpg",
+      "backdrop_path": "/d44RH1S9h1iQfhwsX9IX4zxhzjQ.jpg",
+      "trailer_youtube_key": "2CkcwPi20ms",
+      "age_rating": "U",
+      "tmdb_id": 9880,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Den%C3%ADk+princezny+2001",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "kralovstvi kocek",
+      "title_cz": "Království koček",
+      "title_en": "The Cat Returns",
+      "original_title": "猫の恩返し",
+      "year": 2002,
+      "synopsis": "Dívka Haru zachrání kocoura, který přecházel rušnou ulici. Tím ale uvede do chodu sérii fantaskních událostí, které ji přivedou až do království koček. Onen kocour totiž byl kočičí princ a jeho otec, aby projevil vděk, za něj chce Haru provdat. Pomoc před nedobrovolným osudem Haru nalézá v Kočičí obchodní kanceláři. Ta sídlí ve světě bytostí, které mají duši, tedy výtvorů lidské představivosti. Jedním z nich je i elegantní Baron, který se spolu s přízemním kocourem Mutou a chrličem Totem pokusí plánované svatbě zabránit.",
+      "synopsis_language": "cs",
+      "runtime_min": 75,
+      "genres": [
+        "Dobrodružný",
+        "Fantasy",
+        "Animovaný",
+        "Drama",
+        "Rodinný"
+      ],
+      "director": [
+        "Hiroyuki Morita"
+      ],
+      "screenwriter": [
+        "Reiko Yoshida"
+      ],
+      "cast": [
+        "Chizuru Ikewaki",
+        "Yoshihiko Hakamada",
+        "Aki Maeda",
+        "Tetsu Watanabe",
+        "Yousuke Saito",
+        "Takayuki Yamada",
+        "Hitomi Sato",
+        "Kenta Satoi"
+      ],
+      "production_company": [
+        "Studio Ghibli",
+        "Hakuhodo DY Media Partners",
+        "Mitsubishi",
+        "Nippon Television Network Corporation",
+        "TOHO",
+        "Tokuma Shoten"
+      ],
+      "poster_path": "/9ripXZmaPueob1qVgqJz4HWIGlm.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2024/03/07/afd0ea8c3bf10d8f5fc9ef55f45e08cc.jpg",
+      "backdrop_path": "/tlQtvjwwTAAbNbtZ7IIGPlY50Hx.jpg",
+      "trailer_youtube_key": "yVnlvaxFQ6E",
+      "age_rating": "U",
+      "tmdb_id": 15370,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1lovstv%C3%AD+ko%C4%8Dek+2002",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "mala amelie",
+      "title_cz": "Malá Amélie",
+      "title_en": "Little Amélie or the Character of Rain",
+      "original_title": "Amélie et la métaphysique des tubes",
+      "year": 2025,
+      "synopsis": "Amélie je tříletá holčička, která je pevně přesvědčena o své všemocnosti. Touha porozumět záhadě vlastní existence se doopravdy probudí v momentě, kdy poprvé ochutná kousek čokolády. Začíná tak neobyčejně okouzlující cesta do dětské duše. Skrze silné pouto se svou chůvou Amélie odhaluje, kým je a jaké má místo ve světě, který nakonec nedokáže ohýbat podle svých rozmarů. Malá Amélie upoutá dechberoucí animací a světem bezbřehé fantazie, který je dětem vlastní a dospělé nabádá vidět svět dětskýma očima. Film měl premiéru na festivalu v Cannes, získal ocenění na filmovém festivalu animovaného filmu v Annecy a byl nominovaný na Oscara, Zlatý glóbus a Césary.",
+      "synopsis_language": "cs",
+      "runtime_min": 77,
+      "genres": [
+        "Animovaný",
+        "Drama",
+        "Rodinný"
+      ],
+      "director": [
+        "Maïlys Vallade",
+        "Liane-cho Han"
+      ],
+      "screenwriter": [
+        "Liane-cho Han",
+        "Aude Py",
+        "Eddine Noel",
+        "Maïlys Vallade"
+      ],
+      "cast": [
+        "Loïse Charpentier",
+        "Victoria Grobois",
+        "Yumi Fujimori",
+        "Cathy Cerda",
+        "Marc Arnaud",
+        "Laëtitia Coryn",
+        "Haylee Issembourg",
+        "Isaac Schoumsky"
+      ],
+      "production_company": [
+        "Maybe Movies",
+        "2 Minutes",
+        "France 3 Cinéma",
+        "Puffin Pictures",
+        "22D Music",
+        "Ikki Films"
+      ],
+      "poster_path": "/As1MI46u7yWuBhZ5AI41GdB867G.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/04/24/a1ed0e118e0e1144f0a83b2b2c9623a2.jpg",
+      "backdrop_path": "/2WCpiFmRqXyu5y7WoZjEa3CJbiI.jpg",
+      "trailer_youtube_key": "VRDBXP9QQwg",
+      "age_rating": "PG (US)",
+      "tmdb_id": 682012,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Mal%C3%A1+Am%C3%A9lie+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "me tiche myslenky",
+      "title_cz": "Mé tiché myšlenky",
+      "title_en": "My Thoughts Are Silent",
+      "original_title": "Мої думки тихі",
+      "year": 2020,
+      "synopsis": "Pětadvacetiletý Vadym se živí nahráváním a prodejem zvuků. Když přijde velkoryse honorovaná nabídka, která by mu pomohla uskutečnit sen o cestě do Kanady, dvakrát se nerozmýšlí a vydává se nahrávat zvuky zvířat na Zakarpatí… Debutující Antonio Lukič v obrazově nápadité road movie, podbarvené zvuky syntezátoru, prokazuje nebývalý cit pro budování tragikomických situací.",
+      "synopsis_language": "cs",
+      "runtime_min": 104,
+      "genres": [
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "Antonio Lukich"
+      ],
+      "screenwriter": [
+        "Valeria Kalchenko",
+        "Antonio Lukich"
+      ],
+      "cast": [
+        "Andrii Lidahovskyi",
+        "Irma Vitovska",
+        "Iryna Verenych-Ostrovska",
+        "Serhii Volosovets",
+        "Viktor Shevchenko",
+        "Istan Rozumny",
+        "Pavlo Dovhan-Levytskyi",
+        "Roland Mishko"
+      ],
+      "production_company": [
+        "Toy Cinema",
+        "Ukrainian State Film Agency"
+      ],
+      "poster_path": "/jT1D9sUhfoqYh4aV4lpVuVuT2Q9.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2023/03/08/9f2b3863b7ebcd5a6018d30e88517f23.jpg",
+      "backdrop_path": "/tNRHOWkBZW6T7fNIKMQNl17kFyI.jpg",
+      "trailer_youtube_key": "RPyCUrLqA4M",
+      "age_rating": "",
+      "tmdb_id": 609031,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=M%C3%A9+tich%C3%A9+my%C5%A1lenky+2020",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "mimoni a monstra",
+      "title_cz": "Mimoni a monstra",
+      "title_en": "Minions & Monsters",
+      "original_title": "Minions & Monsters",
+      "year": 2026,
+      "synopsis": "This is the rambunctious, ridiculous and totally true story of how the Minions conquered Hollywood, became movie stars, lost everything, unleashed monsters onto the world and then banded together to try and save the planet from the mayhem they had just created.",
+      "synopsis_language": "en",
+      "runtime_min": 90,
+      "genres": [
+        "Dobrodružný",
+        "Animovaný",
+        "Komedie",
+        "Rodinný",
+        "Fantasy"
+      ],
+      "director": [
+        "Pierre Coffin"
+      ],
+      "screenwriter": [
+        "Brian Lynch",
+        "Pierre Coffin"
+      ],
+      "cast": [
+        "Pierre Coffin",
+        "Trey Parker",
+        "Allison Janney",
+        "Christoph Waltz",
+        "Jeff Bridges",
+        "Jesse Eisenberg",
+        "Zoey Deutch",
+        "Bobby Moynihan"
+      ],
+      "production_company": [
+        "Universal Pictures",
+        "Illumination"
+      ],
+      "poster_path": "/6ZhLFj6pGK9JjA0JIldYB8xKCJm.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/06/02/d03269d34f9c3ec82f94669bb03b2d57.jpg",
+      "backdrop_path": "/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
+      "trailer_youtube_key": "V-O-uBaHk3c",
+      "age_rating": "U",
+      "tmdb_id": 1315772,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Mimoni+a+monstra+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.11, title 1.00)",
+      "match_score": 1.115
+    },
+    {
+      "film_id": "mistryne",
+      "title_cz": "Mistryně",
+      "title_en": "Everything As It Should Be",
+      "original_title": "Mistryně",
+      "year": null,
+      "synopsis": "Monika má život, o kterém snila: je úspěšnou lékařkou a čeká dítě ve spokojeném vztahu s Lukášem. Je ale opravdu šťastná? Když se po letech znovu potká s bývalým manželem Petrem, její nejistotu to prohloubí. Krátká schůzka se promění v dlouhou procházku letním Libercem, během které se začnou otevírat nezodpovězené otázky: „Proč jsme se vlastně tenkrát rozešli?“ a „Co by bylo, kdybychom se rozhodli jinak?“ Skrze dialog a jemný humor sledujeme, jak se mezi nimi v nenápadných momentech – v dešti, v tramvaji, v parku – znovu objevuje blízkost. Režisér Bohdan Karásek natočil citlivé vztahové drama s Marií Švestkovou a Jiřím Havelkou v hlavních rolích.",
+      "synopsis_language": "cs",
+      "runtime_min": 101,
+      "genres": [
+        "Romantický",
+        "Drama"
+      ],
+      "director": [
+        "Bohdan Karásek"
+      ],
+      "screenwriter": [
+        "Bohdan Karásek"
+      ],
+      "cast": [
+        "Marie Švestková",
+        "Jiří Havelka",
+        "Lukáš Bouzek",
+        "Taťjana Medvecká"
+      ],
+      "production_company": [
+        "Beginner's Mind",
+        "Česká televize",
+        "Magiclab"
+      ],
+      "poster_path": "/7OV1Xb6NjUgjtv46cs5livuR1oc.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/06/22/f620138313b4b2a76e0e58ae4b979edf.jpg",
+      "backdrop_path": "/dkSXpwrIVo9v7WEhcJUeHZHBAzp.jpg",
+      "trailer_youtube_key": "iwF5DWe2Dqc",
+      "age_rating": "",
+      "tmdb_id": 1704483,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Mistryn%C4%9B",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "modry samet",
+      "title_cz": "Modrý samet",
+      "title_en": "Blue Velvet",
+      "original_title": "Blue Velvet",
+      "year": 1986,
+      "synopsis": "Student narazí na tajemství a chce se dozvědět víc. Bizarní svět, s nímž se setkává za idylickou fasádou svého rodného města, bude ještě podivnější.",
+      "synopsis_language": "cs",
+      "runtime_min": 120,
+      "genres": [
+        "Mysteriózní",
+        "Thriller",
+        "Krimi"
+      ],
+      "director": [
+        "David Lynch"
+      ],
+      "screenwriter": [
+        "David Lynch"
+      ],
+      "cast": [
+        "Isabella Rossellini",
+        "Kyle MacLachlan",
+        "Dennis Hopper",
+        "Laura Dern",
+        "Hope Lange",
+        "Dean Stockwell",
+        "George Dickerson",
+        "Priscilla Pointer"
+      ],
+      "production_company": [
+        "DEG"
+      ],
+      "poster_path": "/oOCzE1SuB5ywvgHBU83u2moyEzB.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2022/07/22/23af1009a6ee2566f7b2e1bc134e0d40.jpg",
+      "backdrop_path": "/s1CBwblInR0ZBIv59CSko2QdLD3.jpg",
+      "trailer_youtube_key": "rAA6imfqMYQ",
+      "age_rating": "15+",
+      "tmdb_id": 793,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Modr%C3%BD+samet+1986",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "mouchy",
+      "title_cz": "Mouchy",
+      "title_en": "Flies",
+      "original_title": "Moscas",
+      "year": 2026,
+      "synopsis": "Olga lives a strictly regulated life without attachments in a vast apartment block. When out of financial necessity she rents a room in her apartment to a man who also sneaks-in his nine-year-old son, an unlikely bond forms. Her carefully controlled world begins to shift, and their lives become intertwined against her will.",
+      "synopsis_language": "en",
+      "runtime_min": 99,
+      "genres": [
+        "Drama",
+        "Komedie"
+      ],
+      "director": [
+        "Fernando Eimbcke"
+      ],
+      "screenwriter": [
+        "Fernando Eimbcke",
+        "Vanesa Garnica"
+      ],
+      "cast": [
+        "Bastián Escobar",
+        "Teresa Sánchez",
+        "Hugo Ramírez",
+        "Enrique Arreola"
+      ],
+      "production_company": [
+        "Teorema",
+        "Instituto Mexicano de Cinematografía",
+        "Eficine",
+        "Kinotitlán"
+      ],
+      "poster_path": "/tff1IQnQIfx4akKYbD2rsGk31pU.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/06/22/b98390ce60329f71a93854e279dd4be6.webp",
+      "backdrop_path": "/dlVvlYfvpD05KYbKFxEUvskvWWd.jpg",
+      "trailer_youtube_key": "eoxLjS5hXF0",
+      "age_rating": "",
+      "tmdb_id": 1437703,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Mouchy+2026",
+      "resolved": true,
+      "match_reason": "manual override",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "nebezpecne znamosti",
+      "title_cz": "Nebezpečné známosti | NT Live",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/04/17/7e1d5a95e29bf94b6e276ea596f05752.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Nebezpe%C4%8Dn%C3%A9+zn%C3%A1mosti+%7C+NT+Live",
+      "resolved": false,
+      "match_reason": "title matched 'Nebezpečné známosti' but director and runtime contradict it",
+      "match_score": 0.85
+    },
+    {
+      "film_id": "odyssea",
+      "title_cz": "Odyssea",
+      "title_en": "The Odyssey",
+      "original_title": "The Odyssey",
+      "year": 2026,
+      "synopsis": "Odysseus  byl král řeckého ostrova Ithaka, který dle legend a básníka Homéra vymyslel slavného Trójského koně, jenž výraznou měrou pomohl obelstít obránce Tróji a ukončit tak vyčerpávající dobývání tohoto města. Po skončení bojů netouží Odysseus po ničem jiném než vrátit se domů, za manželkou Pénelopé a synem Télemachem. Svými odvážnými činy však dle pověstí rozhněval bohy a ti se mu rozhodli návrat co nejvíc zkomplikovat. I proto se slovo „odysea“ stalo synonymem pro cestu plnou překážek, které poutníka odvádějí od jeho cíle, místo toho, aby ho k němu přibližovaly. Zatímco Odysseus vzdoruje bohům, obrům, svůdné kouzelnici Kirké a dalším nebezpečím, jeho žena Pénelopé vzdoruje mužům, kteří chtějí uchvátit ji a s ní celé ithacké království.",
+      "synopsis_language": "cs",
+      "runtime_min": 172,
+      "genres": [
+        "Dobrodružný",
+        "Akční",
+        "Fantasy"
+      ],
+      "director": [
+        "Christopher Nolan"
+      ],
+      "screenwriter": [
+        "Christopher Nolan"
+      ],
+      "cast": [
+        "Matt Damon",
+        "Tom Holland",
+        "Anne Hathaway",
+        "Robert Pattinson",
+        "Himesh Patel",
+        "John Leguizamo",
+        "Charlize Theron",
+        "Travis Scott"
+      ],
+      "production_company": [
+        "Universal Pictures",
+        "Syncopy"
+      ],
+      "poster_path": "/zLbUuaoCctimWJ4TUPW2C1yVImc.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/06/15/22814c5eff3bfe06bd6a84cb1edef97a.jpg",
+      "backdrop_path": "/tYuC9kUwqhpDQ3pv1kLMqyMF1Jw.jpg",
+      "trailer_youtube_key": "AyIZ9tiiN8I",
+      "age_rating": "15+",
+      "tmdb_id": 1368337,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Odyssea+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "padli andele",
+      "title_cz": "Padlí andělé",
+      "title_en": "Fallen Angels",
+      "original_title": "墮落天使",
+      "year": 1995,
+      "synopsis": "Profesionální zabiják se chystá na svou poslední zakázku. Nejprve ale musí nějak překonat svou náklonost ke své chladné kolegyni. Uvědomuje si, že zaplést se s kolegyní je nejen nevhodné, ale i nebezpečné. Pod nepříjemně temnou, až surrealistickou noční oblohou velkoměsta se setkává s tulačkou, která pátrá po svém bývalém příteli. A zaujme zabijáka svými nekonvenčními způsoby, kterými se na sebe snaží upoutat pozornost.",
+      "synopsis_language": "cs",
+      "runtime_min": 97,
+      "genres": [
+        "Akční",
+        "Romantický",
+        "Krimi"
+      ],
+      "director": [
+        "Wong Kar-Wai"
+      ],
+      "screenwriter": [
+        "Wong Kar-Wai"
+      ],
+      "cast": [
+        "Leon Lai Ming",
+        "Michele Reis",
+        "Takeshi Kaneshiro",
+        "Charlie Yeung Choi-Nei",
+        "Karen Mok Man-Wai",
+        "Chan Man-Lei",
+        "Toru Saito",
+        "Benz Kong To-Hoi"
+      ],
+      "production_company": [
+        "Jet Tone Production"
+      ],
+      "poster_path": "/yyM9BPdwttK5LKZSLvHae7QPKo1.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2024/11/18/4ee0b66db4347c32733c9b38049d2c8a.jpg",
+      "backdrop_path": "/lInQVVbPjKFGX7GDcxNMXALy2Y4.jpg",
+      "trailer_youtube_key": "uxaT19BlH0M",
+      "age_rating": "12+",
+      "tmdb_id": 11220,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Padl%C3%AD+and%C4%9Bl%C3%A9+1995",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "pozvani",
+      "title_cz": "Pozvání",
+      "title_en": "The Invite",
+      "original_title": "The Invite",
+      "year": 2026,
+      "synopsis": "Joe a Angela procházejí krizí a jejich manželství visí na vlásku. Když jednou večer pozvou na večeři své záhadné sousedy z horního patra, zdánlivě nevinné setkání se začne ubírat nečekaným směrem. Jak přibývá víno a padají zábrany, vyplouvají na povrch skrytá přání, tajemství i pravdy, které mohou změnit jejich vztahy navždy. (Vertical Entertainment)",
+      "synopsis_language": "cs",
+      "runtime_min": 107,
+      "genres": [
+        "Drama",
+        "Komedie"
+      ],
+      "director": [
+        "Olivia Wilde"
+      ],
+      "screenwriter": [
+        "Rashida Jones",
+        "Will McCormack"
+      ],
+      "cast": [
+        "Olivia Wilde",
+        "Seth Rogen",
+        "Penélope Cruz",
+        "Edward Norton",
+        "Skip Howland",
+        "Mel Powell",
+        "Rachel Thurow",
+        "Mario Valdez"
+      ],
+      "production_company": [
+        "Annapurna Pictures",
+        "FilmNation Entertainment",
+        "Permut Presentations"
+      ],
+      "poster_path": "/uoSlEfHnONjVvRqiaKMZoQUMO3V.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/29/d43411793b0b50b0a2c99c70a949f5d9.jpg",
+      "backdrop_path": "/kLA1GqiOEyVgXxgNqLoCr7bYcqu.jpg",
+      "trailer_youtube_key": "nelkiuezJxg",
+      "age_rating": "R (US)",
+      "tmdb_id": 950028,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Pozv%C3%A1n%C3%AD+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "pramen",
+      "title_cz": "Pramen",
+      "title_en": "Only Beautiful Things to Look At",
+      "original_title": "Pramen",
+      "year": 2026,
+      "synopsis": "Ingrid works as a gynecologist in a district hospital in Slovakia in the late 1980s. Her marriage is at a standstill, she has an affair with a younger colleague in the hospital, and after work, she sits on the abortion committee where they offer Roma women sterilization after the abortion is approved. Eighteen-year-old Agáta, who grew up in a children’s home, comes to work as a nurse at the hospital. Ingrid unexpectedly becomes close to her.",
+      "synopsis_language": "en",
+      "runtime_min": 88,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Ivan Ostrochovský"
+      ],
+      "screenwriter": [
+        "Marek Leščák",
+        "Ivan Ostrochovský"
+      ],
+      "cast": [
+        "Anna Geislerová",
+        "Eva Mores",
+        "Vlad Ivanov",
+        "Éva Bandor",
+        "Simona Boledovičová",
+        "Attila Mokos",
+        "Martin Šulík",
+        "Milan Mikulčík"
+      ],
+      "production_company": [],
+      "poster_path": "/vg2KV2VT3h4TT0IxB9dCH0Ox2R4.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/06/22/9e0f368a903b30f10736ffec5dc53ae0.webp",
+      "backdrop_path": "/nfpgKDea6asqL8LKvOLiRXUD72u.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1397737,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Pramen+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "prisaham ze za to nemuzu",
+      "title_cz": "Přísahám, že za to nemůžu",
+      "title_en": "I Swear",
+      "original_title": "I Swear",
+      "year": 2025,
+      "synopsis": "Příběh Johna Davidsona (Robert Aramayo), kterému se v patnácti letech nezvratně změní život po náhlém propuknutí Tourettova syndromu. V roce 1983, kdy bylo toto onemocnění ještě málo známé, se u něho objeví nekontrolovatelné hlasové a tělesné tiky. Cítí se jako vyvrženec a postupně se uchyluje do studu a osamění. Po mnoha letech se to ale začne měnit, když se seznámí s Dottie (Maxine Peake), energickou matkou bývalého spolužáka, která právě zjistila, že má rakovinu v konečném stádiu. Vznikne mezi nimi nečekaný vztah, díky kterému John nachází vnitřní sílu a smysl života. Film byl natočen podle skutečného příběhu.",
+      "synopsis_language": "cs",
+      "runtime_min": 121,
+      "genres": [
+        "Drama",
+        "Historický"
+      ],
+      "director": [
+        "Kirk Jones"
+      ],
+      "screenwriter": [
+        "Kirk Jones"
+      ],
+      "cast": [
+        "Robert Aramayo",
+        "Maxine Peake",
+        "Peter Mullan",
+        "Shirley Henderson",
+        "Scott Ellis Watson",
+        "David Carlyle",
+        "Francesco Piacentini-Smith",
+        "Somerled Campbell"
+      ],
+      "production_company": [
+        "One Story High",
+        "Tempo Productions"
+      ],
+      "poster_path": "/gL1rfAYVdp1lrnNnO4lLlo4O4hc.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/21/b59863b6bd52f3207ae60de7d1df99cf.jpg",
+      "backdrop_path": "/fe6kkxaxn0mCU2gl1vfU44IYWsy.jpg",
+      "trailer_youtube_key": "10ynpduiRpM",
+      "age_rating": "R (US)",
+      "tmdb_id": 1317149,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=P%C5%99%C3%ADsah%C3%A1m%2C+%C5%BEe+za+to+nem%C5%AF%C5%BEu+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "stastni spolu",
+      "title_cz": "Šťastni spolu",
+      "title_en": "Happy Together",
+      "original_title": "春光乍洩",
+      "year": 1997,
+      "synopsis": "Byli dva a kromě nich nebylo nic důležité. Vydali se na dlouhou cestu a najednou není, co bylo, a naopak je, co nikdo nechtěl. A na druhém konci světa, v pronajatém pokoji uprostřed Buenos Aires přemýšlí Lai Yiu-Fai, co tu vlastně chtěl? Film Šťastni spolu znamenal pro Kar-Wai Wonga první skutečný vstup na mezinárodní filmové scény, když za něj na MFF v Cannes 1997 získal Cenu za režii. Příběh homosexuální dvojice, jejíž láskyplný a zdánlivě pevný vztah se rozpadne, aniž by jeden nebo druhý věděli proč, částečně šokoval svou otevřeností a zároveň fascinoval originálním způsobem filmového vyprávění, okázale ignorujícím jakákoliv známá pravidla.",
+      "synopsis_language": "cs",
+      "runtime_min": 96,
+      "genres": [
+        "Drama",
+        "Romantický"
+      ],
+      "director": [
+        "Wong Kar-Wai"
+      ],
+      "screenwriter": [
+        "Wong Kar-Wai"
+      ],
+      "cast": [
+        "Leslie Cheung",
+        "Tony Leung Chiu-wai",
+        "Chang Chen",
+        "Gregory Dayton"
+      ],
+      "production_company": [
+        "Block 2 Pictures",
+        "Seowoo Film Company",
+        "Prénom H Co. Ltd.",
+        "Jet Tone Production"
+      ],
+      "poster_path": "/dAyUTgO1BGuEZhF3f2G8V9d8sXM.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2025/11/25/f95259ea5bac69cc50cfc78593c8afce.jpg",
+      "backdrop_path": "/2Xkd3WeAx11cHxb4Lr3wnSNDWcd.jpg",
+      "trailer_youtube_key": "cU_u8xQspQg",
+      "age_rating": "NR (US)",
+      "tmdb_id": 18329,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%A0%C5%A5astni+spolu+1997",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    }
+  ]
+}

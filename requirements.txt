@@ -1,0 +1,8 @@
+requests>=2.32
+beautifulsoup4>=4.12
+lxml>=5.2
+pytest>=8.2
+# Makes Python trust the same certificate authorities the OS does. Required on
+# Windows, where kinoaero.cz otherwise fails TLS verification.
+truststore>=0.9
+

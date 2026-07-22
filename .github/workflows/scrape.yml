@@ -1,0 +1,70 @@
+# Scheduled scrape → resolve → commit.
+#
+# Once a week this runs the scrapers, resolves any new film titles against TMDb,
+# and commits the updated data files back to the repo — but only when the data
+# actually changed. Cloudflare Pages redeploys automatically on that commit, so
+# the live app picks up the new program with no manual step.
+#
+# Weekly is enough for arthouse cinemas (their programs change ~weekly). It runs
+# early Monday morning because Kino Aero's page only lists screenings that
+# haven't started yet — scraping later in the day would miss that day's matinees.
+#
+# Requires one repository secret: TMDB_API_KEY (Settings → Secrets and variables
+# → Actions → New repository secret).
+
+name: Scrape cinema programs
+
+on:
+  schedule:
+    # 05:00 UTC Monday ≈ 07:00 Prague in summer, 06:00 in winter — before the
+    # first matinee either way. (GitHub cron fires in UTC and can be a little
+    # late, which is fine here.)
+    - cron: "0 5 * * 1"
+  # Lets you trigger a run by hand from the Actions tab, e.g. right after setup.
+  workflow_dispatch: {}
+
+# The job commits data back to the repo, so it needs write access.
+permissions:
+  contents: write
+
+# Never let two scrape runs overlap and race on the same commit.
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scrape screenings
+        run: python -m scrapers.run
+
+      - name: Resolve film metadata (TMDb + ČSFD)
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: python -m resolve.films
+
+      - name: Commit updated data if it changed
+        run: |
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git config user.name  "beam-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/
+            git commit -m "data: refresh cinema program ($(date -u +%Y-%m-%d))"
+            git push
+            echo "Committed refreshed data."
+          else
+            echo "No data changes — nothing to commit."
+          fi

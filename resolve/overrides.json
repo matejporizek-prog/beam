@@ -1,0 +1,24 @@
+{
+  "_readme": [
+    "Manual answers for films the matcher can't resolve on its own.",
+    "",
+    "Keys are the normalized title: lowercase, no accents, no punctuation.",
+    "When a film comes out UNRESOLVED, its film_id in data/films.json is",
+    "exactly the key to use here.",
+    "",
+    "Find the film on themoviedb.org and take the number from its URL:",
+    "  https://www.themoviedb.org/movie/12345-some-film  ->  tmdb_id 12345",
+    "",
+    "Then run:  python -m resolve.films --retry",
+    "",
+    "Supported per entry:",
+    "  tmdb_id   force this TMDb film, skipping the matcher entirely",
+    "  csfd_url  use this exact CSFD page instead of a search link",
+    "  skip      true = ignore this title completely (not a film, e.g. an event)"
+  ],
+
+  "mouchy": {
+    "tmdb_id": 1437703,
+    "_comment": "Fernando Eimbcke's 'Moscas' (2026). TMDb has no Czech title for it at all, so no title search can find it - this needs a manual id. Verified: director and 99min runtime both match Aero's listing."
+  }
+}

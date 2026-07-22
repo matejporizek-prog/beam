@@ -1,0 +1,541 @@
+/* ==========================================================================
+   Bootstrap, navigation and all event wiring.
+
+   The prototype used inline onclick="" attributes throughout. Those are gone:
+   handlers are delegated from a few roots here, which is what lets titles and
+   strand names come straight from scraped pages without any quote-escaping
+   games in the markup.
+   ========================================================================== */
+
+/* The ?v= must match index.html. See the note there. */
+import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=3';
+import { store } from './store.js?v=3';
+import {
+  renderDays, renderProgram, renderPremieres, renderWatchlist, renderProfile,
+  fillDetail, runSearch, activeFilterCount,
+} from './screens.js?v=3';
+
+/* ---------- app state ---------- */
+
+let activeDay = null;
+let progGroup = 'film';
+let filters = store.loadFilters();
+let detailFilmId = null;
+
+const $ = id => document.getElementById(id);
+
+/* ---------- boot ---------- */
+
+async function boot() {
+  store.migrate();
+  buildBeam();
+  watchBeamResize();
+  setBeamPreset('sixty');   // intensity + dust density; locked default
+
+  try {
+    await loadData();
+  } catch (error) {
+    $('prog-list').innerHTML =
+      `<div class="boot">Data se nepodařilo načíst.<br><br>
+       <span style="color:var(--text-3)">${error.message}</span><br><br>
+       Zkus stránku načíst znovu.</div>`;
+    return;
+  }
+
+  if (!state.dates.length) {
+    $('prog-list').innerHTML = '<div class="boot">Zatím nemáme žádný program.</div>';
+    return;
+  }
+
+  /* Open on today when today has data, otherwise the next day that does —
+     landing on an empty past day would be a poor first impression. */
+  const today = todayISO();
+  activeDay = state.dates.includes(today)
+    ? today
+    : (state.dates.find(d => d >= today) || state.dates[0]);
+
+  wireEvents();
+  syncFilterUI();
+  renderProg();
+  registerServiceWorker();
+}
+
+/* ---------- rendering ---------- */
+
+function renderProg() {
+  renderDays($('days'), activeDay, filters, day => { activeDay = day; renderProg(); });
+  $('seg-film').className = 'seg' + (progGroup === 'film' ? ' active' : '');
+  $('seg-cinema').className = 'seg' + (progGroup === 'cinema' ? ' active' : '');
+  renderProgram($('prog-list'), activeDay, progGroup, filters);
+}
+
+const SCREENS = { program: 's-program', prem: 's-prem', want: 's-want', prof: 's-prof' };
+
+function go(name) {
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.toggle('active', n.dataset.s === name));
+  const target = $(SCREENS[name]);
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  void target.offsetWidth;  // force reflow so the stagger animation replays
+  target.classList.add('active');
+
+  if (name === 'prem') renderPremieres(target);
+  if (name === 'want') renderWatchlist(target);
+  if (name === 'prof') renderProfile(target);
+
+  window.scrollTo({ top: 0, behavior: 'instant' });
+}
+
+/* ---------- events ---------- */
+
+function wireEvents() {
+  /* nav */
+  document.querySelectorAll('.nav-item').forEach(item => {
+    item.onclick = () => go(item.dataset.s);
+  });
+
+  /* group toggle */
+  $('seg-film').onclick = () => { progGroup = 'film'; renderProg(); };
+  $('seg-cinema').onclick = () => { progGroup = 'cinema'; renderProg(); };
+
+  document.body.addEventListener('click', event => {
+    /* A save heart, wherever it appears — Program (both modes), Premiéry, the
+       watchlist. Handled before the row's own click so it never also opens the
+       detail overlay. */
+    const heart = event.target.closest('[data-save]');
+    if (heart) {
+      event.stopPropagation();
+      const id = heart.dataset.save;
+      const on = store.toggleWatch(id, heart.dataset.title || '');
+      syncSaveButtons(id, on);
+      toast(on ? 'Přidáno do Chci vidět' : 'Odebráno z Chci vidět');
+
+      /* Removing the last-tapped item straight out of the open watchlist would
+         leave a stale row, so re-render it. */
+      if ($('s-want').classList.contains('active')) renderWatchlist($('s-want'));
+      return;
+    }
+
+    /* Any element carrying data-film opens that film's detail overlay. */
+    const filmEl = event.target.closest('[data-film]');
+    if (filmEl && !event.target.closest('.buy')) {
+      openDetail(filmEl.dataset.film);
+    }
+  });
+
+  /* search */
+  $('hdr-search').onclick = openSearch;
+  $('search-back').onclick = () => closeSearch();
+  $('search-input').oninput = () => runSearch($('search-input').value, $('search-results'));
+
+  /* filter sheet */
+  $('filtr-btn').onclick = openFilter;
+  $('filter-scrim').onclick = () => closeFilter();
+  $('sheet-apply').onclick = () => { closeFilter(); renderProg(); };
+  $('sheet-clear').onclick = () => {
+    filters = { mplex: false, version: new Set(), format: new Set(), enOnly: false };
+    store.saveFilters(filters);
+    syncFilterUI();
+  };
+  $('row-mplex').onclick = () => { filters.mplex = !filters.mplex; store.saveFilters(filters); syncFilterUI(); };
+  $('row-en').onclick = () => { filters.enOnly = !filters.enOnly; store.saveFilters(filters); syncFilterUI(); };
+
+  document.querySelectorAll('#fp-version .fpill').forEach(pill => {
+    pill.onclick = () => togglePill(filters.version, pill.dataset.v);
+  });
+  document.querySelectorAll('#fp-format .fpill').forEach(pill => {
+    pill.onclick = () => togglePill(filters.format, pill.dataset.v);
+  });
+
+  /* detail overlay */
+  $('ov-close').onclick = () => closeDetail();
+  $('ov-save').onclick = toggleSave;
+  $('ov-trailer').onclick = () => {
+    const key = $('ov-trailer').dataset.trailer;
+    if (key) openTrailer(key);
+  };
+  $('trailer-close').onclick = closeTrailer;
+  $('trailer-modal').onclick = event => {
+    if (event.target === $('trailer-modal')) closeTrailer();
+  };
+
+  /* Back button / swipe-back closes whatever is open instead of leaving. */
+  window.addEventListener('popstate', () => {
+    if ($('trailer-modal').classList.contains('open')) return closeTrailer(true);
+    if ($('overlay').classList.contains('open')) return closeDetail(true);
+    if ($('search-ov').classList.contains('open')) return closeSearch(true);
+    if ($('filter-sheet').classList.contains('open')) return closeFilter(true);
+  });
+
+  /* Scroll-linked header shrink. */
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      document.querySelector('header').classList.toggle('compact', window.scrollY > 24);
+      ticking = false;
+    });
+  }, { passive: true });
+}
+
+function togglePill(set, value) {
+  set.has(value) ? set.delete(value) : set.add(value);
+  store.saveFilters(filters);
+  syncFilterUI();
+}
+
+function syncFilterUI() {
+  $('sw-mplex').className = 'switch' + (filters.mplex ? ' on' : '');
+  $('sw-en').className = 'switch' + (filters.enOnly ? ' on' : '');
+  document.querySelectorAll('#fp-version .fpill').forEach(p => p.classList.toggle('on', filters.version.has(p.dataset.v)));
+  document.querySelectorAll('#fp-format .fpill').forEach(p => p.classList.toggle('on', filters.format.has(p.dataset.v)));
+
+  const count = activeFilterCount(filters);
+  const badge = $('filtr-count');
+  badge.textContent = count || '';
+  badge.classList.toggle('show', count > 0);
+  $('filtr-btn').classList.toggle('on', count > 0);
+}
+
+/* ---------- overlays ---------- */
+
+function openFilter() {
+  syncFilterUI();
+  $('filter-scrim').classList.add('open');
+  $('filter-sheet').classList.add('open');
+  history.pushState({ sheet: 'filter' }, '');
+}
+
+function closeFilter(fromPop) {
+  $('filter-scrim').classList.remove('open');
+  $('filter-sheet').classList.remove('open');
+  if (!fromPop) history.back();
+}
+
+function openSearch() {
+  $('search-ov').classList.add('open');
+  setTimeout(() => $('search-input').focus(), 60);
+  history.pushState({ sheet: 'search' }, '');
+}
+
+function closeSearch(fromPop) {
+  $('search-ov').classList.remove('open');
+  $('search-input').value = '';
+  runSearch('', $('search-results'));
+  if (!fromPop) history.back();
+}
+
+function openDetail(filmId) {
+  detailFilmId = fillDetail(filmId);
+  const overlay = $('overlay');
+  overlay.scrollTop = 0;
+  overlay.classList.add('open');
+  history.pushState({ sheet: 'detail' }, '');
+}
+
+function closeDetail(fromPop) {
+  $('overlay').classList.remove('open');
+  if (!fromPop) history.back();
+}
+
+function toggleSave() {
+  if (!detailFilmId) return;
+  const film = filmById(detailFilmId);
+  const title = (film && film.title_cz) || $('ov-title').textContent;
+  const on = store.toggleWatch(detailFilmId, title);
+  syncSaveButtons(detailFilmId, on);
+  toast(on ? 'Přidáno do Chci vidět' : 'Odebráno z Chci vidět');
+
+  /* Keep Chci vidět in step immediately rather than on the next tab switch. */
+  if ($('s-want').classList.contains('active')) renderWatchlist($('s-want'));
+}
+
+/* Reflect a save/unsave on every control that points at the same id: the big
+   overlay heart and any row hearts currently on screen. Without this, saving
+   from the detail page would leave the Program row's heart stale until re-render. */
+function syncSaveButtons(id, on) {
+  document.querySelectorAll(`.save-heart[data-save="${cssEscape(id)}"]`).forEach(button => {
+    button.classList.toggle('on', on);
+    button.textContent = on ? '♥' : '♡';
+  });
+  if (detailFilmId === id) {
+    const overlayHeart = $('ov-save');
+    overlayHeart.classList.toggle('saved', on);
+    overlayHeart.textContent = on ? '♥' : '♡';
+  }
+}
+
+/* CSS.escape isn't universal on older mobile WebViews; fall back to escaping
+   the characters that actually appear in our ids (quotes, backslashes). */
+function cssEscape(value) {
+  if (window.CSS && CSS.escape) return CSS.escape(value);
+  return String(value).replace(/["\\]/g, '\\$&');
+}
+
+/* ---------- trailer ---------- */
+
+/* Plays inline over the app. The prototype bounced out to YouTube; the brief
+   explicitly calls for a modal instead. youtube-nocookie avoids setting
+   tracking cookies until the video is actually played. */
+function openTrailer(key) {
+  $('trailer-frame').src =
+    `https://www.youtube-nocookie.com/embed/${encodeURIComponent(key)}?autoplay=1&rel=0`;
+  $('trailer-modal').classList.add('open');
+  history.pushState({ sheet: 'trailer' }, '');
+}
+
+function closeTrailer(fromPop) {
+  $('trailer-modal').classList.remove('open');
+  $('trailer-frame').src = '';   // stops playback
+  if (!fromPop) history.back();
+}
+
+/* ---------- toast ---------- */
+
+let toastTimer = null;
+
+function toast(message) {
+  const el = $('toast');
+  el.textContent = message;
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 2000);
+}
+
+/* ---------- the projector beam ---------- */
+
+/* The ray fan, on a canvas — but still shimmering.
+
+   The prototype animated 40 separate blurred, screen-blended DOM layers, each
+   fading its own opacity in and out. That flicker is the point of the motif, so
+   losing it (as the first static-canvas pass did) changed the feel.
+
+   This keeps the flicker but pays for it once: each ray is blurred into its own
+   little sprite a single time, and the per-frame loop only redraws those
+   sprites at a varying opacity. The expensive part — the blur — never runs
+   again; a frame is 40 cheap drawImage calls. Same seeded geometry and warm/
+   cool mix as the prototype, so the fan itself looks identical. */
+
+let beamState = null;   // { ctx, rays, originX, width, height, dpr }
+let beamRAF = null;
+
+function buildBeam() {
+  const canvas = $('beam-canvas');
+  if (!canvas || !canvas.getContext) return;
+
+  /* Measure the container, not the canvas. An unstyled canvas reports its
+     intrinsic 300x150 default, so reading clientWidth before layout settles
+     silently produces a fan that is too narrow. */
+  const box = canvas.parentElement.getBoundingClientRect();
+  const width = Math.round(box.width) || 430;
+  const height = canvas.clientHeight || 640;
+  /* Cap the pixel ratio: a 3x buffer costs a lot of fill rate for a soft,
+     blurred graphic nobody inspects at pixel level. */
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+
+  canvas.width = Math.round(width * dpr);
+  canvas.height = Math.round(height * dpr);
+
+  const ctx = canvas.getContext('2d');
+  const N = 40, spread = 170;
+  let seed = 7;
+  const rnd = () => { seed = (seed * 9301 + 49297) % 233280; return seed / 233280; };
+
+  const rays = [];
+  for (let i = 0; i < N; i++) {
+    const t = i / (N - 1);
+    const angle = (-spread / 2 + t * spread + (rnd() - 0.5) * 3) * Math.PI / 180;
+    const warm = rnd() < 0.4;
+    const w = rnd() < 0.3 ? (3 + rnd() * 4) : (10 + rnd() * 18);
+    const len = 580 + Math.round(rnd() * 90);
+    const blur = w > 12 ? 4.5 : 1.8;
+    const centre = 1 - Math.abs(t - 0.5) * 0.7;
+    const peak = 0.35 + 0.65 * rnd() * Math.max(centre, 0.3);
+    /* Each ray shimmers on its own clock — different period and phase — so the
+       fan flickers irregularly, "haze drifting through", not a unison pulse. */
+    const period = 3.4 + rnd() * 3.8;
+    const phase = rnd() * Math.PI * 2;
+
+    rays.push({
+      sprite: renderRaySprite(w, len, blur, warm, dpr),
+      angle, peak, period, phase, pad: Math.ceil(blur * 3) + 2,
+    });
+  }
+
+  beamState = { ctx, rays, originX: width / 2, width, height, dpr };
+
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (beamRAF) cancelAnimationFrame(beamRAF);
+
+  /* Paint one frame straight away so the fan is visible the instant the canvas
+     exists — before, and independent of, the animation loop. Without this a
+     tab that loads in the background (where rAF is throttled to zero) would
+     show a blank beam until it happened to gain focus. */
+  drawBeam(performance.now(), reduce);
+  if (reduce) return;
+
+  const loop = now => { drawBeam(now, false); beamRAF = requestAnimationFrame(loop); };
+  beamRAF = requestAnimationFrame(loop);
+}
+
+/* Blur one ray into a standalone sprite canvas, once. */
+function renderRaySprite(w, len, blur, warm, dpr) {
+  const pad = Math.ceil(blur * 3) + 2;
+  const sw = Math.ceil(w + pad * 2);
+  const sh = Math.ceil(len + pad * 2);
+
+  const sprite = document.createElement('canvas');
+  sprite.width = Math.ceil(sw * dpr);
+  sprite.height = Math.ceil(sh * dpr);
+
+  const sctx = sprite.getContext('2d');
+  sctx.scale(dpr, dpr);
+  if (typeof sctx.filter === 'string') sctx.filter = `blur(${blur}px)`;
+
+  const gradient = sctx.createLinearGradient(0, pad, 0, pad + len);
+  if (warm) {
+    gradient.addColorStop(0.00, 'rgba(255,238,214,0.34)');
+    gradient.addColorStop(0.34, 'rgba(252,224,188,0.15)');
+    gradient.addColorStop(0.64, 'rgba(246,208,168,0.06)');
+  } else {
+    gradient.addColorStop(0.00, 'rgba(214,236,255,0.40)');
+    gradient.addColorStop(0.34, 'rgba(190,220,252,0.18)');
+    gradient.addColorStop(0.64, 'rgba(176,208,246,0.07)');
+  }
+  gradient.addColorStop(0.92, 'rgba(255,255,255,0)');
+
+  sctx.fillStyle = gradient;
+  sctx.fillRect(pad, pad, w, len);
+  return { canvas: sprite, sw, sh, pad };
+}
+
+function drawBeam(now, still) {
+  if (!beamState) return;
+  const { ctx, rays, originX, width, height, dpr } = beamState;
+  const seconds = now / 1000;
+
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.clearRect(0, 0, width, height);
+  /* 'lighter' is canvas's additive blend — the closest match to the CSS
+     mix-blend-mode: screen the DOM version relied on. */
+  ctx.globalCompositeOperation = 'lighter';
+
+  for (const ray of rays) {
+    /* Matches the prototype's shimmer keyframes: opacity swings between
+       peak*0.45 and peak. Held mid-bright when motion is reduced. */
+    const shimmer = still
+      ? 0.72
+      : 0.45 + 0.55 * (Math.sin(seconds * (2 * Math.PI / ray.period) + ray.phase) + 1) / 2;
+    ctx.globalAlpha = ray.peak * shimmer;
+
+    ctx.save();
+    ctx.translate(originX, 0);
+    ctx.rotate(ray.angle);
+    ctx.drawImage(ray.sprite.canvas, -ray.sprite.sw / 2, -ray.sprite.pad, ray.sprite.sw, ray.sprite.sh);
+    ctx.restore();
+  }
+  ctx.globalAlpha = 1;
+}
+
+/* Redraw on resize/rotation, debounced — the fan is geometry-dependent. */
+let beamResizeTimer = null;
+function watchBeamResize() {
+  window.addEventListener('resize', () => {
+    clearTimeout(beamResizeTimer);
+    beamResizeTimer = setTimeout(buildBeam, 200);
+  });
+
+  /* Stop the loop while the tab is hidden; no point animating a beam nobody can
+     see, and it keeps the battery honest. */
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) {
+      if (beamRAF) { cancelAnimationFrame(beamRAF); beamRAF = null; }
+    } else if (!beamRAF && beamState &&
+               !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      const loop = now => { drawBeam(now, false); beamRAF = requestAnimationFrame(loop); };
+      beamRAF = requestAnimationFrame(loop);
+    }
+  });
+}
+
+/* ---------- beam presets + dust ----------
+   Ported from the prototype's BEAM_CONFIG. One knob — the preset — sets both the
+   beam's overall intensity (a CSS variable multiplying its opacity) and the
+   number of dust motes, so a quieter beam also has quieter dust. Matěj locked
+   the 60% preset after comparing intensities side by side. */
+const BEAM_PRESETS = {
+  full:    { intensity: 1.00, motes: 26 },
+  medium:  { intensity: 0.70, motes: 20 },
+  sixty:   { intensity: 0.60, motes: 18 },   // ← locked default
+  low:     { intensity: 0.45, motes: 14 },
+  minimal: { intensity: 0.25, motes: 8 },
+};
+
+function setBeamPreset(name) {
+  const preset = BEAM_PRESETS[name];
+  if (!preset) return;
+  document.documentElement.style.setProperty('--beam-intensity', preset.intensity);
+  buildMotes(preset.motes);
+}
+
+/* Dust drifting down inside the cone. Each mote is randomised in size, position
+   (constrained to the cone, which widens with depth), fall distance, sway and
+   speed, with ~30% warm-toned to match the warm rays. Seeded, so the field
+   looks the same on every load. */
+function buildMotes(count) {
+  const field = $('motefield');
+  if (!field) return;
+  field.innerHTML = '';
+
+  let seed = 42;
+  const rnd = () => { seed = (seed * 9301 + 49297) % 233280; return seed / 233280; };
+  const H = 480, maxHalf = 190;   // field height, cone half-width at the bottom
+
+  const fragment = document.createDocumentFragment();
+  for (let i = 0; i < count; i++) {
+    const mote = document.createElement('div');
+    mote.className = 'mote' + (rnd() < 0.3 ? ' warm' : '');
+
+    const t = 0.08 + rnd() * 0.84;          // depth down the cone (0 = top)
+    const half = 14 + t * maxHalf;          // cone widens with depth
+    const x = 215 + (rnd() * 2 - 1) * half;  // field is 430 wide, centred at 215
+    const y = t * H;
+    const size = 1 + rnd() * 2.5;
+
+    mote.style.left = x.toFixed(0) + 'px';
+    mote.style.top = y.toFixed(0) + 'px';
+    mote.style.width = mote.style.height = size.toFixed(1) + 'px';
+    mote.style.setProperty('--mo', (0.25 + rnd() * 0.5).toFixed(2));      // peak opacity
+    mote.style.setProperty('--md', (60 + rnd() * 110).toFixed(0) + 'px'); // fall distance
+    mote.style.setProperty('--mx', ((rnd() * 2 - 1) * 24).toFixed(0) + 'px'); // sway
+    mote.style.animationDuration = (7 + rnd() * 9).toFixed(1) + 's';
+    mote.style.animationDelay = (-rnd() * 14).toFixed(1) + 's';           // desync loops
+    fragment.appendChild(mote);
+  }
+  field.appendChild(fragment);
+}
+
+/* ---------- service worker ---------- */
+
+function registerServiceWorker() {
+  if (!('serviceWorker' in navigator)) return;
+  /* Only meaningful over http(s); opening index.html straight off disk skips it. */
+  if (location.protocol === 'file:') return;
+
+  /* Never register on localhost. A service worker caching the shell during
+     development means edits silently don't appear, which costs far more time
+     than offline support is worth on a machine that is serving the files. */
+  const isLocal = ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname);
+  if (isLocal) {
+    /* Clear out any worker registered by an earlier visit. */
+    navigator.serviceWorker.getRegistrations()
+      .then(list => list.forEach(r => r.unregister()))
+      .catch(() => {});
+    return;
+  }
+  navigator.serviceWorker.register('./sw.js').catch(() => {
+    /* Offline support is a bonus, not a requirement — never block the app. */
+  });
+}
+
+boot();

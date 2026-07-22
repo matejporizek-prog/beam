@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Beam">
+  <rect width="512" height="512" rx="112" fill="#0C0E11"/>
+  <!-- the cone mark: projector aperture throwing a beam -->
+  <g transform="translate(256 256) scale(6.4) translate(-30 -30)">
+    <circle cx="17" cy="30" r="5" fill="#E7C98A"/>
+    <path d="M20 26 L50 15 L50 45 L20 34 Z" fill="#8A7645" opacity=".5"/>
+    <path d="M20 27.5 L50 18 L50 42 L20 32.5 Z" fill="#E7C98A" opacity=".92"/>
+  </g>
+</svg>

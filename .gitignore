@@ -1,0 +1,22 @@
+# --- secrets (never commit) ---
+.env
+
+# --- python ---
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# --- local editor / tooling config ---
+.claude/
+
+# --- personal working files, kept out of the public repo ---
+# Design/planning notes and the standalone prototype. Not secret, but personal
+# (career context, brainstorming). Remove a line here if you decide to publish
+# it as part of the portfolio story.
+*brainstorm*.md
+beam-build-brief.md
+app-shell-cool.html
+app-shell-cool-update.html
+sample-screenings-clean.json

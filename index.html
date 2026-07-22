@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!--
+  Landing redirect. The app is served from /app/ and its data from /data/
+  (kept separate per the project architecture), so the bare domain just forwards
+  to the app. Portable across any static host — no host-specific config needed.
+-->
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="refresh" content="0; url=./app/">
+<title>Beam</title>
+<script>location.replace('./app/');</script>
+</head>
+<body style="background:#0C0E11;color:#9BA5B0;font-family:system-ui,sans-serif;text-align:center;padding-top:20vh">
+  <p>Přesměrování na <a href="./app/" style="color:#E7C98A">Beam</a>…</p>
+</body>
+</html>
