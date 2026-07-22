@@ -1,0 +1,19 @@
+# Cloudflare deployment config.
+#
+# Beam is a purely static site — there is no server-side code. This declares an
+# "assets-only" Worker: Cloudflare just serves the files in this repo, with no
+# build step and no Worker script to run.
+#
+# The served layout is the project's own layout:
+#   /            -> index.html, which redirects to /app/
+#   /app/        -> the PWA
+#   /data/*.json -> the generated screening + film data the app reads
+#
+# Files that aren't part of the website (the Python pipeline, tests, docs) are
+# excluded via .assetsignore next to this file.
+
+name = "beam"
+compatibility_date = "2026-01-01"
+
+[assets]
+directory = "./"

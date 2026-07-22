@@ -1,0 +1,22 @@
+# Files in this repo that are NOT part of the website, so Cloudflare doesn't
+# publish them. The data pipeline, tests and docs live in the repo (it's a
+# public portfolio project) but nothing should serve them over HTTP.
+#
+# Careful: do NOT exclude *.json — data/screenings.json and data/films.json are
+# exactly what the app fetches at runtime.
+
+.github/
+scrapers/
+resolve/
+tests/
+
+*.py
+*.md
+*.txt
+*.ini
+
+.gitattributes
+.gitignore
+.env.example
+wrangler.toml
+.assetsignore
