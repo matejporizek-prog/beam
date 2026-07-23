@@ -8,12 +8,12 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=4';
-import { store } from './store.js?v=4';
+import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=5';
+import { store } from './store.js?v=5';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderProfile,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=4';
+} from './screens.js?v=5';
 
 /* ---------- app state ---------- */
 
@@ -353,12 +353,13 @@ function buildBeam() {
   const ctx = canvas.getContext('2d');
 
   /* Whether this browser's canvas can actually blur. Older iOS Safari has no
-     working CanvasRenderingContext2D.filter, so the ray sprites come out
-     hard-edged — which is why the beam looked like flat cartoon rays on mobile
-     rather than soft haze. When it doesn't work, we skip the (no-op) canvas
-     blur and let CSS blur the whole canvas instead (see .no-canvas-blur). */
+     working CanvasRenderingContext2D.filter, so the rays would come out
+     hard-edged — the flat "cartoon" look on mobile. When it can't blur, the ray
+     sprites are given soft edges another way (a gradient mask, see
+     renderRaySprite). Crucially the softening is always baked into the sprite
+     bitmap, never applied as a live CSS filter on the on-screen canvas — a
+     filter on that fixed, scroll-overlapping layer badly janks iOS scrolling. */
   const blurWorks = canvasBlurWorks();
-  canvas.classList.toggle('no-canvas-blur', !blurWorks);
 
   const N = 40, spread = 170;
   let seed = 7;
@@ -396,18 +397,30 @@ function buildBeam() {
      show a blank beam until it happened to gain focus. */
   drawBeam(performance.now(), reduce);
   if (reduce) return;
+  startBeamLoop();
+}
 
-  /* Cap the redraw to ~30fps. The shimmer periods are several seconds long, so
-     30fps looks identical to 60 — but it halves the beam's per-frame main-thread
-     work, which is what was making the first touch of a scroll feel sticky on
-     mobile (the rAF loop was competing with scroll for the main thread). */
-  const FRAME_MS = 33;
-  let lastDraw = 0;
+/* The animation loop, capped to ~30fps. The shimmer periods are several seconds
+   long, so 30fps looks identical to 60 while halving the main-thread cost. It's
+   a named start/stop pair so scrolling can pause it (see below) — a rAF loop
+   redrawing the canvas is exactly the kind of main-thread work that makes the
+   first touch of a scroll feel unresponsive on mobile. */
+let beamLastDraw = 0;
+const BEAM_FRAME_MS = 33;
+
+function startBeamLoop() {
+  if (beamRAF || !beamState) return;
+  if (document.hidden) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   const loop = now => {
-    if (now - lastDraw >= FRAME_MS) { drawBeam(now, false); lastDraw = now; }
+    if (now - beamLastDraw >= BEAM_FRAME_MS) { drawBeam(now, false); beamLastDraw = now; }
     beamRAF = requestAnimationFrame(loop);
   };
   beamRAF = requestAnimationFrame(loop);
+}
+
+function stopBeamLoop() {
+  if (beamRAF) { cancelAnimationFrame(beamRAF); beamRAF = null; }
 }
 
 /* Does this browser's 2D canvas actually apply a blur filter? */
@@ -450,6 +463,22 @@ function renderRaySprite(w, len, blur, warm, dpr, useFilter) {
 
   sctx.fillStyle = gradient;
   sctx.fillRect(pad, pad, w, len);
+
+  /* When the canvas can't blur, taper the ray's left and right edges to
+     transparent with a horizontal alpha mask. That turns the hard-edged
+     rectangle into a soft streak — the same "haze not cartoon" result as a
+     blur, but baked into the bitmap here (no live filter, so no scroll cost). */
+  if (!useFilter) {
+    sctx.globalCompositeOperation = 'destination-in';
+    const edge = sctx.createLinearGradient(pad, 0, pad + w, 0);
+    edge.addColorStop(0, 'rgba(0,0,0,0)');
+    edge.addColorStop(0.5, 'rgba(0,0,0,1)');
+    edge.addColorStop(1, 'rgba(0,0,0,0)');
+    sctx.fillStyle = edge;
+    sctx.fillRect(pad, pad, w, len);
+    sctx.globalCompositeOperation = 'source-over';
+  }
+
   return { canvas: sprite, sw, sh, pad };
 }
 
@@ -492,14 +521,23 @@ function watchBeamResize() {
   /* Stop the loop while the tab is hidden; no point animating a beam nobody can
      see, and it keeps the battery honest. */
   document.addEventListener('visibilitychange', () => {
-    if (document.hidden) {
-      if (beamRAF) { cancelAnimationFrame(beamRAF); beamRAF = null; }
-    } else if (!beamRAF && beamState &&
-               !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      const loop = now => { drawBeam(now, false); beamRAF = requestAnimationFrame(loop); };
-      beamRAF = requestAnimationFrame(loop);
-    }
+    if (document.hidden) stopBeamLoop();
+    else startBeamLoop();
   });
+
+  /* Pause the beam the instant a scroll gesture begins, and for a moment after
+     it settles. During the gesture the main thread is left entirely free, so
+     the scroll starts on the first touch instead of feeling frozen. The beam
+     resumes shimmering once scrolling stops. */
+  let beamResumeTimer = null;
+  const pauseBeamForScroll = () => {
+    stopBeamLoop();
+    clearTimeout(beamResumeTimer);
+    beamResumeTimer = setTimeout(startBeamLoop, 300);
+  };
+  window.addEventListener('scroll', pauseBeamForScroll, { passive: true });
+  window.addEventListener('touchstart', pauseBeamForScroll, { passive: true });
+  window.addEventListener('touchmove', pauseBeamForScroll, { passive: true });
 }
 
 /* ---------- beam presets + dust ----------

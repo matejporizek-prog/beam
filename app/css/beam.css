@@ -76,15 +76,17 @@ body {
   width: 100%; height: 640px; z-index: 3; pointer-events: none;
   mix-blend-mode: screen;
 }
-/* Fallback for browsers whose canvas can't blur (older iOS Safari): the rays
-   are drawn hard-edged, so blur the whole canvas in CSS instead. This is what
-   turns the flat "cartoon rays" look back into soft haze on those devices. */
-.beam-canvas.no-canvas-blur { filter: blur(3.5px); }
-/* A touch of extra softening on phones/tablets generally, so the beam reads as
-   atmospheric haze at arm's length rather than distinct streaks. */
+/* On touch devices, drop the screen blend from the beam's fixed layers. A
+   mix-blend-mode on a position:fixed element that overlaps the scrolling
+   content forces the compositor to re-blend that whole region every frame — a
+   major cause of the "frozen, takes several tries" scrolling on iOS. The beam
+   is drawn additively onto a transparent canvas, so over the dark background it
+   still reads bright with ordinary compositing. (Desktop keeps the screen
+   blend, where it costs nothing.) Deliberately no CSS filter on the canvas
+   either — that janks scroll the same way; ray softness is baked into the
+   sprites in JS instead. */
 @media (pointer: coarse) {
-  .beam-canvas { filter: blur(1px); }
-  .beam-canvas.no-canvas-blur { filter: blur(3.5px); }
+  .beam-canvas, .beam-core, .beam-haze, .beam-origin { mix-blend-mode: normal; }
 }
 .beam-core {
   position: absolute; top: -6px; left: 50%; transform: translateX(-50%);
