@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T23:04:01+02:00",
+  "generated_at": "2026-07-23T19:06:46+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -227,6 +227,49 @@
       "age_rating": "U",
       "tmdb_id": 15370,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1lovstv%C3%AD+ko%C4%8Dek+2002",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "lisak a zajda zachranuji les",
+      "title_cz": "Lišák a Zajda zachraňují les",
+      "title_en": "Fox and Hare Save the Forest",
+      "original_title": "Fox and Hare Save the Forest",
+      "year": 2024,
+      "synopsis": "Nadešel velký den! Karel Bobrý, největší stavitel mezi bobry, slavnostně otevírá své mistrovské dílo – obrovskou přehradu, kterou postavil se svými krysími pomocníky. Zatímco bobr sní o obdivu a slávě, Lišák a Zajda pořádají večírek se svými zvířecími přáteli. Ráno ale zjistí, že zmizel jejich kamarád Výr a jejich milovaný les se pomalu zaplavuje vodou. Je za tím Karel a jeho přehrada? Lišák a Zajda se vydávají na dobrodružnou cestu plnou humoru a napětí, aby zachránili Výra i svůj domov.",
+      "synopsis_language": "cs",
+      "runtime_min": 72,
+      "genres": [
+        "Animovaný",
+        "Dobrodružný",
+        "Rodinný"
+      ],
+      "director": [
+        "Mascha Halberstad"
+      ],
+      "screenwriter": [
+        "Fabie van Hulsebos"
+      ],
+      "cast": [
+        "Alex Klaasen",
+        "Remko Vrijdag",
+        "Sigrid ten Napel",
+        "Ilse Warringa",
+        "Robrecht Vanden Thoren"
+      ],
+      "production_company": [
+        "Submarine",
+        "Doghouse Films",
+        "Walking The Dog"
+      ],
+      "poster_path": "/rZQ93JZ1VzKdch2sY1DbccQN8WR.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2024/12/19/5980068ffc0d54bec852503f61a613c3.jpg",
+      "backdrop_path": "/4sHXKmoUZan9oGFFHSUADGVza6p.jpg",
+      "trailer_youtube_key": "JaOch6z9TZw",
+      "age_rating": "U",
+      "tmdb_id": 1061785,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Li%C5%A1%C3%A1k+a+Zajda+zachra%C5%88uj%C3%AD+les+2024",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
@@ -576,6 +619,47 @@
       "match_score": 1.15
     },
     {
+      "film_id": "padle ovoce",
+      "title_cz": "Padlé ovoce",
+      "title_en": "Fruit Gathering",
+      "original_title": "သစ်သီးခူး",
+      "year": 2026,
+      "synopsis": "Realita současného Myanmaru může v očích dvou mladých žen vypadat tíživě. Uprostřed textilní továrny průmyslového Rangúnu čelí pracovnímu vyčerpání, sociálnímu útlaku i ekonomické nejistotě. Drsný rytmus všedních dní ubíjí možnosti mezilidského spojení, i tak ale obě ženy nepřestávají snít o nalezení intimity a úniku. Když se sobě navzájem přiblíží, rozvibrují dosud umlčované předivo vlastních emocí. Dlouho očekávaný debut režiséra Aung Phyoe se rozvíjí v odstínech ticha, drobných gest a nevyřčených přání. V podmanivém rytmu mezi něhou a surovostí pak přemýšlí o tom, jak přežívají ženské touhy v zemi, kde blízkost i láska mezi ženami zůstávají společensky nepřijatelné. (MFF Karlovy Vary)",
+      "synopsis_language": "cs",
+      "runtime_min": 97,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Aung Phyoe"
+      ],
+      "screenwriter": [
+        "Aung Phyoe"
+      ],
+      "cast": [
+        "Nandar Myat Aung",
+        "Nandar Myint Lwin",
+        "Thida Soe Khant",
+        "Tin Tin Ei",
+        "Min Nyo"
+      ],
+      "production_company": [
+        "D1film",
+        "Art_Production",
+        "Third Floor Film Production"
+      ],
+      "poster_path": "/b7cbepSZByPE0LSZPL4eB84ZZRR.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/07/12/acb51c90a49367cf92c7cbcedbd1b69a.jpg",
+      "backdrop_path": "/sYyH3D2meo3EypkFFaREsqRYKRt.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1615283,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Padl%C3%A9+ovoce+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
       "film_id": "padli andele",
       "title_cz": "Padlí andělé",
       "title_en": "Fallen Angels",
@@ -615,6 +699,50 @@
       "age_rating": "12+",
       "tmdb_id": 11220,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Padl%C3%AD+and%C4%9Bl%C3%A9+1995",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "po vecerce",
+      "title_cz": "Po večerce",
+      "title_en": "Po večerce",
+      "original_title": "Po večerce",
+      "year": 2026,
+      "synopsis": "Kráťa, manažer na pokraji úplného vyhoření, kývne na prosbu svého nemocného táty Miloše a rozhodne se místo něj ujmout vedení zchátralého letního dětského tábora, kam kdysi jezdil jako dítě. Ihned po příjezdu se Kráťa dostává do konfliktu s kolektivem pracovníků tábora, v čele s Cyrilem, který si na funkci léta brousí zuby. Situace ale opravdu vygraduje až příjezdem kontroly z hygieny, kde pracuje dávná Kráťova láska z tábora Anežka Svobodová, která dnes žije s jeho dřívějším úhlavním rivalem, nyní mocným místním podnikatelem Karlem. A aby se situace ještě víc zkomplikovala, ukazuje se, že Karel má s místem, kde se tábor nachází, zcela jiné úmysly...",
+      "synopsis_language": "cs",
+      "runtime_min": 107,
+      "genres": [
+        "Romantický",
+        "Rodinný",
+        "Komedie"
+      ],
+      "director": [
+        "Dan Pánek"
+      ],
+      "screenwriter": [
+        "Dan Pánek"
+      ],
+      "cast": [
+        "Vladimír Polívka",
+        "Eva Podzimková",
+        "Václav Neužil",
+        "Ondřej Pavelka",
+        "Dana Batulková",
+        "Maxmilián Dolanský",
+        "Stanislav Majer",
+        "Hana Vagnerová"
+      ],
+      "production_company": [
+        "DonArt production"
+      ],
+      "poster_path": "/upIeNzkfKiNSu9BwTVSrSgzN7NI.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/29/ebc87d7c4d1f79ad058a68850733d8ca.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 1525441,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Po+ve%C4%8Derce+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
@@ -788,6 +916,55 @@
       "age_rating": "NR (US)",
       "tmdb_id": 18329,
       "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%A0%C5%A5astni+spolu+1997",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "tonda slavka a kouzelne svetlo",
+      "title_cz": "Tonda, Slávka a kouzelné světlo",
+      "title_en": "Tony, Shelly and the Magic Light",
+      "original_title": "Tonda, Slávka a kouzelné světlo",
+      "year": 2023,
+      "synopsis": "Jedenáctiletý Tonda má jedinečnou vlastnost - od narození svítí. Jeho možná až přespříliš starostliví rodiče se ho snaží držet doma, aby jej ochránili před vnějším světem. To se změní ve chvíli, kdy se před vánočními svátky do jednoho ze sousedních bytů nastěhuje Slávka, tajemná dívka, která mu obrátí svět naruby. Tonda v ní získává první opravdovou kamarádku, před kterou může odhalit fantazijní svět ve svém polštářovém bunkru. Slávka zase Tondovi ukáže zázračnou baterku. Ta svým světlem dokáže z obyčejných věcí vytvářet úžasné obrázky a kouzelné světy, které vidí pouze oni. Tím začíná jejich dobrodružné pátrání po původu záhadných chomáčků tmy, které vysávají z jejich domu sluneční světlo. Tonda, Slávka a kouzelné světlo je film o tom, jaké je to být jiný, příběhem o přátelství a fantazii, o světle a tmě.",
+      "synopsis_language": "cs",
+      "runtime_min": 82,
+      "genres": [
+        "Animovaný",
+        "Rodinný",
+        "Fantasy"
+      ],
+      "director": [
+        "Filip Pošivač"
+      ],
+      "screenwriter": [
+        "Jana Šrámková"
+      ],
+      "cast": [
+        "Michael Polák",
+        "Antonie Baresová",
+        "Ivana Uhlířová",
+        "Matěj Hádek",
+        "Jana Plodková",
+        "Pavel Nový",
+        "Jaroslav Plesl",
+        "Sabina Remundová"
+      ],
+      "production_company": [
+        "Nutprodukcia",
+        "Nutprodukce",
+        "Filmfabriq",
+        "Česká televize",
+        "RTVS",
+        "Kouzelná animace"
+      ],
+      "poster_path": "/hHsRGD1jVKEqM8OBDEvbNKQ2xhL.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2023/09/26/1ede1eccf6b95c4ac66ec6a1906c9039.jpg",
+      "backdrop_path": "/rFdlSLjaf6qrGChWr9gje6eTcbf.jpg",
+      "trailer_youtube_key": "DIPOV1LU91s",
+      "age_rating": "U",
+      "tmdb_id": 947650,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Tonda%2C+Sl%C3%A1vka+a+kouzeln%C3%A9+sv%C4%9Btlo+2023",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15

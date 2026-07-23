@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T21:55:49+02:00",
+  "generated_at": "2026-07-23T19:06:43+00:00",
   "cinemas": [
     {
       "name": "Kino Aero",
@@ -7,143 +7,6 @@
     }
   ],
   "screenings": [
-    {
-      "cinema": "Kino Aero",
-      "title_cz": "Odyssea",
-      "date": "2026-07-21",
-      "time": "20:00",
-      "language": "angličtina",
-      "format": "35 mm",
-      "note": "35 mm",
-      "english_friendly": true,
-      "language_version": "",
-      "strand": "",
-      "hall": "Kinosál",
-      "tags": [
-        "ENG",
-        "35 mm"
-      ],
-      "booking_url": "https://kinoaero.cz/?projection=51863",
-      "poster_url": "https://kinoaero.cz/uploads/images/movies/2026/06/15/22814c5eff3bfe06bd6a84cb1edef97a.jpg",
-      "director": "Christopher Nolan",
-      "runtime_min": 172,
-      "source_id": "51863",
-      "film_id": "odyssea"
-    },
-    {
-      "cinema": "Kino Aero",
-      "title_cz": "Království koček",
-      "date": "2026-07-22",
-      "time": "16:00",
-      "language": "čeština",
-      "format": "",
-      "note": "Malé oči",
-      "english_friendly": false,
-      "language_version": "dabing",
-      "strand": "Malé oči",
-      "hall": "Kinosál",
-      "tags": [
-        "Malé oči",
-        "Dabing"
-      ],
-      "booking_url": "https://kinoaero.cz/?projection=52199",
-      "poster_url": "https://kinoaero.cz/uploads/images/movies/2024/03/07/afd0ea8c3bf10d8f5fc9ef55f45e08cc.jpg",
-      "director": "Hirojuki Morita",
-      "runtime_min": 75,
-      "source_id": "52199",
-      "film_id": "kralovstvi kocek"
-    },
-    {
-      "cinema": "Kino Aero",
-      "title_cz": "Padlí andělé",
-      "date": "2026-07-22",
-      "time": "18:00",
-      "language": "kantonština, čínština",
-      "format": "",
-      "note": "Legendy",
-      "english_friendly": false,
-      "language_version": "",
-      "strand": "Legendy",
-      "hall": "Kinosál",
-      "tags": [
-        "Legendy"
-      ],
-      "booking_url": "https://kinoaero.cz/?projection=52202",
-      "poster_url": "https://kinoaero.cz/uploads/images/movies/2024/11/18/4ee0b66db4347c32733c9b38049d2c8a.jpg",
-      "director": "Wong Kar-Wai",
-      "runtime_min": 99,
-      "source_id": "52202",
-      "film_id": "padli andele"
-    },
-    {
-      "cinema": "Kino Aero",
-      "title_cz": "Deník princezny",
-      "date": "2026-07-22",
-      "time": "20:30",
-      "language": "angličtina",
-      "format": "",
-      "note": "(re)fresh",
-      "english_friendly": true,
-      "language_version": "",
-      "strand": "(re)fresh",
-      "hall": "Kinosál",
-      "tags": [
-        "ENG",
-        "(re)fresh"
-      ],
-      "booking_url": "https://kinoaero.cz/?projection=50298",
-      "poster_url": "https://kinoaero.cz/uploads/images/movies/2026/05/30/aa6f404335acb8ace1f341b9c3644fef.jpg",
-      "director": "Garry Marshall",
-      "runtime_min": 114,
-      "source_id": "50298",
-      "film_id": "denik princezny"
-    },
-    {
-      "cinema": "Kino Aero",
-      "title_cz": "Den odhalení",
-      "date": "2026-07-23",
-      "time": "13:30",
-      "language": "angličtina",
-      "format": "",
-      "note": "Bio Senior",
-      "english_friendly": true,
-      "language_version": "",
-      "strand": "Bio Senior",
-      "hall": "Kinosál",
-      "tags": [
-        "ENG",
-        "Bio Senior"
-      ],
-      "booking_url": "https://kinoaero.cz/?projection=51303",
-      "poster_url": "https://kinoaero.cz/uploads/images/movies/2026/04/24/f7b99ab08a2554ea5e2704691a571cd3.jpg",
-      "director": "Steven Spielberg",
-      "runtime_min": 145,
-      "source_id": "51303",
-      "film_id": "den odhaleni"
-    },
-    {
-      "cinema": "Kino Aero",
-      "title_cz": "Andělské vejce",
-      "date": "2026-07-23",
-      "time": "18:00",
-      "language": "japonština",
-      "format": "",
-      "note": "Mistři animace",
-      "english_friendly": true,
-      "language_version": "",
-      "strand": "Mistři animace",
-      "hall": "Kinosál",
-      "tags": [
-        "ENG",
-        "Mistři animace"
-      ],
-      "booking_url": "https://kinoaero.cz/?projection=50684",
-      "poster_url": "https://kinoaero.cz/uploads/images/movies/2025/09/12/6edd1134ddcf0fcae600d3dfb1dfc92e.jpg",
-      "director": "Mamoru Ošii",
-      "runtime_min": 71,
-      "source_id": "50684",
-      "film_id": "andelske vejce"
-    },
     {
       "cinema": "Kino Aero",
       "title_cz": "Odyssea",
@@ -480,6 +343,162 @@
       "runtime_min": 180,
       "source_id": "48732",
       "film_id": "nebezpecne znamosti"
+    },
+    {
+      "cinema": "Kino Aero",
+      "title_cz": "Tonda, Slávka a kouzelné světlo",
+      "date": "2026-07-29",
+      "time": "16:00",
+      "language": "čeština",
+      "format": "",
+      "note": "Malé oči",
+      "english_friendly": false,
+      "language_version": "",
+      "strand": "Malé oči",
+      "hall": "Kinosál",
+      "tags": [
+        "Malé oči"
+      ],
+      "booking_url": "https://kinoaero.cz/?projection=52566",
+      "poster_url": "https://kinoaero.cz/uploads/images/movies/2023/09/26/1ede1eccf6b95c4ac66ec6a1906c9039.jpg",
+      "director": "Filip Pošivač",
+      "runtime_min": 82,
+      "source_id": "52566",
+      "film_id": "tonda slavka a kouzelne svetlo"
+    },
+    {
+      "cinema": "Kino Aero",
+      "title_cz": "Padlé ovoce",
+      "date": "2026-07-29",
+      "time": "18:00",
+      "language": "my",
+      "format": "",
+      "note": "english friendly",
+      "english_friendly": true,
+      "language_version": "",
+      "strand": "",
+      "hall": "Kinosál",
+      "tags": [
+        "ENG"
+      ],
+      "booking_url": "https://kinoaero.cz/?projection=52573",
+      "poster_url": "https://kinoaero.cz/uploads/images/movies/2026/07/12/acb51c90a49367cf92c7cbcedbd1b69a.jpg",
+      "director": "Aung Phyoe",
+      "runtime_min": 97,
+      "source_id": "52573",
+      "film_id": "padle ovoce"
+    },
+    {
+      "cinema": "Kino Aero",
+      "title_cz": "Odyssea",
+      "date": "2026-07-29",
+      "time": "20:15",
+      "language": "angličtina",
+      "format": "35 mm",
+      "note": "35 mm",
+      "english_friendly": true,
+      "language_version": "",
+      "strand": "",
+      "hall": "Kinosál",
+      "tags": [
+        "ENG",
+        "35 mm"
+      ],
+      "booking_url": "https://kinoaero.cz/?projection=51867",
+      "poster_url": "https://kinoaero.cz/uploads/images/movies/2026/06/15/22814c5eff3bfe06bd6a84cb1edef97a.jpg",
+      "director": "Christopher Nolan",
+      "runtime_min": 172,
+      "source_id": "51867",
+      "film_id": "odyssea"
+    },
+    {
+      "cinema": "Kino Aero",
+      "title_cz": "Po večerce",
+      "date": "2026-07-30",
+      "time": "13:30",
+      "language": "čeština",
+      "format": "",
+      "note": "Bio Senior",
+      "english_friendly": false,
+      "language_version": "",
+      "strand": "Bio Senior",
+      "hall": "Kinosál",
+      "tags": [
+        "Bio Senior"
+      ],
+      "booking_url": "https://kinoaero.cz/?projection=51306",
+      "poster_url": "https://kinoaero.cz/uploads/images/movies/2026/05/29/ebc87d7c4d1f79ad058a68850733d8ca.jpg",
+      "director": "Dan Pánek",
+      "runtime_min": 107,
+      "source_id": "51306",
+      "film_id": "po vecerce"
+    },
+    {
+      "cinema": "Kino Aero",
+      "title_cz": "Lišák a Zajda zachraňují les",
+      "date": "2026-07-30",
+      "time": "16:00",
+      "language": "čeština",
+      "format": "",
+      "note": "Malé oči",
+      "english_friendly": false,
+      "language_version": "",
+      "strand": "Malé oči",
+      "hall": "Kinosál",
+      "tags": [
+        "Malé oči"
+      ],
+      "booking_url": "https://kinoaero.cz/?projection=52679",
+      "poster_url": "https://kinoaero.cz/uploads/images/movies/2024/12/19/5980068ffc0d54bec852503f61a613c3.jpg",
+      "director": "Mascha Halberstad",
+      "runtime_min": 71,
+      "source_id": "52679",
+      "film_id": "lisak a zajda zachranuji les"
+    },
+    {
+      "cinema": "Kino Aero",
+      "title_cz": "Pozvání",
+      "date": "2026-07-30",
+      "time": "18:00",
+      "language": "angličtina",
+      "format": "",
+      "note": "english friendly",
+      "english_friendly": true,
+      "language_version": "",
+      "strand": "",
+      "hall": "Kinosál",
+      "tags": [
+        "ENG"
+      ],
+      "booking_url": "https://kinoaero.cz/?projection=52680",
+      "poster_url": "https://kinoaero.cz/uploads/images/movies/2026/05/29/d43411793b0b50b0a2c99c70a949f5d9.jpg",
+      "director": "Olivia Wilde",
+      "runtime_min": 108,
+      "source_id": "52680",
+      "film_id": "pozvani"
+    },
+    {
+      "cinema": "Kino Aero",
+      "title_cz": "Odyssea",
+      "date": "2026-07-30",
+      "time": "20:15",
+      "language": "angličtina",
+      "format": "35 mm",
+      "note": "35 mm",
+      "english_friendly": true,
+      "language_version": "",
+      "strand": "",
+      "hall": "Kinosál",
+      "tags": [
+        "ENG",
+        "35 mm"
+      ],
+      "booking_url": "https://kinoaero.cz/?projection=51868",
+      "poster_url": "https://kinoaero.cz/uploads/images/movies/2026/06/15/22814c5eff3bfe06bd6a84cb1edef97a.jpg",
+      "director": "Christopher Nolan",
+      "runtime_min": 172,
+      "source_id": "51868",
+      "film_id": "odyssea"
     }
   ]
 }
