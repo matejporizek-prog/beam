@@ -21,20 +21,23 @@
    ========================================================================== */
 
 /* Bump this to force clients onto new shell files. */
-const VERSION = 'beam-v1';
+const VERSION = 'beam-v2';
 const SHELL_CACHE = `${VERSION}-shell`;
 const DATA_CACHE = `${VERSION}-data`;
 const IMAGE_CACHE = `${VERSION}-img`;
 
+/* Versioned to match the ?v= query the page actually requests, so these
+   precache entries are the same cache keys the app asks for. Bump the ?v here
+   together with index.html and the js/ imports when shipping changed assets. */
 const SHELL_FILES = [
   './',
   './index.html',
-  './css/beam.css',
-  './js/app.js',
-  './js/data.js',
-  './js/format.js',
-  './js/screens.js',
-  './js/store.js',
+  './css/beam.css?v=4',
+  './js/app.js?v=4',
+  './js/data.js?v=4',
+  './js/format.js?v=4',
+  './js/screens.js?v=4',
+  './js/store.js?v=4',
   './manifest.webmanifest',
   './icons/icon.svg',
 ];
@@ -67,6 +70,17 @@ self.addEventListener('fetch', event => {
 
   const url = new URL(request.url);
 
+  /* Page navigations get their own path. fetch() follows the /app/ redirect, so
+     the response comes back with response.redirected === true — and Safari
+     refuses to display a navigation whose service-worker response was
+     redirected ("Response served by service worker has redirections"), which is
+     what blocked the app on first open. handleNavigate rebuilds the response to
+     clear that flag. */
+  if (request.mode === 'navigate') {
+    event.respondWith(handleNavigate(request));
+    return;
+  }
+
   /* TMDb posters and YouTube thumbnails — cache-first, they're immutable. */
   if (url.hostname === 'image.tmdb.org' || url.hostname === 'i.ytimg.com') {
     event.respondWith(cacheFirst(request, IMAGE_CACHE));
@@ -93,6 +107,34 @@ self.addEventListener('fetch', event => {
     event.respondWith(staleWhileRevalidate(request, SHELL_CACHE));
   }
 });
+
+/* Navigations: network-first for fresh HTML, cached index.html when offline —
+   and always returned with the redirect flag cleared. */
+async function handleNavigate(request) {
+  try {
+    const fresh = await fetch(request);
+    return cleanRedirect(fresh);
+  } catch (error) {
+    const cached =
+      (await caches.match('./index.html', { ignoreSearch: true })) ||
+      (await caches.match('./')) ||
+      (await caches.match(request));
+    return cached ? cleanRedirect(cached) : Response.error();
+  }
+}
+
+/* A Response can't be handed to a navigation if response.redirected is true.
+   Rebuilding it from its own body produces an identical response without that
+   flag. No-op for responses that weren't redirected. */
+async function cleanRedirect(response) {
+  if (!response || !response.redirected) return response;
+  const body = await response.blob();
+  return new Response(body, {
+    status: response.status,
+    statusText: response.statusText,
+    headers: response.headers,
+  });
+}
 
 async function cacheFirst(request, cacheName) {
   const cached = await caches.match(request);

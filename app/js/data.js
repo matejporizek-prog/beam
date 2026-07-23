@@ -51,7 +51,15 @@ export async function loadData() {
   state.films = new Map();
   for (const film of filmsData.films || []) state.films.set(film.film_id, film);
 
-  state.dates = [...new Set(state.screenings.map(s => s.date))].sort();
+  /* The day strip shows today and the days ahead — a day that has fully passed
+     drops off. (Past *screenings* on today itself still show, dimmed; only whole
+     past days disappear.) If the data somehow contains only past days — e.g. a
+     stale offline copy — fall back to showing all of them rather than an empty
+     strip. */
+  const allDates = [...new Set(state.screenings.map(s => s.date))].sort();
+  const today = todayISO();
+  const upcoming = allDates.filter(d => d >= today);
+  state.dates = upcoming.length ? upcoming : allDates;
   return state;
 }
 

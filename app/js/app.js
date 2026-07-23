@@ -8,12 +8,12 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=3';
-import { store } from './store.js?v=3';
+import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=4';
+import { store } from './store.js?v=4';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderProfile,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=3';
+} from './screens.js?v=4';
 
 /* ---------- app state ---------- */
 
@@ -118,7 +118,11 @@ function wireEvents() {
     /* Any element carrying data-film opens that film's detail overlay. */
     const filmEl = event.target.closest('[data-film]');
     if (filmEl && !event.target.closest('.buy')) {
-      openDetail(filmEl.dataset.film);
+      /* A result tapped inside the search overlay needs the search closed first
+         — the search overlay sits above the detail overlay, so otherwise the
+         detail opens hidden behind it and nothing appears to happen. */
+      const fromSearch = !!event.target.closest('#search-ov');
+      openDetail(filmEl.dataset.film, fromSearch);
     }
   });
 
@@ -225,12 +229,22 @@ function closeSearch(fromPop) {
   if (!fromPop) history.back();
 }
 
-function openDetail(filmId) {
+function openDetail(filmId, fromSearch) {
   detailFilmId = fillDetail(filmId);
   const overlay = $('overlay');
   overlay.scrollTop = 0;
   overlay.classList.add('open');
-  history.pushState({ sheet: 'detail' }, '');
+
+  if (fromSearch) {
+    /* Hide the search overlay and take over its history entry, so there's no
+       stranded 'search' state and the detail isn't left behind it. */
+    $('search-ov').classList.remove('open');
+    $('search-input').value = '';
+    runSearch('', $('search-results'));
+    history.replaceState({ sheet: 'detail' }, '');
+  } else {
+    history.pushState({ sheet: 'detail' }, '');
+  }
 }
 
 function closeDetail(fromPop) {
@@ -337,6 +351,15 @@ function buildBeam() {
   canvas.height = Math.round(height * dpr);
 
   const ctx = canvas.getContext('2d');
+
+  /* Whether this browser's canvas can actually blur. Older iOS Safari has no
+     working CanvasRenderingContext2D.filter, so the ray sprites come out
+     hard-edged — which is why the beam looked like flat cartoon rays on mobile
+     rather than soft haze. When it doesn't work, we skip the (no-op) canvas
+     blur and let CSS blur the whole canvas instead (see .no-canvas-blur). */
+  const blurWorks = canvasBlurWorks();
+  canvas.classList.toggle('no-canvas-blur', !blurWorks);
+
   const N = 40, spread = 170;
   let seed = 7;
   const rnd = () => { seed = (seed * 9301 + 49297) % 233280; return seed / 233280; };
@@ -357,7 +380,7 @@ function buildBeam() {
     const phase = rnd() * Math.PI * 2;
 
     rays.push({
-      sprite: renderRaySprite(w, len, blur, warm, dpr),
+      sprite: renderRaySprite(w, len, blur, warm, dpr, blurWorks),
       angle, peak, period, phase, pad: Math.ceil(blur * 3) + 2,
     });
   }
@@ -374,12 +397,33 @@ function buildBeam() {
   drawBeam(performance.now(), reduce);
   if (reduce) return;
 
-  const loop = now => { drawBeam(now, false); beamRAF = requestAnimationFrame(loop); };
+  /* Cap the redraw to ~30fps. The shimmer periods are several seconds long, so
+     30fps looks identical to 60 — but it halves the beam's per-frame main-thread
+     work, which is what was making the first touch of a scroll feel sticky on
+     mobile (the rAF loop was competing with scroll for the main thread). */
+  const FRAME_MS = 33;
+  let lastDraw = 0;
+  const loop = now => {
+    if (now - lastDraw >= FRAME_MS) { drawBeam(now, false); lastDraw = now; }
+    beamRAF = requestAnimationFrame(loop);
+  };
   beamRAF = requestAnimationFrame(loop);
 }
 
+/* Does this browser's 2D canvas actually apply a blur filter? */
+function canvasBlurWorks() {
+  try {
+    const ctx = document.createElement('canvas').getContext('2d');
+    if (typeof ctx.filter !== 'string') return false;
+    ctx.filter = 'blur(2px)';
+    return ctx.filter === 'blur(2px)';   // unsupported browsers leave it 'none'
+  } catch {
+    return false;
+  }
+}
+
 /* Blur one ray into a standalone sprite canvas, once. */
-function renderRaySprite(w, len, blur, warm, dpr) {
+function renderRaySprite(w, len, blur, warm, dpr, useFilter) {
   const pad = Math.ceil(blur * 3) + 2;
   const sw = Math.ceil(w + pad * 2);
   const sh = Math.ceil(len + pad * 2);
@@ -390,7 +434,7 @@ function renderRaySprite(w, len, blur, warm, dpr) {
 
   const sctx = sprite.getContext('2d');
   sctx.scale(dpr, dpr);
-  if (typeof sctx.filter === 'string') sctx.filter = `blur(${blur}px)`;
+  if (useFilter) sctx.filter = `blur(${blur}px)`;
 
   const gradient = sctx.createLinearGradient(0, pad, 0, pad + len);
   if (warm) {

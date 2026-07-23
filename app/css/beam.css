@@ -76,6 +76,16 @@ body {
   width: 100%; height: 640px; z-index: 3; pointer-events: none;
   mix-blend-mode: screen;
 }
+/* Fallback for browsers whose canvas can't blur (older iOS Safari): the rays
+   are drawn hard-edged, so blur the whole canvas in CSS instead. This is what
+   turns the flat "cartoon rays" look back into soft haze on those devices. */
+.beam-canvas.no-canvas-blur { filter: blur(3.5px); }
+/* A touch of extra softening on phones/tablets generally, so the beam reads as
+   atmospheric haze at arm's length rather than distinct streaks. */
+@media (pointer: coarse) {
+  .beam-canvas { filter: blur(1px); }
+  .beam-canvas.no-canvas-blur { filter: blur(3.5px); }
+}
 .beam-core {
   position: absolute; top: -6px; left: 50%; transform: translateX(-50%);
   width: 0; height: 0;
@@ -121,6 +131,11 @@ body {
 @keyframes grainshift {
   0%{transform:translate(0,0)} 33%{transform:translate(-5%,4%)} 66%{transform:translate(4%,-3%)} 100%{transform:translate(-3%,2%)}
 }
+/* On touch devices a full-screen, blend-mode, animating overlay is a real
+   scroll-jank source — the compositor re-blends it over the moving content
+   every frame. The grain is a subtle texture, not worth that cost on mobile, so
+   drop it there. (It stays on desktop, where it's free.) */
+@media (pointer: coarse) { .grain { display: none; } }
 
 .content { position: relative; z-index: 2; padding-bottom: calc(var(--nav-h) + 24px); }
 
@@ -357,10 +372,13 @@ header.compact .brand h1 { font-size: 26px; }
   width: 100%; max-width: 430px; height: var(--nav-h); z-index: 20;
   display: flex; align-items: stretch;
   /* The film base: near-black, a touch warm, faintly uneven like aged stock. */
+  /* Fully opaque, and deliberately NO backdrop-filter: a blurred backdrop on a
+     fixed bar is one of the worst iOS scroll-jank sources (the blur is
+     recomputed against the scrolling content every frame). The base was already
+     95% opaque, so the blur bought almost nothing visually. */
   background:
     linear-gradient(180deg, rgba(20,17,14,.30), rgba(0,0,0,0) 22% 78%, rgba(20,17,14,.30)),
-    rgba(7,8,10,.95);
-  backdrop-filter: blur(16px);
+    #07080A;
   border-top: 1px solid #20262e;
   padding: 15px 7px 16px;
 }
