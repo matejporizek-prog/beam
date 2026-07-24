@@ -455,6 +455,21 @@ def resolve_all(retry_failed: bool = False, force: bool = False) -> dict:
 
 
 if __name__ == "__main__":
+    import sys
+
+    # A Windows console is often locked to a legacy codepage (cp1250 etc.) that
+    # can't represent every character a TMDb title might contain — a Latvian,
+    # Vietnamese or otherwise non-Czech film's title, say. That must never
+    # crash the run: this is print()-ing a progress message, not writing the
+    # actual data. It genuinely destroyed a correct result once — "Sirāt"
+    # resolved successfully, cache[key] was set to the right record, and then
+    # the success print for its own title crashed on 'ā'; the broad except
+    # below caught that crash and overwrote the correct record with a bogus
+    # "error" entry. Console text is only for a human to skim; replacing one
+    # unprintable character with '?' is harmless, silently losing a real
+    # resolution is not.
+    sys.stdout.reconfigure(errors="replace")
+
     parser = argparse.ArgumentParser(description="Resolve film metadata against TMDb.")
     parser.add_argument("--retry", action="store_true", help="retry previously-failed titles")
     parser.add_argument("--force", action="store_true", help="re-resolve every title from scratch")

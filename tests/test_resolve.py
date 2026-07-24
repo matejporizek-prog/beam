@@ -51,6 +51,22 @@ def test_stripping_never_returns_an_empty_title():
     assert strip_event_branding("| NT Live") == "| NT Live"
 
 
+def test_a_dash_in_a_real_title_is_never_stripped():
+    """
+    A real bug, found via Kino Pilotů's "Dalajláma - Oceán moudrosti": a plain
+    hyphen (and em/en dashes) used to be treated as event-branding separators
+    too, alongside "|". That's wrong — a dash-joined title/subtitle is a
+    completely ordinary convention, not bolted-on event branding, and it
+    silently threw away "Oceán moudrosti" before the film was ever searched
+    for. Only "|" is safe to split on; it's the one separator actually
+    observed in real event branding and essentially never appears in an
+    official title.
+    """
+    assert strip_event_branding("Dalajláma - Oceán moudrosti") == "Dalajláma - Oceán moudrosti"
+    assert strip_event_branding("Spider-Man: Zbrusu nový den") == "Spider-Man: Zbrusu nový den"
+    assert strip_event_branding("Some Title – A Subtitle") == "Some Title – A Subtitle"
+
+
 def test_the_known_typo_still_matches():
     """
     The reason fuzzy matching exists at all: the sample data contains both

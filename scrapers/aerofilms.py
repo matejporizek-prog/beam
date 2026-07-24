@@ -45,7 +45,7 @@ from __future__ import annotations
 
 import json
 import re
-from datetime import date as date_cls, datetime, timedelta
+from datetime import datetime
 from urllib.parse import urlsplit
 
 from bs4 import BeautifulSoup
@@ -54,6 +54,7 @@ from .base import (
     Screening,
     classify_tags,
     clean_text,
+    empty_dates_in_range,
     fetch,
     language_name,
     parse_iso_duration,
@@ -100,7 +101,7 @@ def scrape(cinema: str, program_url: str, html: str | None = None) -> dict:
         # Days the page listed but which held no screenings at all. This is how a
         # quiet day stays distinguishable from a day we simply never looked at —
         # and it is the same signal a closed cinema (Ponrepo) will produce.
-        "empty_dates": _empty_dates(covered_dates, screenings),
+        "empty_dates": empty_dates_in_range(covered_dates, {s.date for s in screenings}),
         "screenings": [s.to_dict() for s in screenings],
     }
 
@@ -267,28 +268,3 @@ def _parse_day_date(day_block) -> str | None:
         return None
     day, month, year = match.groups()
     return f"{year}-{month}-{day}"
-
-
-def _empty_dates(covered_dates: list[str], screenings: list[Screening]) -> list[str]:
-    """
-    Which of the covered days ended up with no screenings.
-
-    Includes any gap days inside the covered range, so a day the site skips
-    entirely still shows up as "nothing on" rather than vanishing.
-    """
-    if not covered_dates:
-        return []
-
-    with_screenings = {s.date for s in screenings}
-    known = sorted(set(covered_dates))
-    start = date_cls.fromisoformat(known[0])
-    end = date_cls.fromisoformat(known[-1])
-
-    empty = []
-    current = start
-    while current <= end:
-        iso = current.isoformat()
-        if iso not in with_screenings:
-            empty.append(iso)
-        current += timedelta(days=1)
-    return empty

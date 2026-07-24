@@ -12,6 +12,7 @@ from __future__ import annotations
 import re
 import unicodedata
 from dataclasses import dataclass, field, asdict
+from datetime import date as date_cls, timedelta
 from typing import Optional
 
 import requests
@@ -45,8 +46,23 @@ def fetch(url: str) -> str:
         url, headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT
     )
     response.raise_for_status()
-    # The Czech cinema sites are UTF-8 but don't always say so in the headers.
-    response.encoding = response.apparent_encoding or "utf-8"
+
+    # Trust a charset the server actually declared in Content-Type — requests
+    # already parses that into response.encoding before we touch anything.
+    # Only guess (via apparent_encoding, a content-sniffing heuristic) when
+    # nothing was declared, which is what "no charset" looks like: requests
+    # falls back to ISO-8859-1 per the old HTTP default for text/*.
+    #
+    # This used to unconditionally overwrite the declared encoding with the
+    # guess, which is backwards — a declared charset is a fact, a sniffing
+    # heuristic is a guess, and guesses can be wrong even on a page that is
+    # genuinely UTF-8. That's exactly what happened on kinopilotu.cz: it
+    # declares UTF-8 correctly, but apparent_encoding misread it as
+    # iso8859_10, and every accented character came out corrupted. The
+    # Aerofilms cinemas never exposed this because chardet's guess happened
+    # to agree with their declared encoding — luck, not correctness.
+    if not response.encoding or response.encoding.lower() == "iso-8859-1":
+        response.encoding = response.apparent_encoding or "utf-8"
     return response.text
 
 
@@ -192,6 +208,15 @@ def classify_tags(raw_tags: list[str]) -> dict:
             result["format"] = FORMAT_TAGS[key]
         elif key in VERSION_TAGS:
             result["language_version"] = VERSION_TAGS[key]
+        # Beyond the exact-match dict above: "dabing"/"titulky" keep turning up
+        # with a different prefix or abbreviation per cinema — bare "Dabing"
+        # (Aerofilms), "Český dabing" (Kino Pilotů), "CZ DABING" (Edison
+        # Filmhub). Rather than grow VERSION_TAGS with every new combination as
+        # it's found, recognise the word itself wherever it appears in the tag.
+        elif "dabing" in key or "dabovano" in key:
+            result["language_version"] = "dabing"
+        elif "titulky" in key:
+            result["language_version"] = "titulky"
         else:
             strands.append(tag)
 
@@ -236,6 +261,8 @@ LANGUAGE_NAMES = {
     "ar": "arabština",
     "he": "hebrejština",
     "hi": "hindština",
+    "is": "islandština",
+    "my": "barmština",
 }
 
 # Tokens that appear in the inLanguage field but aren't actually languages —
@@ -270,3 +297,66 @@ def language_name(code: str) -> str:
         if name not in names:  # "en, en-US" shouldn't produce a duplicate
             names.append(name)
     return ", ".join(names)
+
+
+# --------------------------------------------------------------------------
+# Day gaps
+# --------------------------------------------------------------------------
+
+def empty_dates_in_range(covered_dates: list[str], dates_with_screenings: set[str]) -> list[str]:
+    """
+    Which days inside the covered range ended up with no screenings.
+
+    Shared by every scraper, not just one cinema's parser: any site can have a
+    quiet day, and this is how it stays distinguishable from a day we simply
+    never looked at — filling in gap days the site's own listing skips
+    entirely, not just the days it explicitly marked as empty. It's also the
+    signal a closed cinema (Ponrepo, closed until 31.8) produces.
+    """
+    if not covered_dates:
+        return []
+
+    known = sorted(set(covered_dates))
+    start = date_cls.fromisoformat(known[0])
+    end = date_cls.fromisoformat(known[-1])
+
+    empty = []
+    current = start
+    while current <= end:
+        iso = current.isoformat()
+        if iso not in dates_with_screenings:
+            empty.append(iso)
+        current += timedelta(days=1)
+    return empty
+
+
+def infer_years_for_months(months: list[int | None]) -> list[int | None]:
+    """
+    Given a document-ordered sequence of month numbers with no year attached,
+    work out which year each one belongs to.
+
+    Some cinema sites (Kino Pilotů, Edison Filmhub) print a day header with a
+    day-of-week, a day number and a month — "Pátek 24. července", "Pátek
+    24.7." — but never a year. The list only ever runs forward in time, so a
+    month that's *lower* than the one before it can only mean the calendar
+    crossed from December into January; every other case just carries the
+    current year forward unchanged.
+
+    A `None` in the input (a header we failed to parse a month out of) passes
+    through as `None` and is skipped when looking for the previous real month,
+    so one bad header doesn't throw off every date after it.
+    """
+    year = date_cls.today().year
+    last_month: int | None = None
+    years: list[int | None] = []
+
+    for month in months:
+        if month is None:
+            years.append(None)
+            continue
+        if last_month is not None and month < last_month:
+            year += 1
+        last_month = month
+        years.append(year)
+
+    return years

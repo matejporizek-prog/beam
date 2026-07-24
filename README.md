@@ -4,12 +4,13 @@ Prague arthouse cinema programs, scraped into one normalized JSON file that the
 PWA reads. See `beam-build-brief.md` for the build order and
 `prague-cinema-app-brainstorm.md` for the full planning context.
 
-**Milestones 1, 2, 3, 5 are done and live** at
-[beam.matej-porizek.workers.dev](https://beam.matej-porizek.workers.dev).
-**Milestone 4 is in progress**: 4 of 7 Phase 1 cinemas scraped (Kino Aero, Bio
-Oko, Kino Světozor, Kino Přítomnost — all four turned out to be on the same
-Aerofilms platform, see below). Edison Filmhub, Kino Pilotů and Ponrepo are
-still ahead.
+**All five milestones are done.** All 7 Phase 1 cinemas are scraped and live at
+[beam.matej-porizek.workers.dev](https://beam.matej-porizek.workers.dev): Kino
+Aero, Bio Oko, Kino Světozor and Kino Přítomnost (all four turned out to be on
+the same Aerofilms platform, see below), Kino Pilotů and Edison Filmhub (each
+its own platform, see below), and Kino Ponrepo (closed for reconstruction until
+31.8 — scraped and wired in now, correctly reporting zero screenings, exactly
+the edge case the planning doc calls out by name).
 
 ## Running it
 
@@ -68,6 +69,9 @@ scrapers/
   bio_oko.py     Bio Oko — same pattern
   svetozor.py    Kino Světozor — same pattern
   pritomnost.py  Kino Přítomnost — same pattern
+  kino_pilotu.py Kino Pilotů — its own platform (a Swiper.js carousel, no JSON-LD)
+  edison.py      Edison Filmhub — its own platform (rich language/event markup, no JSON-LD)
+  ponrepo.py     Kino Ponrepo — closed until 31.8; reports the closure honestly
   run.py         runs every scraper, writes data/screenings.json
 resolve/
   tmdb.py        TMDb client + the title matcher
@@ -192,6 +196,153 @@ too, not just on the original 18-film test case.
   `0`. `build_film_record` now normalises that to `None`; a real film is never
   zero minutes long, and showing "0′" in the app would have been worse than
   showing nothing.
+
+## Kino Pilotů: a different platform, and a real bug in `base.fetch()`
+
+Not Aerofilms — checked before writing anything, same as always. The whole
+~3-week program is a Swiper.js carousel on the homepage (paired "day" and
+"event" slides, confirmed the index pairing holds before relying on it), no
+JSON-LD at all. Deliberately schedule-only: no director/runtime/poster is
+scraped from this site, matching the architecture note to let TMDb carry
+metadata — a per-screening detail page does exist with a poster and trailer,
+but fetching one per unique film just for a bonus poster wasn't worth the
+added requests.
+
+**A real, general bug this site surfaced:** `apparent_encoding` (the
+content-sniffing guesser) misread this page's bytes as `iso8859_10`, mangling
+every accented character — even though the site correctly declares
+`charset=UTF-8` in its own headers. `base.fetch()` used to unconditionally
+prefer the guess over the declared charset, backwards from what should happen.
+Fixed to trust a declared charset and only guess when none exists. The
+Aerofilms cinemas never exposed this because their pages happened to guess
+correctly too — luck, not correctness; the fix costs them nothing.
+
+**Kino Pilotů bakes its programming strand into the title text itself**
+("Céčko: Leviticus", "Kino Seniorů: Michael", "10 Let Kina Pilotů: Aftersun")
+rather than exposing it as a separate chip like the Aerofilms cinemas do. Left
+alone, this would have wrecked TMDb matching — "Céčko: Leviticus" barely
+resembles "Leviticus". `_split_title()` recognises a small, explicit list of
+known strand-label prefixes and splits them into `strand` instead — explicit
+rather than "split on any colon", because real titles legitimately contain one
+too (*Zootropolis: Město zvířat 2*, *Toy Story 5: Příběh hraček*). The suffix
+case is safer to generalise: nothing here ever uses " / " or " + " as part of a
+real title, so `"Šepot lesa / Český dabing"` splits cleanly, and — nicely —
+`classify_tags()` already recognises "Český dabing" as a real
+`language_version`, not just inert strand text, entirely for free.
+
+**This also caught a systemic matcher bug, not specific to this cinema.**
+`strip_event_branding()` used to treat a plain hyphen (and em/en dashes) as an
+event-branding separator alongside "|", to catch cases like "...| NT Live". But
+a dash-joined title/subtitle is an ordinary convention in real titles — Kino
+Pilotů's *Dalajláma - Oceán moudrosti* proved it, silently truncated to just
+"Dalajláma" before the search ever ran. Only "|" is actually safe to split on
+unconditionally; it's the one separator ever observed in real event branding
+and essentially never appears in an official title. Fixed, with a regression
+test pinning both the fix and the original "| NT Live" case it must still
+catch.
+
+**Three titles needed overrides with a caveat worth knowing:** Kino Pilotů
+gives no director or runtime at all, so unlike every other override in this
+project, these three had no independent signal to verify against — just a
+single unambiguous TMDb candidate and a precise semantic translation match
+(*Co nám zbylo z lásky* → *The Love That Remains*, *Mrzutá rybka* → *The
+Pout-Pout Fish*, *Šepot lesa* → *Whispering Forest*, a Białowieża Forest
+documentary). Lower confidence than the others in this file, flagged as such
+in each entry's comment.
+
+**A print crash silently destroyed a correct result — fixed at the source.**
+Resolving "Sirāt" (a real 2025 Cannes title) worked fine internally, the
+correct record was already written to the cache — and then the *success*
+print statement for its own title crashed on Windows' console codepage (which
+can't represent 'ā'), and the surrounding `except Exception` caught that print
+crash and overwrote the good result with a bogus "error" entry. Console text is
+only for a human to skim; a crash there must never corrupt real data.
+`sys.stdout.reconfigure(errors="replace")` at both CLI entrypoints fixes the
+class of bug, not just this one title.
+
+## Edison Filmhub: a third platform, and the richest data source yet
+
+Not Aerofilms, not the Kino Pilotů carousel — a third distinct platform,
+checked structurally before writing anything, same as every cinema here. No
+JSON-LD, but a genuinely rich, cleanly server-rendered program table: real
+per-screening language and subtitle notation ("JPN, Tit. CZ, EN" — Japanese,
+Czech *and* English subtitles), a two-level tag structure (a broad category
+like "Festivaly" plus, often, a specific named series like "Heatwave Horror"),
+free-text notes (a Q&A guest's name, "+ úvod" for an introduction), and —
+uniquely among all 7 cinemas — a genuine ticket-purchase link on a few
+screenings, straight to a GoOut checkout page.
+
+**`.desc`'s language notation is more structured signal than any Aerofilms
+chip.** `_parse_desc()` turns "EN, Tit. CZ" into real `language`,
+`english_friendly` and `language_version` fields — and `english_friendly` is
+set from *either* the spoken language or the subtitle language being English,
+matching the planning doc's own definition of the signal ("followable via
+English audio *or* English subtitles").
+
+**Two real title-cleaning bugs, found the same way as always: fetch, check,
+then decide.**
+
+- *"Toy Story 5: Příběh hraček (CZ DABING)"* is the exact same film already
+  known from other cinemas as plain *"Toy Story 5: Příběh hraček"* — the
+  suffix would have cost a duplicate, worse-scoring search and thrown away a
+  real dubbing signal. `_strip_dabing_suffix()` recognises a parenthetical that
+  actually mentions dabing and turns it into a tag; a same-fixture example,
+  *"Posedlost (2026)"*, proves it's not just "strip any parenthetical" — that
+  one is left alone by this specific rule.
+- *"Posedlost (2026)"* turned out **not** to be harmless after all: TMDb's own
+  search API returns **zero results** for the literal query with the year
+  attached — not a fuzzy-scoring nuisance, a hard failure before the matcher
+  ever sees a candidate — while "Posedlost" alone is already correctly
+  resolved from other cinemas. `_strip_year_suffix()` removes a bare trailing
+  `(YYYY)` unconditionally; unlike the dabing case there's no signal worth
+  keeping, and a bare year is never part of a film's actual official title the
+  way a subtitle-in-parentheses occasionally is.
+
+**One more classify_tags() generalisation, prompted by "CZ DABING".** The
+exact-match `VERSION_TAGS` dict caught bare "Dabing" and "Český dabing", but
+not this cinema's own abbreviation. Rather than grow that dict with every new
+combination as it's found, `classify_tags()` now recognises "dabing"/"titulky"
+as a *substring* of any tag — covering whatever prefix or abbreviation the next
+cinema invents too, not just this one.
+
+**Both fixes were needed to avoid literal duplicates**, not just missed
+matches: fixing a title-cleaning rule changes the computed cache key for that
+title (`normalize_title(strip_...(title))`), which leaves the *old* key
+orphaned in `films.json` as a permanently-wrong "unresolved" ghost — exactly
+what happened to both "Dalajláma" (Milestone 4, Kino Pilotů) and "Posedlost"
+here. The orphan is inert (no screening's `film_id` points at it anymore) but
+worth cleaning up; a stray one now costs a few minutes of confusion later.
+
+## Kino Ponrepo: built now, deliberately without a screening parser
+
+Closed for reconstruction until 31.8 — the planning doc calls this out by name
+as the test case for "a cinema temporarily has zero screenings." Checked
+structurally before writing anything, same discipline as every other cinema:
+every day link on the real program page carries a `--disabled` class, and there
+is no hidden per-day content section anywhere on the page (no AJAX endpoint, no
+React/Vue root — confirmed, not assumed). That's a genuinely verified "nothing
+scheduled", not a page that needs JavaScript to show real content.
+
+So the scraper reads the one thing that verifiably exists — the calendar's own
+day links, whose `href="#2026-07-01"` already carries a full ISO date, no
+Czech month-name parsing needed — and reports every one of them empty. It
+deliberately does **not** contain speculative screening-extraction logic: there
+is nothing to verify a parser against yet, and every other scraper in this
+project was built by checking real structure first. Writing one now would
+invert that and risk silently producing garbage the day the site changes.
+
+Instead there's a tripwire: `_check_for_unexpected_content()` warns if a day
+link is ever found *not* disabled, or if a matching `id="<date>"` content
+section ever appears — either means the cinema has reopened and this file
+needs the real screening parser, buildable and verifiable against real data at
+last. Both trigger conditions are covered by tests that simulate the change,
+confirming the tripwire actually fires rather than silently doing nothing.
+
+`closed_until` flows through `run.py` into `screenings.json`'s cinema list the
+same way `empty_dates` already did, and the app's `closedCinemasOn()` (built
+back in Milestone 3, never yet exercised against a real closure) picks it up
+with no changes needed — verified live: the Program screen now shows "Ponrepo
+dnes nehraje."
 
 ## Two things about the Aerofilms cinemas specifically
 

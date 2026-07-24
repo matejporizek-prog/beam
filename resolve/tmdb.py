@@ -146,7 +146,15 @@ class TMDbClient:
 
 # Cinemas bolt event branding onto titles. Strip it before comparing, or
 # "Nebezpečné známosti | NT Live" never matches "Nebezpečné známosti".
-EVENT_SUFFIX_SEPARATORS = ("|", "–", "—", " - ")
+# Only "|" — the one separator actually observed in real event branding
+# ("Nebezpečné známosti | NT Live", "Audience | NT Live"). Dashes used to be
+# in this list too, and it was a real bug: a plain hyphen or em/en dash is a
+# common title/subtitle separator in perfectly ordinary film titles, not a
+# marker for bolted-on event branding. It silently truncated "Dalajláma -
+# Oceán moudrosti" down to just "Dalajláma", throwing the real second half of
+# the title away before the search ever ran. "|" essentially never appears in
+# an official title, which is what makes it safe to split on unconditionally.
+EVENT_SUFFIX_SEPARATORS = ("|",)
 
 
 def strip_event_branding(title: str) -> str:

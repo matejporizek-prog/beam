@@ -1,7 +1,149 @@
 {
-  "generated_at": "2026-07-24T16:40:46+02:00",
+  "generated_at": "2026-07-24T19:09:49+02:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
+    {
+      "film_id": "120 bpm",
+      "title_cz": "120 BPM",
+      "title_en": "BPM (Beats per Minute)",
+      "original_title": "120 battements par minute",
+      "year": 2017,
+      "synopsis": "Paris, in the early 1990s: a group of young activists is desperately tied to finding the cure against an unknown lethal disease. They target the pharmaceutical labs that are retaining potential cures, and multiply direct actions, with the hope of saving their lives as well as the ones of future generations.",
+      "synopsis_language": "en",
+      "runtime_min": 143,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Robin Campillo"
+      ],
+      "screenwriter": [
+        "Philippe Mangeot",
+        "Robin Campillo"
+      ],
+      "cast": [
+        "Nahuel Pérez Biscayart",
+        "Arnaud Valois",
+        "Adèle Haenel",
+        "Antoine Reinartz",
+        "Félix Maritaud",
+        "Ariel Borenstein",
+        "Aloïse Sauvage",
+        "Simon Bourgade"
+      ],
+      "production_company": [
+        "Les Films de Pierre",
+        "Page 114",
+        "Memento Production",
+        "Playtime",
+        "France 3 Cinéma"
+      ],
+      "poster_path": "/7mdxe4MfqBdKGeKZAZYELJmCKVT.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/1pyUrlbTVCkGkcu7LsGMqxuCtkP.jpg",
+      "trailer_youtube_key": "4GzCfjF0vDU",
+      "age_rating": "",
+      "tmdb_id": 451945,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=120+BPM+2017",
+      "resolved": true,
+      "match_reason": "manual override",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "aftersun",
+      "title_cz": "Aftersun",
+      "title_en": "Aftersun",
+      "original_title": "Aftersun",
+      "year": 2022,
+      "synopsis": "Někdy v devadesátých letech, kdesi v tureckém přímořském resortu tráví dovolenou rozvedený mladý otec Calum se skoro náctiletou dcerou Sophií. Pohodové vystupování táty, který žádnou legraci nezkazí a baví se tím, že jej okolí považuje za dívčina staršího bratra, však zastírá znepokojivý závoj melancholie.",
+      "synopsis_language": "cs",
+      "runtime_min": 101,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Charlotte Wells"
+      ],
+      "screenwriter": [
+        "Charlotte Wells"
+      ],
+      "cast": [
+        "Paul Mescal",
+        "Frankie Corio",
+        "Brooklyn Toulson",
+        "Celia Rowlson-Hall",
+        "Sally Messham",
+        "Ayşe Parlak",
+        "Sophia Lamanova",
+        "Spike Fearn"
+      ],
+      "production_company": [
+        "PASTEL",
+        "BBC Film",
+        "Tango Entertainment",
+        "Unified Theory",
+        "Screen Scotland",
+        "BFI"
+      ],
+      "poster_path": "/sNhWDtzJx0S91N1kue8wr7OpZSj.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/4jdduww9j5RyzO4ITRcuBFhqNN1.jpg",
+      "trailer_youtube_key": "kdLHVqkNYw0",
+      "age_rating": "12+",
+      "tmdb_id": 965150,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Aftersun+2022",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "anatomie padu",
+      "title_cz": "Anatomie pádu",
+      "title_en": "Anatomy of a Fall",
+      "original_title": "Anatomie d'une chute",
+      "year": 2023,
+      "synopsis": "Sandra je úspěšná spisovatelka, žijící s manželem a synem Danielem ve francouzských Alpách. Když se Daniel jednou vrací z procházky se psem, najde na zemi otcovo mrtvé tělo. V domě kromě manželů v té době nikdo nebyl, je tedy nutné vyšetřit, zda byl smrtící pád následkem sebevraždy, nebo zda Sandra muže zabila…",
+      "synopsis_language": "cs",
+      "runtime_min": 151,
+      "genres": [
+        "Thriller",
+        "Mysteriózní",
+        "Krimi"
+      ],
+      "director": [
+        "Justine Triet"
+      ],
+      "screenwriter": [
+        "Justine Triet",
+        "Arthur Harari"
+      ],
+      "cast": [
+        "Sandra Hüller",
+        "Swann Arlaud",
+        "Milo Machado-Graner",
+        "Antoine Reinartz",
+        "Samuel Theis",
+        "Jehnny Beth",
+        "Saadia Bentaïeb",
+        "Camille Rutherford"
+      ],
+      "production_company": [
+        "Les Films de Pierre",
+        "Les Films Pelléas",
+        "France 2 Cinéma",
+        "Auvergne-Rhône-Alpes Cinéma"
+      ],
+      "poster_path": "/3k9Orvive338sLAaixaO7qiP8lX.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/lDVl2jf6VB8ODl1olZ6FLvOV1gX.jpg",
+      "trailer_youtube_key": "Ow9si3u7Zqk",
+      "age_rating": "12+",
+      "tmdb_id": 915935,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Anatomie+p%C3%A1du+2023",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
     {
       "film_id": "andelske vejce",
       "title_cz": "Andělské vejce",
@@ -119,6 +261,158 @@
       "match_score": 0.85
     },
     {
+      "film_id": "backrooms",
+      "title_cz": "Backrooms",
+      "title_en": "Backrooms",
+      "original_title": "Backrooms",
+      "year": 2026,
+      "synopsis": "Psychoterapeutka se vydává na nebezpečnou cestu do podivné, nadpozemské dimenze, aby našla svého pohřešovaného pacienta. V prostoru, kde přestávají platit zákony reality a každé rozhodnutí může mít fatální následky, je nucena čelit nejen znepokojivým jevům kolem sebe, ale i vlastním obavám a pochybnostem. S každým krokem hlouběji do neznáma se hranice mezi skutečností a iluzí stírá a záchrana pacienta začíná být čím dál nejistější.",
+      "synopsis_language": "cs",
+      "runtime_min": 111,
+      "genres": [
+        "Horor",
+        "Mysteriózní",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Kane Parsons"
+      ],
+      "screenwriter": [
+        "Will Soodik"
+      ],
+      "cast": [
+        "Chiwetel Ejiofor",
+        "Renate Reinsve",
+        "Finn Bennett",
+        "Lukita Maxwell",
+        "Mark Duplass",
+        "Avan Jogia",
+        "Robert Bobroczkyi",
+        "Ember Ambrose"
+      ],
+      "production_company": [
+        "Atomic Monster",
+        "21 Laps Entertainment",
+        "A24",
+        "Phobos",
+        "The North Road Company"
+      ],
+      "poster_path": "/htY2mz7fcj5qZRTvkxMFCo45yQk.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/2aA8iPlMCks3k131ymFBAY6FL0b.jpg",
+      "trailer_youtube_key": "0HjdiohVOik",
+      "age_rating": "15+",
+      "tmdb_id": 1083381,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Backrooms+2026",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "bee team na stope",
+      "title_cz": "Béé team na stopě",
+      "title_en": "The Sheep Detectives",
+      "original_title": "The Sheep Detectives",
+      "year": 2026,
+      "synopsis": "V této vtipné, novátorské detektivce je George pastýř, který každou noc čte svým milovaným ovcím detektivní romány v domnění, že jim stejně nemohou rozumět. Když však záhadná událost naruší život na farmě, ovce si uvědomí, že se samy musí stát detektivy. Při sledování stop a vyšetřování lidských podezřelých dokazují, že i ovce mohou být brilantními řešiteli zločinů.",
+      "synopsis_language": "cs",
+      "runtime_min": 109,
+      "genres": [
+        "Komedie",
+        "Rodinný",
+        "Mysteriózní"
+      ],
+      "director": [
+        "Kyle Balda"
+      ],
+      "screenwriter": [
+        "Craig Mazin"
+      ],
+      "cast": [
+        "Hugh Jackman",
+        "Nicholas Braun",
+        "Nicholas Galitzine",
+        "Molly Gordon",
+        "Julia Louis-Dreyfus",
+        "Bryan Cranston",
+        "Chris O'Dowd",
+        "Regina Hall"
+      ],
+      "production_company": [
+        "Working Title Films",
+        "Three Strange Angels",
+        "Amazon MGM Studios"
+      ],
+      "poster_path": "/xVp94erqT2xq7KlNDv1LjXjfPvn.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/a8uQvrplTkhGJQog6GZ6CqF8An6.jpg",
+      "trailer_youtube_key": "826SRt1CFbg",
+      "age_rating": "PG (US)",
+      "tmdb_id": 1301421,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=B%C3%A9%C3%A9+team+na+stop%C4%9B+2026",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "blaznive",
+      "title_cz": "Bláznivě",
+      "title_en": "Madly",
+      "original_title": "Madly",
+      "year": 2025,
+      "synopsis": "Naše mysl je velmi přeplněné místo; všichni jsme obýváni mnoha osobnostmi, které musí koexistovat. Racionálními, romantickými, instinktivními, někdy i šílenými. Ale kdo je skutečně pánem situace? Snímek Bláznivě je příběhem prvního rande, rozkošnou romantickou komedií, která nás zavede do myslí dvou hlavních hrdinů, abychom odhalili tajemné mechanismy, které řídí naše jednání. Různé osobnosti protagonistů mají své vlastní hlasy i fyzickou podobu – a my sledujeme, jak se ve snaze převzít kontrolu nad situací a udělat konečné rozhodnutí hádají, bojují, radují a dojímají.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [],
+      "director": [
+        "Julie Hadida"
+      ],
+      "screenwriter": [
+        "Julie Hadida"
+      ],
+      "cast": [
+        "Alexane Artaud",
+        "Séram Borgel-Guez",
+        "Julie Hadida"
+      ],
+      "production_company": [],
+      "poster_path": "/3rvB1kxXiquHatOU0qN4Y5qxjS0.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1500272,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Bl%C3%A1zniv%C4%9B+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "budapest 1957",
+      "title_cz": "Budapešť 1957",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Budape%C5%A1%C5%A5+1957",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Budapešť 1957'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "chica checa",
       "title_cz": "Chica Checa",
       "title_en": "Czech Girl",
@@ -163,6 +457,190 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
+    },
+    {
+      "film_id": "chlast",
+      "title_cz": "Chlast",
+      "title_en": "Another Round",
+      "original_title": "Druk",
+      "year": 2020,
+      "synopsis": "Existuje teorie, že bychom se měli rodit s malým množstvím alkoholu v krvi a že mírná podnapilost otevírá naši mysl světu kolem nás, zmenšuje naše problémy a zvyšuje naši kreativitu. Povzbuzeni touto teorií se Martin a jeho tři přátelé, všichni znavení středoškolští učitelé, pustí do experimentu spočívajícího v tom, že si během pracovního dne udržují stálou hladinku. Jestliže Churchill vyhrál druhou světovou válku v alkoholovém oparu, co by pár kapek mohlo znamenat pro ně a jejich studenty? Prvotní výsledky jsou povzbudivé a tento malý projekt se stane opravdovým akademickým výzkumem. Jak jejich hodiny, tak výsledky se zlepšují a skupina znovu dostane chuť do života! Když však výzkum přeženou, někteří musí skončit. Je stále jasnější, že i když alkohol mohl dopomoci ke skvělým úspěchům v historii, některé odvážné činy mají své následky.",
+      "synopsis_language": "cs",
+      "runtime_min": 112,
+      "genres": [
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "Thomas Vinterberg"
+      ],
+      "screenwriter": [
+        "Thomas Vinterberg",
+        "Tobias Lindholm"
+      ],
+      "cast": [
+        "Mads Mikkelsen",
+        "Thomas Bo Larsen",
+        "Magnus Millang",
+        "Lars Ranthe",
+        "Maria Bonnevie",
+        "Helene Reingaard Neumann",
+        "Susse Wold",
+        "Magnus Sjørup"
+      ],
+      "production_company": [
+        "Zentropa Entertainments",
+        "Film i Väst",
+        "Topkapi Films",
+        "Zentropa International Sweden",
+        "Zentropa International Netherlands"
+      ],
+      "poster_path": "/7Ig5QyCQdIzdGOsxTesGKN7DBnA.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/a2pPepVPtKY7E4XEkT7W3ZxUOY5.jpg",
+      "trailer_youtube_key": "0aGgbUMr6hQ",
+      "age_rating": "15+",
+      "tmdb_id": 580175,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Chlast+2020",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "chungking express",
+      "title_cz": "Chungking Express",
+      "title_en": "Chungking Express",
+      "original_title": "重慶森林",
+      "year": 1994,
+      "synopsis": "Milostné trable dvou policistů, kteří se vyrovnávají s tím, že j opustily jejich partnerky. Lehce načrtnuté příběhy slouží ke stylově čisté a působivé studii, stylizovaně zachycující všednodenní život. Film je složen ze dvou nezávislých příběhů o lidech z okraje společnosti nebo o lidech pro společnost zcela bezvýznamných, jako jsou pašeráci drog nebo prodavačka v bufetu. Vyprávějí o samotě uprostřed davu, o neschopnosti komunikace a nenaplněné lásce. Zároveň je snímek oslavou hektičnosti přelidněného Hongkongu, „města tisíce přistěhovalců“, jak se někdejší britské kolonii přezdívalo.",
+      "synopsis_language": "cs",
+      "runtime_min": 103,
+      "genres": [
+        "Drama",
+        "Komedie",
+        "Romantický"
+      ],
+      "director": [
+        "Wong Kar-Wai"
+      ],
+      "screenwriter": [
+        "Wong Kar-Wai"
+      ],
+      "cast": [
+        "Brigitte Lin",
+        "Takeshi Kaneshiro",
+        "Tony Leung Chiu-wai",
+        "Faye Wong",
+        "Valerie Chow",
+        "Piggy Chan Kam-Chuen",
+        "Kwan Lee-Na",
+        "Leung San"
+      ],
+      "production_company": [
+        "Jet Tone Production"
+      ],
+      "poster_path": "/fv0KUkKoEr1P6Z0lltVyWwtFg5e.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/vuglA60RqvpHK9rIcG8sXaiWw1L.jpg",
+      "trailer_youtube_key": "P9Mxf_6pVA0",
+      "age_rating": "U",
+      "tmdb_id": 11104,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Chungking+Express+1994",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "cirque du soleil kooza",
+      "title_cz": "Cirque du Soleil: KOOZA",
+      "title_en": "Cirque du Soleil: Kooza",
+      "original_title": "Cirque du Soleil: Kooza",
+      "year": 2008,
+      "synopsis": "The story of an innocent and charming clown who strives to find his own place in the world. KOOZA is a return to the origins of Cirque du Soleil. It combines two circus traditions - acrobatic performance and the art of clowning. Between strength and fragility, laughter and chills and turmoil and harmony. KOOZA is set in an electrify8ing and exotic visual world full of surprises, thrills, audacity and total involvement. filmed live in Toronto, Canada with 8 cameras in high definition.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Rodinný"
+      ],
+      "director": [
+        "Mario Janelle"
+      ],
+      "screenwriter": [
+        "David Shiner"
+      ],
+      "cast": [
+        "Jason Berrent",
+        "Darya Vintilova"
+      ],
+      "production_company": [],
+      "poster_path": "/lruLtePKAvRWVHsGWQr7afzR3cP.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/18vxwpd8thqzqARLKjrmxC5Q7YB.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "PG (US)",
+      "tmdb_id": 28348,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Cirque+du+Soleil%3A+KOOZA+2008",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "citova hodnota",
+      "title_cz": "Citová hodnota",
+      "title_en": "Sentimental Value",
+      "original_title": "Affeksjonsverdi",
+      "year": 2025,
+      "synopsis": "Nora (Renate Reinsve) se po letech znovu potkává se svým otcem. Charismatický a kdysi slavný režisér Gustav (Stellan Skarsgård) pro ni napsal hlavní roli ve filmu, který má být vyvrcholením jeho kariéry. Když Nora spolupráci odmítne, obsadí místo ní horlivou hollywoodskou herečku Rachel Kemp (Elle Fanning). Začíná série vtipných i bolestně upřímných setkání, při nichž se Nora a její sestra Agnes vyrovnávají s komplikovanými rodinnými vztahy i nečekanou přítomností americké hvězdy. Joachim Trier se po úspěchu filmu Nejhorší člověk na světě vrátil do Cannes s citlivým komediálním dramatem, které porota ocenila Velkou cenou. (Aerofilms)",
+      "synopsis_language": "cs",
+      "runtime_min": 135,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Joachim Trier"
+      ],
+      "screenwriter": [
+        "Eskil Vogt",
+        "Joachim Trier"
+      ],
+      "cast": [
+        "Renate Reinsve",
+        "Stellan Skarsgård",
+        "Inga Ibsdotter Lilleaas",
+        "Elle Fanning",
+        "Anders Danielsen Lie",
+        "Jesper Christensen",
+        "Lena Endre",
+        "Cory Michael Smith"
+      ],
+      "production_company": [
+        "Mer Film",
+        "Eye Eye Pictures",
+        "Lumen",
+        "Zentropa Entertainments",
+        "Komplizen Film",
+        "BBC Film",
+        "Film i Väst",
+        "Oslo Filmfond",
+        "Mediefondet Zefyr",
+        "Alaz Film",
+        "Don't Look Now",
+        "MK Productions",
+        "ARTE France Cinéma",
+        "Storyline Studios",
+        "Léger Production",
+        "ZDF/Arte"
+      ],
+      "poster_path": "/gYMpO3gWGHUFpQfJGuZuMnUWChE.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/oLgtpxK4aGZ7S8aiE3rDwahqkL2.jpg",
+      "trailer_youtube_key": "zBFstFXdk90",
+      "age_rating": "R (US)",
+      "tmdb_id": 1124566,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Citov%C3%A1+hodnota+2025",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
     },
     {
       "film_id": "co je ti holka",
@@ -212,6 +690,185 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
+    },
+    {
+      "film_id": "co nam zbylo z lasky",
+      "title_cz": "Co nám zbylo z lásky",
+      "title_en": "The Love That Remains",
+      "original_title": "Ástin sem eftir er",
+      "year": 2025,
+      "synopsis": "Tenderly captures a year in the life of a family as the parents navigate their separation. Through both playful and heartfelt moments, the film portrays the bittersweet essence of faded love and shared memories amidst the changing seasons.",
+      "synopsis_language": "en",
+      "runtime_min": 109,
+      "genres": [
+        "Drama",
+        "Komedie"
+      ],
+      "director": [
+        "Hlynur Pálmason"
+      ],
+      "screenwriter": [
+        "Hlynur Pálmason"
+      ],
+      "cast": [
+        "Saga Garðarsdóttir",
+        "Sverrir Gudnason",
+        "Ída Mekkín Hlynsdóttir",
+        "Þorgils Hlynsson",
+        "Grímur Hlynsson",
+        "Ingvar E. Sigurðsson",
+        "Katla M. Þorgeirsdóttir",
+        "Kristinn Guðmundsson"
+      ],
+      "production_company": [
+        "Snowglobe",
+        "Still Vivid",
+        "HOBAB",
+        "Film i Väst",
+        "ARTE France Cinéma",
+        "Maneki Films"
+      ],
+      "poster_path": "/gveoShAALiQfdINESmjmsPGb0IC.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/7xWTnediis2NYgZTq7ZndvI9JgW.jpg",
+      "trailer_youtube_key": "jZ0fdmesr-w",
+      "age_rating": "12+",
+      "tmdb_id": 1258509,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Co+n%C3%A1m+zbylo+z+l%C3%A1sky+2025",
+      "resolved": true,
+      "match_reason": "manual override",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "ctverec",
+      "title_cz": "Čtverec",
+      "title_en": "The Square",
+      "original_title": "The Square",
+      "year": 2017,
+      "synopsis": "Cristian je kurátor prestižního muzea moderního umění, které právě chystá odvážnou konceptuální výstavu. Její ústřední myšlenkou je čtverec o rozměrech 4 x 4 metry. Uvnitř něj platí pravidlo naprosté rovnosti a tolerance. Společně s PR agenturou hledá muzeum ideální strategii, jak v roztržitém a událostmi zavaleném mediálním prostoru celou akci zviditelnit. Jenže pak Cristian při bizarní formě kapesní krádeže přijde o peněženku a mobil a jeden z jeho podřízených vymyslí geniální způsob, jak je získat zpět. Cristian se jako obvykle nedokáže soustředit na nic jiného než sám na sebe. A podobně jako celá švédská společnost se i konceptuální výstava začíná utápět v bizarním zmatku, který definuje napětí mezi liberálními hodnotami, egoismem a sobectvím. Vítejte ve čtverci jménem současná Evropa.",
+      "synopsis_language": "cs",
+      "runtime_min": 151,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Ruben Östlund"
+      ],
+      "screenwriter": [
+        "Ruben Östlund"
+      ],
+      "cast": [
+        "Claes Bang",
+        "Elisabeth Moss",
+        "Dominic West",
+        "Terry Notary",
+        "Christopher Læssø",
+        "Lise Stephenson Engström",
+        "Lilianne Mardon",
+        "Marina Schiptjenko"
+      ],
+      "production_company": [
+        "Plattform Produktion",
+        "ARTE France Cinéma",
+        "Coproduction Office",
+        "Essential Filmproduktion",
+        "Imperative Entertainment",
+        "SVT",
+        "Film i Väst",
+        "Société Parisienne de Production",
+        "ZDF",
+        "ZDF/Arte",
+        "Alamode Film"
+      ],
+      "poster_path": "/uRBBGjE4zYg4BuqzHIL6o7Jrmfs.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/bYZM4DoHrmzY3oq2qrcXAYQmLNp.jpg",
+      "trailer_youtube_key": "EUzRjRv0Ib0",
+      "age_rating": "R (US)",
+      "tmdb_id": 401246,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C4%8Ctverec+2017",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "dabel nosi pradu 2",
+      "title_cz": "Ďabel nosí Pradu 2",
+      "title_en": "The Devil Wears Prada 2",
+      "original_title": "The Devil Wears Prada 2",
+      "year": 2026,
+      "synopsis": "Téměř 20 let po svém ikonickém ztvárnění postav Mirandy, Andy, Emily a Nigela se Meryl Streep, Anne Hathaway, Emily Blunt a Stanley Tucci vrací do módních ulic New Yorku a elegantních kanceláří časopisu Runway v netrpělivě očekávaném pokračování fenoménu z roku 2006, který zasáhl, ovlinil a definoval celou generaci.",
+      "synopsis_language": "cs",
+      "runtime_min": 119,
+      "genres": [
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "David Frankel"
+      ],
+      "screenwriter": [
+        "Aline Brosh McKenna"
+      ],
+      "cast": [
+        "Anne Hathaway",
+        "Meryl Streep",
+        "Emily Blunt",
+        "Stanley Tucci",
+        "Kenneth Branagh",
+        "Justin Theroux",
+        "Lucy Liu",
+        "Tracie Thoms"
+      ],
+      "production_company": [
+        "20th Century Studios",
+        "Wendy Finerman Productions"
+      ],
+      "poster_path": "/vVF3wmBRNmCjQhgmgENUAisELok.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/Af907x5h9W1wVis8XrSd7ynTWuy.jpg",
+      "trailer_youtube_key": "kFi_9bR5zdw",
+      "age_rating": "U",
+      "tmdb_id": 1314481,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C4%8Eabel+nos%C3%AD+Pradu+2+2026",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "dalajlama ocean moudrosti",
+      "title_cz": "Dalajláma - Oceán moudrosti",
+      "title_en": "Dalai Lama - Ocean of Wisdom",
+      "original_title": "Dalajlama - Oceán moudrosti",
+      "year": 2026,
+      "synopsis": "Celovečerní dokumentární film vznikl u příležitosti 90. narozenin Jeho Svatosti 14. dalajlamy a přináší jedinečný pohled na jeho život, myšlenky i osobnost prostřednictvím unikátních archivních záběrů natáčených v letech 1991–2022.",
+      "synopsis_language": "cs",
+      "runtime_min": 84,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Viliam Poltikovič"
+      ],
+      "screenwriter": [
+        "Viliam Poltikovič"
+      ],
+      "cast": [
+        "Tenzin Gyatso"
+      ],
+      "production_company": [
+        "Sound4Film"
+      ],
+      "poster_path": "/6pnidXK0xg4StAlMw35GF194jVz.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/knQ52g71vfJTBLEvCx4oEYzEe2c.jpg",
+      "trailer_youtube_key": "P2i-JwCQ2ww",
+      "age_rating": "",
+      "tmdb_id": 1729173,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Dalajl%C3%A1ma+-+Oce%C3%A1n+moudrosti+2026",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
     },
     {
       "film_id": "den odhaleni",
@@ -305,6 +962,121 @@
       "match_score": 1.15
     },
     {
+      "film_id": "die my love",
+      "title_cz": "Die My Love",
+      "title_en": "Die My Love",
+      "original_title": "Die My Love",
+      "year": 2025,
+      "synopsis": "Grace (Jennifer Lawrence) a Jackson (Robert Pattinson) jsou po uši zamilovaní. Po narození dítěte a přestěhování na venkov si malují společnou budoucnost plnou nadějí a snů. Jenže Grace, vyčerpaná mateřstvím a otrávená vlastním životem, v sobě cítí narůstat něco divokého – nespoutanou energii, kterou nedokáže zastavit. Nekompromisní, temně komický psychothriller Lynne Ramsay vás vtáhne do chaosu ženské duše jako málokterý film.",
+      "synopsis_language": "cs",
+      "runtime_min": 119,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Lynne Ramsay"
+      ],
+      "screenwriter": [
+        "Lynne Ramsay",
+        "Enda Walsh",
+        "Alice Birch"
+      ],
+      "cast": [
+        "Jennifer Lawrence",
+        "Robert Pattinson",
+        "Sissy Spacek",
+        "LaKeith Stanfield",
+        "Nick Nolte",
+        "Gabrielle Rose",
+        "Clare Coulter",
+        "Sarah Lind"
+      ],
+      "production_company": [
+        "Excellent Cadaver",
+        "Sikelia Productions",
+        "Black Label Media"
+      ],
+      "poster_path": "/kajpShbFhOdpl6yCrLezMrr9tB4.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/dEkFlZzj2cb5F7SShvqkL54E4lr.jpg",
+      "trailer_youtube_key": "2jzXHW6Qe70",
+      "age_rating": "15+",
+      "tmdb_id": 1033148,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Die+My+Love+2025",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "dokonale dny",
+      "title_cz": "Dokonalé dny",
+      "title_en": "Perfect Days",
+      "original_title": "PERFECT DAYS",
+      "year": 2023,
+      "synopsis": "Hirajama přijímá práci uklízeče veřejných toalet s překvapivou pokorou, přestože jeho život se nám může zdát únavný a nudný, někdy i ponižující. Rutina ale dává dnům kýženou strukturu a radost přinese i prosté rozjímání v parku, chvíle strávená s knihou nebo poslech hudby. Ač Hirajama vyzařuje klid a spokojenost, nejde přece jen o pouhý obranný mechanismus?",
+      "synopsis_language": "cs",
+      "runtime_min": 124,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Wim Wenders"
+      ],
+      "screenwriter": [
+        "Takuma Takasaki",
+        "Wim Wenders"
+      ],
+      "cast": [
+        "Koji Yakusho",
+        "Tokio Emoto",
+        "Arisa Nakano",
+        "Aoi Yamada",
+        "Yumi Aso",
+        "Sayuri Ishikawa",
+        "Tomokazu Miura",
+        "Min Tanaka"
+      ],
+      "production_company": [
+        "Master Mind",
+        "Wenders Images"
+      ],
+      "poster_path": "/cNOO4w85K0pVjmHjiRmPfUUsLT1.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/hjWxngV6tidwDkfJDEgMjHD2KEz.jpg",
+      "trailer_youtube_key": "hSGUfczF8uA",
+      "age_rating": "12+",
+      "tmdb_id": 976893,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Dokonal%C3%A9+dny+2023",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "double feature ildiko enyedi",
+      "title_cz": "Double Feature: Ildikó Enyedi",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Double+Feature%3A+Ildik%C3%B3+Enyedi",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Double Feature: Ildikó Enyedi'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "dovolena v ceskem raji",
       "title_cz": "Dovolená v Českém ráji",
       "title_en": "Dovolená v Českém ráji",
@@ -392,6 +1164,133 @@
       "match_score": 1.15
     },
     {
+      "film_id": "drink draw tove",
+      "title_cz": "Drink&Draw: Tove",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Drink%26Draw%3A+Tove",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Drink&Draw: Tove'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "drobna nehoda",
+      "title_cz": "Drobná nehoda",
+      "title_en": "It Was Just an Accident",
+      "original_title": "Un simple accident",
+      "year": 2025,
+      "synopsis": "Začne to jedné noci jako drobná nehoda, která svede dohromady bývalého politického vězně Vahida a muže, v němž pozná svého mučitele z vězení. Jeho tvář Vahid sice nikdy neviděl, ale jeho krok a specifický zvuk umělé nohy, ten pozná s jistotou... Ale je ta jistota naprostá? Neprůstřelná? Bez velkého plánování se Vahid pouští do tragikomické záškodnické akce, která svede dohromady bývalé spoluvězně poznamenané všudypřítomnou politickou zvůlí. (Artcam Films)",
+      "synopsis_language": "cs",
+      "runtime_min": 104,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Krimi",
+        "Mysteriózní"
+      ],
+      "director": [
+        "Jafar Panahi"
+      ],
+      "screenwriter": [
+        "Jafar Panahi"
+      ],
+      "cast": [
+        "Vahid Mobasseri",
+        "Mariam Afshari",
+        "Ebrahim Azizi",
+        "Hadis Pakbaten",
+        "Majid Panahi",
+        "Mohamad Ali Elyasmehr",
+        "George Hashemzadeh",
+        "Delmaz Najafi"
+      ],
+      "production_company": [
+        "Jafar Panahi Productions",
+        "Les Films Pelléas",
+        "Bidibul Productions",
+        "Pio & Co",
+        "ARTE France Cinéma"
+      ],
+      "poster_path": "/rlpI8BqpCccQ9zx6UlQ72g8KJPb.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/zhoMwQofjgVec5Sin05hWECJtVQ.jpg",
+      "trailer_youtube_key": "9oHw2ubyWE4",
+      "age_rating": "12+",
+      "tmdb_id": 1456349,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Drobn%C3%A1+nehoda+2025",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "dva prokuratori",
+      "title_cz": "Dva prokurátoři",
+      "title_en": "Two Prosecutors",
+      "original_title": "Zwei Staatsanwälte",
+      "year": 2025,
+      "synopsis": "V roce 1937 v Sovětském svazu Stalin tvrdě upevňuje svou moc. Desítky tisíc falešně odsouzených občanů jsou drženy v nelidských podmínkách. Své naděje vkládají do vězeňských motáků. Navzdory tvrdým kontrolám se jeden ze vzkazů dostane k mladému ambicióznímu žalobci Alexandru Korněvovi. S hlavou plnou ideálů a mladickou sveřepostí se v době nejtvrdších stalinistických čistek Korněv vydává vstříc děsivému prozření. Drsné totalitní drama renomovaného režiséra Sergeje Loznici se v roce 2025 stalo kritiky nejlépe hodnoceným filmem z Hlavní soutěže festivalu v Cannes. (Aerofilms)",
+      "synopsis_language": "cs",
+      "runtime_min": 117,
+      "genres": [
+        "Drama",
+        "Mysteriózní",
+        "Thriller",
+        "Historický"
+      ],
+      "director": [
+        "Sergei Loznitsa"
+      ],
+      "screenwriter": [
+        "Sergei Loznitsa"
+      ],
+      "cast": [
+        "Aleksandr Kuznetsov",
+        "Aleksandr Filippenko",
+        "Anatoliy Belyy",
+        "Andris Keišs",
+        "Vytautas Kaniušonis",
+        "Valentin Novopolskij",
+        "Ivgeny Terletsky",
+        "Orests Paško"
+      ],
+      "production_company": [
+        "SBS Productions",
+        "Atoms & Void",
+        "LOOKSfilm",
+        "White Picture",
+        "Avanpost",
+        "Studio Uljana Kim",
+        "The Match Factory",
+        "ARTE",
+        "RBB"
+      ],
+      "poster_path": "/mRmj340uKGQqwZWMkP8Ztkt0SuY.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/3bFyBL1gFghrWH3FG0wNwZc1BGp.jpg",
+      "trailer_youtube_key": "rzYfw1M9qT4",
+      "age_rating": "12+",
+      "tmdb_id": 1257406,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Dva+prokur%C3%A1to%C5%99i+2025",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
       "film_id": "eos frida kahlo",
       "title_cz": "EOS: Frida Kahlo",
       "title_en": "Frida Kahlo",
@@ -423,6 +1322,82 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (0.95, title 0.85)",
       "match_score": 0.946
+    },
+    {
+      "film_id": "exit 8",
+      "title_cz": "Exit 8",
+      "title_en": "Exit 8",
+      "original_title": "８番出口",
+      "year": 2025,
+      "synopsis": "Muž uvězněný v nekonečné sterilní chodbě metra se vydává hledat Exit 8. Pravidla jeho pátrání jsou jednoduchá: nepřehlédnout nic neobvyklého. Pokud objevíte anomálii, okamžitě se vraťte zpět. Pokud ji neobjevíte, pokračujte dál. Nakonec vyjděte Exitem 8. Ale i jediné přehlédnutí vás pošle zpět na začátek. Lze vůbec někdy dosáhnout cíle a uniknout z této nekonečné chodby?",
+      "synopsis_language": "cs",
+      "runtime_min": 95,
+      "genres": [
+        "Horor",
+        "Mysteriózní"
+      ],
+      "director": [
+        "Genki Kawamura"
+      ],
+      "screenwriter": [
+        "Genki Kawamura",
+        "Kentaro Hirase"
+      ],
+      "cast": [
+        "Kazunari Ninomiya",
+        "Yamato Kochi",
+        "Naru Asanuma",
+        "Kotone Hanase",
+        "Nana Komatsu",
+        "Hirota Otsuka",
+        "Tara Nakashima",
+        "Reo Soda"
+      ],
+      "production_company": [
+        "TOHO",
+        "AOI Pro.",
+        "Story",
+        "Lawson",
+        "Suirinsha",
+        "Tohan",
+        "Office Nino",
+        "Metro Ad Agency"
+      ],
+      "poster_path": "/7IkfaPA5v3PmACvfebQkpubHOy1.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/3cVrg7tzSf5AgEecYWDOSAzXAeX.jpg",
+      "trailer_youtube_key": "zzEDWwhtAHc",
+      "age_rating": "PG-13 (US)",
+      "tmdb_id": 1408208,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Exit+8+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "festivalova vstupenka heatwave horror",
+      "title_cz": "Festivalová vstupenka Heatwave Horror",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Festivalov%C3%A1+vstupenka+Heatwave+Horror",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Festivalová vstupenka Heatwave Horror'",
+      "match_score": 0.0
     },
     {
       "film_id": "horke svatky",
@@ -493,6 +1468,83 @@
       "match_score": 0.0
     },
     {
+      "film_id": "ja daniel blake",
+      "title_cz": "Já, Daniel Blake",
+      "title_en": "I, Daniel Blake",
+      "original_title": "I, Daniel Blake",
+      "year": 2016,
+      "synopsis": "Sociálně apelativní a v současnosti až nepříjemně aktuální snímek vypráví příběh padesátníka Daniela Blakea z Newcastlu, který se poté, co utrpí infarkt, ocitne ve vyčerpávajícím kolotoči žádostí o podpůrné státní dávky. Zatímco se snaží prokousat nesmyslně nastaveným systémem a absurdními byrokratickými procesy, které ho nutí shánět práci v rozporu s doporučením lékaře, potkává svobodnou matku Katie a její dvě děti. Neúplná rodina má jedinou šanci, jak uniknout jednopokojáku na bezdomovecké ubytovně – přijmout byt v neznámém městě 300 mil daleko. Daniel a Katie se každý po svém snaží vypořádat s příkořími systému a přitom neztratit zbytky důstojnosti. (Film Europe)",
+      "synopsis_language": "cs",
+      "runtime_min": 100,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Ken Loach"
+      ],
+      "screenwriter": [
+        "Paul Laverty"
+      ],
+      "cast": [
+        "Dave Johns",
+        "Hayley Squires",
+        "Briana Shann",
+        "Dylan McKiernan",
+        "Kate Rutter",
+        "Sharon Percy",
+        "Kema Sikazwe",
+        "Magpie Richens"
+      ],
+      "production_company": [
+        "Sixteen Films",
+        "Why Not Productions",
+        "Wild Bunch",
+        "BBC Film",
+        "Les Films du Fleuve",
+        "France 2 Cinéma",
+        "BFI"
+      ],
+      "poster_path": "/nu3WVABXz2W85N6JXTZOT1aWS3b.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/mNLonkdD4MtaZnHTifp8be8nJrm.jpg",
+      "trailer_youtube_key": "tWaZFvdW7Pc",
+      "age_rating": "R (US)",
+      "tmdb_id": 374473,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=J%C3%A1%2C+Daniel+Blake+2016",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "kapralova",
+      "title_cz": "Kaprálová",
+      "title_en": "Kapralova",
+      "original_title": "Kaprálová",
+      "year": 2026,
+      "synopsis": "Czech composer Vítězslava Kaprálová was 22 years old when she left to study music in Paris in 1937. Three years later, she died of illness. This documentary, conceived as a dialogue across time and generations, follows in her footsteps. The short but intense period of the composer's life is reconstructed using archival footage and letters full of immediate impressions that the young artist shared with her family in Czechoslovakia. Her legacy is brought to life in parallel thanks to a new generation of conductors, such as Bianca Maretti, who rehearses some of her predecessor's compositions with an orchestra. Kaprálová's portrait thus becomes a tribute to all women who, despite language barriers, prejudices, and their origins, have managed to make their mark in the world of classical music.",
+      "synopsis_language": "en",
+      "runtime_min": 70,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Petr Záruba"
+      ],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "/72I8ODotVAlThiRkcvgnEehKr1m.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1571238,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kapr%C3%A1lov%C3%A1+2026",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
       "film_id": "kralovstvi kocek",
       "title_cz": "Království koček",
       "title_en": "The Cat Returns",
@@ -542,6 +1594,185 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
+    },
+    {
+      "film_id": "kraska v ruzovem",
+      "title_cz": "Kráska v růžovém",
+      "title_en": "Pretty in Pink",
+      "original_title": "Pretty in Pink",
+      "year": 1986,
+      "synopsis": "Andie Walshová je osmnáctiletá studentka, která se musí postarat nejen o sebe, ale i o svého povalečského otce, který je nešťastný z útěku své manželky a neustále slibuje, že si najde práci. Andie je díky tomu jiná než její spolužáci. Sama si vlastnoručně tvoří všemožné růžové kreace a tím je stále všem na očích. Má svůj vlastní vkus a sebevědomí. Přesto ale zatím v životě nepoznala moc lásky. Jednoho dne se ale život Andy naprosto změní...",
+      "synopsis_language": "cs",
+      "runtime_min": 97,
+      "genres": [
+        "Romantický",
+        "Drama"
+      ],
+      "director": [
+        "Howard Deutch"
+      ],
+      "screenwriter": [
+        "John Hughes"
+      ],
+      "cast": [
+        "Molly Ringwald",
+        "Andrew McCarthy",
+        "Jon Cryer",
+        "Annie Potts",
+        "Harry Dean Stanton",
+        "James Spader",
+        "Kate Vernon",
+        "Alexa Kenin"
+      ],
+      "production_company": [
+        "Paramount Pictures",
+        "Hughes Entertainment"
+      ],
+      "poster_path": "/jeFJyzJBufJexpOuywuPp8q2tCJ.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/bZneRu42OnfMJzQJ0Mn39kCI5v3.jpg",
+      "trailer_youtube_key": "mRLQUGq8eE8",
+      "age_rating": "PG-13 (US)",
+      "tmdb_id": 11522,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1ska+v+r%C5%AF%C5%BEov%C3%A9m+1986",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "kratke leto",
+      "title_cz": "Krátké léto",
+      "title_en": "Short Summer",
+      "original_title": "Short Summer",
+      "year": 2025,
+      "synopsis": "Osmiletá Katya tráví léto u prarodičů na venkově. Čas se zastavil, dospělí mlčí a v pozadí válka ničí životy. Mezitím děti dospívají a mraky plují po obloze.",
+      "synopsis_language": "cs",
+      "runtime_min": 101,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Nastia Korkia"
+      ],
+      "screenwriter": [
+        "Nastia Korkia",
+        "Mikhail Bushkov"
+      ],
+      "cast": [
+        "Maiia Pleshkevich",
+        "Yakov Karykhalin",
+        "Aleksandr Karpushin",
+        "Vesna Jovanović",
+        "Aleksandr Feklistov"
+      ],
+      "production_company": [
+        "Tamtam Film",
+        "Totem Atelier",
+        "Art & Popcorn"
+      ],
+      "poster_path": "/8koHNQPJmwgd53S3heLOufS9YUM.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/wNbRug9SLvK5cvFJ2a4JjqgxDYH.jpg",
+      "trailer_youtube_key": "2yqXG3OcpNQ",
+      "age_rating": "",
+      "tmdb_id": 1394398,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1tk%C3%A9+l%C3%A9to+2025",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "lak na vlasy",
+      "title_cz": "Lak na vlasy",
+      "title_en": "Hairspray",
+      "original_title": "Hairspray",
+      "year": 1988,
+      "synopsis": "'Pleasantly plump' teenager Tracy Turnblad achieves her dream of becoming a regular on the Corny Collins Dance Show. Now a teen hero, she starts using her fame to speak out for the causes she believes in, most of all integration. In doing so, she earns the wrath of the show's former star, Amber Von Tussle, as well as Amber's manipulative, pro-segregation parents. The rivalry comes to a head as Amber and Tracy vie for the title of Miss Auto Show 1963.",
+      "synopsis_language": "en",
+      "runtime_min": 92,
+      "genres": [
+        "Komedie",
+        "Hudební",
+        "Romantický"
+      ],
+      "director": [
+        "John Waters"
+      ],
+      "screenwriter": [
+        "John Waters"
+      ],
+      "cast": [
+        "Ricki Lake",
+        "Divine",
+        "Debbie Harry",
+        "Vitamin C",
+        "Sonny Bono",
+        "Leslie Ann Powers",
+        "Ruth Brown",
+        "Jerry Stiller"
+      ],
+      "production_company": [
+        "New Line Cinema",
+        "Stanley F. Buchthal",
+        "Robert Shaye Production"
+      ],
+      "poster_path": "/n78VVWG1jsEpMCtcye13wy1RiAx.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/ersVrGMSzq2WU6ynBQrHJhwuQ85.jpg",
+      "trailer_youtube_key": "6zgCEgeKoMk",
+      "age_rating": "15+",
+      "tmdb_id": 11054,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Lak+na+vlasy+1988",
+      "resolved": true,
+      "match_reason": "manual override",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "laska",
+      "title_cz": "Láska",
+      "title_en": "Love",
+      "original_title": "Love",
+      "year": 2015,
+      "synopsis": "Láska stojí mimo dobro a zlo. Láska je genetická potřeba. Láska je překonáním sebe sama. Láska je změněným stavem vědomí. Láska je tvrdá droga. Láska je duševní choroba. Láska je hra o moc. Láska je oslepující světlo. Láska je sperma, tělesné tekutiny a slzy. Láska se anglicky řekne Love. Love je vzrušující sexuální melodrama, které vypráví příběh jednoho kluka a jedné holky... a vlastně ještě jedné holky.",
+      "synopsis_language": "cs",
+      "runtime_min": 134,
+      "genres": [
+        "Drama",
+        "Romantický"
+      ],
+      "director": [
+        "Gaspar Noé"
+      ],
+      "screenwriter": [
+        "Gaspar Noé"
+      ],
+      "cast": [
+        "Karl Glusman",
+        "Aomi Muyock",
+        "Klara Kristin",
+        "Ugo Fox",
+        "Juan Saavedra",
+        "Gaspar Noé",
+        "Isabelle Nicou",
+        "Benoît Debie"
+      ],
+      "production_company": [
+        "Wild Bunch",
+        "Les Cinémas de la Zone",
+        "RT Features",
+        "Rectangle Productions",
+        "SCOPE Pictures"
+      ],
+      "poster_path": "/uc7ASg5JhTmDQOuColvxmNaTi7P.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/hoszursvZR1C054sTXVQBcBDory.jpg",
+      "trailer_youtube_key": "mR4JLD84RBo",
+      "age_rating": "NC-17 (US)",
+      "tmdb_id": 292431,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=L%C3%A1ska+2015",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
     },
     {
       "film_id": "leviticus",
@@ -688,6 +1919,100 @@
       "match_score": 1.15
     },
     {
+      "film_id": "mala sestra",
+      "title_cz": "Malá sestra",
+      "title_en": "Our Little Sister",
+      "original_title": "海街diary",
+      "year": 2015,
+      "synopsis": "Rodinné (melo)drama, které na čechovovském půdorysu domu, zahrady a čtyř sester skládá poctu magii všednosti. Tři sestry žijí společně ve velkém domě ve městě Kamakura. Když jejich otec, který od rodiny odešel před patnácti lety, zemře, cestují na venkov na pohřeb, kde poznají svou plachou nevlastní sestru. Jejich návrh, aby odjela žít společně s nimi, dospívající Suzu s nadšením přijímá. Začíná tak období sladkých i nahořklých dobrodružství...",
+      "synopsis_language": "cs",
+      "runtime_min": 127,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Hirokazu Kore-eda"
+      ],
+      "screenwriter": [
+        "Hirokazu Kore-eda"
+      ],
+      "cast": [
+        "Haruka Ayase",
+        "Masami Nagasawa",
+        "Kaho",
+        "Suzu Hirose",
+        "Ryo Kase",
+        "Ryohei Suzuki",
+        "Ikeda Takafumi",
+        "Kentaro Sakaguchi"
+      ],
+      "production_company": [
+        "Shogakukan",
+        "TOHO",
+        "Fuji Television Network",
+        "BUN-BUKU",
+        "GAGA Corporation",
+        "FILM"
+      ],
+      "poster_path": "/nTRdnuqkSXbo9ZxR8BMQbZRGwkv.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/b0Xdh15XGZbKON9CbFVB5sTqrSJ.jpg",
+      "trailer_youtube_key": "Iy2ZidLDgyk",
+      "age_rating": "",
+      "tmdb_id": 315846,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Mal%C3%A1+sestra+2015",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (0.81, title 0.81)",
+      "match_score": 0.815
+    },
+    {
+      "film_id": "mandalorian a grogu",
+      "title_cz": "Mandalorian a Grogu",
+      "title_en": "The Mandalorian and Grogu",
+      "original_title": "The Mandalorian and Grogu",
+      "year": 2026,
+      "synopsis": "Zlé Impérium padlo a imperiální vojevůdci jsou roztroušeni po celé galaxii. Nová republika, která teprve vzniká, se snaží ochránit vše, za co povstání bojovalo, a proto požádala o pomoc legendárního mandaloriánského lovce odměn Dina Djarina a jeho mladého učedníka Groga.",
+      "synopsis_language": "cs",
+      "runtime_min": 132,
+      "genres": [
+        "Akční",
+        "Dobrodružný",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Jon Favreau"
+      ],
+      "screenwriter": [
+        "Jon Favreau",
+        "Dave Filoni",
+        "Noah Kloor"
+      ],
+      "cast": [
+        "Pedro Pascal",
+        "Jeremy Allen White",
+        "Sigourney Weaver",
+        "Brendan Wayne",
+        "Lateef Crowder",
+        "Steve Blum",
+        "Jonny Coyne",
+        "Matthew Willig"
+      ],
+      "production_company": [
+        "Lucasfilm Ltd.",
+        "Fairview Entertainment"
+      ],
+      "poster_path": "/3uQzFhr3OZwAVEQd6PwAlQAmfKP.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/MJcERawyqGqJdPsOBc0C449hQ9.jpg",
+      "trailer_youtube_key": "I5D1ojZjmBo",
+      "age_rating": "U",
+      "tmdb_id": 1228710,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Mandalorian+a+Grogu+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (0.86, title 0.86)",
+      "match_score": 0.864
+    },
+    {
       "film_id": "matador",
       "title_cz": "Matador",
       "title_en": "Matador",
@@ -825,6 +2150,96 @@
       "match_score": 1.15
     },
     {
+      "film_id": "michael",
+      "title_cz": "Michael",
+      "title_en": "Michael",
+      "original_title": "Michael",
+      "year": 2026,
+      "synopsis": "Michael podrobně mapuje kariéru budoucího Krále popu od jeho prvních kroků v rodinné skupině Jackson Five, kde od začátku prokazoval největší talent, i když byl nejmladším členem kapely. Stále populárnější skupinu vede pevnou rukou jeho táta Joe, možná až příliš pevnou pro křehkého Michaela. Když se o Jackson Five začnou zajímat hudební producenti, všichni si okamžitě uvědomí, že Michael je nejcennějším členem skupiny. Ti nejodvážnější z nich dokonce začínají mluvit o tom, jak by jeho kariéře prospělo, kdyby se vydal na sólovou dráhu. Joe, despotický otec a tvrdý manažer v jedné osobě, o tom samozřejmě nechce ani slyšet. Michael však touží jít vlastní cestou. A tak nad Jacksonovými zavládne klid před bouří, ze které se zrodí hudební legenda a některé z nejlepších písní v historii populární hudby.",
+      "synopsis_language": "cs",
+      "runtime_min": 128,
+      "genres": [
+        "Hudební",
+        "Drama"
+      ],
+      "director": [
+        "Antoine Fuqua"
+      ],
+      "screenwriter": [
+        "John Logan"
+      ],
+      "cast": [
+        "Jaafar Jackson",
+        "Colman Domingo",
+        "Nia Long",
+        "Juliano Krue Valdi",
+        "KeiLyn Durrel Jones",
+        "Miles Teller",
+        "Larenz Tate",
+        "Laura Harrier"
+      ],
+      "production_company": [
+        "Lionsgate",
+        "GK Films",
+        "Optimum Productions"
+      ],
+      "poster_path": "/zm0KAbOjlt9eR5y7vDiL2dEOwMl.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
+      "trailer_youtube_key": "k-YAcjaLuSI",
+      "age_rating": "12+",
+      "tmdb_id": 936075,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Michael+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "milost",
+      "title_cz": "Milost",
+      "title_en": "La Grazia",
+      "original_title": "La grazia",
+      "year": 2025,
+      "synopsis": "Italského prezidenta (Toni Servillo) čekají před odchodem z úřadu poslední těžká rozhodnutí. Na stole má dvě žádosti o milost za vraždy z lásky a jeden kontroverzní zákon. Aby přestal váhat nad správným řešením, musí se nejdřív smířit s nedávným odchodem milované ženy i podezřením, že mu byla nevěrná. Odpověď na tajemství, které mu nedá spát, ale zná jen jeden člověk. Originální drama o lásce, pochybách a odpovědnosti představuje oscarového režiséra Paola Sorrentina (Velká nádhera, Mládí) ve zcela novém světle a životní formě. (Aerofilms)",
+      "synopsis_language": "cs",
+      "runtime_min": 131,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Paolo Sorrentino"
+      ],
+      "screenwriter": [
+        "Paolo Sorrentino"
+      ],
+      "cast": [
+        "Toni Servillo",
+        "Anna Ferzetti",
+        "Massimo Venturiello",
+        "Milvia Marigliano",
+        "Orlando Cinque",
+        "Giuseppe Gaiani",
+        "Giovanna Guida",
+        "Alessia Giuliani"
+      ],
+      "production_company": [
+        "The Apartment Pictures",
+        "Numero10",
+        "Fremantle Italia",
+        "PiperFilm"
+      ],
+      "poster_path": "/g8x2zmPvlmYobahJRb7enPDa1ZU.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/baIjN7xPyw2In1CuHACTgzcsF20.jpg",
+      "trailer_youtube_key": "zvQn44a_IHo",
+      "age_rating": "R (US)",
+      "tmdb_id": 1397364,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Milost+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
       "film_id": "mimoni a monstra",
       "title_cz": "Mimoni a monstra",
       "title_en": "Minions & Monsters",
@@ -914,6 +2329,56 @@
       "match_score": 1.15
     },
     {
+      "film_id": "mlceni",
+      "title_cz": "Mlčení",
+      "title_en": "Silence",
+      "original_title": "Silence",
+      "year": 2016,
+      "synopsis": "V polovině 17. století je Japonsko zcela uzavřené kontaktu se západními mocnostmi. Křesťanství je zde postavené mimo zákon a křesťané musí svou víru skrývat. Dva portugalští jezuité, otec Rodrigues (Andrew Garfield) a otec Garupe (Adam Driver), se vydávají do země vycházejícího slunce s velmi nebezpečným cílem: najít svého učitele, otce Ferreiru (Liam Neeson), který se prý zřekl víry. Japonští feudálové a vládnoucí samurajové jsou odhodláni křesťanství ve své zemi vymýtit. Šířit slovo Boží je jeden z nejtěžších zločinů. Křesťané jsou pronásledováni a brutálně mučeni. Buď se zřeknou své víry, nebo jsou vystaveni dlouhé agónii a bolestivé smrti. Mladé mnichy čeká ta nejtěžší zkouška víry a vytrvalosti, na kterou možná nejsou připraveni...",
+      "synopsis_language": "cs",
+      "runtime_min": 161,
+      "genres": [
+        "Drama",
+        "Historický"
+      ],
+      "director": [
+        "Martin Scorsese"
+      ],
+      "screenwriter": [
+        "Jay Cocks",
+        "Martin Scorsese"
+      ],
+      "cast": [
+        "Andrew Garfield",
+        "Adam Driver",
+        "Liam Neeson",
+        "Tadanobu Asano",
+        "Ciarán Hinds",
+        "Issey Ogata",
+        "Shinya Tsukamoto",
+        "Yoshi Oida"
+      ],
+      "production_company": [
+        "Waypoint Entertainment",
+        "Cappa Defina Productions",
+        "CatchPlay",
+        "Fábrica de Cine",
+        "SharpSword Films",
+        "Sikelia Productions",
+        "EFO Films"
+      ],
+      "poster_path": "/tU6xZKKvvLcrBcLIdGAQwVnFFgW.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/2tE0A6WjLowwQOUY8se1Xlf3O6U.jpg",
+      "trailer_youtube_key": "IqrgxZLd_gE",
+      "age_rating": "12+",
+      "tmdb_id": 68730,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ml%C4%8Den%C3%AD+2016",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
       "film_id": "modry samet",
       "title_cz": "Modrý samet",
       "title_en": "Blue Velvet",
@@ -1001,6 +2466,107 @@
       "match_score": 1.0
     },
     {
+      "film_id": "mrzuta rybka",
+      "title_cz": "Mrzutá rybka",
+      "title_en": "The Pout-Pout Fish",
+      "original_title": "The Pout-Pout Fish",
+      "year": 2026,
+      "synopsis": "Living on a rundown shipwreck, Mr. Fish one day discovers a hyperactive young sea dragon Pip – who had mistaken his home for a junkyard – pilfering his belongings. The heated argument that ensues leaves both their houses in ruin. But there is hope! Embarking on a seemingly impossible quest in search of the mythical 'Shimmer' to grant them a wish, there’s only one problem: someone else is on the hunt...",
+      "synopsis_language": "en",
+      "runtime_min": 91,
+      "genres": [
+        "Animovaný",
+        "Rodinný",
+        "Dobrodružný",
+        "Komedie"
+      ],
+      "director": [
+        "Ricard Cussó"
+      ],
+      "screenwriter": [
+        "Elie Choufany",
+        "Elise Allen",
+        "Dominic Morris"
+      ],
+      "cast": [
+        "Nick Offerman",
+        "Nina Oyama",
+        "Miranda Otto",
+        "Amy Sedaris",
+        "Jordin Sparks",
+        "Remy Hii",
+        "Mark Coles Smith",
+        "Nazeem Hussain"
+      ],
+      "production_company": [
+        "MIMO Studios",
+        "Like A Photon Creative",
+        "Macmillan Films",
+        "Cosmic Dino Studio",
+        "Alceon Entertainment Partners",
+        "Eclectik Vision",
+        "Screen Queensland",
+        "Sola Media",
+        "Maslow Entertainment"
+      ],
+      "poster_path": "/fcDXgGL14qL46It1XOozEjX5Jws.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/6qQQhhF87Rm1z2TYhXAmoPiEHME.jpg",
+      "trailer_youtube_key": "NhQfp1eITTY",
+      "age_rating": "PG (US)",
+      "tmdb_id": 1146058,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Mrzut%C3%A1+rybka+2026",
+      "resolved": true,
+      "match_reason": "manual override",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "muj soused totoro",
+      "title_cz": "Můj soused Totoro",
+      "title_en": "My Neighbor Totoro",
+      "original_title": "となりのトトロ",
+      "year": 1988,
+      "synopsis": "Satsuke a její malá sestřička Mei se společně s tatínkem stěhují do nového domu na venkově. Jejich maminka je v nemocnici, tatínek má hodně práce, a tak oběma zůstává spousta času na seznamování se s novým domovem. Brzy poznají, že dům a jeho okolí  jsou obývány nejrůznějšími kouzelnými bytostmi. Díky zvědavé Mei narazí na dobráckého lesního ducha Totora, se kterým za krátko zažijí nejedno úžasné dobrodružství.",
+      "synopsis_language": "cs",
+      "runtime_min": 86,
+      "genres": [
+        "Fantasy",
+        "Animovaný",
+        "Rodinný"
+      ],
+      "director": [
+        "Hayao Miyazaki"
+      ],
+      "screenwriter": [
+        "Hayao Miyazaki"
+      ],
+      "cast": [
+        "Noriko Hidaka",
+        "Chika Sakamoto",
+        "Hitoshi Takagi",
+        "Shigesato Itoi",
+        "Sumi Shimamoto",
+        "Tanie Kitabayashi",
+        "Toshiyuki Amagasa",
+        "Yuko Maruyama"
+      ],
+      "production_company": [
+        "Studio Ghibli",
+        "Nibariki",
+        "Tokuma Shoten"
+      ],
+      "poster_path": "/aCA67jHLItGvAq9RsweARnc40s3.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/zkThiZAaAie8Lw7RAc5yPTOewBV.jpg",
+      "trailer_youtube_key": "ROfVsRqBhy0",
+      "age_rating": "G (US)",
+      "tmdb_id": 8392,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=M%C5%AFj+soused+Totoro+1988",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
       "film_id": "mumbo jumbo",
       "title_cz": "Mumbo Jumbo",
       "title_en": "When Mumbo Jumbo Grew Giant",
@@ -1045,6 +2611,53 @@
       "match_score": 1.0
     },
     {
+      "film_id": "na skok do divociny",
+      "title_cz": "Na skok do divočiny",
+      "title_en": "Hoppers",
+      "original_title": "Hoppers",
+      "year": 2026,
+      "synopsis": "Připravovaná nová animovaná akční komedie představuje milovnici zvířat Mabel, která se chopí příležitosti – nebo vlastně skočí – vyzkoušet novou technologii, která jí umožňuje komunikovat se zvířaty novým vzrušujícím způsobem.",
+      "synopsis_language": "cs",
+      "runtime_min": 104,
+      "genres": [
+        "Dobrodružný",
+        "Animovaný",
+        "Komedie",
+        "Rodinný",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Daniel Chong"
+      ],
+      "screenwriter": [
+        "Jesse Andrews",
+        "Daniel Chong"
+      ],
+      "cast": [
+        "Piper Curda",
+        "Bobby Moynihan",
+        "Jon Hamm",
+        "Kathy Najimy",
+        "Dave Franco",
+        "Eduardo Franco",
+        "Aparna Nancherla",
+        "Tom Law"
+      ],
+      "production_company": [
+        "Pixar"
+      ],
+      "poster_path": "/iPIN0SZCyCHO0y6920HmTYfRgB8.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
+      "trailer_youtube_key": "PypDSyIRRSs",
+      "age_rating": "U",
+      "tmdb_id": 1327819,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Na+skok+do+divo%C4%8Diny+2026",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
       "film_id": "nebezpecne znamosti",
       "title_cz": "Nebezpečné známosti | NT Live",
       "title_en": "",
@@ -1068,6 +2681,256 @@
       "resolved": false,
       "match_reason": "title matched 'Nebezpečné známosti' but director and runtime contradict it",
       "match_score": 0.85
+    },
+    {
+      "film_id": "neboj dychej caruj",
+      "title_cz": "Neboj, dýchej, čaruj",
+      "title_en": "Neboj, dýchej, čaruj",
+      "original_title": "Neboj, dýchej, čaruj",
+      "year": 2026,
+      "synopsis": "David Stypka byl nejen výjimečný hudebník, ale i citlivý pozorovatel světa... Hledal krásu v obyčejných okamžicích a nacházel světlo i v temných chvílích. Jeho tvorba inspiruje napříč generacemi. Kdo by neznal písně jako „Jericho“, „Kříž“ nebo duet „Dobré ráno, milá“ s Ewou Farnou? Málokdo ho však znal takového, jaký skutečně byl – jak žil, tvořil a jak se vyrovnával s nelehkým osudem. Právě tuto osobní rovinu odhaluje dokument režiséra Dana Svátka.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Dan Svátek"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "David Stypka",
+        "Marek Červinka",
+        "Ewa Farna",
+        "Kateřina Marie Tichá",
+        "Mirai Navrátil",
+        "Martin Ledvina",
+        "Jindra Polák"
+      ],
+      "production_company": [],
+      "poster_path": "/qSZv1fRpZumG9q2NzKNc7HYk8Gk.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/ixpvBVxnCzGYUrFqN8hYGZDek1L.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "12+",
+      "tmdb_id": 1660781,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Neboj%2C+d%C3%BDchej%2C+%C4%8Daruj+2026",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "nenavist",
+      "title_cz": "Nenávist",
+      "title_en": "La Haine",
+      "original_title": "La Haine",
+      "year": 1995,
+      "synopsis": "Pochmurný příběh odehrávající se během jednoho dne o třech kamarádech s různým původem, různou mentalitou, intelektem a způsobem, jakým se vyrovnávají s těžkým životem na předměstí současného multikulturního Paříže.",
+      "synopsis_language": "cs",
+      "runtime_min": 98,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Mathieu Kassovitz"
+      ],
+      "screenwriter": [
+        "Mathieu Kassovitz"
+      ],
+      "cast": [
+        "Vincent Cassel",
+        "Hubert Koundé",
+        "Saïd Taghmaoui",
+        "Abdel Ahmed Ghili",
+        "Solo",
+        "Joseph Momo",
+        "Héloïse Rauth",
+        "Rywka Wajsbrot"
+      ],
+      "production_company": [
+        "Kasso Productions",
+        "La Sept Cinéma",
+        "Les Productions Lazennec",
+        "Canal+",
+        "StudioCanal"
+      ],
+      "poster_path": "/gfdhSzPyAWtAizqs4ytc0MwOlQg.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/viGCwLxupyoaLsa6hrnu1gYrB0B.jpg",
+      "trailer_youtube_key": "FKwcXt3JIaU",
+      "age_rating": "NR (US)",
+      "tmdb_id": 406,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Nen%C3%A1vist+1995",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "neni jina moznost",
+      "title_cz": "Není jiná možnost",
+      "title_en": "No Other Choice",
+      "original_title": "어쩔수가없다",
+      "year": 2025,
+      "synopsis": "Man-su má všechno, o čem snil: stabilní práci v prestižní papírenské firmě, respekt, šťastnou rodinu a velký dům se skleníkem plným bonsají. Když ale papírnu koupí Američané a Man-su přijde o místo, začne se jeho dokonalý svět rozpadat. Jediná možnost, jak vše v korporátním světě získat zpět? Odstranit konkurenci.",
+      "synopsis_language": "cs",
+      "runtime_min": 139,
+      "genres": [
+        "Komedie",
+        "Krimi",
+        "Thriller"
+      ],
+      "director": [
+        "Park Chan-wook"
+      ],
+      "screenwriter": [
+        "Park Chan-wook",
+        "Lee Kyoung-mi",
+        "Don McKellar",
+        "Lee Ja-hye"
+      ],
+      "cast": [
+        "Lee Byung-hun",
+        "Son Ye-jin",
+        "Park Hee-soon",
+        "Lee Sung-min",
+        "Yeom Hye-ran",
+        "Cha Seung-won",
+        "Oh Dal-su",
+        "Kim Woo-seung"
+      ],
+      "production_company": [
+        "CJ ENM Studios",
+        "Moho Film",
+        "KG Productions"
+      ],
+      "poster_path": "/9w7WGjQes0Cs0s4U3Qr09Tg1Sra.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/1eM6Ey1FzpgJigrxRiSYtntSWq7.jpg",
+      "trailer_youtube_key": "SK_DEabMNVg",
+      "age_rating": "12+",
+      "tmdb_id": 639988,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Nen%C3%AD+jin%C3%A1+mo%C5%BEnost+2025",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "nt live nebezpecne znamosti",
+      "title_cz": "NT Live: Nebezpečné známosti",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=NT+Live%3A+Nebezpe%C4%8Dn%C3%A9+zn%C3%A1mosti",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'NT Live: Nebezpečné známosti'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "o tele a dusi",
+      "title_cz": "O těle a duši",
+      "title_en": "On Body and Soul",
+      "original_title": "Testről és lélekről",
+      "year": 2017,
+      "synopsis": "Nekonvenční love story dvou odlišně zmrzačených lidí: stárnoucího finančního ředitele jatek, jemuž tělesný handicap brání v navázání bližšího vztahu a mladé uzavřené kvalitářky masa s dokonalou pamětí, ale nepřekonatelnou fobií z tělesného kontaktu i potenciálního citového vzplanutí. Oba hrdinové, postupně ohromováni zjištěním, že sdílejí totožné sny (v nichž jsou laní a jelenem uprostřed zasněženého lesa), se je následně pokoušejí společně naplnit. Lehce excentrická, taktilní i odtažitá romance s prvky všednodenního dramatu a černé komedie sugestivně tematizuje dualitu bdělosti a snění, zvířeckosti a humanity, duše a těla.",
+      "synopsis_language": "cs",
+      "runtime_min": 116,
+      "genres": [
+        "Drama",
+        "Romantický",
+        "Fantasy"
+      ],
+      "director": [
+        "Ildikó Enyedi"
+      ],
+      "screenwriter": [
+        "Ildikó Enyedi"
+      ],
+      "cast": [
+        "Alexandra Borbély",
+        "Morcsányi Géza",
+        "Réka Tenki",
+        "Ervin Nagy",
+        "Zoltán Schneider",
+        "Tamás Jordán",
+        "Itala Békés",
+        "Éva Bata"
+      ],
+      "production_company": [
+        "Inforg-M&M Film"
+      ],
+      "poster_path": "/35nb06TsNPXHIsC03jvGsZcnD2.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/s5BvDOLava3Z8NjAOnT0Xe96iLS.jpg",
+      "trailer_youtube_key": "jK5tIkuTKbA",
+      "age_rating": "",
+      "tmdb_id": 436343,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=O+t%C4%9Ble+a+du%C5%A1i+2017",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "odvazna vaiana",
+      "title_cz": "Odvážná Vaiana",
+      "title_en": "Moana",
+      "original_title": "Moana",
+      "year": 2026,
+      "synopsis": "Mladá mořeplavkyně Vaiana vyslyší volání oceánu, opustí bezpečí rodného ostrova Motunui a vydá se na nebezpečnou cestu za jeho útes. Společně s legendárním polobohem Mauim musí čelit síle živlů, dávným mýtům i vlastním pochybnostem, aby pomohla navrátit svému lidu ztracený blahobyt. Na širém moři Vaiana pozná, že skutečná odvaha začíná ve chvíli, kdy se člověk rozhodne následovat hlas, který ho volá dál.",
+      "synopsis_language": "cs",
+      "runtime_min": 115,
+      "genres": [
+        "Rodinný",
+        "Fantasy",
+        "Komedie",
+        "Dobrodružný"
+      ],
+      "director": [
+        "Thomas Kail"
+      ],
+      "screenwriter": [
+        "Jared Bush",
+        "Dana Ledoux Miller"
+      ],
+      "cast": [
+        "Catherine Lagaʻaia",
+        "Dwayne Johnson",
+        "Rena Owen",
+        "John Tui",
+        "Frankie Adams",
+        "Jemaine Clement",
+        "Emma Puahi-Shapazian",
+        "Amaya Masoli"
+      ],
+      "production_company": [
+        "Walt Disney Pictures",
+        "Seven Bucks Productions",
+        "Flynn Picture Company",
+        "5000 Broadway Productions"
+      ],
+      "poster_path": "/pC6SDxEUYcabd0xGCg3T6lzwxh.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/76WFQTmh4gsqYpWTejxuEu5Iu69.jpg",
+      "trailer_youtube_key": "8Zsa_ntzNxo",
+      "age_rating": "U",
+      "tmdb_id": 1108427,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Odv%C3%A1%C5%BEn%C3%A1+Vaiana+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
     },
     {
       "film_id": "odyssea",
@@ -1113,6 +2976,54 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
+    },
+    {
+      "film_id": "ono",
+      "title_cz": "Ono",
+      "title_en": "Hatching",
+      "original_title": "Pahanhautoja",
+      "year": 2022,
+      "synopsis": "Dvanáctiletá gymnastka Tinja se zoufale snaží zalíbit své matce, která je posedlá rodinnou image a jejíž populární blog „Krásný každodenní život“ představuje idylickou existenci jejich rodiny jako dokonalost na předměstí. Jednoho dne najde Tinja v lese zraněného ptáka, přinese si jeho podivné vejce domů, uloží ho do své postele a pečuje o něj, dokud se nevylíhne. Tvor, který se z něj vyklube, se stane jejím nejbližším přítelem a živoucí noční můrou, která Tinju žijící pod dokonalou slupkou ponoří do zvrácené reality, kterou její matka odmítá vidět.",
+      "synopsis_language": "cs",
+      "runtime_min": 87,
+      "genres": [
+        "Horor",
+        "Fantasy"
+      ],
+      "director": [
+        "Hanna Bergholm"
+      ],
+      "screenwriter": [
+        "Hanna Bergholm",
+        "Ilja Rautsi"
+      ],
+      "cast": [
+        "Siiri Solalinna",
+        "Sophia Heikkilä",
+        "Jani Volanen",
+        "Reino Nordin",
+        "Oiva Ollila",
+        "Ida Määttänen",
+        "Saija Lentonen",
+        "Stella Leppikorpi"
+      ],
+      "production_company": [
+        "Silva Mysterium",
+        "uMedia",
+        "Film i Väst",
+        "HOBAB",
+        "Evil Doghouse Productions"
+      ],
+      "poster_path": "/mD6y0TKcNdeSH83mX1ludS41PR3.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/bnXGwFBomUseQIc9Xqiymy9p8qP.jpg",
+      "trailer_youtube_key": "1osw2FuY1XU",
+      "age_rating": "15+",
+      "tmdb_id": 517302,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ono+2022",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
     },
     {
       "film_id": "padle ovoce",
@@ -1267,6 +3178,54 @@
       "match_score": 1.15
     },
     {
+      "film_id": "pillion",
+      "title_cz": "Pillion",
+      "title_en": "Pillion",
+      "original_title": "Pillion",
+      "year": 2025,
+      "synopsis": "Colin, a timid gay man, is swept off his feet when Ray, an enigmatic and impossibly handsome biker, takes him on as his submissive in a crazy and erotic BDSM-focused relationship.",
+      "synopsis_language": "en",
+      "runtime_min": 107,
+      "genres": [
+        "Romantický",
+        "Drama",
+        "Komedie"
+      ],
+      "director": [
+        "Harry Lighton"
+      ],
+      "screenwriter": [
+        "Harry Lighton"
+      ],
+      "cast": [
+        "Harry Melling",
+        "Alexander Skarsgård",
+        "Lesley Sharp",
+        "Douglas Hodge",
+        "Jake Shears",
+        "Mat Hill",
+        "Nick Figgis",
+        "Zoe Engerer"
+      ],
+      "production_company": [
+        "BBC Film",
+        "BFI",
+        "Element Pictures",
+        "Fremantle",
+        "September Film"
+      ],
+      "poster_path": "/7Pd6ChSQjSXy4snJiorSdzg2cG3.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/rBYrtkAy9YtRuFpX1g6JbcjRT8h.jpg",
+      "trailer_youtube_key": "Gl8n5I-IIHU",
+      "age_rating": "15+",
+      "tmdb_id": 1287141,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Pillion+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
       "film_id": "po vecerce",
       "title_cz": "Po večerce",
       "title_en": "Po večerce",
@@ -1309,6 +3268,57 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
+    },
+    {
+      "film_id": "poeta",
+      "title_cz": "Poeta",
+      "title_en": "A Poet",
+      "original_title": "Un poeta",
+      "year": 2025,
+      "synopsis": "An aging poet finds purpose mentoring Yurlady, a talented teen, though exposing her to the poetry scene might be unwise. His own poetic pursuits led nowhere, leaving him a stereotypical obscure writer.",
+      "synopsis_language": "en",
+      "runtime_min": 123,
+      "genres": [
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "Simón Mesa Soto"
+      ],
+      "screenwriter": [
+        "Simón Mesa Soto"
+      ],
+      "cast": [
+        "Ubeimar Rios",
+        "Rebeca Andrade",
+        "Guillermo Cardona",
+        "Alisson Correa",
+        "Humberto Restrepo",
+        "Margarita Soto",
+        "Hilda Gutíerrez Lodoño",
+        "Emmanuel Garcés Botero"
+      ],
+      "production_company": [
+        "Ocúltimo",
+        "Medio de Contención Producciones",
+        "ma.ja.de. Fiction",
+        "Momento Film",
+        "Film i Väst",
+        "Das kleine Fernsehspiel",
+        "ZDF/Arte",
+        "Dago García Producciones",
+        "Caracol Televisión"
+      ],
+      "poster_path": "/lg2p2GCrkwF5Ueh6Dj8ECQNhBUz.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/kJQ56bguSWbXAzN7EK1RUekfY0S.jpg",
+      "trailer_youtube_key": "xRyVkKYG3BA",
+      "age_rating": "",
+      "tmdb_id": 1465563,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Poeta+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (0.77, title 0.77)",
+      "match_score": 0.769
     },
     {
       "film_id": "posedlost",
@@ -1355,6 +3365,52 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
+    },
+    {
+      "film_id": "posledni viking",
+      "title_cz": "Poslední Viking",
+      "title_en": "The Last Viking",
+      "original_title": "Den sidste viking",
+      "year": 2025,
+      "synopsis": "Po čtrnácti letech vězení za loupež je Anker propuštěn a setkává se se svým duševně nemocným bratrem Manfredem, který jako jediný ví, kde je ukryté ukradené peníze, ale zapomněl, kde přesně. Vydávají se na cestu, aby získali kořist zpět a vyrovnali se se svou minulostí.",
+      "synopsis_language": "cs",
+      "runtime_min": 116,
+      "genres": [
+        "Komedie",
+        "Krimi",
+        "Drama"
+      ],
+      "director": [
+        "Anders Thomas Jensen"
+      ],
+      "screenwriter": [
+        "Anders Thomas Jensen"
+      ],
+      "cast": [
+        "Mads Mikkelsen",
+        "Nikolaj Lie Kaas",
+        "Sofie Gråbøl",
+        "Søren Malling",
+        "Bodil Jørgensen",
+        "Lars Brygmann",
+        "Nicolas Bro",
+        "Kardo Razzazi"
+      ],
+      "production_company": [
+        "Zentropa Entertainments",
+        "Film i Väst",
+        "Zentropa International Sweden"
+      ],
+      "poster_path": "/5aK6PmgYVoGa5oJezT4oY3UtRXj.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/zo1SfeASCrbHFaXJN9y1RW7uU2m.jpg",
+      "trailer_youtube_key": "YdFbqryfdxg",
+      "age_rating": "",
+      "tmdb_id": 1295400,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Posledn%C3%AD+Viking+2025",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
     },
     {
       "film_id": "pozvani",
@@ -1444,6 +3500,56 @@
       "match_score": 1.15
     },
     {
+      "film_id": "princezna kosmolesba",
+      "title_cz": "Princezna kosmolesba",
+      "title_en": "Lesbian Space Princess",
+      "original_title": "Lesbian Space Princess",
+      "year": 2025,
+      "synopsis": "Introvertní princezna Saira, dcera okázalých lesbických královen planety Clitopolis, je zdrcená, když se s ní její přítelkyně, lovkyně lidí Kiki, náhle rozejde, protože přespříliš vyžaduje jeji pozornost. Když je Kiki unesena heterosexuálními bílými mufouny – zapomenutými inceli budoucnosti –, musí Saira opustit pohodlí homosexuálního vesmíru, aby doručila požadované výkupné: její královský labrys, nejmocnější zbraň známou lesbickému druhu. Jediný problém je... že ji Saira nemá! Saira má na získání zbraně a záchranu Kiki pouhých 24 hodin, a tak se vydává na inter-gay-laktickou cestu sebepoznání, která zahrnuje setkání s problematickou vesmírnou lodí a nově nalezené přátelství s gay-popovou uprchlicí Willow. Bujaré, cukrkandlově barevné animované komediální dobrodružství napříč všeobjímající rozlehlostí queer vesmíru.",
+      "synopsis_language": "cs",
+      "runtime_min": 87,
+      "genres": [
+        "Animovaný",
+        "Komedie",
+        "Vědeckofantastický",
+        "Dobrodružný"
+      ],
+      "director": [
+        "Emma Hough Hobbs",
+        "Leela Varghese"
+      ],
+      "screenwriter": [
+        "Emma Hough Hobbs",
+        "Leela Varghese"
+      ],
+      "cast": [
+        "Shabana Azeez",
+        "Gemma Chua-Tran",
+        "Richard Roxburgh",
+        "Bernie Van Tiel",
+        "Kween Kong",
+        "Jordan Raskopoulos",
+        "Madeleine Sami",
+        "Zachary Ruane"
+      ],
+      "production_company": [
+        "We Made a Thing Studios",
+        "South Australian Film Corporation",
+        "Screen Australia",
+        "Umbrella Entertainment"
+      ],
+      "poster_path": "/fFa0cGVdQAU6RiNvE1SUpmnBhCc.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/rS0ewRtB2ugDvbaVUoCXOpBOppM.jpg",
+      "trailer_youtube_key": "Nra14aUNYS8",
+      "age_rating": "",
+      "tmdb_id": 1333141,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Princezna+kosmolesba+2025",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
       "film_id": "prisaham ze za to nemuzu",
       "title_cz": "Přísahám, že za to nemůžu",
       "title_en": "I Swear",
@@ -1486,6 +3592,263 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
+    },
+    {
+      "film_id": "psycho",
+      "title_cz": "Psycho",
+      "title_en": "Psycho",
+      "original_title": "Psycho",
+      "year": 1960,
+      "synopsis": "Anthony Perkins jako duševně nemocný Norman Bates. Jeho starý ponurý dům slouží jako příležitostný motel a rozhodně není místem klidného odpočinku. O tom se přesvědčí i Marion Craneová (Janet Leigh). Soukromý detektiv (Martin Balsam) a Marionina sestra (Vera Miles) se vydávají po stopách zmizelé mladé Marion. Smrtelné napětí stoupá, až nakonec vyústí ve strašný a nevyhnutelný závěr.",
+      "synopsis_language": "cs",
+      "runtime_min": 109,
+      "genres": [
+        "Horor",
+        "Thriller",
+        "Mysteriózní"
+      ],
+      "director": [
+        "Alfred Hitchcock"
+      ],
+      "screenwriter": [
+        "Joseph Stefano"
+      ],
+      "cast": [
+        "Anthony Perkins",
+        "Janet Leigh",
+        "Vera Miles",
+        "John Gavin",
+        "Martin Balsam",
+        "John McIntire",
+        "Simon Oakland",
+        "Frank Albertson"
+      ],
+      "production_company": [
+        "Shamley Productions"
+      ],
+      "poster_path": "/3NykMwpWMNHgt9FlNTL5cm2dMR1.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/mufF1aYvwdpKerhq5R1YrVcbJLY.jpg",
+      "trailer_youtube_key": "D90QhegiVvo",
+      "age_rating": "U",
+      "tmdb_id": 539,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Psycho+1960",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "queer",
+      "title_cz": "Queer",
+      "title_en": "Queer",
+      "original_title": "Queer",
+      "year": 2024,
+      "synopsis": "50. léta minulého století. Američan William Lee tráví své dlouhé dny osaměle v rozpálených uličkách Mexico City. Jeho život se ale mění, když potkává Eugena. Mladý student v něm zažehne novou vášeň, ale Williamova láska s sebou nese i spoustu nejistot a otazníků.",
+      "synopsis_language": "cs",
+      "runtime_min": 138,
+      "genres": [
+        "Drama",
+        "Romantický"
+      ],
+      "director": [
+        "Luca Guadagnino"
+      ],
+      "screenwriter": [
+        "Justin Kuritzkes"
+      ],
+      "cast": [
+        "Daniel Craig",
+        "Drew Starkey",
+        "Jason Schwartzman",
+        "Lesley Manville",
+        "Henrique Zaga",
+        "Drew Droege",
+        "Andra Ursuta",
+        "Lisandro Alonso"
+      ],
+      "production_company": [
+        "Fremantle",
+        "The Apartment Pictures",
+        "Frenesy Film"
+      ],
+      "poster_path": "/xe4b2TMciLKA1C0JlhWxb4ENLln.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/7bUYzlDz8eel1BVL1Y0YcF9NQmd.jpg",
+      "trailer_youtube_key": "-pVKnv4E-k4",
+      "age_rating": "15+",
+      "tmdb_id": 1059128,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Queer+2024",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "quo vadis aida",
+      "title_cz": "Quo vadis, Aida?",
+      "title_en": "Quo Vadis, Aida?",
+      "original_title": "Quo Vadis, Aida?",
+      "year": 2021,
+      "synopsis": "Je rok 1995 a Aida pracuje jako překladatelka pro OSN ve Srebrenici. Její rodina je mezi tisícovkami místních, kteří hledají v „bezpečné zóně\" OSN útočiště před srbskou armádou. Pár hodin od míst, kde s oblibou trávíme letní dovolené, se schyluje k největší evropské tragédii od konce druhé světové války. Při vyjednáváních si Aida postupně uvědomuje vážnost situace. Jde o osud města i o život jejích milovaných. Podaří se jí je zachránit?",
+      "synopsis_language": "cs",
+      "runtime_min": 104,
+      "genres": [
+        "Válečný",
+        "Drama",
+        "Historický"
+      ],
+      "director": [
+        "Jasmila Žbanić"
+      ],
+      "screenwriter": [
+        "Hasan Nuhanovic",
+        "Jasmila Žbanić"
+      ],
+      "cast": [
+        "Jasna Đuričić",
+        "Izudin Bajrović",
+        "Boris Ler",
+        "Dino Bajrović",
+        "Johan Heldenbergh",
+        "Raymond Thiry",
+        "Boris Isaković",
+        "Emir Hadžihafizbegović"
+      ],
+      "production_company": [
+        "Deblokada",
+        "Digital Cube",
+        "N279 Entertainment",
+        "Extreme Emotions",
+        "Razor Film Produktion",
+        "Tordenfilm",
+        "Coop99 Filmproduktion",
+        "Indie Prod",
+        "TRT"
+      ],
+      "poster_path": "/rOx1ABDVE4DfjKYGgTGRha3fCPk.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/awElIr61fFpbudzlCfobIpbwEro.jpg",
+      "trailer_youtube_key": "ygbLfo2dtfo",
+      "age_rating": "",
+      "tmdb_id": 728118,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Quo+vadis%2C+Aida%3F+2021",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "rozchod nadera a simin",
+      "title_cz": "Rozchod Nadera a Simin",
+      "title_en": "A Separation",
+      "original_title": "جدایی نادر از سیمین",
+      "year": 2011,
+      "synopsis": "Nader a Simin stojí před osudovým rozhodnutím: zatímco žena chce opustit Írán spolu s jejich dcerou, manžel nechce a nemůže, stará se totiž o nemohoucího otce. Do partnerského sporu však vstoupí ještě tragičtější událost, jež se promítne do životů mnoha lidí. Snímku, který ukazuje každodenní život v současném íránském městě, se s mimořádnou přirozeností daří pohybovat v blízkosti hrdinů, nevyužívá toho ale k laciné melodramatičnosti. Postavy pozoruje s pochopením i nestranností a nebojí se ukazovat jejich problémy ze všech stran. Hrdinové zde nejsou hnáni zlými úmysly, spíše se dostávají do vleku okolností nebo je pohání touha po tom, co v jejich očích vypadá spravedlivě. Spory nejsou uměle vyostřovány, a přesto v sobě nesou velké napětí, možná i proto, že na konci proti sobě nebudou stát vítězové a poražení, ale lidé, kteří bez výjimky zůstanou poučeni i poznamenáni. (MFF Karlovy Vary)",
+      "synopsis_language": "cs",
+      "runtime_min": 123,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Asghar Farhadi"
+      ],
+      "screenwriter": [
+        "Asghar Farhadi"
+      ],
+      "cast": [
+        "Leila Hatami",
+        "Payman Maadi",
+        "Sareh Bayat",
+        "Sarina Farhadi",
+        "Shahab Hosseini",
+        "Kimia Hosseini",
+        "Ali-Asghar Shahbazi",
+        "Babak Karimi"
+      ],
+      "production_company": [
+        "Asghar Farhadi Productions",
+        "Memento Production"
+      ],
+      "poster_path": "/AgpTjV2eiOBK405bDOvEmHAbJQh.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/vSQ2FK4LzevXeHeXvEHb7t4I0SW.jpg",
+      "trailer_youtube_key": "7G9txVqPNIM",
+      "age_rating": "PG-13 (US)",
+      "tmdb_id": 60243,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Rozchod+Nadera+a+Simin+2011",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "sedma pecet",
+      "title_cz": "Sedmá pečeť",
+      "title_en": "The Seventh Seal",
+      "original_title": "Det sjunde inseglet",
+      "year": 1957,
+      "synopsis": "When disillusioned Swedish knight Antonius Block returns home from the Crusades to find his country in the grips of the Black Death, he challenges Death to a chess match for his life. Tormented by the belief that God does not exist, Block sets off on a journey, meeting up with traveling players Jof and his wife, Mia, and becoming determined to evade Death long enough to commit one redemptive act while he still lives.",
+      "synopsis_language": "en",
+      "runtime_min": 96,
+      "genres": [
+        "Fantasy",
+        "Drama"
+      ],
+      "director": [
+        "Ingmar Bergman"
+      ],
+      "screenwriter": [
+        "Ingmar Bergman"
+      ],
+      "cast": [
+        "Gunnar Björnstrand",
+        "Bengt Ekerot",
+        "Nils Poppe",
+        "Max von Sydow",
+        "Bibi Andersson",
+        "Inga Gill",
+        "Maud Hansson",
+        "Inga Landgré"
+      ],
+      "production_company": [
+        "SF Studios"
+      ],
+      "poster_path": "/cGaEX4XfOWo6JvQjOG01iOHT9UP.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/6s2BqtDvp1BMiP70zCDU5OW6hMy.jpg",
+      "trailer_youtube_key": "vZucwtdSvJ8",
+      "age_rating": "15+",
+      "tmdb_id": 490,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Sedm%C3%A1+pe%C4%8De%C5%A5+1957",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "sepot lesa",
+      "title_cz": "Šepot lesa",
+      "title_en": "Whispering Forest",
+      "original_title": "Bialowieza, la forêt qui murmure…",
+      "year": 2025,
+      "synopsis": "In the heart of the extraordinary Bialowieza primeval forest in Poland, the last in Europe, artists Katarzyna Kot and Stéphane Guiran meet scientists, women healers and inspiring local people. They discover the wounds of its inhabitants, the heeling dimension of the forest, converse with its whispers, and question our way of being among the living. In resonance with the forest, with the help of local residents and other artist-musicians, they compose a vibrant tribute to this Great Living Being.",
+      "synopsis_language": "en",
+      "runtime_min": 63,
+      "genres": [],
+      "director": [
+        "Katarzyna Kot"
+      ],
+      "screenwriter": [
+        "Stéphane Guiran"
+      ],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1509635,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%A0epot+lesa+2025",
+      "resolved": true,
+      "match_reason": "manual override",
+      "match_score": 1.0
     },
     {
       "film_id": "septej",
@@ -1533,6 +3896,481 @@
       "match_score": 1.15
     },
     {
+      "film_id": "sestry z kourove sauny",
+      "title_cz": "Sestry z kouřové sauny",
+      "title_en": "Smoke Sauna Sisterhood",
+      "original_title": "Savvusanna sõsarad",
+      "year": 2023,
+      "synopsis": "V příšeří estonské kouřové sauny, fenoménu zapsaném v seznamu UNESCO, sdílí několik žen svoje nejskrytější tajemství a intimní zkušenosti. Starodávnými rituály smývají stud skrytý v jejich tělech a díky pocitu sesterské sounáležitosti znovu získávají sílu. Dokument Anny Hints oceněný v Sundance cenou za režii je mystickou výpravou do prostoru, kde člověk může svobodně čelit vnitřním démonům a úzkostem. Je to fascinující pocta kouřové sauně, místu protkanému tradicemi, oslava ženské sounáležitosti i svébytný očistný rituál.",
+      "synopsis_language": "cs",
+      "runtime_min": 89,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Anna Hints"
+      ],
+      "screenwriter": [
+        "Anna Hints"
+      ],
+      "cast": [
+        "Kadi Kivilo",
+        "Maria Meresaar",
+        "Elsa Saks",
+        "Marianne Liiv",
+        "Eva Kübar",
+        "Liis Kuresoo",
+        "Eda Veeroja",
+        "Maria Aasa"
+      ],
+      "production_company": [
+        "Alexandra Film",
+        "Kepler 22 Productions",
+        "Ursus Parvus"
+      ],
+      "poster_path": "/nBDh2zx5SAbB51dANknK6giGY6z.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/aTZSKUTk76AixSdClXUb2qC8ZEV.jpg",
+      "trailer_youtube_key": "FsEpIaTAvIs",
+      "age_rating": "18+",
+      "tmdb_id": 1058688,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Sestry+z+kou%C5%99ov%C3%A9+sauny+2023",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "sex",
+      "title_cz": "Sex",
+      "title_en": "Affair at the Nuns' Temple: Paradise Sex",
+      "original_title": "尼寺の情事　極楽ＳＥＸ",
+      "year": 1998,
+      "synopsis": "Japanese nunsplitation movie from 1998",
+      "synopsis_language": "en",
+      "runtime_min": 59,
+      "genres": [],
+      "director": [
+        "Yukio Kitazawa"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "川奈ひかる",
+        "浅倉舞",
+        "悠木あずみ",
+        "Seiji Nakamitsu"
+      ],
+      "production_company": [
+        "Xces Film",
+        "Iizumi Production"
+      ],
+      "poster_path": "/nth8G0m835nk1xWsV6Ga95FT2na.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 261639,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Sex+1998",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "sex a smrt v kempu miasma",
+      "title_cz": "Sex a smrt v kempu Miasma",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Sex+a+smrt+v+kempu+Miasma",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Sex a smrt v kempu Miasma'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "sirat",
+      "title_cz": "Sirat",
+      "title_en": "Sirāt",
+      "original_title": "Sirāt",
+      "year": 2025,
+      "synopsis": "Luis přijíždí na divokou party uprostřed marockých hor, aby se svým malým synem hledal zmizelou dceru Mar. V obklopení hypnotických beatů a zvláštní, syrové svobody vyráží se skupinou techno nomádů pátrat na poslední akci kdesi hluboko v poušti. Karavana předělaných náklaďáků naložených soundsystémy, naftou a drogami se prodírá rozpáleným pískem. Putování se rychle mění v šílenou halucinační jízdu, z níž není snadného úniku. Sirat je rave apokalypsa, která šokovala Cannes a kromě Ceny poroty si odnesla pověst nejoriginálnějšího filmu festivalu s kultovním potenciálem.",
+      "synopsis_language": "cs",
+      "runtime_min": 115,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "director": [
+        "Oliver Laxe"
+      ],
+      "screenwriter": [
+        "Oliver Laxe",
+        "Santiago Fillol"
+      ],
+      "cast": [
+        "Sergi López",
+        "Bruno Núñez",
+        "Stefania Gadda",
+        "Joshua Liam Henderson",
+        "Richard Bellamy",
+        "Tonin Janvier",
+        "Jade Oukid",
+        "Ahmed Abbou"
+      ],
+      "production_company": [
+        "Movistar Plus+",
+        "Los Desertores Films",
+        "Filmes da Ermida",
+        "El Deseo",
+        "Uri Films",
+        "4 A 4 Productions"
+      ],
+      "poster_path": "/edEDZwU3kZerqdylZsyCn7feH23.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/kOUV5WbisWMg56d8eB45ZHEVxYq.jpg",
+      "trailer_youtube_key": "3_9OkHX8ZiA",
+      "age_rating": "R (US)",
+      "tmdb_id": 1151272,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Sirat+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "slepice",
+      "title_cz": "Slepice",
+      "title_en": "Hen",
+      "original_title": "Κότα",
+      "year": 2026,
+      "synopsis": "„S velkou mocí přichází velká zodpovědnost“, ale co když je hrdinkou pouhá slepice? Po útěku z drůbežárny najde útočiště na dvoře chátrající restaurace. Tam objeví lásku, postaví se hierarchii ve smečce a bojuje o ochranu svých vajec před chamtivým majitelem. Její komické, ale zároveň dojemné úsilí o mateřství odráží chaotické kompromisy a tiché boje lidských životů.",
+      "synopsis_language": "cs",
+      "runtime_min": 96,
+      "genres": [
+        "Dobrodružný",
+        "Drama"
+      ],
+      "director": [
+        "György Pálfi"
+      ],
+      "screenwriter": [
+        "György Pálfi",
+        "Zsófia Ruttkay"
+      ],
+      "cast": [
+        "Yannis Kokiasmenos",
+        "Maria Diakopanagiotou",
+        "Argyris Pandazaras",
+        "Antonis Kafetzopoulos",
+        "Antonis Tsiotsiopoulos",
+        "Machmout Bamerni",
+        "Chronis Barbarian",
+        "Nikos Kattis"
+      ],
+      "production_company": [
+        "Pallas Film",
+        "View Master Films",
+        "Twenty Twenty Vision Filmproduktion",
+        "ZDF/Arte",
+        "FocusFox"
+      ],
+      "poster_path": "/rfiyrjBJqu3mvmmmnfQyqU5SU5O.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/jeQnkrXy95nmjNZcLhRNXXIsjZv.jpg",
+      "trailer_youtube_key": "Zd9CGEUsIFA",
+      "age_rating": "12+",
+      "tmdb_id": 1382513,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Slepice+2026",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "slunovrat",
+      "title_cz": "Slunovrat",
+      "title_en": "Midsommar",
+      "original_title": "Midsommar",
+      "year": 2019,
+      "synopsis": "Vztah Dani a Christiana už nestojí za nic. Možná to ale spraví výlet do severní Skandinávie s partou kamarádů. V odlehlé vesničce odstřihnuté od okolního světa se tu jednou za 90 let, na letní slunovrat, koná speciální slavnost. Mladí Američané si užívají bezstarostné prázdninové veselí v místě, kde slunce nikdy nezapadá. Vše se ale zvrtne, když je vesničané přizvou k rituálům, při kterých se místní ráj na zemi mění v čím dál děsivější peklo.",
+      "synopsis_language": "cs",
+      "runtime_min": 148,
+      "genres": [
+        "Horor",
+        "Drama",
+        "Mysteriózní"
+      ],
+      "director": [
+        "Ari Aster"
+      ],
+      "screenwriter": [
+        "Ari Aster"
+      ],
+      "cast": [
+        "Florence Pugh",
+        "Jack Reynor",
+        "William Jackson Harper",
+        "Will Poulter",
+        "Vilhelm Blomgren",
+        "Isabelle Grill",
+        "Gunnel Fred",
+        "Ellora Torchia"
+      ],
+      "production_company": [
+        "B-Reel Films",
+        "Square Peg"
+      ],
+      "poster_path": "/sgTmBcAXfZtWm0g5XVaY4OK9aoh.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/pYgj8e2Y6RufnSyOA6OnzmxFXxZ.jpg",
+      "trailer_youtube_key": "dhjDh1AOOZE",
+      "age_rating": "15+",
+      "tmdb_id": 530385,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Slunovrat+2019",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "smrtelne zlo v plamenech",
+      "title_cz": "Smrtelné zlo: V plamenech",
+      "title_en": "Evil Dead Burn",
+      "original_title": "Evil Dead Burn",
+      "year": 2026,
+      "synopsis": "Truchlící Alice hledá po ztrátě manžela útěchu u svých příbuzných v jejich odlehlém rodinném domě. Zde omylem osvobodí krvežíznivé démony skryté v prastaré knize. Rodinné setkání se tak změní v krvavou noční můru plnou démonů.",
+      "synopsis_language": "cs",
+      "runtime_min": 110,
+      "genres": [
+        "Horor",
+        "Thriller"
+      ],
+      "director": [
+        "Sébastien Vaniček"
+      ],
+      "screenwriter": [
+        "Sébastien Vaniček",
+        "Florent Bernard"
+      ],
+      "cast": [
+        "Souheila Yacoub",
+        "Tandi Wright",
+        "Hunter Doohan",
+        "Luciane Buchanan",
+        "Erroll Shand",
+        "Maude Davey",
+        "George Pullar",
+        "Victory Ndukwe"
+      ],
+      "production_company": [
+        "New Line Cinema",
+        "Screen Gems",
+        "Ghost House Pictures"
+      ],
+      "poster_path": "/ztadKzIIR0ERYqpHteaPFtk7inP.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/A5Tz6ogGt4VV8NESG9oWVct5bo1.jpg",
+      "trailer_youtube_key": "RddZObTlmA8",
+      "age_rating": "15+",
+      "tmdb_id": 1212763,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Smrteln%C3%A9+zlo%3A+V+plamenech+2026",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "sny",
+      "title_cz": "Sny",
+      "title_en": "Dreams",
+      "original_title": "Drømmer",
+      "year": 2024,
+      "synopsis": "Sedmnáctiletá Johanna prožívá svou první lásku – křehkou, platonickou a o to silnější. Intenzivní pocity, tápání a nejistotu svěřuje svému deníku. Když se však její zápisky dostanou do rukou matky a babičky, tři generace žen jsou nuceny čelit vlastním touhám i omezením, které jim diktuje společnost. Závěrečný díl volné vztahové trilogie Daga Johana Haugeruda opět potvrzuje, že síla jeho tvorby spočívá v originálním filmovém jazyce a hlubokém porozumění postavám.",
+      "synopsis_language": "cs",
+      "runtime_min": 110,
+      "genres": [
+        "Romantický",
+        "Drama"
+      ],
+      "director": [
+        "Dag Johan Haugerud"
+      ],
+      "screenwriter": [
+        "Dag Johan Haugerud"
+      ],
+      "cast": [
+        "Ella Øverbye",
+        "Selome Emnetu",
+        "Anne Marit Jacobsen",
+        "Ane Dahl Torp",
+        "Andrine Sæther",
+        "Silje Breivik",
+        "Lars Jacob Holm",
+        "Valdemar Dørmænen Irgens"
+      ],
+      "production_company": [
+        "Motlys",
+        "Oslo Filmfond",
+        "Viaplay Group"
+      ],
+      "poster_path": "/jB077kwValRa5rjsKVBITZ0tGmP.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/gjUk32ohE9A05Y4NK9bbkCkAgMB.jpg",
+      "trailer_youtube_key": "ijqwWwGdHZY",
+      "age_rating": "NR (US)",
+      "tmdb_id": 1228682,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Sny+2024",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "soukromy zivot",
+      "title_cz": "Soukromý život",
+      "title_en": "A Private Life",
+      "original_title": "Vie privée",
+      "year": 2025,
+      "synopsis": "Lilian Steiner je uznávaná psychiatrička. Jednoho dne se dozvídá o smrti jedné ze svých pacientek. Lilian je tou zprávou zasažená. Vsugeruje si, že se jedná o vraždu, a začíná pátrat na vlastní pěst.",
+      "synopsis_language": "cs",
+      "runtime_min": 108,
+      "genres": [
+        "Mysteriózní",
+        "Krimi",
+        "Drama"
+      ],
+      "director": [
+        "Rebecca Zlotowski"
+      ],
+      "screenwriter": [
+        "Anne Berest",
+        "Gaëlle Macé"
+      ],
+      "cast": [
+        "Jodie Foster",
+        "Daniel Auteuil",
+        "Virginie Efira",
+        "Mathieu Amalric",
+        "Vincent Lacoste",
+        "Luàna Bajrami",
+        "Noam Morgensztern",
+        "Sophie Guillemin"
+      ],
+      "production_company": [
+        "Les Films Velvet",
+        "France 3 Cinéma",
+        "Auvergne-Rhône-Alpes Cinéma",
+        "Buenos Hair"
+      ],
+      "poster_path": "/7aYpPqT2AK7zJIWSQ923cUrtVi5.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/3fZ5HvkrjaS34sZERshWm9koXdF.jpg",
+      "trailer_youtube_key": "2JabG5C6IU8",
+      "age_rating": "R (US)",
+      "tmdb_id": 1290432,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Soukrom%C3%BD+%C5%BEivot+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "spider man zbrusu novy den",
+      "title_cz": "Spider-Man: Zbrusu nový den",
+      "title_en": "Spider-Man: Brand New Day",
+      "original_title": "Spider-Man: Brand New Day",
+      "year": 2026,
+      "synopsis": "Peter Parker dnes žije osamělý život. Jeho oběť pro záchranu multivesmíru jej vymazala z paměti a srdcí nejbližších přátel, a tak se z něj stal Spider-Man na plný úvazek. Ochrana města si však vybírá svoji daň a Petr čelí nečekaným fyzickým následkům. Zatímco bojuje o holý život, ve městě se vynořuje temná hrozba s nevídanou mocí. Dokáže Peter zachránit New York, když riskuje, že ztratí i to poslední, co mu zbylo – sama sebe?",
+      "synopsis_language": "cs",
+      "runtime_min": 145,
+      "genres": [
+        "Vědeckofantastický",
+        "Akční",
+        "Dobrodružný"
+      ],
+      "director": [
+        "Destin Daniel Cretton"
+      ],
+      "screenwriter": [
+        "Erik Sommers",
+        "Chris McKenna"
+      ],
+      "cast": [
+        "Tom Holland",
+        "Zendaya",
+        "Sadie Sink",
+        "Jacob Batalon",
+        "Jon Bernthal",
+        "Tramell Tillman",
+        "Michael Mando",
+        "Mark Ruffalo"
+      ],
+      "production_company": [
+        "Marvel Studios",
+        "Columbia Pictures",
+        "Pascal Pictures",
+        "TSG Entertainment II"
+      ],
+      "poster_path": "/27AISM4WhMtJO8jXm3DrzBvwzAd.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/vjMvFSmGUxEtqVdaZgvFee9XkZl.jpg",
+      "trailer_youtube_key": "P3uI5sLosKU",
+      "age_rating": "PG-13 (US)",
+      "tmdb_id": 969681,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Spider-Man%3A+Zbrusu+nov%C3%BD+den+2026",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "spravedlnost",
+      "title_cz": "Spravedlnost",
+      "title_en": "Justice",
+      "original_title": "Napad",
+      "year": 2024,
+      "synopsis": "S vyšetřováním téhle bankovní loupeže si sama neporadí. Povolá proto na pomoc bývalého detektiva, který kdysi dostal padáka a rád by se vrátil ke svému řemeslu.",
+      "synopsis_language": "cs",
+      "runtime_min": 114,
+      "genres": [
+        "Krimi"
+      ],
+      "director": [
+        "Michał Gazda"
+      ],
+      "screenwriter": [
+        "Bartosz Staszczyszyn"
+      ],
+      "cast": [
+        "Olaf Lubaszenko",
+        "Jędrzej Hycnar",
+        "Wiktoria Gorodecka",
+        "Magdalena Boczarska",
+        "Łukasz Szczepanowski",
+        "Stanisław Linowski",
+        "Nel Kaczmarek",
+        "Dariusz Toczek"
+      ],
+      "production_company": [
+        "MAG Entertainment"
+      ],
+      "poster_path": "/iGN7ypE2sBpuPiyba36ZU1Y7Pqt.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/ycOPrw6Pr4i7GBvryrrgTNYiD5u.jpg",
+      "trailer_youtube_key": "L8lwqvHktSc",
+      "age_rating": "R (US)",
+      "tmdb_id": 1282138,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Spravedlnost+2024",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
       "film_id": "stastni spolu",
       "title_cz": "Šťastni spolu",
       "title_en": "Happy Together",
@@ -1573,6 +4411,272 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
+    },
+    {
+      "film_id": "stvoreni pro lasku",
+      "title_cz": "Stvořeni pro lásku",
+      "title_en": "In the Mood for Love",
+      "original_title": "花樣年華",
+      "year": 2000,
+      "synopsis": "Příběh se odehrává v šedesátých letech, kdy se do hongkongského bytu nezávisle na sobě stěhují dva manželké páry: novinář Chow se svojí ženou a krásná sekretářka Li-zhen s manželem. Jejich protějšky tráví mnoho času na cestách a tak si Chow a Li-zhen společně zkracují osamělé večery. Dokud se neobjeví podezření na mimomanželské aktivity jejich partnerů.",
+      "synopsis_language": "cs",
+      "runtime_min": 98,
+      "genres": [
+        "Drama",
+        "Romantický"
+      ],
+      "director": [
+        "Wong Kar-Wai"
+      ],
+      "screenwriter": [
+        "Wong Kar-Wai",
+        "Liu Yichang"
+      ],
+      "cast": [
+        "Maggie Cheung",
+        "Tony Leung Chiu-wai",
+        "Siu Ping-Lam",
+        "Rebecca Pan",
+        "Kelly Lai Chen",
+        "Joe Cheung Tung-Cho",
+        "Chan Man-Lei",
+        "Koo Kam-Wah"
+      ],
+      "production_company": [
+        "Block 2 Pictures",
+        "Paradis Films",
+        "Jet Tone Production"
+      ],
+      "poster_path": "/iYypPT4bhqXfq1b6EnmxvRt6b2Y.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/ffQFnAUm2Uu4RU0nijpjPRf9TBT.jpg",
+      "trailer_youtube_key": "rc3QleuaQMw",
+      "age_rating": "12+",
+      "tmdb_id": 843,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Stvo%C5%99eni+pro+l%C3%A1sku+2000",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "suspiria",
+      "title_cz": "Suspiria",
+      "title_en": "Suspiria",
+      "original_title": "Suspiria",
+      "year": 1977,
+      "synopsis": "Baletní akademie bývají povětšinou klidná, světlem prosluněná, místa. Vedle nich existují i školy zalité měsícem. Suzy Bannion, mladá talentovaná Američanka, do jedné takové zrovna přijíždí. Suspiria je první díl z kultovní trilogie „Tři Matky“",
+      "synopsis_language": "cs",
+      "runtime_min": 98,
+      "genres": [
+        "Horor"
+      ],
+      "director": [
+        "Dario Argento"
+      ],
+      "screenwriter": [
+        "Daria Nicolodi",
+        "Dario Argento"
+      ],
+      "cast": [
+        "Jessica Harper",
+        "Stefania Casini",
+        "Flavio Bucci",
+        "Miguel Bosé",
+        "Barbara Magnolfi",
+        "Susanna Javicoli",
+        "Eva Axén",
+        "Rudolf Schündler"
+      ],
+      "production_company": [
+        "Seda Spettacoli"
+      ],
+      "poster_path": "/eCORVtc6HwJ7tPkFYazYLSZtUlw.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/9uXGLBPIJkPqmVwiyh3FI0iAe6n.jpg",
+      "trailer_youtube_key": "x_FfT98QJks",
+      "age_rating": "18+",
+      "tmdb_id": 11906,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Suspiria+1977",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "tajemstvi dzungle",
+      "title_cz": "Tajemství džungle",
+      "title_en": "Born in the Jungle",
+      "original_title": "Laimīgie",
+      "year": 2026,
+      "synopsis": "During late 1950s in Venezuela, nine-year-old Elizabeth’s summer break takes a wild turn when her little brother Leo vanishes into the jungle. She must swap her books for bravery not only to find her brother but also to rescue a mystical furry animal from captivity and bring him back up to the legendary Tepui mountain.",
+      "synopsis_language": "en",
+      "runtime_min": 72,
+      "genres": [
+        "Animovaný",
+        "Rodinný",
+        "Dobrodružný"
+      ],
+      "director": [
+        "Edmunds Jansons"
+      ],
+      "screenwriter": [
+        "Lote Eglīte",
+        "Līga Gaisa"
+      ],
+      "cast": [
+        "Anabella Jasmīna Gerinoviča",
+        "Matīss Budovskis",
+        "Madara Botmane-Vāgentroca",
+        "Jānis Kronis",
+        "Tom J. Benedict"
+      ],
+      "production_company": [
+        "Atom Art",
+        "Letko",
+        "Hausboot"
+      ],
+      "poster_path": "/jFKAT2ROKioMGSB4i7iooHNAQsQ.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/x6EA7dnmR2TXfurfU3wDYLOOyLG.jpg",
+      "trailer_youtube_key": "h6NO6gDi7ew",
+      "age_rating": "",
+      "tmdb_id": 947474,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Tajemstv%C3%AD+d%C5%BEungle+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "tajemstvi kristalove planety",
+      "title_cz": "Tajemství Křišťálové planety",
+      "title_en": "Tajemství křišťálové planety",
+      "original_title": "Tajemství křišťálové planety",
+      "year": 2026,
+      "synopsis": "Jedenáctiletá Rea se po rodinné tragédii stěhuje s otcem na nově osídlenou planetu, kde její otec nastupuje do replikační továrny. Rea se zde seznámí s Andym a společně objeví podzemní svět, o jehož existenci lidé netuší. Když najdou osamělé mládě vzácného tvora, rozhodnou se ho ochránit před chamtivým guvernérem, který chce zvíře zneužít pro vlastní zisk. Pátrání po pravdě je zavede do nebezpečných jeskyní, kde odhalí, že bezohledné zacházení s odpadem ohrožuje celý skrytý ekosystém.",
+      "synopsis_language": "cs",
+      "runtime_min": 97,
+      "genres": [
+        "Animovaný",
+        "Rodinný"
+      ],
+      "director": [
+        "Arsen Anton Ostojić"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "Jiří Lábus",
+        "Jan Plesl",
+        "Patricie Solaříková",
+        "Miroslav Táborský",
+        "Berenika Kohoutová",
+        "Tereza Bebarová",
+        "Adéla Hessová",
+        "Jakub Barták"
+      ],
+      "production_company": [],
+      "poster_path": "/A7N1gacjjF9BQMnrax2rH12WvOR.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/1VMmhfS6Zq3oV0gF3htxJ23KyDu.jpg",
+      "trailer_youtube_key": "o9j7QM2zS6w",
+      "age_rating": "",
+      "tmdb_id": 1670546,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Tajemstv%C3%AD+K%C5%99i%C5%A1%C5%A5%C3%A1lov%C3%A9+planety+2026",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "tar",
+      "title_cz": "Tár",
+      "title_en": "TÁR",
+      "original_title": "TÁR",
+      "year": 2022,
+      "synopsis": "Dirigentka Lydia Tár je na absolutním tvůrčím vrcholu. Sedmým rokem diriguje prestižní německý orchestr, připravuje vydání knihy a uvedení Mahlerovy Páté symfonie, které má být vrcholem hudební sezóny. Lydia působí sebejistě, sebevědomě, dominantně a mocně. Pod touhle na první pohled pevnou maskou se však skrývá normální člověk, s obavami, nejistotami, touhami a potřebami. Zatímco s dirigentskou taktovkou v ruce si je Lydia jistá každým svým rozhodnutím, když opustí orchestřiště, ztrácí často pevnou půdu pod nohama. Někdy jen nepatrně, jindy však zcela fatálně.",
+      "synopsis_language": "cs",
+      "runtime_min": 158,
+      "genres": [
+        "Hudební",
+        "Drama"
+      ],
+      "director": [
+        "Todd Field"
+      ],
+      "screenwriter": [
+        "Todd Field"
+      ],
+      "cast": [
+        "Cate Blanchett",
+        "Nina Hoss",
+        "Noémie Merlant",
+        "Sophie Kauer",
+        "Julian Glover",
+        "Mark Strong",
+        "Sylvia Flote",
+        "Allan Corduner"
+      ],
+      "production_company": [
+        "Focus Features",
+        "Standard Film Company",
+        "EMJAG Productions"
+      ],
+      "poster_path": "/dRVAlaU0vbG6hMf2K45NSiIyoUe.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/84XcRwKHAw4VXdKOYTSW5ARxFEt.jpg",
+      "trailer_youtube_key": "I4DknXVkn7A",
+      "age_rating": "12+",
+      "tmdb_id": 817758,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=T%C3%A1r+2022",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "the moment",
+      "title_cz": "The Moment",
+      "title_en": "The Moment",
+      "original_title": "The Moment",
+      "year": 2026,
+      "synopsis": "Mockument sleduje život popové hvězdy, která se připravuje na své první velké turné a zároveň se potýká s tlakem slávy i očekáváním hudebního průmyslu. Děj se odehrává v alternativní verzi reality, kde zpěvačka Charli XCX během propagace svého průlomového alba „Brat“ učinila „zcela jiné volby“, což zásadně ovlivnilo její kariéru i osobní život.",
+      "synopsis_language": "cs",
+      "runtime_min": 103,
+      "genres": [
+        "Hudební",
+        "Komedie",
+        "Thriller"
+      ],
+      "director": [
+        "Aidan Zamiri"
+      ],
+      "screenwriter": [
+        "Aidan Zamiri",
+        "Bertie Brandes"
+      ],
+      "cast": [
+        "Charli xcx",
+        "Alexander Skarsgård",
+        "Rosanna Arquette",
+        "Hailey Benton Gates",
+        "Jamie Demetriou",
+        "Rachel Sennott",
+        "Kate Berlant",
+        "Rish Shah"
+      ],
+      "production_company": [
+        "Studio365",
+        "A24",
+        "Atlantic Records",
+        "Good World",
+        "2AM"
+      ],
+      "poster_path": "/dYgCgTqqMnWdsnP2XirdcFB28ch.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/lQUsfSUcai6ZOHQHgobSlF0IDUV.jpg",
+      "trailer_youtube_key": "2oiLhpZp7sY",
+      "age_rating": "R (US)",
+      "tmdb_id": 1422562,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=The+Moment+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
     },
     {
       "film_id": "ticha pritelkyne",
@@ -1672,6 +4776,50 @@
       "match_score": 1.15
     },
     {
+      "film_id": "tove",
+      "title_cz": "Tove",
+      "title_en": "Tove",
+      "original_title": "Tove",
+      "year": 2020,
+      "synopsis": "Helsinky, 1945. Konec války přináší malířce Tove Janssonové pocit umělecké a sociální svobody. Zatímco své umělecké sny soustředila na malování, okouzlující příběhy o stvořeních jménem ‚Mumínci‘, které vyprávěla vyděšeným dětem v protileteckých krytech, rychle začaly žít svým vlastním životem a přinesly mezinárodní slávu a finanční volnost. Její touha po svobodě je vystavena zkoušce, když potkává divadelní režisérku Vivicu Bandlerovou, která v ní zažehne elektrizující a pohlcující lásku. Ale zatímco začíná nacházet svou uměleckou identitu, objevuje pravou lásku, po které touží, aby byla opětována, a jedině tím, že si vytvoří vlastní cestu, se může naučit být svobodná.",
+      "synopsis_language": "cs",
+      "runtime_min": 103,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Zaida Bergroth"
+      ],
+      "screenwriter": [
+        "Jarno Elonen",
+        "Eeva Putro"
+      ],
+      "cast": [
+        "Alma Pöysti",
+        "Krista Kosonen",
+        "Shanti Roney",
+        "Joanna Haartti",
+        "Kajsa Ernst",
+        "Robert Enckell",
+        "Jakob Öhrman",
+        "Eeva Putro"
+      ],
+      "production_company": [
+        "Helsinki-filmi",
+        "Anagram Film"
+      ],
+      "poster_path": "/unkeMMGWfJUR739zcGMWl5Spgsl.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/YXuEHJKI1Xon4P055rrCqQOlN6.jpg",
+      "trailer_youtube_key": "A2jqOeQrHwE",
+      "age_rating": "",
+      "tmdb_id": 608232,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Tove+2020",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
       "film_id": "toy story 5 pribeh hracek",
       "title_cz": "Toy Story 5: Příběh hraček",
       "title_en": "Toy Story 5",
@@ -1718,6 +4866,371 @@
       "match_score": 1.15
     },
     {
+      "film_id": "trochu zivota",
+      "title_cz": "Trochu života",
+      "title_en": "Live a Little",
+      "original_title": "Leva lite",
+      "year": 2025,
+      "synopsis": "Dvě mladé Švédky, nejlepší kamarádky Laura a Alex, vyrážejí na letní dobrodružství, při kterém vlakem procestují evropská hlavní města. V plánu je Varšava, Praha, Berlín i Paříž, přičemž spát budou na pohovkách cizinců. Jejich prázdninovým snem je oddat se spontánnímu životu, poznat neznámé kultury a nechat se ubytovávat místními. Jednoho rána se po divoké párty Laura probere vedle muže, na nějž si z předchozí noci nevzpomíná. O pár dní později se k výpravě připojuje její přítel Elias, který je z incidentu značně rozrušený. Laura se nedokáže v hlavě dobrat toho, co se skutečně stalo, ale záblesky z onoho večera se jí neustále vrací. Není si jistá, jestli ke všemu došlo s jejím souhlasem. Snímek Trochu života, celovečerní debut Fanny Ovesen, je barvitým, odvážným a intimním příběhem o hledání sebe sama, prozkoumávajícím nejistotu, šedé zóny konsentu a obtížné vyjednávání osobních hranic. (Film Europe)",
+      "synopsis_language": "cs",
+      "runtime_min": 98,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Fanny Ovesen"
+      ],
+      "screenwriter": [
+        "Fanny Ovesen"
+      ],
+      "cast": [
+        "Embla Ingelman-Sundberg",
+        "Aviva Wrede",
+        "Oscar Lesage",
+        "Odin Romanus",
+        "Thelma Buabeng",
+        "Yohannes Frezgi",
+        "Filip Zareba",
+        "Laurean Wagner"
+      ],
+      "production_company": [
+        "Kjellson & Wik",
+        "Ström Pictures",
+        "True Content Production",
+        "Film i Väst"
+      ],
+      "poster_path": "/3Mxqtt6qwV3i3oSJH3LhGqn1TrB.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/yeZT79XJ2iYZ05uwkawjG3TGV1n.jpg",
+      "trailer_youtube_key": "LNLESq_Mf44",
+      "age_rating": "",
+      "tmdb_id": 1414079,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Trochu+%C5%BEivota+2025",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "velrybi pisen",
+      "title_cz": "Velrybí píseň",
+      "title_en": "The Last Whale Singer",
+      "original_title": "The Last Whale Singer",
+      "year": 2026,
+      "synopsis": "Vincent, dospívající keporkak, je synem slavného posledního velrybího pěvce, který až do poslední chvíle chránil oceán a jeho obyvatele. Když Vincent o něj i svou mámu tragicky přijde, musí zaujmout jeho místo a svou vlastní kouzelnou písní pokračovat jako ochránce podmořského života. Je však příliš vystrašený, osamělý a nejistý. Když z tajícího ledovce unikne obludný Leviatan a začne ohrožovat svým smrtícím inkoustem veškerý mořský život, musí Vincent najít svou vlastní píseň, aby tuto hrozbu zastavil.",
+      "synopsis_language": "cs",
+      "runtime_min": 91,
+      "genres": [
+        "Dobrodružný",
+        "Animovaný",
+        "Rodinný"
+      ],
+      "director": [
+        "Reza Memari"
+      ],
+      "screenwriter": [
+        "Reza Memari"
+      ],
+      "cast": [
+        "Vincent Tong",
+        "Bruce Dinsmore",
+        "Jenna Wheeler-Hughes",
+        "Priyanka",
+        "Chimwemwe Miller",
+        "Jen Viens",
+        "Lisa Ortiz",
+        "Elizabeth Neale"
+      ],
+      "production_company": [
+        "Telescope Animation",
+        "PFX",
+        "La Boîte à Fanny",
+        "ZDF",
+        "KiKA"
+      ],
+      "poster_path": "/aceXf2z5lR2t4gUD6XpahvpSs7s.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/l57zMmISH0SCWsXR7iorceZTm8y.jpg",
+      "trailer_youtube_key": "JFhohUwnE5k",
+      "age_rating": "U",
+      "tmdb_id": 677558,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Velryb%C3%AD+p%C3%ADse%C5%88+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "verejny prostor frantiska skaly",
+      "title_cz": "Veřejný prostor Františka Skály",
+      "title_en": "Public Space of František Skála",
+      "original_title": "Veřejný prostor Františka Skály",
+      "year": 2026,
+      "synopsis": "Na hravé cestě veřejným prostorem s jedním z nejvšestrannějších českých umělců Františkem Skálou je možné vidět svět jinak. S humorem, vážností i sebeironií nechává výtvarník, performer a hudebník výjimečně nahlédnout do mnoha pomyslných dveří, za nimiž se nacházejí krása v nedokonalosti, poezie v obyčejnosti, otisky rukou v plynutí času a radost z tvorby jako způsob života. Tvůrčí energie Skály je cítit i z procesu vzniku monumentální sochy psa Vulpes Gott od tvorby modelu po cestu lodí po Labi na vernisáž v Drážďanech. Dějem se prolínají umělcovy deníky a objekty ve veřejném prostoru, včetně jeho první sochy v zámeckém parku Veltrusy, Prastánku nebo Rajské zahrady na Sluňákově. Ve filmu vystupují přátelé Františka Skály, kapela Třaskavá směs či dechová hudba Provodovjané a filozof Miroslav Petříček. Renesanční osobnost Skály je známá i z Divadla Sklep, skupiny Tvrdohlaví, uskupení Tros Sketos nebo M.T.O. Universal. (Pilot Film)",
+      "synopsis_language": "cs",
+      "runtime_min": 90,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Petr Slavík"
+      ],
+      "screenwriter": [
+        "Petr Slavík"
+      ],
+      "cast": [
+        "František Skála",
+        "Miroslav Petříček"
+      ],
+      "production_company": [
+        "Phoenix Production",
+        "Česká televize"
+      ],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "/2PUgju92O2kCd8md16VBI7bM0Xi.jpg",
+      "trailer_youtube_key": "yU5YVvyKq8I",
+      "age_rating": "",
+      "tmdb_id": 1733999,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ve%C5%99ejn%C3%BD+prostor+Franti%C5%A1ka+Sk%C3%A1ly+2026",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "vikend na chate",
+      "title_cz": "Víkend na chatě",
+      "title_en": "Games People Play",
+      "original_title": "Seurapeli",
+      "year": 2020,
+      "synopsis": "Roky nevázaného mládí vystřídaly nažehlené konvence střední třídy a blížící se polokulaté narozeniny společné kamarádky Mitzi tak snadno zavdají příčinu k návštěvě chaty, kde kdysi všichni pařili jako náctiletí.",
+      "synopsis_language": "cs",
+      "runtime_min": 105,
+      "genres": [
+        "Drama",
+        "Komedie"
+      ],
+      "director": [
+        "Jenni Toivoniemi"
+      ],
+      "screenwriter": [
+        "Jenni Toivoniemi"
+      ],
+      "cast": [
+        "Eero Milonoff",
+        "Emmi Parviainen",
+        "Laura Birn",
+        "Christian Hillborg",
+        "Iida-Maria Heinonen",
+        "Paavo Kinnunen",
+        "Paula Vesala",
+        "Samuli Niittymäki"
+      ],
+      "production_company": [
+        "Tuffi Films"
+      ],
+      "poster_path": "/5lYz3Two9BQHPdyGKJhw1diXWP7.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/spzAUftam5GtqcjoW9VeX3ybYZ7.jpg",
+      "trailer_youtube_key": "TFEWSCsFhBc",
+      "age_rating": "",
+      "tmdb_id": 657430,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=V%C3%ADkend+na+chat%C4%9B+2020",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "volani vody",
+      "title_cz": "Volání vody",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Vol%C3%A1n%C3%AD+vody",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Volání vody'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "wham 10 days in china",
+      "title_cz": "WHAM! 10 Days in China",
+      "title_en": "Wham! 10 Days in China",
+      "original_title": "Wham! 10 Days in China",
+      "year": 2026,
+      "synopsis": "In 1985, Wham! were the first Western pop group to perform in communist China. George Michael and Andrew Ridgeley’s two concerts in Beijing and Guangzhou introduced live Western pop to Chinese audiences and marked a turning point for the band. For Wham!, the tour was more than music; it was a bold move to capture American attention and launch them into global superstardom, and it worked.",
+      "synopsis_language": "en",
+      "runtime_min": 90,
+      "genres": [
+        "Hudební",
+        "Dokumentární"
+      ],
+      "director": [
+        "Mike Christie"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "George Michael",
+        "Andrew Ridgeley"
+      ],
+      "production_company": [
+        "Sony Music Vision",
+        "Sony Music Entertainment UK",
+        "Supercollider",
+        "BBC Two",
+        "BBC Music",
+        "Trafalgar Releasing"
+      ],
+      "poster_path": "/fx8ErQNNf1YlvYJAOhwKM4NS3NN.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/dWcJ8hOC7jc9wIIljjT1U0Tb2.jpg",
+      "trailer_youtube_key": "P7oAaJqqv8w",
+      "age_rating": "NR (US)",
+      "tmdb_id": 1715914,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=WHAM%21+10+Days+in+China+2026",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "zabiti posvatneho jelena",
+      "title_cz": "Zabití posvátného jelena",
+      "title_en": "The Killing of a Sacred Deer",
+      "original_title": "The Killing of a Sacred Deer",
+      "year": 2017,
+      "synopsis": "Špičkový kardiochirurg žije spořádaný život se svou spořádanou ženou a dvěma dětmi. Je v něm jediná podezřelá věc: šestnáctiletý Martin, s nímž se vídá a kterého pomalu, ale jistě zatahuje do své rodiny. Aniž by to věděl, přivolává na sebe tragédii antických rozměrů. I když se Martin zdá být obyčejný teenager, ve skutečnosti v něm dříme schopnost, pro kterou neexistuje racionální vysvětlení.",
+      "synopsis_language": "cs",
+      "runtime_min": 109,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Mysteriózní"
+      ],
+      "director": [
+        "Yorgos Lanthimos"
+      ],
+      "screenwriter": [
+        "Efthimis Filippou",
+        "Yorgos Lanthimos"
+      ],
+      "cast": [
+        "Colin Farrell",
+        "Nicole Kidman",
+        "Barry Keoghan",
+        "Raffey Cassidy",
+        "Sunny Suljic",
+        "Bill Camp",
+        "Alicia Silverstone",
+        "Herb Caillouet"
+      ],
+      "production_company": [
+        "Element Pictures",
+        "TPC",
+        "Film4 Productions",
+        "New Sparta Films",
+        "Limp",
+        "HanWay Films",
+        "Fís Éireann/Screen Ireland"
+      ],
+      "poster_path": "/e4DGlsc9g0h5AyoyvvAuIRnofN7.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/kJwQXgAk440l2vZOspUJee6inim.jpg",
+      "trailer_youtube_key": "RPIx6MNZoG4",
+      "age_rating": "R (US)",
+      "tmdb_id": 399057,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Zabit%C3%AD+posv%C3%A1tn%C3%A9ho+jelena+2017",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "zapisky skutecneho zlocince",
+      "title_cz": "Zápisky skutečného zločince",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Z%C3%A1pisky+skute%C4%8Dn%C3%A9ho+zlo%C4%8Dince",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Zápisky skutečného zločince'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "zena na valecne stezce",
+      "title_cz": "Žena na válečné stezce",
+      "title_en": "Woman at War",
+      "original_title": "Kona fer í stríð",
+      "year": 2018,
+      "synopsis": "Je lepší metodou záchrany světa sabotáž stožárů vysokého napětí, nebo adoptování ukrajinského sirotka? Tuto otázku řeší svérázná „zenová teroristka“ ve šťavnatém, ironickém, nádherně nasnímaném a lahodně nazvučeném filmu Benedikta Erlingssona. Padesátnice Halla je zdánlivě spořádaná učitelka a sbormistryně, ale pod klidným zevnějškem dříme víc, než se na první pohled zdá. Tvrdá a nekompromisní žena má ještě druhý život – vede totiž soukromou válku s průmyslovými giganty, kteří ničí islandskou krajinu. Nejhledanější žena ostrova řeší s lukem v ruce dilema mnohých z nás: jak svým dílem přispět k tomu, aby nedošlo k ekologické a sociální katastrofě?",
+      "synopsis_language": "cs",
+      "runtime_min": 97,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Komedie"
+      ],
+      "director": [
+        "Benedikt Erlingsson"
+      ],
+      "screenwriter": [
+        "Benedikt Erlingsson",
+        "Ólafur Egill Egilsson"
+      ],
+      "cast": [
+        "Halldóra Geirharðsdóttir",
+        "Jóhann Sigurðarson",
+        "Davíð Þór Jónsson",
+        "Magnús Trygvason Eliassen",
+        "Ómar Guðjónsson",
+        "Iryna Danyleiko",
+        "Galyna Goncharenko",
+        "Susanna Kurpenko"
+      ],
+      "production_company": [
+        "Slot Machine",
+        "Gulldrengurinn",
+        "Vintage Pictures",
+        "Köggull Filmworks",
+        "Solar Media Entertainment",
+        "Ukrainian State Film Agency",
+        "Ministry of Culture of Ukraine"
+      ],
+      "poster_path": "/iVSWklWE8EOrWAJaqXpmVCn7KYw.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/7XolBNeZsAm4Gehx09Y4cPdvd5q.jpg",
+      "trailer_youtube_key": "JFFEPPoRkXM",
+      "age_rating": "",
+      "tmdb_id": 348657,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%BDena+na+v%C3%A1le%C4%8Dn%C3%A9+stezce+2018",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
       "film_id": "zeny na pokraji nervoveho zhrouceni",
       "title_cz": "Ženy na pokraji nervového zhroucení",
       "title_en": "Women on the Verge of a Nervous Breakdown",
@@ -1762,6 +5275,148 @@
       "match_score": 1.15
     },
     {
+      "film_id": "zona zajmu",
+      "title_cz": "Zóna zájmu",
+      "title_en": "The Zone of Interest",
+      "original_title": "The Zone of Interest",
+      "year": 2023,
+      "synopsis": "Rudolf, Hedwiga a jejich děti žijí ve velkém domě s krásnou, udržovanou zahradou. Každý den slaví společnou večeří, vzpomínají na milovanou Itálii, užívají si víkendové výlety k vodě a procházky s přáteli. Zpoza zdí jejich domova se však ozývají znepokojivé zvuky a občas něčí zoufalý křik. Rudolf Höss je totiž velitel koncentračního tábora v Osvětimi.",
+      "synopsis_language": "cs",
+      "runtime_min": 105,
+      "genres": [
+        "Drama",
+        "Historický",
+        "Válečný"
+      ],
+      "director": [
+        "Jonathan Glazer"
+      ],
+      "screenwriter": [
+        "Jonathan Glazer"
+      ],
+      "cast": [
+        "Christian Friedel",
+        "Sandra Hüller",
+        "Johann Karthaus",
+        "Luis Noah Witte",
+        "Nele Ahrensmeier",
+        "Lilli Falk",
+        "Anastazja Drobniak",
+        "Cecylia Pekala"
+      ],
+      "production_company": [
+        "JW Films",
+        "Extreme Emotions",
+        "Access Entertainment",
+        "A24",
+        "Film4 Productions"
+      ],
+      "poster_path": "/nQXpE78DmCzsvtkHI08xDBi4Doq.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/pnTSOKcYnvdpQNQElAtJM1rWOxH.jpg",
+      "trailer_youtube_key": "GG5upX8Jyl8",
+      "age_rating": "12+",
+      "tmdb_id": 467244,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Z%C3%B3na+z%C3%A1jmu+2023",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "zootropolis mesto zvirat 2",
+      "title_cz": "Zootropolis: Město zvířat 2",
+      "title_en": "Zootopia 2",
+      "original_title": "Zootopia 2",
+      "year": 2025,
+      "synopsis": "Poté, co vyřešili největší případ v historii Zootopie, se nováčci Judy Hoppsová a Nick Wilde ocitnou na spletité stopě velkého tajemství, když přijede Gary De'Snake a obrátí zvířecí metropoli vzhůru nohama. Aby případ vyřešili, musí Judy a Nick v utajení proniknout do nečekaných nových částí města, kde je jejich rostoucí partnerství podrobeno zkoušce jako nikdy předtím.",
+      "synopsis_language": "cs",
+      "runtime_min": 108,
+      "genres": [
+        "Animovaný",
+        "Dobrodružný",
+        "Komedie",
+        "Mysteriózní",
+        "Rodinný"
+      ],
+      "director": [
+        "Jared Bush",
+        "Byron Howard"
+      ],
+      "screenwriter": [
+        "Jared Bush"
+      ],
+      "cast": [
+        "Ginnifer Goodwin",
+        "Jason Bateman",
+        "Ke Huy Quan",
+        "Fortune Feimster",
+        "Andy Samberg",
+        "David Strathairn",
+        "Idris Elba",
+        "Shakira"
+      ],
+      "production_company": [
+        "Walt Disney Animation Studios",
+        "Walt Disney Animation Studios"
+      ],
+      "poster_path": "/5n5NbX7rQfXprczTRinCs5xyHTZ.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
+      "trailer_youtube_key": "FVTkcUtRg8U",
+      "age_rating": "U",
+      "tmdb_id": 1084242,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Zootropolis%3A+M%C4%9Bsto+zv%C3%AD%C5%99at+2+2025",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "zrozen z temnoty",
+      "title_cz": "Zrozen z temnoty",
+      "title_en": "Nightborn",
+      "original_title": "Yön lapsi",
+      "year": 2026,
+      "synopsis": "Saga (Seidi Haarla) a její britský manžel Jon (Rupert Grint) společně sní o dokonalé rodině na dokonalém místě. Odstěhují se tedy do domu, kde Saga strávila své dětství a který stojí osamocený v hlubokých finských lesích. Jakmile se jim narodí syn, Saga začne tušit, že je s ním něco v nepořádku, že se děje něco divného. Všichni okolo ní ji ujišťují, že se určitě mýlí, ale ona sama postupně podléhá strachu a o svém děcku začíná tušit děsivou pravdu. (CinemArt)",
+      "synopsis_language": "cs",
+      "runtime_min": 92,
+      "genres": [
+        "Horor"
+      ],
+      "director": [
+        "Hanna Bergholm"
+      ],
+      "screenwriter": [
+        "Hanna Bergholm",
+        "Ilja Rautsi"
+      ],
+      "cast": [
+        "Rupert Grint",
+        "Seidi Haarla",
+        "Pamela Tola",
+        "Pirkko Saisio",
+        "Rebecca Lacey",
+        "John Thomson",
+        "Silvia Saloranta",
+        "Satu Tuuli Karhu"
+      ],
+      "production_company": [
+        "Elokuvayhtiö Komeetta",
+        "Getaway Films",
+        "BlueLight",
+        "Filmai LT"
+      ],
+      "poster_path": "/CyYVePoM48hD9x4mAA7E9rWgs2.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/jVeYae744cR2ogx9ShQ3qXOcRiZ.jpg",
+      "trailer_youtube_key": "dWePsu_Kd9c",
+      "age_rating": "",
+      "tmdb_id": 964849,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Zrozen+z+temnoty+2026",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
       "film_id": "ztracena listina",
       "title_cz": "Ztracená listina",
       "title_en": "The Lost Letter",
@@ -1803,6 +5458,104 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Ztracen%C3%A1+listina+1972",
       "resolved": true,
       "match_reason": "manual override",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "ztracena zeme",
+      "title_cz": "Ztracená země",
+      "title_en": "Lost Land",
+      "original_title": "Harà Watan",
+      "year": 2026,
+      "synopsis": "V naději, že se znovu setkají se svou rozptýlenou rodinou, opouští čtyřletý Shafi a jeho devítiletá sestra Somira Bangladéš a vydávají se na dobrodružnou cestu za novým domovem. Putování přes moře i souš si vybírá svou daň. Naděje však umírá poslední. Podaří se jim najít místo, kde budou moci žít v bezpečí? (Pilot Film)",
+      "synopsis_language": "cs",
+      "runtime_min": 99,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Akio Fujimoto"
+      ],
+      "screenwriter": [
+        "Akio Fujimoto"
+      ],
+      "cast": [
+        "Muhammad Shofik Rias Uddin",
+        "Shomira Rias Uddin"
+      ],
+      "production_company": [
+        "Cinemata",
+        "Scarlet Visions",
+        "E.x.N K.K.",
+        "Panorama Films",
+        "Elom Initiatives",
+        "Dongyu Club",
+        "KinemaTowards",
+        "Cineric Creative"
+      ],
+      "poster_path": "/luaeRvDoJqao1kKfHlU41HDW8eT.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/lAr2t0shcOO6ActXSz1XsLJqpPI.jpg",
+      "trailer_youtube_key": "ZNyi9LzJkb4",
+      "age_rating": "",
+      "tmdb_id": 1517120,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ztracen%C3%A1+zem%C4%9B+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "ztratili jsme stalina",
+      "title_cz": "Ztratili jsme Stalina",
+      "title_en": "The Death of Stalin",
+      "original_title": "The Death of Stalin",
+      "year": 2017,
+      "synopsis": "5. března 1953 umírá muž. Tím mužem je Josef Stalin. Po jeho skonu vypuká v řadách jeho nejbližších naprostý zmatek a panika. Na to, co nastane po skonu velkého vůdce, se dosud báli jen pomyslet. Vždyť Lenin byl, je a bude vždy živý. Proč by nemohl i Stalin? Během jeho života se soustředili především na to, jak jej přežít. A teď se začnou naplno projevovat absurdní a pokřivené charaktery všech těchto Stalinových pohrobků. Začíná boj o veškerou moc nad komunistickou říší, která do této chvíle patřila jen a pouze brutálnímu diktátorovi. O nejvyšší post nebo aspoň o bezpečné místečko pod ním se perou ti, kteří se za dobu Stalinovy krutovlády dokázali zbavit jakéhokoli vlastního názoru. Stále se ujišťují, co by tomu nebo tamtomu řekl Stalin, a co by se jim za to asi tak mohlo stát. Povýšení? Gulag? Provaz? Koho se mají bát teď? Jedni kují pikle proti druhým a do toho společně organizují okázalý diktátorův pohřeb.",
+      "synopsis_language": "cs",
+      "runtime_min": 107,
+      "genres": [
+        "Komedie",
+        "Drama",
+        "Historický"
+      ],
+      "director": [
+        "Armando Iannucci"
+      ],
+      "screenwriter": [
+        "Fabien Nury",
+        "Armando Iannucci",
+        "David Schneider",
+        "Ian Martin"
+      ],
+      "cast": [
+        "Steve Buscemi",
+        "Simon Russell Beale",
+        "Jeffrey Tambor",
+        "Jason Isaacs",
+        "Michael Palin",
+        "Rupert Friend",
+        "Andrea Riseborough",
+        "Dermot Crowley"
+      ],
+      "production_company": [
+        "Gaumont",
+        "Quad Productions",
+        "Main Journey",
+        "France 3 Cinéma",
+        "La Compagnie Cinématographique",
+        "Panache Productions",
+        "AFPI",
+        "Title Media",
+        "Free Range Films"
+      ],
+      "poster_path": "/uJz35nTuL4QrXycKYd6ikxWVRJg.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/x2FqFdUxRekbNdow3vZdtDqL96z.jpg",
+      "trailer_youtube_key": "LiJ-0cjMD60",
+      "age_rating": "12+",
+      "tmdb_id": 402897,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ztratili+jsme+Stalina+2017",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0
     }
   ]

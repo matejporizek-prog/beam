@@ -17,7 +17,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-from . import bio_oko, kino_aero, pritomnost, svetozor
+from . import bio_oko, edison, kino_aero, kino_pilotu, ponrepo, pritomnost, svetozor
 
 # Every cinema module exposes the same scrape() function, so the runner doesn't
 # need to know anything about how an individual site is built.
@@ -26,6 +26,9 @@ SCRAPERS = {
     "Bio Oko": bio_oko.scrape,
     "Kino Světozor": svetozor.scrape,
     "Kino Přítomnost": pritomnost.scrape,
+    "Kino Pilotů": kino_pilotu.scrape,
+    "Kino Ponrepo": ponrepo.scrape,
+    "Edison Filmhub": edison.scrape,
 }
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
@@ -52,6 +55,11 @@ def run(dry_run: bool = False) -> dict:
         # for reconstruction like Ponrepo). Record it rather than hiding it.
         if result.get("empty_dates"):
             cinema_entry["empty_dates"] = result["empty_dates"]
+        # Ponrepo-specific, but written generically: any scraper can report a
+        # known reopening date. The app's closedCinemasOn() already checks for
+        # this field to show an honest "closed until X" notice.
+        if result.get("closed_until"):
+            cinema_entry["closed_until"] = result["closed_until"]
 
         cinemas.append(cinema_entry)
         all_screenings.extend(result["screenings"])
@@ -92,6 +100,14 @@ def run(dry_run: bool = False) -> dict:
 
 
 if __name__ == "__main__":
+    import sys
+
+    # See the matching comment in resolve/films.py: a Windows console's legacy
+    # codepage can't represent every character a scraped title might contain,
+    # and a crash from a progress print() must never take down the run or
+    # corrupt an already-correct result.
+    sys.stdout.reconfigure(errors="replace")
+
     parser = argparse.ArgumentParser(description="Scrape Prague arthouse cinema programs.")
     parser.add_argument("--dry-run", action="store_true", help="print a summary, write nothing")
     args = parser.parse_args()

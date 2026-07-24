@@ -225,6 +225,23 @@ def test_classify_tags_splits_the_three_kinds():
     assert out["strand"] == "Malé oči"
 
 
+def test_dabing_and_titulky_are_recognised_with_any_prefix():
+    """
+    Found via Edison Filmhub's "(CZ DABING)": the exact-match VERSION_TAGS
+    dict alone missed it, since that tag never appears as a bare "Dabing" —
+    real cinemas prefix or abbreviate it differently every time ("Dabing",
+    "Český dabing", "CZ DABING", ...). Recognising the word as a substring is
+    the fix, and it must not start swallowing unrelated strand names that
+    merely contain other text.
+    """
+    assert classify_tags(["CZ DABING"])["language_version"] == "dabing"
+    assert classify_tags(["Český dabing"])["language_version"] == "dabing"
+    assert classify_tags(["Dabing"])["language_version"] == "dabing"
+    assert classify_tags(["České titulky"])["language_version"] == "titulky"
+    # Sanity: an unrelated strand name is still just a strand.
+    assert classify_tags(["Malé oči"])["language_version"] == ""
+
+
 def test_unknown_tags_become_strands_and_are_never_lost():
     """New arthouse strands appear all the time; they must survive unrecognised."""
     out = classify_tags(["Zcela Nový Cyklus"])

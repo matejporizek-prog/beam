@@ -40,5 +40,30 @@
   "ztracena listina": {
     "tmdb_id": 124007,
     "_comment": "'Ztracena listina' (Czech for 'The Lost Letter') is a translated title, not TMDb's distribution title - the real film is 'The Lost Letter' (orig. Ukrainian 'Propala hramota', 1972). Found by searching the director's filmography. Verified: director Borys Ivchenko and 79min runtime both match Bio Oko's listing exactly."
+  },
+
+  "co nam zbylo z lasky": {
+    "tmdb_id": 1258509,
+    "_comment": "Kino Pilotu doesn't expose director/runtime at all (see the scraper's module docstring - no JSON-LD on that site), so there is no independent signal to verify against here, unlike the other overrides in this file. Added anyway because it's the sole TMDb candidate and a precise semantic match: 'Co nam zbylo z lasky' (what's left of us, of love) is a literal translation of 'The Love That Remains' / 'Astin sem eftir er' (2025, Hlynur Palmason, a real Cannes-selected film that fits this cinema's programming exactly)."
+  },
+
+  "mrzuta rybka": {
+    "tmdb_id": 1146058,
+    "_comment": "Same situation as 'co nam zbylo z lasky' - no verification signal available from Kino Pilotu's scraper. Sole candidate, and 'Mrzuta rybka' (grumpy/pouting little fish) is an exact thematic translation of 'The Pout-Pout Fish' (2026), a children's book adaptation - fits the kids'-film slot alongside this cinema's other family titles (Zootropolis 2, Toy Story 5, Moana)."
+  },
+
+  "sepot lesa": {
+    "tmdb_id": 1509635,
+    "_comment": "No verification signal available (see above). TMDb has no Czech title or synopsis for this one at all. 'Sepot lesa' (whisper of the forest) matches 'Whispering Forest' (2025, orig. French-titled documentary about the Bialowieza primeval forest) - a 63-minute nature documentary, exactly the theme the Czech title describes."
+  },
+
+  "120 bpm": {
+    "tmdb_id": 451945,
+    "_comment": "Edison Filmhub's own shortened Czech distribution title for '120 battements par minute' / 'BPM (Beats per Minute)' (2017) - a well-known Cannes Grand Prix winner. Single unambiguous title match; Edison gives no director/runtime to independently verify against."
+  },
+
+  "lak na vlasy": {
+    "tmdb_id": 11054,
+    "_comment": "'Lak na vlasy' is a literal Czech translation of 'Hairspray' (1988), not the distribution title TMDb indexes. Single unambiguous candidate, exact semantic match; no verification signal available from Edison's scraper."
   }
 }
