@@ -8,12 +8,12 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=5';
-import { store } from './store.js?v=5';
+import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=6';
+import { store } from './store.js?v=6';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderProfile,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=5';
+} from './screens.js?v=6';
 
 /* ---------- app state ---------- */
 
@@ -24,13 +24,28 @@ let detailFilmId = null;
 
 const $ = id => document.getElementById(id);
 
+/* Diagnostic flag: open the app with ?nobeam (or ?nofx) to strip every
+   decorative fixed layer (beam, dust, grain) and every scroll-time effect. It's
+   an isolation test for scroll performance — if scrolling is smooth with this
+   on and janky without it, the decoration is the cause; if it's janky either
+   way, the cause is elsewhere (content, layout, images). */
+const NO_FX = (() => {
+  const p = new URLSearchParams(location.search);
+  return p.has('nobeam') || p.has('nofx');
+})();
+
 /* ---------- boot ---------- */
 
 async function boot() {
   store.migrate();
-  buildBeam();
-  watchBeamResize();
-  setBeamPreset('sixty');   // intensity + dust density; locked default
+
+  if (NO_FX) {
+    document.documentElement.classList.add('no-fx');   // CSS hides .beam and .grain
+  } else {
+    buildBeam();
+    watchBeamResize();
+    setBeamPreset('sixty');   // intensity + dust density; locked default
+  }
 
   try {
     await loadData();
@@ -170,16 +185,19 @@ function wireEvents() {
     if ($('filter-sheet').classList.contains('open')) return closeFilter(true);
   });
 
-  /* Scroll-linked header shrink. */
-  let ticking = false;
-  window.addEventListener('scroll', () => {
-    if (ticking) return;
-    ticking = true;
-    requestAnimationFrame(() => {
-      document.querySelector('header').classList.toggle('compact', window.scrollY > 24);
-      ticking = false;
-    });
-  }, { passive: true });
+  /* Scroll-linked header shrink. Skipped under ?nobeam so the isolation test
+     leaves nothing at all running on scroll. */
+  if (!NO_FX) {
+    let ticking = false;
+    window.addEventListener('scroll', () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        document.querySelector('header').classList.toggle('compact', window.scrollY > 24);
+        ticking = false;
+      });
+    }, { passive: true });
+  }
 }
 
 function togglePill(set, value) {

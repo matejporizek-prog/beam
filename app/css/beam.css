@@ -40,6 +40,10 @@ body {
 }
 .app { width: 100%; max-width: 430px; min-height: 100vh; position: relative; }
 
+/* Diagnostic: ?nobeam / ?nofx removes every decorative fixed layer, to isolate
+   whether they're behind the scroll jank. See NO_FX in app.js. */
+.no-fx .beam, .no-fx .grain { display: none !important; }
+
 /* ===== projector beam ===================================================== */
 .beam {
   position: fixed; top: 0; left: 50%; transform: translateX(-50%);
