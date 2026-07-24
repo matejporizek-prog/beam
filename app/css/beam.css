@@ -98,6 +98,12 @@ body {
 @media (pointer: coarse) {
   .beam-haze, .beam-core, .beam-origin, .motefield { display: none; }
   .beam-canvas { mix-blend-mode: normal; }
+  /* And let the beam scroll away with the page rather than staying pinned. Even
+     a static fixed layer over the scroll can still occasionally hitch on iOS;
+     an absolute one is just another element in the scroll flow, so it costs
+     nothing once you've scrolled past it. The beam simply slides up out of view
+     as you scroll down — natural for a top-of-page glow. */
+  .beam { position: absolute; }
 }
 .beam-core {
   position: absolute; top: -6px; left: 50%; transform: translateX(-50%);
