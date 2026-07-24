@@ -1,10 +1,11 @@
 """
-Shared scraper for the Aerofilms cinemas: Kino Aero, Bio Oko and Kino Světozor.
+Shared scraper for the Aerofilms cinemas: Kino Aero, Bio Oko, Kino Světozor and
+Kino Přítomnost.
 
-All three are run by the same operator and — conveniently — built on the same
+All four are run by the same operator and — conveniently — built on the same
 website platform, so one parser handles all of them. Each per-cinema module
-(kino_aero.py, bio_oko.py, svetozor.py) is a three-line wrapper that calls
-scrape() here with its own name and program URL.
+(kino_aero.py, bio_oko.py, svetozor.py, pritomnost.py) is a three-line wrapper
+that calls scrape() here with its own name and program URL.
 
 How the page is built, and why we parse it the way we do
 --------------------------------------------------------

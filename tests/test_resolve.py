@@ -418,6 +418,18 @@ def test_build_film_record(odyssea_cs, odyssea_en):
     assert record["resolved"] is True
 
 
+def test_zero_runtime_becomes_none(odyssea_cs, odyssea_en):
+    """
+    Found via a real unreleased film ("Dovolena v Ceskem raji", TMDb status
+    'In Production'): TMDb itself returns runtime=0 for films it doesn't have a
+    runtime for yet. 0 minutes isn't real for any film, so it must normalise to
+    None here rather than the app showing "0'" on every consumer of this field.
+    """
+    odyssea_cs["runtime"] = 0
+    record = build_film_record("Odyssea", odyssea_cs, odyssea_en, 12345, "x", 1.0)
+    assert record["runtime_min"] is None
+
+
 def test_czech_synopsis_wins_when_available(odyssea_cs, odyssea_en):
     record = build_film_record("Odyssea", odyssea_cs, odyssea_en, 12345, "x", 1.0)
     assert record["synopsis"] == "Odysseus se vrací domů."

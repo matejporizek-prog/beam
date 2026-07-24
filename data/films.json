@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T16:22:33+02:00",
+  "generated_at": "2026-07-24T16:40:46+02:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -94,6 +94,31 @@
       "match_score": 1.115
     },
     {
+      "film_id": "audience",
+      "title_cz": "Audience | NT Live",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/04/24/7f4cecaa8e29c98f80a480c5f1a9813d.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Audience+%7C+NT+Live",
+      "resolved": false,
+      "match_reason": "title matched 'Audience' but director and runtime contradict it",
+      "match_score": 0.85
+    },
+    {
       "film_id": "chica checa",
       "title_cz": "Chica Checa",
       "title_en": "Czech Girl",
@@ -129,7 +154,7 @@
         "The French Connection"
       ],
       "poster_path": "/qc1SF2xuOK7UPN7qVpCdv69v6si.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/06/23/a83d66ae30063875fddc9e360b4fce61.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/06/23/a83d66ae30063875fddc9e360b4fce61.jpg",
       "backdrop_path": "/aqmby2szGSgL6kYJMlP5oftaCyd.jpg",
       "trailer_youtube_key": "XUKn2SK7UI0",
       "age_rating": "12+",
@@ -278,6 +303,47 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
+    },
+    {
+      "film_id": "dovolena v ceskem raji",
+      "title_cz": "Dovolená v Českém ráji",
+      "title_en": "Dovolená v Českém ráji",
+      "original_title": "Dovolená v Českém ráji",
+      "year": 2026,
+      "synopsis": "Manželství Milana a Týny Svobodových se v posledních měsících proměnilo v sérii malých i větších nedorozumění, ve kterých se dokážou pohádat už téměř o cokoliv. Dovolená se tak jeví jako správná volba k záchraně vztahu. Jenže co když si ji každý představuje jinak? Milan má slabost pro českou přírodu a je nadšený z představy spaní pod širákem, zatímco Týna by se nejraději viděla u moře. Kemp v Českém ráji vnímá spíše jako kompromis. Už od příjezdu se i zdánlivě obyčejné věci mění v komické katastrofy, které postupně narůstají. Místo odpočinku se mezi nimi dusno jen stupňuje. Po neočekávané příhodě na hradě Trosky se rozhodnou zkusit něco úplně jiného – být chvíli od sebe. Možná tak konečně zjistí, co je v životě opravdu důležité….",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Komedie",
+        "Rodinný"
+      ],
+      "director": [
+        "Adam Rybanský"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "Tomáš Jeřábek",
+        "Magdaléna Borová",
+        "Saša Rašilov",
+        "Petr Čtvrtníček",
+        "Adam Mišík",
+        "Josefína Veronika Prachařová",
+        "Pavel Nový",
+        "Simona Peková"
+      ],
+      "production_company": [
+        "Bratři"
+      ],
+      "poster_path": "/9fCmXAp4IIwLT3dZoG7vicNeK3e.jpg",
+      "poster_fallback_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/07/01/7d53defb2d3dfee374c5463c78c886b1.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1661097,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Dovolen%C3%A1+v+%C4%8Cesk%C3%A9m+r%C3%A1ji+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
     },
     {
       "film_id": "drama",
@@ -467,7 +533,7 @@
         "Tokuma Shoten"
       ],
       "poster_path": "/9ripXZmaPueob1qVgqJz4HWIGlm.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2024/03/07/afd0ea8c3bf10d8f5fc9ef55f45e08cc.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2024/03/07/afd0ea8c3bf10d8f5fc9ef55f45e08cc.jpg",
       "backdrop_path": "/tlQtvjwwTAAbNbtZ7IIGPlY50Hx.jpg",
       "trailer_youtube_key": "yVnlvaxFQ6E",
       "age_rating": "U",
@@ -588,8 +654,8 @@
       ],
       "screenwriter": [
         "Liane-cho Han",
-        "Aude Py",
         "Eddine Noel",
+        "Aude Py",
         "Maïlys Vallade"
       ],
       "cast": [
@@ -796,7 +862,7 @@
         "Illumination"
       ],
       "poster_path": "/6ZhLFj6pGK9JjA0JIldYB8xKCJm.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/06/02/d03269d34f9c3ec82f94669bb03b2d57.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/06/02/d03269d34f9c3ec82f94669bb03b2d57.jpg",
       "backdrop_path": "/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
       "trailer_youtube_key": "V-O-uBaHk3c",
       "age_rating": "U",
@@ -837,7 +903,7 @@
         "Magiclab"
       ],
       "poster_path": "/7OV1Xb6NjUgjtv46cs5livuR1oc.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/06/22/f620138313b4b2a76e0e58ae4b979edf.jpg",
+      "poster_fallback_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/06/22/f620138313b4b2a76e0e58ae4b979edf.jpg",
       "backdrop_path": "/dkSXpwrIVo9v7WEhcJUeHZHBAzp.jpg",
       "trailer_youtube_key": "iwF5DWe2Dqc",
       "age_rating": "",
@@ -924,7 +990,7 @@
         "Kinotitlán"
       ],
       "poster_path": "/tff1IQnQIfx4akKYbD2rsGk31pU.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/06/22/b98390ce60329f71a93854e279dd4be6.webp",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/06/22/b98390ce60329f71a93854e279dd4be6.webp",
       "backdrop_path": "/dlVvlYfvpD05KYbKFxEUvskvWWd.jpg",
       "trailer_youtube_key": "eoxLjS5hXF0",
       "age_rating": "",
@@ -1038,7 +1104,7 @@
         "Syncopy"
       ],
       "poster_path": "/zLbUuaoCctimWJ4TUPW2C1yVImc.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/06/15/22814c5eff3bfe06bd6a84cb1edef97a.jpg",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/06/15/22814c5eff3bfe06bd6a84cb1edef97a.jpg",
       "backdrop_path": "/tYuC9kUwqhpDQ3pv1kLMqyMF1Jw.jpg",
       "trailer_youtube_key": "AyIZ9tiiN8I",
       "age_rating": "15+",
@@ -1079,7 +1145,7 @@
         "Third Floor Film Production"
       ],
       "poster_path": "/b7cbepSZByPE0LSZPL4eB84ZZRR.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/07/12/acb51c90a49367cf92c7cbcedbd1b69a.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/07/12/acb51c90a49367cf92c7cbcedbd1b69a.jpg",
       "backdrop_path": "/sYyH3D2meo3EypkFFaREsqRYKRt.jpg",
       "trailer_youtube_key": "",
       "age_rating": "",
@@ -1234,7 +1300,7 @@
         "DonArt production"
       ],
       "poster_path": "/upIeNzkfKiNSu9BwTVSrSgzN7NI.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/29/ebc87d7c4d1f79ad058a68850733d8ca.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/05/29/ebc87d7c4d1f79ad058a68850733d8ca.jpg",
       "backdrop_path": "",
       "trailer_youtube_key": "",
       "age_rating": "U",
@@ -1326,7 +1392,7 @@
         "Permut Presentations"
       ],
       "poster_path": "/uoSlEfHnONjVvRqiaKMZoQUMO3V.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/29/d43411793b0b50b0a2c99c70a949f5d9.jpg",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/05/29/d43411793b0b50b0a2c99c70a949f5d9.jpg",
       "backdrop_path": "/kLA1GqiOEyVgXxgNqLoCr7bYcqu.jpg",
       "trailer_youtube_key": "nelkiuezJxg",
       "age_rating": "R (US)",
@@ -1367,7 +1433,7 @@
       ],
       "production_company": [],
       "poster_path": "/vg2KV2VT3h4TT0IxB9dCH0Ox2R4.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/06/22/9e0f368a903b30f10736ffec5dc53ae0.webp",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/06/22/9e0f368a903b30f10736ffec5dc53ae0.webp",
       "backdrop_path": "/nfpgKDea6asqL8LKvOLiRXUD72u.jpg",
       "trailer_youtube_key": "",
       "age_rating": "",
@@ -1411,7 +1477,7 @@
         "Tempo Productions"
       ],
       "poster_path": "/gL1rfAYVdp1lrnNnO4lLlo4O4hc.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/21/b59863b6bd52f3207ae60de7d1df99cf.jpg",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/05/21/b59863b6bd52f3207ae60de7d1df99cf.jpg",
       "backdrop_path": "/fe6kkxaxn0mCU2gl1vfU44IYWsy.jpg",
       "trailer_youtube_key": "10ynpduiRpM",
       "age_rating": "R (US)",

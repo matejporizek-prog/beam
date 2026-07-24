@@ -6,9 +6,10 @@ PWA reads. See `beam-build-brief.md` for the build order and
 
 **Milestones 1, 2, 3, 5 are done and live** at
 [beam.matej-porizek.workers.dev](https://beam.matej-porizek.workers.dev).
-**Milestone 4 is in progress**: 3 of 7 Phase 1 cinemas scraped (Kino Aero, Bio
-Oko, Kino Světozor — all on the same Aerofilms platform, see below). Přítomnost,
-Edison Filmhub, Kino Pilotů and Ponrepo are still ahead.
+**Milestone 4 is in progress**: 4 of 7 Phase 1 cinemas scraped (Kino Aero, Bio
+Oko, Kino Světozor, Kino Přítomnost — all four turned out to be on the same
+Aerofilms platform, see below). Edison Filmhub, Kino Pilotů and Ponrepo are
+still ahead.
 
 ## Running it
 
@@ -62,10 +63,11 @@ If you'd rather type plain `python`, add
 ```
 scrapers/
   base.py        shared: the Screening record, text cleanup, tag classification
-  aerofilms.py   shared parser for the three Aerofilms-platform cinemas
+  aerofilms.py   shared parser for the Aerofilms-platform cinemas
   kino_aero.py   Kino Aero — three lines: name, URL, calls aerofilms.scrape()
   bio_oko.py     Bio Oko — same pattern
   svetozor.py    Kino Světozor — same pattern
+  pritomnost.py  Kino Přítomnost — same pattern
   run.py         runs every scraper, writes data/screenings.json
 resolve/
   tmdb.py        TMDb client + the title matcher
@@ -133,21 +135,20 @@ piece pays for something specific later:
 | `director`, `runtime_min` | Free here, and a cross-check for TMDb matching in Milestone 2. |
 | `source_id` | Aero's own id — stable identity for a screening across scrapes. |
 
-## Milestone 4 so far: one parser, three cinemas
+## Milestone 4 so far: one parser, four cinemas
 
-Kino Aero, Bio Oko and Kino Světozor are all run by the same operator
-(Aerofilms) — and, conveniently, all three sites are built on the identical
-platform: same `program__*` BEM markup, same JSON-LD `Event` blocks, same
-`data-projection` ids, same `checkTagInput` tag mechanism. Confirmed by
-fetching all three and comparing structure before writing a second line of
-scraper code.
+Kino Aero, Bio Oko, Kino Světozor and Kino Přítomnost are all run by the same
+operator (Aerofilms) — and, conveniently, all four sites are built on the
+identical platform: same `program__*` BEM markup, same JSON-LD `Event` blocks,
+same `data-projection` ids, same `checkTagInput` tag mechanism. (Přítomnost
+was a tip from Matěj, checked before writing any code — same result.)
 
 So the actual parsing logic lives in `scrapers/aerofilms.py` (a generalised
 version of the original Aero-only parser, parameterised by cinema name and
-program URL), and `kino_aero.py` / `bio_oko.py` / `svetozor.py` are each a
-three-line wrapper. One bug fix or site-structure change now fixes all three at
-once — and if the platform ever changes, all three tests fail together, which
-is the signal to look here first.
+program URL), and `kino_aero.py` / `bio_oko.py` / `svetozor.py` / `pritomnost.py`
+are each a three-line wrapper. One bug fix or site-structure change now fixes
+all four at once — and if the platform ever changes, all four tests fail
+together, which is the signal to look here first.
 
 One real fix this surfaced: Bio Oko's JSON-LD writes `inLanguage: "orig"` for
 some original-version screenings — not a real language code. `language_name()`
@@ -179,6 +180,18 @@ A full director/runtime audit of all 36 resolved films against what each
 cinema actually scraped came back with **zero suspicious matches** — the
 veto-on-contradiction logic from Milestone 2 is doing its job at this scale
 too, not just on the original 18-film test case.
+
+**Adding Přítomnost surfaced two more real things:**
+
+- **A second NT Live theatre broadcast** (Přítomnost's "Audience | NT Live")
+  hit the exact same veto as Aero's — title matched, director and runtime both
+  contradicted, correctly rejected. Good confirmation the veto logic
+  generalises rather than having been tuned to that one case.
+- **TMDb returns `runtime: 0`** for films it doesn't have a runtime for yet
+  (an unreleased film, still "In Production" upstream) — not `null`, literally
+  `0`. `build_film_record` now normalises that to `None`; a real film is never
+  zero minutes long, and showing "0′" in the app would have been worse than
+  showing nothing.
 
 ## Two things about the Aerofilms cinemas specifically
 

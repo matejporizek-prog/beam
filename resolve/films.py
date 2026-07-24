@@ -143,7 +143,11 @@ def build_film_record(
         "year": year,
         "synopsis": synopsis,
         "synopsis_language": synopsis_language,
-        "runtime_min": details_cs.get("runtime"),
+        # TMDb genuinely returns 0 for films it hasn't got a runtime for yet
+        # (typically an unreleased film, still "In Production"). 0 minutes isn't
+        # a real runtime for any film, so treat it the same as missing rather
+        # than showing "0'" — or having every consumer re-derive that rule.
+        "runtime_min": details_cs.get("runtime") or None,
         "genres": [g.get("name", "") for g in details_cs.get("genres", []) if g.get("name")],
         "director": _people(credits, "Director"),
         "screenwriter": _people(credits, "Screenplay", "Writer", "Story"),

@@ -2,7 +2,7 @@
 Scraper for Bio Oko (biooko.net).
 
 Same Aerofilms platform as Kino Aero — see aerofilms.py for the parsing logic
-and scrapers/kino_aero.py's docstring for why one parser covers all three
+and scrapers/kino_aero.py's docstring for why one parser covers all the
 Aerofilms cinemas.
 """
 

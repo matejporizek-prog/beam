@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T16:16:21+02:00",
+  "generated_at": "2026-07-24T16:38:08+02:00",
   "cinemas": [
     {
       "name": "Kino Aero",
@@ -12,6 +12,10 @@
     {
       "name": "Kino Světozor",
       "source_url": "https://www.kinosvetozor.cz/cz/program/"
+    },
+    {
+      "name": "Kino Přítomnost",
+      "source_url": "https://www.kinopritomnost.cz/program/"
     }
   ],
   "screenings": [
@@ -36,28 +40,6 @@
       "runtime_min": 172,
       "source_id": "52510",
       "film_id": "odyssea"
-    },
-    {
-      "cinema": "Kino Aero",
-      "title_cz": "Šťastni spolu",
-      "date": "2026-07-24",
-      "time": "15:00",
-      "language": "kantonština, angličtina, španělština, čínština",
-      "format": "",
-      "note": "Bio Senior",
-      "english_friendly": false,
-      "language_version": "",
-      "strand": "Bio Senior",
-      "hall": "Kinosál",
-      "tags": [
-        "Bio Senior"
-      ],
-      "booking_url": "https://kinoaero.cz/?projection=51304",
-      "poster_url": "https://kinoaero.cz/uploads/images/movies/2025/11/25/f95259ea5bac69cc50cfc78593c8afce.jpg",
-      "director": "Wong Kar-wai",
-      "runtime_min": 96,
-      "source_id": "51304",
-      "film_id": "stastni spolu"
     },
     {
       "cinema": "Kino Světozor",
@@ -101,6 +83,26 @@
       "runtime_min": 100,
       "source_id": "52542",
       "film_id": "pet svestek"
+    },
+    {
+      "cinema": "Kino Přítomnost",
+      "title_cz": "Mistryně",
+      "date": "2026-07-24",
+      "time": "17:30",
+      "language": "čeština",
+      "format": "",
+      "note": "",
+      "english_friendly": false,
+      "language_version": "",
+      "strand": "",
+      "hall": "Kinosál",
+      "tags": [],
+      "booking_url": "https://www.kinopritomnost.cz/?projection=52396",
+      "poster_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/06/22/f620138313b4b2a76e0e58ae4b979edf.jpg",
+      "director": "Bohdan Karásek",
+      "runtime_min": 101,
+      "source_id": "52396",
+      "film_id": "mistryne"
     },
     {
       "cinema": "Kino Světozor",
@@ -308,6 +310,28 @@
       "film_id": "horke svatky"
     },
     {
+      "cinema": "Kino Přítomnost",
+      "title_cz": "Odyssea",
+      "date": "2026-07-24",
+      "time": "20:30",
+      "language": "angličtina",
+      "format": "",
+      "note": "english friendly",
+      "english_friendly": true,
+      "language_version": "",
+      "strand": "",
+      "hall": "Kinosál",
+      "tags": [
+        "ENG"
+      ],
+      "booking_url": "https://www.kinopritomnost.cz/?projection=52397",
+      "poster_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/06/15/22814c5eff3bfe06bd6a84cb1edef97a.jpg",
+      "director": "Christopher Nolan",
+      "runtime_min": 172,
+      "source_id": "52397",
+      "film_id": "odyssea"
+    },
+    {
       "cinema": "Kino Světozor",
       "title_cz": "Drama",
       "date": "2026-07-24",
@@ -463,6 +487,28 @@
       "film_id": "toy story 5 pribeh hracek"
     },
     {
+      "cinema": "Kino Přítomnost",
+      "title_cz": "Přísahám, že za to nemůžu",
+      "date": "2026-07-25",
+      "time": "14:15",
+      "language": "angličtina",
+      "format": "",
+      "note": "english friendly",
+      "english_friendly": true,
+      "language_version": "",
+      "strand": "",
+      "hall": "Kinosál",
+      "tags": [
+        "ENG"
+      ],
+      "booking_url": "https://www.kinopritomnost.cz/?projection=52401",
+      "poster_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/05/21/b59863b6bd52f3207ae60de7d1df99cf.jpg",
+      "director": "Kirk Jones",
+      "runtime_min": 121,
+      "source_id": "52401",
+      "film_id": "prisaham ze za to nemuzu"
+    },
+    {
       "cinema": "Kino Světozor",
       "title_cz": "Mouchy",
       "date": "2026-07-25",
@@ -565,6 +611,28 @@
       "runtime_min": 101,
       "source_id": "52518",
       "film_id": "mistryne"
+    },
+    {
+      "cinema": "Kino Přítomnost",
+      "title_cz": "Pozvání",
+      "date": "2026-07-25",
+      "time": "17:30",
+      "language": "angličtina",
+      "format": "",
+      "note": "english friendly",
+      "english_friendly": true,
+      "language_version": "",
+      "strand": "",
+      "hall": "Kinosál",
+      "tags": [
+        "ENG"
+      ],
+      "booking_url": "https://www.kinopritomnost.cz/?projection=52402",
+      "poster_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/05/29/d43411793b0b50b0a2c99c70a949f5d9.jpg",
+      "director": "Olivia Wilde",
+      "runtime_min": 108,
+      "source_id": "52402",
+      "film_id": "pozvani"
     },
     {
       "cinema": "Kino Světozor",
@@ -698,6 +766,28 @@
       "runtime_min": 108,
       "source_id": "52569",
       "film_id": "pozvani"
+    },
+    {
+      "cinema": "Kino Přítomnost",
+      "title_cz": "Odyssea",
+      "date": "2026-07-25",
+      "time": "20:30",
+      "language": "angličtina",
+      "format": "",
+      "note": "english friendly",
+      "english_friendly": true,
+      "language_version": "",
+      "strand": "",
+      "hall": "Kinosál",
+      "tags": [
+        "ENG"
+      ],
+      "booking_url": "https://www.kinopritomnost.cz/?projection=52403",
+      "poster_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/06/15/22814c5eff3bfe06bd6a84cb1edef97a.jpg",
+      "director": "Christopher Nolan",
+      "runtime_min": 172,
+      "source_id": "52403",
+      "film_id": "odyssea"
     },
     {
       "cinema": "Kino Světozor",
@@ -961,6 +1051,28 @@
       "film_id": "pramen"
     },
     {
+      "cinema": "Kino Přítomnost",
+      "title_cz": "Odyssea",
+      "date": "2026-07-26",
+      "time": "16:30",
+      "language": "angličtina",
+      "format": "",
+      "note": "english friendly",
+      "english_friendly": true,
+      "language_version": "",
+      "strand": "",
+      "hall": "Kinosál",
+      "tags": [
+        "ENG"
+      ],
+      "booking_url": "https://www.kinopritomnost.cz/?projection=52404",
+      "poster_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/06/15/22814c5eff3bfe06bd6a84cb1edef97a.jpg",
+      "director": "Christopher Nolan",
+      "runtime_min": 172,
+      "source_id": "52404",
+      "film_id": "odyssea"
+    },
+    {
       "cinema": "Kino Aero",
       "title_cz": "Chica Checa",
       "date": "2026-07-26",
@@ -1115,6 +1227,29 @@
       "runtime_min": 84,
       "source_id": "52577",
       "film_id": "septej"
+    },
+    {
+      "cinema": "Kino Přítomnost",
+      "title_cz": "Audience | NT Live",
+      "date": "2026-07-26",
+      "time": "20:30",
+      "language": "angličtina",
+      "format": "",
+      "note": "Divadlo v kině",
+      "english_friendly": true,
+      "language_version": "",
+      "strand": "Divadlo v kině",
+      "hall": "Kinosál",
+      "tags": [
+        "ENG",
+        "Divadlo v kině"
+      ],
+      "booking_url": "https://www.kinopritomnost.cz/?projection=48888",
+      "poster_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/04/24/7f4cecaa8e29c98f80a480c5f1a9813d.jpg",
+      "director": "Stephen Daldry",
+      "runtime_min": 148,
+      "source_id": "48888",
+      "film_id": "audience"
     },
     {
       "cinema": "Kino Světozor",
@@ -1291,6 +1426,26 @@
       "runtime_min": 77,
       "source_id": "52565",
       "film_id": "mala amelie"
+    },
+    {
+      "cinema": "Kino Přítomnost",
+      "title_cz": "Pramen",
+      "date": "2026-07-27",
+      "time": "17:30",
+      "language": "čeština, maďarština, slovenština",
+      "format": "",
+      "note": "",
+      "english_friendly": false,
+      "language_version": "",
+      "strand": "",
+      "hall": "Kinosál",
+      "tags": [],
+      "booking_url": "https://www.kinopritomnost.cz/?projection=52405",
+      "poster_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/06/22/9e0f368a903b30f10736ffec5dc53ae0.webp",
+      "director": "Ivan Ostrochovský",
+      "runtime_min": 88,
+      "source_id": "52405",
+      "film_id": "pramen"
     },
     {
       "cinema": "Kino Světozor",
@@ -1491,6 +1646,28 @@
       "film_id": "modry samet"
     },
     {
+      "cinema": "Kino Přítomnost",
+      "title_cz": "Odyssea",
+      "date": "2026-07-27",
+      "time": "20:30",
+      "language": "angličtina",
+      "format": "",
+      "note": "english friendly",
+      "english_friendly": true,
+      "language_version": "",
+      "strand": "",
+      "hall": "Kinosál",
+      "tags": [
+        "ENG"
+      ],
+      "booking_url": "https://www.kinopritomnost.cz/?projection=52406",
+      "poster_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/06/15/22814c5eff3bfe06bd6a84cb1edef97a.jpg",
+      "director": "Christopher Nolan",
+      "runtime_min": 172,
+      "source_id": "52406",
+      "film_id": "odyssea"
+    },
+    {
       "cinema": "Kino Světozor",
       "title_cz": "Pozvání",
       "date": "2026-07-27",
@@ -1603,6 +1780,26 @@
       "film_id": "odyssea"
     },
     {
+      "cinema": "Kino Přítomnost",
+      "title_cz": "Mistryně",
+      "date": "2026-07-28",
+      "time": "17:30",
+      "language": "čeština",
+      "format": "",
+      "note": "",
+      "english_friendly": false,
+      "language_version": "",
+      "strand": "",
+      "hall": "Kinosál",
+      "tags": [],
+      "booking_url": "https://www.kinopritomnost.cz/?projection=52407",
+      "poster_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/06/22/f620138313b4b2a76e0e58ae4b979edf.jpg",
+      "director": "Bohdan Karásek",
+      "runtime_min": 101,
+      "source_id": "52407",
+      "film_id": "mistryne"
+    },
+    {
       "cinema": "Kino Aero",
       "title_cz": "Pramen",
       "date": "2026-07-28",
@@ -1671,6 +1868,28 @@
       "film_id": "nebezpecne znamosti"
     },
     {
+      "cinema": "Kino Přítomnost",
+      "title_cz": "Přísahám, že za to nemůžu",
+      "date": "2026-07-28",
+      "time": "20:30",
+      "language": "angličtina",
+      "format": "",
+      "note": "english friendly",
+      "english_friendly": true,
+      "language_version": "",
+      "strand": "",
+      "hall": "Kinosál",
+      "tags": [
+        "ENG"
+      ],
+      "booking_url": "https://www.kinopritomnost.cz/?projection=52408",
+      "poster_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/05/21/b59863b6bd52f3207ae60de7d1df99cf.jpg",
+      "director": "Kirk Jones",
+      "runtime_min": 121,
+      "source_id": "52408",
+      "film_id": "prisaham ze za to nemuzu"
+    },
+    {
       "cinema": "Bio Oko",
       "title_cz": "Království koček",
       "date": "2026-07-29",
@@ -1714,6 +1933,26 @@
       "runtime_min": 82,
       "source_id": "52566",
       "film_id": "tonda slavka a kouzelne svetlo"
+    },
+    {
+      "cinema": "Kino Přítomnost",
+      "title_cz": "Pramen",
+      "date": "2026-07-29",
+      "time": "17:30",
+      "language": "čeština, maďarština, slovenština",
+      "format": "",
+      "note": "",
+      "english_friendly": false,
+      "language_version": "",
+      "strand": "",
+      "hall": "Kinosál",
+      "tags": [],
+      "booking_url": "https://www.kinopritomnost.cz/?projection=52409",
+      "poster_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/06/22/9e0f368a903b30f10736ffec5dc53ae0.webp",
+      "director": "Ivan Ostrochovský",
+      "runtime_min": 88,
+      "source_id": "52409",
+      "film_id": "pramen"
     },
     {
       "cinema": "Bio Oko",
@@ -1806,6 +2045,28 @@
       "film_id": "ztracena listina"
     },
     {
+      "cinema": "Kino Přítomnost",
+      "title_cz": "Odyssea",
+      "date": "2026-07-29",
+      "time": "20:30",
+      "language": "angličtina",
+      "format": "",
+      "note": "english friendly",
+      "english_friendly": true,
+      "language_version": "",
+      "strand": "",
+      "hall": "Kinosál",
+      "tags": [
+        "ENG"
+      ],
+      "booking_url": "https://www.kinopritomnost.cz/?projection=52410",
+      "poster_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/06/15/22814c5eff3bfe06bd6a84cb1edef97a.jpg",
+      "director": "Christopher Nolan",
+      "runtime_min": 172,
+      "source_id": "52410",
+      "film_id": "odyssea"
+    },
+    {
       "cinema": "Kino Aero",
       "title_cz": "Po večerce",
       "date": "2026-07-30",
@@ -1870,6 +2131,26 @@
       "runtime_min": 71,
       "source_id": "52679",
       "film_id": "lisak a zajda zachranuji les"
+    },
+    {
+      "cinema": "Kino Přítomnost",
+      "title_cz": "Dovolená v Českém ráji",
+      "date": "2026-07-30",
+      "time": "17:30",
+      "language": "čeština",
+      "format": "",
+      "note": "",
+      "english_friendly": false,
+      "language_version": "",
+      "strand": "",
+      "hall": "Kinosál",
+      "tags": [],
+      "booking_url": "https://www.kinopritomnost.cz/?projection=52638",
+      "poster_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/07/01/7d53defb2d3dfee374c5463c78c886b1.jpg",
+      "director": "Adam Koloman Rybanský",
+      "runtime_min": 90,
+      "source_id": "52638",
+      "film_id": "dovolena v ceskem raji"
     },
     {
       "cinema": "Bio Oko",
@@ -1989,6 +2270,28 @@
       "film_id": "horke svatky"
     },
     {
+      "cinema": "Kino Přítomnost",
+      "title_cz": "Pozvání",
+      "date": "2026-07-30",
+      "time": "20:30",
+      "language": "angličtina",
+      "format": "",
+      "note": "english friendly",
+      "english_friendly": true,
+      "language_version": "",
+      "strand": "",
+      "hall": "Kinosál",
+      "tags": [
+        "ENG"
+      ],
+      "booking_url": "https://www.kinopritomnost.cz/?projection=52639",
+      "poster_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/05/29/d43411793b0b50b0a2c99c70a949f5d9.jpg",
+      "director": "Olivia Wilde",
+      "runtime_min": 108,
+      "source_id": "52639",
+      "film_id": "pozvani"
+    },
+    {
       "cinema": "Kino Aero",
       "title_cz": "Co je ti, holka?",
       "date": "2026-07-31",
@@ -2009,6 +2312,28 @@
       "runtime_min": 89,
       "source_id": "51307",
       "film_id": "co je ti holka"
+    },
+    {
+      "cinema": "Kino Přítomnost",
+      "title_cz": "Přísahám, že za to nemůžu",
+      "date": "2026-07-31",
+      "time": "17:15",
+      "language": "angličtina",
+      "format": "",
+      "note": "english friendly",
+      "english_friendly": true,
+      "language_version": "",
+      "strand": "",
+      "hall": "Kinosál",
+      "tags": [
+        "ENG"
+      ],
+      "booking_url": "https://www.kinopritomnost.cz/?projection=52640",
+      "poster_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/05/21/b59863b6bd52f3207ae60de7d1df99cf.jpg",
+      "director": "Kirk Jones",
+      "runtime_min": 121,
+      "source_id": "52640",
+      "film_id": "prisaham ze za to nemuzu"
     },
     {
       "cinema": "Bio Oko",
@@ -2125,6 +2450,29 @@
       "runtime_min": 172,
       "source_id": "52655",
       "film_id": "odyssea"
+    },
+    {
+      "cinema": "Kino Přítomnost",
+      "title_cz": "Chica Checa",
+      "date": "2026-07-31",
+      "time": "20:30",
+      "language": "čeština",
+      "format": "",
+      "note": "Předpremiéra",
+      "english_friendly": true,
+      "language_version": "",
+      "strand": "Předpremiéra",
+      "hall": "Kinosál",
+      "tags": [
+        "ENG",
+        "Předpremiéra"
+      ],
+      "booking_url": "https://www.kinopritomnost.cz/?projection=52411",
+      "poster_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/06/23/a83d66ae30063875fddc9e360b4fce61.jpg",
+      "director": "Šimon Holý",
+      "runtime_min": 96,
+      "source_id": "52411",
+      "film_id": "chica checa"
     }
   ]
 }

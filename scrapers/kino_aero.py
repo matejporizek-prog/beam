@@ -1,10 +1,11 @@
 """
 Scraper for Kino Aero (kinoaero.cz).
 
-Kino Aero, Bio Oko and Kino Světozor are all run by the same operator
-(Aerofilms) on the same website platform, so the actual parsing logic lives in
-one shared place: aerofilms.py. This module is just that cinema's name and URL.
-See aerofilms.py for how the page is structured and why it's parsed this way.
+Kino Aero, Bio Oko, Kino Světozor and Kino Přítomnost are all run by the same
+operator (Aerofilms) on the same website platform, so the actual parsing logic
+lives in one shared place: aerofilms.py. This module is just that cinema's
+name and URL. See aerofilms.py for how the page is structured and why it's
+parsed this way.
 """
 
 from __future__ import annotations
