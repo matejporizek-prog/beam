@@ -20,5 +20,25 @@
   "mouchy": {
     "tmdb_id": 1437703,
     "_comment": "Fernando Eimbcke's 'Moscas' (2026). TMDb has no Czech title for it at all, so no title search can find it - this needs a manual id. Verified: director and 99min runtime both match Aero's listing."
+  },
+
+  "me 20 stoleti": {
+    "tmdb_id": 49978,
+    "_comment": "Ildiko Enyedi's 'My Twentieth Century' / 'Az en XX. szazadom' (1989). TMDb has no Czech title, and searching the English translation of the Czech title doesn't hit the actual English release title either. Verified: director Ildiko Enyedi matches Aero's listing exactly."
+  },
+
+  "mumbo jumbo": {
+    "tmdb_id": 1218067,
+    "_comment": "Danish animated film, TMDb title 'When Mumbo Jumbo Grew Giant' (orig. 'Da Mumbo Jumbo blev kaempestor', 2026) - Bio Oko lists it under a shortened Czech title that happens to collide with several unrelated films also called 'Mumbo Jumbo'. TMDb's own title search never surfaces this candidate at all, so no threshold tuning would have found it. Verified: director Karsten Kiilerich and 83min runtime both match Bio Oko's listing exactly."
+  },
+
+  "horke svatky": {
+    "tmdb_id": 1088548,
+    "_comment": "'Horke svatky' is a Czech translation of the title, not the distribution title TMDb knows - the real film is Almodovar's 'Bitter Christmas' (orig. 'Amarga Navidad', 2026). Found by searching the director's filmography. Verified: director Pedro Almodovar and runtime (111 scraped vs 112 on TMDb, normal rounding) both match Bio Oko's listing."
+  },
+
+  "ztracena listina": {
+    "tmdb_id": 124007,
+    "_comment": "'Ztracena listina' (Czech for 'The Lost Letter') is a translated title, not TMDb's distribution title - the real film is 'The Lost Letter' (orig. Ukrainian 'Propala hramota', 1972). Found by searching the director's filmography. Verified: director Borys Ivchenko and 79min runtime both match Bio Oko's listing exactly."
   }
 }

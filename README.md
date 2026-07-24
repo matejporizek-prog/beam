@@ -4,9 +4,11 @@ Prague arthouse cinema programs, scraped into one normalized JSON file that the
 PWA reads. See `beam-build-brief.md` for the build order and
 `prague-cinema-app-brainstorm.md` for the full planning context.
 
-**Milestones 1–3 are done**: the Kino Aero scraper, TMDb + ČSFD resolution, and
-the PWA running on real data. Milestones 4 (remaining scrapers) and 5 (GitHub
-Actions + Cloudflare Pages) are ahead.
+**Milestones 1, 2, 3, 5 are done and live** at
+[beam.matej-porizek.workers.dev](https://beam.matej-porizek.workers.dev).
+**Milestone 4 is in progress**: 3 of 7 Phase 1 cinemas scraped (Kino Aero, Bio
+Oko, Kino Světozor — all on the same Aerofilms platform, see below). Přítomnost,
+Edison Filmhub, Kino Pilotů and Ponrepo are still ahead.
 
 ## Running it
 
@@ -60,7 +62,10 @@ If you'd rather type plain `python`, add
 ```
 scrapers/
   base.py        shared: the Screening record, text cleanup, tag classification
-  kino_aero.py   the Kino Aero scraper
+  aerofilms.py   shared parser for the three Aerofilms-platform cinemas
+  kino_aero.py   Kino Aero — three lines: name, URL, calls aerofilms.scrape()
+  bio_oko.py     Bio Oko — same pattern
+  svetozor.py    Kino Světozor — same pattern
   run.py         runs every scraper, writes data/screenings.json
 resolve/
   tmdb.py        TMDb client + the title matcher
@@ -128,7 +133,54 @@ piece pays for something specific later:
 | `director`, `runtime_min` | Free here, and a cross-check for TMDb matching in Milestone 2. |
 | `source_id` | Aero's own id — stable identity for a screening across scrapes. |
 
-## Two things about Kino Aero specifically
+## Milestone 4 so far: one parser, three cinemas
+
+Kino Aero, Bio Oko and Kino Světozor are all run by the same operator
+(Aerofilms) — and, conveniently, all three sites are built on the identical
+platform: same `program__*` BEM markup, same JSON-LD `Event` blocks, same
+`data-projection` ids, same `checkTagInput` tag mechanism. Confirmed by
+fetching all three and comparing structure before writing a second line of
+scraper code.
+
+So the actual parsing logic lives in `scrapers/aerofilms.py` (a generalised
+version of the original Aero-only parser, parameterised by cinema name and
+program URL), and `kino_aero.py` / `bio_oko.py` / `svetozor.py` are each a
+three-line wrapper. One bug fix or site-structure change now fixes all three at
+once — and if the platform ever changes, all three tests fail together, which
+is the signal to look here first.
+
+One real fix this surfaced: Bio Oko's JSON-LD writes `inLanguage: "orig"` for
+some original-version screenings — not a real language code. `language_name()`
+in `scrapers/base.py` now drops known non-language tokens (`orig`, `ov`, `und`,
+…) instead of showing literal "orig" as a language.
+
+**Milestone 2's matcher held up at 3x the scale.** Resolving all three cinemas'
+films together (95 screenings → 40 unique films) needed four manual overrides,
+and each was a genuinely different kind of gap — worth knowing about since
+they'll recur as more cinemas are added:
+
+- **No Czech title on TMDb at all** — *Mé 20. století* (Ildikó Enyedi's *My
+  Twentieth Century*) and *Ztracená listina* (*The Lost Letter*) are both
+  literal Czech translations of the title, not the distribution title TMDb
+  actually indexes. Found by searching the director's filmography instead of
+  the title.
+- **The title search never surfaces the right candidate at all** — Bio Oko's
+  *Mumbo Jumbo* is really the Danish *When Mumbo Jumbo Grew Giant*; TMDb's own
+  title search doesn't return it for that query no matter how the matcher's
+  thresholds are tuned. Same fix: search by director instead.
+- **A translated title that happens to also exist as a different real title**
+  — *Hořké svátky* ("bitter holidays") is Almodóvar's *Bitter Christmas*.
+- **Programming events, not single films** — the two "double feature" listings
+  (Almodóvar, Ildikó Enyedi) correctly stay unresolved forever; there's no
+  single TMDb film to match. They still render fine — Czech title, the
+  cinema's own poster, a ČSFD search link — so nothing about the app degrades.
+
+A full director/runtime audit of all 36 resolved films against what each
+cinema actually scraped came back with **zero suspicious matches** — the
+veto-on-contradiction logic from Milestone 2 is doing its job at this scale
+too, not just on the original 18-film test case.
+
+## Two things about the Aerofilms cinemas specifically
 
 **The page carries structured data.** Every screening has a schema.org `Event`
 block embedded next to it, giving an exact timezone-aware start time plus

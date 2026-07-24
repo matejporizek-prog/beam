@@ -238,6 +238,11 @@ LANGUAGE_NAMES = {
     "hi": "hindština",
 }
 
+# Tokens that appear in the inLanguage field but aren't actually languages —
+# some Aerofilms cinemas write "orig" (original version, language unspecified)
+# there. Dropped rather than shown as a bogus "language".
+NON_LANGUAGE_CODES = {"orig", "original", "ov", "und", "zxx", "mul"}
+
 
 def language_name(code: str) -> str:
     """
@@ -258,7 +263,10 @@ def language_name(code: str) -> str:
 
     names = []
     for part in parts:
-        name = LANGUAGE_NAMES.get(part.lower(), part)
+        lower = part.lower()
+        if lower in NON_LANGUAGE_CODES:
+            continue
+        name = LANGUAGE_NAMES.get(lower, part)
         if name not in names:  # "en, en-US" shouldn't produce a duplicate
             names.append(name)
     return ", ".join(names)

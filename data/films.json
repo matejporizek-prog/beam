@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T19:06:46+00:00",
+  "generated_at": "2026-07-24T16:22:33+02:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -44,6 +44,56 @@
       "match_score": 1.15
     },
     {
+      "film_id": "arco",
+      "title_cz": "Arco",
+      "title_en": "Arco",
+      "original_title": "Arco",
+      "year": 2025,
+      "synopsis": "Je rok 2075. Desetiletá Iris vidí spadnout z nebe tajemného chlapce v duhovém obleku. Jmenuje se Arco a pochází z budoucnosti. Mezi Iris a Arcem vzniká přátelství, křehké a krásné spojení dvou odlišných světů. Společně s robotem Mikkim se vydají na cestu s cílem dostat chlapce zpět domů. Zároveň jsou možná jediní, kteří dokáží zachránit planetu. Arco je okouzlující, vizuálně dechberoucí a dojemná odysea plná naděje a optimismu, kterou produkovala Natalie Portman. Film Uga Bienvenu měl premiéru na festivalu v Cannes a získal hlavní cenu za nejlepší celovečerní film na festivalu animovaného filmu v Annecy.",
+      "synopsis_language": "cs",
+      "runtime_min": 88,
+      "genres": [
+        "Dobrodružný",
+        "Animovaný",
+        "Rodinný",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Ugo Bienvenu"
+      ],
+      "screenwriter": [
+        "Ugo Bienvenu",
+        "Félix de Givry"
+      ],
+      "cast": [
+        "Margot Ringard Oldra",
+        "Oscar Tresanini",
+        "Nathanaël Perrot",
+        "Alma Jodorowsky",
+        "Swann Arlaud",
+        "Vincent Macaigne",
+        "Louis Garrel",
+        "William Lebghil"
+      ],
+      "production_company": [
+        "Remembers",
+        "MountainA",
+        "France 3 Cinéma",
+        "Fit Via Vi",
+        "Sons of Rigor Films"
+      ],
+      "poster_path": "/rWvbMnqLTpyTHmNii4TrnmgzpcS.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2025/12/15/0a3638fbc4cfb6cee9862b81aaa57497.jpg",
+      "backdrop_path": "/reQELo8rDiLIOoYIA7M6q7KGRW0.jpg",
+      "trailer_youtube_key": "j7Tpaj-Iet8",
+      "age_rating": "U",
+      "tmdb_id": 804370,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Arco+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.11, title 1.00)",
+      "match_score": 1.115
+    },
+    {
       "film_id": "chica checa",
       "title_cz": "Chica Checa",
       "title_en": "Czech Girl",
@@ -85,6 +135,55 @@
       "age_rating": "12+",
       "tmdb_id": 1339767,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Chica+Checa+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "co je ti holka",
+      "title_cz": "Co je ti, holka?",
+      "title_en": "Little Trouble Girls",
+      "original_title": "Kaj ti je deklica",
+      "year": 2025,
+      "synopsis": "16-year-old Lucia joins the Catholic school choir where she befriends senior Ana-Maria. During a choir retreat Lucia's attraction to a restoration worker creates tension with Ana-Maria and challenges her faith.",
+      "synopsis_language": "en",
+      "runtime_min": 89,
+      "genres": [
+        "Drama",
+        "Romantický"
+      ],
+      "director": [
+        "Urška Djukić"
+      ],
+      "screenwriter": [
+        "Urška Djukić"
+      ],
+      "cast": [
+        "Jara Sofija Ostan",
+        "Mina Švajger",
+        "Saša Tabaković",
+        "Nataša Burger",
+        "Staša Popovič",
+        "Mateja Strle",
+        "Saša Pavček",
+        "Matia Casson"
+      ],
+      "production_company": [
+        "Nosorogi",
+        "Sister Productions",
+        "SPOK Films",
+        "Antitalent",
+        "Non-Aligned Films",
+        "Izazov 365",
+        "Staragara IT"
+      ],
+      "poster_path": "/b4S00GQaYQm3ThieNImvTMTHnip.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2025/06/26/25ea130a844c9838e5dad62c9830266d.jpg",
+      "backdrop_path": "/uK2q3uZO6yd5aS9C6u1mJmtGdgU.jpg",
+      "trailer_youtube_key": "Rm9m7u-NsN4",
+      "age_rating": "",
+      "tmdb_id": 1019871,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Co+je+ti%2C+holka%3F+2025",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
@@ -181,6 +280,153 @@
       "match_score": 1.15
     },
     {
+      "film_id": "drama",
+      "title_cz": "Drama",
+      "title_en": "The Drama",
+      "original_title": "The Drama",
+      "year": 2026,
+      "synopsis": "Vztah snoubenců projde týden před svatbou nečekanou zkouškou. Zdánlivě dokonalý pár je tak vystaven nečekanému dramatu a krizi.",
+      "synopsis_language": "cs",
+      "runtime_min": 105,
+      "genres": [
+        "Romantický",
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "Kristoffer Borgli"
+      ],
+      "screenwriter": [
+        "Kristoffer Borgli"
+      ],
+      "cast": [
+        "Zendaya",
+        "Robert Pattinson",
+        "Alana Haim",
+        "Mamoudou Athie",
+        "Hailey Benton Gates",
+        "Sydney Lemmon",
+        "Hannah Gross",
+        "Anna Baryshnikov"
+      ],
+      "production_company": [
+        "A24",
+        "Square Peg",
+        "Dilemma Films"
+      ],
+      "poster_path": "/pjztX7PQZMh0CxsSKaptAWfAY5n.jpg",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/02/25/ec4f669accee7800f4c217ba7a40e42c.jpg",
+      "backdrop_path": "/gQxnJoswBzsENExzygVnFiemvK7.jpg",
+      "trailer_youtube_key": "0ZDzsH3XGFA",
+      "age_rating": "15+",
+      "tmdb_id": 1325734,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Drama+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "eos frida kahlo",
+      "title_cz": "EOS: Frida Kahlo",
+      "title_en": "Frida Kahlo",
+      "original_title": "Frida Kahlo",
+      "year": 2020,
+      "synopsis": "She was a prolific self-portraitist, using the canvas as a mirror through all stages of her turbulent and, at times, tragic life. This highly engaging film takes us on a journey through the life of one of the most prevalent female icons: Frida Kahlo. Displaying a treasure trove of colour and a feast of vibrancy on screen, this personal and intimate film offers privileged access to her works and highlights the source of her feverish creativity, her resilience and her unmatched lust for life, men, women, politics and her cultural heritage.",
+      "synopsis_language": "en",
+      "runtime_min": 90,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Ali Ray"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "Frida Kahlo"
+      ],
+      "production_company": [
+        "Seventh Art Productions"
+      ],
+      "poster_path": "/fzHHWd3dB2Dns936AWkEu7cJAUQ.jpg",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/07/08/1aed19a0468e160c7400ecf504312324.jpg",
+      "backdrop_path": "/YHW4wQaUdtHjnvhZH4uQtsjfqt.jpg",
+      "trailer_youtube_key": "D76y2YhjV8A",
+      "age_rating": "",
+      "tmdb_id": 607710,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=EOS%3A+Frida+Kahlo+2020",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (0.95, title 0.85)",
+      "match_score": 0.946
+    },
+    {
+      "film_id": "horke svatky",
+      "title_cz": "Hořké svátky",
+      "title_en": "Bitter Christmas",
+      "original_title": "Amarga Navidad",
+      "year": 2026,
+      "synopsis": "In 2025 Spain, a celebrated film director struggles to write the screenplay for an autofictional film set in 2004 Spain about an unsuccessful movie director turned director of commercials who suffers a panic attack that forces her to take a break by visiting the Canary Islands, where she begins work on a new film.",
+      "synopsis_language": "en",
+      "runtime_min": 112,
+      "genres": [
+        "Drama",
+        "Komedie"
+      ],
+      "director": [
+        "Pedro Almodóvar"
+      ],
+      "screenwriter": [
+        "Pedro Almodóvar"
+      ],
+      "cast": [
+        "Bárbara Lennie",
+        "Leonardo Sbaraglia",
+        "Aitana Sánchez-Gijón",
+        "Victoria Luengo",
+        "Patrick Criado",
+        "Milena Smit",
+        "Quim Gutiérrez",
+        "Rossy de Palma"
+      ],
+      "production_company": [
+        "El Deseo"
+      ],
+      "poster_path": "/ji29dXqoeIsQiVnXAkzI4nzxMjr.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/06/22/776b5835cb81935a737c51750b614342.jpg",
+      "backdrop_path": "/ppLv2F7dhvI3wxaEoOP1E0OyBPP.jpg",
+      "trailer_youtube_key": "7PgPkSpuYpY",
+      "age_rating": "",
+      "tmdb_id": 1088548,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ho%C5%99k%C3%A9+sv%C3%A1tky+2026",
+      "resolved": true,
+      "match_reason": "manual override",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "ildiko enyedi double feature",
+      "title_cz": "Ildikó Enyedi double feature",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/06/22/33c5f164cf598354f885b45da9a2bdd0.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ildik%C3%B3+Enyedi+double+feature",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Ildikó Enyedi double feature'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "kralovstvi kocek",
       "title_cz": "Království koček",
       "title_en": "The Cat Returns",
@@ -227,6 +473,54 @@
       "age_rating": "U",
       "tmdb_id": 15370,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1lovstv%C3%AD+ko%C4%8Dek+2002",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "leviticus",
+      "title_cz": "Leviticus",
+      "title_en": "Leviticus",
+      "original_title": "Leviticus",
+      "year": 2026,
+      "synopsis": "Dva teenageři musí utéct před nadpřirozenou vražednou entitou, která na sebe bere podobu osoby, po níž její oběti nejvíce touží.",
+      "synopsis_language": "cs",
+      "runtime_min": 88,
+      "genres": [
+        "Horor",
+        "Romantický"
+      ],
+      "director": [
+        "Adrian Chiarella"
+      ],
+      "screenwriter": [
+        "Adrian Chiarella"
+      ],
+      "cast": [
+        "Joe Bird",
+        "Stacy Clausen",
+        "Mia Wasikowska",
+        "Nicholas Hope",
+        "Tyallah Bullock",
+        "Ewen Leslie",
+        "Jeremy Blewitt",
+        "Davida McKenzie"
+      ],
+      "production_company": [
+        "Causeway Films",
+        "Salmira Productions",
+        "Screen Australia",
+        "VicScreen",
+        "Arenamedia",
+        "Lazy Susan Films"
+      ],
+      "poster_path": "/yBdnjr3RMZvEThmGUVU5Z2u3UsB.jpg",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/06/18/1862e790fc0563da813bcad1b74fc800.png",
+      "backdrop_path": "/7y8zWGEjs7tresw4Hzkkf4TdkcL.jpg",
+      "trailer_youtube_key": "WXuK0vlFxII",
+      "age_rating": "15+",
+      "tmdb_id": 1564614,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Leviticus+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
@@ -326,6 +620,98 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
+    },
+    {
+      "film_id": "matador",
+      "title_cz": "Matador",
+      "title_en": "Matador",
+      "original_title": "Matador",
+      "year": 1986,
+      "synopsis": "Bývalý špičkový matador Diego Montes vede v Madridu školu pro toreadory. Zabíjení v aréně mu chybí, tak moc, že tuto posedlost a vášeň obrací do vztahu k ženám. Diegův žák Ángel (Antonio Banderas) je citlivá duše vychovávaná matkou, náboženskou fanatičkou. Aby dokázal svému učiteli mužnost, pokusí se Ángel znásilnit Diegovu snoubenku.",
+      "synopsis_language": "cs",
+      "runtime_min": 105,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "director": [
+        "Pedro Almodóvar"
+      ],
+      "screenwriter": [
+        "Pedro Almodóvar",
+        "Jesús Ferrero"
+      ],
+      "cast": [
+        "Assumpta Serna",
+        "Antonio Banderas",
+        "Nacho Martínez",
+        "Eva Cobo",
+        "Julieta Serrano",
+        "Chus Lampreave",
+        "Carmen Maura",
+        "Eusebio Poncela"
+      ],
+      "production_company": [
+        "Compañía Iberoamericana de TV",
+        "TVE"
+      ],
+      "poster_path": "/jBBLDaF7j3EeTPkOwDPqdfSCWWk.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/07/14/b4dc84d49d466bfd2416a9b14b4337b4.webp",
+      "backdrop_path": "/sZPmrn6XRGoR8mtMCrASfEwn3gA.jpg",
+      "trailer_youtube_key": "K4sMuwHX0CQ",
+      "age_rating": "NC-17 (US)",
+      "tmdb_id": 8047,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Matador+1986",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.11, title 1.00)",
+      "match_score": 1.115
+    },
+    {
+      "film_id": "me 20 stoleti",
+      "title_cz": "Mé 20. století",
+      "title_en": "My Twentieth Century",
+      "original_title": "Az én XX. századom",
+      "year": 1989,
+      "synopsis": "A tale of twin girls, Dóra and Lili, who are born in 1880 Budapest at the same moment Thomas Edison presents his electric lightbulb to the world. The sisters are soon orphaned and separated in childhood, and follow different paths: one grows up to be a naïvely idealistic, bomb-toting anarchist, the other a pampered, hedonistic courtesan. Their paths cross once again on the Orient Express on New Year's Eve 1899...",
+      "synopsis_language": "en",
+      "runtime_min": 102,
+      "genres": [
+        "Komedie",
+        "Drama",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Ildikó Enyedi"
+      ],
+      "screenwriter": [
+        "Ildikó Enyedi"
+      ],
+      "cast": [
+        "Dorota Segda",
+        "Paulus Manker",
+        "Péter Andorai",
+        "Gábor Máté",
+        "Eszter Kovács",
+        "Oleg Yankovskiy",
+        "Sándor Czvetkó",
+        "Gyula Kéry"
+      ],
+      "production_company": [
+        "freihändler filmproduktion",
+        "Hamburger Filmbüro",
+        "Magyar Filmgyártó Vállalat",
+        "Budapest Stúdió Vállalat"
+      ],
+      "poster_path": "/mu80LgWaRvnBME7dOuNWv4JiJ6q.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/27/83609b7d5f3bad48b839c585c5251b11.jpg",
+      "backdrop_path": "/NV1IxvmfqxrVsHrDcapgULDdeX.jpg",
+      "trailer_youtube_key": "VUlI1JtBorc",
+      "age_rating": "",
+      "tmdb_id": 49978,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=M%C3%A9+20.+stolet%C3%AD+1989",
+      "resolved": true,
+      "match_reason": "manual override",
+      "match_score": 1.0
     },
     {
       "film_id": "me tiche myslenky",
@@ -549,6 +935,50 @@
       "match_score": 1.0
     },
     {
+      "film_id": "mumbo jumbo",
+      "title_cz": "Mumbo Jumbo",
+      "title_en": "When Mumbo Jumbo Grew Giant",
+      "original_title": "Da Mumbo Jumbo blev kæmpestor",
+      "year": 2026,
+      "synopsis": "When the happy little hippo, Mumbo Jumbo, accidentally turns giant his life changes for the worse - seemingly forever. Now Mumbo is forced out on a challenging journey in order to encounter an unpredictable witch. Luckily Mumbo's best friends join him. It’s still an insurmountable task, but at least the friends are facing it together. It is not easy being a small hippo, nor a giant one, and when the only way back to normal depends on the cooperation of a frank and mischievous witch, anyone can imagine that it requires a true effort. Hopefully Mumbo Jumbo will develop a strong belief in himself during the adventure. Otherwise, it will definitely be an impossible mission.",
+      "synopsis_language": "en",
+      "runtime_min": 83,
+      "genres": [
+        "Animovaný",
+        "Dobrodružný",
+        "Rodinný"
+      ],
+      "director": [
+        "Karsten Kiilerich"
+      ],
+      "screenwriter": [
+        "Karsten Kiilerich"
+      ],
+      "cast": [
+        "Victor Spanning",
+        "Annevig Schelde Ebbe",
+        "Kirsten Lehfeldt",
+        "Rebecca Rønde Kiilerich",
+        "Asger Reher",
+        "Peter Zhelder",
+        "Lars Mikkelsen",
+        "Cecilie Stenspil"
+      ],
+      "production_company": [
+        "A. Film Production"
+      ],
+      "poster_path": "/ivnoXwbT3dzf28dkfXGgTceucds.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/05/28/4d22cdff6bda83e7f070fcfad2bfb638.png",
+      "backdrop_path": "/xEM4grRNMP0TMHKbk3jnmbbLw4f.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1218067,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Mumbo+Jumbo+2026",
+      "resolved": true,
+      "match_reason": "manual override",
+      "match_score": 1.0
+    },
+    {
       "film_id": "nebezpecne znamosti",
       "title_cz": "Nebezpečné známosti | NT Live",
       "title_en": "",
@@ -704,6 +1134,73 @@
       "match_score": 1.15
     },
     {
+      "film_id": "pedro almodovar double feature",
+      "title_cz": "Pedro Almodóvar double feature",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/07/10/dea73cc7656fd41b9c08d4e0bf4bdce4.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Pedro+Almod%C3%B3var+double+feature",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Pedro Almodóvar double feature'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "pet svestek",
+      "title_cz": "Pět švestek",
+      "title_en": "Five plums",
+      "original_title": "Pět švestek",
+      "year": 2026,
+      "synopsis": "Věra žije sama a už ji v životě zdánlivě nic nečeká. Zasteskne se jí po době, kdy bývala  opravdu šťastná – když jezdila s přáteli na moře. Ze staré party však zbyly jen trosky a není  jisté, zda takové dobrodružství vůbec zvládnou. Přesto zatouží ještě jednou společně vyplout  na otevřené moře vstříc idylickým zátokám a západům slunce. Netuší, že největším  ohrožením jejich výpravy nebude moře, ani staré křivdy, které během cesty vyplují napovrch,  ale vlastní děti, které nemají pro bláznivý výlet starých rodičů pochopení.  Pět švestek režiséra Jana Svěráka s Lenkou Termerovou, Oldřichem Kaiserem, Petrem  Kostkou, Danou Syslovou a Janem Vlasákem v hlavních rolích, je dojemná i hravá komedie o  přátelství, lásce, odpuštění a o tom, že chuť žít a hledat svobodu může člověka provázet v  každé životní etapě.",
+      "synopsis_language": "cs",
+      "runtime_min": 100,
+      "genres": [
+        "Komedie"
+      ],
+      "director": [
+        "Jan Svěrák"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "Lenka Termerová",
+        "Oldřich Kaiser",
+        "Petr Kostka",
+        "Jan Vlasák",
+        "Dana Syslová",
+        "Petra Špalková",
+        "Petr Lněnička",
+        "Marek Adamczyk"
+      ],
+      "production_company": [
+        "Biograf Jan Svěrák",
+        "Portobello Pictures",
+        "prima+"
+      ],
+      "poster_path": "/9WzSp58KeedU8NHcAcJkqYNYnuv.jpg",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/05/04/cde1ab0bb62c28fc7ad49aa29f408241.jpg",
+      "backdrop_path": "/oPn4zwOQQYGaddNfoUAqdkc7Gvm.jpg",
+      "trailer_youtube_key": "Kmjyl3BhWM0",
+      "age_rating": "",
+      "tmdb_id": 1678214,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=P%C4%9Bt+%C5%A1vestek+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
       "film_id": "po vecerce",
       "title_cz": "Po večerce",
       "title_en": "Po večerce",
@@ -743,6 +1240,52 @@
       "age_rating": "U",
       "tmdb_id": 1525441,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Po+ve%C4%8Derce+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "posedlost",
+      "title_cz": "Posedlost",
+      "title_en": "Obsession",
+      "original_title": "Obsession",
+      "year": 2026,
+      "synopsis": "Bear je mladý kluk, jehož láska ke kolegyni Nikki je stejně intenzivní jako jeho neschopnost pozvat ji na rande. Zoufalí lidé dělají zoufalé věci, a tak si Bear ve starožitnictví koupí pofidérní hračku, která mu podle návodu může splnit jedno přání. A to jakékoli. Mladík o tom svém nemusí dlouho přemýšlet. Chce, aby ho Nikki milovala. Výsledek se dostaví prakticky okamžitě. Nikki je do Beara zamilovaná. Až tak šíleně, že je to nebezpečné a Bearovi to začne překážet. Čím více mu to vadí, tím chladnější jsou jeho city vůči Nikki. Ale Nikki je do něj stále blázen. A jako blázen se pro všechnu tu milostnou nerovnováhu začíná i chovat. Mírně vyděšený Bear by rád své přání reklamoval, jenže majitel obchodu, ve kterém „nástroj na přání“ koupil, mu moc nepomůže – respektive mu dá radu, kterou nechtěl slyšet. Kouzlo přání může ukončit pouze smrt, nejlépe ta jeho.",
+      "synopsis_language": "cs",
+      "runtime_min": 109,
+      "genres": [
+        "Horor",
+        "Thriller"
+      ],
+      "director": [
+        "Curry Barker"
+      ],
+      "screenwriter": [
+        "Curry Barker"
+      ],
+      "cast": [
+        "Michael Johnston",
+        "Inde Navarrette",
+        "Cooper Tomlinson",
+        "Megan Lawless",
+        "Andy Richter",
+        "Haley Fitzgerald",
+        "Darin Toonder",
+        "Anthony Pavone"
+      ],
+      "production_company": [
+        "Tea Shop Productions",
+        "Under the Shell",
+        "Capstone Pictures",
+        "Blumhouse Productions"
+      ],
+      "poster_path": "/8ww7uTShJt9KAegdLZEIMJft4Bb.jpg",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/05/20/f9a36e32fe3391f056aca55c4319a116.jpg",
+      "backdrop_path": "/r013C8Me2bZ0pUi0OWJRh0h7MzT.jpg",
+      "trailer_youtube_key": "gMC8kkwbIQQ",
+      "age_rating": "15+",
+      "tmdb_id": 1339713,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Posedlost+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
@@ -879,6 +1422,51 @@
       "match_score": 1.15
     },
     {
+      "film_id": "septej",
+      "title_cz": "Šeptej",
+      "title_en": "Whisper",
+      "original_title": "Šeptej",
+      "year": 1996,
+      "synopsis": "Hrdinkou je šestnáctiletá dívka z malého městečka, která uteče z domova, aby poznala svět. Prožije několik neobyčejných dnů ve víru velkoměsta, které jí přinesou okouzlení i poznání složitosti citových vztahů.",
+      "synopsis_language": "cs",
+      "runtime_min": 82,
+      "genres": [
+        "Drama",
+        "Romantický"
+      ],
+      "director": [
+        "David Ondříček"
+      ],
+      "screenwriter": [
+        "David Ondříček",
+        "Tomáš Mašín",
+        "Jan Novák"
+      ],
+      "cast": [
+        "Tatiana Dyková",
+        "Jan P. Muchow",
+        "Jan Čechtický",
+        "Martin Myšička",
+        "Kateřina Winterová",
+        "Petra Špalková",
+        "Zdeněk David",
+        "Antonín Brtoun"
+      ],
+      "production_company": [
+        "Negativ"
+      ],
+      "poster_path": "/2MaGscB8USAoBc5fG8NDBMOWoEy.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/06/24/a64130b817c881239388fdba52331ed5.jpg",
+      "backdrop_path": "/w9YbJeA9mvE25Gj1D08vdR9JEah.jpg",
+      "trailer_youtube_key": "N8KugJKWmWw",
+      "age_rating": "12+",
+      "tmdb_id": 256675,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%A0eptej+1996",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
       "film_id": "stastni spolu",
       "title_cz": "Šťastni spolu",
       "title_en": "Happy Together",
@@ -916,6 +1504,54 @@
       "age_rating": "NR (US)",
       "tmdb_id": 18329,
       "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%A0%C5%A5astni+spolu+1997",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "ticha pritelkyne",
+      "title_cz": "Tichá přítelkyně",
+      "title_en": "Silent Friend",
+      "original_title": "Silent Friend",
+      "year": 2026,
+      "synopsis": "V srdci botanické zahrady univerzitního města v Německu stojí majestátný jinan – prastará matka zahrady a tichá svědkyně tří epoch a tří lidských osudů hledajících svobodu a spojení s živým srdcem zahrady. V roce 2020 pod její korunou neurovědec z Hongkongu zahajuje nečekaný experiment. O půl století dříve prochází mladý muž proměnou díky prostému poutu s rostlinou. A v roce 1908 skrze nenápadné fotografie odkrývá první studentka tamní univerzity neuvěřitelné vzorce vesmíru. Ildikó Enyedi, jedna z nejoriginálnějších osobností současného filmu, se vrací s fascinující filmovou meditací. Skrze uhrančivé svědectví jinanu nás přivádí k té nejprostší otázce: co znamená být člověkem a skutečně někam patřit? (Pilot Film)",
+      "synopsis_language": "cs",
+      "runtime_min": 147,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Ildikó Enyedi"
+      ],
+      "screenwriter": [
+        "Ildikó Enyedi"
+      ],
+      "cast": [
+        "Tony Leung Chiu-wai",
+        "Léa Seydoux",
+        "Luna Wedler",
+        "Enzo Brumm",
+        "Sylvester Groth",
+        "Yun Huang",
+        "Luca Valentini",
+        "Marlene Burow"
+      ],
+      "production_company": [
+        "Pandora Film",
+        "Galatée Films",
+        "Inforg-M&M Film",
+        "Rediance",
+        "ZDF/Arte",
+        "ARTE France Cinéma",
+        "Allons Voir"
+      ],
+      "poster_path": "/bUUd6D7E0DuzxwSo4qnu136LW5v.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/29/158b7a24807c297d6715bb753cb2feec.jpg",
+      "backdrop_path": "/3HgNb4XRFVxwWP6XrES2oGOvHit.jpg",
+      "trailer_youtube_key": "TaRZnpAmtJk",
+      "age_rating": "",
+      "tmdb_id": 1168719,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Tich%C3%A1+p%C5%99%C3%ADtelkyn%C4%9B+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
@@ -968,6 +1604,140 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
+    },
+    {
+      "film_id": "toy story 5 pribeh hracek",
+      "title_cz": "Toy Story 5: Příběh hraček",
+      "title_en": "Toy Story 5",
+      "original_title": "Toy Story 5",
+      "year": 2026,
+      "synopsis": "When Bonnie receives a Lilypad tablet as a gift and becomes obsessed, Buzz, Woody, Jessie and the rest of the gang's jobs become exponentially harder when they have to go head to head with the all-new threat to playtime.",
+      "synopsis_language": "en",
+      "runtime_min": 102,
+      "genres": [
+        "Animovaný",
+        "Rodinný",
+        "Komedie",
+        "Dobrodružný"
+      ],
+      "director": [
+        "Andrew Stanton"
+      ],
+      "screenwriter": [
+        "Andrew Stanton",
+        "Kenna Harris"
+      ],
+      "cast": [
+        "Tom Hanks",
+        "Tim Allen",
+        "Joan Cusack",
+        "Greta Lee",
+        "Conan O'Brien",
+        "Craig Robinson",
+        "Shelby Rabara",
+        "Tony Hale"
+      ],
+      "production_company": [
+        "Pixar"
+      ],
+      "poster_path": "/meIMzQKHRmRYh5sPSCCLtKnfnEi.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/05/29/971dd12674c80781576e734e85080562.jpg",
+      "backdrop_path": "/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
+      "trailer_youtube_key": "MCm0aCqr8CM",
+      "age_rating": "U",
+      "tmdb_id": 1084244,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Toy+Story+5%3A+P%C5%99%C3%ADb%C4%9Bh+hra%C4%8Dek+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "zeny na pokraji nervoveho zhrouceni",
+      "title_cz": "Ženy na pokraji nervového zhroucení",
+      "title_en": "Women on the Verge of a Nervous Breakdown",
+      "original_title": "Mujeres al borde de un ataque de nervios",
+      "year": 1988,
+      "synopsis": "Ztřeštěná a zároveň spletitá komedie se odehrává v jednom velkoměstském bytě v Madridu. Titulní hrdinku Pepu (Carmen Maura) opustí dlouholetý milenec Ivan (Fernando Guillén) právě ve chvíli, kdy zjistí, že je těhotná. Žena ho zoufale shání, aby si ho touto novinkou ještě zkusila udržet. Postupně se však setkává s dalšími postavami a ještě se zamotá do teroristické akce. A přitom má jediný cíl – nalézt Ivana.",
+      "synopsis_language": "cs",
+      "runtime_min": 90,
+      "genres": [
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "Pedro Almodóvar"
+      ],
+      "screenwriter": [
+        "Pedro Almodóvar"
+      ],
+      "cast": [
+        "Carmen Maura",
+        "Antonio Banderas",
+        "Julieta Serrano",
+        "María Barranco",
+        "Rossy de Palma",
+        "Kiti Mánver",
+        "Guillermo Montesinos",
+        "Chus Lampreave"
+      ],
+      "production_company": [
+        "El Deseo",
+        "Laurenfilm"
+      ],
+      "poster_path": "/u1Ae8dd0eo4lUIRKG4eq7WkigF.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/07/14/793c2310e9616a574a0a0d71400b1f00.webp",
+      "backdrop_path": "/eRzwmzyz4sSq2QqjXWehWNkU0Us.jpg",
+      "trailer_youtube_key": "1cVBr894wHs",
+      "age_rating": "R (US)",
+      "tmdb_id": 4203,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%BDeny+na+pokraji+nervov%C3%A9ho+zhroucen%C3%AD+1988",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "ztracena listina",
+      "title_cz": "Ztracená listina",
+      "title_en": "The Lost Letter",
+      "original_title": "Пропала грамота",
+      "year": 1972,
+      "synopsis": "Folk comedy that tells the adventures of Ukrainian cossacks Vasyl and Andriy as they set out on a long journey to deliver a letter from their leader to the Russian empress in St. Petersburg.",
+      "synopsis_language": "en",
+      "runtime_min": 79,
+      "genres": [
+        "Komedie",
+        "Fantasy",
+        "Dobrodružný"
+      ],
+      "director": [
+        "Borys Ivchenko"
+      ],
+      "screenwriter": [
+        "Ivan Drach"
+      ],
+      "cast": [
+        "Ivan Mykolaichuk",
+        "Fedir Stryhun",
+        "Lidiya Belozyorova",
+        "Zemfira Tsakhilova",
+        "Mikhail Golubovich",
+        "Vladimir Glukhoy",
+        "Vasyl Symchych",
+        "Anatoli Barchuk"
+      ],
+      "production_company": [
+        "Dovzhenko Film Studios"
+      ],
+      "poster_path": "/bLvza7BwMYMqB41tT078cs6kk9n.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2024/10/02/b2a566abd9f827a81d80e6c156c08f3e.jpg",
+      "backdrop_path": "/yoLvMXBfQS766ldL2JfxwRxYS2v.jpg",
+      "trailer_youtube_key": "OAo6pTFB4go",
+      "age_rating": "",
+      "tmdb_id": 124007,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ztracen%C3%A1+listina+1972",
+      "resolved": true,
+      "match_reason": "manual override",
+      "match_score": 1.0
     }
   ]
 }
