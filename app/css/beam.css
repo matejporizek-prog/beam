@@ -37,6 +37,11 @@ body {
   background: var(--bg); color: var(--text);
   font-family: 'Archivo', system-ui, sans-serif; min-height: 100vh;
   display: flex; justify-content: center; overflow-x: hidden;
+  /* Stop the whole page from rubber-banding past its ends. At the bottom of the
+     program list, that overscroll re-composites the fixed beam and stutters;
+     killing it keeps the scroll crisp (and disables pull-to-refresh, which we
+     don't use). */
+  overscroll-behavior-y: none;
 }
 .app { width: 100%; max-width: 430px; min-height: 100vh; position: relative; }
 
@@ -427,6 +432,7 @@ header.compact .brand h1 { font-size: 26px; }
   /* FIX (native-motion): springier easing than the prototype's ease-out. */
   transition: transform .38s cubic-bezier(.16,1.1,.3,1);
   max-height: 86vh; overflow-y: auto;
+  overscroll-behavior: contain; -webkit-overflow-scrolling: touch;
 }
 .sheet.open { transform: translateX(-50%) translateY(0); }
 .sheet-grab { width: 38px; height: 4px; border-radius: 2px; background: var(--card-edge); margin: 6px auto 14px; }
@@ -469,7 +475,7 @@ header.compact .brand h1 { font-size: 26px; }
 .search-inputwrap { flex: 1; display: flex; align-items: center; gap: 9px; background: var(--card); border: 1px solid var(--card-edge); border-radius: 11px; padding: 0 12px; }
 .search-inputwrap svg { width: 18px; height: 18px; color: var(--text-3); flex: none; }
 .search-inputwrap input { flex: 1; background: none; border: none; outline: none; color: var(--text); font-family: 'Archivo', sans-serif; font-size: 15px; padding: 11px 0; }
-.search-results { padding: 8px 0; overflow-y: auto; height: calc(100% - 68px); }
+.search-results { padding: 8px 0; overflow-y: auto; height: calc(100% - 68px); overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
 .search-hint { color: var(--text-3); font-size: 13px; padding: 30px 20px; text-align: center; }
 .sr-item { display: flex; gap: 12px; padding: 11px 20px; border-bottom: 1px solid var(--line); cursor: pointer; }
 .sr-body { flex: 1; min-width: 0; }
@@ -482,6 +488,12 @@ header.compact .brand h1 { font-size: 26px; }
   z-index: 40; background: var(--bg);
   transform: translateX(-50%) translateY(100%);
   transition: transform .34s cubic-bezier(.2,.7,.2,1); overflow-y: auto;
+  /* Wall this scroll off from the page behind it. Without `contain`, reaching
+     the bottom of a long detail (e.g. Odyssea's many screenings) hands the
+     scroll momentum off to the page — which re-composites the fixed beam and
+     stutters. This is the "freezes at the bottom" fix. */
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
   padding-bottom: 40px;
 }
 .overlay.open { transform: translateX(-50%) translateY(0); }
