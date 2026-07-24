@@ -8,12 +8,12 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=6';
-import { store } from './store.js?v=6';
+import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=7';
+import { store } from './store.js?v=7';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderProfile,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=6';
+} from './screens.js?v=7';
 
 /* ---------- app state ---------- */
 
@@ -404,18 +404,27 @@ function buildBeam() {
     });
   }
 
-  beamState = { ctx, rays, originX: width / 2, width, height, dpr };
-
+  /* On touch devices the beam is a single STATIC layer: drawn once, never
+     animated, with the aperture glow baked into this same canvas so the blurred
+     DOM glow layers (.beam-haze/.beam-core/.beam-origin) and the animated dust
+     can all be switched off (they're hidden in CSS on coarse pointers, and
+     buildMotes is skipped). That leaves one cheap, static, un-blended layer —
+     which is what stops the beam from janking scroll on iOS. Desktop keeps the
+     full animated, blended, dust-filled beam. */
+  const coarse = window.matchMedia('(pointer: coarse)').matches;
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  beamState = { ctx, rays, originX: width / 2, width, height, dpr, coarse };
+  beamAnimated = !coarse && !reduce;
+
   if (beamRAF) cancelAnimationFrame(beamRAF);
 
   /* Paint one frame straight away so the fan is visible the instant the canvas
      exists — before, and independent of, the animation loop. Without this a
      tab that loads in the background (where rAF is throttled to zero) would
-     show a blank beam until it happened to gain focus. */
-  drawBeam(performance.now(), reduce);
-  if (reduce) return;
-  startBeamLoop();
+     show a blank beam until it happened to gain focus. Held steady (not
+     mid-shimmer) whenever there won't be an animation loop. */
+  drawBeam(performance.now(), !beamAnimated);
+  if (beamAnimated) startBeamLoop();
 }
 
 /* The animation loop, capped to ~30fps. The shimmer periods are several seconds
@@ -424,12 +433,13 @@ function buildBeam() {
    redrawing the canvas is exactly the kind of main-thread work that makes the
    first touch of a scroll feel unresponsive on mobile. */
 let beamLastDraw = 0;
+let beamAnimated = false;   // false on touch devices / reduced-motion: static beam
 const BEAM_FRAME_MS = 33;
 
 function startBeamLoop() {
+  if (!beamAnimated) return;   // static beam never runs a loop (mobile/reduced-motion)
   if (beamRAF || !beamState) return;
   if (document.hidden) return;
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   const loop = now => {
     if (now - beamLastDraw >= BEAM_FRAME_MS) { drawBeam(now, false); beamLastDraw = now; }
     beamRAF = requestAnimationFrame(loop);
@@ -502,7 +512,7 @@ function renderRaySprite(w, len, blur, warm, dpr, useFilter) {
 
 function drawBeam(now, still) {
   if (!beamState) return;
-  const { ctx, rays, originX, width, height, dpr } = beamState;
+  const { ctx, rays, originX, width, height, dpr, coarse } = beamState;
   const seconds = now / 1000;
 
   ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
@@ -510,6 +520,19 @@ function drawBeam(now, still) {
   /* 'lighter' is canvas's additive blend — the closest match to the CSS
      mix-blend-mode: screen the DOM version relied on. */
   ctx.globalCompositeOperation = 'lighter';
+
+  /* On touch devices the blurred DOM glow layers are hidden, so bake the bright
+     aperture + soft cone glow straight into this canvas — keeps the beam
+     feeling luminous without a single extra layer or filter. */
+  if (coarse) {
+    ctx.globalAlpha = 1;
+    const glow = ctx.createRadialGradient(originX, 6, 0, originX, 6, 150);
+    glow.addColorStop(0.00, 'rgba(224,240,255,0.55)');
+    glow.addColorStop(0.35, 'rgba(190,220,252,0.14)');
+    glow.addColorStop(1.00, 'rgba(190,220,252,0)');
+    ctx.fillStyle = glow;
+    ctx.fillRect(0, 0, width, 230);
+  }
 
   for (const ray of rays) {
     /* Matches the prototype's shimmer keyframes: opacity swings between
@@ -575,7 +598,11 @@ function setBeamPreset(name) {
   const preset = BEAM_PRESETS[name];
   if (!preset) return;
   document.documentElement.style.setProperty('--beam-intensity', preset.intensity);
-  buildMotes(preset.motes);
+  /* No dust on touch devices: 18 continuously-animating elements on a fixed
+     layer over the scroll are part of what made scrolling sticky. The static
+     canvas beam carries the look there instead. */
+  const coarse = window.matchMedia('(pointer: coarse)').matches;
+  buildMotes(coarse ? 0 : preset.motes);
 }
 
 /* Dust drifting down inside the cone. Each mote is randomised in size, position

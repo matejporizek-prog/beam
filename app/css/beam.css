@@ -80,17 +80,19 @@ body {
   width: 100%; height: 640px; z-index: 3; pointer-events: none;
   mix-blend-mode: screen;
 }
-/* On touch devices, drop the screen blend from the beam's fixed layers. A
-   mix-blend-mode on a position:fixed element that overlaps the scrolling
-   content forces the compositor to re-blend that whole region every frame — a
-   major cause of the "frozen, takes several tries" scrolling on iOS. The beam
-   is drawn additively onto a transparent canvas, so over the dark background it
-   still reads bright with ordinary compositing. (Desktop keeps the screen
-   blend, where it costs nothing.) Deliberately no CSS filter on the canvas
-   either — that janks scroll the same way; ray softness is baked into the
-   sprites in JS instead. */
+/* On touch devices the beam collapses to ONE cheap static layer, because the
+   fixed, animated, blurred, blended layers were janking iOS scrolling:
+   - .beam-haze / .beam-core / .beam-origin carry big CSS blur() filters — a
+     blur on a fixed element over the scroll re-composites every frame. Hidden;
+     the canvas bakes in an equivalent aperture glow instead.
+   - .motefield animates 18 elements forever. Hidden; motes aren't built here.
+   - the canvas drops its screen blend (a blend on a fixed scroll-overlapping
+     layer is the same kind of per-frame cost). It's drawn additively on a
+     transparent canvas, so it still reads bright over the dark background.
+   Desktop keeps the full animated, blended, dust-filled beam, where it's free. */
 @media (pointer: coarse) {
-  .beam-canvas, .beam-core, .beam-haze, .beam-origin { mix-blend-mode: normal; }
+  .beam-haze, .beam-core, .beam-origin, .motefield { display: none; }
+  .beam-canvas { mix-blend-mode: normal; }
 }
 .beam-core {
   position: absolute; top: -6px; left: 50%; transform: translateX(-50%);
