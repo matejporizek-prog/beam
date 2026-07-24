@@ -526,6 +526,24 @@ def test_the_most_common_spelling_becomes_canonical():
     assert list(films.values())[0]["title_cz"] == "Odyssea"
 
 
+def test_all_caps_titles_lose_to_normal_case_by_majority_vote():
+    """
+    Divadlo Za plotem's own listings are ALL CAPS ("TOY STORY 5: PŘÍBĚH
+    HRAČEK") — its own headline styling, not fixed at the scraper level.
+    Checked here instead: whenever the same film also plays at cinemas using
+    normal casing, the majority-vote mechanism already prefers it for free,
+    with zero extra code. Only a title unique to that one venue would still
+    show ALL CAPS in the app.
+    """
+    screenings = (
+        [{"title_cz": "TOY STORY 5: PŘÍBĚH HRAČEK", "director": "", "runtime_min": None}] * 2
+        + [{"title_cz": "Toy Story 5: Příběh hraček", "director": "", "runtime_min": None}] * 3
+    )
+    films = unique_titles(screenings)
+    assert len(films) == 1
+    assert list(films.values())[0]["title_cz"] == "Toy Story 5: Příběh hraček"
+
+
 def test_event_branding_collapses_too():
     screenings = [
         {"title_cz": "Nebezpečné známosti | NT Live", "director": "", "runtime_min": None},

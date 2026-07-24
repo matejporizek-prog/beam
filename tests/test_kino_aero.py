@@ -242,6 +242,18 @@ def test_dabing_and_titulky_are_recognised_with_any_prefix():
     assert classify_tags(["Malé oči"])["language_version"] == ""
 
 
+def test_duplicate_strand_tags_are_not_repeated():
+    """
+    Found via Kino Kavalírka: a screening can carry the same strand text from
+    two different places on the page at once — its own tag chip AND a
+    venue-branded prefix baked into the title ("Film & Drink: Pulp Fiction"
+    alongside a separate "Film & Drink" chip). Without deduplication the
+    joined strand read "Film & Drink / Film & Drink".
+    """
+    out = classify_tags(["Film & Drink", "Film & Drink"])
+    assert out["strand"] == "Film & Drink"
+
+
 def test_unknown_tags_become_strands_and_are_never_lost():
     """New arthouse strands appear all the time; they must survive unrecognised."""
     out = classify_tags(["Zcela Nový Cyklus"])

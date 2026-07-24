@@ -4,13 +4,20 @@ Prague arthouse cinema programs, scraped into one normalized JSON file that the
 PWA reads. See `beam-build-brief.md` for the build order and
 `prague-cinema-app-brainstorm.md` for the full planning context.
 
-**All five milestones are done.** All 7 Phase 1 cinemas are scraped and live at
+**All five Phase 1 milestones are done**, live at
 [beam.matej-porizek.workers.dev](https://beam.matej-porizek.workers.dev): Kino
 Aero, Bio Oko, Kino Světozor and Kino Přítomnost (all four turned out to be on
 the same Aerofilms platform, see below), Kino Pilotů and Edison Filmhub (each
 its own platform, see below), and Kino Ponrepo (closed for reconstruction until
 31.8 — scraped and wired in now, correctly reporting zero screenings, exactly
 the edge case the planning doc calls out by name).
+
+**Phase 2 ("more cinemas") has added six more**: Kino Lucerna (a fifth
+Aerofilms cinema), Kino Atlas, Kino MAT, Kino Kavalírka, Divadlo Za plotem and
+Kino 35 — see "Phase 2" below for each. Modřanský Biograf is deliberately
+deferred: its program is Next.js React Server Components streaming data, not
+server-rendered HTML, a fundamentally different parsing problem from every
+cinema scraped so far.
 
 ## Running it
 
@@ -72,6 +79,12 @@ scrapers/
   kino_pilotu.py Kino Pilotů — its own platform (a Swiper.js carousel, no JSON-LD)
   edison.py      Edison Filmhub — its own platform (rich language/event markup, no JSON-LD)
   ponrepo.py     Kino Ponrepo — closed until 31.8; reports the closure honestly
+  lucerna.py     Kino Lucerna — a fifth Aerofilms cinema, calls aerofilms.scrape()
+  atlas.py       Kino Atlas — its own platform, AJAX-paginated program
+  mat.py         Kino MAT — its own platform, pictogram-based formats
+  kavalirka.py   Kino Kavalírka — its own platform, richest per-screening data yet
+  zaplotem.py    Divadlo Za plotem — a WordPress/GenerateBlocks page, no clean container
+  kino35.py      Kino 35 — its own platform, icon-based language/flag markup
   run.py         runs every scraper, writes data/screenings.json
 resolve/
   tmdb.py        TMDb client + the title matcher
@@ -343,6 +356,80 @@ same way `empty_dates` already did, and the app's `closedCinemasOn()` (built
 back in Milestone 3, never yet exercised against a real closure) picks it up
 with no changes needed — verified live: the Program screen now shows "Ponrepo
 dnes nehraje."
+
+## Phase 2: six more cinemas
+
+With all 7 Phase 1 cinemas live, Phase 2 picked up "more cinemas" from the
+planning doc's list. Same discipline as every cinema above: fetch the real
+site, inspect its actual markup, and only then write a parser — never guess
+at structure. Six distinct sites, five genuinely new platform shapes.
+
+**Kino Lucerna** is a sixth Aerofilms cinema (a tip from Matěj, checked before
+writing any code, same result as Přítomnost) — a three-line wrapper around
+`aerofilms.scrape()`, with one quirk: the program lives on the homepage
+itself, not `/program/`, which redirects there.
+
+**Kino Atlas** is the first site here with AJAX pagination: only "today"
+loads with the page; everything else comes from `GET
+ajax_get_program.php?date=...&...`, an endpoint found by reading the page's
+own inline JS and confirmed directly with `requests`. `data-next-cnt="0"` is
+the real "no more data" signal — verified empirically by walking a live page
+to exhaustion, not assumed from the first response. It also has the best
+ticket-link coverage of any cinema: a real GoOut link on every single
+screening.
+
+**Kino MAT** is a fourth distinct platform, and surfaced a real bug: Czech
+"červenec" (July) contains "červen" (June) as a literal prefix, so naive
+substring month-matching misread every July screening as June. Fixed by
+trying longer month names first. Format comes from a pictogram's `alt` text
+(`<img alt="35mm film">`) rather than a text tag.
+
+**Kino Kavalírka** has the richest per-screening data of any cinema in this
+project — director/country/runtime bundled in one prose paragraph, and a
+direct IMDb link for some films (`imdb_url`, captured on `Screening` but not
+yet consumed by the resolver — TMDb supports an exact lookup by IMDb id, a
+strong candidate for a focused follow-up). It also has its own version of
+Kino Pilotů's title-branding problem ("Film & Drink: Pulp Fiction", "Divadlo v
+kině: Romeo a Julie") and surfaced a real, general bug: a screening can carry
+the *same* strand text twice at once (once from the title prefix, once from a
+separate tag chip) — fixed generically in the shared `classify_tags()` with a
+dedup guard, not just patched locally.
+
+**Divadlo Za plotem** (the cinema at Prague's Bohnice psychiatric hospital,
+also open to the public) is a WordPress/GenerateBlocks page-builder site — a
+fifth distinct shape, with no clean "one container per screening" element at
+all. What makes it parseable is that GenerateBlocks stamps each block with a
+semantic (if invalidly repeated) `id` — `id="datum"`, `id="název-filmu"`,
+`id="čas"`, ... — reliable to `find_all(id=...)` and zip together in document
+order even though repeating an `id` is invalid HTML. Its own titles are ALL
+CAPS; checked, not assumed, that the resolver's existing majority-spelling
+canonicalisation already fixes this for free whenever the same film also
+plays elsewhere (Toy Story 5 and Spider-Man both do, in this fixture).
+
+**Kino 35** (the French Institute's cinema) rounds out this batch: a flat
+`<table class="prog-list">` where date headers and screening rows alternate
+directly, with per-screening detail (spoken language, subtitle languages, a
+"Speciální večer" special-evening flag) carried on icon `title` attributes
+rather than any free-text tag. The whole calendar loads in one request — no
+pagination needed, confirmed by checking for one rather than assuming there
+wasn't. The venue's stated summer recess ("KINO MÁ PRÁZDNINY") rides in the
+same table as a notice row with no time; an empty time is exactly how it's
+told apart from a real screening.
+
+**One shared addition Kino Pilotů, Edison and now MAT/Kavalírka/Za
+plotem/Kino 35 all needed:** working out a year for a date whose site never
+prints one. Kino Pilotů's original per-scraper logic for this was pulled out
+into `infer_years_for_months()` in `base.py` — the list of months only ever
+runs forward, so a month that's lower than the one before it means the
+calendar crossed a year boundary; everything else just carries the current
+year forward.
+
+A live end-to-end run across all 13 cinemas (581 screenings) plus a full
+TMDb resolution pass, followed by a director/runtime cross-check of every
+resolved film against what its cinema actually scraped, came back with no
+wrong-film matches — the handful of runtime differences found (a few minutes,
+on films like *Saving Private Ryan* and *Little Thief*) are consistent with
+different release cuts, not mismatches.
 
 ## Two things about the Aerofilms cinemas specifically
 

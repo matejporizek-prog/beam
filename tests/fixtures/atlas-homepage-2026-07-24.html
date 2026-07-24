@@ -1,0 +1,540 @@
+
+<!doctype html>
+<html class="dark">
+
+<head>
+<meta charset="UTF-8">
+
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];
+w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});
+var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+j.async=true;
+j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TXCB4VCZ');
+</script>
+
+<title>Kino Atlas</title>
+<link rel="short icon" href="ico16.png">
+<meta name="robots" content="index, follow">
+<meta name="description" content="Kino Atlas">
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="Kino Atlas">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kino Atlas – Najdi svou cestu k filmu">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://kinoatlaspraha.cz/images/og.jpg" />
+<!-- / Open Graph -->
+
+<!-- font Archivo -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!-- font Hanken -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@800;900&display=swap" rel="stylesheet">
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="style.css?r=255">
+<!-- /stylesheets -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body class="desktop">
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXCB4VCZ"
+height="0" width="0"
+style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="frame">
+
+<h1>Kino Atlas</h1>
+<div class="top">
+
+	<a id="logo" class="logo" href="https://kinoatlaspraha.cz"><img  src="images/logo.png?logo=1"></a>
+
+	<ul id="menu" class="menu font3">
+		<li><a href="https://kinoatlaspraha.cz">Program</a></li>
+		<li><a href="/?page=o-nas">O kině</a></li><li><a href="/?page=skoly">Pro školy</a></li><li><a href="/?page=galerie">Galerie Karla Vachka</a></li><li><a href="/?page=pronajmy">Pronájmy</a></li><li><a href="/?page=historie">Historie</a></li><li><a href="/?page=kontakt">Kontakt</a></li>	</ul>
+
+	<div	id="switches" class="switches font3">
+		<img id="menu_trigger" class="ico" src="images/menu.svg">
+		<img id="colormode" class="ico" src="images/color_mode.svg">
+		<a class="language_switch selected" data-lang="cz">CZ</a>
+		<a class="language_switch " data-lang="en">EN</a>
+	</div>
+
+</div><!-- top -->
+
+<script>
+
+// language switch
+document.addEventListener('click', function(event) {
+if (event.target.classList.contains('language_switch')) 
+	{
+	var language = event.target.getAttribute('data-lang'); // get clicked language
+	// setup expiratin date
+	const d = new Date();
+	d.setTime(d.getTime() + (60*60*10000));
+	let expires = "expires="+ d.toUTCString();
+	document.cookie = "lang="+language+";" + expires + ";path=/";
+	location.reload();
+	} 
+ });
+
+// colormode switch
+document.getElementById('colormode').addEventListener('click', function() {
+	var color = 'dark';
+	if (color == "light") { color = "dark"; } else if  (color == "dark") { color = "light"; }
+	if (!color) { color = "dark"; }
+	// setup expiratin date
+	const d = new Date();
+	d.setTime(d.getTime() + (60*60*10000));
+	let expires = "expires="+ d.toUTCString();
+	document.cookie = "colormode="+color+";" + expires + ";path=/";
+	location.reload();
+});
+
+// menu switch
+document.getElementById('menu_trigger').addEventListener('click', function() {
+	document.getElementById('menu').classList.toggle('menu_open');
+});
+
+</script>
+
+
+
+<div id="page" class="homepage">
+	<div class="banner_slider"><div class="banner_slide"><div class="banner text_banner" style="background-image: url('https://kinoatlaspraha.cz/files/2025-06/250619021829-8678.png');"><a href="https://goout.net/cs/listky/tady-vary-2026-27-filmova-sezona-s-predplatnym/rrjmb/"><span class="font5">2026/27 &ndash; poslední místa!</span></a></div></div><div class="banner_slide"><div class="banner text_banner" style="background-image: url('https://kinoatlaspraha.cz/files/2024-09/240902111548-8916.jpg');"><a href="https://cafe.kinoatlaspraha.cz/"><span class="font5">Café Atlas rostlin &ndash; letní otevírací doba</span></a></div></div><div class="banner_slide"><div class="banner text_banner" style="background-image: url('https://kinoatlaspraha.cz/files/2025-12/251213031148-2982.png');"><a href="https://goout.net/cs/listky/darkovy-poukaz/aycgb/"><span class="font5">Dárkový poukaz na vstupenky do kina Atlas!</span></a></div></div><div class="banner_slide"><div class="banner text_banner" style="background-image: url('https://kinoatlaspraha.cz/files/2023-07/230710061604-4265.jpg');"><a href="https://kinoatlaspraha.cz/?tag=english"><span class="font5">English-friendly programming in Atlas Cinema</span></a></div></div></div><!-- banner_slider -->	
+<div id="program" class="program">
+
+<div class="program_highlight_date font5">Dnes</div>
+<div class="program_highlight" id="program_highlight">
+	<div class="line" id="program-id-8668" data-program-date="2026-07-24 17:00:00" data-program-title="Pramen">
+	<div class="description past">
+		<div class="image image_169"><a href="?program=8668"><img src="https://kinoatlaspraha.cz/files/2026-07/thumb_900_260708022741-8565.jpg"></a></div>
+		<div class="event_data_container">
+			<!-- time and location -->
+			<div class="program_date">
+				<div class="time font5">17:00</div>
+				<span class="location font4 location-id-64">Velký sál</span>
+			</div>
+			<!-- title -->
+			<div class="title font5"><a href="?program=8668">Pramen</a></div>
+			<div class="subtitle font6">Ivan Ostrochovský / Slovensko, Česko, Maďarsko / 2026</div><div class="tags font4">	<span title="CZ/SK film" class="tag simple">CZ/SK film</span></div><!-- tags --> 
+		<a href="https://goout.net/cs/listky/pramen/fsvmb/" target="_blank" class="buy font5 GoOutButton" data-program-date="2026-07-24 17:00:00">
+		<span class="buy_button" title="Vstupenky"><span class="GoOutPrice">139</span>&nbsp;Kč<img class="ico" src="images/ticket.svg"></span>
+		</a>		</div><!-- event_data_container -->
+	</div><!-- description -->
+	</div><!-- line -->
+		<div class="line" id="program-id-8569" data-program-date="2026-07-24 17:15:00" data-program-title="Království mýdlových bublin">
+	<div class="description past">
+		<div class="image image_169"><a href="?program=8569"><img src="https://kinoatlaspraha.cz/files/2026-01/thumb_900_260121110107-6609.jpg"></a></div>
+		<div class="event_data_container">
+			<!-- time and location -->
+			<div class="program_date">
+				<div class="time font5">17:15</div>
+				<span class="location font4 location-id-67">Galerie</span>
+			</div>
+			<!-- title -->
+			<div class="title font5"><a href="?program=8569">Království mýdlových bublin</a></div>
+			<div class="subtitle font6">Taťána Marková / Česko / 2025</div><div class="tags font4">	<span title="CZ/SK film" class="tag simple">CZ/SK film</span></div><!-- tags --> 
+		<a href="https://goout.net/cs/listky/kralovstvi-mydlovych-bublin/evvmb/" target="_blank" class="buy font5 GoOutButton" data-program-date="2026-07-24 17:15:00">
+		<span class="buy_button" title="Vstupenky"><span class="GoOutPrice">89</span>&nbsp;Kč<img class="ico" src="images/ticket.svg"></span>
+		</a>		</div><!-- event_data_container -->
+	</div><!-- description -->
+	</div><!-- line -->
+		<div class="line" id="program-id-8669" data-program-date="2026-07-24 17:30:00" data-program-title="Co je ti, holka?">
+	<div class="description past">
+		<div class="image image_169"><a href="?program=8669"><img src="https://kinoatlaspraha.cz/files/2026-05/thumb_900_260527063034-2723.jpg"></a></div>
+		<div class="event_data_container">
+			<!-- time and location -->
+			<div class="program_date">
+				<div class="time font5">17:30</div>
+				<span class="location font4 location-id-66">Modrý sál</span>
+			</div>
+			<!-- title -->
+			<div class="title font5"><a href="?program=8669">Co je ti, holka?</a></div>
+			<div class="subtitle font6">Urška Djukić / Slovinsko, Itálie, Chorvatsko, Srbsko / 2025</div>
+		<a href="https://goout.net/cs/listky/co-je-ti-holka/uvvmb/" target="_blank" class="buy font5 GoOutButton" data-program-date="2026-07-24 17:30:00">
+		<span class="buy_button" title="Vstupenky"><span class="GoOutPrice">139</span>&nbsp;Kč<img class="ico" src="images/ticket.svg"></span>
+		</a>		</div><!-- event_data_container -->
+	</div><!-- description -->
+	</div><!-- line -->
+		<div class="line" id="program-id-8670" data-program-date="2026-07-24 18:45:00" data-program-title="Padlé ovoce">
+	<div class="description past">
+		<div class="image image_169"><a href="?program=8670"><img src="https://kinoatlaspraha.cz/files/2026-07/thumb_900_260708022742-3744.jpg"></a></div>
+		<div class="event_data_container">
+			<!-- time and location -->
+			<div class="program_date">
+				<div class="time font5">18:45</div>
+				<span class="location font4 location-id-64">Velký sál</span>
+			</div>
+			<!-- title -->
+			<div class="title font5"><a href="?program=8670">Padlé ovoce</a></div>
+			<div class="subtitle font6">Aung Phyoe / Myanmar, Česko, Francie / 2026</div><div class="tags font4">	<span class="tag language" title="English friendly">EN</span></div><!-- tags --> 
+		<a href="https://goout.net/cs/listky/padle-ovoce/yovmb/" target="_blank" class="buy font5 GoOutButton" data-program-date="2026-07-24 18:45:00">
+		<span class="buy_button" title="Vstupenky"><span class="GoOutPrice">139</span>&nbsp;Kč<img class="ico" src="images/ticket.svg"></span>
+		</a>		</div><!-- event_data_container -->
+	</div><!-- description -->
+	</div><!-- line -->
+		<div class="line" id="program-id-8570" data-program-date="2026-07-24 19:00:00" data-program-title="Kaprálová">
+	<div class="description past">
+		<div class="image image_169"><a href="?program=8570"><img src="https://kinoatlaspraha.cz/files/2026-01/thumb_900_260121110107-1084.jpg"></a></div>
+		<div class="event_data_container">
+			<!-- time and location -->
+			<div class="program_date">
+				<div class="time font5">19:00</div>
+				<span class="location font4 location-id-67">Galerie</span>
+			</div>
+			<!-- title -->
+			<div class="title font5"><a href="?program=8570">Kaprálová</a></div>
+			<div class="subtitle font6">Petr Záruba / Česko / 2025</div><div class="tags font4">	<span title="CZ/SK film" class="tag simple">CZ/SK film</span></div><!-- tags --> 
+		<a href="https://goout.net/cs/listky/kapralova/xvvmb/" target="_blank" class="buy font5 GoOutButton" data-program-date="2026-07-24 19:00:00">
+		<span class="buy_button" title="Vstupenky"><span class="GoOutPrice">89</span>&nbsp;Kč<img class="ico" src="images/ticket.svg"></span>
+		</a>		</div><!-- event_data_container -->
+	</div><!-- description -->
+	</div><!-- line -->
+		<div class="line" id="program-id-8671" data-program-date="2026-07-24 19:30:00" data-program-title="Mistryně">
+	<div class="description past">
+		<div class="image image_169"><a href="?program=8671"><img src="https://kinoatlaspraha.cz/files/2026-07/thumb_900_260708022628-2271.jpg"></a></div>
+		<div class="event_data_container">
+			<!-- time and location -->
+			<div class="program_date">
+				<div class="time font5">19:30</div>
+				<span class="location font4 location-id-66">Modrý sál</span>
+			</div>
+			<!-- title -->
+			<div class="title font5"><a href="?program=8671">Mistryně</a></div>
+			<div class="subtitle font6">Bohdan Karásek / Česko / 2026</div><div class="tags font4">	<span title="CZ/SK film" class="tag simple">CZ/SK film</span><span title="Novinka" class="tag simple">Novinka</span></div><!-- tags --> 
+		<a href="https://goout.net/cs/listky/mistryne/awvmb/" target="_blank" class="buy font5 GoOutButton" data-program-date="2026-07-24 19:30:00">
+		<span class="buy_button" title="Vstupenky"><span class="GoOutPrice">139</span>&nbsp;Kč<img class="ico" src="images/ticket.svg"></span>
+		</a>		</div><!-- event_data_container -->
+	</div><!-- description -->
+	</div><!-- line -->
+		<div class="line" id="program-id-8571" data-program-date="2026-07-24 20:30:00" data-program-title="Při zemi">
+	<div class="description past">
+		<div class="image image_169"><a href="?program=8571"><img src="https://kinoatlaspraha.cz/files/2026-03/thumb_900_260325110032-3220.jpg"></a></div>
+		<div class="event_data_container">
+			<!-- time and location -->
+			<div class="program_date">
+				<div class="time font5">20:30</div>
+				<span class="location font4 location-id-67">Galerie</span>
+			</div>
+			<!-- title -->
+			<div class="title font5"><a href="?program=8571">Při zemi</a></div>
+			<div class="subtitle font6">Tomáš Elšík / Česko / 2025</div><div class="tags font4">	<span class="tag language" title="English friendly">EN</span><span title="CZ/SK film" class="tag simple">CZ/SK film</span></div><!-- tags --> 
+		<a href="https://goout.net/cs/listky/pri-zemi/novmb/" target="_blank" class="buy font5 GoOutButton" data-program-date="2026-07-24 20:30:00">
+		<span class="buy_button" title="Vstupenky"><span class="GoOutPrice">89</span>&nbsp;Kč<img class="ico" src="images/ticket.svg"></span>
+		</a>		</div><!-- event_data_container -->
+	</div><!-- description -->
+	</div><!-- line -->
+		<div class="line" id="program-id-8672" data-program-date="2026-07-24 20:45:00" data-program-title="Odyssea">
+	<div class="description past">
+		<div class="image image_169"><a href="?program=8672"><img src="https://kinoatlaspraha.cz/files/2026-07/thumb_900_260708022628-7902.jpg"></a></div>
+		<div class="event_data_container">
+			<!-- time and location -->
+			<div class="program_date">
+				<div class="time font5">20:45</div>
+				<span class="location font4 location-id-64">Velký sál</span>
+			</div>
+			<!-- title -->
+			<div class="title font5"><a href="?program=8672">Odyssea</a></div>
+			<div class="subtitle font6">Christopher Nolan / USA, Velká Británie / 2026</div><div class="tags font4">	<span class="tag language" title="English friendly">EN</span></div><!-- tags --> 
+		<a href="https://goout.net/cs/listky/odyssea/osvmb/" target="_blank" class="buy font5 GoOutButton" data-program-date="2026-07-24 20:45:00">
+		<span class="buy_button" title="Vstupenky"><span class="GoOutPrice">159</span>&nbsp;Kč<img class="ico" src="images/ticket.svg"></span>
+		</a>		</div><!-- event_data_container -->
+	</div><!-- description -->
+	</div><!-- line -->
+		<div class="line" id="program-id-8673" data-program-date="2026-07-24 21:30:00" data-program-title="Ohnivě červená obloha">
+	<div class="description past">
+		<div class="image image_169"><a href="?program=8673"><img src="https://kinoatlaspraha.cz/files/2023-09/thumb_900_230929122911-7226.jpg"></a></div>
+		<div class="event_data_container">
+			<!-- time and location -->
+			<div class="program_date">
+				<div class="time font5">21:30</div>
+				<span class="location font4 location-id-66">Modrý sál</span>
+			</div>
+			<!-- title -->
+			<div class="title font5"><a href="?program=8673">Ohnivě červená obloha</a></div>
+			<div class="subtitle font6">Christian Petzold / Německo / 2023</div>
+		<a href="https://goout.net/cs/listky/ohnive-cervena-obloha/iwvmb/" target="_blank" class="buy font5 GoOutButton" data-program-date="2026-07-24 21:30:00">
+		<span class="buy_button" title="Vstupenky"><span class="GoOutPrice">139</span>&nbsp;Kč<img class="ico" src="images/ticket.svg"></span>
+		</a>		</div><!-- event_data_container -->
+	</div><!-- description -->
+	</div><!-- line -->
+		
+</div><!-- program highlight -->
+
+
+<div class="program_filter">
+
+<!-- filter location -->
+
+<div class="select_wrapper">
+<select id="location" name="location" class="font6" onchange="submitLocation()">
+<option>Místo</option>
+<option value="65">Café</option><option value="67">Galerie</option><option value="66">Modrý sál</option><option value="64">Velký sál</option></select>
+</div>
+<script>
+function submitLocation() {
+    var selectElement = document.getElementById("location");
+    var data = selectElement.value;
+    if (data) { window.location.href = "?location="+data; }
+}
+</script>
+
+<!-- filter series  -->
+
+<div class="select_wrapper">
+<select id="series" name="series" class="font6" onchange="submitSeries()">
+<option>Cykly</option>
+<option value="138">Atlas expresionismu</option><option value="121">Atlas hororu</option><option value="76">Atlas klasiky</option><option value="69">Dětský Atlas</option></select>
+</div>
+<script>
+function submitSeries() {
+    var selectElement = document.getElementById("series");
+    var data = selectElement.value;
+    if (data) { window.location.href = "?tag="+data; }
+}
+</script>
+
+<!-- filter tags -->
+
+<div class="select_wrapper">
+<select name="tags" id="tags" class="font6" onchange="submitTags()">
+<option>Typ eventu</option>
+<option value="84">CZ/SK film</option><option value="75">Diskuse</option><option value="66">Host</option><option value="77">Novinka</option></select>
+</div>
+<script>
+function submitTags() {
+    var selectElement = document.getElementById("tags");
+    var data = selectElement.value;
+    if (data) { window.location.href = "?tag="+data; }
+}
+</script>
+
+<!-- buttons -->
+
+<a class="button font6" href="?tag=english">English friendly</a>
+<a class="button font6" href="?tag=69">Pro děti</a>
+
+<!-- search -->
+
+<form action="?" method="post">
+<input class="font6 text" type="text" name="searchtext" placeholder="Vyhledat"><button class="button" type="submit"><img class="ico" src="images/search.svg?ico=1"></button>
+</form>
+
+</div><!-- program filter -->
+
+
+<div id="program_standard" class="program_standard">
+
+<!-- AJAX call for programme -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var lastProgramDate = '2026-07-24 21:30:00'; // start display from latest 
+    var loadMoreButton = document.getElementById('loadMoreButton');
+    loadMoreButton.style.visibility = "hidden";  // hide button before program is displayed
+    document.getElementById('spinner').style.display = "block"; // show spinner
+    var nextCnt;
+
+    function fetchProgram(date, callback) {
+        var xhr = new XMLHttpRequest();
+        var programDate = encodeURIComponent(date);
+        var searchtext = "";
+        if (searchtext) { searchtext = encodeURIComponent(searchtext); }
+        xhr.open('GET', 'ajax_get_program.php?date='+programDate+'&lang=cz&tag=&location=&searchtext='+searchtext, true);
+        xhr.onload = function() {
+            if (xhr.status >= 200 && xhr.status < 300) 
+            	{ 
+    			loadMoreButton.classList.remove('loading'); // remove loading class from button
+    			document.getElementById('spinner').style.display = "none"; // hide spinner
+            	document.getElementById('program_standard').innerHTML += xhr.responseText; 
+            	var batchElements = document.querySelectorAll('div.batch');
+				if (batchElements.length > 0) { var lastBatchElement = batchElements[batchElements.length - 1]; lastBatchElement.classList.add('add'); }
+				// get variables from ajax scrip
+				var variables = document.querySelectorAll('.variables');
+				if (variables.length > 0) 
+					{
+					var newVariable = variables[variables.length - 1]; 
+					var lastDate = newVariable.getAttribute('data-last-date');
+					var nextCnt = newVariable.getAttribute('data-next-cnt'); 
+					var outputCnt = newVariable.getAttribute('data-output-cnt');
+					if (nextCnt==0) { loadMoreButton.style.display = "none"; } // hide extension button if no program left to display
+					if (outputCnt==0) { document.getElementById('msg2').style.display = "block"; } 
+					if (outputCnt>0 && nextCnt==0) { document.getElementById('msg1').style.display = "block"; } 
+					// go to next date
+					var nextDate = new Date(lastDate);
+       				nextDate.setDate(nextDate.getDate() + 1); // set next date to +1 day
+        			lastDate = nextDate.toISOString().split('T')[0]; 
+					}
+				callback(lastDate);
+            	} 
+            else { document.getElementById('program_standard').innerHTML = 'Error fetching records'; }
+      	};
+        xhr.onerror = function() { document.getElementById('program_standard').innerHTML = 'Network error occurred'; };
+        xhr.send();
+    	}
+
+   	// first fetch
+    fetchProgram(lastProgramDate, function(lastDate) { lastProgramDate = lastDate; });
+
+    // show button
+	setTimeout(() => { loadMoreButton.style.visibility = "visible"; }, 1500); 
+
+    // button trigger
+    loadMoreButton.addEventListener('click', function() 
+    	{ 
+		var batchElements = document.querySelectorAll('div.batch');
+		batchElements.forEach(function(element) { element.classList.remove('add'); }); // remove 'add' class that identified latest addition
+    	loadMoreButton.classList.add('loading');
+    	document.getElementById('spinner').style.display = "block"; // show spinner
+    	fetchProgram(lastProgramDate, function(lastDate) { lastProgramDate = lastDate; });
+    	});
+});
+</script>
+
+</div><!-- program_standard -->
+
+<img id="spinner" class="spinner ico" src="images/loading.gif">
+<button id="loadMoreButton" class="loader_button compound_button font6"><img class="ico" src="images/plus.svg"><span>Zobrazit další</span></button>
+<div class="loader_message font4" id="msg1">To je vše</div>
+<div class="loader_message font4" id="msg2">Nic nenalezeno</div>
+
+</div><!-- program -->
+
+<!-- add number of items per row into highlight section -->
+<script>
+var display_cnt = 9;
+if (display_cnt>0)
+{
+if (display_cnt == 1) { addclass = "one"; }
+else if (display_cnt == 2) { addclass = "two"; }
+else if (display_cnt == 3) { addclass = "three"; }
+else if (display_cnt == 4) { addclass = "two"; }
+else if (display_cnt == 5) { addclass = "three"; }
+else if (display_cnt == 6) { addclass = "three"; }
+else if (display_cnt == 7) { addclass = "four"; }
+else if (display_cnt == 8) { addclass = "four"; }
+else if (display_cnt == 9) { addclass = "three"; }
+else if (display_cnt == 10) { addclass = "four"; }
+else if (display_cnt == 11) { addclass = "three"; }
+else if (display_cnt == 12) { addclass = "three"; }
+else { addclass = "four"; }
+document.getElementById("program_highlight").classList.add(addclass); 
+}
+</script>
+</div><!-- page -->
+
+<div class="section thumbs">
+	<img src="https://kinoatlaspraha.cz/files/2023-03/230320014613-6923.jpg">
+	<img src="https://kinoatlaspraha.cz/files/2023-03/230320015647-7224.jpg">
+	<img src="https://kinoatlaspraha.cz/files/2023-03/230320015358-5863.jpg">
+	<img src="https://kinoatlaspraha.cz/files/2023-03/230320015907-1734.jpg">
+	<img src="https://kinoatlaspraha.cz/files/2023-03/230319064206-7171.jpg">
+</div><!-- section info -->
+
+	
+<script>
+const filter = document.querySelector('.program_filter');
+
+if (filter) {
+  window.addEventListener('scroll', () => {
+    const top = filter.getBoundingClientRect().top;
+
+    if (top <= 0) {
+      filter.classList.add('stuck');
+    } else {
+      filter.classList.remove('stuck');
+    }
+  });
+}
+</script>
+
+
+<div class="footer">
+		<div class="col logo">
+			<img  src="images/logo_small.png?logo=0">
+		</div>
+		<div class="col font6">
+			<p>Kino Atlas a <a href="https://cafe.kinoatlaspraha.cz/" target="_blank" rel="noopener">Café Atlas rostlin</a><br>Ke Štvanici 371/4<br>186 00 Praha 8<br><a href="https://www.facebook.com/kinoatlas" target="_blank" rel="noopener">Facebook</a> | <a href="https://www.instagram.com/kinoatlaspraha.cz/" target="_blank" rel="noopener">Instagram</a></p>
+<p>Vstupenky v síti GoOut nebo na pokladně 30 minut před prvním představením.</p>		</div>
+		<div class="col font6">
+			<p>Provozovatel kina:<br>Atlas Cinema s.r.o.<br>Sokolovská 371/4<br>186 00 Praha<br><a href="mailto:info@kinoatlaspraha.cz">info@kinoatlaspraha.cz</a><br>IČ: 18020283<br>DIČ: CZ18020283<br><br></p>		</div>
+		<div class="col font6">
+			<p><a href="../?page=o-nas">O kině a nejčastější dotazy</a><br><a href="../?page=historie">Historie kina Atlas</a></p>
+<p><a href="../?page=provozni-rad">Provozní řád</a><br><a href="../?page=vop" target="_blank" rel="noopener">Obchodní podmínky kina Atlas</a><br><a href="https://goout.net/cs/podminky-nakupu-vstupenek/" target="_blank" rel="noopener">Obchodní podmínky sítě GoOut</a><br><a href="https://goout.net/cs/listky/darkovy-poukaz-goout/imtd/" target="_blank" rel="noopener">Dárkové poukazy GoOut</a></p>		</div>
+		<div class="col font6">
+			<ul>
+				<li><a href="https://kinoatlaspraha.cz">Program</a></li>
+				<li><a href="?page=o-nas">O kině</a></li><li><a href="?page=skoly">Pro školy</a></li><li><a href="?page=galerie">Galerie Karla Vachka</a></li><li><a href="?page=pronajmy">Pronájmy</a></li><li><a href="?page=historie">Historie</a></li><li><a href="?page=kontakt">Kontakt</a></li>			</ul>
+		</div>
+</div><!-- footer -->
+
+</div><!-- frame -->
+
+<div class="logos">
+<a href="https://www.praha.eu"><img src="https://kinoatlaspraha.cz/files/2023-06/thumb_320_230608122347-5789.jpg"></a>
+<a href="https://www.europa-cinemas.org/en"><img src="https://kinoatlaspraha.cz/files/2023-04/thumb_320_230416124234-3435.jpg"></a>
+<a href="https://fondkinematografie.cz/"><img src="https://kinoatlaspraha.cz/files/2025-11/thumb_320_251129013006-9450.jpg"></a>
+<a href="https://www.kudyznudy.cz"><img src="https://kinoatlaspraha.cz/files/2023-04/thumb_320_230416011728-5967.jpg"></a>
+<a href="https://www.praha8.cz/"><img src="https://kinoatlaspraha.cz/files/2023-06/thumb_320_230608123034-5881.jpg"></a>
+<a href="https://kino-technickezarizeni-praha.cz/"><img src="https://kinoatlaspraha.cz/files/2025-11/thumb_320_251127113649-8796.jpg"></a>
+</div><!-- logos -->
+
+<!-- SCRIPTS -->
+
+<!-- preloader -->
+<script type="text/javascript">
+document.fonts.ready.then(function() { document.body.classList.add('loaded'); }).catch(function(error) {
+    console.error('Loading failed:', error);
+    document.body.classList.add('loaded');
+	});
+setTimeout(function() { document.body.classList.add('loaded'); }, 5000); 
+</script>
+
+<!-- 16 9 image resizer-->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+	const imageObjects = document.querySelectorAll('.image_169');
+	function resizeImages() {
+	    imageObjects.forEach(function(item) {
+	        const width = item.clientWidth;
+	        item.style.height = width * 9 / 16 + 'px';
+	    });
+	}
+   	resizeImages(); // Call the function to resize images initially
+	window.addEventListener('resize', resizeImages); // Add event listener for window resize
+});
+</script>
+
+<!-- gallery zoom -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const galleryImages = document.querySelectorAll('.gallery img');
+    const galleryBackground = document.getElementById('gallery_background');
+    galleryImages.forEach(img => {
+        img.addEventListener('click', function() {
+            this.classList.toggle('selected');
+            galleryBackground.classList.toggle('gallery_open');
+        });
+    });
+});
+</script>
+
+</body>
+</html>

@@ -17,7 +17,10 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-from . import bio_oko, edison, kino_aero, kino_pilotu, ponrepo, pritomnost, svetozor
+from . import (
+    atlas, bio_oko, edison, kavalirka, kino35, kino_aero, kino_pilotu, lucerna,
+    mat, ponrepo, pritomnost, svetozor, zaplotem,
+)
 
 # Every cinema module exposes the same scrape() function, so the runner doesn't
 # need to know anything about how an individual site is built.
@@ -26,9 +29,15 @@ SCRAPERS = {
     "Bio Oko": bio_oko.scrape,
     "Kino Světozor": svetozor.scrape,
     "Kino Přítomnost": pritomnost.scrape,
+    "Kino Lucerna": lucerna.scrape,
     "Kino Pilotů": kino_pilotu.scrape,
     "Kino Ponrepo": ponrepo.scrape,
     "Edison Filmhub": edison.scrape,
+    "Kino Atlas": atlas.scrape,
+    "Kino MAT": mat.scrape,
+    "Kino Kavalírka": kavalirka.scrape,
+    "Divadlo Za plotem": zaplotem.scrape,
+    "Kino 35": kino35.scrape,
 }
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"

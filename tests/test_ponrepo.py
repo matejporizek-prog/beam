@@ -66,10 +66,12 @@ def test_every_covered_day_is_reported_empty(result):
 
 def test_scraping_twice_gives_identical_results():
     """No hidden per-call state (the same class of bug the Kino Pilotů scraper
-    was fixed for) — scrape() must be safely callable more than once."""
+    was fixed for) — scrape() must be safely callable more than once.
+    scraped_at is excluded: it's a real wall-clock timestamp and legitimately
+    differs between calls, even a second apart."""
     html = FIXTURE.read_text(encoding="utf-8")
-    first = ponrepo.scrape(html=html)
-    second = ponrepo.scrape(html=html)
+    first = {k: v for k, v in ponrepo.scrape(html=html).items() if k != "scraped_at"}
+    second = {k: v for k, v in ponrepo.scrape(html=html).items() if k != "scraped_at"}
     assert first == second
 
 

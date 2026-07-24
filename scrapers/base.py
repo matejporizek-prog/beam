@@ -101,6 +101,12 @@ class Screening:
     director: str = ""           # from the page's structured data, when present
     runtime_min: Optional[int] = None
     source_id: str = ""          # the cinema's own id for this screening
+    # A cinema's own IMDb link for the film (Kino Kavalírka gives one for some
+    # screenings). A far stronger signal than title/director/runtime fuzzy
+    # matching — TMDb supports an exact lookup by IMDb id — but consuming it
+    # is a resolver change, not a scraper one, so it's captured here and not
+    # yet wired into anything in resolve/. Worth doing as a focused follow-up.
+    imdb_url: str = ""
 
     def to_dict(self) -> dict:
         return asdict(self)
@@ -217,7 +223,13 @@ def classify_tags(raw_tags: list[str]) -> dict:
             result["language_version"] = "dabing"
         elif "titulky" in key:
             result["language_version"] = "titulky"
-        else:
+        elif tag not in strands:
+            # Found via Kino Kavalírka: a screening can carry the same strand
+            # twice from two different places on the page at once — its own
+            # ".page__program-tag" chip *and* a venue-branded prefix baked
+            # into the title ("Film & Drink: Pulp Fiction" alongside a
+            # separate "Film & Drink" chip). Deduplicating here is general
+            # and harmless for every cinema, not just this one.
             strands.append(tag)
 
     # A screening normally has at most one strand; join defensively if not.
