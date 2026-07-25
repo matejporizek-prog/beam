@@ -46,8 +46,15 @@ body {
 .app { width: 100%; max-width: 430px; min-height: 100vh; position: relative; }
 
 /* Diagnostic: ?nobeam / ?nofx removes every decorative fixed layer, to isolate
-   whether they're behind the scroll jank. See NO_FX in app.js. */
+   whether they're behind the scroll jank. See NO_FX in app.js. Also strips the
+   detail overlay's remaining decoration (hero backdrop image, scanlines,
+   poster shadow, trailer thumbnail) — if the overlay scrolls smoothly under
+   ?nofx but not without it, one of those is the cost; if it's rough either
+   way, the cause is structural, not painted. */
 .no-fx .beam, .no-fx .grain { display: none !important; }
+.no-fx .ov-back.has-image::before, .no-fx .ov-back::after { display: none !important; }
+.no-fx .ov-poster { box-shadow: none; }
+.no-fx .ov-trailer { background-image: none !important; }
 
 /* ===== projector beam ===================================================== */
 .beam {
@@ -480,9 +487,14 @@ header.compact .brand h1 { font-size: 26px; }
 
 /* ===== search overlay ===================================================== */
 .search-ov {
-  position: fixed; top: 0; bottom: 0; left: 50%; width: 100%; max-width: 430px;
+  /* Auto-margin centering for the same reason as .overlay below: this holds
+     the .search-results scroller, and a permanent translateX(-50%) both kept
+     a transform attached during scrolling and could park it on a half-pixel
+     boundary. With opacity doing the show/hide, no transform is needed at all. */
+  position: fixed; top: 0; bottom: 0; left: 0; right: 0; margin: 0 auto;
+  width: 100%; max-width: 430px;
   z-index: 45; background: var(--bg);
-  transform: translateX(-50%); opacity: 0; pointer-events: none; transition: opacity .2s;
+  opacity: 0; pointer-events: none; transition: opacity .2s;
 }
 .search-ov.open { opacity: 1; pointer-events: auto; }
 .search-bar { display: flex; align-items: center; gap: 10px; padding: 16px 16px 12px; border-bottom: 1px solid var(--line); }
@@ -490,7 +502,7 @@ header.compact .brand h1 { font-size: 26px; }
 .search-inputwrap { flex: 1; display: flex; align-items: center; gap: 9px; background: var(--card); border: 1px solid var(--card-edge); border-radius: 11px; padding: 0 12px; }
 .search-inputwrap svg { width: 18px; height: 18px; color: var(--text-3); flex: none; }
 .search-inputwrap input { flex: 1; background: none; border: none; outline: none; color: var(--text); font-family: 'Archivo', sans-serif; font-size: 15px; padding: 11px 0; }
-.search-results { padding: 8px 0; overflow-y: auto; height: calc(100% - 68px); overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
+.search-results { padding: 8px 0; overflow-y: auto; height: calc(100% - 68px); overscroll-behavior: contain; }
 .search-hint { color: var(--text-3); font-size: 13px; padding: 30px 20px; text-align: center; }
 .sr-item { display: flex; gap: 12px; padding: 11px 20px; border-bottom: 1px solid var(--line); cursor: pointer; }
 .sr-body { flex: 1; min-width: 0; }
@@ -499,19 +511,29 @@ header.compact .brand h1 { font-size: 26px; }
 
 /* ===== detail overlay ===================================================== */
 .overlay {
-  position: fixed; top: 0; bottom: 0; left: 50%; width: 100%; max-width: 430px;
+  /* Centered with auto margins, NOT left:50% + translateX(-50%). The old
+     transform did two bad things to this scroller on iOS: it left a transform
+     permanently attached while scrolling (the open state should be the
+     simplest thing possible — an untransformed fixed box), and on a 375px
+     phone -50% of 375 is -187.5px, parking the whole scroller on a half-pixel
+     boundary so its content re-rasterizes on subpixel offsets. The slide-in
+     still animates: translateY(100%) closed → none open. */
+  position: fixed; top: 0; bottom: 0; left: 0; right: 0; margin: 0 auto;
+  width: 100%; max-width: 430px;
   z-index: 40; background: var(--bg);
-  transform: translateX(-50%) translateY(100%);
+  transform: translateY(100%);
   transition: transform .34s cubic-bezier(.2,.7,.2,1); overflow-y: auto;
   /* Wall this scroll off from the page behind it. Without `contain`, reaching
      the bottom of a long detail (e.g. Odyssea's many screenings) hands the
      scroll momentum off to the page — which re-composites the fixed beam and
-     stutters. This is the "freezes at the bottom" fix. */
+     stutters. This is the "freezes at the bottom" fix.
+     (-webkit-overflow-scrolling: touch is gone on purpose: async scrolling has
+     been the default since iOS 13, and the legacy property can still switch
+     WebKit onto its old momentum-scroll codepath.) */
   overscroll-behavior: contain;
-  -webkit-overflow-scrolling: touch;
   padding-bottom: 40px;
 }
-.overlay.open { transform: translateX(-50%) translateY(0); }
+.overlay.open { transform: none; }
 /* `isolation` walls the scanline layer's blend mode (below) inside the hero:
    without it the blend targets the whole overlay's stacking context, which
    can force the entire overlay scroller off the compositor's fast path. */

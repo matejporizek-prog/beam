@@ -8,12 +8,12 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=11';
-import { store } from './store.js?v=11';
+import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=12';
+import { store } from './store.js?v=12';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderProfile,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=11';
+} from './screens.js?v=12';
 
 /* ---------- app state ---------- */
 
@@ -572,6 +572,9 @@ function watchBeamResize() {
      resumes shimmering once scrolling stops. */
   let beamResumeTimer = null;
   const pauseBeamForScroll = () => {
+    /* The static beam (mobile / reduced-motion) has no loop to pause — bail
+       before churning a timer on every touchmove of every scroll gesture. */
+    if (!beamAnimated) return;
     stopBeamLoop();
     clearTimeout(beamResumeTimer);
     beamResumeTimer = setTimeout(startBeamLoop, 300);
