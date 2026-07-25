@@ -8,12 +8,12 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=10';
-import { store } from './store.js?v=10';
+import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=11';
+import { store } from './store.js?v=11';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderProfile,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=10';
+} from './screens.js?v=11';
 
 /* ---------- app state ---------- */
 

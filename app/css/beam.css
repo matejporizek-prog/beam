@@ -512,7 +512,10 @@ header.compact .brand h1 { font-size: 26px; }
   padding-bottom: 40px;
 }
 .overlay.open { transform: translateX(-50%) translateY(0); }
-.ov-hero { position: relative; height: 172px; overflow: hidden; }
+/* `isolation` walls the scanline layer's blend mode (below) inside the hero:
+   without it the blend targets the whole overlay's stacking context, which
+   can force the entire overlay scroller off the compositor's fast path. */
+.ov-hero { position: relative; height: 172px; overflow: hidden; isolation: isolate; }
 .ov-back {
   position: absolute; inset: 0;
   background:
@@ -530,6 +533,12 @@ header.compact .brand h1 { font-size: 26px; }
   content:""; position:absolute; inset:0; opacity:.5;
   background-image: repeating-linear-gradient(0deg, rgba(0,0,0,.15) 0 1px, transparent 1px 3px); mix-blend-mode: overlay;
 }
+/* Same policy as the grain: this scanline texture was the last blend-mode
+   layer still alive on mobile, sitting inside the detail overlay's scroll —
+   the screen Matěj reports as the worst. A subtle texture isn't worth a
+   re-blend against the moving content on iOS; the hero keeps its backdrop
+   image and fade, which carry the look. */
+@media (pointer: coarse) { .ov-back::after { display: none; } }
 .ov-fade { position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 40%, var(--bg)); }
 .ov-close, .ov-save {
   position: absolute; top: 16px; z-index: 3; width: 38px; height: 38px; border-radius: 50%;
