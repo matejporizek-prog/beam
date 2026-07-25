@@ -348,7 +348,13 @@ header.compact .brand h1 { font-size: 26px; }
 .save-heart {
   flex: none; align-self: center;
   width: 38px; height: 38px; border-radius: 50%;
-  border: none; background: rgba(12,14,17,.6); backdrop-filter: blur(8px);
+  /* No backdrop-filter here, for the same reason the nav dropped its blur —
+     and worse: this button repeats on EVERY program/watchlist row, so at 38
+     rows a day that was 38 live blur regions each re-sampling the content
+     behind them as it scrolled. On iOS that alone makes scrolling stutter,
+     and it grows with every cinema added. The disc sits on near-black rows,
+     so a slightly more opaque flat fill reads identically. */
+  border: none; background: rgba(12,14,17,.82);
   color: var(--text); font-size: 16px; line-height: 1; cursor: pointer;
   display: flex; align-items: center; justify-content: center;
   transition: color .18s, transform .12s;
@@ -426,10 +432,13 @@ header.compact .brand h1 { font-size: 26px; }
 
 /* ===== filter sheet ======================================================= */
 .sheet-scrim {
-  position: fixed; inset: 0; z-index: 30; background: rgba(6,8,11,.6); backdrop-filter: blur(2px);
+  position: fixed; inset: 0; z-index: 30; background: rgba(6,8,11,.6);
   opacity: 0; pointer-events: none; transition: opacity .28s;
 }
-.sheet-scrim.open { opacity: 1; pointer-events: auto; }
+/* The scrim's blur only exists while it's actually shown. Left on the base
+   rule, a full-screen backdrop-filter sits in the compositor even at
+   opacity: 0 — a standing tax on every scroll for an effect nobody sees. */
+.sheet-scrim.open { opacity: 1; pointer-events: auto; backdrop-filter: blur(2px); }
 .sheet {
   position: fixed; bottom: 0; left: 50%; transform: translateX(-50%) translateY(100%);
   width: 100%; max-width: 430px; z-index: 31; background: var(--card);
@@ -524,7 +533,9 @@ header.compact .brand h1 { font-size: 26px; }
 .ov-fade { position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 40%, var(--bg)); }
 .ov-close, .ov-save {
   position: absolute; top: 16px; z-index: 3; width: 38px; height: 38px; border-radius: 50%;
-  border: none; background: rgba(12,14,17,.6); backdrop-filter: blur(8px); color: var(--text);
+  /* Blur dropped along with .save-heart's: these two live inside the detail
+     overlay's scroll, which was the reported worst case for iOS jank. */
+  border: none; background: rgba(12,14,17,.78); color: var(--text);
   cursor: pointer;
 }
 .ov-close { left: 16px; font-size: 20px; }
@@ -571,8 +582,8 @@ header.compact .brand h1 { font-size: 26px; }
 }
 .ov-play {
   position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); z-index: 2;
-  width: 54px; height: 54px; border-radius: 50%; background: rgba(241,235,224,.12);
-  border: 1.5px solid rgba(241,235,224,.85); backdrop-filter: blur(4px);
+  width: 54px; height: 54px; border-radius: 50%; background: rgba(241,235,224,.16);
+  border: 1.5px solid rgba(241,235,224,.85);
   display: flex; align-items: center; justify-content: center;
 }
 .ov-play svg { margin-left: 3px; }
