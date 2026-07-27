@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T22:06:14+02:00",
+  "generated_at": "2026-07-27T13:55:55+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -264,6 +264,51 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for '80 rozlícených novinářů'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "adamova jablka",
+      "title_cz": "Adamova jablka",
+      "title_en": "Adam's Apples",
+      "original_title": "Adams æbler",
+      "year": 2005,
+      "synopsis": "Neonacista ve výkonu trestu Adam přijíždí na faru, aby se zde věnoval veřejně prospěšným pracem. Farář Ivan je pro Adama na první pohled nestravitelnou osobou. Jako jeho první práci Adamovi zadá upéct jablečný koláč z jablek ze stromu na pozemku fary, který napadlo hejno havranů. Podle Ivana je to Boží trest a je na Adamovi, aby v této zkoušce obstál. Adamovi je to upřímně jedno. Jedinou modlou je mu obrázek Hitlera nad postelí a přemýšlí, jak by se z téhle díry co nejrychleji dostal. Po pár dnech však zjišťuje, že s farářem není něco v pořádku. Co se zprvu Adamovi jevilo jako náboženský fanatismus se zdá být psychickou chorobou. Když Ivan jednoho dne náhle zkolabuje, dozvídá se Adam od lékaře překvapivou novinu. Bizarnost celé situace mu však nedovolí odejít a Adam je nucen čelit celé řadě nevšedních situací. Celým filmem nás provází úryvky z knihy Jobovy, která je příběhu symbolickým předobrazem.",
+      "synopsis_language": "cs",
+      "runtime_min": 95,
+      "genres": [
+        "Drama",
+        "Komedie",
+        "Krimi"
+      ],
+      "director": [
+        "Anders Thomas Jensen"
+      ],
+      "screenwriter": [
+        "Anders Thomas Jensen",
+        "Rikke Deepthi Hansen"
+      ],
+      "cast": [
+        "Mads Mikkelsen",
+        "Ulrich Thomsen",
+        "Paprika Steen",
+        "Ole Thestrup",
+        "Nikolaj Lie Kaas",
+        "Nicolas Bro",
+        "Ali Kazim",
+        "Gyrd Løfquist"
+      ],
+      "production_company": [
+        "M&M Productions"
+      ],
+      "poster_path": "/6RNmgq0UKvPuzLI6iY81ugLhjw2.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/iVnsOj0MtVE1lzfillNAPqCdhpR.jpg",
+      "trailer_youtube_key": "RaJdhU7qWVk",
+      "age_rating": "R (US)",
+      "tmdb_id": 1023,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Adamova+jablka+2005",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
     },
     {
       "film_id": "aftersun",
@@ -631,6 +676,58 @@
       "match_score": 1.115
     },
     {
+      "film_id": "arrietty ze sveta pujcovnicku",
+      "title_cz": "Arrietty ze světa půjčovníčků",
+      "title_en": "The Secret World of Arrietty",
+      "original_title": "借りぐらしのアリエッティ",
+      "year": 2010,
+      "synopsis": "To jsou malinkatí lidé žijící v prostorech mezi zdmi či pod podlahami starých domů, kteří si vše, co potřebují k životu, půjčují od jejich obyvatel. Mladá Arrietty takto se svými rodiči žije v domě, kde bydlí babička mladého chlapce Šóa. V den, kdy Šó přijede, zrovna Arrietty čeká její první výprava s tatínkem pro zásoby do světa velkých lidí.",
+      "synopsis_language": "cs",
+      "runtime_min": 94,
+      "genres": [
+        "Fantasy",
+        "Animovaný",
+        "Rodinný"
+      ],
+      "director": [
+        "Hiromasa Yonebayashi"
+      ],
+      "screenwriter": [
+        "Hayao Miyazaki",
+        "Keiko Niwa"
+      ],
+      "cast": [
+        "Mirai Shida",
+        "Ryunosuke Kamiki",
+        "Tomokazu Miura",
+        "Keiko Takeshita",
+        "Kirin Kiki",
+        "Shinobu Otake",
+        "Tatsuya Fujiwara",
+        "Shin'ichi Hatori"
+      ],
+      "production_company": [
+        "Studio Ghibli",
+        "Hakuhodo DY Media Partners",
+        "Mitsubishi Shoji",
+        "dentsu",
+        "TOHO",
+        "Nippon Television Network Corporation",
+        "Wild Bunch",
+        "The Walt Disney Company (Japan)"
+      ],
+      "poster_path": "/sUSkcFebnw9AoXldXeSM4vmtELV.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2024/09/10/5d0671a0e20a3d699a7c2c08d92d4f3d.jpg",
+      "backdrop_path": "/7Z7WVzJsSReG8B0CaPk0bvWD7tK.jpg",
+      "trailer_youtube_key": "DskjJGeaRQA",
+      "age_rating": "U",
+      "tmdb_id": 51739,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Arrietty+ze+sv%C4%9Bta+p%C5%AFj%C4%8Dovn%C3%AD%C4%8Dk%C5%AF+2010",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
       "film_id": "audience",
       "title_cz": "Audience | NT Live",
       "title_en": "",
@@ -905,6 +1002,52 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0
+    },
+    {
+      "film_id": "blikajici svetla",
+      "title_cz": "Blikající světla",
+      "title_en": "Flickering Lights",
+      "original_title": "Blinkende lygter",
+      "year": 2000,
+      "synopsis": "Torkild (Soren Pilmark), vůdce gangu drobných, ale bezohledných kodaňských zlodějíčků, touží provést svůj poslední zločin, který mu zajistí bezstarostný život v cizině. Potká ho štěstí v podobě Muže z Fara (Peter Andersson), otrlého kriminálníka, který ho najme spolu se třemi kumpány, aby ukradli pytel se čtyřmi miliony dánských korun. Povedený čtyřlístek se rozhodne uprchnout do Barcelony. Cestou se jim ale rozbije auto, přičemž objeví opuštěný dům, jenž býval restaurací. Torkilda napadne ho zrekonstruovat. Anders Thomas Jensen, jenž napsal scénáře filmů V Číně jedí psy a Mifune, popisuje v sérii retrospektivních scén hrozné rodiny, v nichž čtveřice mužů vyrůstala. Život v partě jim nahrazuje život, který nikdy nepoznali.",
+      "synopsis_language": "cs",
+      "runtime_min": 109,
+      "genres": [
+        "Akční",
+        "Komedie",
+        "Krimi"
+      ],
+      "director": [
+        "Anders Thomas Jensen"
+      ],
+      "screenwriter": [
+        "Anders Thomas Jensen"
+      ],
+      "cast": [
+        "Søren Pilmark",
+        "Ulrich Thomsen",
+        "Mads Mikkelsen",
+        "Nikolaj Lie Kaas",
+        "Sofie Gråbøl",
+        "Iben Hjejle",
+        "Frits Helmuth",
+        "Ole Thestrup"
+      ],
+      "production_company": [
+        "M&M Productions",
+        "DR",
+        "SVT Drama"
+      ],
+      "poster_path": "/8drJTelBYElR5Xh1DwCWOTJIaBs.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/oW8tmQwXbg45AwqLqKCRhbgV89P.jpg",
+      "trailer_youtube_key": "-riyRypVqu8",
+      "age_rating": "15+",
+      "tmdb_id": 10180,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Blikaj%C3%ADc%C3%AD+sv%C4%9Btla+2000",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
     },
     {
       "film_id": "bourlive vysiny",
@@ -2580,6 +2723,118 @@
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0
+    },
+    {
+      "film_id": "jednej spravne",
+      "title_cz": "Jednej správně",
+      "title_en": "Do the Right Thing",
+      "original_title": "Do the Right Thing",
+      "year": 1989,
+      "synopsis": "Děj se točí okolo roznašeče pizzy Mookieho (Spike Lee), který si v převážně černošské čtvrti paradoxně našel práci u Italoameričana Sala (Danny Aiello). Celkem poklidný průběh všedních letních dní plný pohodové muziky a nezávazného klábosení začne zprvu sotva postřehnutelně, postupně však stále patrněji, narušovat jeden ze Salových synků - rasistický Pino (John Turturo). Vše neodvratně směřuje k nepříjemnému střetu dvou odlišných kultur.",
+      "synopsis_language": "cs",
+      "runtime_min": 120,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Spike Lee"
+      ],
+      "screenwriter": [
+        "Spike Lee"
+      ],
+      "cast": [
+        "Danny Aiello",
+        "Ossie Davis",
+        "Ruby Dee",
+        "Richard Edson",
+        "Giancarlo Esposito",
+        "Spike Lee",
+        "Bill Nunn",
+        "John Turturro"
+      ],
+      "production_company": [
+        "Universal Pictures",
+        "40 Acres and a Mule Filmworks"
+      ],
+      "poster_path": "/63rmSDPahrH7C1gEFYzRuIBAN9W.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/24/672fb91561a5a29759c12bd879eec7a4.jpg",
+      "backdrop_path": "/oYOZay9hyW3uI5paKWLIYkWZlzv.jpg",
+      "trailer_youtube_key": "yVAD4fYRcvA",
+      "age_rating": "R (US)",
+      "tmdb_id": 925,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Jednej+spr%C3%A1vn%C4%9B+1989",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "jesus christ superstar",
+      "title_cz": "Jesus Christ Superstar",
+      "title_en": "Jesus Christ Superstar",
+      "original_title": "Jesus Christ Superstar",
+      "year": 1973,
+      "synopsis": "Legendární filmové zpracování světoznámého muzikálu v režii Normana Jewisona. Rocková opera vypráví z pohledu Jidáše Iškariotského, příběh posledních sedmi dnů života JEŽÍŠE KRISTA - od jeho příchodu do Jeruzaléma až do ukřižování. Ambiciózní a mimořádně finančně náročný filmový projekt vznikal v exterierech přímo v Izraeli.",
+      "synopsis_language": "cs",
+      "runtime_min": 108,
+      "genres": [
+        "Drama",
+        "Historický"
+      ],
+      "director": [
+        "Norman Jewison"
+      ],
+      "screenwriter": [
+        "Melvyn Bragg",
+        "Norman Jewison"
+      ],
+      "cast": [
+        "Ted Neeley",
+        "Carl Anderson",
+        "Yvonne Elliman",
+        "Barry Dennen",
+        "Bob Bingham",
+        "Larry Marshall",
+        "Josh Mostel",
+        "Kurt Yaghjian"
+      ],
+      "production_company": [
+        "Universal Pictures"
+      ],
+      "poster_path": "/2NQgIjHxYyMJZWeUFH5cuKhN4nh.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/xQRh7hSPdtEE0aUmuY8EdifrXPK.jpg",
+      "trailer_youtube_key": "CEUDcqYGK74",
+      "age_rating": "G (US)",
+      "tmdb_id": 12545,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Jesus+Christ+Superstar+1973",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "kanaly 1957",
+      "title_cz": "Kanály (1957)",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/07/14/97f2ce277ad6b7083777d1ec39a7dbc0.webp",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kan%C3%A1ly+%281957%29",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Kanály (1957)'",
+      "match_score": 0.0
     },
     {
       "film_id": "kapralova",
@@ -4334,6 +4589,57 @@
       "match_score": 1.0
     },
     {
+      "film_id": "nejhorsi clovek na svete",
+      "title_cz": "Nejhorší člověk na světě",
+      "title_en": "The Worst Person in the World",
+      "original_title": "Verdens verste menneske",
+      "year": 2021,
+      "synopsis": "Film o půvabné dívce, která se v životě stále hledá. Před třicítkou se ostatně obor studia i partner mění snadno; netřeba se věnovat něčemu, co vás nebaví, ani se zaklesnout ve vztahu bez jiskry. Mladický elán i bezstarostnost ale jednoho dne vyprchají, zrovna ve chvíli, kdy Juliino zmatené srdce tápe…",
+      "synopsis_language": "cs",
+      "runtime_min": 128,
+      "genres": [
+        "Drama",
+        "Romantický",
+        "Komedie"
+      ],
+      "director": [
+        "Joachim Trier"
+      ],
+      "screenwriter": [
+        "Joachim Trier",
+        "Eskil Vogt"
+      ],
+      "cast": [
+        "Renate Reinsve",
+        "Anders Danielsen Lie",
+        "Herbert Nordrum",
+        "Hans Olav Brenner",
+        "Helene Bjørneby",
+        "Vidar Sandem",
+        "Maria Grazia Di Meo",
+        "Lasse Gretland"
+      ],
+      "production_company": [
+        "Oslo Pictures",
+        "Film i Väst",
+        "Snowglobe",
+        "B-Reel Films",
+        "ARTE France Cinéma",
+        "MK Productions",
+        "mk2 Films"
+      ],
+      "poster_path": "/xzSWjMLwFdxWNxw5brmZl7PZlae.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/woYGBHERSMhIHqmkkRCbCXp81l4.jpg",
+      "trailer_youtube_key": "aXrm8V75H4E",
+      "age_rating": "18+",
+      "tmdb_id": 660120,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Nejhor%C5%A1%C3%AD+%C4%8Dlov%C4%9Bk+na+sv%C4%9Bt%C4%9B+2021",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
       "film_id": "nenavist",
       "title_cz": "Nenávist",
       "title_en": "La Haine",
@@ -4429,6 +4735,105 @@
       "match_score": 1.0
     },
     {
+      "film_id": "neon demon",
+      "title_cz": "Neon Demon",
+      "title_en": "The Neon Demon",
+      "original_title": "The Neon Demon",
+      "year": 2016,
+      "synopsis": "Jesse je mladá, krásná a má onu tajemnou esenci, která ji vyčleňuje ze zástupu dokonalých krásek ucházejících se o svých pár let slávy na módních molech v Los Angeles. „Kdo by chtěl zkyslý mlíko, když může mít čerstvý maso\", utrousí na její adresu jedna ze závistivých kolegyň. Neonový puls fashion světa pohlcuje Jesse natolik, že přehlíží varovné signály. Za marnivými kulisami kultu krásy totiž dříme dávné zlo, které se živí nevinností.",
+      "synopsis_language": "cs",
+      "runtime_min": 118,
+      "genres": [
+        "Horor",
+        "Thriller"
+      ],
+      "director": [
+        "Nicolas Winding Refn"
+      ],
+      "screenwriter": [
+        "Nicolas Winding Refn",
+        "Mary Laws",
+        "Polly Stenham"
+      ],
+      "cast": [
+        "Elle Fanning",
+        "Karl Glusman",
+        "Jena Malone",
+        "Bella Heathcote",
+        "Abbey Lee",
+        "Desmond Harrington",
+        "Keanu Reeves",
+        "Christina Hendricks"
+      ],
+      "production_company": [
+        "Wild Bunch",
+        "Gaumont",
+        "Space Rocket Nation",
+        "Vendian Entertainment",
+        "Bold Films"
+      ],
+      "poster_path": "/3rBo2AfWSlvsPmYFdJsNUMfkNIo.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/xcfjWEmSpgJe8htlg1qFTwQfPG7.jpg",
+      "trailer_youtube_key": "rzH7Jc83eQI",
+      "age_rating": "R (US)",
+      "tmdb_id": 301365,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Neon+Demon+2016",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
+      "film_id": "netopyrek nik",
+      "title_cz": "Netopýrek Nik",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2025/10/17/68a331a5f70d8893945808ae975aada0.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Netop%C3%BDrek+Nik",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Netopýrek Nik'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "noc 1961",
+      "title_cz": "Noc (1961)",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/07/14/ab7bbb7a099da8c5d2bcba8b342eeb54.webp",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Noc+%281961%29",
+      "resolved": false,
+      "match_reason": "no candidate scored above 0.75",
+      "match_score": 0.471
+    },
+    {
       "film_id": "nt live nebezpecne znamosti",
       "title_cz": "NT Live: Nebezpečné známosti",
       "title_en": "",
@@ -4452,6 +4857,57 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'NT Live: Nebezpečné známosti'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "o kuratech a lidech",
+      "title_cz": "O kuřatech a lidech",
+      "title_en": "Men & Chicken",
+      "original_title": "Mænd & høns",
+      "year": 2015,
+      "synopsis": "Gabriel a Elias se u smrtelného lože svého otce dozví, že jsou adoptovaní. Jejich biologickým otcem je Evelio Thanatos, odborník na výzkum kmenových buněk. Po příjezdu na ostrov Ork bratři zjistí, že mají další tři sourozence – velmi neortodoxní sourozence. Jako zkultivovat trio neotesaných buranů, kteří chodí spát se slepicemi a pro ránu nejdou daleko? Uznávaný mistr černých severských komedií se po desetileté režijní pauze vrací s filmem o vejcích, která padla daleko od stromu.",
+      "synopsis_language": "cs",
+      "runtime_min": 104,
+      "genres": [
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "Anders Thomas Jensen"
+      ],
+      "screenwriter": [
+        "Anders Thomas Jensen"
+      ],
+      "cast": [
+        "Mads Mikkelsen",
+        "David Dencik",
+        "Nikolaj Lie Kaas",
+        "Søren Malling",
+        "Nicolas Bro",
+        "Ole Thestrup",
+        "Bodil Jørgensen",
+        "Kirsten Lehfeldt"
+      ],
+      "production_company": [
+        "M&M Productions",
+        "DCM Pictures",
+        "DR",
+        "Det Danske Filminstitut",
+        "Film Fyn",
+        "Film i Väst",
+        "DCM Productions",
+        "Nadcon Film",
+        "Studio Babelsberg"
+      ],
+      "poster_path": "/v06j6D63LIk6ylb4SksN8gSQBm0.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/coAxeGkmdEXhsbSdpSsjg0i4cRn.jpg",
+      "trailer_youtube_key": "aLwuQDbw9UQ",
+      "age_rating": "",
+      "tmdb_id": 296313,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=O+ku%C5%99atech+a+lidech+2015",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
     },
     {
       "film_id": "o tele a dusi",
@@ -4927,6 +5383,31 @@
       "match_score": 1.15
     },
     {
+      "film_id": "papaja",
+      "title_cz": "Papája",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/07/14/1566be2ba432910d41231d22d00417b6.webp",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Pap%C3%A1ja",
+      "resolved": false,
+      "match_reason": "no candidate scored above 0.75",
+      "match_score": 0.417
+    },
+    {
       "film_id": "pedro almodovar double feature",
       "title_cz": "Pedro Almodóvar double feature",
       "title_en": "",
@@ -5304,6 +5785,56 @@
       "match_score": 1.0
     },
     {
+      "film_id": "ponjo z utesu nad morem",
+      "title_cz": "Ponjo z útesu nad mořem",
+      "title_en": "Ponyo",
+      "original_title": "崖の上のポニョ",
+      "year": 2008,
+      "synopsis": "Vítejte ve světě, kde nic není nemožné. Neobyčejná animovaná pohádka se odehrává v malém městečku u moře, kde syn námořníka, pětiletý Sosuke, žije poklidný život v domě na útesu ses vou matkou Lisou. Jednoho osudného dne objeví Sosuke na pláži krásnou zlatou rybku jménem Ponyo uvězněnou v láhvi. Jak se však ukáže, Ponyo není obyčejná zlatá rybka, ale dcera mocného podmořského čaroděje. Ponyo využije kouzel jejího otce a promění se v mladou dívku, aby mohla být se Sosukem. Mořské hladiny se začnou vinou kouzel nebezpečně zvyšovat a Ponyin otec vyšle mocné mořské vlny, aby našly jeho dceru. Ponyo a Sosuke musí podniknout velké dobrodružství, aby zachránili svět a splnili Ponyin sen stát se skutečným člověkem.",
+      "synopsis_language": "cs",
+      "runtime_min": 100,
+      "genres": [
+        "Animovaný",
+        "Fantasy",
+        "Rodinný"
+      ],
+      "director": [
+        "Hayao Miyazaki"
+      ],
+      "screenwriter": [
+        "Hayao Miyazaki"
+      ],
+      "cast": [
+        "Yuria Kozuki",
+        "Hiroki Doi",
+        "George Tokoro",
+        "Tomoko Yamaguchi",
+        "Yuki Amami",
+        "Kazushige Nagashima",
+        "Akiko Yano",
+        "Shin'ichi Hatori"
+      ],
+      "production_company": [
+        "Studio Ghibli",
+        "TOHO",
+        "Nippon Television Network Corporation",
+        "dentsu",
+        "Hakuhodo DY Media Partners",
+        "The Walt Disney Company (Japan)",
+        "Mitsubishi"
+      ],
+      "poster_path": "/wvtEjvXh15AQ3dk6BrpbSmYJ77J.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2024/05/02/68cee86ccb8ef02d7b6aceb6dc8ef929.jpg",
+      "backdrop_path": "/shqLeIkqPAAXM8iT6wVDiXUYz1p.jpg",
+      "trailer_youtube_key": "h6XP82TyFWw",
+      "age_rating": "U",
+      "tmdb_id": 12429,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ponjo+z+%C3%BAtesu+nad+mo%C5%99em+2008",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.11, title 0.96)",
+      "match_score": 1.107
+    },
+    {
       "film_id": "posedlost",
       "title_cz": "Posedlost",
       "title_en": "Obsession",
@@ -5529,6 +6060,31 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
+    },
+    {
+      "film_id": "predpremiera serialu filter debata",
+      "title_cz": "Předpremiéra seriálu Filter + debata",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=P%C5%99edpremi%C3%A9ra+seri%C3%A1lu+Filter+%2B+debata",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Předpremiéra seriálu Filter + debata'",
+      "match_score": 0.0
     },
     {
       "film_id": "pri zemi",
@@ -5895,6 +6451,48 @@
       "match_score": 1.0
     },
     {
+      "film_id": "reznici",
+      "title_cz": "Řezníci",
+      "title_en": "The Green Butchers",
+      "original_title": "De grønne slagtere",
+      "year": 2003,
+      "synopsis": "Svend a Bjarne pracují v malém dánském městečku jako řezníci. Každý den musejí poslouchat urážky od svého šéfa, až se nakonec rozhodnou pro založení vlastního malého krámku. Začátky podnikáni jsou značně bezútěšné, příliš se jim nedaří, několik náhod jim ale pomůže k získání velké zakázky. Od té doby je jim štěstěna nakloněna a obchody se pomalu hýbají k lepšímu. Pak ale Bjarne přichází se šíleným nápadem, jenž se týká jeho bratra, který je po vážné autonehodě dlouhodobě v komatu. Slogan filmu \" Na chuť lidského masa nikdy nezapomenete\", napoví, o co že to půjde.(oficiální text distributora)",
+      "synopsis_language": "cs",
+      "runtime_min": 100,
+      "genres": [
+        "Komedie"
+      ],
+      "director": [
+        "Anders Thomas Jensen"
+      ],
+      "screenwriter": [
+        "Anders Thomas Jensen"
+      ],
+      "cast": [
+        "Nikolaj Lie Kaas",
+        "Mads Mikkelsen",
+        "Line Kruse",
+        "Nicolas Bro",
+        "Aksel Erhardtsen",
+        "Bodil Jørgensen",
+        "Ole Thestrup",
+        "Lily Weiding"
+      ],
+      "production_company": [
+        "M&M Productions"
+      ],
+      "poster_path": "/cUHr5oPeccL9acIryC4DHYrb05K.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/8c3EHJbYJ79dXMtFqmyduLs18RS.jpg",
+      "trailer_youtube_key": "D-9zg3f0wCs",
+      "age_rating": "",
+      "tmdb_id": 4972,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%98ezn%C3%ADci+2003",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
       "film_id": "rodina k pronajmu",
       "title_cz": "Rodina k pronájmu",
       "title_en": "Family for Rent",
@@ -6056,6 +6654,53 @@
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0
+    },
+    {
+      "film_id": "rytiri spravedlnosti",
+      "title_cz": "Rytíři spravedlnosti",
+      "title_en": "Riders of Justice",
+      "original_title": "Retfærdighedens ryttere",
+      "year": 2020,
+      "synopsis": "Nasazený voják Markus se vrací domů ke své dospívající dceři poté, co jeho manželka zemřela při tragické nehodě vlaku. Zdá se, že to byla pouze nešťastná shoda náhod, dokud se neobjeví matematický geek Otto se svými dvěma excentrickými kolegy Lennartem a Emmenthalerem. Otto také cestoval ve zničeném vlaku. A je přesvědčený, že za tím někdo musel být.",
+      "synopsis_language": "cs",
+      "runtime_min": 116,
+      "genres": [
+        "Akční",
+        "Komedie",
+        "Drama",
+        "Thriller"
+      ],
+      "director": [
+        "Anders Thomas Jensen"
+      ],
+      "screenwriter": [
+        "Anders Thomas Jensen"
+      ],
+      "cast": [
+        "Mads Mikkelsen",
+        "Nikolaj Lie Kaas",
+        "Lars Brygmann",
+        "Nicolas Bro",
+        "Andrea Heick Gadeberg",
+        "Gustav Lindh",
+        "Roland Møller",
+        "Albert Rudbeck Lindhardt"
+      ],
+      "production_company": [
+        "Zentropa International Sweden",
+        "Zentropa Entertainments",
+        "Film i Väst"
+      ],
+      "poster_path": "/ryCcQ20rnF2AaSjXmul4jcGxeoy.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/7XZsVVnqTsMJXg3J4CHzeV2Lro9.jpg",
+      "trailer_youtube_key": "W2pEFP1Rvu4",
+      "age_rating": "NR (US)",
+      "tmdb_id": 663870,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ryt%C3%AD%C5%99i+spravedlnosti+2020",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
     },
     {
       "film_id": "sedma pecet",
