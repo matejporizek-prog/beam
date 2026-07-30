@@ -8,12 +8,12 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=15';
-import { store } from './store.js?v=15';
+import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=16';
+import { store } from './store.js?v=16';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderProfile,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=15';
+} from './screens.js?v=16';
 
 /* ---------- app state ---------- */
 
@@ -27,6 +27,11 @@ let detailFilmId = null;
    does — and from then on it only changes when the month-nav arrows are
    tapped, same as every other piece of session state here. */
 let activePremMonth = null;
+/* ISO date or null. Set by tapping a marked day in the premieres grid, to
+   filter that screen's list down to just that day; cleared by tapping the
+   same day again, the "Celý měsíc" link, or a month-nav tap (a selection
+   from a different month showing through would be confusing). */
+let activePremDay = null;
 
 const $ = id => document.getElementById(id);
 
@@ -97,7 +102,7 @@ function renderProg() {
 }
 
 function renderPrem() {
-  renderPremieres($('s-prem'), activePremMonth);
+  renderPremieres($('s-prem'), activePremMonth, activePremDay);
 }
 
 const SCREENS = { program: 's-program', prem: 's-prem', want: 's-want', prof: 's-prof' };
@@ -138,7 +143,24 @@ function wireEvents() {
     const monthNav = event.target.closest('[data-prem-month]');
     if (monthNav) {
       const month = monthNav.dataset.premMonth;
-      if (month) { activePremMonth = month; renderPrem(); }
+      if (month) {
+        activePremMonth = month;
+        activePremDay = null;   // a day picked in a different month wouldn't apply here
+        renderPrem();
+      }
+      return;
+    }
+
+    /* A marked day in the premieres grid, or the "Celý měsíc" link back out
+       of one — both carry the same data-prem-day attribute (the link's value
+       is whichever day is currently selected), so tapping either toggles: a
+       fresh day selects it, tapping the already-selected day (or its own
+       clear link) clears back to the whole month. */
+    const premDay = event.target.closest('[data-prem-day]');
+    if (premDay) {
+      const day = premDay.dataset.premDay;
+      activePremDay = activePremDay === day ? null : day;
+      renderPrem();
       return;
     }
 

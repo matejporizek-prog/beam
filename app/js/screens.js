@@ -10,14 +10,14 @@ import {
   state, filmFor, filmById, titleOf, screeningsForFilm, nextScreening,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf,
-} from './data.js?v=15';
+} from './data.js?v=16';
 
 import {
   DOW, esc, dateOf, shortDate, longDay, whenLabel,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=15';
+} from './format.js?v=16';
 
-import { store } from './store.js?v=15';
+import { store } from './store.js?v=16';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
@@ -232,14 +232,14 @@ function daysInMonth(year, monthIndex) {
   return new Date(year, monthIndex + 1, 0).getDate();
 }
 
-/* activeMonth is a 'YYYY-MM' string, owned by app.js the same way activeDay
-   is — this function only resolves a *default* when none is set yet (or the
-   caller handed back a month that turned out to have nothing in it), it
-   never mutates app.js's state itself. Month navigation is a delegated click
-   on [data-prem-month] (see app.js), matching how every other re-rendered
-   button in this file works — there's no persistent element to attach a
-   plain onclick to once a render replaces it. */
-export function renderPremieres(el, activeMonth) {
+/* activeMonth is a 'YYYY-MM' string and activeDay an ISO date or null, both
+   owned by app.js the same way activeDay in Program is — this function only
+   resolves a *default* month when none is set yet, it never mutates app.js's
+   state itself. Month nav and day selection are both delegated clicks (see
+   app.js) — [data-prem-month] and [data-prem-day] — matching how every other
+   re-rendered button in this file works: there's no persistent element to
+   attach a plain onclick to once a render replaces it. */
+export function renderPremieres(el, activeMonth, activeDay) {
   const premieres = state.premieres;
 
   if (!premieres.length) {
@@ -262,6 +262,12 @@ export function renderPremieres(el, activeMonth) {
   const todayISOStr = todayISO();
   const todayDay = todayISOStr.startsWith(month) ? Number(todayISOStr.slice(8, 10)) : null;
 
+  // A selected day only makes sense within the month it belongs to — one
+  // carried over from a different month (e.g. app.js's state not yet reset
+  // on a month-nav tap) is treated as no selection rather than filtering
+  // everything out.
+  const selectedDay = activeDay && monthKey(activeDay) === month ? activeDay : null;
+
   const monthIdx = months.indexOf(month);
   const prevMonth = monthIdx > 0 ? months[monthIdx - 1] : '';
   const nextMonth = monthIdx < months.length - 1 ? months[monthIdx + 1] : '';
@@ -271,10 +277,17 @@ export function renderPremieres(el, activeMonth) {
   for (let i = 0; i < pad; i++) cells += '<div class="prem-day empty"></div>';
   for (let day = 1; day <= daysInMonth(year, monthIndex); day++) {
     const has = dayNumbers.has(day);
-    cells += `<div class="prem-day ${has ? 'has' : ''} ${day === todayDay ? 'today' : ''}">` +
-      `<span class="prem-daynum">${day}</span>` +
-      (has ? '<span class="prem-dot"></span>' : '') +
-      '</div>';
+    const iso = `${month}-${String(day).padStart(2, '0')}`;
+    const classes = ['prem-day'];
+    if (has) classes.push('has');
+    if (day === todayDay) classes.push('today');
+    if (iso === selectedDay) classes.push('selected');
+    // Only a day that actually has a premiere is a tap target — tapping an
+    // empty day would just clear the selection for no visible reason.
+    cells += has
+      ? `<button class="${classes.join(' ')}" data-prem-day="${iso}">` +
+        `<span class="prem-daynum">${day}</span><span class="prem-dot"></span></button>`
+      : `<div class="${classes.join(' ')}"><span class="prem-daynum">${day}</span></div>`;
   }
 
   const grid = `
@@ -288,11 +301,22 @@ export function renderPremieres(el, activeMonth) {
       ${cells}
     </div>`;
 
+  const shown = selectedDay ? inMonth.filter(p => p.release_date === selectedDay) : inMonth;
+
+  // Tapping a marked day filters the list to just that day; this heading is
+  // the only way back to the whole month short of tapping the day again.
+  const listHead = selectedDay
+    ? `<div class="prem-list-head">
+         <span class="sec-head">${esc(longDay(selectedDay))}</span>
+         <button class="prem-clear" data-prem-day="${selectedDay}">Celý měsíc</button>
+       </div>`
+    : '';
+
   /* Real films now — TMDb-resolved and merged into state.films by data.js —
      so unlike the old placeholder these are genuinely clickable: data-film
      opens the same detail overlay every other film uses, poster and all,
      even though there's nothing in "Tento týden hrají" yet. */
-  const list = inMonth.map(p => {
+  const list = shown.map(p => {
     const meta = [];
     if (p.genres && p.genres.length) meta.push(esc(p.genres.slice(0, 2).join(', ')));
     return `<article class="film stagger" data-film="${esc(p.film_id)}">
@@ -311,7 +335,7 @@ export function renderPremieres(el, activeMonth) {
     </article>`;
   }).join('');
 
-  el.innerHTML = grid + `<div class="prem-list">${list}</div>` +
+  el.innerHTML = grid + listHead + `<div class="prem-list">${list}</div>` +
     `<p class="attribution">Termíny premiér poskytuje TMDb — distributor je ještě může posunout.</p>`;
 }
 

@@ -400,6 +400,11 @@ header.compact .brand h1 { font-size: 26px; }
 .prem-day {
   aspect-ratio: 1; border-radius: 8px; display: flex; flex-direction: column;
   align-items: center; justify-content: center; gap: 3px;
+  /* A day with a premiere renders as a <button> (see renderPremieres()),
+     everything else stays a plain <div> — only marked days are tap targets.
+     Reset the button chrome the same way every other button-as-card in this
+     file needs to (.day, .nav-item): no UA border/background/font of its own. */
+  border: none; background: none; font: inherit; color: inherit; cursor: default;
 }
 .prem-day.empty { visibility: hidden; }
 .prem-daynum { font-family: 'Spectral', serif; font-size: 13px; color: var(--text-2); }
@@ -408,10 +413,30 @@ header.compact .brand h1 { font-size: 26px; }
    else with substance in this app, plus a small dot — the day strip's own
    density dot, at calendar scale — so a glance at the grid alone shows the
    month's shape before reading a single title. */
-.prem-day.has { background: var(--card); border: 1px solid var(--card-edge); }
+.prem-day.has {
+  background: var(--card); border: 1px solid var(--card-edge); cursor: pointer;
+  transition: background .16s, border-color .16s;
+}
+.prem-day.has:active { background: rgba(255,255,255,.04); }
 .prem-day.has .prem-daynum { color: var(--text); }
 .prem-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--accent-dim); }
 .prem-day.has.today .prem-dot { background: var(--accent); }
+/* The day currently filtering the list below — champagne, matching the day
+   strip's own .active treatment, so "this one is selected" reads the same
+   way it does everywhere else in the app. */
+.prem-day.has.selected { border-color: var(--accent-dim); background: rgba(231,201,138,.08); }
+.prem-day.has.selected .prem-daynum { color: var(--accent); }
+.prem-day.has.selected .prem-dot { background: var(--accent); }
+
+.prem-list-head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 20px 8px;
+}
+.prem-list-head .sec-head { padding: 0; }
+.prem-clear {
+  font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: .04em;
+  color: var(--accent); background: none; border: none; cursor: pointer; padding: 4px 0;
+}
 
 .prem-list { margin-top: 6px; }
 
