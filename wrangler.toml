@@ -41,8 +41,14 @@ binding = "SUBSCRIPTIONS"
 id = "9d7ca0fab42143efb0bc7315169b8687"
 
 [triggers]
-# 05:45 UTC every Monday — 45 minutes after the scrape workflow
+# 05:45 UTC daily — 45 minutes after the scrape workflow
 # (.github/workflows/scrape.yml, 05:00 UTC) starts, giving it time to finish
 # and for that commit's Cloudflare deploy to land before this checks for new
 # screenings.
-crons = ["45 5 * * 1"]
+#
+# Daily rather than weekly, matching the scrape: a watched film that picks up
+# its first screening on a Wednesday should be notified about on the
+# Wednesday, not held until the following Monday. Sending nothing is the
+# normal case and costs a single KV list plus two asset reads, so running it
+# every day is close to free.
+crons = ["45 5 * * *"]

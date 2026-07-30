@@ -111,7 +111,7 @@ app/
   js/app.js      bootstrap, navigation, events, the beam
   sw.js          offline caching
 worker/
-  index.js       Cloudflare Worker: push subscriptions + the weekly send
+  index.js       Cloudflare Worker: push subscriptions + the daily send
 package.json     worker/index.js's one dependency (@pushforge/builder) —
                  at the repo root on purpose, see "Push notifications" below
 data/
@@ -462,11 +462,25 @@ an empty `language_version` means "presented the usual way", not "we failed to
 find it". That happens to match the prototype's rule of showing a version chip
 only when it deviates from the norm.
 
-## Two gotchas worth remembering
+## Three gotchas worth remembering
 
 **Scrape in the morning.** The program page only lists screenings that haven't
 started yet. Scraping at 22:00 makes today look like it had one screening all
 day. The Milestone 5 cron should run early, before the first matinee.
+
+**Scrape *daily*, not weekly — how often a program changes is not how far
+ahead it's published.** The original cron ran weekly, reasoning that arthouse
+programs turn over about weekly. That's true and still irrelevant: Kino
+Světozor only ever exposes a **rolling ~4-day window**, so a Monday scrape
+left it with no data from Friday onward, and the app showed one of Prague's
+main arthouse cinemas as having no program at all for roughly 3 days in every
+7. Divadlo Za plotem behaved the same way, and Aero/Bio Oko/Přítomnost/Lucerna
+all happened to end *exactly* on the next scrape day — zero margin, so one
+failed run would have blanked them too. Found by the 2026-07-30 data audit,
+not by anyone noticing in the app, which is the uncomfortable part: a cinema
+with an empty program looks identical to a cinema that genuinely isn't
+screening anything. The run is cheap enough to do daily without thinking
+(13 fetches; TMDb results are cached forever, so only new films cost calls).
 
 **Windows certificates.** Python doesn't trust the same certificate authorities
 Windows does, and `kinoaero.cz` fails TLS verification without help. The
@@ -704,7 +718,7 @@ link toggles the same thing off. `app.js`'s `activePremDay` clears whenever
 the month changes, since a day picked in a different month wouldn't apply to
 the one now showing.
 
-Refreshed weekly in the same GitHub Actions run as everything else
+Refreshed daily in the same GitHub Actions run as everything else
 (`resolve.premieres`, after `resolve.films`).
 
 ## Genre filter
@@ -781,7 +795,7 @@ straight out of this repo except two routes the Worker handles itself:
   subscription" — no separate accounts/user-id scheme needed.
 - `POST /api/push/unsubscribe` — deletes it.
 - A **cron trigger** (`[triggers]` in `wrangler.toml`, 05:45 UTC Monday — 45
-  minutes after `scrape.yml`'s weekly run, giving that commit's redeploy time
+  minutes after `scrape.yml`'s daily run, giving that commit's redeploy time
   to land) runs `scheduled()`: reads the live `screenings.json`/`films.json`
   via `env.ASSETS.fetch()` (an internal read, no real network hop), and for
   every KV record, checks whether any watched `film_id` now has a screening

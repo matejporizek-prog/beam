@@ -39,8 +39,20 @@ async function subscriptionKey(subscription) {
   return [...new Uint8Array(digest)].map((b) => b.toString(16).padStart(2, "0")).join("");
 }
 
+/* A body that isn't valid JSON at all makes request.json() throw, which
+   without this would surface as an unhandled 500 — a server error for what is
+   really a bad request. (An empty POST did exactly that, confirmed live.) */
+async function readJson(request) {
+  try {
+    return await request.json();
+  } catch {
+    return null;
+  }
+}
+
 async function handleSubscribe(request, env) {
-  const { subscription, filmIds } = await request.json();
+  const body = await readJson(request);
+  const { subscription, filmIds } = body || {};
   if (!subscription || !subscription.endpoint || !Array.isArray(filmIds)) {
     return jsonResponse({ error: "expected { subscription, filmIds }" }, 400);
   }
@@ -58,7 +70,7 @@ async function handleSubscribe(request, env) {
 }
 
 async function handleUnsubscribe(request, env) {
-  const { subscription } = await request.json();
+  const { subscription } = (await readJson(request)) || {};
   if (!subscription || !subscription.endpoint) {
     return jsonResponse({ error: "expected { subscription }" }, 400);
   }

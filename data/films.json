@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T13:55:55+00:00",
+  "generated_at": "2026-07-30T21:55:22+02:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -311,6 +311,85 @@
       "match_score": 1.15
     },
     {
+      "film_id": "addamsova rodina 2",
+      "title_cz": "Addamsova rodina 2",
+      "title_en": "The Addams Family 2",
+      "original_title": "The Addams Family 2",
+      "year": 2021,
+      "synopsis": "Addamsovi se zapletou do dalších bláznivých dobrodružství a dostanou se do veselých potyček s nejrůznějšími nic netušícími postavami.",
+      "synopsis_language": "cs",
+      "runtime_min": 93,
+      "genres": [
+        "Animovaný",
+        "Rodinný",
+        "Komedie",
+        "Fantasy",
+        "Dobrodružný"
+      ],
+      "director": [
+        "Conrad Vernon",
+        "Greg Tiernan"
+      ],
+      "screenwriter": [
+        "Susanna Fogel",
+        "Benji Samit",
+        "Ben Queen",
+        "Dan Hernandez"
+      ],
+      "cast": [
+        "Oscar Isaac",
+        "Charlize Theron",
+        "Chloë Grace Moretz",
+        "Javon Walton",
+        "Nick Kroll",
+        "Snoop Dogg",
+        "Bette Midler",
+        "Bill Hader"
+      ],
+      "production_company": [
+        "Metro-Goldwyn-Mayer",
+        "Bron Studios",
+        "BermanBraun",
+        "Cinesite Animation",
+        "Nitrogen Studios Canada"
+      ],
+      "poster_path": "/c3tkebGFmyoN58r6YbGaPNM1MSA.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/wfrfxivLOBtGMC98tIr2LSOeKSe.jpg",
+      "trailer_youtube_key": "8kN4W5I_1d8",
+      "age_rating": "U",
+      "tmdb_id": 639721,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Addamsova+rodina+2+2021",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "aero naslepo",
+      "title_cz": "Aero naslepo",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2021/09/24/28a6125ad3f3bc6a23eb203337ad059b.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Aero+naslepo",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Aero naslepo'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "aftersun",
       "title_cz": "Aftersun",
       "title_en": "Aftersun",
@@ -360,27 +439,68 @@
     {
       "film_id": "aladin 1992",
       "title_cz": "Aladin (1992)",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
+      "title_en": "Aladdin",
+      "original_title": "Aladdin",
+      "year": 1992,
+      "synopsis": "Aladin je chudý chlapec z tržiště, jehož jediným majetkem i přítelem je jeho opička Abu. Denně sní svůj sen o úniku z bezútěšného života v bídě a o lásce krásné princezny Jasmíny. Osud se nakloní v jeho prospěch, když jej chce zlý sultánův rádce Džafar využít k získání kouzelné lampy z jeskyně, skryté uprostřed pouště. Aladin se stane majitelem kouzelného koberce a lampy, jejíž dobrý džin mu může splnit tři přání. Aladin se s jeho pomocí skutečně přiblíží k princezně, dosud neústupně odmítající nápadníky, a získá její lásku. Stále jej však trápí jeho prostý původ, který se jí zdráhá přiznat. A to jej ještě čeká souboj se zrádným Džafarem a jeho papouškem Jagem, zmocnivšími se na čas lampy, sultanátu i princezny...",
+      "synopsis_language": "cs",
+      "runtime_min": 87,
+      "genres": [
+        "Animovaný",
+        "Rodinný",
+        "Dobrodružný",
+        "Fantasy",
+        "Romantický"
+      ],
+      "director": [
+        "Ron Clements",
+        "John Musker"
+      ],
+      "screenwriter": [
+        "Ron Clements",
+        "Ted Elliott",
+        "Terry Rossio",
+        "John Musker",
+        "Burny Mattinson",
+        "Roger Allers",
+        "Daan Jippes",
+        "Kevin Harkey",
+        "Sue C. Nichols",
+        "Francis Glebas",
+        "Darrell Rooney",
+        "Larry Leker",
+        "James Fujii",
+        "Kirk Hanson",
+        "Kevin Lima",
+        "Rebecca Rees",
+        "David Scott Smith",
+        "Chris Sanders",
+        "Brian Pimental",
+        "Patrick A. Ventura"
+      ],
+      "cast": [
+        "Scott Weinger",
+        "Robin Williams",
+        "Linda Larkin",
+        "Jonathan Freeman",
+        "Gilbert Gottfried",
+        "Douglas Seale",
+        "Frank Welker",
+        "Brad Kane"
+      ],
+      "production_company": [
+        "Walt Disney Feature Animation"
+      ],
+      "poster_path": "/tynA2XmsqmDTuP8c2UKHBEGFIRv.jpg",
       "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Aladin+%281992%29",
-      "resolved": false,
-      "match_reason": "best candidate 'Aladin' only scored 0.71",
-      "match_score": 0.706
+      "backdrop_path": "/nenJjvfe2Eq8uBMXFJnWj5mw4bi.jpg",
+      "trailer_youtube_key": "mq05scD6PUs",
+      "age_rating": "U",
+      "tmdb_id": 812,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Aladin+%281992%29+1992",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
     },
     {
       "film_id": "alice guy 13 kratkych filmu",
@@ -936,6 +1056,54 @@
       "match_score": 1.0
     },
     {
+      "film_id": "billie eilish hit me hard and soft the tour",
+      "title_cz": "Billie Eilish - Hit Me Hard and Soft: The Tour",
+      "title_en": "Billie Eilish - Hit Me Hard and Soft: The Tour (Live in 3D)",
+      "original_title": "Billie Eilish - Hit Me Hard and Soft: The Tour (Live in 3D)",
+      "year": 2026,
+      "synopsis": "Ona změnila hudbu. On změnil film. Zpěvačka Billie Eilish a režisér James Cameron spojili síly, aby stvořili nezapomenutelný koncertní zážitek, na který můžete vyrazit do kina. Koncertní film Billie Eilish – Hit Me Hard and Soft: The Tour vznikl v průběhu zpěvaččina beznadějně vyprodaného stejnojmenného turné. Vzhledem k tomu, že se o jeho režii postaral génius a inovátor James Cameron, nepůsobí proklamace o divácky nezapomenutelném a pohlcujícím zážitku nijak přehnaně. K naplnění Cameronových záměrů by mělo výrazně přispět 3D provedení, ve kterém by se měl film optimálně promítat.",
+      "synopsis_language": "cs",
+      "runtime_min": 114,
+      "genres": [
+        "Hudební",
+        "Dokumentární"
+      ],
+      "director": [
+        "James Cameron",
+        "Billie Eilish"
+      ],
+      "screenwriter": [
+        "Tarik Mikou",
+        "Billie Eilish"
+      ],
+      "cast": [
+        "Billie Eilish",
+        "FINNEAS",
+        "Andrew Marshall",
+        "Solomon Smith",
+        "Abraham Nouri",
+        "Tom Crouch",
+        "Jane Horner",
+        "Ava Horner"
+      ],
+      "production_company": [
+        "Interscope Films",
+        "Darkroom Records",
+        "Lightstorm Earth",
+        "Paramount Pictures"
+      ],
+      "poster_path": "/iEr4uNc8J00WijqezzEIGQfXwki.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/04/21/66a0c82e7281862df4c7165b7fbd9741.webp",
+      "backdrop_path": "/r4sY77o6d6HMooAosZZRlPJgH5r.jpg",
+      "trailer_youtube_key": "9ElURjcuWLQ",
+      "age_rating": "U",
+      "tmdb_id": 1515899,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Billie+Eilish+-+Hit+Me+Hard+and+Soft%3A+The+Tour+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.04, title 0.89)",
+      "match_score": 1.037
+    },
+    {
       "film_id": "birthday party",
       "title_cz": "Birthday Party",
       "title_en": "Birthday Party",
@@ -971,6 +1139,52 @@
       "match_score": 1.0
     },
     {
+      "film_id": "bitva o alzir",
+      "title_cz": "Bitva o Alžír",
+      "title_en": "The Battle of Algiers",
+      "original_title": "La battaglia di Algeri",
+      "year": 1966,
+      "synopsis": "Alžír, 7.října 1957. Francouzští vojáci donutí zajatce vyzradit adresu jednoho z posledních vůdců povstání Aliho Bodáka. Následuje retrospektiva. Bodák si s nejvěrnějšími připomíná klíčové okamžiky národně revolučního odboje, který trvá již tři léta. Nejprve zkouška: Ali dostane zbraň, kterou má zabít policistu, chybí mu však náboje... Po vyčištění vnitřních řad se odboj zaměří na přepadávání veřejných složek a krádeže zbraní, následují teroristické atentáty... Závěrečné záběry ukazují vítězství revoluce, která Alžír osvobodila 2. června 1962. Režisér Gillo Pontecorvo, původním povoláním novinář a aktivní účastník antifašistického odboje italské mládeže, se rozhodl Bitvu o Alžír natočit dokumentaristickou metodou. Po ročním studiu pramenů a zkoumání autentických míst alžírské revoluce realizoval \"nezapomenutelný obraz\", sugestivní výpověď, která má v řadě sekvencí sílu a věrohodnost autenticky snímaného materiálu.",
+      "synopsis_language": "cs",
+      "runtime_min": 122,
+      "genres": [
+        "Drama",
+        "Válečný",
+        "Historický"
+      ],
+      "director": [
+        "Gillo Pontecorvo"
+      ],
+      "screenwriter": [
+        "Franco Solinas",
+        "Gillo Pontecorvo"
+      ],
+      "cast": [
+        "Brahim Hadjadj",
+        "Mohamed Ben Kassen",
+        "Yacef Saâdi",
+        "Fouzia El Kader",
+        "Hadj Smaine Mohamed Seghir",
+        "Larbi Zekkal",
+        "Rouiched",
+        "Noureddine Brahimi"
+      ],
+      "production_company": [
+        "Igor Film",
+        "Casbah Film"
+      ],
+      "poster_path": "/ohqf21dJ8PBFmNLXwNCGAajJ1Tv.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/27/29ce520f01a73802953640b054eec4a6.jpg",
+      "backdrop_path": "/ze7GsNSv418o7pzqc9fb00LWWDk.jpg",
+      "trailer_youtube_key": "vhhoS3zOskE",
+      "age_rating": "NR (US)",
+      "tmdb_id": 17295,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Bitva+o+Al%C5%BE%C3%ADr+1966",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
       "film_id": "blaznive",
       "title_cz": "Bláznivě",
       "title_en": "Madly",
@@ -1002,6 +1216,57 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0
+    },
+    {
+      "film_id": "blaznivy marsupilami",
+      "title_cz": "Bláznivý Marsupilami",
+      "title_en": "Marsupilami",
+      "original_title": "Marsupilami",
+      "year": 2026,
+      "synopsis": "Aby si zachránil práci, David souhlasí s bláznivým plánem: přivézt z Jižní Ameriky záhadný balíček. Ocitá se na plavbě se svou bývalou Tess, synem Leem a kolegou Stéphanem, který je stejně hloupý jako nemotorný a kterého David využívá k přepravě balíčku. Všechno se zvrtne, když Stéphane balíček omylem otvorí: objeví se rozkošné mládě Marsupilami a cesta se svrhne v chaos!",
+      "synopsis_language": "cs",
+      "runtime_min": 99,
+      "genres": [
+        "Dobrodružný",
+        "Komedie"
+      ],
+      "director": [
+        "Philippe Lacheau"
+      ],
+      "screenwriter": [
+        "Philippe Lacheau",
+        "Pierre Lacheau",
+        "Pierre Dudan",
+        "Julien Arruti"
+      ],
+      "cast": [
+        "Philippe Lacheau",
+        "Jamel Debbouze",
+        "Tarek Boudali",
+        "Élodie Fontan",
+        "Julien Arruti",
+        "Jean Reno",
+        "Corentin Guillot",
+        "Gérard Jugnot"
+      ],
+      "production_company": [
+        "Pathé",
+        "Dupuis",
+        "BAF Prod",
+        "TF1 Films Production",
+        "Artémis Productions",
+        "Logical Content Ventures"
+      ],
+      "poster_path": "/6E6zUqfQgDHtNZbUfQEv5ohcQiR.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/02/11/15a1b4f9e3b21d1192fc0ecc85d317af.jpg",
+      "backdrop_path": "/qGPJ9AvOUpbpZjM6R7yqBDs4gsk.jpg",
+      "trailer_youtube_key": "pXGuY9qcSe0",
+      "age_rating": "",
+      "tmdb_id": 1145899,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Bl%C3%A1zniv%C3%BD+Marsupilami+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
     },
     {
       "film_id": "blikajici svetla",
@@ -1307,6 +1572,31 @@
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0
+    },
+    {
+      "film_id": "cinemini",
+      "title_cz": "CINEMINI",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=CINEMINI",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'CINEMINI'",
+      "match_score": 0.0
     },
     {
       "film_id": "cirque du soleil kooza",
@@ -1718,6 +2008,31 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
+    },
+    {
+      "film_id": "designblok uvadi film horke svatky",
+      "title_cz": "DesignBlok uvádí: film Hořké svátky",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/07/27/605243d09b15b835a76bd0d1dd118646.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=DesignBlok+uv%C3%A1d%C3%AD%3A+film+Ho%C5%99k%C3%A9+sv%C3%A1tky",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'DesignBlok uvádí: film Hořké svátky'",
+      "match_score": 0.0
     },
     {
       "film_id": "die my love",
@@ -2139,6 +2454,41 @@
       "match_score": 1.0
     },
     {
+      "film_id": "dve deci tuse",
+      "title_cz": "Dvě deci tuše",
+      "title_en": "A Pint of Ink",
+      "original_title": "Dvě deci tuše",
+      "year": 2026,
+      "synopsis": "Through photographs, home videos, letters and personal recollections, Ester Geislerová composes a portrait of Japanologist, translator, journalist, educator, calligrapher—and her father—Petr Geisler, a charismatic charmer who remained mysteriously elusive even to his closest family.",
+      "synopsis_language": "en",
+      "runtime_min": 83,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Ester Geislerová"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "Petr Geisler"
+      ],
+      "production_company": [
+        "Total HelpArt T.H.A.",
+        "Sonnyboy",
+        "Česká televize"
+      ],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/06/22/e0dfdb2725ec787762a553921dafe198.webp",
+      "backdrop_path": "",
+      "trailer_youtube_key": "ZzqLMg8h6Jw",
+      "age_rating": "",
+      "tmdb_id": 1706744,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Dv%C4%9B+deci+tu%C5%A1e+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
       "film_id": "elon a pokusni kralici",
       "title_cz": "Elon a pokusní králíci",
       "title_en": "Elon Musk Unveiled: The Tesla Experiment",
@@ -2332,6 +2682,31 @@
       "match_score": 1.0
     },
     {
+      "film_id": "fc zabiti posvatneho jelena",
+      "title_cz": "FC: Zabití posvátného jelena",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=FC%3A+Zabit%C3%AD+posv%C3%A1tn%C3%A9ho+jelena",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'FC: Zabití posvátného jelena'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "festivalova vstupenka heatwave horror",
       "title_cz": "Festivalová vstupenka Heatwave Horror",
       "title_en": "",
@@ -2380,6 +2755,54 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Hanební pancharti'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "hanebny pancharti",
+      "title_cz": "Hanebný pancharti",
+      "title_en": "Inglourious Basterds",
+      "original_title": "Inglourious Basterds",
+      "year": 2009,
+      "synopsis": "Německé vojáky ještě nepřestaly bolet nohy po smělé invazi do západní Evropy, když mladičké Shosanně přímo před očima německý důstojník Hans Landa vyvraždil členy její rodiny. Ona sama jen tak tak unikne do Paříže, kde se ukryje pod novou identitu provozovatelky biografu. Na jiném místě hákovým křížem rozkopané Evropy se pod vedením lehce zupáckého amerického poručíka Aldo Rainea formuje neobvyklá vojenská jednotka. Úkolem jejích členů je nejen přežít na území plném nacistů a jejich přisluhovačů, ale zároveň likvidovat jejich elity a to tak efektně, že tím mezi nimi budou šířit strach a paniku. Říkají si Pancharti a právě je čeká ta nejtěžší mise, která může zcela změnit průběh války. V jednom pařížském biografu se chystá premiéra nového německého propagandistického eposu a téhle události se má účastnit řada nacistických špiček (možná i samotný Hitler). Úkolem Panchartů bude na akci proniknout a ukázat šéfům Třetí říše, jaké to je, když je člověk po smrti.",
+      "synopsis_language": "cs",
+      "runtime_min": 153,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Válečný"
+      ],
+      "director": [
+        "Quentin Tarantino"
+      ],
+      "screenwriter": [
+        "Quentin Tarantino"
+      ],
+      "cast": [
+        "Brad Pitt",
+        "Mélanie Laurent",
+        "Christoph Waltz",
+        "Eli Roth",
+        "Michael Fassbender",
+        "Diane Kruger",
+        "Daniel Brühl",
+        "Til Schweiger"
+      ],
+      "production_company": [
+        "Universal Pictures",
+        "The Weinstein Company",
+        "A Band Apart",
+        "Zehnte Babelsberg Film",
+        "Visiona Romantica"
+      ],
+      "poster_path": "/qBrm8dwL0v1rgORUqYqON4BFfAT.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/hwNtEmmugU5Yd7hpfprNWI0DGIn.jpg",
+      "trailer_youtube_key": "uSEDz-my7XQ",
+      "age_rating": "18+",
+      "tmdb_id": 16869,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Hanebn%C3%BD+pancharti+2009",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
     },
     {
       "film_id": "hieronymus bosch a jeho podivuhodny svet",
@@ -2522,6 +2945,31 @@
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0
+    },
+    {
+      "film_id": "hrdina zapadu",
+      "title_cz": "Hrdina západu | NT Live",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/04/17/a8809ed68d282665e9d76242c3c31769.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Hrdina+z%C3%A1padu+%7C+NT+Live",
+      "resolved": false,
+      "match_reason": "title matched 'Hrdina západu' but director contradict it",
+      "match_score": 0.9
     },
     {
       "film_id": "hrisny tanec",
@@ -2725,6 +3173,52 @@
       "match_score": 1.0
     },
     {
+      "film_id": "jedna bitva za druhou",
+      "title_cz": "Jedna bitva za druhou",
+      "title_en": "One Battle After Another",
+      "original_title": "One Battle After Another",
+      "year": 2025,
+      "synopsis": "Šestnáct let po krvavých událostech minulosti se stíny starých nepřátel vracejí. Bývalí revolucionáři, kteří kdysi bojovali bok po boku a přežili nemožné, jsou nuceni znovu spojit své síly. Tentokrát jde o něco osobního – záchranu dcery jednoho z nich, které hrozí neodvratné nebezpečí. Každý krok je rizikem, každé rozhodnutí zkouškou odvahy, a staré spory mezi nimi se musí překonat, pokud chtějí přežít.",
+      "synopsis_language": "cs",
+      "runtime_min": 162,
+      "genres": [
+        "Thriller",
+        "Krimi",
+        "Komedie"
+      ],
+      "director": [
+        "Paul Thomas Anderson"
+      ],
+      "screenwriter": [
+        "Paul Thomas Anderson"
+      ],
+      "cast": [
+        "Leonardo DiCaprio",
+        "Sean Penn",
+        "Chase Infiniti",
+        "Benicio del Toro",
+        "Regina Hall",
+        "Teyana Taylor",
+        "Wood Harris",
+        "Tony Goldwyn"
+      ],
+      "production_company": [
+        "Warner Bros. Pictures",
+        "Ghoulardi Film Company",
+        "Domain Entertainment"
+      ],
+      "poster_path": "/8VJ7Cbvk1KTPwMMQj5mquGqOGFT.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2025/09/10/81ec393b4bc51b86f0226a2c8cba111d.jpg",
+      "backdrop_path": "/zpEWFNqoN8Qg1SzMMHmaGyOBTdW.jpg",
+      "trailer_youtube_key": "u6GVb4p7oD4",
+      "age_rating": "15+",
+      "tmdb_id": 1054867,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Jedna+bitva+za+druhou+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
       "film_id": "jednej spravne",
       "title_cz": "Jednej správně",
       "title_en": "Do the Right Thing",
@@ -2814,27 +3308,45 @@
     {
       "film_id": "kanaly 1957",
       "title_cz": "Kanály (1957)",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
+      "title_en": "Kanal",
+      "original_title": "Kanał",
+      "year": 1957,
+      "synopsis": "In the last few days of the Warsaw Uprising during World War II, a modest group of Resistance members remains. The band must take refuge in the sewers under the orders of leader Zadra, but it's only a matter of time before they will have to emerge. However, when they try, they are met only with intense hostility from the Nazis. Despite their attempts stay resolute through immense mental strain, it becomes increasingly apparent that they may be doomed.",
+      "synopsis_language": "en",
+      "runtime_min": 96,
+      "genres": [
+        "Válečný",
+        "Drama"
+      ],
+      "director": [
+        "Andrzej Wajda"
+      ],
+      "screenwriter": [
+        "Jerzy Stefan Stawiński"
+      ],
+      "cast": [
+        "Teresa Iżewska",
+        "Tadeusz Janczar",
+        "Wieńczysław Gliński",
+        "Tadeusz Gwiazdowski",
+        "Stanisław Mikulski",
+        "Emil Karewicz",
+        "Vladek Sheybal",
+        "Teresa Berezowska"
+      ],
+      "production_company": [
+        "Zespół Filmowy Kadr"
+      ],
+      "poster_path": "/vlWgIZUcETVZ7c8XYIECzU7Lnxp.jpg",
       "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/07/14/97f2ce277ad6b7083777d1ec39a7dbc0.webp",
-      "backdrop_path": "",
+      "backdrop_path": "/kfuJtNiY3aevZHzSMA007pbVWqH.jpg",
       "trailer_youtube_key": "",
       "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Kan%C3%A1ly+%281957%29",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Kanály (1957)'",
-      "match_score": 0.0
+      "tmdb_id": 29933,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kan%C3%A1ly+%281957%29+1957",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.11, title 1.00)",
+      "match_score": 1.115
     },
     {
       "film_id": "kapralova",
@@ -3928,6 +4440,49 @@
       "match_score": 1.0
     },
     {
+      "film_id": "me soukrome idaho",
+      "title_cz": "Mé soukromé Idaho",
+      "title_en": "My Own Private Idaho",
+      "original_title": "My Own Private Idaho",
+      "year": 1991,
+      "synopsis": "Scott (Keanu Reeves) se živí, na protest svého původu z vyšších vrstev, prostitucí. Jednoho dne potkává Mikea (River Phoenix), mladíka, kterého k prostituci přivedla naopak potřeba vůbec nějak přežít. Jeho život komplikuje narkolepsie, nervové onemocnění způsobující naprosto nečekané kolapsy v těch nejnemožnějších situacích. Spříznění pocitem vyděděnosti mezi nimi roste přátelství, které je trochu jinak vnímáno homosexuálně zaměřeným Mikem. Jejich vztah je to jediné, co jim pomáhá najít sílu k vyrovnání se se svou minulostí a odvahu postavit se tváří v tvář realitě...(oficiální text distributora)",
+      "synopsis_language": "cs",
+      "runtime_min": 104,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Gus Van Sant"
+      ],
+      "screenwriter": [
+        "Gus Van Sant"
+      ],
+      "cast": [
+        "River Phoenix",
+        "Keanu Reeves",
+        "James Russo",
+        "William Richert",
+        "Rodney Harvey",
+        "Chiara Caselli",
+        "Michael Parker",
+        "Jessica Makinson"
+      ],
+      "production_company": [
+        "New Line Cinema",
+        "Fine Line Features"
+      ],
+      "poster_path": "/p9TF90Pb5yg2MNb2UztzyXktMm4.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2024/04/30/1d4e914f66802ef69e245be034390a94.jpg",
+      "backdrop_path": "/stSaFz5CtMXwIj3r4MDjqxqWRot.jpg",
+      "trailer_youtube_key": "cNENMVQfOus",
+      "age_rating": "R (US)",
+      "tmdb_id": 468,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=M%C3%A9+soukrom%C3%A9+Idaho+1991",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
       "film_id": "me tiche myslenky",
       "title_cz": "Mé tiché myšlenky",
       "title_en": "My Thoughts Are Silent",
@@ -4811,27 +5366,49 @@
     {
       "film_id": "noc 1961",
       "title_cz": "Noc (1961)",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
+      "title_en": "La Notte",
+      "original_title": "La notte",
+      "year": 1961,
+      "synopsis": "Popis čtyřiadvaceti hodin v životě odcizeného manželského páru: návštěva umírajícího přítele, luxusní večírek, chvíle v nočním baru, bloumání po milánských ulicích. Prostřednictvím rafinovaného jazyka proniká režisér do nitra postav, které nemají vážné problémy, a přesto jim jejich existence protéká mezi prsty. Hrdinové jsou nazíráni jako objekty bez směřování a vlastní vůle. Žijí ve stavu „nesnesitelné lehkosti bytí“ v průmyslovém světě, z něhož se vytratily tradiční hodnoty. Pod hladinou všedních epizod probleskuje touha, nevěra, strach ze smrti a nejistota. V bezpříběhové sondě do života „lepší společnosti“ předjímá Antonioni obecné pocity dneška. Jeanne Moreauová a Marcello Mastroianni v jedné ze svých nejnáročnějších rolí.",
+      "synopsis_language": "cs",
+      "runtime_min": 122,
+      "genres": [
+        "Drama",
+        "Romantický"
+      ],
+      "director": [
+        "Michelangelo Antonioni"
+      ],
+      "screenwriter": [
+        "Michelangelo Antonioni",
+        "Ennio Flaiano",
+        "Tonino Guerra"
+      ],
+      "cast": [
+        "Marcello Mastroianni",
+        "Jeanne Moreau",
+        "Monica Vitti",
+        "Bernhard Wicki",
+        "Rosy Mazzacurati",
+        "Maria Pia Luzi",
+        "Guido A. Marsan",
+        "Vittorio Bertolini"
+      ],
+      "production_company": [
+        "Nepi Film",
+        "Silver Films",
+        "Sofitedip"
+      ],
+      "poster_path": "/32Z0Vsrt9LGAiBBwTKR8L9B3ICa.jpg",
       "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/07/14/ab7bbb7a099da8c5d2bcba8b342eeb54.webp",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Noc+%281961%29",
-      "resolved": false,
-      "match_reason": "no candidate scored above 0.75",
-      "match_score": 0.471
+      "backdrop_path": "/5wATYRIHIBhE9kelbGxYm0i7cNs.jpg",
+      "trailer_youtube_key": "75SO1lc_TZU",
+      "age_rating": "NR (US)",
+      "tmdb_id": 41050,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Noc+%281961%29+1961",
+      "resolved": true,
+      "match_reason": "manual override",
+      "match_score": 1.0
     },
     {
       "film_id": "nt live nebezpecne znamosti",
@@ -5262,6 +5839,31 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
+    },
+    {
+      "film_id": "p ride duhove ozveny p festu",
+      "title_cz": "P*ride: duhové ozvěny P*festu",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/07/10/25857f4e1175cbb7e3c0fbff7b0d3454.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=P%2Aride%3A+duhov%C3%A9+ozv%C4%9Bny+P%2Afestu",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'P*ride: duhové ozvěny P*festu'",
+      "match_score": 0.0
     },
     {
       "film_id": "pachova stopa",
@@ -6304,6 +6906,31 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0
+    },
+    {
+      "film_id": "pta et al revoluce na platne",
+      "title_cz": "PTA et al. - Revoluce na plátně",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/29/223342c2e1b405c9193c41a3bad9dcee.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=PTA+et+al.+-+Revoluce+na+pl%C3%A1tn%C4%9B",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'PTA et al. - Revoluce na plátně'",
+      "match_score": 0.0
     },
     {
       "film_id": "pulp fiction",
@@ -8128,6 +8755,64 @@
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0
+    },
+    {
+      "film_id": "trojuhelnik smutku",
+      "title_cz": "Trojúhelník smutku",
+      "title_en": "Triangle of Sadness",
+      "original_title": "Triangle of Sadness",
+      "year": 2022,
+      "synopsis": "Model Carl a jeho partnerka influencerka Yaya jsou pozváni na luxusní výletní plavbu. Společnost jim zde dělá opravdu vybraná smetánka. Je tu starý mládenec hledající životní lásku, výstřední ruský obchodník a celému mumraji vládne kapitán, který je věčně pod parou. Když nečekaná událost zamíchá kartami, charaktery cestujících se ukáží v pravém světle.",
+      "synopsis_language": "cs",
+      "runtime_min": 147,
+      "genres": [
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "Ruben Östlund"
+      ],
+      "screenwriter": [
+        "Ruben Östlund"
+      ],
+      "cast": [
+        "Harris Dickinson",
+        "Charlbi Dean",
+        "Dolly de Leon",
+        "Woody Harrelson",
+        "Zlatko Burić",
+        "Vicki Berlin",
+        "Henrik Dorsin",
+        "Iris Berben"
+      ],
+      "production_company": [
+        "30WEST",
+        "BBC Film",
+        "Bord Cadre Films",
+        "Coproduction Office",
+        "Film i Väst",
+        "Heretic",
+        "Imperative Entertainment",
+        "Sovereign Films",
+        "Plattform Produktion",
+        "SVT",
+        "BFI",
+        "Piano",
+        "ARTE France Cinéma",
+        "Essential Filmproduktion",
+        "TRT 12 PUNTO",
+        "ZDF/Arte"
+      ],
+      "poster_path": "/726CIrZdUJG1KHDahnd9vl09O1z.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/vNPY4oCSUp7CxbHkKJNRx1fmCl0.jpg",
+      "trailer_youtube_key": "p9DhNe_Zbxc",
+      "age_rating": "R (US)",
+      "tmdb_id": 497828,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Troj%C3%BAheln%C3%ADk+smutku+2022",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
     },
     {
       "film_id": "ty jsi vesmir",

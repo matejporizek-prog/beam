@@ -1,13 +1,24 @@
 # Scheduled scrape → resolve → commit.
 #
-# Once a week this runs the scrapers, resolves any new film titles against TMDb,
-# and commits the updated data files back to the repo — but only when the data
-# actually changed. Cloudflare Pages redeploys automatically on that commit, so
+# Every morning this runs the scrapers, resolves any new film titles against
+# TMDb, and commits the updated data files back to the repo — but only when the
+# data actually changed. Cloudflare redeploys automatically on that commit, so
 # the live app picks up the new program with no manual step.
 #
-# Weekly is enough for arthouse cinemas (their programs change ~weekly). It runs
-# early Monday morning because Kino Aero's page only lists screenings that
-# haven't started yet — scraping later in the day would miss that day's matinees.
+# DAILY, not weekly — this was a real bug, found in the 2026-07-30 data audit.
+# The original assumption was "arthouse programs change ~weekly, so scraping
+# weekly is enough". That's true of how often a program *changes*, but not of
+# how far ahead each cinema *publishes*: Kino Světozor only ever exposes a
+# rolling ~4-day window, and Divadlo Za plotem is similar. Scraped on Monday,
+# Světozor's data ran out on Thursday — so for Friday, Saturday and Sunday the
+# app showed one of Prague's main arthouse cinemas as having no program at
+# all, roughly 3 days in every 7. Several other cinemas (Aero, Bio Oko,
+# Přítomnost, Lucerna) happened to end exactly on the next scrape day, i.e.
+# with zero margin: one failed run and they'd have gone blank too.
+#
+# The run is cheap enough to do daily without thinking about it: 13 HTTP
+# fetches, and resolve.films caches every title it has ever resolved, so only
+# genuinely new films cost TMDb calls.
 #
 # Requires one repository secret: TMDB_API_KEY (Settings → Secrets and variables
 # → Actions → New repository secret).
@@ -16,10 +27,11 @@ name: Scrape cinema programs
 
 on:
   schedule:
-    # 05:00 UTC Monday ≈ 07:00 Prague in summer, 06:00 in winter — before the
-    # first matinee either way. (GitHub cron fires in UTC and can be a little
-    # late, which is fine here.)
-    - cron: "0 5 * * 1"
+    # 05:00 UTC daily ≈ 07:00 Prague in summer, 06:00 in winter — before the
+    # first matinee either way, which matters because some cinema pages only
+    # list screenings that haven't started yet. (GitHub cron fires in UTC and
+    # can be a little late, which is fine here.)
+    - cron: "0 5 * * *"
   # Lets you trigger a run by hand from the Actions tab, e.g. right after setup.
   workflow_dispatch: {}
 

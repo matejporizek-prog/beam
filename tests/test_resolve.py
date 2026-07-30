@@ -31,6 +31,7 @@ from resolve.tmdb import (
     runtime_agreement,
     score_candidate,
     strip_event_branding,
+    strip_year_suffix,
     title_similarity,
 )
 
@@ -49,6 +50,42 @@ def test_strips_event_branding_from_titles():
 def test_stripping_never_returns_an_empty_title():
     """A title that is *only* branding must stay intact rather than vanish."""
     assert strip_event_branding("| NT Live") == "| NT Live"
+
+
+# --------------------------------------------------------------------------
+# Bare trailing year — found by the 2026-07-30 data audit
+# --------------------------------------------------------------------------
+
+def test_strips_a_bare_trailing_year():
+    """
+    Real cases from the audit. TMDb's search returns *zero* results for the
+    combined string but the exact right film for the bare title: "Kanály" is
+    Wajda's Kanał (1957), "Noc" is Antonioni's La Notte (1961).
+    """
+    assert strip_year_suffix("Kanály (1957)") == "Kanály"
+    assert strip_year_suffix("Noc (1961)") == "Noc"
+    assert strip_year_suffix("Aladin (1992)") == "Aladin"
+
+
+def test_leaves_a_meaningful_parenthetical_alone():
+    """
+    Only a *bare* year goes. Kino MAT's opera/ballet season markers carry real
+    information and aren't a plain year, so they must survive untouched —
+    these are the titles that would break if the pattern were loosened to
+    "strip any trailing parenthesis".
+    """
+    assert strip_year_suffix("Královská opera: CARMEN (2026/27)") == "Královská opera: CARMEN (2026/27)"
+    assert strip_year_suffix("Toy Story 5: Příběh hraček (CZ DABING)") == "Toy Story 5: Příběh hraček (CZ DABING)"
+
+
+def test_year_stripping_leaves_ordinary_titles_untouched():
+    assert strip_year_suffix("Odyssea") == "Odyssea"
+    assert strip_year_suffix("2001: Vesmírná odysea") == "2001: Vesmírná odysea"
+
+
+def test_year_stripping_never_returns_an_empty_title():
+    """A title that is *only* a year keeps it rather than vanishing entirely."""
+    assert strip_year_suffix("(1957)") == "(1957)"
 
 
 def test_a_dash_in_a_real_title_is_never_stripped():

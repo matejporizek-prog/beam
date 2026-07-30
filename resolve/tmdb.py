@@ -22,6 +22,7 @@ poster on the wrong film is far worse than a missing one.
 from __future__ import annotations
 
 import os
+import re
 import time
 import unicodedata
 from difflib import SequenceMatcher
@@ -166,6 +167,39 @@ def strip_event_branding(title: str) -> str:
     return cleaned.strip() or title.strip()
 
 
+# A bare four-digit year in trailing parentheses: "Kanály (1957)". Cinemas add
+# it to disambiguate a classic in a retrospective, but TMDb's search takes it
+# literally and returns *nothing* for the combined string.
+YEAR_SUFFIX_RE = re.compile(r"\s*\((?:1[89]\d\d|20\d\d)\)\s*$")
+
+
+def strip_year_suffix(title: str) -> str:
+    """
+    'Kanály (1957)' -> 'Kanály'.
+
+    Found by the 2026-07-30 data audit: searching "Kanály (1957)" returns zero
+    TMDb results, while "Kanály" returns exactly the right film (Wajda's
+    Kanał, 1957). Same for "Noc (1961)" (Antonioni's La Notte) and "Aladin
+    (1992)", which scraped as a 0.71 near-miss purely because the year diluted
+    the title similarity.
+
+    This logic already existed, but only inside scrapers/edison.py, where it
+    was written for that one cinema — and it strips at *scrape* time, changing
+    the stored title and therefore the film_id. Kino Aero and Kino MAT have
+    since started producing the same pattern, so it belongs here instead:
+    applied at match time it fixes every cinema at once, and because it only
+    rewrites the TMDb *query* it can never shift a film's identity or orphan a
+    cache entry. Edison's own copy is left alone deliberately — removing it
+    would change those films' film_ids and churn the cache for no gain.
+
+    Only a *bare* year is stripped. A parenthetical carrying real information —
+    Kino MAT's "Královská opera: CARMEN (2026/27)" season marker, or a genuine
+    subtitle in brackets — doesn't match and is left intact.
+    """
+    stripped = YEAR_SUFFIX_RE.sub("", title)
+    return stripped.strip() or title.strip()
+
+
 def title_similarity(a: str, b: str) -> float:
     """0.0-1.0 similarity between two titles, ignoring case, accents and punctuation."""
     left, right = normalize_title(a), normalize_title(b)
@@ -300,7 +334,7 @@ def match_film(
     Searches Czech first, falls back to a plain search, then verifies ambiguous
     candidates against the director and runtime the scraper collected.
     """
-    query = strip_event_branding(title_cz)
+    query = strip_year_suffix(strip_event_branding(title_cz))
 
     candidates = client.search_movie(query, language=CZECH)
     if not candidates:

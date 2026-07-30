@@ -2,7 +2,7 @@
    Czech formatting helpers and the small shared markup primitives.
    ========================================================================== */
 
-import { todayISO, initialOf, posterUrl } from './data.js?v=24';
+import { todayISO, initialOf, posterUrl } from './data.js?v=25';
 
 export const DOW = ['NE', 'PO', 'ÚT', 'ST', 'ČT', 'PÁ', 'SO'];
 export const DOW_LONG = ['NEDĚLE', 'PONDĚLÍ', 'ÚTERÝ', 'STŘEDA', 'ČTVRTEK', 'PÁTEK', 'SOBOTA'];
@@ -13,6 +13,34 @@ export function esc(value) {
   return String(value ?? '')
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+/* Lowercase and strip diacritics, so "svetozor" matches "Světozor".
+
+   This is the JS half of what normalize_title() in scrapers/base.py already
+   does for the Python side (NFKD-decompose, then drop the combining marks
+   that decomposition splits off). The resolver has folded accents since
+   Milestone 2; the app's own search never did, which the 2026-07-30 review
+   caught: searching "svetozor", "pilotu", "pritomnost" or "kavalirka"
+   returned literally zero results while the accented spellings returned
+   17/73/7/36. On a phone keyboard Czech diacritics need a long-press per
+   letter, so typing without them is the common case, not the edge case.
+
+   Deliberately not the full normalize_title(): that also strips punctuation
+   to a single space, which is right for deriving a stable film_id but wrong
+   for a substring search (it would stop "Almodóvar" matching inside a longer
+   phrase the moment punctuation differed). Folding case and accents is
+   exactly the part search needs. */
+export function fold(value) {
+  return String(value ?? '')
+    // NFD splits an accented letter into base letter + combining mark, then
+    // \p{M} (the Unicode "Mark" category, needing the /u flag) removes the
+    // marks. Written this way rather than as a literal character range so
+    // the source stays pure ASCII and can't be corrupted by an editor or
+    // encoding round-trip.
+    .normalize('NFD')
+    .replace(/\p{M}/gu, '')
+    .toLowerCase();
 }
 
 export function dateOf(iso) {

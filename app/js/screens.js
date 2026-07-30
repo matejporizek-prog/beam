@@ -9,17 +9,17 @@
 import {
   state, filmFor, filmById, titleOf, screeningsForFilm, nextScreening,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
-  closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf,
-} from './data.js?v=24';
+  closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf, isMultiplex,
+} from './data.js?v=25';
 
 import {
-  DOW, esc, dateOf, shortDate, longDay, whenLabel,
+  DOW, esc, fold, dateOf, shortDate, longDay, whenLabel,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=24';
+} from './format.js?v=25';
 
-import { store } from './store.js?v=24';
-import { isPushSupported } from './push.js?v=24';
-import { initCinemaMap } from './map.js?v=24';
+import { store } from './store.js?v=25';
+import { isPushSupported } from './push.js?v=25';
+import { initCinemaMap } from './map.js?v=25';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
@@ -32,7 +32,7 @@ function heartButton(id, title, saved) {
 /* ---------- filtering ---------- */
 
 export function passesFilters(screening, filters) {
-  if (!filters.mplex && screening.cinema && isMultiplexName(screening.cinema)) return false;
+  if (!filters.mplex && screening.cinema && isMultiplex(screening.cinema)) return false;
   if (filters.enOnly && !isEnglishFriendly(screening)) return false;
 
   if (filters.format.size) {
@@ -77,9 +77,9 @@ function isCzechLanguage(screening) {
   return (screening.language || '').toLowerCase().startsWith('češt');
 }
 
-function isMultiplexName(name) {
-  return ['Cinema City', 'CineStar', 'Premiere Cinemas'].some(m => name.includes(m));
-}
+/* isMultiplex lives in data.js next to the other cinema helpers — this file
+   used to carry its own copy with the chain list hardcoded a second time,
+   which meant adding a chain in one place and silently not the other. */
 
 export function activeFilterCount(filters) {
   return (filters.mplex ? 1 : 0) + (filters.enOnly ? 1 : 0) + filters.version.size + filters.format.size +
@@ -596,7 +596,12 @@ export function fillDetail(filmId) {
 /* ---------- search ---------- */
 
 export function runSearch(query, resultsEl) {
-  const q = query.trim().toLowerCase();
+  /* fold(), not toLowerCase(): both sides of the comparison get their
+     diacritics stripped, so "svetozor" finds "Světozor". Typing Czech
+     accents on a phone means a long-press per letter, so searching without
+     them is the normal case — before this, "svetozor"/"pilotu"/"pritomnost"
+     each returned zero results while the accented spelling returned dozens. */
+  const q = fold(query.trim());
 
   if (!q) {
     resultsEl.innerHTML = '<p class="search-hint">Zadej název filmu, kino, režiséra nebo herce.</p>';
@@ -609,12 +614,12 @@ export function runSearch(query, resultsEl) {
   for (const s of state.screenings) {
     if (hits.has(s.film_id)) continue;
     const film = filmFor(s);
-    const haystack = [
+    const haystack = fold([
       titleOf(s), s.cinema, s.language, s.strand,
       film && film.title_en, film && film.original_title,
       film && (film.director || []).join(' '),
       film && (film.cast || []).join(' '),
-    ].filter(Boolean).join(' ').toLowerCase();
+    ].filter(Boolean).join(' '));
 
     if (haystack.includes(q)) hits.set(s.film_id, s);
   }

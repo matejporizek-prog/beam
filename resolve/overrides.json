@@ -65,5 +65,10 @@
   "lak na vlasy": {
     "tmdb_id": 11054,
     "_comment": "'Lak na vlasy' is a literal Czech translation of 'Hairspray' (1988), not the distribution title TMDb indexes. Single unambiguous candidate, exact semantic match; no verification signal available from Edison's scraper."
+  },
+
+  "noc 1961": {
+    "tmdb_id": 41050,
+    "_comment": "Antonioni's 'La Notte' (1961), screened by Kino Aero as 'Noc (1961)'. The bare trailing year is now stripped before searching (strip_year_suffix in tmdb.py, added after the 2026-07-30 audit), which fixed the sibling cases 'Kanaly (1957)' and 'Aladin (1992)' outright - but not this one: 'Noc' alone is a single very common Czech word, TMDb returns 20 unrelated matches and none scores above the 0.75 threshold. A genuine case for a manual id rather than any threshold change. Aero publishes no director/runtime for it, so verification is by title semantics: 'Noc' is the standard Czech title for La Notte, and it fits Aero's classics programming."
   }
 }
