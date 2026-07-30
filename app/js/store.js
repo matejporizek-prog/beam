@@ -108,12 +108,13 @@ export const store = {
   /* Sets don't survive JSON, so they're stored as arrays and rehydrated. */
   loadFilters() {
     const saved = read(KEYS.filters, null);
-    const filters = { mplex: false, version: new Set(), format: new Set(), enOnly: false };
+    const filters = { mplex: false, version: new Set(), format: new Set(), enOnly: false, creators: new Set() };
     if (!saved) return filters;
     filters.mplex = !!saved.mplex;
     filters.enOnly = !!saved.enOnly;
     filters.version = new Set(saved.version || []);
     filters.format = new Set(saved.format || []);
+    filters.creators = new Set(saved.creators || []);
     return filters;
   },
 
@@ -123,6 +124,7 @@ export const store = {
       enOnly: filters.enOnly,
       version: [...filters.version],
       format: [...filters.format],
+      creators: [...filters.creators],
     });
   },
 };

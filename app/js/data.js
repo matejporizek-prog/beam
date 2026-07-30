@@ -90,6 +90,24 @@ export function filmById(filmId) {
   return state.films.get(filmId) || null;
 }
 
+/* Every distinct director/screenwriter name across films actually screening
+   right now — the pool the Filtr sheet's creator search matches against.
+   Scoped to state.screenings (not every film TMDb has ever heard of, and not
+   premieres, which have no screening to filter to yet) so every name in the
+   list is guaranteed to produce a non-empty result. Global across the whole
+   known window, same scope the version/format filters already use — "this
+   week" in the UI copy is loose, not a literal 7-day cutoff. */
+export function creatorNames() {
+  const names = new Set();
+  for (const screening of state.screenings) {
+    const film = filmFor(screening);
+    if (!film) continue;
+    for (const name of film.director || []) names.add(name);
+    for (const name of film.screenwriter || []) names.add(name);
+  }
+  return [...names].sort((a, b) => a.localeCompare(b, 'cs'));
+}
+
 /* The title to show. Prefer the film's canonical spelling — when a cinema has a
    typo, the resolver already worked out which spelling is the real one. */
 export function titleOf(screeningOrFilm) {

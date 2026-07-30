@@ -10,14 +10,14 @@ import {
   state, filmFor, filmById, titleOf, screeningsForFilm, nextScreening,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf,
-} from './data.js?v=16';
+} from './data.js?v=17';
 
 import {
   DOW, esc, dateOf, shortDate, longDay, whenLabel,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=16';
+} from './format.js?v=17';
 
-import { store } from './store.js?v=16';
+import { store } from './store.js?v=17';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
@@ -51,6 +51,15 @@ export function passesFilters(screening, filters) {
     else key = isCzechLanguage(screening) ? 'ov' : 'titulky';
     if (!filters.version.has(key)) return false;
   }
+
+  if (filters.creators.size) {
+    // A film can have several directors and writers; any one of them
+    // matching a selected name is enough — this is an OR within the facet,
+    // same as version/format, not a "must match every selected person" AND.
+    const film = filmFor(screening);
+    const people = [...((film && film.director) || []), ...((film && film.screenwriter) || [])];
+    if (!people.some(name => filters.creators.has(name))) return false;
+  }
   return true;
 }
 
@@ -63,7 +72,7 @@ function isMultiplexName(name) {
 }
 
 export function activeFilterCount(filters) {
-  return (filters.mplex ? 1 : 0) + (filters.enOnly ? 1 : 0) + filters.version.size + filters.format.size;
+  return (filters.mplex ? 1 : 0) + (filters.enOnly ? 1 : 0) + filters.version.size + filters.format.size + filters.creators.size;
 }
 
 /* ---------- day strip ---------- */

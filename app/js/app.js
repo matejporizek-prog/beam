@@ -8,12 +8,13 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=16';
-import { store } from './store.js?v=16';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames } from './data.js?v=17';
+import { store } from './store.js?v=17';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderProfile,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=16';
+} from './screens.js?v=17';
+import { esc } from './format.js?v=17';
 
 /* ---------- app state ---------- */
 
@@ -164,6 +165,16 @@ function wireEvents() {
       return;
     }
 
+    /* A creator chip (already selected — tap removes it) or a search result
+       (not yet selected — tap adds it). Both are the exact same toggle, just
+       rendered differently by syncFilterUI() depending on which set a name
+       is currently in, so one handler covers both. */
+    const creatorPill = event.target.closest('[data-creator]');
+    if (creatorPill) {
+      togglePill(filters.creators, creatorPill.dataset.creator);
+      return;
+    }
+
     /* A save heart, wherever it appears — Program (both modes), Premiéry, the
        watchlist. Handled before the row's own click so it never also opens the
        detail overlay. */
@@ -202,12 +213,13 @@ function wireEvents() {
   $('filter-scrim').onclick = () => closeFilter();
   $('sheet-apply').onclick = () => { closeFilter(); renderProg(); };
   $('sheet-clear').onclick = () => {
-    filters = { mplex: false, version: new Set(), format: new Set(), enOnly: false };
+    filters = { mplex: false, version: new Set(), format: new Set(), enOnly: false, creators: new Set() };
     store.saveFilters(filters);
     syncFilterUI();
   };
   $('row-mplex').onclick = () => { filters.mplex = !filters.mplex; store.saveFilters(filters); syncFilterUI(); };
   $('row-en').onclick = () => { filters.enOnly = !filters.enOnly; store.saveFilters(filters); syncFilterUI(); };
+  $('creator-input').oninput = () => renderCreatorResults();
 
   document.querySelectorAll('#fp-version .fpill').forEach(pill => {
     pill.onclick = () => togglePill(filters.version, pill.dataset.v);
@@ -266,6 +278,8 @@ function syncFilterUI() {
   $('sw-en').className = 'switch' + (filters.enOnly ? ' on' : '');
   document.querySelectorAll('#fp-version .fpill').forEach(p => p.classList.toggle('on', filters.version.has(p.dataset.v)));
   document.querySelectorAll('#fp-format .fpill').forEach(p => p.classList.toggle('on', filters.format.has(p.dataset.v)));
+  renderCreatorChips();
+  renderCreatorResults();
 
   const count = activeFilterCount(filters);
   const badge = $('filtr-count');
@@ -274,9 +288,42 @@ function syncFilterUI() {
   $('filtr-btn').classList.toggle('on', count > 0);
 }
 
+/* Selected director/screenwriter names — rendered the same way a selected
+   version/format pill is (.fpill.on), since selecting one means the same
+   thing: this is filtering right now. The "×" is decorative; the whole chip
+   is the tap target, and tapping it removes it (see the delegated
+   [data-creator] handler above). */
+function renderCreatorChips() {
+  $('creator-chips').innerHTML = [...filters.creators].map(name =>
+    `<button class="fpill on" data-creator="${esc(name)}">${esc(name)} <span class="x">✕</span></button>`
+  ).join('');
+}
+
+/* Live matches for whatever's typed in #creator-input, excluding names
+   already selected (those show as chips instead). Empty until there's a
+   query — with 100+ names some weeks, showing all of them unasked would
+   defeat the point of a search field. Capped well short of that count so a
+   broad query doesn't turn into its own wall of pills. */
+const CREATOR_RESULT_LIMIT = 8;
+
+function renderCreatorResults() {
+  const query = $('creator-input').value.trim().toLowerCase();
+  const results = $('creator-results');
+  if (!query) { results.innerHTML = ''; return; }
+
+  const matches = creatorNames()
+    .filter(name => !filters.creators.has(name) && name.toLowerCase().includes(query))
+    .slice(0, CREATOR_RESULT_LIMIT);
+
+  results.innerHTML = matches.map(name =>
+    `<button class="fpill" data-creator="${esc(name)}">${esc(name)}</button>`
+  ).join('');
+}
+
 /* ---------- overlays ---------- */
 
 function openFilter() {
+  $('creator-input').value = '';
   syncFilterUI();
   $('filter-scrim').classList.add('open');
   $('filter-sheet').classList.add('open');

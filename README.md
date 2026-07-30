@@ -686,8 +686,45 @@ the tab is first opened, defaulting to the current month if it has a
 premiere or the soonest month that does, and from then on changed only by an
 explicit nav tap.
 
+**The grid days are tappable too** (added after Matěj tried to tap one and
+nothing happened — a fair catch, a calendar that doesn't let you pick a date
+isn't really a calendar). A day with a premiere is a real `<button>`
+(everything else stays a plain non-interactive `<div>`); tapping it filters
+the list below to just that day, with a heading and a "Celý měsíc" link back
+out. The link and the day button share one `data-prem-day` attribute and one
+delegated handler — tapping either the selected day again or its own clear
+link toggles the same thing off. `app.js`'s `activePremDay` clears whenever
+the month changes, since a day picked in a different month wouldn't apply to
+the one now showing.
+
 Refreshed weekly in the same GitHub Actions run as everything else
 (`resolve.premieres`, after `resolve.films`).
+
+## Extended filters: director and screenwriter
+
+The Filtr sheet's other facets (Verze, Formát) are two or three fixed
+options, shown as a static pill row. Director/screenwriter isn't that shape
+at all — the current program alone has 100+ distinct names — so it's a
+search-to-select field instead: type into "Tvůrci", matching names (from
+films actually screening right now, not TMDb's whole universe, so a result
+never leads to an empty list) appear as tappable suggestions, and a tap adds
+a removable chip. No new data needed — `films.json` records already carry
+`director`/`screenwriter` arrays from TMDb credits; `data.js`'s
+`creatorNames()` just collects the distinct set across everything in
+`state.screenings` right now.
+
+Matching is OR-within-the-facet like every other filter here: a film with
+several directors or writers passes if *any* selected name is among them,
+same relationship version/format already have to their own multi-select
+sets. `filters.creators` persists via `store.js` the same way, and folds
+into the shared active-filter count and "Vymazat" reset alongside everything
+else — it's an addition to the existing filter object, not a parallel
+mechanism.
+
+Dropped **production company** from the planning doc's original three-field
+list: TMDb has the data, but it's a far less natural way for anyone to think
+about "what do I want to see" than a director or writer, and adding a third
+near-identical search field for it wasn't worth the UI weight for the value.
 
 ## Data attribution
 
