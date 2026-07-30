@@ -8,13 +8,13 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=21';
-import { store } from './store.js?v=21';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=22';
+import { store } from './store.js?v=22';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderProfile,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=21';
-import { esc } from './format.js?v=21';
+} from './screens.js?v=22';
+import { esc } from './format.js?v=22';
 
 /* ---------- app state ---------- */
 
@@ -263,10 +263,12 @@ function wireEvents() {
     let ticking = false;
     window.addEventListener('scroll', () => {
       if (ticking) return;
-      /* The detail view scrolls the document too, and the header is hidden
-         while it's open — so this would be per-frame work for a class nobody
-         can see, on the exact screen we're trying to keep smooth. */
-      if (document.documentElement.classList.contains('detail-open')) return;
+      /* The detail view and the Filtr panel both scroll the document too, and
+         the header is hidden while either is open — so this would be
+         per-frame work for a class nobody can see, on the exact screens we're
+         trying to keep smooth. */
+      const root = document.documentElement.classList;
+      if (root.contains('detail-open') || root.contains('sheet-open')) return;
       ticking = true;
       requestAnimationFrame(() => {
         document.querySelector('header').classList.toggle('compact', window.scrollY > 24);
@@ -344,70 +346,22 @@ function renderCreatorResults() {
 
 /* ---------- overlays ---------- */
 
-/* Keeping the page behind the filter sheet still.
-
-   Previous attempt pinned <body> with position: fixed + a negative top
-   offset. That's the widely-cited recipe, but it's a layout mutation — the
-   document's scroll height collapses and is restored on close — and on iOS
-   that interacts badly with the collapsing URL bar, which is very likely the
-   residual "the program tab still moves a bit" Matěj saw *with the lock
-   already active*. It also can't help with the other half of the problem:
-   position doesn't stop a *gesture* from chaining out of the sheet.
-
-   So the page is held still at the gesture level instead, which is what iOS
-   actually responds to (and what body-scroll-lock-style libraries have done
-   for years):
-     - a touchmove that isn't inside the sheet is cancelled outright — that's
-       the scrim and the program behind it,
-     - a touchmove inside the sheet is cancelled only when the sheet is
-       already at an edge and the drag keeps pushing past it. That's the
-       exact moment iOS would otherwise hand the gesture to the page, which
-       is what leaves the sheet feeling stuck at its own top/bottom.
-   Nothing about the page's layout changes, so there's no scroll position to
-   save and restore and nothing for the URL bar to interact with.
-
-   The listeners are attached only while the sheet is open and removed on
-   close, deliberately: a *non-passive* touchmove listener left on the
-   document permanently would make the browser wait on JS before every scroll
-   of the program list — undoing the scroll work of the last several rounds.
-   `overflow: hidden` (via html.sheet-open) covers the non-touch case, i.e. a
-   desktop wheel over the scrim. */
-let sheetLastTouchY = 0;
-
-function onSheetTouchStart(event) {
-  sheetLastTouchY = event.touches[0].clientY;
-}
-
-function onSheetTouchMove(event) {
-  const sheet = $('filter-sheet');
-  if (!sheet.contains(event.target)) { event.preventDefault(); return; }
-
-  const y = event.touches[0].clientY;
-  const dy = y - sheetLastTouchY;   // > 0 = dragging down, i.e. scrolling up
-  sheetLastTouchY = y;
-
-  const atTop = sheet.scrollTop <= 0;
-  const atBottom = sheet.scrollTop + sheet.clientHeight >= sheet.scrollHeight - 1;
-  if ((atTop && dy > 0) || (atBottom && dy < 0)) event.preventDefault();
-}
-
-function bindSheetScrollGuards() {
-  document.addEventListener('touchstart', onSheetTouchStart, { passive: true });
-  document.addEventListener('touchmove', onSheetTouchMove, { passive: false });
-}
-
-function unbindSheetScrollGuards() {
-  document.removeEventListener('touchstart', onSheetTouchStart, { passive: true });
-  document.removeEventListener('touchmove', onSheetTouchMove, { passive: false });
-}
+/* Where the program list was scrolled to when Filtr was opened. The panel
+   scrolls the document itself now (see .sheet in the CSS for the full story),
+   so opening it replaces the page's scroll — this is what puts you back where
+   you were. Exactly the same mechanism as scrollBeforeDetail below; the two
+   are kept separate because the panels can't be open at once but their
+   history entries are independent. */
+let scrollBeforeFilter = 0;
 
 function openFilter() {
   $('creator-input').value = '';
   syncFilterUI();
+  scrollBeforeFilter = window.scrollY;
   document.documentElement.classList.add('sheet-open');
-  bindSheetScrollGuards();
   $('filter-scrim').classList.add('open');
   $('filter-sheet').classList.add('open');
+  window.scrollTo(0, 0);
   history.pushState({ sheet: 'filter' }, '');
 }
 
@@ -415,7 +369,13 @@ function closeFilter(fromPop) {
   $('filter-scrim').classList.remove('open');
   $('filter-sheet').classList.remove('open');
   document.documentElement.classList.remove('sheet-open');
-  unbindSheetScrollGuards();
+  /* Reading a layout property forces the browser to apply the line above
+     before we scroll. Without it the program list is still display:none, the
+     document is only as tall as the panel was, and the target scroll gets
+     clamped to that shorter height — you'd land near the top instead of
+     where you left off. Same reasoning as closeDetail(). */
+  void document.documentElement.scrollHeight;
+  window.scrollTo(0, scrollBeforeFilter);
   if (!fromPop) history.back();
 }
 

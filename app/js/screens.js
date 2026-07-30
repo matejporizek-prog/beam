@@ -10,14 +10,14 @@ import {
   state, filmFor, filmById, titleOf, screeningsForFilm, nextScreening,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf,
-} from './data.js?v=21';
+} from './data.js?v=22';
 
 import {
   DOW, esc, dateOf, shortDate, longDay, whenLabel,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=21';
+} from './format.js?v=22';
 
-import { store } from './store.js?v=21';
+import { store } from './store.js?v=22';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when

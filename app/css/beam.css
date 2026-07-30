@@ -513,48 +513,57 @@ header.compact .brand h1 { font-size: 26px; }
   position: fixed; inset: 0; z-index: 30; background: rgba(6,8,11,.6);
   opacity: 0; pointer-events: none; transition: opacity .28s;
 }
-/* The scrim's blur only exists while it's actually shown. Left on the base
-   rule, a full-screen backdrop-filter sits in the compositor even at
-   opacity: 0 — a standing tax on every scroll for an effect nobody sees. */
-.sheet-scrim.open { opacity: 1; pointer-events: auto; backdrop-filter: blur(2px); }
+/* No backdrop-filter here any more: the program UI is hidden outright while
+   the panel is open (see html.sheet-open below), so there is nothing left
+   behind the scrim to blur — it would be pure compositor cost for no visible
+   effect. The scrim now just fills the gap above the panel and keeps
+   tap-to-dismiss working there. */
+.sheet-scrim.open { opacity: 1; pointer-events: auto; }
+/* The Filtr panel scrolls the DOCUMENT — it is not an inner scroller.
+
+   It used to be a `position: fixed` bottom sheet with `overflow-y: auto`,
+   floating over the still-visible program. Three separate rounds of fixes
+   went into that shape (centering transform, legacy webkit scrolling
+   property, dvh height, a JS touch-gesture lock) and none of them held,
+   because the shape itself is the problem — exactly as it was for the film
+   detail overlay before it became a document scroll.
+
+   Matěj's own observation is what pinned it: "sometimes it scrolls the
+   program, sometimes the filter, as if it depends where I scroll on the
+   screen." iOS picks what a swipe will scroll when the gesture *starts*,
+   from where the finger lands, and then largely ignores later attempts to
+   cancel it — so an edge guard that fires mid-gesture is always too late,
+   and the scroll spills onto the page underneath. That can't be patched from
+   JS; the inner scroller has to go.
+
+   So Filtr is now ordinary in-flow content, and opening it hides the program
+   UI (see the html.sheet-open rule below) so the document holds nothing else
+   — a plain body scroll, the one path iOS always drives correctly. The
+   rounded-top panel look is kept via the top margin; the only thing lost is
+   the program peeking through behind, which is what forced the overlay
+   shape in the first place. app.js saves and restores the program's scroll
+   position across open/close, same as the detail overlay does. */
 .sheet {
-  /* Centered with left/right + margin auto, NOT left:50% + translateX(-50%)
-     — the exact same fix already applied to .overlay/.search-ov, missed
-     here the first time round. The X translate parks the sheet on a
-     subpixel boundary on a 375px phone (-50% of 375 is -187.5px), and
-     that's the kind of thing that leaves an overflow-y:auto scroller stuck
-     at its boundary on iOS: "scroll to the top or bottom, then the other
-     direction doesn't respond" is the reported symptom, and it matches. Only
-     the vertical slide needs a transform now. */
-  position: fixed; bottom: 0; left: 0; right: 0; margin: 0 auto; transform: translateY(100%);
-  width: 100%; max-width: 430px; z-index: 31; background: var(--card);
+  display: none;
+  width: 100%; max-width: 430px; background: var(--card);
   border-top-left-radius: 20px; border-top-right-radius: 20px;
   border-top: 1px solid var(--card-edge); padding: 8px 20px calc(24px + env(safe-area-inset-bottom));
-  /* FIX (native-motion): springier easing than the prototype's ease-out. */
-  transition: transform .38s cubic-bezier(.16,1.1,.3,1);
-  /* 86dvh, not 86vh — this is the other half of "the filter sheet gets stuck
-     at the bottom". On iOS `vh` is the *large* viewport, measured as though
-     the URL bar were hidden, so while the bar is actually showing, a 86vh
-     sheet anchored to bottom: 0 extends below the visible area: its last
-     stretch (the Zobrazit výsledky button) sits behind the browser chrome and
-     simply never scrolls into view, which reads exactly as "stuck". `dvh`
-     tracks the viewport that's really visible. The vh line stays first as the
-     fallback for anything without dvh support (pre-15.4 Safari). */
-  max-height: 86vh;
-  max-height: 86dvh;
-  overflow-y: auto;
-  /* -webkit-overflow-scrolling: touch removed on purpose: iOS has used async
-     momentum scrolling by default since iOS 13, and this legacy property can
-     still switch WebKit onto its old codepath — the other half of the same
-     bug class already found and removed from the detail/search overlays. */
-  overscroll-behavior: contain;
 }
-.sheet.open { transform: translateY(0); }
-
-/* Non-touch belt-and-braces for the sheet's scroll lock: a desktop wheel over
-   the scrim. The touch case is handled by the gesture guards in app.js, which
-   is what iOS actually respects — this alone would not be enough there. */
-html.sheet-open, html.sheet-open body { overflow: hidden; }
+.sheet.open {
+  display: block;
+  /* position: relative only to sit above the fixed scrim — it stays in flow,
+     so this creates no scroll container and none of the old problems. */
+  position: relative; z-index: 31;
+  /* The gap that keeps this reading as a panel rather than a bare page. The
+     scrim shows through it, so tapping there still dismisses. */
+  margin-top: 56px;
+  min-height: calc(100vh - 56px);
+  min-height: calc(100dvh - 56px);
+  /* A one-shot animation, not a persistent transform: it slides in and then
+     the element carries no transform at all while you scroll it. */
+  animation: sheet-in .38s cubic-bezier(.16,1.1,.3,1);
+}
+@keyframes sheet-in { from { transform: translateY(100%); } to { transform: none; } }
 .sheet-grab { width: 38px; height: 4px; border-radius: 2px; background: var(--card-edge); margin: 6px auto 14px; }
 .sheet-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 14px; }
 .sheet-head h2 { font-family: 'Spectral', serif; font-weight: 600; font-size: 21px; }
@@ -653,11 +662,15 @@ html.sheet-open, html.sheet-open body { overflow: hidden; }
 }
 @keyframes ov-in { from { transform: translateY(100%); } to { transform: none; } }
 
-/* While the detail is open the rest of the app isn't merely covered, it's
-   removed — that's what leaves the document with one simple scroll. */
+/* While the detail — or the Filtr panel — is open, the rest of the app isn't
+   merely covered, it's removed. That's what leaves the document with one
+   simple scroll, which is the whole point for both of them. */
 html.detail-open .content,
 html.detail-open .nav,
-html.detail-open .beam { display: none; }
+html.detail-open .beam,
+html.sheet-open .content,
+html.sheet-open .nav,
+html.sheet-open .beam { display: none; }
 /* `isolation` walls the scanline layer's blend mode (below) inside the hero:
    without it the blend targets the whole overlay's stacking context, which
    can force the entire overlay scroller off the compositor's fast path. */
