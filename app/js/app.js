@@ -8,13 +8,13 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=18';
-import { store } from './store.js?v=18';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=19';
+import { store } from './store.js?v=19';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderProfile,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=18';
-import { esc } from './format.js?v=18';
+} from './screens.js?v=19';
+import { esc } from './format.js?v=19';
 
 /* ---------- app state ---------- */
 
@@ -344,9 +344,38 @@ function renderCreatorResults() {
 
 /* ---------- overlays ---------- */
 
+/* Matěj: "it scrolls through the program tab that is open below" — the sheet
+   grew a Žánr row and the whole Tvůrci field since it was first built, and
+   now genuinely needs its own internal scroll on a typical phone screen
+   (max-height: 86vh isn't enough room otherwise). `.sheet` already has
+   overflow-y: auto + overscroll-behavior: contain for that, but neither one
+   locks the *page underneath* — on iOS in particular, a touch-scroll that
+   doesn't land exactly on the sheet's own scroll surface can fall straight
+   through to the body behind a fixed-position overlay, which is exactly the
+   bleed-through being reported. Real fix is the standard one for this: pin
+   the body itself while the sheet is open, restore the exact scroll position
+   on close. `overflow: hidden` alone doesn't reliably stop this on iOS
+   Safari, which is why it's position: fixed + a negative top offset, not a
+   plain overflow toggle. */
+function lockBodyScroll() {
+  const y = window.scrollY;
+  document.body.style.position = 'fixed';
+  document.body.style.top = `-${y}px`;
+  document.body.style.width = '100%';
+}
+
+function unlockBodyScroll() {
+  const y = -parseInt(document.body.style.top || '0', 10);
+  document.body.style.position = '';
+  document.body.style.top = '';
+  document.body.style.width = '';
+  window.scrollTo(0, y);
+}
+
 function openFilter() {
   $('creator-input').value = '';
   syncFilterUI();
+  lockBodyScroll();
   $('filter-scrim').classList.add('open');
   $('filter-sheet').classList.add('open');
   history.pushState({ sheet: 'filter' }, '');
@@ -355,6 +384,7 @@ function openFilter() {
 function closeFilter(fromPop) {
   $('filter-scrim').classList.remove('open');
   $('filter-sheet').classList.remove('open');
+  unlockBodyScroll();
   if (!fromPop) history.back();
 }
 
