@@ -10,15 +10,16 @@ import {
   state, filmFor, filmById, titleOf, screeningsForFilm, nextScreening,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf,
-} from './data.js?v=23';
+} from './data.js?v=24';
 
 import {
   DOW, esc, dateOf, shortDate, longDay, whenLabel,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=23';
+} from './format.js?v=24';
 
-import { store } from './store.js?v=23';
-import { isPushSupported } from './push.js?v=23';
+import { store } from './store.js?v=24';
+import { isPushSupported } from './push.js?v=24';
+import { initCinemaMap } from './map.js?v=24';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
@@ -202,7 +203,7 @@ function renderCinemaMode(todays) {
     const shows = byVenue.get(venue).sort((a, b) => a.time.localeCompare(b.time));
     const allPast = shows.every(isPast);
 
-    return `<section class="vgroup stagger ${allPast ? 'dim' : ''}">
+    return `<section class="vgroup stagger ${allPast ? 'dim' : ''}" data-venue="${esc(venue)}">
       <div class="vgroup-head"><h2>${esc(shortVenue(venue))}</h2></div>
       ${shows.map(s => {
         const film = filmFor(s);
@@ -442,7 +443,13 @@ export function renderProfile(el) {
       </div>
     </div>`;
 
-  el.innerHTML = notifySection + emptyState('profile', 'Profil',
+  const mapSection = `
+    <div class="filter-group">
+      <div class="fg-label">Mapa kin</div>
+      <div class="map-container" id="cinema-map"></div>
+    </div>`;
+
+  el.innerHTML = notifySection + mapSection + emptyState('profile', 'Profil',
     'Tvůj filmový deník, oblíbená kina a historie zhlédnutých filmů se objeví tady, až přidáme sledování.') +
     `<p class="attribution">
       Program aktualizován ${esc(generated)}<br>
@@ -453,6 +460,12 @@ export function renderProfile(el) {
     const toggle = document.getElementById('sw-notify');
     toggle.classList.add('disabled');
   }
+
+  /* Not awaited: renderProfile() stays synchronous like every other render
+     function here, and the map fills in a moment later once Leaflet has
+     built it and data/cinemas.json has loaded — same fire-and-forget pattern
+     already used for syncWatchedFilms(). */
+  initCinemaMap();
 }
 
 /* ---------- detail overlay ---------- */

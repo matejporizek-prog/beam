@@ -1,0 +1,93 @@
+/* ==========================================================================
+   The cinema map, in Profil.
+
+   Leaflet (loaded as a classic global script in index.html — see the note
+   there) is the one external library this app uses besides fonts; everything
+   else in Beam is hand-written. Cinema locations are hand-curated reference
+   data (data/cinemas.json — addresses essentially never change, so there's
+   no scrape pipeline for this, unlike screenings/films/premieres) rather than
+   anything derived from the scraped program.
+
+   Tiles are CARTO's free "dark matter" basemap, not the default OpenStreetMap
+   light tiles — a bright white rectangle would be a jarring, out-of-place
+   block in an otherwise near-black app; this is a basemap style built
+   specifically to sit inside dark UIs like this one.
+   ========================================================================== */
+
+import { esc } from './format.js?v=24';
+
+let cinemasCache = null;
+let mapInstance = null;
+
+async function loadCinemas() {
+  if (cinemasCache) return cinemasCache;
+  const response = await fetch('../data/cinemas.json', { cache: 'no-cache' });
+  const data = await response.json();
+  cinemasCache = data.cinemas || [];
+  return cinemasCache;
+}
+
+/* Called every time Profil renders. renderProfile() rebuilds #cinema-map's
+   whole DOM subtree from scratch on each visit to the tab, which would leak
+   the previous Leaflet instance (its own event listeners, its own detached
+   DOM) if not explicitly torn down first — .remove() is Leaflet's own
+   cleanup, not enough on its own without also dropping our reference to it. */
+export async function initCinemaMap() {
+  const container = document.getElementById('cinema-map');
+  if (!container) return;
+
+  if (mapInstance) {
+    mapInstance.remove();
+    mapInstance = null;
+  }
+
+  const cinemas = await loadCinemas();
+  if (!cinemas.length) return;
+
+  const map = L.map(container, { zoomControl: true });
+  mapInstance = map;
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution:
+      '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> ' +
+      '&copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener noreferrer">CARTO</a>',
+    subdomains: 'abcd',
+    maxZoom: 19,
+  }).addTo(map);
+
+  const markers = cinemas.map(cinema => {
+    const marker = L.marker([cinema.lat, cinema.lng]).addTo(map);
+    marker.bindPopup(
+      `<div class="map-popup">
+         <strong>${esc(cinema.name)}</strong>
+         <div class="map-popup-addr">${esc(cinema.address)}</div>
+         <button class="map-popup-btn" data-jump-cinema="${esc(cinema.name)}">Program dnes</button>
+       </div>`
+    );
+    return marker;
+  });
+
+  map.fitBounds(L.featureGroup(markers).getBounds(), { padding: [24, 24] });
+
+  /* Best-effort: a denied or unavailable permission just means the map shows
+     every cinema and nothing more, not an error state — asking "where am I"
+     is additive to "where are the cinemas", never a precondition for it. */
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(
+      position => {
+        // The map may have been torn down (tab switched away) by the time a
+        // slow geolocation prompt resolves — nothing left to draw on.
+        if (mapInstance !== map) return;
+
+        const { latitude, longitude } = position.coords;
+        const you = L.circleMarker([latitude, longitude], {
+          radius: 8, weight: 2, color: '#E7C98A', fillColor: '#E7C98A', fillOpacity: 0.85,
+        }).addTo(map).bindPopup('Tvoje poloha');
+
+        map.fitBounds(L.featureGroup([...markers, you]).getBounds(), { padding: [24, 24] });
+      },
+      () => { /* denied, unavailable, or timed out — leave the cinemas-only view as-is */ },
+      { timeout: 8000 }
+    );
+  }
+}

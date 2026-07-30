@@ -8,14 +8,14 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=23';
-import { store } from './store.js?v=23';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=24';
+import { store } from './store.js?v=24';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderProfile,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=23';
-import { esc } from './format.js?v=23';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=23';
+} from './screens.js?v=24';
+import { esc } from './format.js?v=24';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=24';
 
 /* ---------- app state ---------- */
 
@@ -196,6 +196,22 @@ function wireEvents() {
     const genrePill = event.target.closest('[data-genre]');
     if (genrePill) {
       togglePill(filters.genres, genrePill.dataset.genre);
+      return;
+    }
+
+    /* "Program dnes" inside a map pin's popup (map.js — a Leaflet popup is
+       just DOM content like anything else, so this delegated handler on
+       document.body catches clicks inside it with no special wiring). Jumps
+       to Program grouped by cinema and scrolls that venue's section into
+       view — it may not exist if that cinema has nothing on today's active
+       day, which is a normal, silent no-op rather than an error. */
+    const jumpCinema = event.target.closest('[data-jump-cinema]');
+    if (jumpCinema) {
+      progGroup = 'cinema';
+      go('program');
+      renderProg();
+      const section = document.querySelector(`[data-venue="${cssEscape(jumpCinema.dataset.jumpCinema)}"]`);
+      if (section) setTimeout(() => section.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
       return;
     }
 

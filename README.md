@@ -106,12 +106,19 @@ app/
   js/format.js   Czech dates, shared markup primitives
   js/screens.js  the four screens, detail overlay, search
   js/store.js    localStorage (watchlist, filters)
+  js/push.js     push-notification subscribe/unsubscribe (browser side)
+  js/map.js      the cinema map in Profil (Leaflet)
   js/app.js      bootstrap, navigation, events, the beam
   sw.js          offline caching
+worker/
+  index.js       Cloudflare Worker: push subscriptions + the weekly send
+package.json     worker/index.js's one dependency (@pushforge/builder) —
+                 at the repo root on purpose, see "Push notifications" below
 data/
   screenings.json   generated — do not edit by hand
   films.json        generated — do not edit by hand
   premieres.json    generated — do not edit by hand
+  cinemas.json      hand-maintained — addresses/coordinates, not scraped
 tests/
   test_kino_aero.py     tests run against a saved page, not the live site
   test_resolve.py       matching logic, tested offline against fake TMDb payloads
@@ -823,6 +830,56 @@ the dashboard:
    Node available in this environment, but VAPID keys are just a plain P-256
    ECDSA keypair, so any crypto library that can export JWK works), and
    handed over once, never committed.
+
+## Cinema map (Profil)
+
+Shows every cinema on a map, plus (best-effort) where you are relative to
+them. Matěj's two choices before building it: the map lives in Profil rather
+than a new nav slot (the bottom nav is a fixed 35mm film-strip visual with no
+room for a 5th destination) or a separate overlay, and tapping a cinema jumps
+straight to today's screenings there rather than being a dead-end popup.
+
+**Cinema locations are hand-curated data, not scraped.** `data/cinemas.json`
+holds each cinema's real address and coordinates — looked up from the
+cinema's own site (or a reliable local directory when the cinema's own
+"contact" page didn't have a street address) and geocoded once via
+OpenStreetMap's Nominatim, every result sanity-checked against Prague's own
+bounding box before being trusted. There's no pipeline step for this and no
+weekly refresh: addresses essentially don't change, so it's maintained the
+same way `resolve/overrides.json` is — by hand, on the rare occasion a
+cinema relocates or a new one joins `scrapers/run.py`'s `SCRAPERS` dict.
+
+**The one external library in this otherwise dependency-free frontend.**
+Leaflet, loaded as a classic global script in `index.html` (pinned version,
+SRI hash from Leaflet's own published snippet) rather than an ES module —
+predates that convention, and attaches itself as `window.L`. Tiles are
+CARTO's free "dark matter" basemap rather than the OpenStreetMap default: a
+bright white rectangle would be a jarring, out-of-place block in an
+otherwise near-black app, and this basemap style exists specifically for
+sitting inside dark UIs like this one.
+
+`app/js/map.js`'s `initCinemaMap()` rebuilds the whole Leaflet instance every
+time Profil renders — `renderProfile()` regenerates `#cinema-map`'s DOM from
+scratch on every visit to the tab (same as every other screen here), so the
+previous map instance is explicitly torn down first (`.remove()` plus
+dropping the reference) rather than leaking. Markers for all 13 cinemas are
+added, the view fits their combined bounds, and then — if geolocation
+succeeds — a champagne-colored "you are here" marker is added and the view
+re-fits to include it too. A denied or unavailable permission just means the
+map shows the cinemas and nothing more; asking "where am I" is additive to
+"where are the cinemas", never a precondition for it.
+
+**Tapping a marker's popup jumps into the real Program view.** Each popup's
+"Program dnes" button carries `data-jump-cinema="<name>"`; Leaflet's popup
+content is ordinary DOM content once it exists, so the same delegated
+click-handler pattern every other dynamically-rendered control in this app
+already uses (`data-save`, `data-film`, `data-prem-day`, `data-genre`, …)
+catches it with no special wiring. The handler switches Program to
+cinema-grouped view and scrolls that venue's section into view — added a
+`data-venue="<name>"` attribute to `renderCinemaMode()`'s per-venue sections
+in `screens.js` for exactly this. If that cinema has nothing on the
+currently active day, the section simply doesn't exist and the scroll is a
+silent no-op, not an error.
 
 ## Data attribution
 

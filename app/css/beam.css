@@ -583,6 +583,41 @@ header.compact .brand h1 { font-size: 26px; }
    anything, so it reads as visibly inert rather than inviting a tap that
    silently fails. */
 .switch.disabled { opacity: .35; pointer-events: none; }
+
+/* ===== cinema map (Profil) ================================================
+   Leaflet supplies its own layout/control CSS (loaded in index.html); this is
+   only the parts that need to match Beam's own dark palette instead of
+   Leaflet's default light theme, plus the popup content this app puts inside
+   a marker. */
+.map-container {
+  height: 320px; border-radius: 13px; overflow: hidden;
+  border: 1px solid var(--card-edge); background: var(--card);
+}
+/* Leaflet sizes its map to the container at creation time; a hidden or
+   zero-height container at init produces a grey, half-tiled map, which is
+   why this only ever runs once #cinema-map is actually in the DOM and
+   visible (see initCinemaMap() in map.js). */
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: var(--card); color: var(--text);
+  box-shadow: 0 12px 30px -14px rgba(0,0,0,.95);
+}
+.leaflet-popup-content { margin: 12px 14px; font-family: 'Archivo', sans-serif; }
+.map-popup strong { font-family: 'Spectral', serif; font-size: 15px; }
+.map-popup-addr { font-size: 12px; color: var(--text-2); margin-top: 2px; }
+.map-popup-btn {
+  margin-top: 9px; padding: 7px 13px; border: none; border-radius: 8px;
+  background: var(--accent); color: var(--bg); font-family: 'Archivo', sans-serif;
+  font-weight: 600; font-size: 12.5px; cursor: pointer;
+}
+.leaflet-control-zoom a {
+  background: var(--card); color: var(--text); border-color: var(--card-edge) !important;
+}
+.leaflet-control-zoom a:hover { background: var(--line); color: var(--text); }
+.leaflet-control-attribution {
+  background: rgba(12,14,17,.75); color: var(--text-3);
+}
+.leaflet-control-attribution a { color: var(--text-2); }
+
 .pill-picker { display: flex; flex-wrap: wrap; gap: 8px; }
 .fpill {
   font-size: 13px; color: var(--text-2); background: transparent; border: 1px solid var(--line);
