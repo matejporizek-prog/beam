@@ -8,12 +8,12 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=14';
-import { store } from './store.js?v=14';
+import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=15';
+import { store } from './store.js?v=15';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderProfile,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=14';
+} from './screens.js?v=15';
 
 /* ---------- app state ---------- */
 
@@ -21,6 +21,12 @@ let activeDay = null;
 let progGroup = 'film';
 let filters = store.loadFilters();
 let detailFilmId = null;
+/* 'YYYY-MM', resolved lazily. Same lifetime as activeDay above: null until
+   renderPremieres() (screens.js) picks a default the first time the tab
+   opens — this month if it has a premiere, otherwise the soonest month that
+   does — and from then on it only changes when the month-nav arrows are
+   tapped, same as every other piece of session state here. */
+let activePremMonth = null;
 
 const $ = id => document.getElementById(id);
 
@@ -90,6 +96,10 @@ function renderProg() {
   renderProgram($('prog-list'), activeDay, progGroup, filters);
 }
 
+function renderPrem() {
+  renderPremieres($('s-prem'), activePremMonth);
+}
+
 const SCREENS = { program: 's-program', prem: 's-prem', want: 's-want', prof: 's-prof' };
 
 function go(name) {
@@ -99,7 +109,7 @@ function go(name) {
   void target.offsetWidth;  // force reflow so the stagger animation replays
   target.classList.add('active');
 
-  if (name === 'prem') renderPremieres(target);
+  if (name === 'prem') renderPrem();
   if (name === 'want') renderWatchlist(target);
   if (name === 'prof') renderProfile(target);
 
@@ -119,6 +129,19 @@ function wireEvents() {
   $('seg-cinema').onclick = () => { progGroup = 'cinema'; renderProg(); };
 
   document.body.addEventListener('click', event => {
+    /* Premiéry's month-nav arrows. Delegated like every other control in this
+       screen's markup — renderPremieres() replaces the buttons on every
+       render, so a plain .onclick bound once at boot wouldn't survive past
+       the first render. A disabled edge button has an empty data-prem-month
+       and the disabled attribute already stops the click, but the emptiness
+       check guards against acting on it regardless. */
+    const monthNav = event.target.closest('[data-prem-month]');
+    if (monthNav) {
+      const month = monthNav.dataset.premMonth;
+      if (month) { activePremMonth = month; renderPrem(); }
+      return;
+    }
+
     /* A save heart, wherever it appears — Program (both modes), Premiéry, the
        watchlist. Handled before the row's own click so it never also opens the
        detail overlay. */

@@ -28,18 +28,23 @@ export const state = {
   cinemas: [],
   generatedAt: null,
   dates: [],             // every date we have data for, sorted
+  premieres: [],         // upcoming films, sorted by release_date ascending
 };
 
 /* ---------- loading ---------- */
 
 export async function loadData() {
-  const [screeningsRes, filmsRes] = await Promise.all([
+  const [screeningsRes, filmsRes, premieresRes] = await Promise.all([
     fetch(`${DATA_BASE}/screenings.json`, { cache: 'no-cache' }),
     fetch(`${DATA_BASE}/films.json`, { cache: 'no-cache' }),
+    fetch(`${DATA_BASE}/premieres.json`, { cache: 'no-cache' }),
   ]);
 
   if (!screeningsRes.ok) throw new Error(`screenings.json: ${screeningsRes.status}`);
   if (!filmsRes.ok) throw new Error(`films.json: ${filmsRes.status}`);
+  // Premieres are additive, not core — an outage or a missing file there
+  // shouldn't take down the whole app the way missing screenings/films does.
+  const premieresData = premieresRes.ok ? await premieresRes.json() : { premieres: [] };
 
   const screeningsData = await screeningsRes.json();
   const filmsData = await filmsRes.json();
@@ -50,6 +55,18 @@ export async function loadData() {
 
   state.films = new Map();
   for (const film of filmsData.films || []) state.films.set(film.film_id, film);
+
+  /* Premieres use the same film_id scheme (normalize_title of the TMDb
+     title) as films.json, so a film that's both an upcoming premiere and
+     already has real screenings would collide on one id — films.json wins,
+     since it's verified against a cinema's own page rather than inferred
+     from TMDb alone. Folding premieres into the same films Map means
+     filmById()/posterUrl()/etc. all work on a premiere for free, with no
+     separate "is this a premiere or a real film" branch anywhere else. */
+  state.premieres = premieresData.premieres || [];
+  for (const film of state.premieres) {
+    if (!state.films.has(film.film_id)) state.films.set(film.film_id, film);
+  }
 
   /* The day strip shows today and the days ahead — a day that has fully passed
      drops off. (Past *screenings* on today itself still show, dimmed; only whole

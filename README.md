@@ -41,6 +41,8 @@ $py = "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe"
 & $py -m resolve.films                     # resolve new titles -> data/films.json
 & $py -m resolve.films --retry             # also retry titles that failed before
 & $py -m resolve.films --force             # re-resolve everything from scratch
+
+& $py -m resolve.premieres                 # refresh upcoming premieres -> data/premieres.json
 ```
 
 `resolve.films` needs a TMDb key. Copy `.env.example` to `.env` and paste it in;
@@ -95,6 +97,7 @@ resolve/
   tmdb.py        TMDb client + the title matcher
   csfd.py        ČSFD links
   films.py       screenings.json -> films.json
+  premieres.py   TMDb discover (region=CZ) -> data/premieres.json
   overrides.json hand-written answers for films the matcher can't get
 app/
   index.html     the PWA shell
@@ -108,6 +111,7 @@ app/
 data/
   screenings.json   generated — do not edit by hand
   films.json        generated — do not edit by hand
+  premieres.json    generated — do not edit by hand
 tests/
   test_kino_aero.py     tests run against a saved page, not the live site
   test_resolve.py       matching logic, tested offline against fake TMDb payloads
@@ -561,8 +565,10 @@ motion. The two files sit side by side if you want to compare: open
 cast and credits, runtime, genres, age rating, trailers, ČSFD links, and the
 Vstupenky buttons — which deep-link to the exact screening, not just the
 cinema's homepage. "Now" is the real clock instead of the prototype's frozen
-constant, and the watchlist, saved premieres and filters all persist across
-reloads via localStorage.
+constant, and the watchlist and filters all persist across reloads via
+localStorage. (Premiéry was the last placeholder-data screen; see below —
+it's real now too, and its saves live in the same unified watchlist as
+everything else, not a separate mechanism.)
 
 ### Backlog items fixed while building
 
@@ -608,6 +614,80 @@ development means edits silently don't appear — a genuinely confusing failure.
 It registers only on a real domain. The shell is cached
 stale-while-revalidate rather than cache-first, so a deploy reaches users on
 their next load without anyone having to remember to bump a version number.
+
+## Premieres calendar (Phase 2)
+
+The planning doc left the premieres data source as an open "TBD": TMDb
+upcoming-releases, or Czech distributor dates. Tested both realistic TMDb
+options before writing anything real against either:
+
+- **`/movie/upcoming?region=CZ`** — TMDb's purpose-built endpoint, but too
+  thin: about a dozen results, one page.
+- **`/discover/movie?region=CZ&with_release_type=2|3`** (limited + wide
+  theatrical) — far more results, and cross-checking a sample against known
+  upcoming titles confirmed the dates really are Czech theatrical dates, not
+  some other country's, for genuinely new films.
+- **ČSFD** — the ideal, actually Czech-curated source — is still blocked by
+  the same Anubis bot-detection wall documented under "About the ČSFD link"
+  below. Not available.
+
+**One real gotcha, found by testing rather than assumed.** An old title with
+an unrelated Czech *rerelease* entry (an anniversary theatrical run) can
+still slip through the date-window filter: TMDb matches the filter against a
+`release_dates` entry it doesn't surface back, and the `release_date` field
+it *does* return is the film's original primary release — for *Avengers:
+Endgame* that's 2019, years before the window supposedly filtered to. A
+defensive floor (drop anything whose displayed date is before today) throws
+this out along with any other case where the filter and the displayed date
+disagree — `resolve/premieres.py`'s `dedupe_and_filter()`, unit-tested
+against exactly this case in `tests/test_premieres.py`.
+
+**Deliberately no popularity floor.** TMDb's discover results include a long
+tail of very obscure, near-zero-popularity titles alongside the ones anyone
+would recognise. Matěj's call: keep all of them — an arthouse premieres list
+should surface the small, easy-to-miss title, which is exactly what a
+popularity cutoff would hide first.
+
+**Premieres share the exact film_id scheme films.json uses**
+(`normalize_title` of the TMDb title, computed the same way in both files).
+That one decision removed an entire parallel concept: the old placeholder
+Premiéry stored a saved premiere under a synthetic `prem:<title>` watchlist
+id (there was no real film behind it to key on), with its own render path
+(`watchlistPremiereRow`, non-clickable, "no detail page to open") and its own
+`store.togglePremiere()`/`savedPremieres()`. None of that exists anymore.
+`data.js` merges `premieres.json`'s records straight into the same `films`
+Map films.json populates (films.json wins on a collision, since it's
+cinema-verified rather than TMDb-inferred), so a premiere is just a film that
+happens to have no screenings yet — `filmById()`, `posterUrl()`, the detail
+overlay, the watchlist row, all work on it completely for free. Saving a
+premiere now really does carry straight over into a normal watchlisted film
+the moment it starts screening, which the old synthetic-id scheme could
+never do. (The `prem:` prefix survives only inside `store.js`'s `migrate()`,
+for one already-superseded legacy storage key; nothing new is ever saved
+under it, and an old entry degrades harmlessly — correct remembered title,
+generic tile, "tento týden nehraje" — rather than crashing.)
+
+**The month grid has no prototype reference.** `app-shell-cool.html` only
+ever mocked Premiéry as a flat, month-grouped list; "month grid, not just a
+list" was a Phase 2 wishlist line in the planning doc, not a design. Built to
+match the rest of the system instead of inventing a new visual language: a
+Monday-first 7-column grid (`renderPremieres()` in `screens.js`) with a small
+dot — the day strip's own density dot, at calendar scale — marking any day
+that has a premiere, so the month's shape reads before a single title does.
+Below the grid, that month's premieres render as ordinary clickable film
+cards, poster and all, opening the same detail overlay as any other film.
+
+Month navigation is a click delegated to `[data-prem-month]` (screens.js
+returns an HTML string like every other renderer here, so a plain `.onclick`
+bound once at boot wouldn't survive a re-render replacing the buttons — same
+reasoning as the existing `data-save`/`data-film` delegation). `app.js` owns
+`activePremMonth`, resolved lazily the same way `activeDay` is: null until
+the tab is first opened, defaulting to the current month if it has a
+premiere or the soonest month that does, and from then on changed only by an
+explicit nav tap.
+
+Refreshed weekly in the same GitHub Actions run as everything else
+(`resolve.premieres`, after `resolve.films`).
 
 ## Data attribution
 

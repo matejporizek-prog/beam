@@ -1,0 +1,2551 @@
+{
+  "generated_at": "2026-07-30T11:34:14+02:00",
+  "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
+  "premieres": [
+    {
+      "film_id": "kavej 2",
+      "title_cz": "Kavej 2",
+      "title_en": "Kavej 2",
+      "original_title": "Kavej 2",
+      "year": 2026,
+      "synopsis": "Když Veronika zažije zklamání v lásce, Klára se ji rozhodne zachránit a vezme ji na Šíravu, kde spolu s nevěstami z jedničky rozjíždějí dámskou jízdu s jasným cílem – najít jí nového chlapa! Zatímco dívky hledají lásku, muži se i s dětmi vydávají za dobrodružstvím do lesa. Svůj vztah se pokouší oživit i starší Klára s Bertym, ale jejich plán se jim brzy začne vymykat z kontroly.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Komedie"
+      ],
+      "director": [
+        "Lukáš Zednikovič"
+      ],
+      "screenwriter": [
+        "Michaela Zakuťanská"
+      ],
+      "cast": [
+        "Jana Kovalčiková",
+        "Anna Jakab Rakovská",
+        "Lenka Barilíková",
+        "Branislav Matuščin",
+        "Pavol Šimun",
+        "Daniel Žulčák",
+        "Dominika Kavaschová",
+        "Peter Nádasdi"
+      ],
+      "production_company": [
+        "NOEMO"
+      ],
+      "poster_path": "/g62AY3r4zKyh9LruLbQNL5xNW0P.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/7owv6Lp3lW4PBXxioTWOiPIxQz5.jpg",
+      "trailer_youtube_key": "PudPg41uLZI",
+      "age_rating": "",
+      "tmdb_id": 1723532,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kavej+2+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-07-30"
+    },
+    {
+      "film_id": "verejny prostor frantiska skaly",
+      "title_cz": "Veřejný prostor Františka Skály",
+      "title_en": "Public Space of František Skála",
+      "original_title": "Veřejný prostor Františka Skály",
+      "year": 2026,
+      "synopsis": "Na hravé cestě veřejným prostorem s jedním z nejvšestrannějších českých umělců Františkem Skálou je možné vidět svět jinak. S humorem, vážností i sebeironií nechává výtvarník, performer a hudebník výjimečně nahlédnout do mnoha pomyslných dveří, za nimiž se nacházejí krása v nedokonalosti, poezie v obyčejnosti, otisky rukou v plynutí času a radost z tvorby jako způsob života. Tvůrčí energie Skály je cítit i z procesu vzniku monumentální sochy psa Vulpes Gott od tvorby modelu po cestu lodí po Labi na vernisáž v Drážďanech. Dějem se prolínají umělcovy deníky a objekty ve veřejném prostoru, včetně jeho první sochy v zámeckém parku Veltrusy, Prastánku nebo Rajské zahrady na Sluňákově. Ve filmu vystupují přátelé Františka Skály, kapela Třaskavá směs či dechová hudba Provodovjané a filozof Miroslav Petříček. Renesanční osobnost Skály je známá i z Divadla Sklep, skupiny Tvrdohlaví, uskupení Tros Sketos nebo M.T.O. Universal. (Pilot Film)",
+      "synopsis_language": "cs",
+      "runtime_min": 90,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Petr Slavík"
+      ],
+      "screenwriter": [
+        "Petr Slavík"
+      ],
+      "cast": [
+        "František Skála",
+        "Miroslav Petříček"
+      ],
+      "production_company": [
+        "Phoenix Production",
+        "Česká televize"
+      ],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "/2PUgju92O2kCd8md16VBI7bM0Xi.jpg",
+      "trailer_youtube_key": "yU5YVvyKq8I",
+      "age_rating": "",
+      "tmdb_id": 1733999,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ve%C5%99ejn%C3%BD+prostor+Franti%C5%A1ka+Sk%C3%A1ly+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-07-30"
+    },
+    {
+      "film_id": "",
+      "title_cz": "ウマ娘 プリティーダービー 新時代の扉",
+      "title_en": "Umamusume: Pretty Derby - Beginning of a New Era",
+      "original_title": "ウマ娘 プリティーダービー 新時代の扉",
+      "year": 2024,
+      "synopsis": "Jungle Pocket, an Umamusume who has been racing tirelessly in pursuit of becoming the greatest, is ready to take on the once-in-a-lifetime Classic Triple Crown series. However, standing in her way are rivals from the same generation, whose talent may even surpass her own.",
+      "synopsis_language": "en",
+      "runtime_min": 108,
+      "genres": [
+        "Animovaný",
+        "Drama",
+        "Komedie",
+        "Fantasy"
+      ],
+      "director": [
+        "Ken Yamamoto"
+      ],
+      "screenwriter": [
+        "Kiyoko Yoshimura"
+      ],
+      "cast": [
+        "Yuri Fujimoto",
+        "Sumire Uesaka",
+        "Yui Ogura",
+        "Haruna Fukushima",
+        "Sora Tokui",
+        "Eriko Matsui",
+        "Kanna Nakamura",
+        "Misaki Watada"
+      ],
+      "production_company": [
+        "Cygames",
+        "CyPic"
+      ],
+      "poster_path": "/esAgvmvwh6dincWHr057iyPAtQR.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/dXI7HXKQ1xeVUAaWMT67onX7XXJ.jpg",
+      "trailer_youtube_key": "h4dMQOzj-5g",
+      "age_rating": "",
+      "tmdb_id": 1223178,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%E3%82%A6%E3%83%9E%E5%A8%98+%E3%83%97%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC+%E6%96%B0%E6%99%82%E4%BB%A3%E3%81%AE%E6%89%89+2024",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-07-30"
+    },
+    {
+      "film_id": "6 gramu",
+      "title_cz": "6 gramů",
+      "title_en": "6 gramů",
+      "original_title": "6 gramů",
+      "year": 2026,
+      "synopsis": "Na lyžařském výcviku je u studentů na pokoji nalezen pytlík s bílým práškem. Čtyři otcové: divadelní herec, finanční poradce, realitní makléř s politickými ambicemi a městský policista tak zažijí odpoledne, které se rychle vymkne kontrole. Ředitelka školy si je předvolá, aby zjistila, kdo za to může.",
+      "synopsis_language": "cs",
+      "runtime_min": 90,
+      "genres": [
+        "Komedie"
+      ],
+      "director": [
+        "Miroslav Ondruš"
+      ],
+      "screenwriter": [
+        "Miroslav Ondruš"
+      ],
+      "cast": [
+        "Ondřej Vetchý",
+        "David Novotný",
+        "Jiří Mádl",
+        "Martin Pechlát",
+        "Lenka Vlasáková",
+        "Leona Skleničková",
+        "Petr Uhlík",
+        "Erika Stárková"
+      ],
+      "production_company": [],
+      "poster_path": "/xNMDEgXPeCnvdE9m49X5RNFMvnB.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/igMQSUE0EIsQQXUEsaFTX1wupAO.jpg",
+      "trailer_youtube_key": "bUrpCmnPuG8",
+      "age_rating": "",
+      "tmdb_id": 1671297,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=6+gram%C5%AF+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-08-06"
+    },
+    {
+      "film_id": "zmrzlinar",
+      "title_cz": "Zmrzlinář",
+      "title_en": "Ice Cream Man",
+      "original_title": "Ice Cream Man",
+      "year": 2026,
+      "synopsis": "V městečku Bayleen Bay panuje horké léto. Děti si užívají prázdniny, dospělí řeší své každodenní starosti a zdá se, že nic nemůže narušit ospalou atmosféru malého města. Pak ale přijíždí zmrzlinář...  Rozdává úsměvy, jeho vůz hraje známou, veselou melodii a nabízí lahodnou zmrzlinu, které žádné dítě nedokáže odolat. Jenže po prvním soustu se začíná dít něco znepokojivého. Děti se mění. Jsou agresivní, nevyzpytatelné a stále nebezpečnější. Zatímco se město propadá do chaosu, hrstka těch, kteří odolali, se snaží přijít na to, kdo tajemný zmrzlinář je a proč si vybral právě je.",
+      "synopsis_language": "cs",
+      "runtime_min": 86,
+      "genres": [
+        "Horor",
+        "Thriller"
+      ],
+      "director": [
+        "Eli Roth"
+      ],
+      "screenwriter": [
+        "Eli Roth",
+        "Noah Belson"
+      ],
+      "cast": [
+        "Ari Millen",
+        "Charlie Zeltzer",
+        "Shiloh O’Reilly",
+        "Kiori Mirza Waldman",
+        "Sarah Abbott",
+        "Benjamin Byron Davis",
+        "Karen Cliche",
+        "Dylan Hawco"
+      ],
+      "production_company": [
+        "The Horror Section",
+        "Media Capital Technologies",
+        "Head Gear Films",
+        "Mass Appeal",
+        "Metrol Technology",
+        "dentsu",
+        "Sixth Dimension",
+        "StudioCanal"
+      ],
+      "poster_path": "/fiMbQi3XceIrpZ70MTOJLTdLPGU.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/75pK9Dj1CheZFItgld9TVvb2P4x.jpg",
+      "trailer_youtube_key": "ZC3ilNa5a38",
+      "age_rating": "NR (US)",
+      "tmdb_id": 1477712,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Zmrzlin%C3%A1%C5%99+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-08-06"
+    },
+    {
+      "film_id": "birthday party",
+      "title_cz": "Birthday Party",
+      "title_en": "The Birthday Party",
+      "original_title": "The Birthday Party",
+      "year": 2026,
+      "synopsis": "Řecký magnát na svém soukromém ostrově pořádá okázalou oslavu narozenin své dcery a dědičky jeho impéria. Netuší, že se blíží řada nečekaných událostí, které ohrozí základní principy jeho života.",
+      "synopsis_language": "cs",
+      "runtime_min": 103,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Miguel Ángel Jiménez"
+      ],
+      "screenwriter": [
+        "Giorgos Karnavas",
+        "Miguel Ángel Jiménez",
+        "Nicos Panayotopoulos"
+      ],
+      "cast": [
+        "Willem Dafoe",
+        "Emma Suárez",
+        "Joe Cole",
+        "Vic Carmen Sonne",
+        "Christos Stergioglou",
+        "Carlos Cuevas",
+        "Antonis Tsiotsiopoulos",
+        "Francesc Garrido"
+      ],
+      "production_company": [
+        "Lemming Film",
+        "Heretic",
+        "Fasten Films",
+        "Birthday Party",
+        "Raucous Pictures",
+        "Kalamata Film",
+        "ERT",
+        "Eolo Film Productions",
+        "Frontstage"
+      ],
+      "poster_path": "/ds5h3Zuj97r5oUocKL7Gorch74y.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/c39vgYgzD4P770Mj6bKqkTiVErs.jpg",
+      "trailer_youtube_key": "LeSzEsiVu4g",
+      "age_rating": "",
+      "tmdb_id": 1339175,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Birthday+Party+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-08-13"
+    },
+    {
+      "film_id": "bojovnik",
+      "title_cz": "Bojovník",
+      "title_en": "Bojovník",
+      "original_title": "Bojovník",
+      "year": 2026,
+      "synopsis": "Bývalý olympijský medailista v boxu Pavel „Hoff\" Hoffmeister se po letech nechá přemluvit k návratu ke sportu a zamíří do MMA. Čeká ho zápas se starým rivalem Bélou Kardosem přezdívaným Maďarský tank, i boj o šanci napravit pošramocený vztah s dcerou.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Akční",
+        "Drama"
+      ],
+      "director": [
+        "Vojtěch Frič",
+        "Tomáš Dianiška"
+      ],
+      "screenwriter": [
+        "Tomáš Dušička",
+        "Vojtěch Frič",
+        "Tomáš Dianiška"
+      ],
+      "cast": [
+        "Milan Ondrík",
+        "Ján Jackuliak",
+        "Martin Finger",
+        "Adam Vacula",
+        "Ema Klangová Businská",
+        "Eliška Balzerová",
+        "Hana Vagnerová",
+        "Calin"
+      ],
+      "production_company": [
+        "Bontonfilm"
+      ],
+      "poster_path": "/hJ54EscofZPckG7Ac7ivzOpdrZS.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "j8h34cH_xF4",
+      "age_rating": "",
+      "tmdb_id": 1510556,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Bojovn%C3%ADk+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-08-13"
+    },
+    {
+      "film_id": "smrt robina hooda",
+      "title_cz": "Smrt Robina Hooda",
+      "title_en": "The Death of Robin Hood",
+      "original_title": "The Death of Robin Hood",
+      "year": 2026,
+      "synopsis": "Robin Hood, který se po životě plném zločinů a vražd potýká se svou minulostí, se ocitá těžce zraněný po bitvě, o níž si myslel, že bude jeho poslední. V rukou tajemné ženy se mu naskytne šance na spásu.",
+      "synopsis_language": "cs",
+      "runtime_min": 123,
+      "genres": [
+        "Dobrodružný",
+        "Drama",
+        "Akční"
+      ],
+      "director": [
+        "Michael Sarnoski"
+      ],
+      "screenwriter": [
+        "Michael Sarnoski"
+      ],
+      "cast": [
+        "Hugh Jackman",
+        "Jodie Comer",
+        "Bill Skarsgård",
+        "Murray Bartlett",
+        "Noah Jupe",
+        "Jade Croot",
+        "Faith Delaney",
+        "Tabitha Smyth"
+      ],
+      "production_company": [
+        "Lyrical Media",
+        "Ryder Picture Company"
+      ],
+      "poster_path": "/13MmRwmG5NmaMfU8qNrtgGXisiD.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/aM3pduSU53VjcALWOfLWNw8v2TI.jpg",
+      "trailer_youtube_key": "tlSDDuWxO_0",
+      "age_rating": "R (US)",
+      "tmdb_id": 1284465,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Smrt+Robina+Hooda+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-08-13"
+    },
+    {
+      "film_id": "tajemstvi kristalove planety",
+      "title_cz": "Tajemství křišťálové planety",
+      "title_en": "Tajemství křišťálové planety",
+      "original_title": "Tajemství křišťálové planety",
+      "year": 2026,
+      "synopsis": "Jedenáctiletá Rea se po rodinné tragédii stěhuje s otcem na nově osídlenou planetu, kde její otec nastupuje do replikační továrny. Rea se zde seznámí s Andym a společně objeví podzemní svět, o jehož existenci lidé netuší. Když najdou osamělé mládě vzácného tvora, rozhodnou se ho ochránit před chamtivým guvernérem, který chce zvíře zneužít pro vlastní zisk. Pátrání po pravdě je zavede do nebezpečných jeskyní, kde odhalí, že bezohledné zacházení s odpadem ohrožuje celý skrytý ekosystém.",
+      "synopsis_language": "cs",
+      "runtime_min": 97,
+      "genres": [
+        "Animovaný",
+        "Rodinný"
+      ],
+      "director": [
+        "Arsen Anton Ostojić"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "Jiří Lábus",
+        "Jan Plesl",
+        "Patricie Solaříková",
+        "Miroslav Táborský",
+        "Berenika Kohoutová",
+        "Tereza Bebarová",
+        "Adéla Hessová",
+        "Jakub Barták"
+      ],
+      "production_company": [],
+      "poster_path": "/A7N1gacjjF9BQMnrax2rH12WvOR.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/1VMmhfS6Zq3oV0gF3htxJ23KyDu.jpg",
+      "trailer_youtube_key": "o9j7QM2zS6w",
+      "age_rating": "",
+      "tmdb_id": 1670546,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Tajemstv%C3%AD+k%C5%99i%C5%A1%C5%A5%C3%A1lov%C3%A9+planety+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-08-13"
+    },
+    {
+      "film_id": "the crystal planet",
+      "title_cz": "The Crystal Planet",
+      "title_en": "The Crystal Planet",
+      "original_title": "The Crystal Planet",
+      "year": 2026,
+      "synopsis": "11-year-old Rea has recently moved to a distant planet in an outer-space colony where she discovers a mysterious animal cub while her father works in a factory that builds robotic creatures. With the help of her new friend Andy, she must protect the real cub from the factory’s ruthless owner, who intends to turn it into a robotic prototype.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Animovaný",
+        "Vědeckofantastický",
+        "Fantasy"
+      ],
+      "director": [
+        "Arsen Anton Ostojić"
+      ],
+      "screenwriter": [
+        "Aleksandar Ziljak",
+        "Arsen Anton Ostojić",
+        "Dušan Vukotić",
+        "Brett Shumway"
+      ],
+      "cast": [
+        "Jeremy Irons",
+        "Vanessa Redgrave",
+        "Michael York",
+        "Isabel Volava",
+        "Jessica Boone",
+        "Josh Morrison",
+        "Bastian Antonio Fuentes",
+        "Amelie Bellefeuille"
+      ],
+      "production_company": [
+        "BFILM",
+        "Filmosaurus Rex",
+        "Alkay Animation Prague",
+        "Hrvatski Audiovizualni Centar",
+        "Czech Audiovisual Fund",
+        "Slovak Audiovisual Fund",
+        "Česká televize",
+        "Hrvatska Radiotelevizija",
+        "Creative Europe Media",
+        "Eurimages"
+      ],
+      "poster_path": "/rmzexSt6ecrS5phOcKY6VCy9btS.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/clPH9IC2SS1BDPvTD0xrEK3nfiR.jpg",
+      "trailer_youtube_key": "ju-PPd_C1_0",
+      "age_rating": "",
+      "tmdb_id": 1477654,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=The+Crystal+Planet+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-08-13"
+    },
+    {
+      "film_id": "the end of oak street",
+      "title_cz": "The End of Oak Street",
+      "title_en": "The End of Oak Street",
+      "original_title": "The End of Oak Street",
+      "year": 2026,
+      "synopsis": "After a mysterious cosmic event rips Oak Street from suburbia and transports their neighborhood to someplace unknown, the Platt family soon discovers that their very survival depends on them sticking together as they navigate their now unrecognizable surroundings.",
+      "synopsis_language": "en",
+      "runtime_min": 100,
+      "genres": [
+        "Vědeckofantastický",
+        "Mysteriózní",
+        "Thriller"
+      ],
+      "director": [
+        "David Robert Mitchell"
+      ],
+      "screenwriter": [
+        "David Robert Mitchell"
+      ],
+      "cast": [
+        "Anne Hathaway",
+        "Ewan McGregor",
+        "Christian Convery",
+        "Maisy Stella",
+        "Jordan Alexa Davis",
+        "P.J. Byrne",
+        "Chris Coy",
+        "Bethany Anne Lind"
+      ],
+      "production_company": [
+        "Warner Bros. Pictures",
+        "Domain Entertainment",
+        "Bad Robot",
+        "Jackson Pictures"
+      ],
+      "poster_path": "/fYXqpgPmHMphSF2W30GbTeJVIa5.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
+      "trailer_youtube_key": "u4tgctWuHc0",
+      "age_rating": "PG-13 (US)",
+      "tmdb_id": 1101383,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=The+End+of+Oak+Street+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-08-13"
+    },
+    {
+      "film_id": "jsou mezi nami",
+      "title_cz": "Jsou mezi námi",
+      "title_en": "Insidious: Out of the Further",
+      "original_title": "Insidious: Out of the Further",
+      "year": 2026,
+      "synopsis": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Horor",
+        "Thriller"
+      ],
+      "director": [
+        "Jacob Chase"
+      ],
+      "screenwriter": [
+        "Jacob Chase",
+        "David Leslie Johnson-McGoldrick"
+      ],
+      "cast": [
+        "Amelia Eve",
+        "Island Austin",
+        "Lin Shaye",
+        "Sam Spruell",
+        "Brandon Perea",
+        "Maisie Richardson-Sellers",
+        "Joseph Lopez",
+        "Laura Gordon"
+      ],
+      "production_company": [
+        "Blumhouse Productions",
+        "Screen Gems",
+        "Stage 6 Films",
+        "Atomic Monster"
+      ],
+      "poster_path": "/4tTrW9dXCByS5wt2pXVWb58zNjz.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/hD8y787ciNWQ2bn396YrSsOIzdN.jpg",
+      "trailer_youtube_key": "jxU8FU3o75A",
+      "age_rating": "PG-13 (US)",
+      "tmdb_id": 1291595,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Jsou+mezi+n%C3%A1mi+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-08-20"
+    },
+    {
+      "film_id": "one night only",
+      "title_cz": "One Night Only",
+      "title_en": "One Night Only",
+      "original_title": "One Night Only",
+      "year": 2026,
+      "synopsis": "Two love-starved strangers crash into each other on the one night of the year when single people are allowed to have sex.",
+      "synopsis_language": "en",
+      "runtime_min": 102,
+      "genres": [
+        "Komedie",
+        "Romantický",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Will Gluck"
+      ],
+      "screenwriter": [
+        "Travis Braun"
+      ],
+      "cast": [
+        "Monica Barbaro",
+        "Callum Turner",
+        "Maya Hawke",
+        "Julia Fox",
+        "Molly Ringwald",
+        "LeVar Burton",
+        "Okieriete Onaodowan",
+        "Este Haim"
+      ],
+      "production_company": [
+        "Universal Pictures",
+        "Olive Bridge Entertainment"
+      ],
+      "poster_path": "/f1v8IcYcQggeq1N0unoMJMrzTd9.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/mfgNUnFB25BNIwe9iPJ17cUN64S.jpg",
+      "trailer_youtube_key": "lDsAVq9lo9g",
+      "age_rating": "R (US)",
+      "tmdb_id": 1433367,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=One+Night+Only+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-08-20"
+    },
+    {
+      "film_id": "",
+      "title_cz": "ブルーロック",
+      "title_en": "Blue Lock",
+      "original_title": "ブルーロック",
+      "year": 2026,
+      "synopsis": "A secret training program is established by the Japan Football Union to scout the world’s greatest striker after several years of defeat for the national team. Three hundred high school players gather at a remote facility to compete in ruthless trials where only one will emerge as the world’s greatest and most egoistic striker. The price of failure is absolute: those eliminated are permanently banned from ever joining the National Team.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Akční",
+        "Drama"
+      ],
+      "director": [
+        "Yusuke Taki"
+      ],
+      "screenwriter": [
+        "Tetsuo Kamata"
+      ],
+      "cast": [
+        "Fumiya Takahashi",
+        "Kaito Sakurai",
+        "Kyohei Takahashi",
+        "Kouta Nomura",
+        "Yuzu Aoki",
+        "Sho Nishigaki",
+        "Yuki Tachibana",
+        "Raizou Ishikawa"
+      ],
+      "production_company": [
+        "TOHO"
+      ],
+      "poster_path": "/mMNJWZ0G1eMBo3nE07pDcHWi6By.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/znXyQgqITDm8fJxcvmlRpKlw49T.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1623376,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-08-20"
+    },
+    {
+      "film_id": "osamely vlk",
+      "title_cz": "Osamělý vlk",
+      "title_en": "Osamělý vlk",
+      "original_title": "Osamělý vlk",
+      "year": 2026,
+      "synopsis": "Dokudrama Osamělý vlk sleduje život a bojové osudy stíhače RAF Josefa Františka. Režisér Ondřej Veverka představí divákům příběh letce, který se proslavil v řadách 303. polské stíhací perutě RAF během letecké bitvy o Británii. Příběh přiblíží Josefa Františka nejen jako letecké eso s osmnácti sestřely během bitvy o Británii, ale také jako člověka s vnitřními pochybnostmi a výjimečnou odvahou.",
+      "synopsis_language": "cs",
+      "runtime_min": 94,
+      "genres": [
+        "Dokumentární",
+        "Drama",
+        "Historický"
+      ],
+      "director": [
+        "Ondřej Veverka"
+      ],
+      "screenwriter": [
+        "Ondřej Veverka",
+        "Petr Pelech"
+      ],
+      "cast": [
+        "Viktor Zavadil",
+        "Tadeáš Moravec",
+        "Piotr Trojan",
+        "Kryštof Grygar",
+        "Josef Trojan",
+        "Jan Nedbal",
+        "Miroslav Hanuš",
+        "Jan Budař"
+      ],
+      "production_company": [
+        "Rolling media",
+        "Česká televize",
+        "QQ Studio Ostrava",
+        "Magiclab"
+      ],
+      "poster_path": "/z4qNJNFIqtokBhdiylqJGJywGlC.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1732663,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Osam%C4%9Bl%C3%BD+vlk+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-08-27"
+    },
+    {
+      "film_id": "vzhlizet ke hvezdam",
+      "title_cz": "Vzhlížet ke hvězdám",
+      "title_en": "The Dog Stars",
+      "original_title": "The Dog Stars",
+      "year": 2026,
+      "synopsis": "Ve strhujícím epickém thrilleru, který se odehrává ve světě, kde přežití je instinkt, ale lidskost je volbou, vypráví Ridley Scott příběh Higa, mladého pilota, který si společně s vojenským survivalistou Bangleyem vybudoval efektivní, ale izolovanou usedlost v brutálním postapokalyptickém světě. Teprve záhadný rádiový signál podnítí Higa k výpravě do neznáma, kde hledá naději v jejichž existenci stále věří.",
+      "synopsis_language": "cs",
+      "runtime_min": 118,
+      "genres": [
+        "Dobrodružný",
+        "Vědeckofantastický",
+        "Thriller"
+      ],
+      "director": [
+        "Ridley Scott"
+      ],
+      "screenwriter": [
+        "Mark L. Smith"
+      ],
+      "cast": [
+        "Jacob Elordi",
+        "Josh Brolin",
+        "Margaret Qualley",
+        "Guy Pearce",
+        "Allison Janney",
+        "Benedict Wong",
+        "Alara-Star Khan"
+      ],
+      "production_company": [
+        "20th Century Studios",
+        "Scott Free Productions",
+        "TSG Entertainment"
+      ],
+      "poster_path": "/A7i16oDi03qrKep5pBfuTWNUTb.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/quAHqi4zBrB5fIfHvgrqiG4xzAC.jpg",
+      "trailer_youtube_key": "-xSxaE1ClEE",
+      "age_rating": "R (US)",
+      "tmdb_id": 1384216,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Vzhl%C3%AD%C5%BEet+ke+hv%C4%9Bzd%C3%A1m+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-08-27"
+    },
+    {
+      "film_id": "dokonaly den",
+      "title_cz": "Dokonalý den",
+      "title_en": "Dokonalý den",
+      "original_title": "Dokonalý den",
+      "year": 2026,
+      "synopsis": "Anna spěchá na pracovní pohovor. Má to promyšlené, naplánované a pod kontrolou…až do chvíle, než se jí cestou pokazí auto. Anna místo kariérního vítězství končí ve vlaku, kde potká Edu. Eda vystoupí v místě, které pro něj má velký význam, a přesvědčí nic netušící Annu, aby ho následovala. Zažívají nečekaná dobrodružství, poznávají okolí i jeden druhého. Po noci plné vášně přichází ráno a s ním i vystřízlivění. Eda je krátce po rozchodu a Anna brzy odcestuje do Kanady. Je na čase se rozloučit. Jenže život má pro Annu jiné plány. V práci o ni totiž projeví velký zájem Ellis. Anna se tak poprvé v životě ocitá mezi dvěma úplně odlišnými světy…a dvěma úplně odlišnými možnostmi, kam její život může směřovat.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Romantický",
+        "Komedie"
+      ],
+      "director": [
+        "Jiří Matoušek"
+      ],
+      "screenwriter": [
+        "Marie Stará"
+      ],
+      "cast": [
+        "Kateřina Marie Fialová",
+        "Vladimír Polívka",
+        "Tereza Kostková",
+        "Natalia Germani",
+        "Anna Dvořáková",
+        "Tomáš Jeřábek",
+        "Marek Taclík",
+        "Vojtěch Vondráček"
+      ],
+      "production_company": [
+        "DonArt production"
+      ],
+      "poster_path": "/wFOAWewYLpZGIlIcazZyzfE3nZ.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "QbAdlAaOYro",
+      "age_rating": "",
+      "tmdb_id": 1733409,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Dokonal%C3%BD+den+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-09-03"
+    },
+    {
+      "film_id": "posledna sezona",
+      "title_cz": "Posledná sezóna",
+      "title_en": "The Last Season",
+      "original_title": "Posledná sezóna",
+      "year": 2026,
+      "synopsis": "Alan, chlapec vyrůstající u kolotočů, se snaží najít svou vlastní cestu a odlišit se od rodinných očekávání.",
+      "synopsis_language": "cs",
+      "runtime_min": 83,
+      "genres": [
+        "Drama",
+        "Romantický"
+      ],
+      "director": [
+        "Pavol Hirjak"
+      ],
+      "screenwriter": [
+        "Pavol Hirjak"
+      ],
+      "cast": [
+        "Tadeáš Moravec",
+        "Mária Miklošková",
+        "Tomáš Havlínek",
+        "Broňa Kováčiková",
+        "Marko Igonda",
+        "Michal Soltész",
+        "František Beleš",
+        "Katka Krajčovičová"
+      ],
+      "production_company": [
+        "inframe pictures",
+        "FAMU"
+      ],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "9puFrnjDd98",
+      "age_rating": "15+",
+      "tmdb_id": 1448030,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Posledn%C3%A1+sez%C3%B3na+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-09-03"
+    },
+    {
+      "film_id": "samuraj a vezen",
+      "title_cz": "Samuraj a vězeň",
+      "title_en": "The Samurai and the Prisoner",
+      "original_title": "黒牢城",
+      "year": 2026,
+      "synopsis": "Děj de odehrává v Japonsku roku 1578, v nejistém období válčících států. V centru příběhu stojí napjatý vztah dvou mužů. Pána hradu samuraje Murashige Arakiho a jeho zajatce, brilantního a nebezpečného stratéga Kanbeie Kurody, vyslance znepřáteleného klanu, kterého Araki místo popravy uvězní. Zatímco se kolem hradeb stahují vojska Nobunagy Ody, hrad zachvacuje řada nevysvětlitelných úmrtí a mezi obránci sílí strach, nedůvěra a podezíravost. Postupné rozplétání záhady se stává nejen detektivním pátráním, ale také soubojem vůle, loajality a rozdílných představ o cti, moci a svobodě.",
+      "synopsis_language": "cs",
+      "runtime_min": 147,
+      "genres": [
+        "Drama",
+        "Historický",
+        "Mysteriózní"
+      ],
+      "director": [
+        "Kiyoshi Kurosawa"
+      ],
+      "screenwriter": [
+        "Kiyoshi Kurosawa"
+      ],
+      "cast": [
+        "Masahiro Motoki",
+        "Masaki Suda",
+        "Yuriko Yoshitaka",
+        "Munetaka Aoki",
+        "Ryota Miyadate",
+        "Tasuku Emoto",
+        "Joe Odagiri",
+        "Yusuke Santamaria"
+      ],
+      "production_company": [
+        "Shochiku",
+        "TBS",
+        "Shochiku Studio"
+      ],
+      "poster_path": "/q0CWp4udY4AxuxlmebuIRNT3lyW.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/z5oMoDs6a1GAuK5cNAeBkAr0yk.jpg",
+      "trailer_youtube_key": "dY5kXykdbLo",
+      "age_rating": "",
+      "tmdb_id": 1620313,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Samuraj+a+v%C4%9Bze%C5%88+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-09-03"
+    },
+    {
+      "film_id": "lecive ucinky sebeklamu",
+      "title_cz": "Léčivé účinky sebeklamu",
+      "title_en": "Léčivé účinky sebeklamu",
+      "original_title": "Léčivé účinky sebeklamu",
+      "year": 2026,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "Adolf Zika"
+      ],
+      "screenwriter": [
+        "Adolf Zika"
+      ],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1735501,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=L%C3%A9%C4%8Div%C3%A9+%C3%BA%C4%8Dinky+sebeklamu+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-09-10"
+    },
+    {
+      "film_id": "practical magic 2",
+      "title_cz": "Practical Magic 2",
+      "title_en": "Practical Magic 2",
+      "original_title": "Practical Magic 2",
+      "year": 2026,
+      "synopsis": "The Owens sisters must confront the dark curse that threatens to unravel their family once and for all.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Komedie"
+      ],
+      "director": [
+        "Susanne Bier"
+      ],
+      "screenwriter": [
+        "Akiva Goldsman",
+        "Georgia Pritchett"
+      ],
+      "cast": [
+        "Sandra Bullock",
+        "Nicole Kidman",
+        "Joey King",
+        "Maisie Williams",
+        "Xolo Maridueña",
+        "Lee Pace",
+        "Dianne Wiest",
+        "Stockard Channing"
+      ],
+      "production_company": [
+        "Di Novi Pictures",
+        "Warner Bros. Pictures",
+        "Blossom Films",
+        "Fortis Films",
+        "Domain Entertainment",
+        "Alcon Entertainment"
+      ],
+      "poster_path": "/uA8ytJv17alSiREcUthbYAdiPCX.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/yDgYYuz8jDQCRJbHC3XM7IIGoeR.jpg",
+      "trailer_youtube_key": "Ho10_4IX1jE",
+      "age_rating": "",
+      "tmdb_id": 1302904,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Practical+Magic+2+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-09-10"
+    },
+    {
+      "film_id": "coyote vs acme",
+      "title_cz": "Coyote vs. Acme",
+      "title_en": "Coyote vs. Acme",
+      "original_title": "Coyote vs. Acme",
+      "year": 2026,
+      "synopsis": "After Acme products fail him one too many times in his dogged pursuit of the Roadrunner, Wile E. Coyote decides to hire a billboard lawyer to sue the Acme Corporation.",
+      "synopsis_language": "en",
+      "runtime_min": 103,
+      "genres": [
+        "Komedie",
+        "Dobrodružný",
+        "Rodinný"
+      ],
+      "director": [
+        "Dave Green"
+      ],
+      "screenwriter": [
+        "Samy Burch",
+        "James Gunn",
+        "Jeremy Slater"
+      ],
+      "cast": [
+        "Will Forte",
+        "Lana Condor",
+        "Tone Bell",
+        "John Cena",
+        "Eric Bauza",
+        "P.J. Byrne",
+        "Martha Kelly",
+        "Luis Guzmán"
+      ],
+      "production_company": [
+        "Troll Court Entertainment",
+        "Keylight Pictures",
+        "Warner Animation Group",
+        "Warner Bros. Pictures"
+      ],
+      "poster_path": "/7zNmJP6z6mDAp4LouacYkGSBUQv.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/AbQYEHieBJsMheLFKM02rFu0xnc.jpg",
+      "trailer_youtube_key": "kMsiD1Nky5I",
+      "age_rating": "U",
+      "tmdb_id": 1204680,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Coyote+vs.+Acme+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-09-17"
+    },
+    {
+      "film_id": "resident evil",
+      "title_cz": "Resident Evil",
+      "title_en": "Resident Evil",
+      "original_title": "Resident Evil",
+      "year": 2026,
+      "synopsis": "Bryan, a medical courier, is in the process of making a delivery when a sudden outbreak occurs, forcing him to fight for survival.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Horor",
+        "Vědeckofantastický",
+        "Thriller"
+      ],
+      "director": [
+        "Zach Cregger"
+      ],
+      "screenwriter": [
+        "Shay Hatten",
+        "Zach Cregger"
+      ],
+      "cast": [
+        "Austin Abrams",
+        "Zach Cherry",
+        "Kali Reis",
+        "Paul Walter Hauser",
+        "Johnno Wilson"
+      ],
+      "production_company": [
+        "Constantin Film",
+        "Subconscious",
+        "Vertigo Entertainment",
+        "Davis Films",
+        "Columbia Pictures",
+        "PlayStation Productions",
+        "TriStar Pictures"
+      ],
+      "poster_path": "/zP83bIkBViw5b1s9bDemYJ3AAgX.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/ddfXMkaPViSrg0P5aoYGFMc58x2.jpg",
+      "trailer_youtube_key": "mNd1gb19A-c",
+      "age_rating": "",
+      "tmdb_id": 1423191,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Resident+Evil+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-09-17"
+    },
+    {
+      "film_id": "v srdci divociny",
+      "title_cz": "V srdci divočiny",
+      "title_en": "Heart of the Beast",
+      "original_title": "Heart of the Beast",
+      "year": 2026,
+      "synopsis": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "synopsis_language": "en",
+      "runtime_min": 101,
+      "genres": [
+        "Akční",
+        "Dobrodružný",
+        "Drama",
+        "Thriller"
+      ],
+      "director": [
+        "David Ayer"
+      ],
+      "screenwriter": [
+        "Cameron Alexander"
+      ],
+      "cast": [
+        "Brad Pitt",
+        "J.K. Simmons",
+        "Anna Lambe"
+      ],
+      "production_company": [
+        "Paramount Pictures",
+        "Wild Chickens Productions",
+        "Temple Hill Entertainment",
+        "Domain Entertainment",
+        "GulfStream Pictures",
+        "Kino World"
+      ],
+      "poster_path": "/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
+      "trailer_youtube_key": "JFQcDFhNh4o",
+      "age_rating": "R (US)",
+      "tmdb_id": 1263337,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=V+srdci+divo%C4%8Diny+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-09-24"
+    },
+    {
+      "film_id": "zapomenuty ostrov",
+      "title_cz": "Zapomenutý ostrov",
+      "title_en": "Forgotten Island",
+      "original_title": "Forgotten Island",
+      "year": 2026,
+      "synopsis": "While celebrating their last night together, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the memories of their entire friendship are the price for returning home, Jo and Raissa will race to find a way to leave the island before they forget each other forever.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Dobrodružný",
+        "Animovaný",
+        "Komedie",
+        "Rodinný",
+        "Fantasy"
+      ],
+      "director": [
+        "Januel Mercado",
+        "Joel Crawford"
+      ],
+      "screenwriter": [
+        "Joel Crawford",
+        "Januel Mercado"
+      ],
+      "cast": [
+        "H.E.R.",
+        "Liza Soberano",
+        "Dave Franco",
+        "Lea Salonga",
+        "Manny Jacinto",
+        "Jenny Slate",
+        "Dolly de Leon",
+        "Jo Koy"
+      ],
+      "production_company": [
+        "DreamWorks Animation"
+      ],
+      "poster_path": "/kW1fH2jZZM5tVHwNaDdUOUXJvWU.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
+      "trailer_youtube_key": "f7mFVeWnVLw",
+      "age_rating": "PG (US)",
+      "tmdb_id": 1465063,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Zapomenut%C3%BD+ostrov+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-09-24"
+    },
+    {
+      "film_id": "digger",
+      "title_cz": "Digger",
+      "title_en": "Digger",
+      "original_title": "Digger",
+      "year": 2026,
+      "synopsis": "Nejmocnější muž světa se vydává na zběsilou misi, aby dokázal, že je spasitelem lidstva, než katastrofa, kterou způsobil, zničí vše.",
+      "synopsis_language": "cs",
+      "runtime_min": 106,
+      "genres": [
+        "Drama",
+        "Komedie"
+      ],
+      "director": [
+        "Alejandro G. Iñárritu"
+      ],
+      "screenwriter": [
+        "Alejandro G. Iñárritu",
+        "Alexander Dinelaris",
+        "Nicolás Giacobone",
+        "Sabina Berman"
+      ],
+      "cast": [
+        "Tom Cruise",
+        "Riz Ahmed",
+        "John Goodman",
+        "Sandra Hüller",
+        "Michael Stuhlbarg",
+        "Jesse Plemons",
+        "Robert John Burke",
+        "Emma D'Arcy"
+      ],
+      "production_company": [
+        "Warner Bros. Pictures",
+        "Legendary Pictures",
+        "TC Productions",
+        "M Productions",
+        "Domain Entertainment"
+      ],
+      "poster_path": "/qiXi6tAv8DoNfPf56G4yljjWhqG.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg",
+      "trailer_youtube_key": "Olzrt7uPtg8",
+      "age_rating": "R (US)",
+      "tmdb_id": 1248832,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Digger+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-10-01"
+    },
+    {
+      "film_id": "verity",
+      "title_cz": "Verity",
+      "title_en": "Verity",
+      "original_title": "Verity",
+      "year": 2026,
+      "synopsis": "Lowen Ashleigh gets hired by Jeremy Crawford to ghostwrite novels for his bestselling author wife Verity, who's unable to finish after an accident. Lowen uncovers Verity's disturbing truths while residing at the Crawfords' home to work.",
+      "synopsis_language": "en",
+      "runtime_min": 114,
+      "genres": [
+        "Mysteriózní",
+        "Thriller"
+      ],
+      "director": [
+        "Michael Showalter"
+      ],
+      "screenwriter": [
+        "Nick Antosca"
+      ],
+      "cast": [
+        "Dakota Johnson",
+        "Anne Hathaway",
+        "Josh Hartnett",
+        "Ismael Cruz Cordova",
+        "Brady Wagner",
+        "Irina Dvorovenko",
+        "K.K. Moggie",
+        "Michael Abbott Jr."
+      ],
+      "production_company": [
+        "Eat the Cat",
+        "Semi-Formal Productions",
+        "Somewhere Pictures",
+        "Shiny Penny Productions",
+        "Heartbones Entertainment",
+        "Amazon MGM Studios"
+      ],
+      "poster_path": "/dGSsPovyUW5XVekXcy7F2GyhTEh.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/9qxyrJfjk577ym5WD6HCDmunoyO.jpg",
+      "trailer_youtube_key": "wbMNy_djxGk",
+      "age_rating": "R (US)",
+      "tmdb_id": 1283515,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Verity+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-10-01"
+    },
+    {
+      "film_id": "zprava pro minervu 2",
+      "title_cz": "Zpráva pro Minervu 2",
+      "title_en": "A Report for Minerva 2",
+      "original_title": "Zpráva pro Minervu 2",
+      "year": 2026,
+      "synopsis": "The lives of a mismatched group of guests and employees become entangled in a run-down hotel. Some have come in search of peace and a brief escape from their daily routine, while others long for change – or even love. A lonely clarinetist crosses paths with a young man looking for a romantic adventure, an unhappily married couple, an idiosyncratic hotel staff member, and also an alien sent from the planet Minerva 2 in order to report on the state of Earth. A mosaic of fourteen interwoven stories emerges through fleeting situations, awkward moments, interior monologues, and quiet observations. This experimental film by Miroslav Krobot and Lubomír Smékal is loosely based on the stage production of the same name by the S 23 Theatre Company, whose non-professional actors put together stage performances based on the dialogical acting method.",
+      "synopsis_language": "en",
+      "runtime_min": 69,
+      "genres": [
+        "Komedie"
+      ],
+      "director": [
+        "Miroslav Krobot",
+        "Lubomír Smékal"
+      ],
+      "screenwriter": [
+        "Lubomír Smékal",
+        "Miroslav Krobot"
+      ],
+      "cast": [
+        "Kristína Jurková",
+        "Vojtěch Hříbek",
+        "Jana Posníková",
+        "Adam Vašek",
+        "Klára Müllerová",
+        "Sofia Vatan",
+        "Monika Začalová",
+        "Libardo Ceballos Ordoñez"
+      ],
+      "production_company": [
+        "Film Kolektiv",
+        "Spolek 23"
+      ],
+      "poster_path": "/lHd87n4Ki7GkLgfuJxqRhxEo8MR.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/fZ3B2oZJNFHECDLbGmcENSXHMXm.jpg",
+      "trailer_youtube_key": "WtYsykSq7v4",
+      "age_rating": "",
+      "tmdb_id": 1708962,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Zpr%C3%A1va+pro+Minervu+2+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-10-01"
+    },
+    {
+      "film_id": "pat mat zpatky na venkove",
+      "title_cz": "Pat & Mat: Zpátky na venkově",
+      "title_en": "Pat & Mat: Zpátky na venkově",
+      "original_title": "Pat & Mat: Zpátky na venkově",
+      "year": 2026,
+      "synopsis": "Pat a Mat se vracejí na venkov! Legendární kutilská dvojice, která už 50 let baví celé generace diváků, znovu otevírá dveře do světa plného originálních nápadů, nečekaných katastrof a laskavého humoru, který spojuje rodiče i děti. Na svém sídle se znovu vrhají do víru kutilských dobrodružství, kde o groteskní situace není nouze. Klimatizaci nahradí bublinkovou fólií a starým vysavačem, květinovou stěnu propojí s umyvadlem pomocí hadic a obyčejné domácí práce promění v sérii bláznivých experimentů. Hlíva ústřičná v kuchyni, lyžování na improvizované sjezdovce v obýváku nebo utkání ve fotbale či kroketu, která se rychle vymknou kontrole? Pro Pata a Mata žádný problém. Zvládnou předělat bojler i pračku a po 50 letech se rozhodnou najít si i nového kamaráda. Samozřejmě po svém. A je to!",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [],
+      "director": [
+        "Marek Beneš"
+      ],
+      "screenwriter": [
+        "Marek Beneš"
+      ],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1733496,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Pat+%26+Mat%3A+Zp%C3%A1tky+na+venkov%C4%9B+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-10-08"
+    },
+    {
+      "film_id": "the social reckoning",
+      "title_cz": "The Social Reckoning",
+      "title_en": "The Social Reckoning",
+      "original_title": "The Social Reckoning",
+      "year": 2026,
+      "synopsis": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Aaron Sorkin"
+      ],
+      "screenwriter": [
+        "Aaron Sorkin"
+      ],
+      "cast": [
+        "Mikey Madison",
+        "Jeremy Allen White",
+        "Jeremy Strong",
+        "Wunmi Mosaku",
+        "Betty Gilpin",
+        "Billy Magnussen",
+        "Bill Burr",
+        "Gbenga Akinnagbe"
+      ],
+      "production_company": [
+        "Columbia Pictures",
+        "Escape Artists",
+        "Alcon Entertainment",
+        "The Gotham Group",
+        "TSG Entertainment"
+      ],
+      "poster_path": "/qZr5bxGXE1t2A9pNSikb9fQKzov.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/ycqTwRV7jUxjMospXxKTVS74nft.jpg",
+      "trailer_youtube_key": "gM4LkaXwGuY",
+      "age_rating": "",
+      "tmdb_id": 1281331,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=The+Social+Reckoning+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-10-08"
+    },
+    {
+      "film_id": "victorian psycho",
+      "title_cz": "Victorian Psycho",
+      "title_en": "Victorian Psycho",
+      "original_title": "Victorian Psycho",
+      "year": 2026,
+      "synopsis": "When eccentric young governess Winifred Notty arrives at a remote Gothic manor, a string of unsettling events leads the household to suspect she isn't who she claims to be—but the truth may be far more dangerous than they imagine.",
+      "synopsis_language": "en",
+      "runtime_min": 90,
+      "genres": [
+        "Horor",
+        "Thriller"
+      ],
+      "director": [
+        "Zachary Wigon"
+      ],
+      "screenwriter": [
+        "Virginia Feito"
+      ],
+      "cast": [
+        "Maika Monroe",
+        "Thomasin McKenzie",
+        "Ruth Wilson",
+        "Jason Isaacs",
+        "Evie Templeton",
+        "Jacobi Jupe",
+        "Amy De Bhrún",
+        "Katherine Moran"
+      ],
+      "production_company": [
+        "Anton",
+        "Traffic.",
+        "Anonymous Content"
+      ],
+      "poster_path": "/9LHVZevgdsdbjJdkFr6bk9EwX7q.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/92FSzMpBSkMH59ZCDz9tUjIWKAS.jpg",
+      "trailer_youtube_key": "eLtzPZvvJRs",
+      "age_rating": "R (US)",
+      "tmdb_id": 1379486,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Victorian+Psycho+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-10-08"
+    },
+    {
+      "film_id": "wirbel",
+      "title_cz": "Wirbel",
+      "title_en": "Wirbel",
+      "original_title": "Wirbel",
+      "year": 2026,
+      "synopsis": "A dilapidated house stands among the fields in the rolling landscape of the Czech Central Mountains. Its new and only inhabitant is Martin, who left the city to rediscover his lost sense of direction here. But when the mysterious Agnes appears on his doorstep, his secluded world begins to crumble. As the landscape resists and an ancient danger hidden in the soil comes to life, Martin must restore the lost memory of the place to save Agnes, the land, and himself.",
+      "synopsis_language": "en",
+      "runtime_min": 96,
+      "genres": [
+        "Drama",
+        "Mysteriózní"
+      ],
+      "director": [
+        "Tomáš Hubáček"
+      ],
+      "screenwriter": [
+        "Tomáš Hubáček"
+      ],
+      "cast": [
+        "David Švehlík",
+        "Judit Pecháček",
+        "Milan Mikulčík",
+        "Martin Finger",
+        "Alexej Pyško",
+        "Markéta Coufalová",
+        "Marie Švestková",
+        "Philipp Schenker"
+      ],
+      "production_company": [
+        "Mimesis Film",
+        "Sentimentalfilm"
+      ],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "SvJ5ljzGtN0",
+      "age_rating": "",
+      "tmdb_id": 1734866,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Wirbel+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-10-08"
+    },
+    {
+      "film_id": "divocina",
+      "title_cz": "Divočina",
+      "title_en": "Divočina",
+      "original_title": "Divočina",
+      "year": 2026,
+      "synopsis": "Drama o tom, že skutečná divočina je vlastní rodina! Marta s dětmi utíká od násilnického manžela Milana a hledá útočiště v domě svého dětství. Namísto klidu a bezpečí se musí konfrontovat se stárnoucím podivínským otcem – prepperem. Ten z domu na okraji lesa buduje soukromou pevnost, v níž se připravuje na konec světa. Martu i vnučky zapojí do své „školy přežití“. Když se nečekaně objeví Milan a chce si odvést dcery, Marty snaha vzít život do vlastních rukou nabere dramatický spád hrozící rodinnou apokalypsou.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Evženie Brabcová"
+      ],
+      "screenwriter": [
+        "Evženie Brabcová",
+        "Aneta Honzková"
+      ],
+      "cast": [
+        "Klára Issová",
+        "Jan Vlasák",
+        "Ivana Uhlířová"
+      ],
+      "production_company": [
+        "BFILM.cz"
+      ],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1356215,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Divo%C4%8Dina+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-10-15"
+    },
+    {
+      "film_id": "fjord",
+      "title_cz": "Fjord",
+      "title_en": "Fjord",
+      "original_title": "Fjord",
+      "year": 2026,
+      "synopsis": "After the deaths of Mihai's parents, Mihai and Lisbeth Gheorghiu leave everything behind in Romania and move with their children to a remote village in Norway, hoping to rebuild their lives near Lisbeth's family. There, they grow close to their neighbors, the Halbergs, whose warmth offers the promise of a fresh start. But the fragile peace begins to unravel when the Gheorghius' young daughter, Elia, arrives at school covered in bruises.",
+      "synopsis_language": "en",
+      "runtime_min": 146,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Cristian Mungiu"
+      ],
+      "screenwriter": [
+        "Cristian Mungiu"
+      ],
+      "cast": [
+        "Sebastian Stan",
+        "Renate Reinsve",
+        "Lisa Carlehed",
+        "Ellen Dorrit Petersen",
+        "Lisa Loven Kongsli",
+        "Henrikke Lund Olsen",
+        "Vanessa Ceban",
+        "Jonathan Ciprian Breazu"
+      ],
+      "production_company": [
+        "Mobra Films",
+        "Why Not Productions",
+        "Eye Eye Pictures",
+        "Snowglobe",
+        "Aamu Film Company",
+        "Garagefilm International",
+        "Film i Väst",
+        "France 3 Cinéma",
+        "Goodfellas",
+        "Filmgate Films",
+        "Library Pictures International",
+        "LEAF Entertainment",
+        "Mediefondet Zefyr"
+      ],
+      "poster_path": "/famtit0VTanysCoXVkMpqaxYElD.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/6wMoHrnRJkOA6XFcq4V34z3RxkI.jpg",
+      "trailer_youtube_key": "0gdRZZVoinM",
+      "age_rating": "",
+      "tmdb_id": 1401459,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Fjord+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-10-15"
+    },
+    {
+      "film_id": "street fighter",
+      "title_cz": "Street Fighter",
+      "title_en": "Street Fighter",
+      "original_title": "Street Fighter",
+      "year": 2026,
+      "synopsis": "In 1993, estranged Street Fighters Ryu and Ken Masters are thrown back into combat when the mysterious Chun-Li recruits them for the next World Warrior Tournament: a brutal clash of fists, fate, and fury. But behind this battle royale lies a deadly conspiracy that forces them to face off against each other and the demons of their past. And if they don't, it's GAME OVER!",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Akční",
+        "Komedie",
+        "Fantasy"
+      ],
+      "director": [
+        "Kitao Sakurai"
+      ],
+      "screenwriter": [
+        "Dalan Musson",
+        "Gary Dauberman",
+        "T.J. Fixman",
+        "Kitao Sakurai"
+      ],
+      "cast": [
+        "Noah Centineo",
+        "Andrew Koji",
+        "Callina Liang",
+        "Joe Anoa'i",
+        "David Dastmalchian",
+        "Cody Rhodes",
+        "Andrew Schulz",
+        "Eric André"
+      ],
+      "production_company": [
+        "Capcom",
+        "Legendary Pictures"
+      ],
+      "poster_path": "/wOnoOeDcsLSo72ON1UC6c1VHKk1.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/m45xBFqUT4EYpb8eIbamPGK3qea.jpg",
+      "trailer_youtube_key": "Xt4X4FvXk2A",
+      "age_rating": "PG-13 (US)",
+      "tmdb_id": 1153576,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Street+Fighter+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-10-15"
+    },
+    {
+      "film_id": "whalefall",
+      "title_cz": "Whalefall",
+      "title_en": "Whalefall",
+      "original_title": "Whalefall",
+      "year": 2026,
+      "synopsis": "Following the death of his father, Jay Gardiner goes diving off the central Coast of California in search of his remains, but is swallowed by a massive sperm whale. While trapped inside its belly with only one hour of oxygen left, Jay comes to realize that the hard-earned lessons his father imparted may be the key to his escape.",
+      "synopsis_language": "en",
+      "runtime_min": 98,
+      "genres": [
+        "Thriller",
+        "Horor"
+      ],
+      "director": [
+        "Brian Duffield"
+      ],
+      "screenwriter": [
+        "Brian Duffield",
+        "Daniel Kraus"
+      ],
+      "cast": [
+        "Austin Abrams",
+        "Josh Brolin",
+        "Elisabeth Shue",
+        "John Ortiz",
+        "Jane Levy",
+        "Emily Rudd"
+      ],
+      "production_company": [
+        "Imagine Entertainment",
+        "3 Arts Entertainment",
+        "20th Century Studios"
+      ],
+      "poster_path": "/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/dUzzwJpX4Fiet2QJy5P1TxpW1Qa.jpg",
+      "trailer_youtube_key": "67ho3OxCmmM",
+      "age_rating": "",
+      "tmdb_id": 1255833,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Whalefall+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-10-15"
+    },
+    {
+      "film_id": "clayface",
+      "title_cz": "Clayface",
+      "title_en": "Clayface",
+      "original_title": "Clayface",
+      "year": 2026,
+      "synopsis": "Follow the terrifying descent into hell of a promising Hollywood actor who has become a monster driven by revenge, exploring the loss of identity and humanity, the ravages of toxic love and the dark side of scientific ambition.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Horor",
+        "Thriller",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "James Watkins"
+      ],
+      "screenwriter": [
+        "Mike Flanagan",
+        "Hossein Amini"
+      ],
+      "cast": [
+        "Tom Rhys Harries",
+        "Naomi Ackie",
+        "Eddie Marsan",
+        "Max Minghella",
+        "David Dencik",
+        "Francesca Corney",
+        "Ruby Sear",
+        "Wil Coban"
+      ],
+      "production_company": [
+        "DC Studios",
+        "Domain Entertainment",
+        "6th & Idaho Motion Picture Company",
+        "Troll Court Entertainment",
+        "The Safran Company"
+      ],
+      "poster_path": "/5jCpQnWPikggmQZoDp1eAi6BI6w.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/1A7s8zG4PF6YoJrncrTO6N4r0Sx.jpg",
+      "trailer_youtube_key": "OGO4Mqvo3jI",
+      "age_rating": "",
+      "tmdb_id": 1400940,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Clayface+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-10-22"
+    },
+    {
+      "film_id": "klara and the sun",
+      "title_cz": "Klara and the Sun",
+      "title_en": "Klara and the Sun",
+      "original_title": "Klara and the Sun",
+      "year": 2026,
+      "synopsis": "When Klara, an Artificial Friend who wants nothing more than to find the perfect home, meets Josie, each immediately senses a kindred spirit in the other. Josie has a fraught relationship with her mother and they've suffered great loss, but Klara's innocent wonder and unwavering loyalty begin to heal the family and bring light to Josie's complicated world.",
+      "synopsis_language": "en",
+      "runtime_min": 116,
+      "genres": [
+        "Vědeckofantastický",
+        "Drama",
+        "Komedie"
+      ],
+      "director": [
+        "Taika Waititi"
+      ],
+      "screenwriter": [
+        "Dahvi Waller",
+        "Taika Waititi"
+      ],
+      "cast": [
+        "Jenna Ortega",
+        "Mia Tharia",
+        "Amy Adams",
+        "Natasha Lyonne",
+        "Aran Murphy",
+        "Rachel House",
+        "Steve Buscemi",
+        "Davida McKenzie"
+      ],
+      "production_company": [
+        "3000 Pictures",
+        "Heyday Films",
+        "Defender Films",
+        "TSG Entertainment",
+        "Spyglass Media Group"
+      ],
+      "poster_path": "/xqovj2p6HRsgHxN81qYAYF4StgM.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/1ZwcLnQMFvoAEbnGOsXJplgic6.jpg",
+      "trailer_youtube_key": "wixzainceAE",
+      "age_rating": "PG-13 (US)",
+      "tmdb_id": 858035,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Klara+and+the+Sun+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-10-22"
+    },
+    {
+      "film_id": "sense and sensibility",
+      "title_cz": "Sense and Sensibility",
+      "title_en": "Sense and Sensibility",
+      "original_title": "Sense and Sensibility",
+      "year": 2026,
+      "synopsis": "A charming, witty, and deeply relatable story of love and sisterhood.",
+      "synopsis_language": "en",
+      "runtime_min": 132,
+      "genres": [
+        "Drama",
+        "Romantický"
+      ],
+      "director": [
+        "Georgia Oakley"
+      ],
+      "screenwriter": [
+        "Diana Reid"
+      ],
+      "cast": [
+        "Daisy Edgar-Jones",
+        "Esmé Creed-Miles",
+        "Caitríona Balfe",
+        "Bodhi Rae Breathnach",
+        "Frank Dillane",
+        "George MacKay",
+        "Herbert Nordrum",
+        "Fiona Shaw"
+      ],
+      "production_company": [
+        "Focus Features",
+        "Working Title Films",
+        "November Pictures",
+        "Kiddo Films"
+      ],
+      "poster_path": "/sYzWktm1YwJydX92fbSOWHJs33m.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/bXRoEdk3zmkS4LfKu9cRBGbvI6o.jpg",
+      "trailer_youtube_key": "mcrwcvad84U",
+      "age_rating": "PG (US)",
+      "tmdb_id": 1503762,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Sense+and+Sensibility+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-10-22"
+    },
+    {
+      "film_id": "mesto otcu",
+      "title_cz": "Město otců",
+      "title_en": "City of Fathers",
+      "original_title": "Město otců",
+      "year": 2026,
+      "synopsis": "Osobitý filmař Zdeněk Tyc přichází s příběhem otce a syna, kteří mají společné snad jen křestní jméno Richard a panelákový byt v Adamově. Hřmotný dobromyslný třicátník z fabriky poslouchá metal a přítelkyni si do života pouští jen částečně. Subtilní učitel na penzi, který jej po odchodu matky vychoval sám, je ztělesněním něhy a pochopení. Jejich poklidně sdílenou realitu, v níž je místo pro hardcorové uskupení Našrot i Bergmanovy Šepoty a výkřiky, však jednoho dne naruší náhlá smrt matky, která žila opodál. Ríša se vydává na svéráznou iniciační cestu lemovanou roztodivnými setkáními a okamžiky nečekaného prozření. Do existenciálních témat se Tyc pouští střemhlav a za spolehlivé podpory výtečně vybraných herců v čele s Tomášem Vravníkem a Vladimírem Javorským.",
+      "synopsis_language": "cs",
+      "runtime_min": 105,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Zdeněk Tyc"
+      ],
+      "screenwriter": [
+        "Roman Vojkůvka"
+      ],
+      "cast": [
+        "Vladimír Javorský",
+        "Tomáš Vravník",
+        "Lucie Trmiková",
+        "Pavlína Štorková",
+        "Igor Chmela",
+        "Jan Vondráček"
+      ],
+      "production_company": [
+        "Bratři",
+        "Artileria"
+      ],
+      "poster_path": "/kh4OrafnucKLnzAF5uvFgcuk04D.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1707363,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=M%C4%9Bsto+otc%C5%AF+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-10-29"
+    },
+    {
+      "film_id": "neskutecna mama",
+      "title_cz": "Neskutečná máma",
+      "title_en": "Other Mommy",
+      "original_title": "Other Mommy",
+      "year": 2026,
+      "synopsis": "A young girl, Bela, forms a relationship with a sinister entity in her home who looks uncannily like her own mother.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Horor"
+      ],
+      "director": [
+        "Rob Savage"
+      ],
+      "screenwriter": [
+        "Nathan Elston"
+      ],
+      "cast": [
+        "Jessica Chastain",
+        "Arabella Olivia Clark",
+        "Jay Duplass",
+        "Dichen Lachman",
+        "Arian Moayed",
+        "Karen Allen",
+        "Sean Kaufman",
+        "Adam Silver"
+      ],
+      "production_company": [
+        "Blumhouse Productions",
+        "Atomic Monster",
+        "Spin a Black Yarn"
+      ],
+      "poster_path": "/8CXwxpyvQiz9COMLZov4Oae8NKb.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/wpx3J1ZuIZgWc9rzdfcj7fDru58.jpg",
+      "trailer_youtube_key": "bEpTgowZ1dI",
+      "age_rating": "R (US)",
+      "tmdb_id": 1400837,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Neskute%C4%8Dn%C3%A1+m%C3%A1ma+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-10-29"
+    },
+    {
+      "film_id": "wildwood",
+      "title_cz": "Wildwood",
+      "title_en": "Wildwood",
+      "original_title": "Wildwood",
+      "year": 2026,
+      "synopsis": "Prue and her classmate Curtis are drawn into a forbidden magical forest filled with enchanted creatures, loyal allies, and formidable adversaries as they embark on a desperate quest to save Prue’s kidnapped baby brother, Mac, from the crows led by a mysterious woman named Alexandra.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Dobrodružný",
+        "Animovaný",
+        "Fantasy",
+        "Rodinný"
+      ],
+      "director": [
+        "Travis Knight"
+      ],
+      "screenwriter": [
+        "Chris Butler"
+      ],
+      "cast": [
+        "Peyton Elizabeth Lee",
+        "Jacob Tremblay",
+        "Carey Mulligan",
+        "Mahershala Ali",
+        "Awkwafina",
+        "Angela Bassett",
+        "Jake Johnson",
+        "Charlie Day"
+      ],
+      "production_company": [
+        "LAIKA"
+      ],
+      "poster_path": "/2nHPVmDxSZhtjdJWtl4G0CaVORj.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+      "trailer_youtube_key": "POneS8h1jyU",
+      "age_rating": "",
+      "tmdb_id": 791523,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Wildwood+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-10-29"
+    },
+    {
+      "film_id": "valka s mloky",
+      "title_cz": "Válka s mloky",
+      "title_en": "War with the Newts",
+      "original_title": "Válka s mloky",
+      "year": 2026,
+      "synopsis": "Kapitán Van Toc objeví v Tichém oceánu zdánlivě vyhynulý druh velemloka, který vykazuje známky inteligence. Postupně s nimi kapitán a zástupci obchodních společností začnou uzavírat dohody, kde výměnou za nože získávají perly, které mloci loví v mořích. Postupně se mloci stanou levnou pracovní silou i objektem vědeckého výzkumu. S pomocí člověka však také získávají stále větší moc k získání nadvlády nad lidskou rasou.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Aurel Klimt"
+      ],
+      "screenwriter": [
+        "Aurel Klimt"
+      ],
+      "cast": [
+        "Jaroslav Dušek",
+        "Petr Čtvrtníček",
+        "Robert Nebřenský",
+        "Csongor Kassai",
+        "Lazar Ristovski",
+        "Ján Kvasnička",
+        "Miroslav Táborský",
+        "Jaromír Dulava"
+      ],
+      "production_company": [
+        "CinemArt"
+      ],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1623405,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=V%C3%A1lka+s+mloky+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-11-05"
+    },
+    {
+      "film_id": "wild horse nine",
+      "title_cz": "Wild Horse Nine",
+      "title_en": "Wild Horse Nine",
+      "original_title": "Wild Horse Nine",
+      "year": 2026,
+      "synopsis": "Shortly before the 1973 Chilean coup, CIA agents Chris and Lee are dispatched from Santiago to Easter Island by their bureau chief, MJ. Amongst the Island's iconic statues, and as the longtime partners wrestle with their dark pasts and present conspiracies, Chris's newfound bond with a pair of rebellious students threatens to send everyone’s trip to this remote paradise sideways.",
+      "synopsis_language": "en",
+      "runtime_min": 118,
+      "genres": [
+        "Komedie",
+        "Krimi",
+        "Thriller"
+      ],
+      "director": [
+        "Martin McDonagh"
+      ],
+      "screenwriter": [
+        "Martin McDonagh"
+      ],
+      "cast": [
+        "John Malkovich",
+        "Sam Rockwell",
+        "Steve Buscemi",
+        "Parker Posey",
+        "Tom Waits",
+        "Mariana di Girolamo",
+        "Paola Giannini",
+        "Ailín Salas"
+      ],
+      "production_company": [
+        "Searchlight Pictures",
+        "Blueprint Pictures",
+        "Film4 Productions",
+        "TSG Entertainment",
+        "Fabula"
+      ],
+      "poster_path": "/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/3uLA0ujne91bkzFStZICCYeqhnt.jpg",
+      "trailer_youtube_key": "Haw_sznA5aQ",
+      "age_rating": "R (US)",
+      "tmdb_id": 891621,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Wild+Horse+Nine+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-11-05"
+    },
+    {
+      "film_id": "drevorubec",
+      "title_cz": "Dřevorubec",
+      "title_en": "Dřevorubec",
+      "original_title": "Dřevorubec",
+      "year": 2026,
+      "synopsis": "Jana pracuje v marketingové firmě a žije svůj klidný pražský život. Udržuje vztah s šéfem agentury Karlem a očekává, že brzy přijdou zásnuby. To se ale Karlovi nelíbí, a tak když zjistí, že Janin otec je těžce nemocný a prodává svoji roky budovanou pilu v Beskydech, koupí ji a Janu pověří jejím vedením. Jana tak musí odejít z Prahy do beskydských lesů a ocitá se v novém a naprosto neznámém prostředí. Chodu pily vůbec nerozumí, a tak jsou její první rozhodnutí naprosto katastrofální. Svérázný Pavel, který je pro chod pily naprosto zásadní, dostává výpověď jako první. Když Janě dojde, jakou chybu udělala, snaží se Pavla získat zpět.",
+      "synopsis_language": "cs",
+      "runtime_min": 98,
+      "genres": [
+        "Romantický"
+      ],
+      "director": [
+        "Petr Zahrádka"
+      ],
+      "screenwriter": [
+        "Petr Zahrádka"
+      ],
+      "cast": [
+        "Pavla Gajdošíková",
+        "Adam Vacula",
+        "Marek Lambora",
+        "Viera Pavlíková",
+        "Martin Pechlát",
+        "Eva Leinweberová",
+        "Rozálie Kuběnová",
+        "Michaela Petřeková"
+      ],
+      "production_company": [
+        "Bontonfilm"
+      ],
+      "poster_path": "/dT8hmemLA0VFMTJlzGR0fQbUEOv.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "qJHkjhbP-xs",
+      "age_rating": "",
+      "tmdb_id": 1671314,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=D%C5%99evorubec+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-11-12"
+    },
+    {
+      "film_id": "ebenezer vanocni koleda",
+      "title_cz": "Ebenezer: Vánoční koleda",
+      "title_en": "Ebenezer",
+      "original_title": "Ebenezer",
+      "year": 2026,
+      "synopsis": "Tale of an elderly miser who embarks on a supernatural journey after visits from the ghost of his former business partner and the Spirits of Christmas Past, Present, and Yet to Come force him to confront his past and fight for a second chance at happiness.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Komedie"
+      ],
+      "director": [
+        "Ti West"
+      ],
+      "screenwriter": [
+        "Nathaniel Halpern"
+      ],
+      "cast": [
+        "Johnny Depp",
+        "Rupert Grint",
+        "Andrea Riseborough",
+        "Tramell Tillman",
+        "Ian McKellen",
+        "Daisy Ridley",
+        "Sam Claflin",
+        "Charlie Murphy"
+      ],
+      "production_company": [
+        "Paramount Pictures",
+        "Domain Entertainment",
+        "Wattsco",
+        "IN.2 FILM"
+      ],
+      "poster_path": "/wmuMZrelOQBAN2KlA30yOIeIUJl.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/wpS0GW0TQYla51wZ41wHwUqZqS8.jpg",
+      "trailer_youtube_key": "A7lyvgnDuDE",
+      "age_rating": "",
+      "tmdb_id": 1567605,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ebenezer%3A+V%C3%A1no%C4%8Dn%C3%AD+koleda+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-11-12"
+    },
+    {
+      "film_id": "hunger games usvit sklizne",
+      "title_cz": "Hunger Games: Úsvit sklizně",
+      "title_en": "The Hunger Games: Sunrise on the Reaping",
+      "original_title": "The Hunger Games: Sunrise on the Reaping",
+      "year": 2026,
+      "synopsis": "Začíná Den sklizně padesátého ročníku Hladových her a všechny kraje Panemu svírá strach. Letos, bude do Kapitolu z každého kraje odveden dvojnásobný počet splátců. Haymitch Abernathy z Dvanáctého kraje touží po jediném – přežít den a vrátit se k milované dívce. Když ale mezi čtyřmi vybranými zazní jeho jméno, jeho sny se v jediném okamžiku rozplynou. Hry začínají – a Haymitch brzy pochopí, že nemá šanci vyhrát. Přesto se nehodlá vzdát. Dokáže svůj boj přenést až za hranice smrtící arény?",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Vědeckofantastický",
+        "Akční",
+        "Dobrodružný"
+      ],
+      "director": [
+        "Francis Lawrence"
+      ],
+      "screenwriter": [
+        "Billy Ray",
+        "Michael Lesslie"
+      ],
+      "cast": [
+        "Joseph Zada",
+        "Mckenna Grace",
+        "Jesse Plemons",
+        "Elle Fanning",
+        "Ralph Fiennes",
+        "Maya Hawke",
+        "Lili Taylor",
+        "Glenn Close"
+      ],
+      "production_company": [
+        "Lionsgate",
+        "Color Force",
+        "about:blank"
+      ],
+      "poster_path": "/roJBhqBnqe6iVW2VUAKau7BdkTP.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
+      "trailer_youtube_key": "fS35YSjopjE",
+      "age_rating": "",
+      "tmdb_id": 1300968,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Hunger+Games%3A+%C3%9Asvit+sklizn%C4%9B+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-11-19"
+    },
+    {
+      "film_id": "i play rocky",
+      "title_cz": "I Play Rocky",
+      "title_en": "I Play Rocky",
+      "original_title": "I Play Rocky",
+      "year": 2026,
+      "synopsis": "The electrifying true story about an unknown actor with an unshakable belief that he wasn't just meant to write Rocky—he was meant to be Rocky Balboa. Told \"no\" at every turn, Sylvester Stallone bets everything on himself, holding the line on playing the lead against seemingly impossible odds.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Drama",
+        "Historický"
+      ],
+      "director": [
+        "Peter Farrelly"
+      ],
+      "screenwriter": [
+        "Peter Gamble"
+      ],
+      "cast": [
+        "Anthony Ippolito",
+        "Stephan James",
+        "Matt Dillon",
+        "AnnaSophia Robb",
+        "P.J. Byrne",
+        "Jay Duplass",
+        "Kiki Seto",
+        "Toby Kebbell"
+      ],
+      "production_company": [
+        "Eden Rock Media",
+        "Baha Productions",
+        "Fireside Films"
+      ],
+      "poster_path": "/gYnp0VAzcScVfTn4wLGa8nlrgeb.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/dMkkn8Yk2uRqKGlZxQb2eeJUYal.jpg",
+      "trailer_youtube_key": "V_g_Ut0jO-0",
+      "age_rating": "",
+      "tmdb_id": 1286656,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=I+Play+Rocky+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-11-19"
+    },
+    {
+      "film_id": "mama a tata jsou bozi",
+      "title_cz": "Máma a táta jsou Boží",
+      "title_en": "Mom and Dad are Gods",
+      "original_title": "Máma a táta jsou Boží",
+      "year": 2026,
+      "synopsis": "Ve střetu vzdálených staletí a kultur se dvě děti ze 7. století probudí uvnitř mystické jeskyně z tisíciletého spánku do chaotického 21. století. Spolu s nimi povstanou i dva pradávní slovanští bohové, kteří se vtělí do rodičů Petra a Simony, sourozenců z 21. století, což vede k nespočtu zábavných dobrodružství, při nichž se čtveřice dětí spojí a překlene most mezi starými a novými časy, kulturami i zvyky, aby zachránily duše rodičů, kteří jsou momentálně nesnesitelně Boží.",
+      "synopsis_language": "cs",
+      "runtime_min": 105,
+      "genres": [
+        "Dobrodružný",
+        "Rodinný"
+      ],
+      "director": [
+        "Adam Hobzik",
+        "Jan Chramosta"
+      ],
+      "screenwriter": [
+        "Adam Hobzik",
+        "Jan Chramosta"
+      ],
+      "cast": [
+        "Vica Kerekes",
+        "Petr Lněnička",
+        "Jakub Jenčík",
+        "Anna Dvořáková",
+        "Anna Vyčítalová",
+        "Jiří Chadraba",
+        "Jiří Lábus",
+        "Klára Issová"
+      ],
+      "production_company": [
+        "Bontonfilm"
+      ],
+      "poster_path": "/uVQovHxFLywa02Tj7bkI7RN3mw8.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/vDqsFrGYeycSLkDzdNuTd0QPe17.jpg",
+      "trailer_youtube_key": "chWy3RWISZw",
+      "age_rating": "U",
+      "tmdb_id": 1483625,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=M%C3%A1ma+a+t%C3%A1ta+jsou+Bo%C5%BE%C3%AD+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-11-19"
+    },
+    {
+      "film_id": "hexed",
+      "title_cz": "Hexed",
+      "title_en": "Hexed",
+      "original_title": "Hexed",
+      "year": 2026,
+      "synopsis": "An impulsive and unconventional teenage girl named Billie discovers secret magical abilities which, once unleashed, hurtle her into a spectacle-filled journey out of suburbia and into a vast witch realm called Hexe. Forced to team up with her cautious mother, Alice, they uncover family mysteries that could change the world of witches forever.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Dobrodružný",
+        "Animovaný",
+        "Rodinný",
+        "Fantasy"
+      ],
+      "director": [
+        "Jason Hand",
+        "Fawn Veerasunthorn"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "Hailee Steinfeld",
+        "Rashida Jones",
+        "Tracey Ullman",
+        "Stephen Fry"
+      ],
+      "production_company": [
+        "Walt Disney Animation Studios"
+      ],
+      "poster_path": "/zO1r0TvdmnUSO1aAtFaVeT5h1KW.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/nRUAjtySZPGurYv5se3R9pqDwWr.jpg",
+      "trailer_youtube_key": "mtC4sjABZNw",
+      "age_rating": "",
+      "tmdb_id": 1538497,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Hexed+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-11-25"
+    },
+    {
+      "film_id": "asterix a obelix kralovstvi nubie",
+      "title_cz": "Asterix a Obelix: Království Núbie",
+      "title_en": "Asterix: The Kingdom of Nubia",
+      "original_title": "Astérix - Le Royaume de Nubie",
+      "year": 2026,
+      "synopsis": "Nezkrotní Galové se po nešťastné náhodě promění v bezbranné děti poté, co se do jejich kouzelného lektvaru přimíchá vzácný elixír mládí. Zatímco se vesnice ocitá v ohrožení blížícího se římského útoku, zůstává na Asterixovi a Obelixovi, aby našli protilátku a zvrátili nečekanou pohromu. Vydávají se proto na odvážnou a divokou výpravu do dalekého a tajemného království Núbie, kde je čekají nové zážitky i překvapivá setkání.",
+      "synopsis_language": "cs",
+      "runtime_min": 86,
+      "genres": [
+        "Animovaný",
+        "Dobrodružný",
+        "Komedie",
+        "Rodinný",
+        "Fantasy"
+      ],
+      "director": [
+        "Alexandre Heboyan"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "Christian Clavier",
+        "François-Xavier Demaison",
+        "Bernard Alane",
+        "Issa Doumbia",
+        "Eye Haïdara",
+        "Élie Semoun",
+        "François de Brauer",
+        "Claudia Tagbo"
+      ],
+      "production_company": [
+        "SND",
+        "M6 Films",
+        "Superprod Animation"
+      ],
+      "poster_path": "/pkRJeuCGEP5pWUe9srU3ORu3Tvv.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/gFbCOBwB9qEptHJY230sNCsyZfX.jpg",
+      "trailer_youtube_key": "ha0rNxdueJc",
+      "age_rating": "",
+      "tmdb_id": 1084728,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Asterix+a+Obelix%3A+Kr%C3%A1lovstv%C3%AD+N%C3%BAbie+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-12-03"
+    },
+    {
+      "film_id": "vyvoleny",
+      "title_cz": "Vyvolený",
+      "title_en": "Gregorius, the Chosen One",
+      "original_title": "Vyvolený",
+      "year": 2026,
+      "synopsis": "Gregorius, vyvržený. Jako dítěte se ho rodiče museli zříct, protože byl plodem hříšné lásky bratra a sestry. Jako jinoch žil nepochopen v rybářské osadě. Jezero mu mělo být oceánem, loďka trůnem, oštěp žezlem. A přece cítil, že je povolán k vyšším věcem. Touha stát se rytířem a změnit svět v lepší místo nasměruje mladíka k pouti, která ukazuje nevyzpytatelnost cest božích. V každém hříšníkovi může dřímat i kus svatého. Jedno, ať jste vyvrhelem, rytířem, králem, ježkem, nebo papežem, existuje nakonec jen jedna správná cesta pod nebeskou klenbou – cesta ryzího srdce. Gregorius, vyvolený.",
+      "synopsis_language": "cs",
+      "runtime_min": 90,
+      "genres": [
+        "Komedie",
+        "Fantasy"
+      ],
+      "director": [
+        "Tomasz Mielnik"
+      ],
+      "screenwriter": [
+        "Tomasz Mielnik"
+      ],
+      "cast": [
+        "Jan František Uher",
+        "Miroslav Donutil",
+        "Petr Uhlík",
+        "Kristýna Boková",
+        "Petr Marek",
+        "Eliška Křenková",
+        "Marian Moštík",
+        "Michal Dalecký"
+      ],
+      "production_company": [
+        "Background Films",
+        "Mozaika Films",
+        "deFilm",
+        "Magiclab"
+      ],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "/6h6cu68VFeT8VRB40eyD4O4CcHL.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1707365,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Vyvolen%C3%BD+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-12-10"
+    },
+    {
+      "film_id": "avengers doomsday",
+      "title_cz": "Avengers: Doomsday",
+      "title_en": "Avengers: Doomsday",
+      "original_title": "Avengers: Doomsday",
+      "year": 2026,
+      "synopsis": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
+      "synopsis_language": "en",
+      "runtime_min": 165,
+      "genres": [
+        "Vědeckofantastický",
+        "Akční",
+        "Dobrodružný"
+      ],
+      "director": [
+        "Joe Russo",
+        "Anthony Russo"
+      ],
+      "screenwriter": [
+        "Stephen McFeely",
+        "Michael Waldron"
+      ],
+      "cast": [
+        "Robert Downey Jr.",
+        "Chris Evans",
+        "Chris Hemsworth",
+        "Pedro Pascal",
+        "Paul Rudd",
+        "Anthony Mackie",
+        "Florence Pugh",
+        "Vanessa Kirby"
+      ],
+      "production_company": [
+        "Marvel Studios",
+        "Kevin Feige Productions",
+        "AGBO"
+      ],
+      "poster_path": "/342qr7RmduadhkHjcHL4hxRyLhZ.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/s4v0UX1anfXm0UvloLsTTJ4v222.jpg",
+      "trailer_youtube_key": "irVNGjRFZGk",
+      "age_rating": "",
+      "tmdb_id": 1003596,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Avengers%3A+Doomsday+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-12-17"
+    },
+    {
+      "film_id": "duna cast treti",
+      "title_cz": "Duna: Část třetí",
+      "title_en": "Dune: Part Three",
+      "original_title": "Dune: Part Three",
+      "year": 2026,
+      "synopsis": "V závěru epické ságy kráčí Muad’dib, dědic nepředstavitelné moci, vstříc nevyhnutelnému osudu – naplnit prastarý plán a zrodit mezi lidmi vládce, jenž nepřijde z nebes, ale povstane z krve, víry a písku… aby ovládl osud všech.",
+      "synopsis_language": "cs",
+      "runtime_min": 140,
+      "genres": [
+        "Vědeckofantastický",
+        "Dobrodružný"
+      ],
+      "director": [
+        "Denis Villeneuve"
+      ],
+      "screenwriter": [
+        "Denis Villeneuve",
+        "Brian K. Vaughan"
+      ],
+      "cast": [
+        "Timothée Chalamet",
+        "Zendaya",
+        "Jason Momoa",
+        "Florence Pugh",
+        "Rebecca Ferguson",
+        "Isaach de Bankolé",
+        "Charlotte Rampling",
+        "Anya Taylor-Joy"
+      ],
+      "production_company": [
+        "Legendary Pictures"
+      ],
+      "poster_path": "/xtJqBiRXKsk6TlnABjnf0L5iKih.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/bU206dN0ucfOFRK17OXabkdHKFC.jpg",
+      "trailer_youtube_key": "NdvqHc56lE0",
+      "age_rating": "",
+      "tmdb_id": 1170608,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Duna%3A+%C4%8C%C3%A1st+t%C5%99et%C3%AD+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-12-17"
+    },
+    {
+      "film_id": "angry birds ve filmu 3",
+      "title_cz": "Angry Birds ve filmu 3",
+      "title_en": "The Angry Birds Movie 3",
+      "original_title": "The Angry Birds Movie 3",
+      "year": 2026,
+      "synopsis": "Red faces his greatest challenge yet… surviving fatherhood while saving the world.",
+      "synopsis_language": "en",
+      "runtime_min": 96,
+      "genres": [
+        "Animovaný",
+        "Komedie",
+        "Rodinný"
+      ],
+      "director": [
+        "John Rice"
+      ],
+      "screenwriter": [
+        "Thurop Van Orman"
+      ],
+      "cast": [
+        "Jason Sudeikis",
+        "Josh Gad",
+        "Rachel Bloom",
+        "Danny McBride",
+        "Emma Myers",
+        "Lily James",
+        "Marcello Hernández",
+        "Walker Scobell"
+      ],
+      "production_company": [
+        "Rovio Animation",
+        "SEGA of America",
+        "Flywheel Media",
+        "One Cool Films",
+        "dentsu",
+        "AB3 Investments",
+        "Prime Focus Studios",
+        "DNEG"
+      ],
+      "poster_path": "/oxaW6X3xohnzdFSBKCrCjRDckMe.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/ieAytQ8YcWEZGQpbBy7vHVddwd.jpg",
+      "trailer_youtube_key": "a9DB_aUMzME",
+      "age_rating": "PG (US)",
+      "tmdb_id": 1300926,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Angry+Birds+ve+filmu+3+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-12-23"
+    }
+  ]
+}

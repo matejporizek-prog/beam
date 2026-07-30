@@ -19,14 +19,18 @@ const KEYS = {
 };
 
 /* Premieres and screening films share one watchlist so that "Chci vidět" is a
-   single list, the way the prototype had it. A premiere has no film_id (it
-   isn't in the scraped data yet), so it goes in under a prefixed synthetic id.
-   Keeping them in one list is what makes a saved premiere actually appear in
-   Chci vidět — the previous split into two lists is the bug this fixes. */
-export const PREMIERE_PREFIX = 'prem:';
-export const premiereId = title => PREMIERE_PREFIX + title;
-export const isPremiereId = id => id.startsWith(PREMIERE_PREFIX);
-export const premiereTitle = id => id.slice(PREMIERE_PREFIX.length);
+   single list, the way the prototype had it. This prefix is legacy now: back
+   when Premiéry was placeholder data with no real film behind it, a saved
+   premiere had nothing to key on but its title, so it went into the
+   watchlist under this synthetic id. Now that premieres.json resolves real
+   TMDb films, a premiere gets the exact same film_id a real screening of it
+   would — computed the same way (normalize_title of the TMDb title) in
+   resolve/premieres.py — so a save carries straight over the moment the film
+   actually starts screening, with no separate premiere concept needed at
+   all. Kept only so migrate() can still place any pre-existing legacy
+   `beam.premieres` entry somewhere sane; nothing new is ever saved under it. */
+const PREMIERE_PREFIX = 'prem:';
+const premiereId = title => PREMIERE_PREFIX + title;
 
 function read(key, fallback) {
   try {
@@ -80,15 +84,7 @@ export const store = {
     return read(KEYS.titles, {})[filmId] || '';
   },
 
-  /* ---- saved premieres (a view over the same watchlist) ---- */
-
-  savedPremieres() {
-    return this.watchlist().filter(isPremiereId).map(premiereTitle);
-  },
-
-  togglePremiere(title) {
-    return this.toggleWatch(premiereId(title), title);
-  },
+  /* ---- legacy premiere migration ---- */
 
   /* One-time move of any legacy `beam.premieres` entries into the unified
      watchlist, so nothing saved before this change is lost. */

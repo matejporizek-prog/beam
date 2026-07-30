@@ -10,14 +10,14 @@ import {
   state, filmFor, filmById, titleOf, screeningsForFilm, nextScreening,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf,
-} from './data.js?v=14';
+} from './data.js?v=15';
 
 import {
   DOW, esc, dateOf, shortDate, longDay, whenLabel,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=14';
+} from './format.js?v=15';
 
-import { store, premiereId, isPremiereId, premiereTitle } from './store.js?v=14';
+import { store } from './store.js?v=15';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
@@ -213,56 +213,106 @@ function renderCinemaMode(todays) {
 
 /* ---------- Premiéry ---------- */
 
-/* Still placeholder data: the planning doc lists the real premieres source as
-   an open question (TMDb upcoming + Czech distributor dates, undecided). The
-   list is clearly marked in the UI rather than passing invented dates off as
-   real. */
-const PREMIERES = [
-  { date: '2026-08-14', title: 'Zvuk pádu', genre: 'drama', rt: 118 },
-  { date: '2026-08-21', title: 'Poslední léto v Marienbadu', genre: 'romance', rt: 102 },
-  { date: '2026-08-28', title: 'Kobalt', genre: 'thriller', rt: 131 },
-  { date: '2026-09-04', title: 'Tichá pevnina', genre: 'sci-fi', rt: 145 },
-  { date: '2026-09-11', title: 'Papírová města', genre: 'animovaný', rt: 96 },
-];
-
 const MONTHS = ['Leden', 'Únor', 'Březen', 'Duben', 'Květen', 'Červen',
                 'Červenec', 'Srpen', 'Září', 'Říjen', 'Listopad', 'Prosinec'];
 
-export function renderPremieres(el) {
-  const saved = store.savedPremieres();
-  let html = '';
-  let lastMonth = '';
+/* Monday-first, matching what a Czech reader expects from an actual calendar
+   grid. format.js's DOW starts on Sunday (JS's own getDay() convention),
+   which is right for the horizontal day strip but wrong here. */
+const DOW_MON = ['PO', 'ÚT', 'ST', 'ČT', 'PÁ', 'SO', 'NE'];
 
-  for (const p of PREMIERES) {
-    const d = dateOf(p.date);
-    const monthLabel = `${MONTHS[d.getMonth()]} ${d.getFullYear()}`;
-    if (monthLabel !== lastMonth) {
-      html += `<div class="sec-head stagger">${esc(monthLabel)}</div>`;
-      lastMonth = monthLabel;
-    }
-    const on = saved.includes(p.title);
-    /* Not `data-film` and not clickable: a premiere has no resolved film behind
-       it yet (no poster, synopsis, cast or screenings), so there is no detail
-       page to open. `row--static` drops the tappable affordance so the row
-       doesn't invite a tap that does nothing. Only the heart is interactive. */
-    html += `<div class="row row--static stagger">
-      <div class="poster">${esc(initialOf(p.title))}</div>
-      <div class="film-body">
-        <div class="film-head">
-          <h2 class="film-title">${esc(p.title)}</h2>
-          <span class="runtime">${p.rt}′</span>
-        </div>
-        <div class="film-meta">
-          <span>${esc(p.genre)}</span>
-          <span class="strand">premiéra ${shortDate(p.date)}</span>
-        </div>
-      </div>
-      ${heartButton(premiereId(p.title), p.title, on)}
-    </div>`;
+const monthKey = iso => iso.slice(0, 7); // '2026-08-13' -> '2026-08'
+
+// Monday-first weekday index of a month's 1st: 0 = Monday ... 6 = Sunday.
+function firstWeekdayMon(year, monthIndex) {
+  return (new Date(year, monthIndex, 1).getDay() + 6) % 7;
+}
+
+function daysInMonth(year, monthIndex) {
+  return new Date(year, monthIndex + 1, 0).getDate();
+}
+
+/* activeMonth is a 'YYYY-MM' string, owned by app.js the same way activeDay
+   is — this function only resolves a *default* when none is set yet (or the
+   caller handed back a month that turned out to have nothing in it), it
+   never mutates app.js's state itself. Month navigation is a delegated click
+   on [data-prem-month] (see app.js), matching how every other re-rendered
+   button in this file works — there's no persistent element to attach a
+   plain onclick to once a render replaces it. */
+export function renderPremieres(el, activeMonth) {
+  const premieres = state.premieres;
+
+  if (!premieres.length) {
+    el.innerHTML = emptyState('program', 'Zatím žádné premiéry',
+      'Jakmile budou známy nové termíny, objeví se tady.');
+    return;
   }
 
-  html += `<p class="attribution">Seznam premiér je zatím orientační — čeká na propojení se zdrojem dat.</p>`;
-  el.innerHTML = html;
+  const months = [...new Set(premieres.map(p => monthKey(p.release_date)))].sort();
+  const currentMonth = monthKey(todayISO());
+  const month = (activeMonth && months.includes(activeMonth))
+    ? activeMonth
+    : (months.includes(currentMonth) ? currentMonth : months[0]);
+
+  const [year, monthNum] = month.split('-').map(Number);
+  const monthIndex = monthNum - 1;
+  const inMonth = premieres.filter(p => monthKey(p.release_date) === month);
+  const dayNumbers = new Set(inMonth.map(p => Number(p.release_date.slice(8, 10))));
+
+  const todayISOStr = todayISO();
+  const todayDay = todayISOStr.startsWith(month) ? Number(todayISOStr.slice(8, 10)) : null;
+
+  const monthIdx = months.indexOf(month);
+  const prevMonth = monthIdx > 0 ? months[monthIdx - 1] : '';
+  const nextMonth = monthIdx < months.length - 1 ? months[monthIdx + 1] : '';
+
+  let cells = '';
+  const pad = firstWeekdayMon(year, monthIndex);
+  for (let i = 0; i < pad; i++) cells += '<div class="prem-day empty"></div>';
+  for (let day = 1; day <= daysInMonth(year, monthIndex); day++) {
+    const has = dayNumbers.has(day);
+    cells += `<div class="prem-day ${has ? 'has' : ''} ${day === todayDay ? 'today' : ''}">` +
+      `<span class="prem-daynum">${day}</span>` +
+      (has ? '<span class="prem-dot"></span>' : '') +
+      '</div>';
+  }
+
+  const grid = `
+    <div class="prem-nav-row">
+      <button class="prem-nav" data-prem-month="${esc(prevMonth)}" ${prevMonth ? '' : 'disabled'} aria-label="Předchozí měsíc">‹</button>
+      <h2 class="prem-month-label">${esc(MONTHS[monthIndex])} ${year}</h2>
+      <button class="prem-nav" data-prem-month="${esc(nextMonth)}" ${nextMonth ? '' : 'disabled'} aria-label="Další měsíc">›</button>
+    </div>
+    <div class="prem-grid">
+      ${DOW_MON.map(d => `<div class="prem-dow">${d}</div>`).join('')}
+      ${cells}
+    </div>`;
+
+  /* Real films now — TMDb-resolved and merged into state.films by data.js —
+     so unlike the old placeholder these are genuinely clickable: data-film
+     opens the same detail overlay every other film uses, poster and all,
+     even though there's nothing in "Tento týden hrají" yet. */
+  const list = inMonth.map(p => {
+    const meta = [];
+    if (p.genres && p.genres.length) meta.push(esc(p.genres.slice(0, 2).join(', ')));
+    return `<article class="film stagger" data-film="${esc(p.film_id)}">
+      ${posterTile(p, p.title_cz)}
+      <div class="film-body">
+        <div class="film-head">
+          <h2 class="film-title">${esc(p.title_cz)}</h2>
+          <span class="runtime">${runtimeLabel(p)}</span>
+        </div>
+        <div class="film-meta">
+          ${meta.map(m => `<span>${m}</span>`).join('')}
+          <span class="strand">premiéra ${shortDate(p.release_date)}</span>
+        </div>
+      </div>
+      ${heartButton(p.film_id, p.title_cz, store.isSaved(p.film_id))}
+    </article>`;
+  }).join('');
+
+  el.innerHTML = grid + `<div class="prem-list">${list}</div>` +
+    `<p class="attribution">Termíny premiér poskytuje TMDb — distributor je ještě může posunout.</p>`;
 }
 
 /* ---------- Chci vidět ---------- */
@@ -276,9 +326,7 @@ export function renderWatchlist(el) {
     return;
   }
 
-  const rows = saved.map(id =>
-    isPremiereId(id) ? watchlistPremiereRow(id) : watchlistFilmRow(id)
-  ).join('');
+  const rows = saved.map(watchlistFilmRow).join('');
 
   el.innerHTML =
     `<div class="sec-head stagger">${saved.length} ${plural(saved.length)}</div>` + rows;
@@ -319,31 +367,6 @@ function watchlistFilmRow(filmId) {
       ${strip}
     </div>
     ${heartButton(filmId, title, true)}
-  </div>`;
-}
-
-/* A saved premiere. It has no film record and no screenings yet, so instead of
-   a next-screening pill it shows its premiere date — and it isn't clickable,
-   because there is no detail page to open. */
-function watchlistPremiereRow(id) {
-  const title = premiereTitle(id);
-  const premiere = PREMIERES.find(p => p.title === title);
-  const dateLabel = premiere ? `premiéra ${shortDate(premiere.date)}` : 'připravovaná premiéra';
-  const genre = premiere ? premiere.genre : '';
-
-  return `<div class="row stagger">
-    <div class="poster">${esc(initialOf(title))}</div>
-    <div class="film-body">
-      <div class="film-head">
-        <h2 class="film-title">${esc(title)}</h2>
-        <span class="runtime">${premiere ? premiere.rt + '′' : ''}</span>
-      </div>
-      <div class="film-meta">
-        ${genre ? `<span>${esc(genre)}</span>` : ''}
-        <span class="strand">${esc(dateLabel)}</span>
-      </div>
-    </div>
-    ${heartButton(id, title, true)}
   </div>`;
 }
 

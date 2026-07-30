@@ -56,6 +56,11 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: python -m resolve.films
 
+      - name: Refresh upcoming premieres (TMDb)
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: python -m resolve.premieres
+
       - name: Commit updated data if it changed
         run: |
           if [ -n "$(git status --porcelain data/)" ]; then

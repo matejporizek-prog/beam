@@ -338,9 +338,6 @@ header.compact .brand h1 { font-size: 26px; }
 .sec-head:first-child { color: var(--accent); }
 .row { display: flex; gap: 12px; padding: 13px 20px; align-items: center; border-bottom: 1px solid var(--line); cursor: pointer; transition: background .14s; }
 .row:active { background: rgba(255,255,255,.02); }
-/* A row with nothing to open (a placeholder premiere) — not presented as tappable. */
-.row--static { cursor: default; }
-.row--static:active { background: transparent; }
 .row-action {
   flex: none; width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--line);
   background: transparent; color: var(--text-2); cursor: pointer; font-size: 16px;
@@ -368,6 +365,55 @@ header.compact .brand h1 { font-size: 26px; }
 }
 .save-heart.on { color: var(--accent); }
 .save-heart:active { transform: scale(.86); }
+
+/* ===== premieres month calendar =========================================== */
+/* No prototype reference exists for this — app-shell-cool.html only ever
+   had Premiéry as a flat month-grouped list, and the planning doc's "month
+   grid, not just a list" was a Phase 2 wishlist line, not a mockup. Built to
+   match the rest of the design system (same card/border/type tokens as the
+   day strip and film rows) rather than inventing a new visual language. */
+.prem-nav-row {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 4px 20px 14px;
+}
+.prem-month-label {
+  font-family: 'Spectral', serif; font-weight: 600; font-size: 19px;
+  text-transform: capitalize;
+}
+.prem-nav {
+  flex: none; width: 36px; height: 36px; border-radius: 50%;
+  border: 1px solid var(--card-edge); background: var(--card); color: var(--text-2);
+  font-size: 17px; cursor: pointer; display: flex; align-items: center; justify-content: center;
+  transition: color .16s, border-color .16s, opacity .16s;
+}
+.prem-nav:active { color: var(--accent); border-color: var(--accent-dim); }
+.prem-nav:disabled { opacity: .3; cursor: default; }
+
+.prem-grid {
+  display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px;
+  padding: 0 20px 8px;
+}
+.prem-dow {
+  font-family: 'IBM Plex Mono', monospace; font-size: 9.5px; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--text-3); text-align: center; padding-bottom: 6px;
+}
+.prem-day {
+  aspect-ratio: 1; border-radius: 8px; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 3px;
+}
+.prem-day.empty { visibility: hidden; }
+.prem-daynum { font-family: 'Spectral', serif; font-size: 13px; color: var(--text-2); }
+.prem-day.today .prem-daynum { color: var(--accent); font-weight: 600; }
+/* A day with a real premiere gets the same card treatment as everything
+   else with substance in this app, plus a small dot — the day strip's own
+   density dot, at calendar scale — so a glance at the grid alone shows the
+   month's shape before reading a single title. */
+.prem-day.has { background: var(--card); border: 1px solid var(--card-edge); }
+.prem-day.has .prem-daynum { color: var(--text); }
+.prem-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--accent-dim); }
+.prem-day.has.today .prem-dot { background: var(--accent); }
+
+.prem-list { margin-top: 6px; }
 
 /* ===== empty states ======================================================= */
 .empty-state { padding: 64px 34px; text-align: center; }
