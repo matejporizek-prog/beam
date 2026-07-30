@@ -81,6 +81,43 @@ function notificationFor(titles) {
 }
 
 /**
+ * Actually deliver one push message to one subscriber, via the standard Web
+ * Push protocol (VAPID-signed, RFC 8291-encrypted — buildPushHTTPRequest
+ * handles both). Shared by the real weekly check and the manual test route
+ * below, since "send a message to this subscription" is exactly the same
+ * operation either way — only where the payload and the list of recipients
+ * come from differs.
+ *
+ * Returns "sent", "pruned" (the push service says this subscription is gone,
+ * and it's been deleted from KV — nothing left to track), or "failed" (a
+ * transient error; left alone to retry later, since a wrong "already sent" is
+ * worse than an extra retry).
+ */
+async function sendPush(key, record, payload, env) {
+  try {
+    const { endpoint, headers, body } = await buildPushHTTPRequest({
+      privateJWK: env.VAPID_PRIVATE_KEY,
+      subscription: record.subscription,
+      message: {
+        payload,
+        adminContact: ADMIN_CONTACT,
+        options: { ttl: 86400, urgency: "high" },
+      },
+    });
+    const response = await fetch(endpoint, { method: "POST", headers, body });
+
+    if (response.status === 404 || response.status === 410) {
+      await env.SUBSCRIPTIONS.delete(key);
+      return "pruned";
+    }
+    return response.ok ? "sent" : "failed";
+  } catch (error) {
+    console.error(`push failed for ${key}: ${error}`);
+    return "failed";
+  }
+}
+
+/**
  * The weekly check. Runs independently of whether anyone has the app open —
  * that's the entire point of a *push* notification.
  */
@@ -112,38 +149,44 @@ async function checkAndNotify(env) {
     const titles = readyIds.map((id) => titleFor(filmsById.get(id))).filter(Boolean);
     if (!titles.length) continue; // a film_id we can't name yet — wait, don't guess
 
-    try {
-      const { endpoint, headers, body } = await buildPushHTTPRequest({
-        privateJWK: env.VAPID_PRIVATE_KEY,
-        subscription: record.subscription,
-        message: {
-          payload: notificationFor(titles),
-          adminContact: ADMIN_CONTACT,
-          options: { ttl: 86400, urgency: "high" },
-        },
-      });
-      const response = await fetch(endpoint, { method: "POST", headers, body });
-
-      if (response.status === 404 || response.status === 410) {
-        // The push service itself says this subscription is gone — nothing
-        // left to notify, so there's nothing left to track either.
-        await env.SUBSCRIPTIONS.delete(key);
-        pruned++;
-        continue;
-      }
-      if (response.ok) {
-        record.notifiedFilmIds.push(...readyIds);
-        await env.SUBSCRIPTIONS.put(key, JSON.stringify(record));
-        notified++;
-      }
-      // Any other status: leave the record as-is and try again next week —
-      // a transient push-service error must never look like "already sent".
-    } catch (error) {
-      console.error(`push failed for ${key}: ${error}`);
+    const result = await sendPush(key, record, notificationFor(titles), env);
+    if (result === "pruned") pruned++;
+    if (result === "sent") {
+      record.notifiedFilmIds.push(...readyIds);
+      await env.SUBSCRIPTIONS.put(key, JSON.stringify(record));
+      notified++;
     }
   }
 
   console.log(`Push check: ${notified} notified, ${pruned} stale subscriptions pruned.`);
+}
+
+/**
+ * Manual test route: sends a real push, through the exact same code path as
+ * a genuine premiere notification, to every currently-subscribed browser.
+ * Doesn't touch notifiedFilmIds or any watched-film logic — this is purely
+ * "does a message actually arrive", independent of any real screening data.
+ *
+ * TEMPORARY. No auth on it — acceptable for a single-user personal app where
+ * the worst case is an unwanted test notification, not a real security
+ * concern, but this should come back out once Matěj has confirmed delivery
+ * at least once; it doesn't belong in the app long-term.
+ */
+async function handleTestPush(env) {
+  const list = await env.SUBSCRIPTIONS.list();
+  const results = [];
+  for (const { name: key } of list.keys) {
+    const record = await env.SUBSCRIPTIONS.get(key, "json");
+    if (!record) continue;
+    const result = await sendPush(
+      key,
+      record,
+      { title: 'Beam funguje!', body: 'Testovací upozornění dorazilo v pořádku.' },
+      env
+    );
+    results.push({ key, result });
+  }
+  return jsonResponse({ results });
 }
 
 export default {
@@ -155,6 +198,9 @@ export default {
     }
     if (request.method === "POST" && url.pathname === "/api/push/unsubscribe") {
       return handleUnsubscribe(request, env);
+    }
+    if (request.method === "POST" && url.pathname === "/api/push/test") {
+      return handleTestPush(env);
     }
 
     // Everything else is the static site Beam has always been.
