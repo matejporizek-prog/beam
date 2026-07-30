@@ -1,19 +1,48 @@
 # Cloudflare deployment config.
 #
-# Beam is a purely static site — there is no server-side code. This declares an
-# "assets-only" Worker: Cloudflare just serves the files in this repo, with no
-# build step and no Worker script to run.
+# Beam is a static site with one small exception: push notifications need
+# somewhere to hold subscriptions and something that runs on a schedule even
+# when nobody has the app open, which a pure static site can't do. So this is
+# a Worker with static assets attached, not an assets-only Worker — every
+# request still gets served straight out of this repo (see [assets] below)
+# except the two API routes worker/index.js handles itself, and one cron job
+# that checks weekly whether any watched film just got a screening.
 #
 # The served layout is the project's own layout:
 #   /            -> index.html, which redirects to /app/
 #   /app/        -> the PWA
 #   /data/*.json -> the generated screening + film data the app reads
+#   /api/push/*  -> handled by worker/index.js, everything else falls
+#                   through to the static assets
 #
-# Files that aren't part of the website (the Python pipeline, tests, docs) are
-# excluded via .assetsignore next to this file.
+# Files that aren't part of the website (the Python pipeline, tests, docs,
+# the worker's own source) are excluded via .assetsignore next to this file.
+#
+# One-time setup this config depends on (see README.md's "Push notifications"
+# section for the full walkthrough — none of it can be done from a repo file,
+# it's Matěj's Cloudflare account):
+#   - a KV namespace, whose id goes below
+#   - the VAPID_PRIVATE_KEY secret, set via the dashboard (never committed)
 
 name = "beam"
 compatibility_date = "2026-01-01"
+main = "worker/index.js"
 
 [assets]
 directory = "./"
+# Lets worker/index.js call env.ASSETS.fetch(...) to serve or read a static
+# file from inside the Worker — used both for the fetch() fallthrough and for
+# the scheduled job reading screenings.json/films.json without a real network
+# hop back to itself.
+binding = "ASSETS"
+
+[[kv_namespaces]]
+binding = "SUBSCRIPTIONS"
+id = "9d7ca0fab42143efb0bc7315169b8687"
+
+[triggers]
+# 05:45 UTC every Monday — 45 minutes after the scrape workflow
+# (.github/workflows/scrape.yml, 05:00 UTC) starts, giving it time to finish
+# and for that commit's Cloudflare deploy to land before this checks for new
+# screenings.
+crons = ["45 5 * * 1"]

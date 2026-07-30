@@ -10,14 +10,15 @@ import {
   state, filmFor, filmById, titleOf, screeningsForFilm, nextScreening,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf,
-} from './data.js?v=22';
+} from './data.js?v=23';
 
 import {
   DOW, esc, dateOf, shortDate, longDay, whenLabel,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=22';
+} from './format.js?v=23';
 
-import { store } from './store.js?v=22';
+import { store } from './store.js?v=23';
+import { isPushSupported } from './push.js?v=23';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
@@ -425,12 +426,33 @@ export function renderProfile(el) {
     ? new Date(state.generatedAt).toLocaleString('cs-CZ', { dateStyle: 'long', timeStyle: 'short' })
     : '—';
 
-  el.innerHTML = emptyState('profile', 'Profil',
+  const supported = isPushSupported();
+  const enabled = store.notifyEnabled();
+  const notifySection = `
+    <div class="filter-group">
+      <div class="fg-label">Upozornění</div>
+      <div class="filter-row compact" id="row-notify">
+        <div>
+          <div class="fr-title">Povolit upozornění</div>
+          <div class="fr-sub">${supported
+            ? 'Upozorníme tě, až bude mít premiéra, kterou sleduješ v Chci vidět, první termín.'
+            : 'Tento prohlížeč push upozornění nepodporuje.'}</div>
+        </div>
+        <span class="switch ${enabled ? 'on' : ''}" id="sw-notify"><span class="knob"></span></span>
+      </div>
+    </div>`;
+
+  el.innerHTML = notifySection + emptyState('profile', 'Profil',
     'Tvůj filmový deník, oblíbená kina a historie zhlédnutých filmů se objeví tady, až přidáme sledování.') +
     `<p class="attribution">
       Program aktualizován ${esc(generated)}<br>
       ${state.screenings.length} projekcí · ${state.films.size} filmů
     </p>`;
+
+  if (!supported) {
+    const toggle = document.getElementById('sw-notify');
+    toggle.classList.add('disabled');
+  }
 }
 
 /* ---------- detail overlay ---------- */

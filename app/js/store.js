@@ -16,6 +16,7 @@ const KEYS = {
   titles: 'beam.titles',
   premieres: 'beam.premieres',   // legacy — folded into watchlist by migrate()
   filters: 'beam.filters',
+  notify: 'beam.notify',
 };
 
 /* Premieres and screening films share one watchlist so that "Chci vidět" is a
@@ -128,5 +129,18 @@ export const store = {
       creators: [...filters.creators],
       genres: [...filters.genres],
     });
+  },
+
+  /* ---- push notifications ---- */
+
+  /* Just the user's own preference — whether the push subscription itself is
+     live is a browser/Worker fact, checked separately via push.js. This is
+     what the Profil toggle reflects on load, before that check resolves. */
+  notifyEnabled() {
+    return read(KEYS.notify, false);
+  },
+
+  setNotifyEnabled(on) {
+    write(KEYS.notify, !!on);
   },
 };

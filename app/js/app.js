@@ -8,13 +8,14 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=22';
-import { store } from './store.js?v=22';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=23';
+import { store } from './store.js?v=23';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderProfile,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=22';
-import { esc } from './format.js?v=22';
+} from './screens.js?v=23';
+import { esc } from './format.js?v=23';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=23';
 
 /* ---------- app state ---------- */
 
@@ -91,6 +92,20 @@ async function boot() {
   syncFilterUI();
   renderProg();
   registerServiceWorker();
+  reconcileNotifyState();
+}
+
+/* store.notifyEnabled() is just the user's last known preference; the real
+   truth is the browser's own subscription state, which can drift out from
+   under it (permission revoked in the browser's own settings, the
+   subscription expired). Checked once per app open and corrected silently —
+   Profil reads store.notifyEnabled() fresh each time it's opened, so this
+   only needs to fix the stored flag, not force an immediate re-render. Not
+   awaited from boot(): it depends on the service worker being ready, which
+   can take a moment, and nothing else here needs to wait on it. */
+async function reconcileNotifyState() {
+  if (!isPushSupported()) return;
+  if (store.notifyEnabled() && !(await isSubscribed())) store.setNotifyEnabled(false);
 }
 
 /* ---------- rendering ---------- */
@@ -198,6 +213,18 @@ function wireEvents() {
       /* Removing the last-tapped item straight out of the open watchlist would
          leave a stale row, so re-render it. */
       if ($('s-want').classList.contains('active')) renderWatchlist($('s-want'));
+      /* No-ops silently when notifications are off (see syncWatchedFilms) —
+         only worth the round trip when the server actually has a list to
+         update. */
+      syncWatchedFilms();
+      return;
+    }
+
+    /* The Profil notify toggle. Delegated for the same reason as everything
+       above: renderProfile() rebuilds it every time the tab opens. */
+    const notifyRow = event.target.closest('#row-notify');
+    if (notifyRow) {
+      toggleNotify();
       return;
     }
 
@@ -439,6 +466,26 @@ function toggleSave() {
 
   /* Keep Chci vidět in step immediately rather than on the next tab switch. */
   if ($('s-want').classList.contains('active')) renderWatchlist($('s-want'));
+  syncWatchedFilms();
+}
+
+/* The Profil "Povolit upozornění" toggle. Both directions are real
+   browser-level actions (a permission prompt, a subscription request), not
+   an instant local flip, so the toggle's visual state is re-rendered from
+   what actually happened rather than assumed optimistically — denying the
+   permission prompt must leave it off, not show on-then-snap-back. */
+async function toggleNotify() {
+  const turningOn = !store.notifyEnabled();
+  let success = true;
+  if (turningOn) success = await enableNotifications();
+  else await disableNotifications();
+
+  if (turningOn && !success) {
+    toast('Upozornění se nepodařilo povolit.');
+  } else {
+    toast(turningOn ? 'Upozornění zapnuta' : 'Upozornění vypnuta');
+  }
+  if ($('s-prof').classList.contains('active')) renderProfile($('s-prof'));
 }
 
 /* Reflect a save/unsave on every control that points at the same id: the big

@@ -9,11 +9,15 @@
 scrapers/
 resolve/
 tests/
+worker/
+node_modules/
 
 *.py
 *.md
 *.txt
 *.ini
+package.json
+package-lock.json
 
 .gitattributes
 .gitignore

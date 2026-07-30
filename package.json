@@ -1,0 +1,8 @@
+{
+  "name": "beam-worker",
+  "private": true,
+  "description": "Dependency for worker/index.js (Beam's Cloudflare Worker: push-notification subscriptions + the weekly check that sends them). Lives at the repo root, not inside worker/, on purpose — Cloudflare's Git-integration build only auto-runs `npm install` when it finds package.json at the root, before bundling wrangler.toml's `main` entry. Everything else about Beam is still a static site served straight from the repo; this is the one piece with a real dependency.",
+  "dependencies": {
+    "@pushforge/builder": "^2.0.5"
+  }
+}

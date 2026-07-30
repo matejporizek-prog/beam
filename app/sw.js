@@ -21,23 +21,28 @@
    ========================================================================== */
 
 /* Bump this to force clients onto new shell files. */
-const VERSION = 'beam-v20';
+const VERSION = 'beam-v21';
 const SHELL_CACHE = `${VERSION}-shell`;
 const DATA_CACHE = `${VERSION}-data`;
 const IMAGE_CACHE = `${VERSION}-img`;
 
 /* Versioned to match the ?v= query the page actually requests, so these
    precache entries are the same cache keys the app asks for. Bump the ?v here
-   together with index.html and the js/ imports when shipping changed assets. */
+   together with index.html and the js/ imports when shipping changed assets.
+   (These had drifted to ?v=9 through several rounds of bumps elsewhere —
+   not a correctness bug, since the server resolves by pathname regardless of
+   query string, but a precache entry the live page never actually requests
+   is a wasted one; corrected while touching this file for push support.) */
 const SHELL_FILES = [
   './',
   './index.html',
-  './css/beam.css?v=9',
-  './js/app.js?v=9',
-  './js/data.js?v=9',
-  './js/format.js?v=9',
-  './js/screens.js?v=9',
-  './js/store.js?v=9',
+  './css/beam.css?v=23',
+  './js/app.js?v=23',
+  './js/data.js?v=23',
+  './js/format.js?v=23',
+  './js/screens.js?v=23',
+  './js/store.js?v=23',
+  './js/push.js?v=23',
   './manifest.webmanifest',
   './icons/icon.svg',
 ];
@@ -61,6 +66,45 @@ self.addEventListener('activate', event => {
         keys.filter(key => !key.startsWith(VERSION)).map(key => caches.delete(key))
       ))
       .then(() => self.clients.claim())
+  );
+});
+
+/* Push notifications: the payload is whatever worker/index.js's
+   notificationFor() built ({ title, body }), delivered encrypted per the Web
+   Push spec — the browser hands it to this listener already decrypted, so
+   there's no crypto here, just showing it. event.waitUntil keeps the service
+   worker alive long enough for showNotification's promise to settle; without
+   it the browser can suspend the worker mid-call on some platforms. */
+self.addEventListener('push', event => {
+  let data = { title: 'Beam', body: 'Premiéra, kterou sleduješ, už hraje.' };
+  try {
+    if (event.data) data = { ...data, ...event.data.json() };
+  } catch {
+    /* Malformed or non-JSON payload — the fallback text above still says
+       something true and useful rather than showing nothing at all. */
+  }
+
+  event.waitUntil(
+    self.registration.showNotification(data.title, {
+      body: data.body,
+      icon: './icons/icon-180.png',
+      badge: './icons/icon-180.png',
+      tag: 'beam-premiere',   // a second notification replaces the first rather than stacking
+    })
+  );
+});
+
+/* Tapping the notification focuses an already-open Beam tab if there is one,
+   rather than piling up a fresh one every time. */
+self.addEventListener('notificationclick', event => {
+  event.notification.close();
+  event.waitUntil(
+    self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then(clients => {
+      for (const client of clients) {
+        if (client.url.includes('/app/') && 'focus' in client) return client.focus();
+      }
+      if (self.clients.openWindow) return self.clients.openWindow('./');
+    })
   );
 });
 

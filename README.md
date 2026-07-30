@@ -747,6 +747,83 @@ list: TMDb has the data, but it's a far less natural way for anyone to think
 about "what do I want to see" than a director or writer, and adding a third
 near-identical search field for it wasn't worth the UI weight for the value.
 
+## Push notifications
+
+The one feature in Beam with a real server behind it. Everything else here
+is a static site — the planning doc called this out from the start as the
+exception: *"the one feature that wants an always-on component"*. Something
+has to notice, on a schedule, independent of anyone having the app open,
+that a film sitting in Chci vidět with no screening yet just got one.
+
+**Scope, decided with Matěj:** real push (a phone alert even with the app
+closed), not an in-app "new!" badge — the badge alternative was considered
+and explicitly turned down as not actually solving "notify me". No per-film
+opt-in either: one master "Povolit upozornění" toggle in Profil, and once
+it's on, everything currently in Chci vidět without a screening is watched
+automatically; nothing new to configure per film.
+
+### Architecture
+
+`wrangler.toml` changed from an assets-only Worker to one with static assets
+*and* a small script (`worker/index.js`) — every request still serves
+straight out of this repo except two routes the Worker handles itself:
+
+- `POST /api/push/subscribe` — upserts a KV record (`{ subscription, filmIds,
+  notifiedFilmIds }`) keyed by a SHA-256 hash of the subscription's own
+  endpoint, which is the natural stable id for "one browser's push
+  subscription" — no separate accounts/user-id scheme needed.
+- `POST /api/push/unsubscribe` — deletes it.
+- A **cron trigger** (`[triggers]` in `wrangler.toml`, 05:45 UTC Monday — 45
+  minutes after `scrape.yml`'s weekly run, giving that commit's redeploy time
+  to land) runs `scheduled()`: reads the live `screenings.json`/`films.json`
+  via `env.ASSETS.fetch()` (an internal read, no real network hop), and for
+  every KV record, checks whether any watched `film_id` now has a screening
+  and hasn't been notified for yet. If so, it sends the push and marks those
+  ids notified — a transient send failure leaves the record alone so it's
+  retried next week rather than silently treated as sent.
+
+**The actual Web Push crypto (VAPID JWT signing + RFC 8291 payload
+encryption) is not hand-rolled.** `@pushforge/builder` does it against the
+standard Web Crypto API — no Node-specific crypto calls, so it runs in a
+Worker with no `nodejs_compat` flag and no bundler complications. It's the
+one real dependency this project has anywhere, which is also why
+`package.json` lives at the **repo root**, not inside `worker/`: Cloudflare's
+Git-integration build only auto-runs `npm install` when it finds
+`package.json` at the root, before bundling whatever `main` in
+`wrangler.toml` points at.
+
+### Frontend (`app/js/push.js`)
+
+Asks permission, subscribes via `pushManager.subscribe()` with the VAPID
+public key (baked into the source — public keys aren't secret, same as a
+site's own TLS certificate), and POSTs the subscription plus
+`unscreenedWatchlist()` — everything in `store.watchlist()` that
+`state.screenings` says has no screening yet — to `/api/push/subscribe`.
+That list is re-synced every time the watchlist changes while notifications
+are on (`syncWatchedFilms()`, called from every place a heart gets tapped),
+so the server is never watching a stale set. `store.notifyEnabled()` is the
+user's last known preference, reconciled once per app open against the
+browser's real subscription state in case it drifted (permission revoked
+outside the app, a subscription that quietly expired) — `reconcileNotifyState()`
+in `app.js`.
+
+`sw.js` gained the two event listeners an installed PWA needs to actually
+*show* the thing: `push` (renders the `{title, body}` payload the Worker
+already decrypted for it) and `notificationclick` (focuses an existing Beam
+tab rather than piling up a new one).
+
+### One-time setup (can't be done from a repo file — Matěj's Cloudflare account)
+
+Two pieces of state that only exist on the Cloudflare side, done once via
+the dashboard:
+1. A KV namespace (Workers & Pages → KV → Create namespace), whose id goes
+   into `wrangler.toml`'s `[[kv_namespaces]]` block.
+2. The `VAPID_PRIVATE_KEY` secret (the Worker's own Settings → Variables and
+   Secrets) — generated locally with Python's `cryptography` library (no
+   Node available in this environment, but VAPID keys are just a plain P-256
+   ECDSA keypair, so any crypto library that can export JWK works), and
+   handed over once, never committed.
+
 ## Data attribution
 
 Screening data is read from each cinema's own public program page. Film metadata

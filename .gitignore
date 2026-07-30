@@ -8,6 +8,13 @@ __pycache__/
 .venv/
 venv/
 
+# --- node (worker/index.js's one dependency) ---
+# node_modules is never committed — Cloudflare's own build installs it fresh
+# at deploy time. package-lock.json, if one gets generated (e.g. running
+# `npm install` locally to test the worker), SHOULD be committed for a
+# reproducible install — it's deliberately not listed here.
+node_modules/
+
 # --- local editor / tooling config ---
 .claude/
 
