@@ -8,13 +8,13 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=20';
-import { store } from './store.js?v=20';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=21';
+import { store } from './store.js?v=21';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderProfile,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=20';
-import { esc } from './format.js?v=20';
+} from './screens.js?v=21';
+import { esc } from './format.js?v=21';
 
 /* ---------- app state ---------- */
 
@@ -344,38 +344,68 @@ function renderCreatorResults() {
 
 /* ---------- overlays ---------- */
 
-/* Matěj: "it scrolls through the program tab that is open below" — the sheet
-   grew a Žánr row and the whole Tvůrci field since it was first built, and
-   now genuinely needs its own internal scroll on a typical phone screen
-   (max-height: 86vh isn't enough room otherwise). `.sheet` already has
-   overflow-y: auto + overscroll-behavior: contain for that, but neither one
-   locks the *page underneath* — on iOS in particular, a touch-scroll that
-   doesn't land exactly on the sheet's own scroll surface can fall straight
-   through to the body behind a fixed-position overlay, which is exactly the
-   bleed-through being reported. Real fix is the standard one for this: pin
-   the body itself while the sheet is open, restore the exact scroll position
-   on close. `overflow: hidden` alone doesn't reliably stop this on iOS
-   Safari, which is why it's position: fixed + a negative top offset, not a
-   plain overflow toggle. */
-function lockBodyScroll() {
-  const y = window.scrollY;
-  document.body.style.position = 'fixed';
-  document.body.style.top = `-${y}px`;
-  document.body.style.width = '100%';
+/* Keeping the page behind the filter sheet still.
+
+   Previous attempt pinned <body> with position: fixed + a negative top
+   offset. That's the widely-cited recipe, but it's a layout mutation — the
+   document's scroll height collapses and is restored on close — and on iOS
+   that interacts badly with the collapsing URL bar, which is very likely the
+   residual "the program tab still moves a bit" Matěj saw *with the lock
+   already active*. It also can't help with the other half of the problem:
+   position doesn't stop a *gesture* from chaining out of the sheet.
+
+   So the page is held still at the gesture level instead, which is what iOS
+   actually responds to (and what body-scroll-lock-style libraries have done
+   for years):
+     - a touchmove that isn't inside the sheet is cancelled outright — that's
+       the scrim and the program behind it,
+     - a touchmove inside the sheet is cancelled only when the sheet is
+       already at an edge and the drag keeps pushing past it. That's the
+       exact moment iOS would otherwise hand the gesture to the page, which
+       is what leaves the sheet feeling stuck at its own top/bottom.
+   Nothing about the page's layout changes, so there's no scroll position to
+   save and restore and nothing for the URL bar to interact with.
+
+   The listeners are attached only while the sheet is open and removed on
+   close, deliberately: a *non-passive* touchmove listener left on the
+   document permanently would make the browser wait on JS before every scroll
+   of the program list — undoing the scroll work of the last several rounds.
+   `overflow: hidden` (via html.sheet-open) covers the non-touch case, i.e. a
+   desktop wheel over the scrim. */
+let sheetLastTouchY = 0;
+
+function onSheetTouchStart(event) {
+  sheetLastTouchY = event.touches[0].clientY;
 }
 
-function unlockBodyScroll() {
-  const y = -parseInt(document.body.style.top || '0', 10);
-  document.body.style.position = '';
-  document.body.style.top = '';
-  document.body.style.width = '';
-  window.scrollTo(0, y);
+function onSheetTouchMove(event) {
+  const sheet = $('filter-sheet');
+  if (!sheet.contains(event.target)) { event.preventDefault(); return; }
+
+  const y = event.touches[0].clientY;
+  const dy = y - sheetLastTouchY;   // > 0 = dragging down, i.e. scrolling up
+  sheetLastTouchY = y;
+
+  const atTop = sheet.scrollTop <= 0;
+  const atBottom = sheet.scrollTop + sheet.clientHeight >= sheet.scrollHeight - 1;
+  if ((atTop && dy > 0) || (atBottom && dy < 0)) event.preventDefault();
+}
+
+function bindSheetScrollGuards() {
+  document.addEventListener('touchstart', onSheetTouchStart, { passive: true });
+  document.addEventListener('touchmove', onSheetTouchMove, { passive: false });
+}
+
+function unbindSheetScrollGuards() {
+  document.removeEventListener('touchstart', onSheetTouchStart, { passive: true });
+  document.removeEventListener('touchmove', onSheetTouchMove, { passive: false });
 }
 
 function openFilter() {
   $('creator-input').value = '';
   syncFilterUI();
-  lockBodyScroll();
+  document.documentElement.classList.add('sheet-open');
+  bindSheetScrollGuards();
   $('filter-scrim').classList.add('open');
   $('filter-sheet').classList.add('open');
   history.pushState({ sheet: 'filter' }, '');
@@ -384,7 +414,8 @@ function openFilter() {
 function closeFilter(fromPop) {
   $('filter-scrim').classList.remove('open');
   $('filter-sheet').classList.remove('open');
-  unlockBodyScroll();
+  document.documentElement.classList.remove('sheet-open');
+  unbindSheetScrollGuards();
   if (!fromPop) history.back();
 }
 
