@@ -10,14 +10,14 @@ import {
   state, filmFor, filmById, titleOf, screeningsForFilm, nextScreening,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf,
-} from './data.js?v=13';
+} from './data.js?v=14';
 
 import {
   DOW, esc, dateOf, shortDate, longDay, whenLabel,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=13';
+} from './format.js?v=14';
 
-import { store, premiereId, isPremiereId, premiereTitle } from './store.js?v=13';
+import { store, premiereId, isPremiereId, premiereTitle } from './store.js?v=14';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
@@ -372,7 +372,13 @@ export function renderProfile(el) {
 
 export function fillDetail(filmId) {
   const film = filmById(filmId);
-  const shows = screeningsForFilm(filmId);
+  /* Only today and later. screeningsForFilm() returns full history for a
+     film, so without this filter a film that played last week keeps showing
+     those stale, grayed-out rows here forever — not "past today", genuinely
+     gone days. Comparing ISO date strings against todayISO() means this is
+     computed fresh from the real clock every time the overlay opens, so it
+     rolls over on its own at midnight with no separate "refresh" needed. */
+  const shows = screeningsForFilm(filmId).filter(s => s.date >= todayISO());
   const title = (film && film.title_cz) || (shows[0] && shows[0].title_cz) || store.titleFor(filmId) || filmId;
 
   /* hero */
