@@ -83,10 +83,10 @@ function notificationFor(titles) {
 /**
  * Actually deliver one push message to one subscriber, via the standard Web
  * Push protocol (VAPID-signed, RFC 8291-encrypted — buildPushHTTPRequest
- * handles both). Shared by the real weekly check and the manual test route
- * below, since "send a message to this subscription" is exactly the same
- * operation either way — only where the payload and the list of recipients
- * come from differs.
+ * handles both). Split out from checkAndNotify() below so "send a message to
+ * this subscription" stays one operation, testable and callable on its own —
+ * it's exactly what a manual test route reused live to confirm delivery
+ * before this feature shipped.
  *
  * Returns "sent", "pruned" (the push service says this subscription is gone,
  * and it's been deleted from KV — nothing left to track), or "failed" (a
@@ -161,34 +161,6 @@ async function checkAndNotify(env) {
   console.log(`Push check: ${notified} notified, ${pruned} stale subscriptions pruned.`);
 }
 
-/**
- * Manual test route: sends a real push, through the exact same code path as
- * a genuine premiere notification, to every currently-subscribed browser.
- * Doesn't touch notifiedFilmIds or any watched-film logic — this is purely
- * "does a message actually arrive", independent of any real screening data.
- *
- * TEMPORARY. No auth on it — acceptable for a single-user personal app where
- * the worst case is an unwanted test notification, not a real security
- * concern, but this should come back out once Matěj has confirmed delivery
- * at least once; it doesn't belong in the app long-term.
- */
-async function handleTestPush(env) {
-  const list = await env.SUBSCRIPTIONS.list();
-  const results = [];
-  for (const { name: key } of list.keys) {
-    const record = await env.SUBSCRIPTIONS.get(key, "json");
-    if (!record) continue;
-    const result = await sendPush(
-      key,
-      record,
-      { title: 'Beam funguje!', body: 'Testovací upozornění dorazilo v pořádku.' },
-      env
-    );
-    results.push({ key, result });
-  }
-  return jsonResponse({ results });
-}
-
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -198,9 +170,6 @@ export default {
     }
     if (request.method === "POST" && url.pathname === "/api/push/unsubscribe") {
       return handleUnsubscribe(request, env);
-    }
-    if (request.method === "POST" && url.pathname === "/api/push/test") {
-      return handleTestPush(env);
     }
 
     // Everything else is the static site Beam has always been.
