@@ -8,12 +8,12 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=12';
-import { store } from './store.js?v=12';
+import { loadData, state, todayISO, titleOf, filmById } from './data.js?v=13';
+import { store } from './store.js?v=13';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderProfile,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=12';
+} from './screens.js?v=13';
 
 /* ---------- app state ---------- */
 
@@ -38,6 +38,12 @@ const NO_FX = (() => {
 
 async function boot() {
   store.migrate();
+
+  /* We restore scroll ourselves when the detail view closes (see closeDetail).
+     Left on 'auto', the browser also restores a position for the history entry
+     as it pops — landing on whatever it recorded rather than where the user
+     actually was, and undoing our restore a frame later. */
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
 
   if (NO_FX) {
     document.documentElement.classList.add('no-fx');   // CSS hides .beam and .grain
@@ -191,6 +197,10 @@ function wireEvents() {
     let ticking = false;
     window.addEventListener('scroll', () => {
       if (ticking) return;
+      /* The detail view scrolls the document too, and the header is hidden
+         while it's open — so this would be per-frame work for a class nobody
+         can see, on the exact screen we're trying to keep smooth. */
+      if (document.documentElement.classList.contains('detail-open')) return;
       ticking = true;
       requestAnimationFrame(() => {
         document.querySelector('header').classList.toggle('compact', window.scrollY > 24);
@@ -247,11 +257,17 @@ function closeSearch(fromPop) {
   if (!fromPop) history.back();
 }
 
+/* Where the program list was scrolled to when a detail was opened. The detail
+   scrolls the document itself now (see .overlay in the CSS for why), so opening
+   it replaces the page's scroll — this is what puts you back where you were. */
+let scrollBeforeDetail = 0;
+
 function openDetail(filmId, fromSearch) {
   detailFilmId = fillDetail(filmId);
-  const overlay = $('overlay');
-  overlay.scrollTop = 0;
-  overlay.classList.add('open');
+  scrollBeforeDetail = window.scrollY;
+  $('overlay').classList.add('open');
+  document.documentElement.classList.add('detail-open');
+  window.scrollTo(0, 0);
 
   if (fromSearch) {
     /* Hide the search overlay and take over its history entry, so there's no
@@ -267,6 +283,14 @@ function openDetail(filmId, fromSearch) {
 
 function closeDetail(fromPop) {
   $('overlay').classList.remove('open');
+  document.documentElement.classList.remove('detail-open');
+  /* Reading a layout property forces the browser to apply the line above
+     before we scroll. Without it the program list is still display:none, the
+     document is only as tall as the detail was, and the target scroll gets
+     clamped to that shorter height — you'd land near the top instead of where
+     you left off. */
+  void document.documentElement.scrollHeight;
+  window.scrollTo(0, scrollBeforeDetail);
   if (!fromPop) history.back();
 }
 

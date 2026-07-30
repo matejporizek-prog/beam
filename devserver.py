@@ -22,6 +22,16 @@ from pathlib import Path
 
 
 class NoCacheHandler(SimpleHTTPRequestHandler):
+    # SimpleHTTPRequestHandler speaks HTTP/1.0 by default, which means it closes
+    # the socket after every single response. The app boots by fetching
+    # screenings.json and films.json in parallel (Promise.all), and those
+    # abrupt closes show up in the browser as intermittent
+    # ERR_CONNECTION_RESET -> "Data se nepodařilo načíst", on a page whose data
+    # is perfectly fine. HTTP/1.1 keeps the connection alive and ends the
+    # response cleanly; the base class already sends an accurate Content-Length
+    # for files, which is what makes keep-alive safe here.
+    protocol_version = "HTTP/1.1"
+
     def end_headers(self):
         self.send_header("Cache-Control", "no-store, max-age=0")
         super().end_headers()

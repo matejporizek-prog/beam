@@ -510,30 +510,35 @@ header.compact .brand h1 { font-size: 26px; }
 .sr-sub { font-size: 12px; color: var(--text-3); margin-top: 2px; }
 
 /* ===== detail overlay ===================================================== */
-.overlay {
-  /* Centered with auto margins, NOT left:50% + translateX(-50%). The old
-     transform did two bad things to this scroller on iOS: it left a transform
-     permanently attached while scrolling (the open state should be the
-     simplest thing possible — an untransformed fixed box), and on a 375px
-     phone -50% of 375 is -187.5px, parking the whole scroller on a half-pixel
-     boundary so its content re-rasterizes on subpixel offsets. The slide-in
-     still animates: translateY(100%) closed → none open. */
-  position: fixed; top: 0; bottom: 0; left: 0; right: 0; margin: 0 auto;
-  width: 100%; max-width: 430px;
-  z-index: 40; background: var(--bg);
-  transform: translateY(100%);
-  transition: transform .34s cubic-bezier(.2,.7,.2,1); overflow-y: auto;
-  /* Wall this scroll off from the page behind it. Without `contain`, reaching
-     the bottom of a long detail (e.g. Odyssea's many screenings) hands the
-     scroll momentum off to the page — which re-composites the fixed beam and
-     stutters. This is the "freezes at the bottom" fix.
-     (-webkit-overflow-scrolling: touch is gone on purpose: async scrolling has
-     been the default since iOS 13, and the legacy property can still switch
-     WebKit onto its old momentum-scroll codepath.) */
-  overscroll-behavior: contain;
-  padding-bottom: 40px;
+/* The detail view scrolls the DOCUMENT — it is not an inner scroller.
+
+   It used to be `position: fixed` + `overflow-y: auto`: a scrollable box
+   inside a fixed panel. On iOS that structure is what produces the reported
+   "the scroll indicator moves but the content is stuck" — the scroll offset
+   updates while the inner scroller's composited contents fail to re-raster,
+   so the view freezes and then snaps. Trimming what it painted (blurs, blend
+   modes, transforms) made that rarer but could never fix it, because the
+   structure was the cause, not the paint.
+
+   Now the detail is ordinary in-flow content and opening it hides the program
+   UI (.content/.nav/.beam, below), so the document holds nothing else and
+   scrolling it is a plain body scroll — the one path iOS always drives on the
+   compositor. app.js saves and restores the program's scroll position across
+   open/close, so returning lands exactly where you left. */
+.overlay { display: none; padding-bottom: 40px; }
+.overlay.open {
+  display: block;
+  /* A one-shot animation, not a persistent transform: it slides in, then the
+     element carries no transform at all for the whole time you scroll it. */
+  animation: ov-in .34s cubic-bezier(.2,.7,.2,1);
 }
-.overlay.open { transform: none; }
+@keyframes ov-in { from { transform: translateY(100%); } to { transform: none; } }
+
+/* While the detail is open the rest of the app isn't merely covered, it's
+   removed — that's what leaves the document with one simple scroll. */
+html.detail-open .content,
+html.detail-open .nav,
+html.detail-open .beam { display: none; }
 /* `isolation` walls the scanline layer's blend mode (below) inside the hero:
    without it the blend targets the whole overlay's stacking context, which
    can force the entire overlay scroller off the compositor's fast path. */
