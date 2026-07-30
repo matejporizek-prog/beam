@@ -17,7 +17,12 @@ Aerofilms cinema), Kino Atlas, Kino MAT, Kino Kavalírka, Divadlo Za plotem and
 Kino 35 — see "Phase 2" below for each. Modřanský Biograf is deliberately
 deferred: its program is Next.js React Server Components streaming data, not
 server-rendered HTML, a fundamentally different parsing problem from every
-cinema scraped so far.
+cinema scraped so far. **Kampus Hybernská was checked and ruled out**: it's a
+general cultural center whose program is overwhelmingly DJ nights, lectures,
+exhibitions and workshops — only 8 of 45 current events were film screenings,
+all under one seasonal summer strand. Doesn't fit the curated-arthouse premise
+the other 13 cinemas do; see `prague-cinema-app-brainstorm.md`'s scope list
+for the full reasoning.
 
 ## Running it
 
