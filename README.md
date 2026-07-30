@@ -700,6 +700,27 @@ the one now showing.
 Refreshed weekly in the same GitHub Actions run as everything else
 (`resolve.premieres`, after `resolve.films`).
 
+## Genre filter
+
+Not in the planning doc's original Phase 2 list, added after director and
+screenwriter as a natural next facet — and a different shape from both.
+Genre isn't open-ended like a person's name (TMDb's whole taxonomy is under
+20 names; the current program has 18), so it's a toggle-in-place pill row
+like Verze/Format, not a search field like Tvůrci. Still computed live
+rather than hardcoded, same reasoning as `creatorNames()`: `genreNames()` in
+`data.js` collects only genres actually screening right now, so a pill never
+sits there matching nothing, and a real genre in the data is never missing
+one. `renderGenrePills()` rebuilds the row on every `syncFilterUI()` call —
+cheap at 18 items — so a plain `.onclick` wouldn't survive it; delegated via
+`[data-genre]` the same way every other dynamically-rendered control in this
+sheet already is.
+
+`filters.genres` follows creators' lead exactly: OR-within-the-facet
+(`build_film_record`'s `genres` array, any one selected genre matching is
+enough), persists via `store.js`, folds into the active-filter count and
+"Vymazat" reset — an addition to the existing filter object each time, never
+a parallel mechanism.
+
 ## Extended filters: director and screenwriter
 
 The Filtr sheet's other facets (Verze, Formát) are two or three fixed

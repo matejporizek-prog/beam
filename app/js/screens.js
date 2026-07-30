@@ -10,14 +10,14 @@ import {
   state, filmFor, filmById, titleOf, screeningsForFilm, nextScreening,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf,
-} from './data.js?v=17';
+} from './data.js?v=18';
 
 import {
   DOW, esc, dateOf, shortDate, longDay, whenLabel,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=17';
+} from './format.js?v=18';
 
-import { store } from './store.js?v=17';
+import { store } from './store.js?v=18';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
@@ -52,13 +52,21 @@ export function passesFilters(screening, filters) {
     if (!filters.version.has(key)) return false;
   }
 
-  if (filters.creators.size) {
-    // A film can have several directors and writers; any one of them
-    // matching a selected name is enough — this is an OR within the facet,
-    // same as version/format, not a "must match every selected person" AND.
+  if (filters.creators.size || filters.genres.size) {
     const film = filmFor(screening);
-    const people = [...((film && film.director) || []), ...((film && film.screenwriter) || [])];
-    if (!people.some(name => filters.creators.has(name))) return false;
+
+    if (filters.creators.size) {
+      // A film can have several directors and writers; any one of them
+      // matching a selected name is enough — OR within the facet, same as
+      // every other multi-select filter here, not "match every selection".
+      const people = [...((film && film.director) || []), ...((film && film.screenwriter) || [])];
+      if (!people.some(name => filters.creators.has(name))) return false;
+    }
+
+    if (filters.genres.size) {
+      const genres = (film && film.genres) || [];
+      if (!genres.some(genre => filters.genres.has(genre))) return false;
+    }
   }
   return true;
 }
@@ -72,7 +80,8 @@ function isMultiplexName(name) {
 }
 
 export function activeFilterCount(filters) {
-  return (filters.mplex ? 1 : 0) + (filters.enOnly ? 1 : 0) + filters.version.size + filters.format.size + filters.creators.size;
+  return (filters.mplex ? 1 : 0) + (filters.enOnly ? 1 : 0) + filters.version.size + filters.format.size +
+    filters.creators.size + filters.genres.size;
 }
 
 /* ---------- day strip ---------- */

@@ -108,6 +108,24 @@ export function creatorNames() {
   return [...names].sort((a, b) => a.localeCompare(b, 'cs'));
 }
 
+/* Every distinct genre across films actually screening right now. Unlike
+   creatorNames() above, genre is a small, bounded set (TMDb's own taxonomy
+   is under 20 names) — currently around 18 — so the Filtr sheet shows all
+   of them as toggle pills rather than a search field. Still computed live
+   rather than hardcoded: hardcoding TMDb's genre list would let a pill sit
+   there matching nothing some week, or a real genre in the data go
+   unrepresented, the same non-empty-result guarantee creatorNames() exists
+   for. */
+export function genreNames() {
+  const genres = new Set();
+  for (const screening of state.screenings) {
+    const film = filmFor(screening);
+    if (!film) continue;
+    for (const genre of film.genres || []) genres.add(genre);
+  }
+  return [...genres].sort((a, b) => a.localeCompare(b, 'cs'));
+}
+
 /* The title to show. Prefer the film's canonical spelling — when a cinema has a
    typo, the resolver already worked out which spelling is the real one. */
 export function titleOf(screeningOrFilm) {

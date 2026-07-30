@@ -8,13 +8,13 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames } from './data.js?v=17';
-import { store } from './store.js?v=17';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=18';
+import { store } from './store.js?v=18';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderProfile,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=17';
-import { esc } from './format.js?v=17';
+} from './screens.js?v=18';
+import { esc } from './format.js?v=18';
 
 /* ---------- app state ---------- */
 
@@ -175,6 +175,15 @@ function wireEvents() {
       return;
     }
 
+    /* Genre pills — same toggle as everything above, same reason for
+       delegating it: renderGenrePills() rebuilds these on every
+       syncFilterUI() call, so a plain .onclick bound once wouldn't stick. */
+    const genrePill = event.target.closest('[data-genre]');
+    if (genrePill) {
+      togglePill(filters.genres, genrePill.dataset.genre);
+      return;
+    }
+
     /* A save heart, wherever it appears — Program (both modes), Premiéry, the
        watchlist. Handled before the row's own click so it never also opens the
        detail overlay. */
@@ -213,7 +222,7 @@ function wireEvents() {
   $('filter-scrim').onclick = () => closeFilter();
   $('sheet-apply').onclick = () => { closeFilter(); renderProg(); };
   $('sheet-clear').onclick = () => {
-    filters = { mplex: false, version: new Set(), format: new Set(), enOnly: false, creators: new Set() };
+    filters = { mplex: false, version: new Set(), format: new Set(), enOnly: false, creators: new Set(), genres: new Set() };
     store.saveFilters(filters);
     syncFilterUI();
   };
@@ -278,6 +287,7 @@ function syncFilterUI() {
   $('sw-en').className = 'switch' + (filters.enOnly ? ' on' : '');
   document.querySelectorAll('#fp-version .fpill').forEach(p => p.classList.toggle('on', filters.version.has(p.dataset.v)));
   document.querySelectorAll('#fp-format .fpill').forEach(p => p.classList.toggle('on', filters.format.has(p.dataset.v)));
+  renderGenrePills();
   renderCreatorChips();
   renderCreatorResults();
 
@@ -286,6 +296,18 @@ function syncFilterUI() {
   badge.textContent = count || '';
   badge.classList.toggle('show', count > 0);
   $('filtr-btn').classList.toggle('on', count > 0);
+}
+
+/* Every genre currently screening, as toggle pills — unlike creators this is
+   a small, bounded set (TMDb's whole taxonomy is under 20 names), so it's
+   rendered like Verze/Format rather than a search field: every option shown
+   at once, tap to toggle on/off in place. Still computed from genreNames()
+   rather than hardcoded, so a genre with nothing screening never shows an
+   empty-result pill and a real one is never missing. */
+function renderGenrePills() {
+  $('fp-genre').innerHTML = genreNames().map(genre =>
+    `<button class="fpill ${filters.genres.has(genre) ? 'on' : ''}" data-genre="${esc(genre)}">${esc(genre)}</button>`
+  ).join('');
 }
 
 /* Selected director/screenwriter names — rendered the same way a selected
