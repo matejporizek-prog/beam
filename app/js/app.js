@@ -8,14 +8,14 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=26';
-import { store } from './store.js?v=26';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=27';
+import { store } from './store.js?v=27';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=26';
-import { esc } from './format.js?v=26';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=26';
+} from './screens.js?v=27';
+import { esc } from './format.js?v=27';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=27';
 
 /* ---------- app state ---------- */
 
@@ -204,10 +204,16 @@ function wireEvents() {
        document.body catches clicks inside it with no special wiring). Jumps
        to Program grouped by cinema and scrolls that venue's section into
        view — it may not exist if that cinema has nothing on today's active
-       day, which is a normal, silent no-op rather than an error. */
+       day, which is a normal, silent no-op rather than an error.
+
+       The button is labelled "dnes", so it must actually land on today —
+       activeDay is session state that a previous visit to Program may have
+       left on some other day (e.g. tomorrow), and without resetting it here
+       this would silently reopen Program on that stale day instead. */
     const jumpCinema = event.target.closest('[data-jump-cinema]');
     if (jumpCinema) {
       progGroup = 'cinema';
+      activeDay = todayISO();
       go('program');
       renderProg();
       const section = document.querySelector(`[data-venue="${cssEscape(jumpCinema.dataset.jumpCinema)}"]`);
