@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T21:55:22+02:00",
+  "generated_at": "2026-07-31T07:49:26+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -7921,6 +7921,51 @@
       "match_score": 1.0
     },
     {
+      "film_id": "spoutej me",
+      "title_cz": "Spoutej mě!",
+      "title_en": "Tie Me Up! Tie Me Down!",
+      "original_title": "¡Átame!",
+      "year": 1990,
+      "synopsis": "Ricky je lehce psychicky narušený jedinec, který si v životě prožil své. Po propuštění z psychiatrické léčebny se rozhodne jít za svým jediným snem. Touží prožít život po boku Mariny, bývalé pornoherečky, se kterou se zhruba před rokem vyspal, když utekl z léčebny.",
+      "synopsis_language": "cs",
+      "runtime_min": 102,
+      "genres": [
+        "Komedie",
+        "Romantický",
+        "Drama"
+      ],
+      "director": [
+        "Pedro Almodóvar"
+      ],
+      "screenwriter": [
+        "Pedro Almodóvar",
+        "Yuyi Beringola"
+      ],
+      "cast": [
+        "Victoria Abril",
+        "Antonio Banderas",
+        "Loles León",
+        "Julieta Serrano",
+        "María Barranco",
+        "Rossy de Palma",
+        "Francisco Rabal",
+        "Lola Cardona"
+      ],
+      "production_company": [
+        "El Deseo"
+      ],
+      "poster_path": "/9ssLYXRuNSgKbwR3XNncfqLDOHC.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/07/14/86769bb13704f2d0d6233053902737bf.webp",
+      "backdrop_path": "/ovxdPoXYb3raXOAqokCqkCR83Jx.jpg",
+      "trailer_youtube_key": "HIlLD2PFldU",
+      "age_rating": "NC-17 (US)",
+      "tmdb_id": 2469,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Spoutej+m%C4%9B%21+1990",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.11, title 1.00)",
+      "match_score": 1.115
+    },
+    {
       "film_id": "spravedlnost",
       "title_cz": "Spravedlnost",
       "title_en": "Justice",
@@ -7961,6 +8006,51 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0
+    },
+    {
+      "film_id": "stalker 1979",
+      "title_cz": "Stalker (1979)",
+      "title_en": "Stalker",
+      "original_title": "Сталкер",
+      "year": 1979,
+      "synopsis": "Nebezpečná cesta Zónou k vysněné místnosti, kde moudří konečně najdou pravdu. Zóna je jakýmsi tajemným, pečlivě střeženým prostorem na několika kilometrech čtverečních země, vzniklým snad za pradávné návštěvy mimozemských civilizací. Prostorem, skrývajícím jiné časoprostorové dimenze, kam je životu nebezpečno vstoupit. Přesto, anebo snad právě proto je Zóna místem, které přitahuje. V samém srdci této tajemné krajiny se prý totiž skrývá jakási „komnata\", v níž se splní člověku jeho nejtajnější přání. Průvodcem těch, kteří nemohou odolat volání tajemné Zóny, je titulní postava filmu – Stalker. Věčný vězeň, odsouzenec pekla, bydlí se svou ženou a dcerkou na samém okraji Zóny a čas od času podniká výpravy za nebezpečnou hranici.",
+      "synopsis_language": "cs",
+      "runtime_min": 162,
+      "genres": [
+        "Vědeckofantastický",
+        "Drama"
+      ],
+      "director": [
+        "Andrei Tarkovsky"
+      ],
+      "screenwriter": [
+        "Arkadiy Strugatskiy",
+        "Andrei Tarkovsky",
+        "Boris Strugatskiy"
+      ],
+      "cast": [
+        "Alisa Freyndlikh",
+        "Aleksandr Kaydanovskiy",
+        "Anatoliy Solonitsyn",
+        "Mykola Hrynko",
+        "Natalya Abramova",
+        "Faime Jurno",
+        "Evgeniy Kostin",
+        "Raimo Rendi"
+      ],
+      "production_company": [
+        "Mosfilm"
+      ],
+      "poster_path": "/ztHPSt5PeowkIFOHBXZr47sMUQc.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2024/07/24/1079b65c98cc6eae1f9359af42d4cfa2.jpg",
+      "backdrop_path": "/6yrbWzzrPp7pwz6zHdifspJk8t3.jpg",
+      "trailer_youtube_key": "JCuwthnCRpg",
+      "age_rating": "NR (US)",
+      "tmdb_id": 1398,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Stalker+%281979%29+1979",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.05, title 1.00)",
+      "match_score": 1.05
     },
     {
       "film_id": "stastni spolu",
