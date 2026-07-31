@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-31T15:00:00+02:00",
+  "title": "Design System: Beam",
+  "extensions": {
+    "colorMeta": {
+      "champagne": {
+        "role": "primary",
+        "displayName": "Champagne",
+        "canonical": "#E7C98A",
+        "tonalRamp": ["#352C18", "#604D24", "#8A7645", "#A69257", "#C2AD6E", "#E7C98A", "#EFDCB3", "#F7EEDD"]
+      },
+      "champagne-dim": {
+        "role": "primary-dim",
+        "displayName": "Champagne Dim",
+        "canonical": "#8A7645",
+        "tonalRamp": ["#352C18", "#604D24", "#8A7645", "#A69257", "#C2AD6E", "#E7C98A", "#EFDCB3", "#F7EEDD"]
+      },
+      "bg": { "role": "neutral", "displayName": "Void", "canonical": "#0C0E11" },
+      "sprocket": { "role": "neutral", "displayName": "Sprocket Black", "canonical": "#04060A" },
+      "card": { "role": "neutral", "displayName": "Card", "canonical": "#191D23" },
+      "card-edge": { "role": "neutral", "displayName": "Card Edge", "canonical": "#2C333C" },
+      "line": { "role": "neutral", "displayName": "Line", "canonical": "#252A31" },
+      "text": { "role": "neutral", "displayName": "Text", "canonical": "#ECEFF3" },
+      "text-secondary": { "role": "neutral", "displayName": "Text Secondary", "canonical": "#9BA5B0" },
+      "text-tertiary": { "role": "neutral", "displayName": "Text Tertiary", "canonical": "#828A94" },
+      "poster-mark": { "role": "primary-dim", "displayName": "Poster Mark", "canonical": "#B89660" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "The detail overlay's film title — the single most important text on any screen." },
+      "headline": { "displayName": "Headline", "purpose": "Sheet and empty-state titles." },
+      "title": { "displayName": "Title", "purpose": "Dense list-row film titles across Program, search, and the watchlist." },
+      "body": { "displayName": "Body", "purpose": "Synopsis text, form inputs, filter row labels." },
+      "label": { "displayName": "Label", "purpose": "Anything mechanical: timestamps, counts, uppercase eyebrow labels, chip text." }
+    },
+    "shadows": [
+      { "name": "floating-disc", "value": "0 10px 28px -12px rgba(0,0,0,.9)", "purpose": "The detail overlay's poster, lifting off the hero image behind it." },
+      { "name": "floating-panel", "value": "0 12px 30px -14px rgba(0,0,0,.95)", "purpose": "The toast and the map's Leaflet popup — anything transiently overlaid on the current screen." }
+    ],
+    "motion": [
+      { "name": "ease-standard", "value": "cubic-bezier(.2,.7,.2,1)", "purpose": "Default easing for staggered row entrances and the detail overlay's slide-in." },
+      { "name": "ease-sheet", "value": "cubic-bezier(.16,1.1,.3,1)", "purpose": "The filter sheet's slide-in — a touch of overshoot, distinct from the overlay's plain ease." },
+      { "name": "duration-fast", "value": "0.15s", "purpose": "Color/border transitions on buttons, chips, and pills." },
+      { "name": "duration-standard", "value": "0.22s", "purpose": "Header compaction, active-state fades, overlay opacity." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single most committal action on a screen — apply filters, buy tickets.",
+      "html": "<button class=\"ds-btn-primary\">Použít filtr</button>",
+      "css": ".ds-btn-primary { width: 100%; padding: 14px; border: none; border-radius: 12px; background: #E7C98A; color: #0C0E11; font-family: Archivo, sans-serif; font-weight: 600; font-size: 15px; cursor: pointer; transition: transform .12s; } .ds-btn-primary:active { transform: scale(.98); }"
+    },
+    {
+      "name": "Icon Button",
+      "kind": "button",
+      "refersTo": "icon-button",
+      "description": "A circular flat action — search, close, save, month-nav — that turns champagne when active or pressed.",
+      "html": "<button class=\"ds-icon-btn\" aria-label=\"Hledat\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"/></svg></button>",
+      "css": ".ds-icon-btn { width: 42px; height: 42px; border-radius: 50%; border: 1px solid #2C333C; background: #191D23; color: #9BA5B0; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: color .15s, border-color .15s; } .ds-icon-btn:hover, .ds-icon-btn:focus-visible, .ds-icon-btn:active { color: #E7C98A; border-color: #8A7645; }"
+    },
+    {
+      "name": "Format Chip",
+      "kind": "chip",
+      "refersTo": "chip-format",
+      "description": "A filled chip stating a physical fact about the print (35mm, 70mm) — filled because it's a hard fact, not a characteristic of the screening.",
+      "html": "<span class=\"ds-chip-format\">35 mm</span>",
+      "css": ".ds-chip-format { font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: .05em; font-weight: 600; color: #0C0E11; background: #E7C98A; border: 1px solid #E7C98A; border-radius: 5px; padding: 2px 6px 1px; display: inline-block; }"
+    },
+    {
+      "name": "Version Chip",
+      "kind": "chip",
+      "refersTo": "chip-version",
+      "description": "An outlined chip for a screening characteristic (dubbed/subtitled) rather than a hard fact about the print — the filled/outlined split is the system's central meaning-in-shape rule.",
+      "html": "<span class=\"ds-chip-version\">dab.</span>",
+      "css": ".ds-chip-version { font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: .05em; color: #E7C98A; background: transparent; border: 1px solid #8A7645; border-radius: 5px; padding: 2px 6px 1px; display: inline-block; }"
+    },
+    {
+      "name": "Filter Pill",
+      "kind": "chip",
+      "refersTo": "pill-filter",
+      "description": "A fully-rounded toggle pill; selected state adds a faint champagne wash rather than a hard fill, so several selected pills stay legible together.",
+      "html": "<div style=\"display:flex; gap:8px;\"><button class=\"ds-pill\">titulky</button><button class=\"ds-pill ds-pill-selected\">dabováno</button></div>",
+      "css": ".ds-pill { font-size: 13px; color: #9BA5B0; background: transparent; border: 1px solid #252A31; border-radius: 20px; padding: 7px 15px; cursor: pointer; transition: all .15s; } .ds-pill-selected { color: #E7C98A; border-color: #8A7645; background: rgba(231,201,138,.08); }"
+    },
+    {
+      "name": "List Row",
+      "kind": "custom",
+      "refersTo": "list-row",
+      "description": "The dense, card-less list row used throughout Program, search, and the watchlist — separated only by a hairline, never boxed.",
+      "html": "<div class=\"ds-row\"><span class=\"ds-row-time\">20:15</span><div class=\"ds-row-body\"><div class=\"ds-row-title\">Nomádi</div><div class=\"ds-row-meta\">Bio Oko · 118′</div></div></div>",
+      "css": ".ds-row { display: flex; gap: 12px; align-items: center; padding: 13px 20px; border-bottom: 1px solid #252A31; cursor: pointer; transition: background .14s; } .ds-row:active { background: rgba(255,255,255,.02); } .ds-row-time { font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #ECEFF3; width: 44px; flex: none; } .ds-row-title { font-family: Spectral, serif; font-weight: 500; font-size: 15px; color: #ECEFF3; } .ds-row-meta { font-size: 11px; color: #828A94; margin-top: 2px; }"
+    },
+    {
+      "name": "Toggle Switch",
+      "kind": "input",
+      "refersTo": "switch-on",
+      "description": "An on/off control restating native OS switch language in Beam's own palette — champagne track and knob when on.",
+      "html": "<span class=\"ds-switch ds-switch-on\"><span class=\"ds-switch-knob\"></span></span>",
+      "css": ".ds-switch { display: inline-block; width: 44px; height: 26px; border-radius: 13px; background: #252A31; position: relative; transition: background .18s; } .ds-switch-on { background: #8A7645; } .ds-switch-knob { position: absolute; top: 3px; left: 3px; width: 20px; height: 20px; border-radius: 50%; background: #9BA5B0; transition: transform .18s, background .18s; } .ds-switch-on .ds-switch-knob { transform: translateX(18px); background: #E7C98A; }"
+    },
+    {
+      "name": "Nav Item",
+      "kind": "nav",
+      "refersTo": "nav-item",
+      "description": "A bottom-nav destination on the 35mm sprocket-perforated strip — active state is icon/label color alone, no background box, so it doesn't compete with the perforation rails.",
+      "html": "<button class=\"ds-nav-item ds-nav-item-active\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path d=\"M3 9h18\"/></svg><span>Program</span></button>",
+      "css": ".ds-nav-item { display: flex; flex-direction: column; align-items: center; gap: 3px; background: transparent; border: none; color: #828A94; font-family: Archivo, sans-serif; font-size: 10px; cursor: pointer; transition: color .2s; } .ds-nav-item-active { color: #E7C98A; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Projection Booth",
+    "overview": "Beam reads as the room behind the screen, not the screen itself: the technical, precise space where the show actually gets run. Near-black surroundings, one warm instrument light (the champagne accent), and information laid out the way a booth operator would want it — legible timestamps in a monospace face, an editorial serif for the film titles that actually matter, everything else quiet. The 35mm sprocket motif on the bottom nav and the accent stripe on every poster tile aren't decoration bolted on after the fact; they're the one place the app admits it's about physical film.\n\nThe palette is almost entirely achromatic — background, cards, borders and three text tones are all cool near-black-to-gray — with exactly one warm color in the entire system. That scarcity is deliberate: champagne shows up only where something needs to register as live, selected, or active, never as base decoration. A confirmed rejection along the way: the prototype's original chip system gave every tag (format and language-version alike) the same filled-champagne treatment, which meant \"35mm\" and \"dabing\" differed only by reading the label text — fixed by making a FORMAT a filled chip and a LANGUAGE VERSION an outlined one, so meaning lives in the shape, not just the word.\n\nAt rest, everything in Beam is flat — no card ever floats on its own shadow. The system reserves depth for the rare moment something is genuinely leaving the page's plane: a poster edge lifting out of a hero image, a toast hovering over the bottom nav, a map popup over the map itself. Depth is earned, not applied by default.",
+    "keyCharacteristics": [
+      "One accent color (champagne) on an otherwise achromatic, near-black palette — its rarity is the signal",
+      "Flat by default; soft shadows exist only for elements that are genuinely floating above other content",
+      "Serif (Spectral) carries anything that's a title a human chose to make; mono (IBM Plex Mono) carries anything mechanical",
+      "A physical-film signature (sprocket perforations, a poster-edge film-stock stripe) used sparingly, not as a repeating background texture",
+      "Meaning lives in shape, not just color or text: filled vs. outlined chips, a lone dot vs. a full row of them, a circle vs. a pill"
+    ],
+    "rules": [
+      { "name": "The One Voice Rule", "body": "Champagne is the only color in the entire system that means something is happening — active, saved, on, selected. It never appears as passive decoration; if you're using it, you're marking state.", "section": "colors" },
+      { "name": "The Shape-Over-Color Rule", "body": "Where two things could be confused by color alone (a format vs. a language version, a selected vs. unselected pill), the fix is a shape or fill difference — filled vs. outlined — not a second color.", "section": "colors" },
+      { "name": "The Mechanical-Face Rule", "body": "Any text that's measured rather than chosen — a time, a count, a percentage, a machine-generated label — is IBM Plex Mono, usually uppercase and letter-spaced. The moment content is a human's editorial choice, it switches to Spectral or Archivo.", "section": "typography" },
+      { "name": "The Floating-Only Rule", "body": "A shadow appears exactly when an element is visually leaving the page's own plane — sitting on top of something else, not just next to it. Everything else stays flat, distinguished by hairlines and tone alone.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep Champagne rare. If more than roughly one element per screen is champagne-colored, something that isn't actually \"active\" is being marked as if it were.",
+      "Do default every new surface to flat, and only add the Floating Panel/Disc shadow when the element is truly overlapping something else, not just sitting near it.",
+      "Do use IBM Plex Mono for anything measured or generated (times, counts, dates) and Spectral/Archivo for anything a person wrote or chose.",
+      "Do distinguish similar-meaning tags by shape (filled vs. outlined) before reaching for a second color."
+    ],
+    "donts": [
+      "Don't give a format fact (35mm, 70mm) and a presentation characteristic (dubbed, subtitled) the same filled-chip treatment — that's the exact ambiguity this system already fixed once.",
+      "Don't add a card background or border around list rows. Rows are a continuous ledger separated by hairlines, not a stack of boxed cards.",
+      "Don't introduce a second saturated color. The system's whole legibility trick is that champagne is the only color that ever means \"this one.\"",
+      "Don't build a new full-screen view as a position: fixed panel with its own inner overflow-y: auto scroll — every overlay in this app deliberately scrolls the document itself, a structural fix for a real iOS Safari bug, not a style preference."
+    ]
+  }
+}
