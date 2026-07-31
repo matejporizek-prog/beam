@@ -18,8 +18,10 @@ from datetime import datetime
 from pathlib import Path
 
 from . import (
-    atlas, bio_oko, edison, kavalirka, kino35, kino_aero, kino_pilotu, lucerna,
-    mat, ponrepo, pritomnost, svetozor, zaplotem,
+    atlas, bio_oko, cinema_city_chodov, cinema_city_flora, cinema_city_letnany,
+    cinema_city_novy_smichov, cinema_city_slovansky_dum, cinema_city_zlicin,
+    edison, kavalirka, kino35, kino_aero, kino_pilotu, lucerna, mat, ponrepo,
+    premiere_hostivar, pritomnost, svetozor, zaplotem,
 )
 
 # Every cinema module exposes the same scrape() function, so the runner doesn't
@@ -38,6 +40,16 @@ SCRAPERS = {
     "Kino Kavalírka": kavalirka.scrape,
     "Divadlo Za plotem": zaplotem.scrape,
     "Kino 35": kino35.scrape,
+    # Multiplexes — hidden by the app's arthouse-default filter, but scraped
+    # the same as everything else. See cinema_city.py and
+    # premiere_hostivar.py for why CineStar isn't here yet.
+    "Cinema City Flora": cinema_city_flora.scrape,
+    "Cinema City Chodov": cinema_city_chodov.scrape,
+    "Cinema City Letňany": cinema_city_letnany.scrape,
+    "Cinema City Nový Smíchov": cinema_city_novy_smichov.scrape,
+    "Cinema City Slovanský dům": cinema_city_slovansky_dum.scrape,
+    "Cinema City Zličín": cinema_city_zlicin.scrape,
+    "Premiere Cinemas Praha Hostivař": premiere_hostivar.scrape,
 }
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"

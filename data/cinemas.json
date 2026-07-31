@@ -78,6 +78,48 @@
       "address": "Štěpánská 35, 110 00 Praha 1",
       "lat": 50.0789527,
       "lng": 14.4250151
+    },
+    {
+      "name": "Cinema City Flora",
+      "address": "Vinohradská 151, 130 00 Praha 3",
+      "lat": 50.079,
+      "lng": 14.461009
+    },
+    {
+      "name": "Cinema City Chodov",
+      "address": "Westfield Chodov, 148 00 Praha 4",
+      "lat": 50.03207,
+      "lng": 14.490996
+    },
+    {
+      "name": "Cinema City Letňany",
+      "address": "Veselská 663, 199 00 Praha 9",
+      "lat": 50.13691,
+      "lng": 14.502875
+    },
+    {
+      "name": "Cinema City Nový Smíchov",
+      "address": "Plzeňská 8, 150 00 Praha 5",
+      "lat": 50.074142,
+      "lng": 14.40254
+    },
+    {
+      "name": "Cinema City Slovanský dům",
+      "address": "Na Příkopě 22, 110 00 Praha 1",
+      "lat": 50.086384,
+      "lng": 14.4274025
+    },
+    {
+      "name": "Cinema City Zličín",
+      "address": "Řevnická 121/1, 155 21 Praha 5",
+      "lat": 50.053925,
+      "lng": 14.287215
+    },
+    {
+      "name": "Premiere Cinemas Praha Hostivař",
+      "address": "Švehlova 1391/32, 102 00 Praha 10",
+      "lat": 50.0531501,
+      "lng": 14.5180672
     }
   ]
 }

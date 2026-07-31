@@ -24,6 +24,17 @@ all under one seasonal summer strand. Doesn't fit the curated-arthouse premise
 the other 13 cinemas do; see `prague-cinema-app-brainstorm.md`'s scope list
 for the full reasoning.
 
+**Phase 3 ("multiplexes") has added seven more**: all six Prague Cinema City
+locations and Premiere Cinemas Praha Hostivař — see "Phase 3" below. This was
+always the long-term plan, not scope creep: the planning doc named Cinema
+City/CineStar/Premiere by name as the eventual full-coverage goal, and the
+app's arthouse-as-default filter (multiplexes opt-in, hidden by default) was
+built from day one specifically so this expansion wouldn't need a UI change
+when it finally happened. **CineStar is deliberately not scraped yet**: its
+site serves automated HTTP clients an incomplete page (the showtime grid, but
+not the film catalog needed to know which film each time slot is for) — see
+"Phase 3" for what was actually tried.
+
 ## Running it
 
 Python 3.12 is installed at
@@ -92,6 +103,10 @@ scrapers/
   kavalirka.py   Kino Kavalírka — its own platform, richest per-screening data yet
   zaplotem.py    Divadlo Za plotem — a WordPress/GenerateBlocks page, no clean container
   kino35.py      Kino 35 — its own platform, icon-based language/flag markup
+  cinema_city.py shared parser for Cinema City's six Prague locations (a real JSON API)
+  cinema_city_flora.py, _chodov.py, _letnany.py, _novy_smichov.py,
+    _slovansky_dum.py, _zlicin.py — three lines each, calls cinema_city.scrape()
+  premiere_hostivar.py  Premiere Cinemas Praha Hostivař — its own platform, plain HTML table
   run.py         runs every scraper, writes data/screenings.json
 resolve/
   tmdb.py        TMDb client + the title matcher
@@ -446,6 +461,71 @@ resolved film against what its cinema actually scraped, came back with no
 wrong-film matches — the handful of runtime differences found (a few minutes,
 on films like *Saving Private Ryan* and *Little Thief*) are consistent with
 different release cuts, not mismatches.
+
+## Phase 3: multiplexes
+
+The planning doc always named this as the long-term goal, not an afterthought
+— "full Prague coverage including multiplexes (Cinema City, CineStar,
+Premiere) is still the goal", with the app's arthouse/multiplex filter toggle
+built from day one specifically so this wouldn't need a UI change when it
+finally happened. Three chains, three completely different platforms — and
+one of the three turned out not to be scrapable at all.
+
+**Cinema City** (six Prague locations: Flora, Chodov, Letňany, Nový Smíchov,
+Slovanský dům, Zličín) is, unexpectedly, the *best* data source in this whole
+project. It's part of the Cineworld group and runs on Vista Cinema Group's
+booking platform, which exposes a genuine public JSON API — the same one its
+own front-end JavaScript calls — rather than server-rendered HTML:
+
+```
+GET /cz/data-api-service/v1/quickbook/10101/film-events
+    /in-cinema/{cinemaId}/at-date/{date}?attr=&lang=cs_CZ
+```
+
+`10101` is Vista's circuit code for the Czech market (found in the site's own
+asset URLs, e.g. `/mrest/logos/v1/10101/logo.svg`); each cinema's own numeric
+id was found the same way arthouse cinema addresses were — reading the site's
+own page source, not guessing — embedded in `cinemacity.cz/whatson`'s HTML
+under `"externalCode"`, right next to that location's address and
+coordinates. One call returns structured JSON: films (title, runtime,
+poster) and events (time, hall, a real `languages` object distinguishing
+original/dubbed/subtitled — no chip-text guessing needed at all), joined by
+id. `cinema_city.py` is the shared parser; each location is a three-line
+wrapper naming its own id, same pattern as `aerofilms.py`'s siblings.
+`DAYS_AHEAD` is 6 (today + 5), matching what the API actually publishes —
+probed live at several offsets: a full ~44-45 events/day through day+5, then
+a thin, clearly-not-a-real-schedule 4 events/day from day+6 on.
+
+**Premiere Cinemas Praha Hostivař** (the chain's only Prague location, in the
+VIVO! Hostivař shopping centre) is the simplest of the three: a plain
+server-rendered PHP site with no JS framework at all, closer to Aerofilms
+than to Cinema City. The entire week sits in one page load — a day-tab strip
+("Pátek 31. 7.", "Sobota 1. 8.", ...) where each tab already contains that
+day's full schedule table, no per-day fetch needed. Version comes from a
+three-letter code (`cz`/`tit`/`orig`) rather than free-text tags; an eighth
+tab ("Předprodej"/presale, with no date in its label) links to future
+advance sales rather than a specific day and is skipped by the same "does
+this label actually contain a day.month" check that finds the other seven.
+
+**CineStar (2 Prague locations: Anděl, Černý Most) is not scraped.** Its
+schedule page genuinely does embed full showtime and film-catalog data —
+confirmed by reading it live in an actual browser, where it appears as a
+Nuxt 3 SSR payload (`<script id="__NUXT_DATA__">`, devalue's flat
+reference-array format, not plain JSON — a small deserializer was written
+and tested against it and it worked correctly). The problem is upstream of
+parsing: every plain HTTP request tried against that same URL — realistic
+browser headers, a warmed-up cookie session, cache-busting, full
+`sec-ch-ua`/`Sec-Fetch-*` client-hint headers — consistently got back a
+version of the page with the bare screening times but missing the film
+catalog entirely, i.e. showtimes with no way to know which film they're for.
+Real browser loads never had this problem. That pattern (degraded payload
+for automated clients, not an outright block) looks like Cloudflare-level bot
+mitigation rather than anything a smarter HTTP client could work around —
+which is a materially different problem from "harder to parse", and exactly
+why this was flagged back rather than pushed through silently. Worth
+revisiting if a good approach turns up (a headless-browser fetch would very
+likely work, at the cost of a much heavier scraping dependency than anything
+else in this project).
 
 ## Two things about the Aerofilms cinemas specifically
 

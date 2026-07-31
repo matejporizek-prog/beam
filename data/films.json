@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T07:49:26+00:00",
+  "generated_at": "2026-07-31T14:34:52+02:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -238,6 +238,46 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=3%3A10+Vlak+do+Yumy+2007",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "6 gramu",
+      "title_cz": "6 gramů",
+      "title_en": "6 gramů",
+      "original_title": "6 gramů",
+      "year": 2026,
+      "synopsis": "Na lyžařském výcviku je u studentů na pokoji nalezen pytlík s bílým práškem. Čtyři otcové: divadelní herec, finanční poradce, realitní makléř s politickými ambicemi a městský policista tak zažijí odpoledne, které se rychle vymkne kontrole. Ředitelka školy si je předvolá, aby zjistila, kdo za to může.",
+      "synopsis_language": "cs",
+      "runtime_min": 90,
+      "genres": [
+        "Komedie"
+      ],
+      "director": [
+        "Miroslav Ondruš"
+      ],
+      "screenwriter": [
+        "Miroslav Ondruš"
+      ],
+      "cast": [
+        "Ondřej Vetchý",
+        "David Novotný",
+        "Jiří Mádl",
+        "Martin Pechlát",
+        "Lenka Vlasáková",
+        "Leona Skleničková",
+        "Petr Uhlík",
+        "Erika Stárková"
+      ],
+      "production_company": [],
+      "poster_path": "/xNMDEgXPeCnvdE9m49X5RNFMvnB.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/igMQSUE0EIsQQXUEsaFTX1wupAO.jpg",
+      "trailer_youtube_key": "bUrpCmnPuG8",
+      "age_rating": "",
+      "tmdb_id": 1671297,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=6+gram%C5%AF+2026",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0
     },
     {
@@ -1840,6 +1880,52 @@
       "match_score": 1.0
     },
     {
+      "film_id": "ctyri matky",
+      "title_cz": "Čtyři matky",
+      "title_en": "Four Mothers",
+      "original_title": "Four Mothers",
+      "year": 2025,
+      "synopsis": "Edward je spisovatel. Jeho kniha, velmi úspěšná v Irsku, má vstoupit na americký trh. A on má odjet na knižní turné za oceán. Má ale také matku, která se zotavuje z mrtvice a nesmlouvavě se dožaduje jeho péče. A jako by situace nebyla už tak složitá, jeho kamarádi se rozhodnou bez varování odletět do Španělska na improvizované pride prázdniny a nechají mu na prahu, respektive v obývacím pokoji, své matky. Během chaotického víkendu tak Edward musí skloubit svou slibně se rozvíjející kariéru s péčí o čtyři výstřední, bojovné a naprosto odlišné dámy. (AČFK)",
+      "synopsis_language": "cs",
+      "runtime_min": 89,
+      "genres": [
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "Darren Thornton"
+      ],
+      "screenwriter": [
+        "Colin Thornton",
+        "Darren Thornton"
+      ],
+      "cast": [
+        "James McArdle",
+        "Fionnula Flanagan",
+        "Dearbhla Molloy",
+        "Paddy Glynn",
+        "Stella McCusker",
+        "Niamh Cusack",
+        "Gaëtan Garcia",
+        "Rory O'Neill"
+      ],
+      "production_company": [
+        "Port Pictures",
+        "Portobello Pictures",
+        "Break Out Pictures"
+      ],
+      "poster_path": "/bvpXFlOuSYN0AOo9KAd0XOEs8mX.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/wiTEgZgmC312MLYHwyaWUEK1iHX.jpg",
+      "trailer_youtube_key": "6i1wyJMY-aI",
+      "age_rating": "",
+      "tmdb_id": 1081196,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C4%8Cty%C5%99i+matky+2025",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
       "film_id": "dabel nosi pradu 2",
       "title_cz": "Ďabel nosí Pradu 2",
       "title_en": "The Devil Wears Prada 2",
@@ -3375,6 +3461,48 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Kapr%C3%A1lov%C3%A1+2026",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "kavej 2",
+      "title_cz": "Kavej 2",
+      "title_en": "Kavej 2",
+      "original_title": "Kavej 2",
+      "year": 2026,
+      "synopsis": "Když Veronika zažije zklamání v lásce, Klára se ji rozhodne zachránit a vezme ji na Šíravu, kde spolu s nevěstami z jedničky rozjíždějí dámskou jízdu s jasným cílem – najít jí nového chlapa! Zatímco dívky hledají lásku, muži se i s dětmi vydávají za dobrodružstvím do lesa. Svůj vztah se pokouší oživit i starší Klára s Bertym, ale jejich plán se jim brzy začne vymykat z kontroly.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Komedie"
+      ],
+      "director": [
+        "Lukáš Zednikovič"
+      ],
+      "screenwriter": [
+        "Michaela Zakuťanská"
+      ],
+      "cast": [
+        "Jana Kovalčiková",
+        "Anna Jakab Rakovská",
+        "Lenka Barilíková",
+        "Branislav Matuščin",
+        "Pavol Šimun",
+        "Daniel Žulčák",
+        "Dominika Kavaschová",
+        "Peter Nádasdi"
+      ],
+      "production_company": [
+        "NOEMO"
+      ],
+      "poster_path": "/g62AY3r4zKyh9LruLbQNL5xNW0P.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/6329S2X1.jpg",
+      "backdrop_path": "/7owv6Lp3lW4PBXxioTWOiPIxQz5.jpg",
+      "trailer_youtube_key": "PudPg41uLZI",
+      "age_rating": "",
+      "tmdb_id": 1723532,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kavej+2+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0
     },
     {
@@ -5339,6 +5467,52 @@
       "match_score": 1.15
     },
     {
+      "film_id": "nerikej mi mami",
+      "title_cz": "Neříkej mi mami",
+      "title_en": "Don't Call Me Mama",
+      "original_title": "Se meg",
+      "year": 2025,
+      "synopsis": "Eva, učitelka a manželka starosty, se zaplétá do riskantního vztahu s mladým žadatelem o azyl. Následky jsou tragické.",
+      "synopsis_language": "cs",
+      "runtime_min": 108,
+      "genres": [
+        "Drama",
+        "Romantický"
+      ],
+      "director": [
+        "Nina Knag"
+      ],
+      "screenwriter": [
+        "Nina Knag",
+        "Kathrine Valen Zeiner"
+      ],
+      "cast": [
+        "Pia Tjelta",
+        "Tarek Zayat",
+        "Kristoffer Joner",
+        "Kathrine Thorborg Johansen",
+        "Ragnhild Gudbrandsen",
+        "Kristoffer Sagmo Aalberg",
+        "Selma Brattabø",
+        "Nina Ellen Ødegård"
+      ],
+      "production_company": [
+        "The Global Ensemble Drama",
+        "Screen Story AS",
+        "Mediefondet Zefyr"
+      ],
+      "poster_path": "/rqrFGkSOEdKrwYn9u18CajycBfs.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/fFpAo8tI342rG9rrp8btT2X03aW.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1479178,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ne%C5%99%C3%ADkej+mi+mami+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
       "film_id": "netopyrek nik",
       "title_cz": "Netopýrek Nik",
       "title_en": "",
@@ -6308,6 +6482,67 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (0.77, title 0.77)",
       "match_score": 0.769
+    },
+    {
+      "film_id": "pohadky po babicce",
+      "title_cz": "Pohádky po babičce",
+      "title_en": "Tales from the Magic Garden",
+      "original_title": "Pohádky po babičce",
+      "year": 2025,
+      "synopsis": "Moderní krátkometrážní loutková pohádka vypráví příběh dvou sirotků a jedné kouzelné kočky.",
+      "synopsis_language": "cs",
+      "runtime_min": 70,
+      "genres": [
+        "Animovaný",
+        "Drama",
+        "Rodinný",
+        "Fantasy",
+        "Komedie"
+      ],
+      "director": [
+        "Jean-Claude Rozec",
+        "Patrik Pašš",
+        "Leon Vidmar",
+        "David Súkup"
+      ],
+      "screenwriter": [
+        "Blandine Jet",
+        "Jerneja Kaja Balog",
+        "Maja Križnik",
+        "Petr Krajíček",
+        "Marek Král",
+        "Patrik Pašš"
+      ],
+      "cast": [
+        "Zuzana Kronerová",
+        "Arnošt Goldflam",
+        "Mikuláš Čížek",
+        "Zofie Hanova",
+        "Alex Mojzis",
+        "Miroslav Krobot",
+        "Eliška Křenková",
+        "Ivan Trojan"
+      ],
+      "production_company": [
+        "MAUR film",
+        "Artichoke",
+        "ZVVIKS",
+        "Vivement lundi !",
+        "Česká televize",
+        "RTVS",
+        "RTV Slovenija",
+        "Pictanovo"
+      ],
+      "poster_path": "/6LZJKktqh9jTL27vMU6oxzdvB3W.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/AupBUhnJEFedxF4vQ82LU9rOXDC.jpg",
+      "trailer_youtube_key": "ER4oTkoJ4x4",
+      "age_rating": "",
+      "tmdb_id": 587370,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Poh%C3%A1dky+po+babi%C4%8Dce+2025",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
     },
     {
       "film_id": "pomoc neviditelnych",
@@ -7330,6 +7565,53 @@
       "match_score": 1.15
     },
     {
+      "film_id": "scary movie",
+      "title_cz": "Scary Movie",
+      "title_en": "Scary Movie",
+      "original_title": "Scary Movie",
+      "year": 2026,
+      "synopsis": "Cindy Campbell a její nezdolná kamarádka Brenda jsou stále magnetem na ty nejbizarnější nadpřirozené úkazy. Tentokrát se musí vypořádat nejen s vraždícími panenkami s umělou inteligencí a děsivými úsměvy, které nejdou smýt, ale také s nástrahami moderního světa sociálních sítí, kde každé špatné rozhodnutí znamená okamžitý „cancel“. V patách jim je navíc starý známý s maskou Ghostface, který se tentokrát rozhodl, že pravidla přežití v hororu už dávno neplatí.",
+      "synopsis_language": "cs",
+      "runtime_min": 96,
+      "genres": [
+        "Komedie"
+      ],
+      "director": [
+        "Michael Tiddes"
+      ],
+      "screenwriter": [
+        "Marlon Wayans",
+        "Shawn Wayans",
+        "Keenen Ivory Wayans",
+        "Rick Alvarez",
+        "Craig Wayans"
+      ],
+      "cast": [
+        "Marlon Wayans",
+        "Shawn Wayans",
+        "Anna Faris",
+        "Regina Hall",
+        "Olivia Rose Keegan",
+        "Savannah Lee Nassif",
+        "Cameron Scott Roberts",
+        "Sydney Park"
+      ],
+      "production_company": [
+        "Wayans Bros. Entertainment",
+        "Miramax"
+      ],
+      "poster_path": "/znHT8peERZRWG1ME3r0Db0EV8k8.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8117S2R.jpg",
+      "backdrop_path": "/xWBiXclrRmTggQHMRsIn84YHavs.jpg",
+      "trailer_youtube_key": "cGgWAHXuTKc",
+      "age_rating": "15+",
+      "tmdb_id": 1273221,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Scary+Movie+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.05, title 1.00)",
+      "match_score": 1.05
+    },
+    {
       "film_id": "sedma pecet",
       "title_cz": "Sedmá pečeť",
       "title_en": "The Seventh Seal",
@@ -7873,6 +8155,54 @@
       "match_score": 1.0
     },
     {
+      "film_id": "spasitel",
+      "title_cz": "Spasitel",
+      "title_en": "Project Hail Mary",
+      "original_title": "Project Hail Mary",
+      "year": 2026,
+      "synopsis": "Učitel přírodopisu Ryland Grace se probudí na vesmírné lodi vzdálené světelné roky od domova, aniž by si pamatoval, kdo je a jak se tam dostal. Když se mu paměť vrátí, začne odhalovat svůj úkol: vyřešit záhadu tajemné látky, která způsobuje vyhasínání Slunce. Musí využít svých vědeckých znalostí a neortodoxních nápadů, aby zachránil vše na Zemi před zánikem… ale díky nečekanému přátelství na to možná nebude muset být sám.",
+      "synopsis_language": "cs",
+      "runtime_min": 157,
+      "genres": [
+        "Vědeckofantastický",
+        "Dobrodružný"
+      ],
+      "director": [
+        "Phil Lord",
+        "Christopher Miller"
+      ],
+      "screenwriter": [
+        "Drew Goddard"
+      ],
+      "cast": [
+        "Ryan Gosling",
+        "Sandra Hüller",
+        "James Ortiz",
+        "Lionel Boyce",
+        "Milana Vayntrub",
+        "Ken Leung",
+        "Priya Kansara",
+        "Mia Soteriou"
+      ],
+      "production_company": [
+        "Lord Miller",
+        "Amazon MGM Studios",
+        "Pascal Pictures",
+        "Open Invite Entertainment",
+        "Waypoint Entertainment"
+      ],
+      "poster_path": "/sjG9ODJhSKDluawRsyhW3ijwjbQ.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7449S2R.jpg",
+      "backdrop_path": "/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
+      "trailer_youtube_key": "26708YSDK-4",
+      "age_rating": "12+",
+      "tmdb_id": 687163,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Spasitel+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.05, title 1.00)",
+      "match_score": 1.05
+    },
+    {
       "film_id": "spider man zbrusu novy den",
       "title_cz": "Spider-Man: Zbrusu nový den",
       "title_en": "Spider-Man: Brand New Day",
@@ -8053,6 +8383,53 @@
       "match_score": 1.05
     },
     {
+      "film_id": "star wars mandalorian a grogu",
+      "title_cz": "Star Wars: Mandalorian a Grogu",
+      "title_en": "The Mandalorian and Grogu",
+      "original_title": "The Mandalorian and Grogu",
+      "year": 2026,
+      "synopsis": "Zlé Impérium padlo a imperiální vojevůdci jsou roztroušeni po celé galaxii. Nová republika, která teprve vzniká, se snaží ochránit vše, za co povstání bojovalo, a proto požádala o pomoc legendárního mandaloriánského lovce odměn Dina Djarina a jeho mladého učedníka Groga.",
+      "synopsis_language": "cs",
+      "runtime_min": 132,
+      "genres": [
+        "Akční",
+        "Dobrodružný",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Jon Favreau"
+      ],
+      "screenwriter": [
+        "Jon Favreau",
+        "Dave Filoni",
+        "Noah Kloor"
+      ],
+      "cast": [
+        "Pedro Pascal",
+        "Jeremy Allen White",
+        "Sigourney Weaver",
+        "Brendan Wayne",
+        "Lateef Crowder",
+        "Steve Blum",
+        "Jonny Coyne",
+        "Matthew Willig"
+      ],
+      "production_company": [
+        "Lucasfilm Ltd.",
+        "Fairview Entertainment"
+      ],
+      "poster_path": "/3uQzFhr3OZwAVEQd6PwAlQAmfKP.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7667S2R.jpg",
+      "backdrop_path": "/MJcERawyqGqJdPsOBc0C449hQ9.jpg",
+      "trailer_youtube_key": "I5D1ojZjmBo",
+      "age_rating": "U",
+      "tmdb_id": 1228710,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Star+Wars%3A+Mandalorian+a+Grogu+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.05, title 1.00)",
+      "match_score": 1.05
+    },
+    {
       "film_id": "stastni spolu",
       "title_cz": "Šťastni spolu",
       "title_en": "Happy Together",
@@ -8189,6 +8566,52 @@
       "match_score": 1.0
     },
     {
+      "film_id": "substance",
+      "title_cz": "Substance",
+      "title_en": "The Substance",
+      "original_title": "The Substance",
+      "year": 2024,
+      "synopsis": "Snili jste někdy o své lepší verzi? Stárnoucí hvězda televizních obrazovek Elisabeth Sparkle dostává možnost vyzkoušet zázračnou substanci, díky které může být mladší, krásnější a dokonalejší. Má to jeden háček, musí se dělit o čas. Jeden týden pro ni, jeden týden pro její nové, lepší já, Sue. Každých sedm dní. Dokonalá rovnováha. Snadné, že? Pokud vše dodržíte, co by se mohlo pokazit?",
+      "synopsis_language": "cs",
+      "runtime_min": 141,
+      "genres": [
+        "Horor",
+        "Vědeckofantastický",
+        "Thriller"
+      ],
+      "director": [
+        "Coralie Fargeat"
+      ],
+      "screenwriter": [
+        "Coralie Fargeat"
+      ],
+      "cast": [
+        "Demi Moore",
+        "Margaret Qualley",
+        "Dennis Quaid",
+        "Edward Hamilton-Clark",
+        "Gore Abrams",
+        "Oscar Lesage",
+        "Christian Erickson",
+        "Robin Greer"
+      ],
+      "production_company": [
+        "Working Title Films",
+        "Blacksmith",
+        "Working Title Films"
+      ],
+      "poster_path": "/jID02Tbl3T46NzJsujR7VW0y4yt.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/8ODNt5olCeIqBYTP3GgXEQYTfeX.jpg",
+      "trailer_youtube_key": "lR5nlovVgvQ",
+      "age_rating": "15+",
+      "tmdb_id": 933260,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Substance+2024",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
       "film_id": "super mario galakticky film",
       "title_cz": "Super Mario galaktický film",
       "title_en": "The Super Mario Galaxy Movie",
@@ -8236,6 +8659,53 @@
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0
+    },
+    {
+      "film_id": "supergirl",
+      "title_cz": "Supergirl",
+      "title_en": "Supergirl",
+      "original_title": "Supergirl",
+      "year": 2026,
+      "synopsis": "Když nemilosrdný protivník zaútočí příliš blízko domova, drzá a nekonvenční Kara Zor-El alias Supergirl musí neochotně spolupracovat s nečekanou posilou na epické mezihvězdné cestě za pomstou a spravedlností.",
+      "synopsis_language": "cs",
+      "runtime_min": 108,
+      "genres": [
+        "Akční",
+        "Dobrodružný",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Craig Gillespie"
+      ],
+      "screenwriter": [
+        "Ana Nogueira"
+      ],
+      "cast": [
+        "Milly Alcock",
+        "Eve Ridley",
+        "Matthias Schoenaerts",
+        "Jason Momoa",
+        "David Krumholtz",
+        "Emily Beecham",
+        "David Corenswet",
+        "Kadiff Kirwan"
+      ],
+      "production_company": [
+        "DC Studios",
+        "Troll Court Entertainment",
+        "The Safran Company",
+        "Domain Entertainment"
+      ],
+      "poster_path": "/5TchBzoo7xnAAAR1LZgBpEPWuYy.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7871S2R.jpg",
+      "backdrop_path": "/54KIfdTEzOliHDKx0OkzYGqAICx.jpg",
+      "trailer_youtube_key": "tzlY8XD1CGg",
+      "age_rating": "12+",
+      "tmdb_id": 1081003,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Supergirl+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.05, title 1.00)",
+      "match_score": 1.05
     },
     {
       "film_id": "superpes karlik",
@@ -8663,6 +9133,58 @@
       "match_score": 1.0
     },
     {
+      "film_id": "tlapkova patrola ve velkofilmu",
+      "title_cz": "Tlapková patrola ve velkofilmu",
+      "title_en": "PAW Patrol: The Mighty Movie",
+      "original_title": "PAW Patrol: The Mighty Movie",
+      "year": 2023,
+      "synopsis": "Když se přímo na Adventure City zřítí magický meteorit, získají pejsci z Tlapkové patroly superschopnosti, které je promění v mocné tlapky! Například nejmenší člence týmu, Skye, se díky novým schopnostem splní velký sen. Vše se ovšem zásadně zvrtne, když se zlému bývalému starostovi Humdingerovi podaří utéct z vězení. Společně s Victorií Vance, šílenou vědkyní, která je meteoritem přímo posedlá, se pokusí pejsky o jejich superschopnosti připravit ve snaze stát se superpadouchem. Tlapková patrola musí oba dva zastavit dřív, než bude pro Asteroid City pozdě. A Skye se přesvědčí o tom, že i malinké štěně může znamenat veliký rozdíl.",
+      "synopsis_language": "cs",
+      "runtime_min": 88,
+      "genres": [
+        "Dobrodružný",
+        "Animovaný",
+        "Komedie",
+        "Rodinný",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Cal Brunker"
+      ],
+      "screenwriter": [
+        "Shane Morris",
+        "Cal Brunker",
+        "Bob Barlen"
+      ],
+      "cast": [
+        "Mckenna Grace",
+        "Taraji P. Henson",
+        "Marsai Martin",
+        "Iain Armitage",
+        "Ron Pardo",
+        "Lil Rel Howery",
+        "Kim Kardashian",
+        "Chris Rock"
+      ],
+      "production_company": [
+        "Nickelodeon Movies",
+        "Spin Master",
+        "Paramount Pictures",
+        "Mikros Image",
+        "Mikros Animation"
+      ],
+      "poster_path": "/pzqGCpqL9J7s3qTB44rUcazKJA3.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/5863D2R.jpg",
+      "backdrop_path": "/zgQQF04u3OgNBJqClRNby1FPz9s.jpg",
+      "trailer_youtube_key": "yokqCWsXBFk",
+      "age_rating": "U",
+      "tmdb_id": 893723,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Tlapkov%C3%A1+patrola+ve+velkofilmu+2023",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.01, title 1.00)",
+      "match_score": 1.015
+    },
+    {
       "film_id": "tonda slavka a kouzelne svetlo",
       "title_cz": "Tonda, Slávka a kouzelné světlo",
       "title_en": "Tony, Shelly and the Magic Light",
@@ -8971,6 +9493,31 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.10, title 1.00)",
       "match_score": 1.1
+    },
+    {
+      "film_id": "umamusume pretty derby begining of a",
+      "title_cz": "Umamusume: Pretty Derby  – Begining of a",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/5183O2X1.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Umamusume%3A+Pretty+Derby++%E2%80%93+Begining+of+a",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Umamusume: Pretty Derby  – Begining of a'",
+      "match_score": 0.0
     },
     {
       "film_id": "upir nosferatu",

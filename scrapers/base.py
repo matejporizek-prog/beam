@@ -66,6 +66,22 @@ def fetch(url: str) -> str:
     return response.text
 
 
+def fetch_json(url: str) -> dict:
+    """
+    Download a URL and parse it as JSON.
+
+    For the rarer cinema whose site is a genuine public API (Cinema City's
+    Vista quickbook endpoint) rather than server-rendered HTML — same
+    politeness header as fetch(), just a different body format.
+    """
+    response = requests.get(
+        url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
+        timeout=REQUEST_TIMEOUT,
+    )
+    response.raise_for_status()
+    return response.json()
+
+
 # --------------------------------------------------------------------------
 # The screening record
 # --------------------------------------------------------------------------
