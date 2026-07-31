@@ -1,5 +1,5 @@
 /* ==========================================================================
-   The cinema map, in Profil.
+   The cinema map — the whole Mapa tab.
 
    Leaflet (loaded as a classic global script in index.html — see the note
    there) is the one external library this app uses besides fonts; everything
@@ -14,7 +14,7 @@
    specifically to sit inside dark UIs like this one.
    ========================================================================== */
 
-import { esc } from './format.js?v=25';
+import { esc } from './format.js?v=26';
 
 let cinemasCache = null;
 let mapInstance = null;
@@ -27,7 +27,7 @@ async function loadCinemas() {
   return cinemasCache;
 }
 
-/* Called every time Profil renders. renderProfile() rebuilds #cinema-map's
+/* Called every time the Mapa tab renders. renderMap() rebuilds #cinema-map's
    whole DOM subtree from scratch on each visit to the tab, which would leak
    the previous Leaflet instance (its own event listeners, its own detached
    DOM) if not explicitly torn down first — .remove() is Leaflet's own

@@ -8,14 +8,14 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=25';
-import { store } from './store.js?v=25';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=26';
+import { store } from './store.js?v=26';
 import {
-  renderDays, renderProgram, renderPremieres, renderWatchlist, renderProfile,
+  renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=25';
-import { esc } from './format.js?v=25';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=25';
+} from './screens.js?v=26';
+import { esc } from './format.js?v=26';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=26';
 
 /* ---------- app state ---------- */
 
@@ -99,7 +99,7 @@ async function boot() {
    truth is the browser's own subscription state, which can drift out from
    under it (permission revoked in the browser's own settings, the
    subscription expired). Checked once per app open and corrected silently —
-   Profil reads store.notifyEnabled() fresh each time it's opened, so this
+   Chci vidět reads store.notifyEnabled() fresh each time it renders, so this
    only needs to fix the stored flag, not force an immediate re-render. Not
    awaited from boot(): it depends on the service worker being ready, which
    can take a moment, and nothing else here needs to wait on it. */
@@ -121,7 +121,7 @@ function renderPrem() {
   renderPremieres($('s-prem'), activePremMonth, activePremDay);
 }
 
-const SCREENS = { program: 's-program', prem: 's-prem', want: 's-want', prof: 's-prof' };
+const SCREENS = { program: 's-program', prem: 's-prem', want: 's-want', map: 's-map' };
 
 function go(name) {
   document.querySelectorAll('.nav-item').forEach(n => n.classList.toggle('active', n.dataset.s === name));
@@ -132,7 +132,7 @@ function go(name) {
 
   if (name === 'prem') renderPrem();
   if (name === 'want') renderWatchlist(target);
-  if (name === 'prof') renderProfile(target);
+  if (name === 'map') renderMap(target);
 
   window.scrollTo({ top: 0, behavior: 'instant' });
 }
@@ -236,8 +236,9 @@ function wireEvents() {
       return;
     }
 
-    /* The Profil notify toggle. Delegated for the same reason as everything
-       above: renderProfile() rebuilds it every time the tab opens. */
+    /* The notify toggle, which lives on Chci vidět. Delegated for the same
+       reason as everything above: renderWatchlist() rebuilds it on every
+       render. */
     const notifyRow = event.target.closest('#row-notify');
     if (notifyRow) {
       toggleNotify();
@@ -485,7 +486,7 @@ function toggleSave() {
   syncWatchedFilms();
 }
 
-/* The Profil "Povolit upozornění" toggle. Both directions are real
+/* The "Upozornit na nové termíny" toggle on Chci vidět. Both directions are real
    browser-level actions (a permission prompt, a subscription request), not
    an instant local flip, so the toggle's visual state is re-rendered from
    what actually happened rather than assumed optimistically — denying the
@@ -501,7 +502,9 @@ async function toggleNotify() {
   } else {
     toast(turningOn ? 'Upozornění zapnuta' : 'Upozornění vypnuta');
   }
-  if ($('s-prof').classList.contains('active')) renderProfile($('s-prof'));
+  /* The toggle lives on Chci vidět now (it's a setting about that list), so
+     that's the screen to re-render from the real post-action state. */
+  if ($('s-want').classList.contains('active')) renderWatchlist($('s-want'));
 }
 
 /* Reflect a save/unsave on every control that points at the same id: the big

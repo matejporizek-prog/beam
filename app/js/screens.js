@@ -10,16 +10,16 @@ import {
   state, filmFor, filmById, titleOf, screeningsForFilm, nextScreening,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf, isMultiplex,
-} from './data.js?v=25';
+} from './data.js?v=26';
 
 import {
   DOW, esc, fold, dateOf, shortDate, longDay, whenLabel,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=25';
+} from './format.js?v=26';
 
-import { store } from './store.js?v=25';
-import { isPushSupported } from './push.js?v=25';
-import { initCinemaMap } from './map.js?v=25';
+import { store } from './store.js?v=26';
+import { isPushSupported } from './push.js?v=26';
+import { initCinemaMap } from './map.js?v=26';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
@@ -361,6 +361,32 @@ export function renderPremieres(el, activeMonth, activeDay) {
 
 /* ---------- Chci vidět ---------- */
 
+/* The notification toggle lives here rather than on its own settings screen
+   because this is the list it's about: "tell me when something on here gets a
+   screening". Sitting above the very films it watches, it needs no explaining
+   — which is why it moved off the old Profil tab when that became Mapa.
+
+   Only rendered when there's actually something saved: with an empty list
+   there is nothing to be notified about, and a lone settings switch above an
+   empty state is clutter. It appears the moment the first film is saved,
+   which is exactly when it starts meaning anything. */
+function notifyRow() {
+  const supported = isPushSupported();
+  const enabled = store.notifyEnabled();
+  return `
+    <div class="filter-group notify-group">
+      <div class="filter-row compact" id="row-notify">
+        <div>
+          <div class="fr-title">Upozornit na nové termíny</div>
+          <div class="fr-sub">${supported
+            ? 'Dáme ti vědět, až některý z těchto filmů dostane první termín.'
+            : 'Tento prohlížeč push upozornění nepodporuje.'}</div>
+        </div>
+        <span class="switch ${enabled ? 'on' : ''}${supported ? '' : ' disabled'}" id="sw-notify"><span class="knob"></span></span>
+      </div>
+    </div>`;
+}
+
 export function renderWatchlist(el) {
   const saved = store.watchlist();
 
@@ -372,7 +398,7 @@ export function renderWatchlist(el) {
 
   const rows = saved.map(watchlistFilmRow).join('');
 
-  el.innerHTML =
+  el.innerHTML = notifyRow() +
     `<div class="sec-head stagger">${saved.length} ${plural(saved.length)}</div>` + rows;
 }
 
@@ -420,48 +446,32 @@ function plural(n) {
   return 'uložených filmů';
 }
 
-/* ---------- Profil ---------- */
+/* ---------- Mapa ---------- */
 
-export function renderProfile(el) {
+/* The Mapa tab. Was "Profil" until 2026-07-30, when it was renamed to what it
+   actually is: the map is the whole screen now, not a 320px box sharing space
+   with unrelated settings.
+
+   Two things left with the rename. The notification toggle moved to Chci
+   vidět, where it explains itself — it's a setting about that exact list (see
+   renderWatchlist). And the old "your film diary / watch history appears here
+   once we add tracking" placeholder is gone: watch-history tracking is
+   explicitly shelved, and a screen shouldn't advertise a feature that isn't
+   coming. What's left is the map plus the data-freshness line, which is
+   genuinely useful and has nowhere better to live. */
+export function renderMap(el) {
   const generated = state.generatedAt
     ? new Date(state.generatedAt).toLocaleString('cs-CZ', { dateStyle: 'long', timeStyle: 'short' })
     : '—';
 
-  const supported = isPushSupported();
-  const enabled = store.notifyEnabled();
-  const notifySection = `
-    <div class="filter-group">
-      <div class="fg-label">Upozornění</div>
-      <div class="filter-row compact" id="row-notify">
-        <div>
-          <div class="fr-title">Povolit upozornění</div>
-          <div class="fr-sub">${supported
-            ? 'Upozorníme tě, až bude mít premiéra, kterou sleduješ v Chci vidět, první termín.'
-            : 'Tento prohlížeč push upozornění nepodporuje.'}</div>
-        </div>
-        <span class="switch ${enabled ? 'on' : ''}" id="sw-notify"><span class="knob"></span></span>
-      </div>
-    </div>`;
-
-  const mapSection = `
-    <div class="filter-group">
-      <div class="fg-label">Mapa kin</div>
-      <div class="map-container" id="cinema-map"></div>
-    </div>`;
-
-  el.innerHTML = notifySection + mapSection + emptyState('profile', 'Profil',
-    'Tvůj filmový deník, oblíbená kina a historie zhlédnutých filmů se objeví tady, až přidáme sledování.') +
+  el.innerHTML =
+    `<div class="map-screen"><div class="map-container" id="cinema-map"></div></div>` +
     `<p class="attribution">
       Program aktualizován ${esc(generated)}<br>
       ${state.screenings.length} projekcí · ${state.films.size} filmů
     </p>`;
 
-  if (!supported) {
-    const toggle = document.getElementById('sw-notify');
-    toggle.classList.add('disabled');
-  }
-
-  /* Not awaited: renderProfile() stays synchronous like every other render
+  /* Not awaited: renderMap() stays synchronous like every other render
      function here, and the map fills in a moment later once Leaflet has
      built it and data/cinemas.json has loaded — same fire-and-forget pattern
      already used for syncWatchedFilms(). */
@@ -652,7 +662,6 @@ const EMPTY_ICONS = {
   filter: '<path d="M3 5h18M6 12h12M10 19h4" stroke-linecap="round"/>',
   program: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v16"/>',
   want: '<path d="M6 4h12a1 1 0 011 1v15l-7-4-7 4V5a1 1 0 011-1z"/>',
-  profile: '<circle cx="12" cy="8.5" r="3.7"/><path d="M5 20c0-3.6 3.1-6 7-6s7 2.4 7 6"/>',
 };
 
 function emptyState(icon, title, sub) {

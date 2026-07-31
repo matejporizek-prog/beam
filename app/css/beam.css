@@ -589,10 +589,22 @@ header.compact .brand h1 { font-size: 26px; }
    only the parts that need to match Beam's own dark palette instead of
    Leaflet's default light theme, plus the popup content this app puts inside
    a marker. */
+/* The map is the whole Mapa tab now, so it fills the screen rather than
+   sitting in a fixed box: viewport minus the header, the freshness line and
+   the bottom nav. dvh (not vh) for the same reason the filter sheet uses it —
+   on iOS `vh` is measured as though the URL bar were hidden, which would push
+   the bottom of the map behind the browser chrome. */
+.map-screen { padding: 4px 20px 0; }
 .map-container {
-  height: 320px; border-radius: 13px; overflow: hidden;
+  height: 320px;
+  height: clamp(320px, calc(100dvh - 300px), 720px);
+  border-radius: 13px; overflow: hidden;
   border: 1px solid var(--card-edge); background: var(--card);
 }
+/* Sits above the watchlist rows, so it needs the same 20px gutter the rows
+   have — .filter-group was written for the edge-to-edge filter sheet, which
+   supplies its own padding. */
+.notify-group { padding: 12px 20px 4px; border-top: none; }
 /* Leaflet sizes its map to the container at creation time; a hidden or
    zero-height container at init produces a grey, half-tiled map, which is
    why this only ever runs once #cinema-map is actually in the DOM and

@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=Archivo:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-<!-- Leaflet: the cinema map in Profil. Loaded as a classic global script (not
+<!-- Leaflet: the cinema map on the Mapa tab. Loaded as a classic global script (not
      an ES module — it predates that convention and attaches itself as
      window.L), the one external script this app loads besides fonts. Pinned
      version + SRI hash per Leaflet's own published CDN snippet. -->
@@ -27,7 +27,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
-<link rel="stylesheet" href="./css/beam.css?v=25">
+<link rel="stylesheet" href="./css/beam.css?v=26">
 </head>
 <body>
 <div class="app">
@@ -80,8 +80,8 @@
     <!-- CHCI VIDĚT -->
     <section class="screen" id="s-want"></section>
 
-    <!-- PROFIL -->
-    <section class="screen" id="s-prof"></section>
+    <!-- MAPA -->
+    <section class="screen" id="s-map"></section>
 
     <!-- TMDb attribution — required by their terms for non-commercial API use -->
     <div class="attribution">
@@ -240,9 +240,9 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 4h12a1 1 0 011 1v15l-7-4-7 4V5a1 1 0 011-1z"/></svg>
       <span class="nl">Chci vidět</span>
     </button>
-    <button class="nav-item" data-s="prof">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8.5" r="3.7"/><path d="M5 20c0-3.6 3.1-6 7-6s7 2.4 7 6"/></svg>
-      <span class="nl">Profil</span>
+    <button class="nav-item" data-s="map">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s7-5.7 7-11a7 7 0 10-14 0c0 5.3 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+      <span class="nl">Mapa</span>
     </button>
   </nav>
 </div>
@@ -250,6 +250,6 @@
 <!-- The ?v= query is a cache-busting version. Bump it (here and on the imports
      inside the js/ modules) when shipping changed JS so browsers fetch the new
      code instead of a cached copy. Milestone 5 can automate this at deploy. -->
-<script type="module" src="./js/app.js?v=25"></script>
+<script type="module" src="./js/app.js?v=26"></script>
 </body>
 </html>

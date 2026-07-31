@@ -107,7 +107,7 @@ app/
   js/screens.js  the four screens, detail overlay, search
   js/store.js    localStorage (watchlist, filters)
   js/push.js     push-notification subscribe/unsubscribe (browser side)
-  js/map.js      the cinema map in Profil (Leaflet)
+  js/map.js      the cinema map — the whole Mapa tab (Leaflet)
   js/app.js      bootstrap, navigation, events, the beam
   sw.js          offline caching
 worker/
@@ -779,7 +779,7 @@ that a film sitting in Chci vidět with no screening yet just got one.
 **Scope, decided with Matěj:** real push (a phone alert even with the app
 closed), not an in-app "new!" badge — the badge alternative was considered
 and explicitly turned down as not actually solving "notify me". No per-film
-opt-in either: one master "Povolit upozornění" toggle in Profil, and once
+opt-in either: one master "Upozornit na nové termíny" toggle on Chci vidět, and once
 it's on, everything currently in Chci vidět without a screening is watched
 automatically; nothing new to configure per film.
 
@@ -845,10 +845,10 @@ the dashboard:
    ECDSA keypair, so any crypto library that can export JWK works), and
    handed over once, never committed.
 
-## Cinema map (Profil)
+## Cinema map (the Mapa tab)
 
 Shows every cinema on a map, plus (best-effort) where you are relative to
-them. Matěj's two choices before building it: the map lives in Profil rather
+them. Matěj's two choices before building it: the map lives on its own tab rather
 than a new nav slot (the bottom nav is a fixed 35mm film-strip visual with no
 room for a 5th destination) or a separate overlay, and tapping a cinema jumps
 straight to today's screenings there rather than being a dead-end popup.
@@ -873,7 +873,7 @@ otherwise near-black app, and this basemap style exists specifically for
 sitting inside dark UIs like this one.
 
 `app/js/map.js`'s `initCinemaMap()` rebuilds the whole Leaflet instance every
-time Profil renders — `renderProfile()` regenerates `#cinema-map`'s DOM from
+time the Mapa tab renders — `renderMap()` regenerates `#cinema-map`'s DOM from
 scratch on every visit to the tab (same as every other screen here), so the
 previous map instance is explicitly torn down first (`.remove()` plus
 dropping the reference) rather than leaking. Markers for all 13 cinemas are
@@ -894,6 +894,22 @@ cinema-grouped view and scrolls that venue's section into view — added a
 in `screens.js` for exactly this. If that cinema has nothing on the
 currently active day, the section simply doesn't exist and the scroll is a
 silent no-op, not an error.
+
+**Renamed from "Profil" to "Mapa" (2026-07-30).** The tab was originally a
+Profil placeholder that happened to gain a map; once the map was the only
+real thing on it, the label was describing an intention rather than the
+screen. Renaming it had two consequences worth recording. The watch-history
+placeholder ("your film diary appears here once we add tracking") was
+deleted rather than moved — that feature is explicitly shelved, and a screen
+shouldn't advertise something that isn't coming. And the notification toggle
+moved to **Chci vidět**, which is where it belongs: it's a setting about that
+exact list ("tell me when something on here gets a screening"), and sitting
+directly above those films it needs no explaining. It only renders when the
+watchlist is non-empty — with nothing saved there is nothing to be notified
+about, and a lone switch above an empty state is clutter. The internal
+identifiers followed the rename too (`renderProfile` → `renderMap`, `s-prof`
+→ `s-map`), since leaving them would be exactly the naming drift the review
+flagged elsewhere.
 
 ## Data attribution
 

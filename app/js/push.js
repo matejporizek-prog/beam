@@ -10,13 +10,13 @@
    browser-side half: asking permission, subscribing, and keeping the
    server's list of watched films in sync with the real watchlist.
 
-   Scope, per Matěj: no per-film opt-in — one master toggle (Profil), and
+   Scope, per Matěj: no per-film opt-in — one master toggle (on Chci vidět), and
    once it's on, everything in Chci vidět that doesn't have a screening yet
    is watched automatically.
    ========================================================================== */
 
-import { state } from './data.js?v=25';
-import { store } from './store.js?v=25';
+import { state } from './data.js?v=26';
+import { store } from './store.js?v=26';
 
 /* Public half of the VAPID keypair used to sign push messages server-side.
    Not secret — every subscribing browser needs it, same as a site's own TLS
@@ -80,7 +80,7 @@ export async function syncWatchedFilms() {
 }
 
 /* Returns true on success. Requesting permission and subscribing are both
-   real, user-visible browser prompts/states, so the caller (the Profil
+   real, user-visible browser prompts/states, so the caller (the Chci vidět
    toggle) needs to know whether it actually worked to reflect that back. */
 export async function enableNotifications() {
   if (!isPushSupported()) return false;

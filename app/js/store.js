@@ -135,7 +135,7 @@ export const store = {
 
   /* Just the user's own preference — whether the push subscription itself is
      live is a browser/Worker fact, checked separately via push.js. This is
-     what the Profil toggle reflects on load, before that check resolves. */
+     what the Chci vidět toggle reflects on load, before that check resolves. */
   notifyEnabled() {
     return read(KEYS.notify, false);
   },
