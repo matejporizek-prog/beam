@@ -50,15 +50,85 @@ async function readJson(request) {
   }
 }
 
+/* These endpoints are necessarily public — the whole point is that a browser
+   can subscribe itself, and this app deliberately has no accounts to
+   authenticate against. So rather than pretending to authenticate, the
+   defence is to make a *junk* write impossible and to bound how much damage
+   a determined caller can do.
+
+   Worth being clear about what was never at risk: a push subscription is
+   cryptographically bound to the VAPID key it was created with, and this
+   Worker signs with Beam's private key. It therefore cannot deliver to any
+   browser that didn't subscribe through Beam itself — an injected
+   third-party subscription is rejected by the push service, so this can't be
+   turned into a spam relay. There is also no read endpoint, so nothing
+   leaks. The real exposure was quota: Cloudflare's free tier allows 1,000 KV
+   writes a day, and enough fabricated records would also bloat the daily
+   cron until it degraded. A denial-of-service on a feature only Matěj uses. */
+
+/* A real push endpoint always lives on one of the browser vendors' own push
+   services. Nothing else is a plausible subscription, so nothing else is
+   stored — this alone rejects casually fabricated payloads (including, as it
+   happens, the https://example.com/... entries used while testing this
+   feature). A determined attacker could still forge a plausible-looking FCM
+   URL, which is what the capacity limit below is for. */
+const PUSH_HOSTS = [
+  "fcm.googleapis.com",            // Chrome / Chromium
+  "android.googleapis.com",        // older Chrome
+  "updates.push.services.mozilla.com", // Firefox
+  "notify.windows.com",            // Edge / WNS (subdomained)
+  "web.push.apple.com",            // Safari / iOS
+];
+
+function isPlausiblePushEndpoint(endpoint) {
+  let url;
+  try {
+    url = new URL(endpoint);
+  } catch {
+    return false;
+  }
+  if (url.protocol !== "https:") return false;
+  return PUSH_HOSTS.some((host) => url.hostname === host || url.hostname.endsWith(`.${host}`));
+}
+
+/* Far above any real watchlist, but bounded — without a ceiling a single
+   request could store a multi-megabyte array that the cron then reads back
+   every day. */
+const MAX_WATCHED_FILMS = 500;
+
+/* A personal app realistically has a handful of devices. The cap only ever
+   applies to a *new* subscription: an endpoint already in KV can always
+   update itself, so Matěj's own phone can never be locked out of re-syncing
+   by someone else having filled the space. The worst a flood can do is stop
+   a genuinely new device being added until the namespace is cleared. */
+const MAX_SUBSCRIPTIONS = 20;
+
 async function handleSubscribe(request, env) {
   const body = await readJson(request);
   const { subscription, filmIds } = body || {};
   if (!subscription || !subscription.endpoint || !Array.isArray(filmIds)) {
     return jsonResponse({ error: "expected { subscription, filmIds }" }, 400);
   }
+  if (!isPlausiblePushEndpoint(subscription.endpoint)) {
+    return jsonResponse({ error: "not a recognised push endpoint" }, 400);
+  }
+  if (filmIds.length > MAX_WATCHED_FILMS) {
+    return jsonResponse({ error: `at most ${MAX_WATCHED_FILMS} films` }, 400);
+  }
 
   const key = await subscriptionKey(subscription);
   const existing = await env.SUBSCRIPTIONS.get(key, "json");
+
+  // Only a genuinely new endpoint is counted against the cap — and only then
+  // is the list() call made at all, so the normal case (an existing device
+  // re-syncing its watchlist) still costs exactly one read and one write.
+  if (!existing) {
+    const { keys } = await env.SUBSCRIPTIONS.list({ limit: MAX_SUBSCRIPTIONS + 1 });
+    if (keys.length >= MAX_SUBSCRIPTIONS) {
+      return jsonResponse({ error: "subscription limit reached" }, 429);
+    }
+  }
+
   // Keep whichever already-notified ids are still relevant (still in the
   // client's current watchlist) — a film dropped from the watchlist entirely
   // doesn't need to stay in this list forever, but one still being watched
@@ -73,6 +143,12 @@ async function handleUnsubscribe(request, env) {
   const { subscription } = (await readJson(request)) || {};
   if (!subscription || !subscription.endpoint) {
     return jsonResponse({ error: "expected { subscription }" }, 400);
+  }
+  // Same check as subscribe: a delete is a billable write too, so an
+  // unrecognised endpoint shouldn't be allowed to reach KV at all. A genuine
+  // unsubscribe always carries the real endpoint it subscribed with.
+  if (!isPlausiblePushEndpoint(subscription.endpoint)) {
+    return jsonResponse({ error: "not a recognised push endpoint" }, 400);
   }
   await env.SUBSCRIPTIONS.delete(await subscriptionKey(subscription));
   return jsonResponse({ ok: true });
