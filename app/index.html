@@ -27,7 +27,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
-<link rel="stylesheet" href="./css/beam.css?v=30">
+<link rel="stylesheet" href="./css/beam.css?v=31">
 </head>
 <body>
 <div class="app">
@@ -183,6 +183,7 @@
     <div class="filter-group">
       <div class="fg-label">Žánr</div>
       <div class="pill-picker" id="fp-genre"></div>
+      <button class="fp-genre-toggle" id="fp-genre-toggle"></button>
     </div>
 
     <div class="filter-group">
@@ -250,6 +251,6 @@
 <!-- The ?v= query is a cache-busting version. Bump it (here and on the imports
      inside the js/ modules) when shipping changed JS so browsers fetch the new
      code instead of a cached copy. Milestone 5 can automate this at deploy. -->
-<script type="module" src="./js/app.js?v=30"></script>
+<script type="module" src="./js/app.js?v=31"></script>
 </body>
 </html>

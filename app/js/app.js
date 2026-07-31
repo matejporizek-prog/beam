@@ -8,14 +8,14 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=30';
-import { store } from './store.js?v=30';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=31';
+import { store } from './store.js?v=31';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=30';
-import { esc } from './format.js?v=30';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=30';
+} from './screens.js?v=31';
+import { esc } from './format.js?v=31';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=31';
 
 /* ---------- app state ---------- */
 
@@ -23,6 +23,10 @@ let activeDay = null;
 let progGroup = 'film';
 let filters = store.loadFilters();
 let detailFilmId = null;
+/* Whether Žánr's full pill list is expanded — see renderGenrePills() below.
+   Reset every time the sheet opens (openFilter() below), same as
+   #creator-input's own value: the sheet always opens in a clean state. */
+let genresExpanded = false;
 /* 'YYYY-MM', resolved lazily. Same lifetime as activeDay above: null until
    renderPremieres() (screens.js) picks a default the first time the tab
    opens — this month if it has a premiere, otherwise the soonest month that
@@ -199,6 +203,12 @@ function wireEvents() {
       return;
     }
 
+    if (event.target.closest('#fp-genre-toggle')) {
+      genresExpanded = !genresExpanded;
+      renderGenrePills();
+      return;
+    }
+
     /* "Program dnes" inside a map pin's popup (map.js — a Leaflet popup is
        just DOM content like anything else, so this delegated handler on
        document.body catches clicks inside it with no special wiring). Jumps
@@ -353,13 +363,38 @@ function syncFilterUI() {
 /* Every genre currently screening, as toggle pills — unlike creators this is
    a small, bounded set (TMDb's whole taxonomy is under 20 names), so it's
    rendered like Verze/Format rather than a search field: every option shown
-   at once, tap to toggle on/off in place. Still computed from genreNames()
-   rather than hardcoded, so a genre with nothing screening never shows an
-   empty-result pill and a real one is never missing. */
+   as a pill, tap to toggle on/off in place, not typed into a search box.
+   Still computed from genreNames() rather than hardcoded, so a genre with
+   nothing screening never shows an empty-result pill and a real one is never
+   missing.
+
+   But ~18 pills at once is still a wall — a real cognitive-load finding from
+   the 2026-07-31 design critique, sitting right next to Tvůrci's own
+   type-ahead field which already solves the same problem correctly. A search
+   box isn't the right fix for genre specifically, though: unlike creator
+   names (100+, unknown to the user in advance), genres are a short, closed,
+   already-familiar vocabulary someone wants to scan and tap, not type — so
+   the fix here is showing only the first GENRE_VISIBLE_LIMIT (genreNames()
+   orders these by how many films actually carry them this week, most useful
+   first) with a "show more" reveal for the rest. Whatever's already selected
+   always stays visible even collapsed, so toggling one off is never a
+   scroll-and-hunt. */
+const GENRE_VISIBLE_LIMIT = 6;
+
 function renderGenrePills() {
-  $('fp-genre').innerHTML = genreNames().map(genre =>
+  const all = genreNames();
+  const visible = genresExpanded
+    ? all
+    : all.filter((genre, i) => i < GENRE_VISIBLE_LIMIT || filters.genres.has(genre));
+  const hiddenCount = all.length - visible.length;
+
+  $('fp-genre').innerHTML = visible.map(genre =>
     `<button class="fpill ${filters.genres.has(genre) ? 'on' : ''}" data-genre="${esc(genre)}">${esc(genre)}</button>`
   ).join('');
+
+  const toggle = $('fp-genre-toggle');
+  toggle.classList.toggle('show', genresExpanded || hiddenCount > 0);
+  toggle.textContent = genresExpanded ? 'Zobrazit méně' : `Zobrazit vše (+${hiddenCount})`;
 }
 
 /* Selected director/screenwriter names — rendered the same way a selected
@@ -406,6 +441,7 @@ let scrollBeforeFilter = 0;
 
 function openFilter() {
   $('creator-input').value = '';
+  genresExpanded = false;
   syncFilterUI();
   scrollBeforeFilter = window.scrollY;
   document.documentElement.classList.add('sheet-open');

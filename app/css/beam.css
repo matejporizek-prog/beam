@@ -662,6 +662,17 @@ header.compact .brand h1 { font-size: 26px; }
 .fpill.on { color: var(--accent); border-color: var(--accent-dim); background: rgba(231,201,138,.08); }
 .fpill:disabled { opacity: .35; cursor: default; }
 
+/* Žánr's "show more/fewer" — same plain-text-link language as .prem-clear
+   (Premiéry's "Celý měsíc"), since both are the same kind of move: reveal or
+   collapse a list, not select a filter. Kept visually distinct from the
+   .fpill options themselves, so it never reads as one more genre to tap. */
+.fp-genre-toggle {
+  display: none; margin-top: 8px; padding: 4px 0;
+  font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: .04em;
+  color: var(--accent); background: none; border: none; cursor: pointer;
+}
+.fp-genre-toggle.show { display: block; }
+
 /* Director/screenwriter: an open-ended set (however many distinct people are
    in the current program, easily 100+) rather than Verze/Format's fixed
    handful, so it's a search-to-select field instead of a static pill row.
