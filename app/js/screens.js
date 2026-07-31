@@ -7,19 +7,19 @@
    ========================================================================== */
 
 import {
-  state, filmFor, filmById, titleOf, screeningsForFilm, nextScreening,
+  state, filmFor, filmById, titleOf, screeningsForFilm,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf, isMultiplex,
-} from './data.js?v=28';
+} from './data.js?v=29';
 
 import {
   DOW, esc, fold, dateOf, shortDate, longDay, whenLabel,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=28';
+} from './format.js?v=29';
 
-import { store } from './store.js?v=28';
-import { isPushSupported } from './push.js?v=28';
-import { initCinemaMap } from './map.js?v=28';
+import { store } from './store.js?v=29';
+import { isPushSupported } from './push.js?v=29';
+import { initCinemaMap } from './map.js?v=29';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
@@ -84,6 +84,27 @@ function isCzechLanguage(screening) {
 export function activeFilterCount(filters) {
   return (filters.mplex ? 1 : 0) + (filters.enOnly ? 1 : 0) + filters.version.size + filters.format.size +
     filters.creators.size + filters.genres.size;
+}
+
+/* screeningsForFilm()/nextScreening() in data.js return a film's full,
+   unfiltered schedule — correct for data.js to stay filter-agnostic, since
+   `filters` is session state that belongs with the screens that render it,
+   not with the data layer. But that split had a real bug hiding in it: three
+   call sites below (the watchlist row, the detail overlay, and search's next-
+   screening subtitle) read straight from those unfiltered functions, so a
+   film's "next screening" or "playing this week" list quietly ignored every
+   Filtr setting — including the multiplex toggle. A multiplex-heavy film
+   would show hundreds of Cinema City/Premiere Cinemas showtimes here even
+   with multiplexes switched off in Program, the exact opposite of what the
+   toggle promises. These two wrappers are the fix: filter through the same
+   passesFilters() Program already uses, right where `filters` is actually in
+   scope. */
+function filteredScreeningsForFilm(filmId, filters) {
+  return screeningsForFilm(filmId).filter(s => passesFilters(s, filters));
+}
+
+function filteredNextScreening(filmId, filters) {
+  return filteredScreeningsForFilm(filmId, filters).find(s => !isPast(s)) || null;
 }
 
 /* ---------- day strip ---------- */
@@ -387,7 +408,7 @@ function notifyRow() {
     </div>`;
 }
 
-export function renderWatchlist(el) {
+export function renderWatchlist(el, filters) {
   const saved = store.watchlist();
 
   if (!saved.length) {
@@ -396,20 +417,20 @@ export function renderWatchlist(el) {
     return;
   }
 
-  const rows = saved.map(watchlistFilmRow).join('');
+  const rows = saved.map(filmId => watchlistFilmRow(filmId, filters)).join('');
 
   el.innerHTML = notifyRow() +
     `<div class="sec-head stagger">${saved.length} ${plural(saved.length)}</div>` + rows;
 }
 
-function watchlistFilmRow(filmId) {
+function watchlistFilmRow(filmId, filters) {
   const film = filmById(filmId);
-  const all = screeningsForFilm(filmId);
+  const all = filteredScreeningsForFilm(filmId, filters);
   /* A watchlisted film may not be in this week's data at all — either it has
      stopped screening or it was never in the program. Keep the stored title so
      the row never renders blank. */
   const title = (film && film.title_cz) || store.titleFor(filmId) || filmId;
-  const next = nextScreening(filmId);
+  const next = filteredNextScreening(filmId, filters);
 
   const meta = [];
   if (film && film.genres && film.genres.length) meta.push(esc(film.genres.slice(0, 2).join(', ')));
@@ -480,15 +501,20 @@ export function renderMap(el) {
 
 /* ---------- detail overlay ---------- */
 
-export function fillDetail(filmId) {
+export function fillDetail(filmId, filters) {
   const film = filmById(filmId);
   /* Only today and later. screeningsForFilm() returns full history for a
      film, so without this filter a film that played last week keeps showing
      those stale, grayed-out rows here forever — not "past today", genuinely
      gone days. Comparing ISO date strings against todayISO() means this is
      computed fresh from the real clock every time the overlay opens, so it
-     rolls over on its own at midnight with no separate "refresh" needed. */
-  const shows = screeningsForFilm(filmId).filter(s => s.date >= todayISO());
+     rolls over on its own at midnight with no separate "refresh" needed.
+
+     filteredScreeningsForFilm(), not the raw screeningsForFilm() — this list
+     used to ignore every Filtr setting, so a multiplex-heavy film's detail
+     page showed hundreds of Cinema City/Premiere Cinemas showtimes even with
+     multiplexes switched off in Program. */
+  const shows = filteredScreeningsForFilm(filmId, filters).filter(s => s.date >= todayISO());
   const title = (film && film.title_cz) || (shows[0] && shows[0].title_cz) || store.titleFor(filmId) || filmId;
 
   /* hero */
@@ -605,7 +631,7 @@ export function fillDetail(filmId) {
 
 /* ---------- search ---------- */
 
-export function runSearch(query, resultsEl) {
+export function runSearch(query, resultsEl, filters) {
   /* fold(), not toLowerCase(): both sides of the comparison get their
      diacritics stripped, so "svetozor" finds "Světozor". Typing Czech
      accents on a phone means a long-press per letter, so searching without
@@ -641,7 +667,7 @@ export function runSearch(query, resultsEl) {
 
   resultsEl.innerHTML = [...hits.keys()].map(filmId => {
     const film = filmById(filmId);
-    const next = nextScreening(filmId);
+    const next = filteredNextScreening(filmId, filters);
     const title = (film && film.title_cz) || hits.get(filmId).title_cz;
     const sub = next
       ? `${whenLabel(next)} · ${shortVenue(next.cinema)}`

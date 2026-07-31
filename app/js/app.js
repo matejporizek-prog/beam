@@ -8,14 +8,14 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=28';
-import { store } from './store.js?v=28';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=29';
+import { store } from './store.js?v=29';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=28';
-import { esc } from './format.js?v=28';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=28';
+} from './screens.js?v=29';
+import { esc } from './format.js?v=29';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=29';
 
 /* ---------- app state ---------- */
 
@@ -131,7 +131,7 @@ function go(name) {
   target.classList.add('active');
 
   if (name === 'prem') renderPrem();
-  if (name === 'want') renderWatchlist(target);
+  if (name === 'want') renderWatchlist(target, filters);
   if (name === 'map') renderMap(target);
 
   window.scrollTo({ top: 0, behavior: 'instant' });
@@ -234,7 +234,7 @@ function wireEvents() {
 
       /* Removing the last-tapped item straight out of the open watchlist would
          leave a stale row, so re-render it. */
-      if ($('s-want').classList.contains('active')) renderWatchlist($('s-want'));
+      if ($('s-want').classList.contains('active')) renderWatchlist($('s-want'), filters);
       /* No-ops silently when notifications are off (see syncWatchedFilms) —
          only worth the round trip when the server actually has a list to
          update. */
@@ -265,7 +265,7 @@ function wireEvents() {
   /* search */
   $('hdr-search').onclick = openSearch;
   $('search-back').onclick = () => closeSearch();
-  $('search-input').oninput = () => runSearch($('search-input').value, $('search-results'));
+  $('search-input').oninput = () => runSearch($('search-input').value, $('search-results'), filters);
 
   /* filter sheet */
   $('filtr-btn').onclick = openFilter;
@@ -438,7 +438,7 @@ function openSearch() {
 function closeSearch(fromPop) {
   $('search-ov').classList.remove('open');
   $('search-input').value = '';
-  runSearch('', $('search-results'));
+  runSearch('', $('search-results'), filters);
   if (!fromPop) history.back();
 }
 
@@ -448,7 +448,7 @@ function closeSearch(fromPop) {
 let scrollBeforeDetail = 0;
 
 function openDetail(filmId, fromSearch) {
-  detailFilmId = fillDetail(filmId);
+  detailFilmId = fillDetail(filmId, filters);
   scrollBeforeDetail = window.scrollY;
   $('overlay').classList.add('open');
   document.documentElement.classList.add('detail-open');
@@ -459,7 +459,7 @@ function openDetail(filmId, fromSearch) {
        stranded 'search' state and the detail isn't left behind it. */
     $('search-ov').classList.remove('open');
     $('search-input').value = '';
-    runSearch('', $('search-results'));
+    runSearch('', $('search-results'), filters);
     history.replaceState({ sheet: 'detail' }, '');
   } else {
     history.pushState({ sheet: 'detail' }, '');
@@ -488,7 +488,7 @@ function toggleSave() {
   toast(on ? 'Přidáno do Chci vidět' : 'Odebráno z Chci vidět');
 
   /* Keep Chci vidět in step immediately rather than on the next tab switch. */
-  if ($('s-want').classList.contains('active')) renderWatchlist($('s-want'));
+  if ($('s-want').classList.contains('active')) renderWatchlist($('s-want'), filters);
   syncWatchedFilms();
 }
 
@@ -510,7 +510,7 @@ async function toggleNotify() {
   }
   /* The toggle lives on Chci vidět now (it's a setting about that list), so
      that's the screen to re-render from the real post-action state. */
-  if ($('s-want').classList.contains('active')) renderWatchlist($('s-want'));
+  if ($('s-want').classList.contains('active')) renderWatchlist($('s-want'), filters);
 }
 
 /* Reflect a save/unsave on every control that points at the same id: the big
