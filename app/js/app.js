@@ -8,14 +8,14 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=31';
-import { store } from './store.js?v=31';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=32';
+import { store } from './store.js?v=32';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=31';
-import { esc } from './format.js?v=31';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=31';
+} from './screens.js?v=32';
+import { esc } from './format.js?v=32';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=32';
 
 /* ---------- app state ---------- */
 
@@ -272,6 +272,22 @@ function wireEvents() {
     }
   });
 
+  /* Enter/Space activation for every role="button"/role="switch" element
+     added 2026-07-31 (film/vrow/row/sr-item rows, the mplex/enOnly/notify
+     switches) — real <button>s already get this for free from the browser,
+     but these are plain <article>/<div> elements carrying just a role, which
+     gets no built-in key handling at all. Dispatches a real click rather than
+     duplicating any handler logic, so it flows through the exact same
+     delegated click listener above (and every other real onclick in this
+     file) with nothing to keep in sync. */
+  document.body.addEventListener('keydown', event => {
+    if (event.key !== 'Enter' && event.key !== ' ') return;
+    const control = event.target.closest('[role="button"], [role="switch"]');
+    if (!control) return;
+    event.preventDefault();  // ' ' would otherwise scroll the page
+    control.click();
+  });
+
   /* search */
   $('hdr-search').onclick = openSearch;
   $('search-back').onclick = () => closeSearch();
@@ -347,6 +363,8 @@ function togglePill(set, value) {
 function syncFilterUI() {
   $('sw-mplex').className = 'switch' + (filters.mplex ? ' on' : '');
   $('sw-en').className = 'switch' + (filters.enOnly ? ' on' : '');
+  $('row-mplex').setAttribute('aria-checked', filters.mplex);
+  $('row-en').setAttribute('aria-checked', filters.enOnly);
   document.querySelectorAll('#fp-version .fpill').forEach(p => p.classList.toggle('on', filters.version.has(p.dataset.v)));
   document.querySelectorAll('#fp-format .fpill').forEach(p => p.classList.toggle('on', filters.format.has(p.dataset.v)));
   renderGenrePills();
@@ -449,6 +467,13 @@ function openFilter() {
   $('filter-sheet').classList.add('open');
   window.scrollTo(0, 0);
   history.pushState({ sheet: 'filter' }, '');
+  /* Moves a screen reader's reading position into the panel itself, not just
+     the visual page — without this a VoiceOver/TalkBack user keeps swiping
+     through Program's now-hidden content, unaware a dialog opened at all.
+     Delayed a tick for the same reason openSearch()'s input focus is: the
+     panel needs to actually be in the accessibility tree (post display/open
+     class change) before it can take focus. */
+  setTimeout(() => $('filter-sheet').focus(), 60);
 }
 
 function closeFilter(fromPop) {
@@ -500,6 +525,11 @@ function openDetail(filmId, fromSearch) {
   } else {
     history.pushState({ sheet: 'detail' }, '');
   }
+
+  /* Same reasoning as openFilter()'s focus() call: without it, a screen
+     reader's reading position stays on whatever Program/Premiéry/watchlist
+     row was tapped, behind a now-open overlay it never announced. */
+  setTimeout(() => $('overlay').focus(), 60);
 }
 
 function closeDetail(fromPop) {
@@ -581,6 +611,7 @@ function openTrailer(key) {
     `https://www.youtube-nocookie.com/embed/${encodeURIComponent(key)}?autoplay=1&rel=0`;
   $('trailer-modal').classList.add('open');
   history.pushState({ sheet: 'trailer' }, '');
+  setTimeout(() => $('trailer-modal').focus(), 60);
 }
 
 function closeTrailer(fromPop) {

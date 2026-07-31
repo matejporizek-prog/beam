@@ -10,21 +10,33 @@ import {
   state, filmFor, filmById, titleOf, screeningsForFilm,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf, isMultiplex,
-} from './data.js?v=31';
+} from './data.js?v=32';
 
 import {
   DOW, esc, fold, dateOf, shortDate, longDay, whenLabel,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=31';
+} from './format.js?v=32';
 
-import { store } from './store.js?v=31';
-import { isPushSupported } from './push.js?v=31';
-import { initCinemaMap } from './map.js?v=31';
+import { store } from './store.js?v=32';
+import { isPushSupported } from './push.js?v=32';
+import { initCinemaMap } from './map.js?v=32';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
    saved, an outline when not, matching the detail overlay's heart. (Premiéry
-   used a +/✓ button before, which is the inconsistency this removes.) */
+   used a +/✓ button before, which is the inconsistency this removes.)
+
+   This button sits as a sibling inside a row that itself now carries
+   role="button" (added 2026-07-31, for keyboard/screen-reader access to
+   opening a film's detail — see the film/vrow/row/sr-item templates below),
+   which technically nests one interactive control inside another — an ARIA
+   authoring smell in the strict sense. Not restructuring the DOM/CSS to avoid
+   it: this is the same well-tolerated "row with a trailing icon action"
+   pattern most list UIs with a favorite/star affordance use (Gmail's star,
+   a tweet's like button), real interactive elements are still independently
+   reachable in the accessibility tree regardless of the ancestor's role, and
+   a full template/layout restructure across five call sites isn't worth it
+   for a pattern this common and this low-risk in practice. */
 function heartButton(id, title, saved) {
   return `<button class="save-heart ${saved ? 'on' : ''}" data-save="${esc(id)}" data-title="${esc(title)}" aria-label="Chci vidět">${saved ? '♥' : '♡'}</button>`;
 }
@@ -181,7 +193,7 @@ function renderFilmMode(todays) {
     }
     const strands = [...new Set(shows.map(strandOf).filter(Boolean))];
 
-    return `<article class="film stagger ${allPast ? 'dim' : ''}" data-film="${esc(filmId)}">
+    return `<article class="film stagger ${allPast ? 'dim' : ''}" data-film="${esc(filmId)}" role="button" tabindex="0" aria-label="${esc(title)}">
       ${posterTile(film, title)}
       <div class="film-body">
         <div class="film-head">
@@ -230,7 +242,7 @@ function renderCinemaMode(todays) {
         const film = filmFor(s);
         const version = versionOf(s);
         const strand = strandOf(s);
-        return `<div class="vrow ${isPast(s) ? 'past' : ''}" data-film="${esc(s.film_id)}">
+        return `<div class="vrow ${isPast(s) ? 'past' : ''}" data-film="${esc(s.film_id)}" role="button" tabindex="0" aria-label="${esc(titleOf(s))}">
           <span class="time">${esc(s.time)}</span>
           ${posterTile(film, titleOf(s), 'poster-sm')}
           <div class="vtitle">
@@ -360,7 +372,7 @@ export function renderPremieres(el, activeMonth, activeDay) {
   const list = shown.map(p => {
     const meta = [];
     if (p.genres && p.genres.length) meta.push(esc(p.genres.slice(0, 2).join(', ')));
-    return `<article class="film stagger" data-film="${esc(p.film_id)}">
+    return `<article class="film stagger" data-film="${esc(p.film_id)}" role="button" tabindex="0" aria-label="${esc(p.title_cz)}">
       ${posterTile(p, p.title_cz)}
       <div class="film-body">
         <div class="film-head">
@@ -396,14 +408,14 @@ function notifyRow() {
   const enabled = store.notifyEnabled();
   return `
     <div class="filter-group notify-group">
-      <div class="filter-row compact" id="row-notify">
+      <div class="filter-row compact" id="row-notify" role="switch" tabindex="0" aria-checked="${enabled}">
         <div>
           <div class="fr-title">Upozornit na nové termíny</div>
           <div class="fr-sub">${supported
             ? 'Dáme ti vědět, až některý z těchto filmů dostane první termín.'
             : 'Tento prohlížeč push upozornění nepodporuje.'}</div>
         </div>
-        <span class="switch ${enabled ? 'on' : ''}${supported ? '' : ' disabled'}" id="sw-notify"><span class="knob"></span></span>
+        <span class="switch ${enabled ? 'on' : ''}${supported ? '' : ' disabled'}" id="sw-notify" aria-hidden="true"><span class="knob"></span></span>
       </div>
     </div>`;
 }
@@ -447,7 +459,7 @@ function watchlistFilmRow(filmId, filters) {
        </span></div>`
     : `<div class="showstrip"><span class="slot none">tento týden nehraje</span></div>`;
 
-  return `<div class="row stagger" data-film="${esc(filmId)}">
+  return `<div class="row stagger" data-film="${esc(filmId)}" role="button" tabindex="0" aria-label="${esc(title)}">
     ${posterTile(film, title)}
     <div class="film-body">
       <div class="film-head">
@@ -672,7 +684,7 @@ export function runSearch(query, resultsEl, filters) {
     const sub = next
       ? `${whenLabel(next)} · ${shortVenue(next.cinema)}`
       : 'tento týden nehraje';
-    return `<div class="sr-item" data-film="${esc(filmId)}">
+    return `<div class="sr-item" data-film="${esc(filmId)}" role="button" tabindex="0" aria-label="${esc(title)}">
       ${posterTile(film, title, 'sr-poster')}
       <div class="sr-body">
         <div class="sr-title">${esc(title)}</div>
