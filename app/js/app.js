@@ -8,14 +8,14 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=27';
-import { store } from './store.js?v=27';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=28';
+import { store } from './store.js?v=28';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=27';
-import { esc } from './format.js?v=27';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=27';
+} from './screens.js?v=28';
+import { esc } from './format.js?v=28';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=28';
 
 /* ---------- app state ---------- */
 

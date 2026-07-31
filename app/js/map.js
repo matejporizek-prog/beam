@@ -14,7 +14,7 @@
    specifically to sit inside dark UIs like this one.
    ========================================================================== */
 
-import { esc } from './format.js?v=27';
+import { esc } from './format.js?v=28';
 
 let cinemasCache = null;
 let mapInstance = null;
@@ -57,11 +57,25 @@ export async function initCinemaMap() {
 
   const markers = cinemas.map(cinema => {
     const marker = L.marker([cinema.lat, cinema.lng]).addTo(map);
+    /* Directions use the cinema's coordinates, not its address string — we
+       already have exact lat/lng for the marker itself, and Google's own
+       geocoding of a Czech street address is one more thing that can drift
+       or fail (diacritics, abbreviation differences) where a coordinate
+       can't. `api=1` is Google's documented cross-platform directions URL:
+       opens the Maps app on a phone that has one installed, falls back to
+       maps.google.com in any browser otherwise — no separate mobile/desktop
+       branching needed. */
+    const directionsUrl =
+      `https://www.google.com/maps/dir/?api=1&destination=${cinema.lat},${cinema.lng}`;
+
     marker.bindPopup(
       `<div class="map-popup">
          <strong>${esc(cinema.name)}</strong>
          <div class="map-popup-addr">${esc(cinema.address)}</div>
-         <button class="map-popup-btn" data-jump-cinema="${esc(cinema.name)}">Program dnes</button>
+         <div class="map-popup-actions">
+           <button class="map-popup-btn" data-jump-cinema="${esc(cinema.name)}">Program dnes</button>
+           <a class="map-popup-btn secondary" href="${esc(directionsUrl)}" target="_blank" rel="noopener noreferrer">Trasa</a>
+         </div>
        </div>`
     );
     return marker;
