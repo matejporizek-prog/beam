@@ -8,14 +8,14 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=32';
-import { store } from './store.js?v=32';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=33';
+import { store } from './store.js?v=33';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=32';
-import { esc } from './format.js?v=32';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=32';
+} from './screens.js?v=33';
+import { esc } from './format.js?v=33';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=33';
 
 /* ---------- app state ---------- */
 
@@ -472,8 +472,15 @@ function openFilter() {
      through Program's now-hidden content, unaware a dialog opened at all.
      Delayed a tick for the same reason openSearch()'s input focus is: the
      panel needs to actually be in the accessibility tree (post display/open
-     class change) before it can take focus. */
-  setTimeout(() => $('filter-sheet').focus(), 60);
+     class change) before it can take focus.
+
+     { preventScroll: true } is required here: focus() scrolls the focused
+     element into view by default, and the sheet is taller than the
+     viewport, so without this it fought the window.scrollTo(0, 0) two lines
+     up and won — landing the page scrolled down instead of at the top. The
+     scroll position is already exactly where it should be; this call must
+     only move keyboard/AT focus, not touch the scroll again. */
+  setTimeout(() => $('filter-sheet').focus({ preventScroll: true }), 60);
 }
 
 function closeFilter(fromPop) {
@@ -526,10 +533,12 @@ function openDetail(filmId, fromSearch) {
     history.pushState({ sheet: 'detail' }, '');
   }
 
-  /* Same reasoning as openFilter()'s focus() call: without it, a screen
-     reader's reading position stays on whatever Program/Premiéry/watchlist
-     row was tapped, behind a now-open overlay it never announced. */
-  setTimeout(() => $('overlay').focus(), 60);
+  /* Same reasoning as openFilter()'s focus() call, including the
+     { preventScroll: true } requirement: without it this fights the
+     window.scrollTo(0, 0) above (the overlay is far taller than the
+     viewport) and wins, landing the detail scrolled down instead of at the
+     top — exactly the regression this shipped with once before. */
+  setTimeout(() => $('overlay').focus({ preventScroll: true }), 60);
 }
 
 function closeDetail(fromPop) {
@@ -611,7 +620,11 @@ function openTrailer(key) {
     `https://www.youtube-nocookie.com/embed/${encodeURIComponent(key)}?autoplay=1&rel=0`;
   $('trailer-modal').classList.add('open');
   history.pushState({ sheet: 'trailer' }, '');
-  setTimeout(() => $('trailer-modal').focus(), 60);
+  /* preventScroll: true for the same reason openDetail()/openFilter() need
+     it — harmless here in practice (the modal is a fixed, viewport-sized
+     overlay with no page scroll to disturb), but consistent with every
+     other focus() call added alongside this one. */
+  setTimeout(() => $('trailer-modal').focus({ preventScroll: true }), 60);
 }
 
 function closeTrailer(fromPop) {
