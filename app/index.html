@@ -27,7 +27,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
-<link rel="stylesheet" href="./css/beam.css?v=41">
+<link rel="stylesheet" href="./css/beam.css?v=43">
 </head>
 <body>
 <div class="app">
@@ -218,6 +218,18 @@
     </div>
   </div>
 
+  <!-- date-jump sheet: how the day strip reaches a date beyond its own
+       PROGRAM_STRIP_DAYS window, see renderDays()/renderDateJump() in
+       screens.js -->
+  <div class="sheet-scrim" id="date-scrim"></div>
+  <div class="sheet" id="date-sheet" role="dialog" aria-modal="true" aria-labelledby="date-sheet-title" tabindex="-1">
+    <div class="sheet-grab"></div>
+    <div class="sheet-head">
+      <h2 id="date-sheet-title">Vybrat den</h2>
+    </div>
+    <div id="date-grid"></div>
+  </div>
+
   <!-- trailer modal -->
   <div class="trailer-modal" id="trailer-modal" role="dialog" aria-modal="true" aria-label="Přehrát trailer" tabindex="-1">
     <button class="trailer-close" id="trailer-close" aria-label="Zavřít">✕</button>
@@ -251,6 +263,6 @@
 <!-- The ?v= query is a cache-busting version. Bump it (here and on the imports
      inside the js/ modules) when shipping changed JS so browsers fetch the new
      code instead of a cached copy. Milestone 5 can automate this at deploy. -->
-<script type="module" src="./js/app.js?v=41"></script>
+<script type="module" src="./js/app.js?v=43"></script>
 </body>
 </html>

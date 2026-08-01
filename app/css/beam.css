@@ -239,12 +239,29 @@ header.compact .brand h1 { font-size: 26px; }
 }
 .day .dow { font-family: 'IBM Plex Mono', monospace; font-size: 9.5px; letter-spacing: .12em; text-transform: uppercase; display: block; }
 .day .dnum { font-family: 'Spectral', serif; font-size: 17px; font-weight: 500; display: block; margin-top: 1px; color: var(--text-2); }
+/* FIX (impeccable critique): the year a date's chip belongs to used to be
+   invisible everywhere. Its own small line rather than appended inline onto
+   .dnum — "22.7.2027" at .dnum's 17px Spectral size doesn't fit this
+   52px-wide chip, and only the rare chip that's actually crossed into
+   another year pays for it at all (see yearIfDifferent() in format.js). */
+.day .dyear { font-family: 'IBM Plex Mono', monospace; font-size: 8px; letter-spacing: .04em; display: block; color: var(--text-3); }
+.day.active .dyear { color: var(--accent-dim); }
 .day.active { background: var(--card); border-color: var(--accent-dim); color: var(--accent); }
 .day.active .dnum { color: var(--accent); }
 .day.today:not(.active) .dow { color: var(--accent); }
 .day .density { display: flex; gap: 2px; justify-content: center; margin-top: 4px; height: 4px; }
 .day .density i { width: 3px; height: 3px; border-radius: 50%; background: var(--text-3); display: block; }
 .day.active .density i { background: var(--accent-dim); }
+/* FIX (impeccable critique): the day strip used to be unbounded — every
+   date with any screening at all, currently 40+ chips out past a year
+   ahead, nearly all single-screening opera/ballet-relay tail entries past
+   the first few weeks. Capped at PROGRAM_STRIP_DAYS (screens.js); this
+   trailing chip is how anything past that stays reachable, via the
+   date-jump sheet's month calendar rather than more swiping. Dashed border
+   matches .slot.more's "+N dalších" chip — the same "there's more, not
+   shown here" language already used for the showstrip. */
+.day-more { border-style: dashed; }
+.day-more .dnum { font-family: 'IBM Plex Mono', monospace; font-size: 14px; font-weight: 600; }
 
 .controls { display: flex; align-items: center; justify-content: space-between; padding: 0 20px 8px; }
 .filtr-btn {

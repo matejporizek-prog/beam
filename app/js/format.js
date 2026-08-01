@@ -2,7 +2,7 @@
    Czech formatting helpers and the small shared markup primitives.
    ========================================================================== */
 
-import { todayISO, initialOf, posterUrl } from './data.js?v=41';
+import { todayISO, initialOf, posterUrl } from './data.js?v=43';
 
 export const DOW = ['NE', 'PO', 'ÚT', 'ST', 'ČT', 'PÁ', 'SO'];
 export const DOW_LONG = ['NEDĚLE', 'PONDĚLÍ', 'ÚTERÝ', 'STŘEDA', 'ČTVRTEK', 'PÁTEK', 'SOBOTA'];
@@ -53,9 +53,24 @@ export function shortDate(iso) {
   return `${d.getDate()}.${d.getMonth() + 1}.`;
 }
 
-/* "ÚTERÝ 22.7." — the detail overlay's day heading. */
+/* '2027' once a date falls outside the current calendar year, '' otherwise.
+   FIX (impeccable critique): no date anywhere in the app used to show a
+   year at all, so a screening that had actually crossed into next year (the
+   day strip runs far enough ahead to do this, see PROGRAM_STRIP_DAYS in
+   screens.js) read identically to one exactly a year earlier or later.
+   Threaded through longDay()/whenLabel() below and the day strip's own
+   chips (renderDays() in screens.js), so the ~99% of dates that are
+   unambiguous because they're this year stay exactly as compact as
+   before — only the rare far-future date pays for the extra digits. */
+export function yearIfDifferent(iso) {
+  const year = dateOf(iso).getFullYear();
+  return year === dateOf(todayISO()).getFullYear() ? '' : String(year);
+}
+
+/* "ÚTERÝ 22.7." — the detail overlay's day heading. "ÚTERÝ 22.7.2027" once
+   yearIfDifferent() above finds one. */
 export function longDay(iso) {
-  return `${DOW_LONG[dateOf(iso).getDay()]} ${shortDate(iso)}`;
+  return `${DOW_LONG[dateOf(iso).getDay()]} ${shortDate(iso)}${yearIfDifferent(iso)}`;
 }
 
 /* FIX (audit): the prototype formatted the "next screening" pill differently on
@@ -68,7 +83,7 @@ export function longDay(iso) {
 export function whenLabel(screening) {
   if (screening.date === todayISO()) return `dnes ${screening.time}`;
   const d = dateOf(screening.date);
-  return `${DOW[d.getDay()]} ${shortDate(screening.date)} ${screening.time}`;
+  return `${DOW[d.getDay()]} ${shortDate(screening.date)}${yearIfDifferent(screening.date)} ${screening.time}`;
 }
 
 /* ---------- shared markup ---------- */

@@ -10,16 +10,16 @@ import {
   state, filmFor, filmById, titleOf, screeningsForFilm,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf, isMultiplex, multiplexChainOf,
-} from './data.js?v=41';
+} from './data.js?v=43';
 
 import {
-  DOW, esc, fold, dateOf, shortDate, longDay, whenLabel,
+  DOW, esc, fold, dateOf, shortDate, longDay, whenLabel, yearIfDifferent,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=41';
+} from './format.js?v=43';
 
-import { store } from './store.js?v=41';
-import { isPushSupported } from './push.js?v=41';
-import { initCinemaMap } from './map.js?v=41';
+import { store } from './store.js?v=43';
+import { isPushSupported } from './push.js?v=43';
+import { initCinemaMap } from './map.js?v=43';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
@@ -121,21 +121,47 @@ function filteredNextScreening(filmId, filters) {
 
 /* ---------- day strip ---------- */
 
+/* FIX (impeccable critique): state.dates (data.js) is every distinct date
+   that has *any* screening, today onward, entirely unbounded — in practice
+   that's 40+ chips tapering off into single opera/ballet-relay dates months
+   out. Three weeks covers what this strip is actually for (picking tonight,
+   tomorrow, this weekend); anything past that is a rare lookup, not
+   something worth 6+ screen-widths of horizontal swiping to reach. It's
+   still reachable — see the trailing "+N" chip below and renderDateJump(). */
+const PROGRAM_STRIP_DAYS = 21;
+
 export function renderDays(el, activeDay, filters, onPick) {
   el.innerHTML = '';
   const today = todayISO();
+  const visible = state.dates.slice(0, PROGRAM_STRIP_DAYS);
+  const beyond = state.dates.length - visible.length;
 
-  for (const date of state.dates) {
+  for (const date of visible) {
     const d = dateOf(date);
     const button = document.createElement('button');
     button.className = 'day' + (date === activeDay ? ' active' : '') + (date === today ? ' today' : '');
     const count = state.screenings.filter(s => s.date === date && passesFilters(s, filters)).length;
+    const year = yearIfDifferent(date);
     button.innerHTML =
       `<span class="dow">${DOW[d.getDay()]}</span>` +
       `<span class="dnum">${shortDate(date)}</span>` +
+      (year ? `<span class="dyear">${year}</span>` : '') +
       densityDots(count);
     button.onclick = () => onPick(date);
     el.appendChild(button);
+  }
+
+  if (beyond > 0) {
+    const more = document.createElement('button');
+    // Active here means "the selected day isn't one of the visible chips at
+    // all" — the one case where this strip would otherwise show no active
+    // state anywhere, leaving no sign of where 'today's selection actually is.
+    const activeBeyond = activeDay && !visible.includes(activeDay);
+    more.className = 'day day-more' + (activeBeyond ? ' active' : '');
+    more.setAttribute('data-open-date-jump', '');
+    more.setAttribute('aria-label', 'Vybrat další den');
+    more.innerHTML = `<span class="dow">DALŠÍ</span><span class="dnum">+${beyond}</span>`;
+    el.appendChild(more);
   }
 }
 
@@ -522,6 +548,69 @@ export function renderPremieres(el, activeMonth, activeDay) {
 
   el.innerHTML = grid + listHead + `<div class="prem-list">${list}</div>` +
     `<p class="attribution">Termíny premiér poskytuje TMDb — distributor je ještě může posunout.</p>`;
+}
+
+/* ---------- date-jump sheet ---------- */
+
+/* How Program's day strip reaches a date beyond its own PROGRAM_STRIP_DAYS
+   window (renderDays() above) — a month calendar of every date state.dates
+   actually has data for, opened from the strip's trailing "+N" chip.
+   Deliberately its own small grid-builder rather than sharing
+   renderPremieres()'s: that one is wired to premieres/release dates and a
+   day-select-then-filter-the-list-below interaction; this one only ever
+   needs to pick a day and jump Program straight to it, so reusing it would
+   mean threading a second interaction mode through code that has no other
+   need for one. It reuses that section's MONTHS/DOW_MON/firstWeekdayMon/
+   daysInMonth helpers and the .prem-grid/.prem-day CSS — same look, since
+   it's the same kind of control, just not the same code path. */
+export function renderDateJump(el, activeMonth) {
+  const dates = state.dates;
+  if (!dates.length) { el.innerHTML = ''; return; }
+
+  const months = [...new Set(dates.map(d => d.slice(0, 7)))];
+  const currentMonth = todayISO().slice(0, 7);
+  const month = (activeMonth && months.includes(activeMonth))
+    ? activeMonth
+    : (months.includes(currentMonth) ? currentMonth : months[0]);
+
+  const [year, monthNum] = month.split('-').map(Number);
+  const monthIndex = monthNum - 1;
+  const inMonth = new Set(dates.filter(d => d.startsWith(month)));
+
+  const todayISOStr = todayISO();
+  const todayDay = todayISOStr.startsWith(month) ? Number(todayISOStr.slice(8, 10)) : null;
+
+  const monthIdx = months.indexOf(month);
+  const prevMonth = monthIdx > 0 ? months[monthIdx - 1] : '';
+  const nextMonth = monthIdx < months.length - 1 ? months[monthIdx + 1] : '';
+
+  let cells = '';
+  const pad = firstWeekdayMon(year, monthIndex);
+  for (let i = 0; i < pad; i++) cells += '<div class="prem-day empty"></div>';
+  for (let day = 1; day <= daysInMonth(year, monthIndex); day++) {
+    const iso = `${month}-${String(day).padStart(2, '0')}`;
+    const has = inMonth.has(iso);
+    const classes = ['prem-day'];
+    if (has) classes.push('has');
+    if (day === todayDay) classes.push('today');
+    // Only a date with actual screenings is a tap target, same rule as the
+    // premieres grid — tapping an empty day would just close the sheet on
+    // nothing.
+    cells += has
+      ? `<button class="${classes.join(' ')}" data-jump-month-day="${iso}"><span class="prem-daynum">${day}</span><span class="prem-dot"></span></button>`
+      : `<div class="${classes.join(' ')}"><span class="prem-daynum">${day}</span></div>`;
+  }
+
+  el.innerHTML = `
+    <div class="prem-nav-row">
+      <button class="prem-nav" data-jump-month="${esc(prevMonth)}" ${prevMonth ? '' : 'disabled'} aria-label="Předchozí měsíc">‹</button>
+      <h2 class="prem-month-label">${esc(MONTHS[monthIndex])} ${year}</h2>
+      <button class="prem-nav" data-jump-month="${esc(nextMonth)}" ${nextMonth ? '' : 'disabled'} aria-label="Další měsíc">›</button>
+    </div>
+    <div class="prem-grid">
+      ${DOW_MON.map(d => `<div class="prem-dow">${d}</div>`).join('')}
+      ${cells}
+    </div>`;
 }
 
 /* ---------- Chci vidět ---------- */

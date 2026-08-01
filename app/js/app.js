@@ -8,14 +8,14 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=41';
-import { store } from './store.js?v=41';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=43';
+import { store } from './store.js?v=43';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
-  fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=41';
-import { esc } from './format.js?v=41';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=41';
+  fillDetail, runSearch, activeFilterCount, renderDateJump,
+} from './screens.js?v=43';
+import { esc } from './format.js?v=43';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=43';
 
 /* ---------- app state ---------- */
 
@@ -38,6 +38,11 @@ let activePremMonth = null;
    same day again, the "Celý měsíc" link, or a month-nav tap (a selection
    from a different month showing through would be confusing). */
 let activePremDay = null;
+/* 'YYYY-MM', resolved lazily by renderDateJump() the same way activePremMonth
+   is — reset to null every time the sheet opens (openDateJump() below) so it
+   always starts on the month containing today (or the soonest month with
+   data, if today has none) rather than wherever it was last left. */
+let activeDateJumpMonth = null;
 
 const $ = id => document.getElementById(id);
 
@@ -242,6 +247,36 @@ function wireEvents() {
       return;
     }
 
+    /* The day strip's trailing "+N" chip (renderDays() in screens.js) —
+       opens the date-jump sheet for anything past PROGRAM_STRIP_DAYS. */
+    if (event.target.closest('[data-open-date-jump]')) {
+      openDateJump();
+      return;
+    }
+
+    /* Month-nav arrows inside the date-jump sheet — same pattern as
+       Premiéry's data-prem-month above, just re-rendering that sheet's own
+       grid instead of the whole screen. */
+    const dateJumpMonthNav = event.target.closest('[data-jump-month]');
+    if (dateJumpMonthNav) {
+      const month = dateJumpMonthNav.dataset.jumpMonth;
+      if (month) {
+        activeDateJumpMonth = month;
+        renderDateJump($('date-grid'), activeDateJumpMonth);
+      }
+      return;
+    }
+
+    /* A marked day inside the date-jump sheet — jump Program straight there
+       and close the sheet, same as tapping a day in the strip itself would. */
+    const dateJumpDay = event.target.closest('[data-jump-month-day]');
+    if (dateJumpDay) {
+      activeDay = dateJumpDay.dataset.jumpMonthDay;
+      renderProg();
+      closeDateJump();
+      return;
+    }
+
     /* A save heart, wherever it appears — Program (both modes), Premiéry, the
        watchlist. Handled before the row's own click so it never also opens the
        detail overlay. */
@@ -320,6 +355,9 @@ function wireEvents() {
   $('filtr-btn').onclick = openFilter;
   $('filter-scrim').onclick = () => closeFilter();
   $('sheet-apply').onclick = () => closeFilter();
+
+  /* date-jump sheet */
+  $('date-scrim').onclick = () => closeDateJump();
   $('sheet-clear').onclick = () => {
     filters = { mplex: false, version: new Set(), format: new Set(), enOnly: false, creators: new Set(), genres: new Set() };
     store.saveFilters(filters);
@@ -354,6 +392,7 @@ function wireEvents() {
     if ($('overlay').classList.contains('open')) return closeDetail(true);
     if ($('search-ov').classList.contains('open')) return closeSearch(true);
     if ($('filter-sheet').classList.contains('open')) return closeFilter(true);
+    if ($('date-sheet').classList.contains('open')) return closeDateJump(true);
   });
 
   /* Scroll-linked header shrink. Skipped under ?nobeam so the isolation test
@@ -536,6 +575,40 @@ function closeFilter(fromPop) {
      where you left off. Same reasoning as closeDetail(). */
   void document.documentElement.scrollHeight;
   window.scrollTo(0, scrollBeforeFilter);
+  if (!fromPop) history.back();
+}
+
+/* Same mechanism as scrollBeforeFilter above, for the date-jump sheet. Its
+   own variable rather than reusing scrollBeforeFilter: the two panels can
+   never be open at once, but keeping each panel's saved position under its
+   own name matches every other pair here (detail/filter/search) and avoids
+   any risk of one panel's close silently restoring to where a *different*
+   panel was opened from. */
+let scrollBeforeDateJump = 0;
+
+function openDateJump() {
+  activeDateJumpMonth = null;
+  renderDateJump($('date-grid'), activeDateJumpMonth);
+  scrollBeforeDateJump = window.scrollY;
+  /* Reuses the same sheet-open class as Filtr (see .sheet in the CSS) — it
+     only ever means "a bottom sheet is covering the program UI right now",
+     and the two sheets are mutually exclusive by construction (this app has
+     no way to open one while the other is open), so a second class for the
+     exact same visual state would just be two names for one thing. */
+  document.documentElement.classList.add('sheet-open');
+  $('date-scrim').classList.add('open');
+  $('date-sheet').classList.add('open');
+  window.scrollTo(0, 0);
+  history.pushState({ sheet: 'date' }, '');
+  setTimeout(() => $('date-sheet').focus({ preventScroll: true }), 60);
+}
+
+function closeDateJump(fromPop) {
+  $('date-scrim').classList.remove('open');
+  $('date-sheet').classList.remove('open');
+  document.documentElement.classList.remove('sheet-open');
+  void document.documentElement.scrollHeight;
+  window.scrollTo(0, scrollBeforeDateJump);
   if (!fromPop) history.back();
 }
 
