@@ -8,14 +8,14 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=33';
-import { store } from './store.js?v=33';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=34';
+import { store } from './store.js?v=34';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=33';
-import { esc } from './format.js?v=33';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=33';
+} from './screens.js?v=34';
+import { esc } from './format.js?v=34';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=34';
 
 /* ---------- app state ---------- */
 
@@ -296,7 +296,7 @@ function wireEvents() {
   /* filter sheet */
   $('filtr-btn').onclick = openFilter;
   $('filter-scrim').onclick = () => closeFilter();
-  $('sheet-apply').onclick = () => { closeFilter(); renderProg(); };
+  $('sheet-apply').onclick = () => closeFilter();
   $('sheet-clear').onclick = () => {
     filters = { mplex: false, version: new Set(), format: new Set(), enOnly: false, creators: new Set(), genres: new Set() };
     store.saveFilters(filters);
@@ -484,6 +484,20 @@ function openFilter() {
 }
 
 function closeFilter(fromPop) {
+  /* FIX (impeccable critique, P0): this used to only happen in the
+     sheet-apply handler, so the scrim tap and back/swipe-back — the two most
+     natural ways to dismiss a bottom sheet — closed the panel without ever
+     re-rendering Program. The badge and localStorage updated live as filters
+     were toggled, but the visible list silently kept showing the *old*
+     filter's rows until some unrelated re-render happened to fix it later —
+     badge, storage and screen could all disagree at once. Every dismissal
+     path leads through this one function, so putting the re-render here
+     (rather than trying to catch every place that closes the sheet) is what
+     actually guarantees it. Unconditional and cheap: renderProg() just
+     re-filters already-loaded in-memory data, so paying for it even on a
+     no-op dismissal is far cheaper than the alternative of tracking whether
+     anything actually changed. */
+  renderProg();
   $('filter-scrim').classList.remove('open');
   $('filter-sheet').classList.remove('open');
   document.documentElement.classList.remove('sheet-open');
