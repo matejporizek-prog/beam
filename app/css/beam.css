@@ -269,7 +269,6 @@ header.compact .brand h1 { font-size: 26px; }
 .vgroup-head h2 { font-family: 'Spectral', serif; font-weight: 600; font-size: 15px; color: var(--accent); }
 .vrow { display: flex; align-items: center; gap: 12px; padding: 9px 20px; border-bottom: 1px solid var(--line); cursor: pointer; }
 .vrow:last-child { border-bottom: none; }
-.vrow.past { opacity: .4; }
 .vrow .time { font-family: 'IBM Plex Mono', monospace; font-size: 13px; width: 44px; flex: none; }
 .vrow .vtitle { flex: 1; min-width: 0; }
 .vrow .vtitle .t-line { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }

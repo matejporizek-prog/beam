@@ -10,16 +10,16 @@ import {
   state, filmFor, filmById, titleOf, screeningsForFilm,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf, isMultiplex, multiplexChainOf,
-} from './data.js?v=38';
+} from './data.js?v=39';
 
 import {
   DOW, esc, fold, dateOf, shortDate, longDay, whenLabel,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=38';
+} from './format.js?v=39';
 
-import { store } from './store.js?v=38';
-import { isPushSupported } from './push.js?v=38';
-import { initCinemaMap } from './map.js?v=38';
+import { store } from './store.js?v=39';
+import { isPushSupported } from './push.js?v=39';
+import { initCinemaMap } from './map.js?v=39';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
@@ -335,32 +335,45 @@ function renderCinemaMode(todays) {
     pastGroupMarkup(past, venueGroupMarkup, venueCount);
 }
 
+/* FIX (found live, 2026-08-02): the top-level "whole venue already done"
+   collapse only fired when *every* screening at a venue today had passed —
+   a venue with even one film left standing (like Pilotů showing three
+   already-past screenings and one at 21:15) rendered all of them flat and
+   merely dimmed, the exact clutter this whole pass was meant to remove.
+   Film mode already drops past showtimes from a still-live film's preview
+   (see showstripMarkup()); this is the same idea one level up, for a
+   still-live venue's past screenings. */
 function venueGroupMarkup({ venue, shows }, stagger = true) {
+  const upcoming = shows.filter(s => !isPast(s));
+  const past = shows.filter(isPast);
   return `<section class="vgroup${stagger ? ' stagger' : ''}" data-venue="${esc(venue)}">
     <div class="vgroup-head"><h2>${esc(shortVenue(venue))}</h2></div>
-    ${shows.map(s => {
-      const film = filmFor(s);
-      const version = versionOf(s);
-      const strand = strandOf(s);
-      return `<div class="vrow ${isPast(s) ? 'past' : ''}" data-film="${esc(s.film_id)}" role="button" tabindex="0" aria-label="${esc(titleOf(s))}">
-        <span class="time">${esc(s.time)}</span>
-        ${posterTile(film, titleOf(s), 'poster-sm')}
-        <div class="vtitle">
-          <div class="t-line">
-            <span class="t">${esc(titleOf(s))}</span>
-            <span class="vruntime">${runtimeLabel(film)}</span>
-          </div>
-          <div class="m">
-            <span>${esc(s.language || '')}${strand ? ' · ' + esc(strand) : ''}</span>
-            ${chip(version)}
-            ${is35mm(s) ? '<span class="chip fmt">35mm</span>' : ''}
-            ${isEnglishFriendly(s) ? '<span class="chip eng">ENG</span>' : ''}
-          </div>
-        </div>
-        ${heartButton(s.film_id, titleOf(s), store.isSaved(s.film_id))}
-      </div>`;
-    }).join('')}
+    ${upcoming.map(vrowMarkup).join('')}
+    ${pastGroupMarkup(past, vrowMarkup, screeningCount)}
   </section>`;
+}
+
+function vrowMarkup(s) {
+  const film = filmFor(s);
+  const version = versionOf(s);
+  const strand = strandOf(s);
+  return `<div class="vrow" data-film="${esc(s.film_id)}" role="button" tabindex="0" aria-label="${esc(titleOf(s))}">
+    <span class="time">${esc(s.time)}</span>
+    ${posterTile(film, titleOf(s), 'poster-sm')}
+    <div class="vtitle">
+      <div class="t-line">
+        <span class="t">${esc(titleOf(s))}</span>
+        <span class="vruntime">${runtimeLabel(film)}</span>
+      </div>
+      <div class="m">
+        <span>${esc(s.language || '')}${strand ? ' · ' + esc(strand) : ''}</span>
+        ${chip(version)}
+        ${is35mm(s) ? '<span class="chip fmt">35mm</span>' : ''}
+        ${isEnglishFriendly(s) ? '<span class="chip eng">ENG</span>' : ''}
+      </div>
+    </div>
+    ${heartButton(s.film_id, titleOf(s), store.isSaved(s.film_id))}
+  </div>`;
 }
 
 /* ---------- Premiéry ---------- */
