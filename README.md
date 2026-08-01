@@ -542,7 +542,7 @@ an empty `language_version` means "presented the usual way", not "we failed to
 find it". That happens to match the prototype's rule of showing a version chip
 only when it deviates from the norm.
 
-## Three gotchas worth remembering
+## Four gotchas worth remembering
 
 **Scrape in the morning.** The program page only lists screenings that haven't
 started yet. Scraping at 22:00 makes today look like it had one screening all
@@ -566,6 +566,30 @@ screening anything. The run is cheap enough to do daily without thinking
 Windows does, and `kinoaero.cz` fails TLS verification without help. The
 `truststore` package in `requirements.txt` fixes this and `base.py` activates it
 automatically. It's an optional import, so CI on Linux is unaffected.
+
+**A single timeout used to be enough to make a cinema vanish for the whole
+day.** Found live, 2026-08-02: one 30-second connection timeout to
+kinopilotu.cz during a scheduled run dropped Kino Pilotů from the app
+entirely — not a code bug, `run.py` correctly kept the other 19 cinemas'
+data rather than failing the whole run, but the one broken cinema still just
+disappeared until the next successful scrape. Two layers now guard against
+this, matched to how likely each failure mode actually is:
+
+- `base.py`'s `fetch()`/`fetch_json()` retry up to 3 times (waiting 5s, then
+  15s) on a connection error, timeout, or 5xx — the kind of blip that
+  usually clears within seconds. A 4xx raises immediately; retrying a
+  genuinely wrong request would just fail the same way three times slower.
+- If a scraper still fails after those retries, `run.py` falls back to that
+  one cinema's last successful run, filtered to only what's still
+  forward-looking (`date >= today`) — a cinema stays present, a day stale,
+  rather than empty. The failure is still recorded in `failures` either way,
+  so a real, longer-lived break in a scraper is never silently absorbed.
+
+Deliberately not a separately-scheduled retry a few hours later: the
+observed failure was a few-second blip, not a multi-hour outage, and an
+in-run retry plus a one-day-stale fallback solves both the common case and
+the rarer one without a second workflow or any failure state to track
+between runs.
 
 ## How film matching works
 

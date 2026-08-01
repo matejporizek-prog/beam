@@ -10,6 +10,7 @@ lives here so the per-cinema modules stay small and readable.
 from __future__ import annotations
 
 import re
+import time
 import unicodedata
 from dataclasses import dataclass, field, asdict
 from datetime import date as date_cls, timedelta
@@ -39,13 +40,47 @@ USER_AGENT = (
 
 REQUEST_TIMEOUT = 30
 
+# Found live (2026-08-02): a single 30s connection timeout to kinopilotu.cz
+# during one scheduled run was enough to drop that cinema from the app for
+# the whole day — a blip a plain retry would very likely have survived,
+# not a real multi-hour outage. A couple of short, immediate retries within
+# the same run catch that common case for free, with no new infrastructure
+# (a separately-scheduled retry run, failure-state tracked between runs,
+# ...) — see run.py's fallback-to-yesterday's-data for the rarer case this
+# doesn't catch.
+RETRY_ATTEMPTS = 3
+RETRY_BACKOFF_SECONDS = (5, 15)  # wait before the 2nd attempt, then the 3rd
+
+
+def _request_with_retry(url: str, headers: dict) -> requests.Response:
+    """
+    GET a URL, retrying on anything that looks transient.
+
+    A connection error, a timeout, or a 5xx is the server's (or the
+    network's) own trouble, not ours — worth a couple of quick retries. A
+    4xx means the request itself is wrong (bad URL, blocked, not found), and
+    retrying it would just fail the same way three times instead of once, so
+    that raises straight through on the first attempt.
+    """
+    for attempt in range(RETRY_ATTEMPTS):
+        try:
+            response = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
+            response.raise_for_status()
+            return response
+        except requests.RequestException as error:
+            is_client_error = (
+                isinstance(error, requests.HTTPError)
+                and error.response is not None
+                and 400 <= error.response.status_code < 500
+            )
+            if is_client_error or attempt == RETRY_ATTEMPTS - 1:
+                raise
+            time.sleep(RETRY_BACKOFF_SECONDS[attempt])
+
 
 def fetch(url: str) -> str:
     """Download a page and return its HTML."""
-    response = requests.get(
-        url, headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT
-    )
-    response.raise_for_status()
+    response = _request_with_retry(url, headers={"User-Agent": USER_AGENT})
 
     # Trust a charset the server actually declared in Content-Type — requests
     # already parses that into response.encoding before we touch anything.
@@ -74,11 +109,9 @@ def fetch_json(url: str) -> dict:
     Vista quickbook endpoint) rather than server-rendered HTML — same
     politeness header as fetch(), just a different body format.
     """
-    response = requests.get(
-        url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
-        timeout=REQUEST_TIMEOUT,
+    response = _request_with_retry(
+        url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"}
     )
-    response.raise_for_status()
     return response.json()
 
 
