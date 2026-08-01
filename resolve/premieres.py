@@ -107,6 +107,49 @@ def dedupe_and_filter(raw: list[dict], today_iso: str) -> list[dict]:
     return filtered
 
 
+def merge_duplicate_premieres(premieres: list[dict]) -> list[dict]:
+    """
+    Collapses TMDb's own duplicate movie records for the same underlying
+    film. dedupe_and_filter() above only catches the same TMDb id appearing
+    twice (e.g. across two discover pages); it can't catch two genuinely
+    different ids that are, in the real world, one film — found live as
+    "Tajemství křišťálové planety" (a Czech-dub TMDb entry, tmdb_id
+    1670546) and "The Crystal Planet" (a separate international/original-
+    title entry, tmdb_id 1477654): same director, same release_date, one
+    synopsis a plain translation of the other.
+
+    Grouped by (sorted director tuple, release_date) — checked against a
+    live 52-premiere dataset and found precise there (no two *unrelated*
+    films shared both a director and a release date). Requires a non-empty
+    director list to group at all: an empty tuple would false-merge every
+    undirected entry sharing a date, which is a real case (several small
+    titles routinely lack director credits on TMDb) and not a rare one worth
+    risking. When a group has more than one record, keeps the Czech-language
+    one (synopsis_language == "cs") — the genuine Czech-market listing this
+    Czech-first app wants — falling back to whichever came first if none of
+    the group is Czech.
+
+    Order isn't preserved (resolve_premieres() sorts by release_date/title
+    right after calling this), so building the result singles-then-groups
+    rather than threading the original order back in is fine.
+    """
+    groups: dict[tuple, list[dict]] = {}
+    singles: list[dict] = []
+    for premiere in premieres:
+        directors = tuple(sorted(premiere.get("director") or []))
+        if not directors:
+            singles.append(premiere)
+            continue
+        key = (directors, premiere.get("release_date"))
+        groups.setdefault(key, []).append(premiere)
+
+    merged = list(singles)
+    for group in groups.values():
+        chosen = next((p for p in group if p.get("synopsis_language") == "cs"), group[0])
+        merged.append(chosen)
+    return merged
+
+
 def resolve_premieres() -> dict:
     today = date.today()
     client = TMDbClient()
@@ -159,6 +202,12 @@ def resolve_premieres() -> dict:
         premieres.append(record)
         new_count += 1
         print(f"  + {title_cz} -> premiere {release_date}")
+
+    before_merge = len(premieres)
+    premieres = merge_duplicate_premieres(premieres)
+    merged_count = before_merge - len(premieres)
+    if merged_count:
+        print(f"  merged {merged_count} duplicate TMDb record(s) for the same film")
 
     premieres.sort(key=lambda p: (p["release_date"], p["title_cz"]))
 

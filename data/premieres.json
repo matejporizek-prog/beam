@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T07:27:04+00:00",
+  "generated_at": "2026-08-01T22:44:00+02:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -38,6 +38,42 @@
       "age_rating": "",
       "tmdb_id": 1671297,
       "csfd_url": "https://www.csfd.cz/hledat/?q=6+gram%C5%AF+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-08-06"
+    },
+    {
+      "film_id": "dve deci tuse",
+      "title_cz": "Dvě deci tuše",
+      "title_en": "A Pint of Ink",
+      "original_title": "Dvě deci tuše",
+      "year": 2026,
+      "synopsis": "Through photographs, home videos, letters and personal recollections, Ester Geislerová composes a portrait of Japanologist, translator, journalist, educator, calligrapher—and her father—Petr Geisler, a charismatic charmer who remained mysteriously elusive even to his closest family.",
+      "synopsis_language": "en",
+      "runtime_min": 83,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Ester Geislerová"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "Petr Geisler"
+      ],
+      "production_company": [
+        "Total HelpArt T.H.A.",
+        "Sonnyboy",
+        "Česká televize"
+      ],
+      "poster_path": "/5N5c3UMns2vZIWpiPcgpv3GTKKB.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/o7y82VVvFe1Iq0Pl33xPUrwiDny.jpg",
+      "trailer_youtube_key": "ZzqLMg8h6Jw",
+      "age_rating": "",
+      "tmdb_id": 1706744,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Dv%C4%9B+deci+tu%C5%A1e+2026",
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
@@ -276,63 +312,6 @@
       "age_rating": "",
       "tmdb_id": 1670546,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Tajemstv%C3%AD+k%C5%99i%C5%A1%C5%A5%C3%A1lov%C3%A9+planety+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "release_date": "2026-08-13"
-    },
-    {
-      "film_id": "the crystal planet",
-      "title_cz": "The Crystal Planet",
-      "title_en": "The Crystal Planet",
-      "original_title": "The Crystal Planet",
-      "year": 2026,
-      "synopsis": "11-year-old Rea has recently moved to a distant planet in an outer-space colony where she discovers a mysterious animal cub while her father works in a factory that builds robotic creatures. With the help of her new friend Andy, she must protect the real cub from the factory’s ruthless owner, who intends to turn it into a robotic prototype.",
-      "synopsis_language": "en",
-      "runtime_min": null,
-      "genres": [
-        "Animovaný",
-        "Vědeckofantastický",
-        "Fantasy"
-      ],
-      "director": [
-        "Arsen Anton Ostojić"
-      ],
-      "screenwriter": [
-        "Aleksandar Ziljak",
-        "Arsen Anton Ostojić",
-        "Dušan Vukotić",
-        "Brett Shumway"
-      ],
-      "cast": [
-        "Jeremy Irons",
-        "Vanessa Redgrave",
-        "Michael York",
-        "Isabel Volava",
-        "Jessica Boone",
-        "Josh Morrison",
-        "Bastian Antonio Fuentes",
-        "Amelie Bellefeuille"
-      ],
-      "production_company": [
-        "BFILM",
-        "Filmosaurus Rex",
-        "Alkay Animation Prague",
-        "Hrvatski Audiovizualni Centar",
-        "Czech Audiovisual Fund",
-        "Slovak Audiovisual Fund",
-        "Česká televize",
-        "Hrvatska Radiotelevizija",
-        "Creative Europe Media",
-        "Eurimages"
-      ],
-      "poster_path": "/rmzexSt6ecrS5phOcKY6VCy9btS.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/clPH9IC2SS1BDPvTD0xrEK3nfiR.jpg",
-      "trailer_youtube_key": "ju-PPd_C1_0",
-      "age_rating": "",
-      "tmdb_id": 1477654,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=The+Crystal+Planet+2026",
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
@@ -2418,6 +2397,57 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "release_date": "2026-12-23"
+    },
+    {
+      "film_id": "jumanji open world",
+      "title_cz": "Jumanji: Open World",
+      "title_en": "Jumanji: Open World",
+      "original_title": "Jumanji: Open World",
+      "year": 2026,
+      "synopsis": "Our heroes have escaped the ever-changing jungles of Jumanji before, but this time the game comes to us - as Jumanji breaks free of its console, unleashing its chaos into our world.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Fantasy",
+        "Dobrodružný",
+        "Komedie"
+      ],
+      "director": [
+        "Jake Kasdan"
+      ],
+      "screenwriter": [
+        "Jeff Pinkner",
+        "Scott Rosenberg",
+        "Jake Kasdan"
+      ],
+      "cast": [
+        "Dwayne Johnson",
+        "Kevin Hart",
+        "Jack Black",
+        "Karen Gillan",
+        "Awkwafina",
+        "Alex Wolff",
+        "Morgan Turner",
+        "Madison Iseman"
+      ],
+      "production_company": [
+        "Matt Tolmach Productions",
+        "Seven Bucks Productions",
+        "Columbia Pictures",
+        "The Detective Agency",
+        "TSG Entertainment"
+      ],
+      "poster_path": "/wlzAdBQw2XnmVW05YEJLNdAbizA.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/pYN5Zjc3l1hj2hMeBbzRYDYTC1E.jpg",
+      "trailer_youtube_key": "zhApeaHMvfs",
+      "age_rating": "",
+      "tmdb_id": 1260649,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Jumanji%3A+Open+World+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-12-25"
     }
   ]
 }
