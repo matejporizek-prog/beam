@@ -8,14 +8,14 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=35';
-import { store } from './store.js?v=35';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=36';
+import { store } from './store.js?v=36';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=35';
-import { esc } from './format.js?v=35';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=35';
+} from './screens.js?v=36';
+import { esc } from './format.js?v=36';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=36';
 
 /* ---------- app state ---------- */
 
@@ -279,9 +279,21 @@ function wireEvents() {
      gets no built-in key handling at all. Dispatches a real click rather than
      duplicating any handler logic, so it flows through the exact same
      delegated click listener above (and every other real onclick in this
-     file) with nothing to keep in sync. */
+     file) with nothing to keep in sync.
+
+     FIX (impeccable critique, regression): the save-heart <button> nested
+     inside every row (a real button, no role of its own — see heartButton()
+     in screens.js) has no role="button" to match, so closest() walked PAST
+     it to the row's role="button" ancestor instead. Pressing Enter on a
+     focused heart opened the detail overlay rather than saving, and this
+     handler's preventDefault() suppressed the heart's own native Space/Enter
+     activation on top of that. Bailing out whenever the actual target is
+     already a real interactive element — one that handles its own keyboard
+     activation natively — fixes the heart and stays correct for any other
+     real control (a link, an input) that might end up nested the same way. */
   document.body.addEventListener('keydown', event => {
     if (event.key !== 'Enter' && event.key !== ' ') return;
+    if (event.target.closest('button, a[href], input, select, textarea')) return;
     const control = event.target.closest('[role="button"], [role="switch"]');
     if (!control) return;
     event.preventDefault();  // ' ' would otherwise scroll the page
