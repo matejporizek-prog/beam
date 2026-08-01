@@ -21,7 +21,7 @@
    ========================================================================== */
 
 /* Bump this to force clients onto new shell files. */
-const VERSION = 'beam-v38';
+const VERSION = 'beam-v39';
 const SHELL_CACHE = `${VERSION}-shell`;
 const DATA_CACHE = `${VERSION}-data`;
 const IMAGE_CACHE = `${VERSION}-img`;
@@ -36,14 +36,14 @@ const IMAGE_CACHE = `${VERSION}-img`;
 const SHELL_FILES = [
   './',
   './index.html',
-  './css/beam.css?v=40',
-  './js/app.js?v=40',
-  './js/data.js?v=40',
-  './js/format.js?v=40',
-  './js/screens.js?v=40',
-  './js/store.js?v=40',
-  './js/push.js?v=40',
-  './js/map.js?v=40',
+  './css/beam.css?v=41',
+  './js/app.js?v=41',
+  './js/data.js?v=41',
+  './js/format.js?v=41',
+  './js/screens.js?v=41',
+  './js/store.js?v=41',
+  './js/push.js?v=41',
+  './js/map.js?v=41',
   './manifest.webmanifest',
   './icons/icon.svg',
 ];

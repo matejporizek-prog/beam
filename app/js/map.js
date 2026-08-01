@@ -14,7 +14,7 @@
    specifically to sit inside dark UIs like this one.
    ========================================================================== */
 
-import { esc } from './format.js?v=40';
+import { esc } from './format.js?v=41';
 
 let cinemasCache = null;
 let mapInstance = null;
@@ -55,8 +55,24 @@ export async function initCinemaMap() {
     maxZoom: 19,
   }).addTo(map);
 
+  /* FIX (impeccable critique, P2): Leaflet's own default marker is a stock
+     blue pin loaded from a separate PNG on its CDN — a second saturated
+     colour on the one screen that otherwise keeps champagne as the sole
+     accent, plus a cross-origin image this app's cache/offline story never
+     covers. An inline SVG divIcon needs no extra request and matches
+     DESIGN.md's own line naming "map markers" a champagne use, same as the
+     "you are here" dot below already is. */
+  const cinemaPinIcon = L.divIcon({
+    className: 'cinema-pin',
+    html: `<svg width="26" height="34" viewBox="0 0 26 34" xmlns="http://www.w3.org/2000/svg">
+      <path d="M13 0C5.8 0 0 5.8 0 13c0 9.75 13 21 13 21s13-11.25 13-21C26 5.8 20.2 0 13 0z" fill="#E7C98A"/>
+      <circle cx="13" cy="13" r="5" fill="#0C0E11"/>
+    </svg>`,
+    iconSize: [26, 34], iconAnchor: [13, 34], popupAnchor: [0, -30],
+  });
+
   const markers = cinemas.map(cinema => {
-    const marker = L.marker([cinema.lat, cinema.lng]).addTo(map);
+    const marker = L.marker([cinema.lat, cinema.lng], { icon: cinemaPinIcon }).addTo(map);
     /* Directions use the cinema's coordinates, not its address string — we
        already have exact lat/lng for the marker itself, and Google's own
        geocoding of a Czech street address is one more thing that can drift

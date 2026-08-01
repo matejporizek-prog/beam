@@ -8,14 +8,14 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=40';
-import { store } from './store.js?v=40';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=41';
+import { store } from './store.js?v=41';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=40';
-import { esc } from './format.js?v=40';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=40';
+} from './screens.js?v=41';
+import { esc } from './format.js?v=41';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=41';
 
 /* ---------- app state ---------- */
 
@@ -367,7 +367,7 @@ function wireEvents() {
          per-frame work for a class nobody can see, on the exact screens we're
          trying to keep smooth. */
       const root = document.documentElement.classList;
-      if (root.contains('detail-open') || root.contains('sheet-open')) return;
+      if (root.contains('detail-open') || root.contains('sheet-open') || root.contains('search-open')) return;
       ticking = true;
       requestAnimationFrame(() => {
         document.querySelector('header').classList.toggle('compact', window.scrollY > 24);
@@ -480,6 +480,11 @@ function renderCreatorResults() {
    history entries are independent. */
 let scrollBeforeFilter = 0;
 
+/* Same mechanism, for search — see the FIX comment on .search-ov in the CSS
+   for why this exists now (it didn't need scroll save/restore back when it
+   was position: fixed over everything else). */
+let scrollBeforeSearch = 0;
+
 function openFilter() {
   $('creator-input').value = '';
   genresExpanded = false;
@@ -535,15 +540,25 @@ function closeFilter(fromPop) {
 }
 
 function openSearch() {
+  scrollBeforeSearch = window.scrollY;
+  document.documentElement.classList.add('search-open');
   $('search-ov').classList.add('open');
-  setTimeout(() => $('search-input').focus(), 60);
+  window.scrollTo(0, 0);
   history.pushState({ sheet: 'search' }, '');
+  /* preventScroll for the same reason as openFilter()'s focus() call: this
+     fires after window.scrollTo(0, 0) above and would otherwise fight it the
+     moment the input scrolls itself into view. */
+  setTimeout(() => $('search-input').focus({ preventScroll: true }), 60);
 }
 
 function closeSearch(fromPop) {
   $('search-ov').classList.remove('open');
+  document.documentElement.classList.remove('search-open');
   $('search-input').value = '';
   runSearch('', $('search-results'), filters);
+  /* Forces layout before the scroll below — same reasoning as closeFilter(). */
+  void document.documentElement.scrollHeight;
+  window.scrollTo(0, scrollBeforeSearch);
   if (!fromPop) history.back();
 }
 
@@ -561,8 +576,13 @@ function openDetail(filmId, fromSearch) {
 
   if (fromSearch) {
     /* Hide the search overlay and take over its history entry, so there's no
-       stranded 'search' state and the detail isn't left behind it. */
+       stranded 'search' state and the detail isn't left behind it. Dropping
+       search-open here matters now that it (like detail-open) hides the
+       program UI outright: left set, it would keep .content/.nav/.beam
+       hidden forever once the detail closes, since closeDetail() only ever
+       clears detail-open. */
     $('search-ov').classList.remove('open');
+    document.documentElement.classList.remove('search-open');
     $('search-input').value = '';
     runSearch('', $('search-results'), filters);
     history.replaceState({ sheet: 'detail' }, '');
