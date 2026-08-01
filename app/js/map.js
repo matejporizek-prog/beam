@@ -14,7 +14,7 @@
    specifically to sit inside dark UIs like this one.
    ========================================================================== */
 
-import { esc } from './format.js?v=44';
+import { esc } from './format.js?v=45';
 
 let cinemasCache = null;
 let mapInstance = null;
@@ -110,8 +110,16 @@ export async function initCinemaMap() {
         if (mapInstance !== map) return;
 
         const { latitude, longitude } = position.coords;
+        /* Deliberately not champagne, unlike the cinema pins above — champagne
+           means "this is the one that's active/selected/true" everywhere else
+           in the app, but here every cinema pin already claims that meaning,
+           and "my own location" is a different kind of fact (where I am, not
+           what I might select). A cool blue with a light ring is the
+           near-universal "you are here" convention (Google/Apple Maps), so it
+           reads instantly without needing its own legend, and it contrasts
+           against both the champagne pins and the dark basemap. */
         const you = L.circleMarker([latitude, longitude], {
-          radius: 8, weight: 2, color: '#E7C98A', fillColor: '#E7C98A', fillOpacity: 0.85,
+          radius: 8, weight: 2, color: '#ECEFF3', fillColor: '#4A9EFF', fillOpacity: 0.9,
         }).addTo(map).bindPopup('Tvoje poloha');
 
         map.fitBounds(L.featureGroup([...markers, you]).getBounds(), { padding: [24, 24] });
