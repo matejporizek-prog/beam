@@ -185,6 +185,17 @@ export function isMultiplex(cinemaName) {
   return MULTIPLEX.some(m => cinemaName.includes(m));
 }
 
+/* Which chain a multiplex location belongs to ("Cinema City Flora" ->
+   "Cinema City"), or null for an arthouse cinema. Added for the detail
+   overlay's per-chain collapsing (see fillDetail() in screens.js) — a
+   multiplex chain can have 6+ physical locations, each its own `cinema`
+   string, and grouping "how many showings at this chain" needs the brand
+   name, not any one location's full name. Reuses MULTIPLEX rather than a
+   second hardcoded list, same reasoning as isMultiplex() above. */
+export function multiplexChainOf(cinemaName) {
+  return MULTIPLEX.find(m => cinemaName.includes(m)) || null;
+}
+
 export function shortVenue(name) {
   return name.replace('Kino ', '');
 }

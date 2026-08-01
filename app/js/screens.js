@@ -9,17 +9,17 @@
 import {
   state, filmFor, filmById, titleOf, screeningsForFilm,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
-  closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf, isMultiplex,
-} from './data.js?v=34';
+  closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf, isMultiplex, multiplexChainOf,
+} from './data.js?v=35';
 
 import {
   DOW, esc, fold, dateOf, shortDate, longDay, whenLabel,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=34';
+} from './format.js?v=35';
 
-import { store } from './store.js?v=34';
-import { isPushSupported } from './push.js?v=34';
-import { initCinemaMap } from './map.js?v=34';
+import { store } from './store.js?v=35';
+import { isPushSupported } from './push.js?v=35';
+import { initCinemaMap } from './map.js?v=35';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
@@ -204,11 +204,35 @@ function renderFilmMode(todays) {
           ${meta.map(m => `<span>${m}</span>`).join('')}
           ${strands.map(s => `<span class="strand">${esc(s)}</span>`).join('')}
         </div>
-        <div class="showstrip">${shows.map(slotMarkup).join('')}</div>
+        <div class="showstrip">${showstripMarkup(shows)}</div>
       </div>
       ${heartButton(filmId, title, store.isSaved(filmId))}
     </article>`;
   }).join('');
+}
+
+/* Program row preview cap, found by the 2026-07-31 design critique: with
+   multiplexes on, a popular title's showstrip could run 50-70+ chips
+   (Cinema City alone has six Prague locations). This is a glanceable
+   preview, not the place to enumerate every showing — that's what the
+   detail overlay is for, which the row already opens on tap, so "+N
+   dalších" needs no click handler of its own.
+
+   Past screenings are dropped from the preview entirely when the film has
+   any upcoming ones — a dimmed "14:00 proběhlo" chip earns its place in the
+   detail overlay's fuller day-by-day list, but adds nothing to a compact
+   "when can I still catch this" preview. If every screening for the day
+   has already passed, those are shown instead (still capped), since that's
+   all there is to preview. */
+const SHOWSTRIP_LIMIT = 5;
+
+function showstripMarkup(shows) {
+  const upcoming = shows.filter(s => !isPast(s));
+  const relevant = upcoming.length ? upcoming : shows;
+  const visible = relevant.slice(0, SHOWSTRIP_LIMIT);
+  const hiddenCount = relevant.length - visible.length;
+  return visible.map(slotMarkup).join('') +
+    (hiddenCount > 0 ? `<span class="slot more">+${hiddenCount} dalších</span>` : '');
 }
 
 function slotMarkup(screening) {
@@ -513,6 +537,40 @@ export function renderMap(el) {
 
 /* ---------- detail overlay ---------- */
 
+/* One screening row inside the detail overlay's day-by-day list — shared by
+   both the plain arthouse rows and the rows nested inside a collapsed
+   multiplex chain group, so there is exactly one place that knows how to
+   render a screening's time/venue/format/booking-link line. */
+function ovSrowMarkup(s) {
+  const past = isPast(s);
+  const version = versionOf(s);
+  const extras = [
+    is35mm(s) ? '35mm' : '',
+    version ? version.label : '',
+    isEnglishFriendly(s) ? 'ENG' : '',
+  ].filter(Boolean).join(' · ');
+  const buy = past
+    ? '<span class="buy past">proběhlo</span>'
+    : `<a class="buy" href="${esc(s.booking_url || '#')}" target="_blank" rel="noopener noreferrer">Vstupenky ↗</a>`;
+  return `<div class="ov-srow ${past ? 'past' : ''}">
+    <span class="time">${esc(s.time)}</span>
+    <span class="cin">${esc(shortVenue(s.cinema))}${extras ? ' · ' + esc(extras) : ''}</span>
+    ${buy}
+  </div>`;
+}
+
+function venueCount(n) {
+  if (n === 1) return '1 kino';
+  if (n >= 2 && n <= 4) return `${n} kina`;
+  return `${n} kin`;
+}
+
+function screeningCount(n) {
+  if (n === 1) return '1 projekce';
+  if (n >= 2 && n <= 4) return `${n} projekce`;
+  return `${n} projekcí`;
+}
+
 export function fillDetail(filmId, filters) {
   const film = filmById(filmId);
   /* Only today and later. screeningsForFilm() returns full history for a
@@ -617,25 +675,39 @@ export function fillDetail(filmId, filters) {
     byDay.get(s.date).push(s);
   }
 
+  /* Arthouse cinemas stay individual rows, exactly as before — a handful of
+     screenings across the whole week is the normal case there. Multiplex
+     chains are grouped and collapsed per chain (found by the 2026-07-31
+     critique: a popular title can carry 600+ Cinema City/Premiere Cinemas
+     rows across six-plus locations, dwarfing the actual arthouse programming
+     it shares the day with). Collapsed by default behind a native <details>
+     — no custom expand/collapse JS needed, and it stays keyboard/screen-
+     reader operable for free — but every individual screening (and its real
+     booking link) is still one tap away, never actually removed. */
   document.getElementById('ov-screenings').innerHTML = [...byDay.entries()].map(([date, list]) => {
+    const individual = list.filter(s => !multiplexChainOf(s.cinema));
+
+    const byChain = new Map();
+    for (const s of list) {
+      const chain = multiplexChainOf(s.cinema);
+      if (!chain) continue;
+      if (!byChain.has(chain)) byChain.set(chain, []);
+      byChain.get(chain).push(s);
+    }
+    const chainGroups = [...byChain.entries()].map(([chain, screenings]) => {
+      const venues = new Set(screenings.map(s => s.cinema)).size;
+      return `<details class="ov-chain">
+        <summary>
+          <span class="ov-chain-name">${esc(chain)}</span>
+          <span class="ov-chain-count">${venueCount(venues)} · ${screeningCount(screenings.length)}</span>
+        </summary>
+        <div class="ov-scard">${screenings.map(ovSrowMarkup).join('')}</div>
+      </details>`;
+    }).join('');
+
     return `<div class="ov-day">${esc(longDay(date))}</div>
-      <div class="ov-scard">${list.map(s => {
-        const past = isPast(s);
-        const version = versionOf(s);
-        const extras = [
-          is35mm(s) ? '35mm' : '',
-          version ? version.label : '',
-          isEnglishFriendly(s) ? 'ENG' : '',
-        ].filter(Boolean).join(' · ');
-        const buy = past
-          ? '<span class="buy past">proběhlo</span>'
-          : `<a class="buy" href="${esc(s.booking_url || '#')}" target="_blank" rel="noopener noreferrer">Vstupenky ↗</a>`;
-        return `<div class="ov-srow ${past ? 'past' : ''}">
-          <span class="time">${esc(s.time)}</span>
-          <span class="cin">${esc(shortVenue(s.cinema))}${extras ? ' · ' + esc(extras) : ''}</span>
-          ${buy}
-        </div>`;
-      }).join('')}</div>`;
+      ${individual.length ? `<div class="ov-scard">${individual.map(ovSrowMarkup).join('')}</div>` : ''}
+      ${chainGroups}`;
   }).join('') || '<p style="color:var(--text-3);font-size:13px">Tento týden nehraje.</p>';
 
   return filmId;

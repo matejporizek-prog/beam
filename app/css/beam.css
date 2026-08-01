@@ -325,6 +325,7 @@ header.compact .brand h1 { font-size: 26px; }
 }
 .slot.past { opacity: .4; }
 .slot.none { color: var(--text-3); }
+.slot.more { color: var(--text-3); border-style: dashed; }
 .slot .st { font-family: 'IBM Plex Mono', monospace; font-weight: 500; color: var(--text); font-size: 12.5px; }
 .slot .sv { color: var(--text-2); }
 
@@ -816,6 +817,38 @@ html.sheet-open .beam { display: none; }
 .ov-srow.past { opacity: .4; }
 .ov-srow .time { width: 46px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; }
 .ov-srow .cin { flex: 1; font-family: 'Spectral', serif; font-size: 15px; font-weight: 500; }
+
+/* A collapsed multiplex chain group (e.g. "Cinema City · 7 kin · 84
+   projekcí") — native <details>/<summary> rather than a hand-rolled
+   expand/collapse, so it's keyboard- and screen-reader-operable with no
+   extra JS. Sits below that day's arthouse .ov-scard (if any), same card
+   shape, so opening one reads as revealing a second card rather than a
+   different kind of thing. */
+.ov-chain {
+  margin-top: 10px; background: var(--card); border: 1px solid var(--card-edge);
+  border-radius: 13px; overflow: hidden;
+}
+.ov-chain summary {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  padding: 13px 15px; cursor: pointer; list-style: none;
+}
+.ov-chain summary::-webkit-details-marker { display: none; }
+.ov-chain-name { font-family: 'Spectral', serif; font-size: 15px; font-weight: 500; }
+.ov-chain-count {
+  flex: none; font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--text-3);
+  display: flex; align-items: center; gap: 8px;
+}
+/* The disclosure indicator: a plain "+" rotating to "×" on open, in the same
+   mono face as the count next to it — not a champagne accent, since an open
+   chain isn't "active" the way DESIGN.md's One Voice Rule means that word. */
+.ov-chain-count::after {
+  content: '+'; font-size: 15px; transition: transform .18s;
+}
+.ov-chain[open] .ov-chain-count::after { transform: rotate(45deg); }
+.ov-chain .ov-scard {
+  border: none; border-radius: 0; border-top: 1px solid var(--line); padding: 2px 15px;
+}
+
 .ov-facts {
   display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; padding: 16px 20px 0;
   font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--text-2);
