@@ -8,14 +8,14 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=37';
-import { store } from './store.js?v=37';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=38';
+import { store } from './store.js?v=38';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=37';
-import { esc } from './format.js?v=37';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=37';
+} from './screens.js?v=38';
+import { esc } from './format.js?v=38';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=38';
 
 /* ---------- app state ---------- */
 
@@ -1011,7 +1011,35 @@ function registerServiceWorker() {
       .catch(() => {});
     return;
   }
-  navigator.serviceWorker.register('./sw.js').catch(() => {
+  /* FIX (found live, 2026-08-02): sw.js's own skipWaiting()+clients.claim()
+     means a new service worker takes control of the page without the
+     classic "close every tab" dance — but taking control isn't the same as
+     the page actually running the new code. The already-executing JS module
+     graph in memory doesn't get hot-swapped, so a tab that's been open (or,
+     on some platforms, a "closed and reopened" PWA that the OS actually just
+     resumed from a suspended background state rather than truly reloading)
+     can sit on old code indefinitely even after a new worker has installed
+     and activated. Reloading once the controller actually changes is the
+     standard fix. Guarded by hadController so this only fires for a genuine
+     update replacing an existing controller — the very first install also
+     fires 'controllerchange' (going from no controller to one), and
+     reloading then would just be a pointless extra load with nothing new to
+     show. */
+  const hadController = !!navigator.serviceWorker.controller;
+  let reloadingForUpdate = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!hadController || reloadingForUpdate) return;
+    reloadingForUpdate = true;
+    location.reload();
+  });
+
+  navigator.serviceWorker.register('./sw.js').then(reg => {
+    /* Browsers check for a new sw.js on navigation, but how eagerly varies
+       by platform — notably, an iOS home-screen PWA reopening from the app
+       switcher doesn't always count as a fresh navigation. Ask explicitly
+       on every boot instead of only trusting the browser's own timing. */
+    reg.update().catch(() => {});
+  }).catch(() => {
     /* Offline support is a bonus, not a requirement — never block the app. */
   });
 }
