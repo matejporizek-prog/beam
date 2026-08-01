@@ -10,16 +10,16 @@ import {
   state, filmFor, filmById, titleOf, screeningsForFilm,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf, isMultiplex, multiplexChainOf,
-} from './data.js?v=43';
+} from './data.js?v=44';
 
 import {
   DOW, esc, fold, dateOf, shortDate, longDay, whenLabel, yearIfDifferent,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=43';
+} from './format.js?v=44';
 
-import { store } from './store.js?v=43';
-import { isPushSupported } from './push.js?v=43';
-import { initCinemaMap } from './map.js?v=43';
+import { store } from './store.js?v=44';
+import { isPushSupported } from './push.js?v=44';
+import { initCinemaMap } from './map.js?v=44';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
@@ -170,14 +170,26 @@ export function renderDays(el, activeDay, filters, onPick) {
 export function renderProgram(el, activeDay, group, filters) {
   const todays = state.screenings.filter(s => s.date === activeDay && passesFilters(s, filters));
   const closed = closedCinemasOn(activeDay);
+  /* FIX (impeccable critique, minor): closedCinemasOn() was already
+     date-correct, but the copy always said "dnes" ("today") regardless of
+     which day was actually selected — true on today, wrong on every other
+     day the strip (or the date-jump sheet) lets you view. */
+  const isToday = activeDay === todayISO();
+  const when = isToday ? 'dnes' : `${shortDate(activeDay)}${yearIfDifferent(activeDay)}`;
   const closedNote = closed.length
-    ? `<div class="closed-note">${esc(closed.map(shortVenue).join(', '))} ${closed.length > 1 ? 'dnes nehrají' : 'dnes nehraje'}.</div>`
+    ? `<div class="closed-note">${esc(closed.map(shortVenue).join(', '))} ${when} ${closed.length > 1 ? 'nehrají' : 'nehraje'}.</div>`
     : '';
 
   if (!todays.length) {
     const anyThatDay = state.screenings.some(s => s.date === activeDay);
+    /* FIX (impeccable critique, minor): this used to just tell you to go
+       find Filtr yourself. A direct data-clear-filters button (delegated in
+       app.js, same as every other dynamically-rendered control here) skips
+       that trip for the common case — you're not here to fine-tune the
+       filter, you just want to see something. */
     el.innerHTML = closedNote + (anyThatDay
-      ? emptyState('filter', 'Nic neodpovídá filtru', 'Zkus upravit nebo vymazat filtr v panelu Filtr.')
+      ? emptyState('filter', 'Nic neodpovídá filtru', 'Zkus upravit nebo vymazat filtr v panelu Filtr.',
+          '<button class="es-action" data-clear-filters>Vymazat filtr</button>')
       : emptyState('program', 'Žádné projekce', 'Pro tento den nemáme žádný program.'));
     return;
   }
@@ -334,6 +346,9 @@ function slotMarkup(screening) {
     `<span class="sv">${esc(shortVenue(screening.cinema))}</span>` +
     (is35mm(screening) ? '<span class="sfmt">35mm</span>' : '') +
     (version ? `<span class="sdab">${esc(version.label)}</span>` : '') +
+    /* FIX (impeccable critique, minor): the one signal missing from a slot
+       that .vrow already shows — see the .seng CSS note. */
+    (isEnglishFriendly(screening) ? '<span class="seng">ENG</span>' : '') +
     '</span>';
 }
 
@@ -518,7 +533,7 @@ export function renderPremieres(el, activeMonth, activeDay) {
   // the only way back to the whole month short of tapping the day again.
   const listHead = selectedDay
     ? `<div class="prem-list-head">
-         <span class="sec-head">${esc(longDay(selectedDay))}</span>
+         <span class="sec-head lead">${esc(longDay(selectedDay))}</span>
          <button class="prem-clear" data-prem-day="${selectedDay}">Celý měsíc</button>
        </div>`
     : '';
@@ -653,7 +668,7 @@ export function renderWatchlist(el, filters) {
   const rows = saved.map(filmId => watchlistFilmRow(filmId, filters)).join('');
 
   el.innerHTML = notifyRow() +
-    `<div class="sec-head stagger">${saved.length} ${plural(saved.length)}</div>` + rows;
+    `<div class="sec-head lead stagger">${saved.length} ${plural(saved.length)}</div>` + rows;
 }
 
 function watchlistFilmRow(filmId, filters) {
@@ -926,7 +941,16 @@ export function runSearch(query, resultsEl, filters) {
   }
 
   /* Searches everything we now know about a film, not just its Czech title —
-     the English title, director and cast all became searchable with TMDb data. */
+     the English title, director and cast all became searchable with TMDb data.
+
+     matchedCinema records whether *this specific screening's own* cinema is
+     what actually matched — not just that the film plays somewhere matching
+     q, which the haystack join alone can't distinguish (a title/director/cast
+     hit and a cinema hit look identical once folded into one string). FIX
+     (impeccable critique, minor): the subtitle below used to always show the
+     film's globally-next screening regardless of *why* it matched — search
+     "Aero" and get a result subtitled with Bio Oko, if that happened to be
+     playing sooner. */
   const hits = new Map();
   for (const s of state.screenings) {
     if (hits.has(s.film_id)) continue;
@@ -938,7 +962,9 @@ export function runSearch(query, resultsEl, filters) {
       film && (film.cast || []).join(' '),
     ].filter(Boolean).join(' '));
 
-    if (haystack.includes(q)) hits.set(s.film_id, s);
+    if (haystack.includes(q)) {
+      hits.set(s.film_id, { screening: s, matchedCinema: fold(s.cinema).includes(q) });
+    }
   }
 
   if (!hits.size) {
@@ -946,10 +972,15 @@ export function runSearch(query, resultsEl, filters) {
     return;
   }
 
-  resultsEl.innerHTML = [...hits.keys()].map(filmId => {
+  resultsEl.innerHTML = [...hits.entries()].map(([filmId, hit]) => {
     const film = filmById(filmId);
-    const next = filteredNextScreening(filmId, filters);
-    const title = (film && film.title_cz) || hits.get(filmId).title_cz;
+    // A cinema-name match gets that cinema's own next screening when it has
+    // one still upcoming; anything else (title, director, cast...) keeps
+    // showing the film's next screening anywhere, same as before.
+    const next = (hit.matchedCinema &&
+        filteredScreeningsForFilm(filmId, filters).find(s => !isPast(s) && s.cinema === hit.screening.cinema))
+      || filteredNextScreening(filmId, filters);
+    const title = (film && film.title_cz) || hit.screening.title_cz;
     const sub = next
       ? `${whenLabel(next)} · ${shortVenue(next.cinema)}`
       : 'tento týden nehraje';
@@ -971,12 +1002,17 @@ const EMPTY_ICONS = {
   want: '<path d="M6 4h12a1 1 0 011 1v15l-7-4-7 4V5a1 1 0 011-1z"/>',
 };
 
-function emptyState(icon, title, sub) {
+/* actionHTML: optional markup for a button below the sub-text — only the
+   filter-mismatch empty state (below) actually uses this; every other call
+   site leaves it '' and gets exactly the plain two-line state it always
+   had. */
+function emptyState(icon, title, sub, actionHTML = '') {
   return `<div class="empty-state stagger">
     <div class="es-mark">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">${EMPTY_ICONS[icon] || ''}</svg>
     </div>
     <p class="es-title">${esc(title)}</p>
     <p class="es-sub">${esc(sub)}</p>
+    ${actionHTML}
   </div>`;
 }

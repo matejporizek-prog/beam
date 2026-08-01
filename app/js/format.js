@@ -2,7 +2,7 @@
    Czech formatting helpers and the small shared markup primitives.
    ========================================================================== */
 
-import { todayISO, initialOf, posterUrl } from './data.js?v=43';
+import { todayISO, initialOf, posterUrl } from './data.js?v=44';
 
 export const DOW = ['NE', 'PO', 'ÚT', 'ST', 'ČT', 'PÁ', 'SO'];
 export const DOW_LONG = ['NEDĚLE', 'PONDĚLÍ', 'ÚTERÝ', 'STŘEDA', 'ČTVRTEK', 'PÁTEK', 'SOBOTA'];
@@ -107,8 +107,16 @@ export function runtimeLabel(film) {
   return film && film.runtime_min ? `${film.runtime_min}′` : '';
 }
 
-/* Density dots on the day strip: 1 dot for a quiet day, 3 for a busy one. */
+/* Density dots on the day strip: 1 dot for a quiet day, 3 for a busy one.
+   FIX (impeccable critique, minor): the old <=2/<=6 breakpoints were tuned
+   for a per-cinema count, not the arthouse-wide daily total this actually
+   receives — every one of the strip's first two weeks has 9-66 screenings
+   with multiplexes off (the default), so practically every day landed on 3
+   dots and the indicator carried no information at all. Rebalanced against
+   the real distribution across a live 21-day window (roughly 9 quiet days,
+   16 moderate, 66 at the busiest) so the three tiers actually spread across
+   what a week normally looks like, not just what a single cinema does. */
 export function densityDots(count) {
-  const n = count === 0 ? 0 : count <= 2 ? 1 : count <= 6 ? 2 : 3;
+  const n = count === 0 ? 0 : count <= 10 ? 1 : count <= 30 ? 2 : 3;
   return `<span class="density">${'<i></i>'.repeat(n)}</span>`;
 }

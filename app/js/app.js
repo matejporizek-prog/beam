@@ -8,14 +8,14 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=43';
-import { store } from './store.js?v=43';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=44';
+import { store } from './store.js?v=44';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount, renderDateJump,
-} from './screens.js?v=43';
-import { esc } from './format.js?v=43';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=43';
+} from './screens.js?v=44';
+import { esc } from './format.js?v=44';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=44';
 
 /* ---------- app state ---------- */
 
@@ -133,7 +133,16 @@ function renderPrem() {
 const SCREENS = { program: 's-program', prem: 's-prem', want: 's-want', map: 's-map' };
 
 function go(name) {
-  document.querySelectorAll('.nav-item').forEach(n => n.classList.toggle('active', n.dataset.s === name));
+  /* FIX (impeccable critique, minor): aria-current is how a screen-reader
+     user learns which destination is active at all — champagne being the
+     *only* visual signal (by design, see DESIGN.md) meant that state was
+     literally invisible non-visually until now. */
+  document.querySelectorAll('.nav-item').forEach(n => {
+    const active = n.dataset.s === name;
+    n.classList.toggle('active', active);
+    if (active) n.setAttribute('aria-current', 'page');
+    else n.removeAttribute('aria-current');
+  });
   const target = $(SCREENS[name]);
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   void target.offsetWidth;  // force reflow so the stagger animation replays
@@ -243,6 +252,16 @@ function wireEvents() {
     const jumpDay = event.target.closest('[data-jump-day]');
     if (jumpDay) {
       activeDay = jumpDay.dataset.jumpDay;
+      renderProg();
+      return;
+    }
+
+    /* Program's "Nic neodpovídá filtru" empty state (renderProgram() in
+       screens.js) — clears Filtr directly rather than sending you to find
+       the panel yourself. Not inside the sheet, so (unlike sheet-clear)
+       this has to re-render the list itself. */
+    if (event.target.closest('[data-clear-filters]')) {
+      clearFilters();
       renderProg();
       return;
     }
@@ -358,11 +377,7 @@ function wireEvents() {
 
   /* date-jump sheet */
   $('date-scrim').onclick = () => closeDateJump();
-  $('sheet-clear').onclick = () => {
-    filters = { mplex: false, version: new Set(), format: new Set(), enOnly: false, creators: new Set(), genres: new Set() };
-    store.saveFilters(filters);
-    syncFilterUI();
-  };
+  $('sheet-clear').onclick = clearFilters;
   $('row-mplex').onclick = () => { filters.mplex = !filters.mplex; store.saveFilters(filters); syncFilterUI(); };
   $('row-en').onclick = () => { filters.enOnly = !filters.enOnly; store.saveFilters(filters); syncFilterUI(); };
   $('creator-input').oninput = () => renderCreatorResults();
@@ -418,6 +433,18 @@ function wireEvents() {
 
 function togglePill(set, value) {
   set.has(value) ? set.delete(value) : set.add(value);
+  store.saveFilters(filters);
+  syncFilterUI();
+}
+
+/* Shared by Filtr's own "Vymazat" and the Program empty state's
+   data-clear-filters button (screens.js) — same reset, two entry points.
+   Deliberately doesn't renderProg() itself: Filtr's button only needs
+   syncFilterUI() (the sheet is still open, closeFilter() re-renders
+   Program when it closes), while the empty-state button isn't inside a
+   sheet at all and has to render immediately — see its own handler below. */
+function clearFilters() {
+  filters = { mplex: false, version: new Set(), format: new Set(), enOnly: false, creators: new Set(), genres: new Set() };
   store.saveFilters(filters);
   syncFilterUI();
 }

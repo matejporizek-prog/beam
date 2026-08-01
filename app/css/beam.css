@@ -371,13 +371,32 @@ header.compact .brand h1 { font-size: 26px; }
   font-family: 'IBM Plex Mono', monospace; font-size: 9.5px;
   color: var(--warn); border: 1px solid var(--warn-dim); border-radius: 3px; padding: 0 3px;
 }
+/* FIX (impeccable critique, minor): slotMarkup used to drop the ENG marker
+   entirely, so filtering to "Jen s anglickými titulky" showed a showstrip
+   with no visible reason any of it matched. Same neutral/informational tier
+   as .chip.eng elsewhere (outlined, not filled — this isn't a physical fact
+   like format, just a note), just re-cut to the slot chip's own compact
+   9.5px scale to match .sfmt/.sdab beside it. */
+.slot .seng {
+  font-family: 'IBM Plex Mono', monospace; font-size: 9.5px;
+  color: var(--text-2); border: 1px solid var(--line); border-radius: 3px; padding: 0 3px;
+}
 
 /* ===== shared dense list primitives ======================================= */
 .sec-head {
   font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase;
   color: var(--text-3); padding: 14px 20px 8px;
 }
-.sec-head:first-child { color: var(--accent); }
+/* FIX (impeccable critique, minor): :first-child broke silently the moment
+   Chci vidět grew a sibling ahead of its "N filmů" heading (the notify
+   toggle, renderWatchlist() in screens.js) — the champagne emphasis quietly
+   stopped firing there while still working on Premiéry's selected-day
+   heading, purely because of DOM position neither heading's own markup
+   controls on its own. An explicit .lead class, set once in JS wherever
+   this "this is the one heading that matters right now" emphasis is
+   actually intended, doesn't depend on what else ends up sharing the
+   parent. */
+.sec-head.lead { color: var(--accent); }
 .row { display: flex; gap: 12px; padding: 13px 20px; align-items: center; border-bottom: 1px solid var(--line); cursor: pointer; transition: background .14s; }
 .row:active { background: rgba(255,255,255,.02); }
 .row-action {
@@ -492,6 +511,14 @@ header.compact .brand h1 { font-size: 26px; }
 .es-mark svg { width: 30px; height: 30px; }
 .es-title { font-family: 'Spectral', serif; font-size: 22px; font-weight: 600; }
 .es-sub { font-size: 13.5px; color: var(--text-2); line-height: 1.6; margin-top: 8px; }
+/* Outlined rather than filled — same "corrective/secondary" language as
+   .map-popup-btn.secondary, since this isn't the primary action of the
+   screen it sits on, just an escape hatch. */
+.es-action {
+  margin-top: 18px; padding: 10px 20px; border-radius: 20px;
+  border: 1px solid var(--accent-dim); background: none; color: var(--accent);
+  font-family: 'Archivo', sans-serif; font-size: 13.5px; font-weight: 600; cursor: pointer;
+}
 
 /* cinema-closed notice inside Program */
 .closed-note {
@@ -650,7 +677,12 @@ header.compact .brand h1 { font-size: 26px; }
 .sheet-grab { width: 38px; height: 4px; border-radius: 2px; background: var(--card-edge); margin: 6px auto 14px; }
 .sheet-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 14px; }
 .sheet-head h2 { font-family: 'Spectral', serif; font-weight: 600; font-size: 21px; }
-.sheet-clear { background: none; border: none; color: var(--text-3); font-size: 12px; cursor: pointer; font-family: 'IBM Plex Mono', monospace; letter-spacing: .04em; }
+/* FIX (impeccable critique, minor): the tap target used to be exactly the
+   12px text's own box — ~15px tall, for a destructive clear-all action.
+   Padding out to a proper ~44px target, offset by an equal negative margin
+   so the visible text stays in exactly the same place inside .sheet-head's
+   baseline-aligned row. */
+.sheet-clear { background: none; border: none; color: var(--text-3); font-size: 12px; cursor: pointer; font-family: 'IBM Plex Mono', monospace; letter-spacing: .04em; padding: 15px 8px; margin: -15px -8px; }
 .filter-group { padding: 14px 0; border-top: 1px solid var(--line); }
 .filter-group:first-of-type { border-top: none; }
 .fg-label { font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--text-3); margin-bottom: 10px; }
