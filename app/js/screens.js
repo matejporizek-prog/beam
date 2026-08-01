@@ -10,16 +10,16 @@ import {
   state, filmFor, filmById, titleOf, screeningsForFilm,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf, isMultiplex, multiplexChainOf,
-} from './data.js?v=39';
+} from './data.js?v=40';
 
 import {
   DOW, esc, fold, dateOf, shortDate, longDay, whenLabel,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=39';
+} from './format.js?v=40';
 
-import { store } from './store.js?v=39';
-import { isPushSupported } from './push.js?v=39';
-import { initCinemaMap } from './map.js?v=39';
+import { store } from './store.js?v=40';
+import { isPushSupported } from './push.js?v=40';
+import { initCinemaMap } from './map.js?v=40';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
@@ -249,7 +249,7 @@ function pastGroupMarkup(items, markupFn, countLabel) {
      more correct behavior, not only the fix for the bug. */
   return `<details class="past-group">
     <summary>
-      <span class="past-group-label">Dnes už proběhlo</span>
+      <span class="past-group-label">Dnes již proběhlo</span>
       <span class="past-group-count">${countLabel(items.length)}</span>
     </summary>
     <div class="past-group-body">${items.map(item => markupFn(item, false)).join('')}</div>
@@ -332,7 +332,14 @@ function renderCinemaMode(todays) {
 
   return upcoming.map(venueGroupMarkup).join('') +
     todayDoneNotice(upcoming.length, past.length) +
-    pastGroupMarkup(past, venueGroupMarkup, venueCount);
+    /* alreadySeparated=true: every group in `past` is, by definition, a venue
+       with nothing upcoming at all today — venueGroupMarkup's own
+       upcoming/past split would find zero upcoming and wrap 100% of its
+       rows in a second, inner "Dnes již proběhlo" disclosure, forcing a
+       second tap to see what the first tap was already supposed to reveal.
+       Found live, 2026-08-03. Skip the re-split here; the outer disclosure
+       is already the one deliberate step this content needs. */
+    pastGroupMarkup(past, (group, stagger) => venueGroupMarkup(group, stagger, true), venueCount);
 }
 
 /* FIX (found live, 2026-08-02): the top-level "whole venue already done"
@@ -342,8 +349,21 @@ function renderCinemaMode(todays) {
    merely dimmed, the exact clutter this whole pass was meant to remove.
    Film mode already drops past showtimes from a still-live film's preview
    (see showstripMarkup()); this is the same idea one level up, for a
-   still-live venue's past screenings. */
-function venueGroupMarkup({ venue, shows }, stagger = true) {
+   still-live venue's past screenings.
+
+   alreadySeparated: true when the caller already knows every show in this
+   group is past (rendering inside the top-level past-venues disclosure
+   above) — skips the internal split/inner-disclosure entirely and just
+   lists every screening directly, since wrapping an already-opt-in
+   disclosure's content in a second one adds a tap, not clarity. */
+function venueGroupMarkup({ venue, shows }, stagger = true, alreadySeparated = false) {
+  if (alreadySeparated) {
+    return `<section class="vgroup${stagger ? ' stagger' : ''}" data-venue="${esc(venue)}">
+      <div class="vgroup-head"><h2>${esc(shortVenue(venue))}</h2></div>
+      ${shows.map(vrowMarkup).join('')}
+    </section>`;
+  }
+
   const upcoming = shows.filter(s => !isPast(s));
   const past = shows.filter(isPast);
   return `<section class="vgroup${stagger ? ' stagger' : ''}" data-venue="${esc(venue)}">
