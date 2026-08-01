@@ -8,14 +8,14 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=36';
-import { store } from './store.js?v=36';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=37';
+import { store } from './store.js?v=37';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount,
-} from './screens.js?v=36';
-import { esc } from './format.js?v=36';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=36';
+} from './screens.js?v=37';
+import { esc } from './format.js?v=37';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=37';
 
 /* ---------- app state ---------- */
 
@@ -228,6 +228,17 @@ function wireEvents() {
       renderProg();
       const section = document.querySelector(`[data-venue="${cssEscape(jumpCinema.dataset.jumpCinema)}"]`);
       if (section) setTimeout(() => section.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
+      return;
+    }
+
+    /* "Program na {datum} →" inside the "Dnes už nic dalšího nehraje."
+       notice (renderFilmMode()/renderCinemaMode() in screens.js) — jumps
+       straight to the next day that actually has something on, same as
+       tapping that day directly in the day strip would. */
+    const jumpDay = event.target.closest('[data-jump-day]');
+    if (jumpDay) {
+      activeDay = jumpDay.dataset.jumpDay;
+      renderProg();
       return;
     }
 

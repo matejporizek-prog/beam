@@ -10,16 +10,16 @@ import {
   state, filmFor, filmById, titleOf, screeningsForFilm,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf, isMultiplex, multiplexChainOf,
-} from './data.js?v=36';
+} from './data.js?v=37';
 
 import {
   DOW, esc, fold, dateOf, shortDate, longDay, whenLabel,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=36';
+} from './format.js?v=37';
 
-import { store } from './store.js?v=36';
-import { isPushSupported } from './push.js?v=36';
-import { initCinemaMap } from './map.js?v=36';
+import { store } from './store.js?v=37';
+import { isPushSupported } from './push.js?v=37';
+import { initCinemaMap } from './map.js?v=37';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
@@ -161,6 +161,20 @@ export function renderProgram(el, activeDay, group, filters) {
     : renderCinemaMode(todays));
 }
 
+/* FIX (impeccable critique, P1): at the hour this app exists for — most of
+   an evening — Program used to render every film that screened at all
+   today, dimmed to 45% once its last showing passed. On a normal Friday
+   night that's dozens of dead rows outweighing the one still-catchable
+   film, and the critique measured that dimmed text failing WCAG AA (the
+   rows stayed interactive, so the "inactive control" exemption doesn't
+   apply either). Films/venues with nothing left today now collapse behind
+   one native <details> disclosure at the bottom — same shape already
+   shipped for multiplex chains in the detail overlay — rather than being
+   deleted or merely dimmed. Once a user deliberately opens it, there's no
+   reason to dim the contents further: the disclosure itself is the
+   "secondary" signal, so what's inside renders at full, legible opacity,
+   which is what actually resolves the contrast finding rather than hunting
+   for a "good enough" dim level. */
 function renderFilmMode(todays) {
   /* Group by film_id, not by title string — that is what makes typo variants
      of the same film collapse into one row. */
@@ -179,36 +193,88 @@ function renderFilmMode(todays) {
     a.allPast !== b.allPast ? (a.allPast ? 1 : -1) : a.sortKey.localeCompare(b.sortKey)
   );
 
-  return rows.map(({ filmId, shows, allPast }) => {
-    const film = filmById(filmId);
-    const title = titleOf(shows[0]);
-    const meta = [];
+  const upcoming = rows.filter(r => !r.allPast);
+  const past = rows.filter(r => r.allPast);
 
-    /* Genres from TMDb read better than the raw language list, so they lead
-       when we have them; language is the fallback for unresolved films. */
-    if (film && film.genres && film.genres.length) meta.push(esc(film.genres.slice(0, 2).join(', ')));
-    else {
-      const langs = [...new Set(shows.map(s => s.language).filter(Boolean))].join(', ');
-      if (langs) meta.push(esc(langs));
-    }
-    const strands = [...new Set(shows.map(strandOf).filter(Boolean))];
+  return upcoming.map(filmRowMarkup).join('') +
+    todayDoneNotice(upcoming.length, past.length) +
+    pastGroupMarkup(past, filmRowMarkup, filmCount);
+}
 
-    return `<article class="film stagger ${allPast ? 'dim' : ''}" data-film="${esc(filmId)}" role="button" tabindex="0" aria-label="${esc(title)}">
-      ${posterTile(film, title)}
-      <div class="film-body">
-        <div class="film-head">
-          <h2 class="film-title">${esc(title)}</h2>
-          <span class="runtime">${runtimeLabel(film)}</span>
-        </div>
-        <div class="film-meta">
-          ${meta.map(m => `<span>${m}</span>`).join('')}
-          ${strands.map(s => `<span class="strand">${esc(s)}</span>`).join('')}
-        </div>
-        <div class="showstrip">${showstripMarkup(shows)}</div>
+function filmRowMarkup({ filmId, shows }, stagger = true) {
+  const film = filmById(filmId);
+  const title = titleOf(shows[0]);
+  const meta = [];
+
+  /* Genres from TMDb read better than the raw language list, so they lead
+     when we have them; language is the fallback for unresolved films. */
+  if (film && film.genres && film.genres.length) meta.push(esc(film.genres.slice(0, 2).join(', ')));
+  else {
+    const langs = [...new Set(shows.map(s => s.language).filter(Boolean))].join(', ');
+    if (langs) meta.push(esc(langs));
+  }
+  const strands = [...new Set(shows.map(strandOf).filter(Boolean))];
+
+  return `<article class="film${stagger ? ' stagger' : ''}" data-film="${esc(filmId)}" role="button" tabindex="0" aria-label="${esc(title)}">
+    ${posterTile(film, title)}
+    <div class="film-body">
+      <div class="film-head">
+        <h2 class="film-title">${esc(title)}</h2>
+        <span class="runtime">${runtimeLabel(film)}</span>
       </div>
-      ${heartButton(filmId, title, store.isSaved(filmId))}
-    </article>`;
-  }).join('');
+      <div class="film-meta">
+        ${meta.map(m => `<span>${m}</span>`).join('')}
+        ${strands.map(s => `<span class="strand">${esc(s)}</span>`).join('')}
+      </div>
+      <div class="showstrip">${showstripMarkup(shows)}</div>
+    </div>
+    ${heartButton(filmId, title, store.isSaved(filmId))}
+  </article>`;
+}
+
+/* Shared by both Program modes — a collapsed "N filmů/kin already done for
+   today" disclosure. Closed by default, real <details>/<summary> so it's
+   keyboard- and screen-reader-operable with no extra JS, exactly the
+   pattern already shipped for multiplex chains in the detail overlay. */
+function pastGroupMarkup(items, markupFn, countLabel) {
+  if (!items.length) return '';
+  /* stagger=false: .stagger's entrance animation (rise .46s ... both) never
+     gets to run on content born inside a closed <details> — that content is
+     display:none at render time, so the animation can't start, and
+     fill-mode `both` leaves it stuck at the *from* keyframe (opacity: 0)
+     forever once the disclosure opens instead of playing through to
+     opacity: 1. Found live: the group opened, but everything inside stayed
+     invisible. These rows are revealed by the user's own tap, not a fresh
+     screen becoming active, so skipping the stagger here is also just the
+     more correct behavior, not only the fix for the bug. */
+  return `<details class="past-group">
+    <summary>
+      <span class="past-group-label">Dnes už proběhlo</span>
+      <span class="past-group-count">${countLabel(items.length)}</span>
+    </summary>
+    <div class="past-group-body">${items.map(item => markupFn(item, false)).join('')}</div>
+  </details>`;
+}
+
+function filmCount(n) {
+  if (n === 1) return '1 film';
+  if (n >= 2 && n <= 4) return `${n} filmy`;
+  return `${n} filmů`;
+}
+
+/* Shown only when today had programming and every bit of it has already
+   played — distinct from "no data for today at all" (handled separately in
+   renderProgram()). A direct, honest answer to the moment the app is
+   actually opened in the evening, rather than just a wall of dimmed rows:
+   points at the next day that actually has something on, which may not be
+   literally tomorrow (a quiet Monday can be empty). */
+function todayDoneNotice(upcomingCount, pastCount) {
+  if (upcomingCount > 0 || !pastCount) return '';
+  const next = state.dates.find(d => d > todayISO());
+  const jump = next
+    ? `<button class="today-done-jump" data-jump-day="${esc(next)}">Program na ${esc(shortDate(next))} →</button>`
+    : '';
+  return `<div class="today-done stagger"><span>Dnes už nic dalšího nehraje.</span>${jump}</div>`;
 }
 
 /* Program row preview cap, found by the 2026-07-31 design critique: with
@@ -256,36 +322,45 @@ function renderCinemaMode(todays) {
      known ones, so a new scraper's output can never silently vanish. */
   const venues = [...new Set([...order.filter(v => byVenue.has(v)), ...byVenue.keys()])];
 
-  return venues.map(venue => {
+  const groups = venues.map(venue => {
     const shows = byVenue.get(venue).sort((a, b) => a.time.localeCompare(b.time));
-    const allPast = shows.every(isPast);
+    return { venue, shows, allPast: shows.every(isPast) };
+  });
 
-    return `<section class="vgroup stagger ${allPast ? 'dim' : ''}" data-venue="${esc(venue)}">
-      <div class="vgroup-head"><h2>${esc(shortVenue(venue))}</h2></div>
-      ${shows.map(s => {
-        const film = filmFor(s);
-        const version = versionOf(s);
-        const strand = strandOf(s);
-        return `<div class="vrow ${isPast(s) ? 'past' : ''}" data-film="${esc(s.film_id)}" role="button" tabindex="0" aria-label="${esc(titleOf(s))}">
-          <span class="time">${esc(s.time)}</span>
-          ${posterTile(film, titleOf(s), 'poster-sm')}
-          <div class="vtitle">
-            <div class="t-line">
-              <span class="t">${esc(titleOf(s))}</span>
-              <span class="vruntime">${runtimeLabel(film)}</span>
-            </div>
-            <div class="m">
-              <span>${esc(s.language || '')}${strand ? ' · ' + esc(strand) : ''}</span>
-              ${chip(version)}
-              ${is35mm(s) ? '<span class="chip fmt">35mm</span>' : ''}
-              ${isEnglishFriendly(s) ? '<span class="chip eng">ENG</span>' : ''}
-            </div>
+  const upcoming = groups.filter(g => !g.allPast);
+  const past = groups.filter(g => g.allPast);
+
+  return upcoming.map(venueGroupMarkup).join('') +
+    todayDoneNotice(upcoming.length, past.length) +
+    pastGroupMarkup(past, venueGroupMarkup, venueCount);
+}
+
+function venueGroupMarkup({ venue, shows }, stagger = true) {
+  return `<section class="vgroup${stagger ? ' stagger' : ''}" data-venue="${esc(venue)}">
+    <div class="vgroup-head"><h2>${esc(shortVenue(venue))}</h2></div>
+    ${shows.map(s => {
+      const film = filmFor(s);
+      const version = versionOf(s);
+      const strand = strandOf(s);
+      return `<div class="vrow ${isPast(s) ? 'past' : ''}" data-film="${esc(s.film_id)}" role="button" tabindex="0" aria-label="${esc(titleOf(s))}">
+        <span class="time">${esc(s.time)}</span>
+        ${posterTile(film, titleOf(s), 'poster-sm')}
+        <div class="vtitle">
+          <div class="t-line">
+            <span class="t">${esc(titleOf(s))}</span>
+            <span class="vruntime">${runtimeLabel(film)}</span>
           </div>
-          ${heartButton(s.film_id, titleOf(s), store.isSaved(s.film_id))}
-        </div>`;
-      }).join('')}
-    </section>`;
-  }).join('');
+          <div class="m">
+            <span>${esc(s.language || '')}${strand ? ' · ' + esc(strand) : ''}</span>
+            ${chip(version)}
+            ${is35mm(s) ? '<span class="chip fmt">35mm</span>' : ''}
+            ${isEnglishFriendly(s) ? '<span class="chip eng">ENG</span>' : ''}
+          </div>
+        </div>
+        ${heartButton(s.film_id, titleOf(s), store.isSaved(s.film_id))}
+      </div>`;
+    }).join('')}
+  </section>`;
 }
 
 /* ---------- Premiéry ---------- */

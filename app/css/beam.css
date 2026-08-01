@@ -474,6 +474,47 @@ header.compact .brand h1 { font-size: 26px; }
   font-size: 12.5px; color: var(--text-3); line-height: 1.5;
 }
 
+/* Shown when today had programming and every bit of it already played —
+   same dashed-notice language as .closed-note (a quiet factual aside, not a
+   card with substance), plus a real jump to the next day that has anything
+   on. */
+.today-done {
+  margin: 10px 20px 0; padding: 10px 13px; border: 1px dashed var(--card-edge); border-radius: 9px;
+  font-size: 12.5px; color: var(--text-3); line-height: 1.5;
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+}
+.today-done-jump {
+  flex: none; background: none; border: none; color: var(--accent);
+  font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: .04em;
+  cursor: pointer; padding: 0;
+}
+
+/* A collapsed "already done for today" group — same shape as .ov-chain in
+   the detail overlay (native <details>/<summary>, a rotating "+"), reused
+   here for Program's film/cinema rows instead of screenings inside one
+   film. Content inside renders at full opacity once opened: the disclosure
+   itself is the "this is done" signal, so dimming it further on top of
+   that was both redundant and — measured directly — a WCAG AA failure. */
+.past-group {
+  margin: 8px 20px 0; background: var(--card); border: 1px solid var(--card-edge);
+  border-radius: 13px; overflow: hidden;
+}
+.past-group summary {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  padding: 13px 15px; cursor: pointer; list-style: none;
+}
+.past-group summary::-webkit-details-marker { display: none; }
+.past-group-label { font-family: 'Spectral', serif; font-size: 15px; font-weight: 500; color: var(--text-2); }
+.past-group-count {
+  flex: none; font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--text-3);
+  display: flex; align-items: center; gap: 8px;
+}
+.past-group-count::after { content: '+'; font-size: 15px; transition: transform .18s; }
+.past-group[open] .past-group-count::after { transform: rotate(45deg); }
+.past-group-body { border-top: 1px solid var(--line); }
+.past-group-body .film:last-child,
+.past-group-body .vgroup:last-child { border-bottom: none; }
+
 /* ===== TMDb attribution =================================================== */
 /* Required by TMDb's terms for non-commercial use of their API. */
 .attribution {
