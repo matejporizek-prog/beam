@@ -237,7 +237,13 @@ header.compact .brand h1 { font-size: 26px; }
   color: var(--text-3); border-radius: 9px; padding: 7px 0 6px; text-align: center;
   cursor: pointer; transition: color .18s, background .18s, border-color .18s;
 }
-.day .dow { font-family: 'IBM Plex Mono', monospace; font-size: 9.5px; letter-spacing: .12em; text-transform: uppercase; display: block; }
+/* FIX (impeccable critique, P3): 9.5px sat at the very bottom of DESIGN.md's
+   own documented Label range (9.5-11px) on text that's permanently on
+   screen (the day strip is always visible on Program, unlike a disclosed
+   past-screening timestamp) -- moved to the top of that same, already-
+   documented range rather than introducing a new size DESIGN.md doesn't
+   cover. */
+.day .dow { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; display: block; }
 .day .dnum { font-family: 'Spectral', serif; font-size: 17px; font-weight: 500; display: block; margin-top: 1px; color: var(--text-2); }
 /* FIX (impeccable critique): the year a date's chip belongs to used to be
    invisible everywhere. Its own small line rather than appended inline onto
@@ -612,7 +618,9 @@ header.compact .brand h1 { font-size: 26px; }
   margin: 0 3px;
 }
 .nav-item svg { width: 22px; height: 22px; position: relative; z-index: 1; }
-.nav-item .nl { font-size: 10px; letter-spacing: .02em; position: relative; z-index: 1; }
+/* Same reasoning as .day .dow above: permanently-visible nav text, moved to
+   the top of DESIGN.md's own documented Label range (9.5-11px). */
+.nav-item .nl { font-size: 11px; letter-spacing: .02em; position: relative; z-index: 1; }
 /* The active destination is marked by its champagne icon and label alone — no
    box behind it. The perforation rails carry the film-strip look; a bordered
    panel per item just read as a button and cluttered the strip. */
