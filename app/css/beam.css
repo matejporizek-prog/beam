@@ -914,8 +914,19 @@ html.search-open .beam { display: none; }
    image and fade, which carry the look. */
 @media (pointer: coarse) { .ov-back::after { display: none; } }
 .ov-fade { position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 40%, var(--bg)); }
+/* Pinned to the viewport rather than scrolling away with the hero — close
+   and save are the two actions worth reaching for from anywhere in a long
+   synopsis/credits/screening-list scroll, not just at the very top. This is
+   a small, non-scrolling `position: fixed` element floating over ordinary
+   document scroll, not the fixed+inner-overflow-auto *container* shape this
+   app deliberately avoids elsewhere for the iOS scroll-jank bug (see the
+   .overlay comment above) — different pattern, doesn't reintroduce it.
+   During the one-shot open animation .overlay's own transform briefly makes
+   it these buttons' containing block instead of the viewport, so they slide
+   in together with the hero as one motion; once that finishes they anchor
+   to the true viewport like any other fixed element. */
 .ov-close, .ov-save {
-  position: absolute; top: 16px; z-index: 3; width: 38px; height: 38px; border-radius: 50%;
+  position: fixed; top: 16px; z-index: 3; width: 38px; height: 38px; border-radius: 50%;
   /* Blur dropped along with .save-heart's: these two live inside the detail
      overlay's scroll, which was the reported worst case for iOS jank. */
   border: none; background: rgba(12,14,17,.78); color: var(--text);
