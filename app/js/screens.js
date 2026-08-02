@@ -7,19 +7,19 @@
    ========================================================================== */
 
 import {
-  state, filmFor, filmById, titleOf, screeningsForFilm,
+  state, filmFor, filmById, titleOf, screeningsForFilm, nextScreening,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf, isMultiplex, multiplexChainOf,
-} from './data.js?v=45';
+} from './data.js?v=46';
 
 import {
   DOW, esc, fold, dateOf, shortDate, longDay, whenLabel, yearIfDifferent,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=45';
+} from './format.js?v=46';
 
-import { store } from './store.js?v=45';
-import { isPushSupported } from './push.js?v=45';
-import { initCinemaMap } from './map.js?v=45';
+import { store } from './store.js?v=46';
+import { isPushSupported } from './push.js?v=46';
+import { initCinemaMap } from './map.js?v=46';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
@@ -981,14 +981,27 @@ export function runSearch(query, resultsEl, filters) {
         filteredScreeningsForFilm(filmId, filters).find(s => !isPast(s) && s.cinema === hit.screening.cinema))
       || filteredNextScreening(filmId, filters);
     const title = (film && film.title_cz) || hit.screening.title_cz;
+    /* FIX (impeccable critique, P1): "tento týden nehraje" used to fire
+       whenever the FILTERED next screening came up empty — which happens
+       just as easily because a real screening exists but got excluded by an
+       active Filtr setting as because the film genuinely isn't playing.
+       Verified live: with "Drama" + "titulky" active, searching a real,
+       currently-screening Action/Adventure film said it "doesn't play this
+       week" — false, it plays, just not under that filter. nextScreening()
+       (data.js, unfiltered) tells the two cases apart, so the copy can name
+       the actual cause instead of asserting something untrue. */
+    const unfilteredNext = !next && nextScreening(filmId);
     const sub = next
       ? `${whenLabel(next)} · ${shortVenue(next.cinema)}`
-      : 'tento týden nehraje';
+      : unfilteredNext
+        ? 'nehraje s aktivním filtrem'
+        : 'tento týden nehraje';
+    const clearLink = unfilteredNext ? '<button class="sr-clear" data-clear-filters>Vymazat filtr</button>' : '';
     return `<div class="sr-item" data-film="${esc(filmId)}" role="button" tabindex="0" aria-label="${esc(title)}">
       ${posterTile(film, title, 'sr-poster')}
       <div class="sr-body">
         <div class="sr-title">${esc(title)}</div>
-        <div class="sr-sub">${esc(sub)}</div>
+        <div class="sr-sub">${esc(sub)}${clearLink}</div>
       </div>
     </div>`;
   }).join('');

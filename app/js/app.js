@@ -8,14 +8,14 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=45';
-import { store } from './store.js?v=45';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=46';
+import { store } from './store.js?v=46';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount, renderDateJump,
-} from './screens.js?v=45';
-import { esc } from './format.js?v=45';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=45';
+} from './screens.js?v=46';
+import { esc } from './format.js?v=46';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=46';
 
 /* ---------- app state ---------- */
 
@@ -256,13 +256,21 @@ function wireEvents() {
       return;
     }
 
-    /* Program's "Nic neodpovídá filtru" empty state (renderProgram() in
-       screens.js) — clears Filtr directly rather than sending you to find
-       the panel yourself. Not inside the sheet, so (unlike sheet-clear)
-       this has to re-render the list itself. */
+    /* Program's "Nic neodpovídá filtru" empty state and search's own
+       per-result "nehraje s aktivním filtrem" note (renderProgram() /
+       runSearch() in screens.js) — both clear Filtr directly rather than
+       sending you to find the panel yourself. Not inside the sheet, so
+       (unlike sheet-clear) this has to re-render whichever list is actually
+       on screen itself. Re-running search too (when it's the one open)
+       matters here specifically: without it, tapping this from inside a
+       search result would silently fix Program behind the still-open
+       overlay while the result the user is looking at stays stale. */
     if (event.target.closest('[data-clear-filters]')) {
       clearFilters();
       renderProg();
+      if ($('search-ov').classList.contains('open')) {
+        runSearch($('search-input').value, $('search-results'), filters);
+      }
       return;
     }
 

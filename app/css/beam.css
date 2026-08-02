@@ -833,6 +833,13 @@ header.compact .brand h1 { font-size: 26px; }
 .sr-body { flex: 1; min-width: 0; }
 .sr-title { font-family: 'Spectral', serif; font-size: 16px; font-weight: 500; }
 .sr-sub { font-size: 12px; color: var(--text-3); margin-top: 2px; }
+/* Same plain-text-link language as .prem-clear, scaled to sit inline right
+   after .sr-sub's own text rather than as a standalone row. */
+.sr-clear {
+  font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: .04em;
+  color: var(--accent); background: none; border: none; cursor: pointer;
+  padding: 0; margin-left: 6px;
+}
 
 /* ===== detail overlay ===================================================== */
 /* The detail view scrolls the DOCUMENT — it is not an inner scroller.
