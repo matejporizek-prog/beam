@@ -14,7 +14,7 @@
    specifically to sit inside dark UIs like this one.
    ========================================================================== */
 
-import { esc } from './format.js?v=46';
+import { esc } from './format.js?v=47';
 
 let cinemasCache = null;
 let mapInstance = null;

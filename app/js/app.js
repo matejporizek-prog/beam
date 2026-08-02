@@ -8,14 +8,14 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=46';
-import { store } from './store.js?v=46';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=47';
+import { store } from './store.js?v=47';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount, renderDateJump,
-} from './screens.js?v=46';
-import { esc } from './format.js?v=46';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=46';
+} from './screens.js?v=47';
+import { esc } from './format.js?v=47';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=47';
 
 /* ---------- app state ---------- */
 
@@ -408,6 +408,24 @@ function wireEvents() {
   $('trailer-modal').onclick = event => {
     if (event.target === $('trailer-modal')) closeTrailer();
   };
+
+  /* FIX (impeccable critique, P2): the only way to dismiss any overlay by
+     keyboard used to be tabbing all the way to its visible close/back
+     control — no overlay responded to Escape, despite the app already
+     investing in real keyboard support elsewhere (a working, unsuppressed
+     :focus-visible ring). Same priority order as the popstate handler right
+     below, and the same no-argument close functions the visible buttons
+     already call (search-back, filter-scrim, trailer-close...), so this
+     behaves exactly like tapping "close" — including the history pop those
+     functions already do themselves — not like a second, separate path. */
+  document.addEventListener('keydown', event => {
+    if (event.key !== 'Escape') return;
+    if ($('trailer-modal').classList.contains('open')) return closeTrailer();
+    if ($('overlay').classList.contains('open')) return closeDetail();
+    if ($('search-ov').classList.contains('open')) return closeSearch();
+    if ($('filter-sheet').classList.contains('open')) return closeFilter();
+    if ($('date-sheet').classList.contains('open')) return closeDateJump();
+  });
 
   /* Back button / swipe-back closes whatever is open instead of leaving. */
   window.addEventListener('popstate', () => {
