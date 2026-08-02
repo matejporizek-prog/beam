@@ -929,7 +929,16 @@ html.search-open .beam { display: none; }
 .ov-title { font-family: 'Spectral', serif; font-weight: 600; font-size: 25px; line-height: 1.08; }
 .ov-en { font-family: 'Spectral', serif; font-style: italic; font-size: 14px; color: var(--text-2); margin-top: 3px; }
 .ov-sec { padding: 22px 20px 0; }
-.ov-sec h3 { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--text-3); margin-bottom: 10px; }
+/* FIX (impeccable critique, P2): these three section headings were <h3>
+   directly under the detail overlay's own <h1> (the film title) with no
+   <h2> anywhere in between — confirmed live, both simultaneously exposed
+   to assistive tech in the same open overlay (unlike the "Beam" brand h1,
+   which really is removed from the a11y tree behind display:none while
+   this overlay is open, not a genuine second h1 — that part of the same
+   finding was a detector false positive, verified before changing
+   anything here). <h2> closes the real gap; the tag change is purely
+   structural, the tiny-mono-label look stays exactly as it was. */
+.ov-sec h2 { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--text-3); margin-bottom: 10px; }
 .ov-day { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin: 14px 0 6px; }
 .ov-scard { background: var(--card); border: 1px solid var(--card-edge); border-radius: 13px; padding: 2px 15px; }
 .ov-srow { display: flex; align-items: center; gap: 12px; padding: 11px 0; border-bottom: 1px solid var(--line); }
