@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T17:33:17+02:00",
+  "generated_at": "2026-08-02T07:33:24+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -9905,6 +9905,31 @@
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0
+    },
+    {
+      "film_id": "tajemstvi sykorek",
+      "title_cz": "Tajemství sýkorek",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/03/16/c775893796a013bfa2f913e2f52510a7.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Tajemstv%C3%AD+s%C3%BDkorek",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Tajemství sýkorek'",
+      "match_score": 0.0
     },
     {
       "film_id": "tancuj matyldo",
