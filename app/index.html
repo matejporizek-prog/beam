@@ -27,7 +27,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
-<link rel="stylesheet" href="./css/beam.css?v=47">
+<link rel="stylesheet" href="./css/beam.css?v=48">
 </head>
 <body>
 <div class="app">
@@ -65,8 +65,8 @@
           <span class="filtr-count" id="filtr-count"></span>
         </button>
         <div class="segmented">
-          <button class="seg active" id="seg-film">dle filmu</button>
-          <button class="seg" id="seg-cinema">dle kina</button>
+          <button class="seg active" id="seg-film" aria-pressed="true">dle filmu</button>
+          <button class="seg" id="seg-cinema" aria-pressed="false">dle kina</button>
         </div>
       </div>
       <div class="list" id="prog-list">
@@ -104,7 +104,7 @@
       <div class="ov-back" id="ov-back"></div>
       <div class="ov-fade"></div>
       <button class="ov-close" id="ov-close" aria-label="Zpět">←</button>
-      <button class="ov-save" id="ov-save" aria-label="Uložit">♡</button>
+      <button class="ov-save" id="ov-save" aria-label="Uložit" aria-pressed="false">♡</button>
     </div>
     <div class="ov-head">
       <div class="ov-poster" id="ov-poster"></div>
@@ -263,6 +263,6 @@
 <!-- The ?v= query is a cache-busting version. Bump it (here and on the imports
      inside the js/ modules) when shipping changed JS so browsers fetch the new
      code instead of a cached copy. Milestone 5 can automate this at deploy. -->
-<script type="module" src="./js/app.js?v=47"></script>
+<script type="module" src="./js/app.js?v=48"></script>
 </body>
 </html>

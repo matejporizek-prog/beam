@@ -10,16 +10,16 @@ import {
   state, filmFor, filmById, titleOf, screeningsForFilm, nextScreening,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf, isMultiplex, multiplexChainOf,
-} from './data.js?v=47';
+} from './data.js?v=48';
 
 import {
   DOW, esc, fold, dateOf, shortDate, longDay, whenLabel, yearIfDifferent,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=47';
+} from './format.js?v=48';
 
-import { store } from './store.js?v=47';
-import { isPushSupported } from './push.js?v=47';
-import { initCinemaMap } from './map.js?v=47';
+import { store } from './store.js?v=48';
+import { isPushSupported } from './push.js?v=48';
+import { initCinemaMap } from './map.js?v=48';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
@@ -37,8 +37,15 @@ import { initCinemaMap } from './map.js?v=47';
    reachable in the accessibility tree regardless of the ancestor's role, and
    a full template/layout restructure across five call sites isn't worth it
    for a pattern this common and this low-risk in practice. */
+/* FIX (impeccable critique, P3): the ♡/♥ glyph swap and .on class change
+   were visual-only — aria-label stayed the static "Chci vidět" in both
+   states, so a screen-reader user activating this control had no way to
+   tell whether it was about to save or remove the film. aria-pressed plus
+   a label naming the actual next action (not just the feature's name) match
+   syncSaveButtons() below, which keeps both in sync on every later toggle. */
 function heartButton(id, title, saved) {
-  return `<button class="save-heart ${saved ? 'on' : ''}" data-save="${esc(id)}" data-title="${esc(title)}" aria-label="Chci vidět">${saved ? '♥' : '♡'}</button>`;
+  const label = saved ? 'Odebrat z Chci vidět' : 'Chci vidět';
+  return `<button class="save-heart ${saved ? 'on' : ''}" data-save="${esc(id)}" data-title="${esc(title)}" aria-label="${label}" aria-pressed="${saved}">${saved ? '♥' : '♡'}</button>`;
 }
 
 /* ---------- filtering ---------- */
@@ -140,6 +147,12 @@ export function renderDays(el, activeDay, filters, onPick) {
     const d = dateOf(date);
     const button = document.createElement('button');
     button.className = 'day' + (date === activeDay ? ' active' : '') + (date === today ? ' today' : '');
+    /* FIX (impeccable critique, P2): champagne marking the active day is,
+       by design, the app's only visual "this one" signal — which means it
+       was also its only signal, full stop, for anyone not reading it
+       visually. aria-current is the standard way a date-picker-like control
+       announces which value is currently selected. */
+    if (date === activeDay) button.setAttribute('aria-current', 'date');
     const count = state.screenings.filter(s => s.date === date && passesFilters(s, filters)).length;
     const year = yearIfDifferent(date);
     button.innerHTML =
@@ -158,6 +171,7 @@ export function renderDays(el, activeDay, filters, onPick) {
     // state anywhere, leaving no sign of where 'today's selection actually is.
     const activeBeyond = activeDay && !visible.includes(activeDay);
     more.className = 'day day-more' + (activeBeyond ? ' active' : '');
+    if (activeBeyond) more.setAttribute('aria-current', 'date');
     more.setAttribute('data-open-date-jump', '');
     more.setAttribute('aria-label', 'Vybrat další den');
     more.innerHTML = `<span class="dow">DALŠÍ</span><span class="dnum">+${beyond}</span>`;
@@ -879,6 +893,8 @@ export function fillDetail(filmId, filters) {
   const saved = store.watchlist().includes(filmId);
   saveBtn.classList.toggle('saved', saved);
   saveBtn.textContent = saved ? '♥' : '♡';
+  saveBtn.setAttribute('aria-label', saved ? 'Odebrat z Chci vidět' : 'Uložit');
+  saveBtn.setAttribute('aria-pressed', saved);
 
   /* this week's screenings, grouped by day, with real booking links */
   const byDay = new Map();

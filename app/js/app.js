@@ -8,14 +8,14 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=47';
-import { store } from './store.js?v=47';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=48';
+import { store } from './store.js?v=48';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount, renderDateJump,
-} from './screens.js?v=47';
-import { esc } from './format.js?v=47';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=47';
+} from './screens.js?v=48';
+import { esc } from './format.js?v=48';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=48';
 
 /* ---------- app state ---------- */
 
@@ -121,8 +121,14 @@ async function reconcileNotifyState() {
 
 function renderProg() {
   renderDays($('days'), activeDay, filters, day => { activeDay = day; renderProg(); });
+  /* FIX (impeccable critique, P2): which mode is active used to be a CSS
+     class only — invisible to a screen reader, which has no way to read a
+     class name off a plain <button>. aria-pressed is the standard signal
+     for a two-state toggle button like this pair. */
   $('seg-film').className = 'seg' + (progGroup === 'film' ? ' active' : '');
+  $('seg-film').setAttribute('aria-pressed', progGroup === 'film');
   $('seg-cinema').className = 'seg' + (progGroup === 'cinema' ? ' active' : '');
+  $('seg-cinema').setAttribute('aria-pressed', progGroup === 'cinema');
   renderProgram($('prog-list'), activeDay, progGroup, filters);
 }
 
@@ -775,14 +781,22 @@ async function toggleNotify() {
    overlay heart and any row hearts currently on screen. Without this, saving
    from the detail page would leave the Program row's heart stale until re-render. */
 function syncSaveButtons(id, on) {
+  /* FIX (impeccable critique, P3): matches heartButton()'s own labeling in
+     screens.js — every heart needs its aria-label/aria-pressed kept in sync
+     here too, not just at first render, since this is what runs on every
+     later toggle. */
   document.querySelectorAll(`.save-heart[data-save="${cssEscape(id)}"]`).forEach(button => {
     button.classList.toggle('on', on);
     button.textContent = on ? '♥' : '♡';
+    button.setAttribute('aria-label', on ? 'Odebrat z Chci vidět' : 'Chci vidět');
+    button.setAttribute('aria-pressed', on);
   });
   if (detailFilmId === id) {
     const overlayHeart = $('ov-save');
     overlayHeart.classList.toggle('saved', on);
     overlayHeart.textContent = on ? '♥' : '♡';
+    overlayHeart.setAttribute('aria-label', on ? 'Odebrat z Chci vidět' : 'Uložit');
+    overlayHeart.setAttribute('aria-pressed', on);
   }
 }
 
