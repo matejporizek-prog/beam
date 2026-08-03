@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T07:33:26+00:00",
+  "generated_at": "2026-08-03T08:27:01+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -599,6 +599,55 @@
       "release_date": "2026-08-27"
     },
     {
+      "film_id": "33 kroku",
+      "title_cz": "33 kroků",
+      "title_en": "33 Steps",
+      "original_title": "33 krokov",
+      "year": 2026,
+      "synopsis": "Třináct let poté, co Milan Daniel utrpěl těžká zranění hlavy v rámci rasisticky motivovaného útoku, má být jeho útočník propuštěn. Co takový okamžik vzbuzuje v traumatizovaném muži, který sice přežil vlastní smrt, ale již navždy si ponese následky onoho osudného dne?",
+      "synopsis_language": "cs",
+      "runtime_min": 71,
+      "genres": [
+        "Drama",
+        "Krimi"
+      ],
+      "director": [
+        "Šimon Domček",
+        "Anna Domček"
+      ],
+      "screenwriter": [
+        "Anna Domček",
+        "Šimon Domček",
+        "Matúš Ďuraňa",
+        "Rastislav Graňák"
+      ],
+      "cast": [
+        "Milan Daniel",
+        "Jana Poláková",
+        "Mili Daniel",
+        "Gabriel Daniel",
+        "Róbert Jakab",
+        "Eliška Křenková",
+        "Róbert Mikla"
+      ],
+      "production_company": [
+        "Escadra",
+        "Endorfilm",
+        "Istituto di Neorealismo di Modena"
+      ],
+      "poster_path": "/egglmBiwCQInjHvLfxIbU4dvYWp.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/jcfEnScSrZg4YkGlCi8x1gQid5X.jpg",
+      "trailer_youtube_key": "n1WKMcfTRJs",
+      "age_rating": "",
+      "tmdb_id": 1708922,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=33+krok%C5%AF+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-09-03"
+    },
+    {
       "film_id": "dokonaly den",
       "title_cz": "Dokonalý den",
       "title_en": "Dokonalý den",
@@ -733,6 +782,49 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "release_date": "2026-09-03"
+    },
+    {
+      "film_id": "divka v oblacich",
+      "title_cz": "Dívka v oblacích",
+      "title_en": "The Girl in the Clouds",
+      "original_title": "La Fille dans les nuages",
+      "year": 2026,
+      "synopsis": "Providence je desetiletá dívka, která žije v Paříži se svým strýcem Jasonem a morčetem Airbagem. Miluje knižní ságu Strážci Země. Její autor Octavius bydlí shodou okolností hned vedle – a Providence brzy zjistí, že jeho příběhy nejsou jen fikcí. Octavius totiž píše kouzelným perem, které dokáže proměnit fantazii ve skutečnost. Když se z knih nešťastnou náhodou osvobodí temná bytost Necato, původní tvůrce kouzelného pera, ocitá se v ohrožení svět fantazie i ten reálný. Spisovatle Octavius proto svěří pero Providence a vyšle ji na nebezpečnou cestu za tajemným bratrstvem, které ho může ochránit. Providence se svým mluvícím morčetem Aribagem prochází fantastickými světy a musí se rozhodnout, zda dá přednost vlastním snům, nebo zachrání skutečný svět.",
+      "synopsis_language": "cs",
+      "runtime_min": 88,
+      "genres": [
+        "Animovaný",
+        "Dobrodružný",
+        "Fantasy"
+      ],
+      "director": [
+        "Philippe Riche"
+      ],
+      "screenwriter": [
+        "Luc Bossi",
+        "Philippe Riche"
+      ],
+      "cast": [
+        "Louane",
+        "Jamel Debbouze",
+        "Grégoire Ludig"
+      ],
+      "production_company": [
+        "Brio Films",
+        "SCOPE Pictures",
+        "Panama Productions"
+      ],
+      "poster_path": "/nBb5O0qPHrI2rRqrCtHcxIy4qgI.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/jqiFaPLr3f6MLjHI7dPzEvJRwag.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1151265,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=D%C3%ADvka+v+oblac%C3%ADch+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-09-10"
     },
     {
       "film_id": "lecive ucinky sebeklamu",
@@ -2448,6 +2540,91 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "release_date": "2026-12-25"
+    },
+    {
+      "film_id": "cizinec",
+      "title_cz": "Cizinec",
+      "title_en": "The Stranger",
+      "original_title": "L'Étranger",
+      "year": 2025,
+      "synopsis": "Alžír 1938. Meursault, tichý, nenápadný zaměstnanec kolem třiceti let, se bez viditelných emocí účastní pohřbu své matky. Následující den začíná milostný poměr s Marií, svou bývalou kolegyní z práce, a vrací se ke svému obvyklému každodennímu životu. Ten je však brzy narušen jeho sousedem Raymondem, který Meursaulta vtáhne do pochybných machinací – až do osudového dramatu, k němuž dojde jednoho žhavého dne na pláži... Film, natočený černobílou kamerou podle literárního klasika Alberta Camuse, měl premiéru na Mezinárodním filmovém festivalu v Benátkách v roce 2025",
+      "synopsis_language": "cs",
+      "runtime_min": 120,
+      "genres": [
+        "Drama",
+        "Krimi"
+      ],
+      "director": [
+        "François Ozon"
+      ],
+      "screenwriter": [
+        "François Ozon"
+      ],
+      "cast": [
+        "Benjamin Voisin",
+        "Rebecca Marder",
+        "Pierre Lottin",
+        "Denis Lavant",
+        "Swann Arlaud",
+        "Christophe Malavoy",
+        "Nicolas Vaude",
+        "Jean-Charles Clichet"
+      ],
+      "production_company": [
+        "FOZ",
+        "France 2 Cinéma",
+        "Gaumont",
+        "SCOPE Pictures",
+        "Macassar Productions"
+      ],
+      "poster_path": "/7hpPl0WVyy3w9JfIfalDLkRBj3E.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/aTjFGxR7K32HPxrdvJOVeXX1UCe.jpg",
+      "trailer_youtube_key": "aYCze1vl2jU",
+      "age_rating": "",
+      "tmdb_id": 1429348,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Cizinec+2025",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-12-31"
+    },
+    {
+      "film_id": "lajna konecne film",
+      "title_cz": "Lajna - konečně film!",
+      "title_en": "Lajna - konečně film!",
+      "original_title": "Lajna - konečně film!",
+      "year": 2026,
+      "synopsis": "Filmové pokračování oblíbeného českého seriálu Lajna. V hlavních rolích se vrací Jiří Langmajer, Hana Vagnerová či Václav Neužil",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Komedie"
+      ],
+      "director": [
+        "Vladimír Skórka"
+      ],
+      "screenwriter": [
+        "Petr Kolečko"
+      ],
+      "cast": [
+        "Jiří Langmajer",
+        "Hana Vagnerová",
+        "Václav Neužil",
+        "Michal Suchánek"
+      ],
+      "production_company": [],
+      "poster_path": "/zpE1p2dut9d20aK3ti6gpJ1sa8K.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/tMS7pVnJMZK4LkIXl8kNrPbfzsP.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1664241,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Lajna+-+kone%C4%8Dn%C4%9B+film%21+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-12-31"
     }
   ]
 }
