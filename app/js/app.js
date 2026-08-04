@@ -8,14 +8,15 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=51';
-import { store } from './store.js?v=51';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=52';
+import { store } from './store.js?v=52';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount, renderDateJump,
-} from './screens.js?v=51';
-import { esc } from './format.js?v=51';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=51';
+} from './screens.js?v=52';
+import { esc } from './format.js?v=52';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=52';
+import { initSplash } from './splash.js?v=52';
 
 /* ---------- app state ---------- */
 
@@ -59,6 +60,12 @@ const NO_FX = (() => {
 /* ---------- boot ---------- */
 
 async function boot() {
+  /* Started before anything else so it's already animating while store.migrate()
+     and loadData() below are still running — the splash's own markup is static
+     in index.html, so it's actually been on screen since before this module
+     even finished loading. */
+  const splash = initSplash();
+
   store.migrate();
 
   /* We restore scroll ourselves when the detail view closes (see closeDetail).
@@ -82,11 +89,15 @@ async function boot() {
       `<div class="boot">Data se nepodařilo načíst.<br><br>
        <span style="color:var(--text-3)">${error.message}</span><br><br>
        Zkus stránku načíst znovu.</div>`;
+    // No brand moment to protect when what's showing next is a failure, not
+    // Program — skip the splash's minimum-display wait.
+    splash.hide({ immediate: true });
     return;
   }
 
   if (!state.dates.length) {
     $('prog-list').innerHTML = '<div class="boot">Zatím nemáme žádný program.</div>';
+    splash.hide({ immediate: true });
     return;
   }
 
@@ -102,6 +113,7 @@ async function boot() {
   renderProg();
   registerServiceWorker();
   reconcileNotifyState();
+  splash.hide();
 }
 
 /* store.notifyEnabled() is just the user's last known preference; the real

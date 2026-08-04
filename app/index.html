@@ -27,9 +27,29 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
-<link rel="stylesheet" href="./css/beam.css?v=51">
+<link rel="stylesheet" href="./css/beam.css?v=52">
 </head>
 <body>
+<!-- Boot splash: the projector lamp striking, before Program appears. Static
+     markup so it paints from the linked stylesheet alone, with no dependency
+     on the module script having run yet — see splash.js for the animation
+     that takes over once it has. Removed by splash.js once boot() in app.js
+     is done, or immediately on a load error/empty-data path. -->
+<div class="boot-splash" id="boot-splash">
+  <div class="boot-splash-inner">
+    <canvas class="boot-splash-canvas" id="boot-canvas"></canvas>
+    <div class="boot-splash-mark" id="boot-mark">
+      <svg viewBox="0 0 60 60" fill="none" aria-hidden="true">
+        <circle cx="17" cy="30" r="5" fill="var(--accent)"/>
+        <path d="M20 26 L50 15 L50 45 L20 34 Z" fill="var(--accent-dim)" opacity=".5"/>
+        <path d="M20 27.5 L50 18 L50 42 L20 32.5 Z" fill="var(--accent)" opacity=".92"/>
+      </svg>
+      <div class="boot-splash-word">Beam</div>
+    </div>
+    <div class="boot-splash-status" id="boot-status" role="status" aria-live="polite">Načítám program…</div>
+  </div>
+</div>
+
 <div class="app">
   <div class="beam">
     <div class="beam-haze"></div>
@@ -263,6 +283,6 @@
 <!-- The ?v= query is a cache-busting version. Bump it (here and on the imports
      inside the js/ modules) when shipping changed JS so browsers fetch the new
      code instead of a cached copy. Milestone 5 can automate this at deploy. -->
-<script type="module" src="./js/app.js?v=51"></script>
+<script type="module" src="./js/app.js?v=52"></script>
 </body>
 </html>
