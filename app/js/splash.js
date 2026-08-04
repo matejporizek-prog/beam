@@ -49,14 +49,30 @@ const EMERGE_IN = 0.34, EMERGE_OUT = 1.70;
 const MIN_DISPLAY_MS = 1750;
 const FADE_MS = 500;
 
-function raySprite(w, len, blur, warm) {
+/* Does this browser's 2D canvas actually apply a blur filter? Verbatim copy of
+   app.js's own check — older iOS Safari has no working
+   CanvasRenderingContext2D.filter, and without this a ray sprite comes out a
+   hard-edged rectangle: the flat "cartoon" look the ambient .beam hit before
+   this check existed there. */
+function canvasBlurWorks() {
+  try {
+    const ctx = document.createElement('canvas').getContext('2d');
+    if (typeof ctx.filter !== 'string') return false;
+    ctx.filter = 'blur(2px)';
+    return ctx.filter === 'blur(2px)';
+  } catch {
+    return false;
+  }
+}
+
+function raySprite(w, len, blur, warm, blurWorks) {
   const pad = Math.ceil(blur * 3) + 2;
   const sw = w + pad * 2, sh = len + pad * 2;
   const c = document.createElement('canvas');
   c.width = Math.ceil(sw * DPR); c.height = Math.ceil(sh * DPR);
   const x = c.getContext('2d');
   x.scale(DPR, DPR);
-  x.filter = 'blur(' + blur + 'px)';
+  if (blurWorks) x.filter = 'blur(' + blur + 'px)';
   const g = x.createLinearGradient(0, pad, 0, pad + len);
   /* Same two recipes as renderRaySprite() in app.js. */
   if (warm) {
@@ -71,11 +87,51 @@ function raySprite(w, len, blur, warm) {
   g.addColorStop(0.92, 'rgba(255,255,255,0)');
   x.fillStyle = g;
   x.fillRect(pad, pad, w, len);
+
+  /* Same fallback as renderRaySprite() in app.js: no live blur, so taper the
+     edges into the bitmap itself via an alpha mask instead. */
+  if (!blurWorks) {
+    x.globalCompositeOperation = 'destination-in';
+    const edge = x.createLinearGradient(pad, 0, pad + w, 0);
+    edge.addColorStop(0, 'rgba(0,0,0,0)');
+    edge.addColorStop(0.5, 'rgba(0,0,0,1)');
+    edge.addColorStop(1, 'rgba(0,0,0,0)');
+    x.fillStyle = edge;
+    x.fillRect(pad, pad, w, len);
+    x.globalCompositeOperation = 'source-over';
+  }
+
+  return { canvas: c, w: sw, h: sh, pad: pad };
+}
+
+/* A soft filled cone, baked once — the missing piece that made the ray fan
+   read as a set of separate drawn streaks instead of one hazy volume of
+   light with rays for texture. Same shape and role as .beam-haze/.beam-core
+   in beam.css (a border-triangle wedge, heavily blurred, very low flat
+   opacity), scaled to this fan's own width and length instead of ported at
+   fixed pixel values, since this beam is narrower and longer than the
+   ambient one it's borrowed from. */
+function wedgeSprite(halfW, len, blur, color, blurWorks) {
+  const pad = Math.ceil(blur * 3) + 2;
+  const sw = halfW * 2 + pad * 2, sh = len + pad * 2;
+  const c = document.createElement('canvas');
+  c.width = Math.ceil(sw * DPR); c.height = Math.ceil(sh * DPR);
+  const x = c.getContext('2d');
+  x.scale(DPR, DPR);
+  if (blurWorks) x.filter = 'blur(' + blur + 'px)';
+  x.fillStyle = color;
+  x.beginPath();
+  x.moveTo(pad + halfW, pad);
+  x.lineTo(pad, pad + len);
+  x.lineTo(pad + halfW * 2, pad + len);
+  x.closePath();
+  x.fill();
   return { canvas: c, w: sw, h: sh, pad: pad };
 }
 
 function buildFan(W) {
   const s0 = W / 430;   // same reference width the ambient beam authors its fan at
+  const blurWorks = canvasBlurWorks();
   let seed = 7;
   const rnd = () => (seed = (seed * 9301 + 49297) % 233280) / 233280;
   const N = 30, rays = [];
@@ -89,12 +145,22 @@ function buildFan(W) {
     // Much dimmer than the ambient beam's 0.30–0.85 peak — see the header note.
     const peak = 0.11 + 0.22 * rnd() * Math.max(centre, 0.3);
     rays.push({
-      sprite: raySprite(w, len, blur, warm),
+      sprite: raySprite(w, len, blur, warm, blurWorks),
       t, jit: (rnd() - 0.5) * 3, peak,
       period: 3.4 + rnd() * 3.8, phase: rnd() * TAU,
     });
   }
-  return rays;
+  const haze = wedgeSprite(150 * s0, 520 * s0 * LEN_SCALE, 30, 'rgba(176,204,238,0.04)', blurWorks);
+  const core = wedgeSprite(10 * s0, 460 * s0 * LEN_SCALE, 9, 'rgba(228,242,255,0.07)', blurWorks);
+  return { rays, haze, core };
+}
+
+/* .beam-haze/.beam-core breathe on their own slow 6s clock in beam.css,
+   independent of the rays' own fast shimmer — ported verbatim (same period,
+   same .82–1 range) rather than tied to the per-ray flicker used elsewhere in
+   this file, since it's the steady fill the rays flicker on top of. */
+function breathe(t) {
+  return 0.91 - 0.09 * Math.cos(t * (TAU / 6));
 }
 
 /* The app's own shimmer, verbatim in shape:
@@ -143,7 +209,7 @@ export function initSplash() {
   const status = document.getElementById('boot-status');
   const ctx = canvas.getContext('2d');
 
-  let W = 0, H = 0, rays = [];
+  let W = 0, H = 0, rays = [], haze = null, core = null;
   /* The light reaching the mark only ever occupies a narrow band — never near
      0 or 1, since averaging even a dozen independent clocks pulls hard toward
      the mean. Mapped raw against 0–1 the mark's coupling to it would be
@@ -158,7 +224,8 @@ export function initSplash() {
     canvas.width = Math.round(r.width * DPR);
     canvas.height = Math.round(r.height * DPR);
     ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
-    rays = buildFan(r.width);
+    const fan = buildFan(r.width);
+    rays = fan.rays; haze = fan.haze; core = fan.core;
     recomputeBand();
   }
 
@@ -179,6 +246,21 @@ export function initSplash() {
     ctx.clearRect(0, 0, W, H);
     ctx.save();
     ctx.globalCompositeOperation = 'lighter';
+
+    /* Fill first, texture on top — same order beam.css stacks its layers in
+       (haze, then core, then the rays). Without this the rays were the whole
+       picture: a set of individually-soft but separate streaks, which is
+       what read as drawn/illustrated rather than one hazy volume of light. */
+    const fill = lamp * breathe(t);
+    if (haze) {
+      ctx.globalAlpha = fill;
+      ctx.drawImage(haze.canvas, ox - haze.w / 2, oy - haze.pad, haze.w, haze.h);
+    }
+    if (core) {
+      ctx.globalAlpha = fill;
+      ctx.drawImage(core.canvas, ox - core.w / 2, oy - core.pad, core.w, core.h);
+    }
+
     for (const r of rays) {
       const a = r.peak * lamp * shimmerOf(r, t) * GAIN;
       if (a <= 0.0012) continue;
@@ -194,7 +276,10 @@ export function initSplash() {
 
     const onMark = lightOnMark(rays, t);
     const norm = clamp01((onMark - LO) / (HI - LO));
-    drawLamp(ctx, ox, oy, W * 0.20, lamp * (0.30 + 0.70 * norm) * Math.min(1.4, GAIN));
+    // Radius matched to .beam's own mobile aperture glow (150px at its 430px
+    // reference width) — the previous 0.20 read as a small, drawn-looking dot
+    // rather than a soft source the haze/core fill visibly comes from.
+    drawLamp(ctx, ox, oy, W * 0.35, lamp * (0.30 + 0.70 * norm) * Math.min(1.4, GAIN));
 
     /* Two jobs, kept separate: `gate` decides whether the mark has arrived yet
        (a threshold starting above anything the shimmer can reach, falling
@@ -206,8 +291,8 @@ export function initSplash() {
     const emerge = smooth(EMERGE_IN, EMERGE_OUT, t);
     const thr = 1.02 - 1.30 * emerge;
     const gate = clamp01((norm - thr) / 0.26);
-    const breathe = 0.55 + 0.45 * norm;
-    const shimmerVis = gate * breathe;
+    const markGlow = 0.55 + 0.45 * norm;
+    const shimmerVis = gate * markGlow;
     const steadyVis = emerge;
     const vis = (1 - FOLLOW) * steadyVis + FOLLOW * shimmerVis;
 
