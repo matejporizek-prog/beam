@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T08:26:57+00:00",
+  "generated_at": "2026-08-04T07:37:05+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -629,6 +629,48 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15
+    },
+    {
+      "film_id": "americky sen",
+      "title_cz": "Americký sen",
+      "title_en": "Sueno",
+      "original_title": "Sueño",
+      "year": 2005,
+      "synopsis": "Antonio (John Leguizamo - Moulin Rouge) má celý život jediný sen chce se stát slavným muzikantem. A tak jednoho dne utíká z prašného mexického příhraničního města a naskakuje do autobusu směr Los Angeles. Tady se mu převrací život naruby ve chvíli, kdy propadá kouzlu krásné a ctižádostivé doktorky Niny (Ana Claudia Talancón - Zločin pátera Amara). Jeho láska k Nině je stále větší, stejně jako obdiv k sousedce Mirabelle (Elizabeth Peña), rozvedené matce dvou dětí a nadané bývalé zpěvačce. Po dlouhém naléhání Antonio Mirabellu přemlouvá, aby se stala členkou jeho kapely a zapojila se do přípravy na soutěž talentů, která jim všem může navždy změnit život. Užijte si kouzelný příběh o nekonečné síle lásky, naděje a snů.",
+      "synopsis_language": "cs",
+      "runtime_min": 104,
+      "genres": [
+        "Drama",
+        "Komedie",
+        "Romantický"
+      ],
+      "director": [
+        "Renée Chabria"
+      ],
+      "screenwriter": [
+        "Renée Chabria"
+      ],
+      "cast": [
+        "John Leguizamo",
+        "Ana Claudia Talancón",
+        "Elizabeth Peña",
+        "Nestor Serrano",
+        "José María Yázpik",
+        "Jsu Garcia",
+        "Rafael Simón",
+        "Rick Simone"
+      ],
+      "production_company": [],
+      "poster_path": "/huJxYV08PB3uxrBNbhE2e5msT4f.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/3607S3X1.jpg",
+      "backdrop_path": "/kOZWjotmignexEk0JGuehKzE7gI.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "PG-13 (US)",
+      "tmdb_id": 127711,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Americk%C3%BD+sen+2005",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
     },
     {
       "film_id": "amoosed losi odysea",
@@ -2480,6 +2522,31 @@
       "match_score": 0.0
     },
     {
+      "film_id": "detska nedele tlapkova patrola dinosauri film",
+      "title_cz": "Dětská neděle - Tlapková patrola: Dinosauří film",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7760D2SS2.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=D%C4%9Btsk%C3%A1+ned%C4%9Ble+-+Tlapkov%C3%A1+patrola%3A+Dinosau%C5%99%C3%AD+film",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Dětská neděle - Tlapková patrola: Dinosauří film'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "die my love",
       "title_cz": "Die My Love",
       "title_en": "Die My Love",
@@ -3334,6 +3401,51 @@
       "age_rating": "18+",
       "tmdb_id": 16869,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Hanebn%C3%BD+pancharti+2009",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "harry potter a kamen mudrcu",
+      "title_cz": "Harry Potter a Kámen mudrců",
+      "title_en": "Harry Potter and the Philosopher's Stone",
+      "original_title": "Harry Potter and the Philosopher's Stone",
+      "year": 2001,
+      "synopsis": "Harry Potter se v den svých jedenáctých narozenin dozvídá, že je osiřelým synem dvou velkých kouzelníků a sám má magické schopnosti. Na Škole čar a kouzel v Bradavicích se Harry mimo jiné naučí hrát famfrpál na létajícím koštěti a sehraje vzrušující šachovou partii s živými figurami, aby se mohl postavit Tomu, jehož jméno se nesmí vyslovit, který je odhodlán ho zahubit.",
+      "synopsis_language": "cs",
+      "runtime_min": 152,
+      "genres": [
+        "Dobrodružný",
+        "Fantasy"
+      ],
+      "director": [
+        "Chris Columbus"
+      ],
+      "screenwriter": [
+        "Steve Kloves"
+      ],
+      "cast": [
+        "Daniel Radcliffe",
+        "Rupert Grint",
+        "Emma Watson",
+        "Richard Harris",
+        "Tom Felton",
+        "Alan Rickman",
+        "Robbie Coltrane",
+        "Maggie Smith"
+      ],
+      "production_company": [
+        "Warner Bros. Pictures",
+        "Heyday Films",
+        "1492 Pictures"
+      ],
+      "poster_path": "/2EpqAuG2ES1GCSx6Ggbi9RL5c53.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/1XAC6RPT01UX9EQGy2JVn5c8pgy.jpg",
+      "trailer_youtube_key": "l91Km49W9qI",
+      "age_rating": "U",
+      "tmdb_id": 671,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Harry+Potter+a+K%C3%A1men+mudrc%C5%AF+2001",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0
@@ -5114,6 +5226,54 @@
       "match_score": 1.115
     },
     {
+      "film_id": "matrix",
+      "title_cz": "Matrix",
+      "title_en": "The Matrix",
+      "original_title": "The Matrix",
+      "year": 1999,
+      "synopsis": "Představte si, že vaše realita je jen iluzí a vaše nejtemnější noční můry jsou ve skutečnosti pravdivé. Představte si, že vaše současnost je vlastně minulostí a to budoucí se děje právě teď. Když si to dokážete představit, potom se budete cítit jako hrdina snímku Matrix, Thomas Anderson. A věřte, že to nebude příjemný pocit.",
+      "synopsis_language": "cs",
+      "runtime_min": 136,
+      "genres": [
+        "Akční",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Lana Wachowski",
+        "Lilly Wachowski"
+      ],
+      "screenwriter": [
+        "Lana Wachowski",
+        "Lilly Wachowski"
+      ],
+      "cast": [
+        "Keanu Reeves",
+        "Laurence Fishburne",
+        "Carrie-Anne Moss",
+        "Hugo Weaving",
+        "Gloria Foster",
+        "Joe Pantoliano",
+        "Marcus Chong",
+        "Julian Arahanga"
+      ],
+      "production_company": [
+        "Village Roadshow Pictures",
+        "Groucho II Film Partnership",
+        "Silver Pictures",
+        "Warner Bros. Pictures"
+      ],
+      "poster_path": "/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2023/04/10/53bdf9f3abc6cc097314fea929b174b1.jpg",
+      "backdrop_path": "/tlm8UkiQsitc8rSuIAscQDCnP8d.jpg",
+      "trailer_youtube_key": "FVI84Dfx2-I",
+      "age_rating": "12+",
+      "tmdb_id": 603,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Matrix+1999",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
       "film_id": "me 20 stoleti",
       "title_cz": "Mé 20. století",
       "title_en": "My Twentieth Century",
@@ -6260,6 +6420,31 @@
       "match_score": 1.0
     },
     {
+      "film_id": "nt live hrdina zapadu",
+      "title_cz": "NT Live: Hrdina západu",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=NT+Live%3A+Hrdina+z%C3%A1padu",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'NT Live: Hrdina západu'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "nt live nebezpecne znamosti",
       "title_cz": "NT Live: Nebezpečné známosti",
       "title_en": "",
@@ -6282,6 +6467,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=NT+Live%3A+Nebezpe%C4%8Dn%C3%A9+zn%C3%A1mosti",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'NT Live: Nebezpečné známosti'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "nt live paty krok",
+      "title_cz": "NT Live: Pátý krok",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=NT+Live%3A+P%C3%A1t%C3%BD+krok",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'NT Live: Pátý krok'",
       "match_score": 0.0
     },
     {
@@ -7850,6 +8060,31 @@
       "match_score": 1.0
     },
     {
+      "film_id": "protagonista patrizia schlosser deepfake stud a hnev",
+      "title_cz": "Protagonista: Patrizia Schlosser - Deepfake, stud a hněv",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/07/28/a07a9f9810ac9a2b14f1ca46a9b48017.png",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Protagonista%3A+Patrizia+Schlosser+-+Deepfake%2C+stud+a+hn%C4%9Bv",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Protagonista: Patrizia Schlosser - Deepfake, stud a hněv'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "psycho",
       "title_cz": "Psycho",
       "title_en": "Psycho",
@@ -9274,6 +9509,31 @@
       "match_score": 1.0
     },
     {
+      "film_id": "spider man zbrusu novy den ukr",
+      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8085S2R1.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Spider-Man%3A+Zbrusu+nov%C3%BD+den+UKR",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Spider-Man: Zbrusu nový den UKR'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "spoutej me",
       "title_cz": "Spoutej mě!",
       "title_en": "Tie Me Up! Tie Me Down!",
@@ -10022,6 +10282,54 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=T%C3%A1r+2022",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0
+    },
+    {
+      "film_id": "terminator 2 den zuctovani",
+      "title_cz": "Terminátor 2: Den zúčtování",
+      "title_en": "Terminator 2: Judgment Day",
+      "original_title": "Terminator 2: Judgment Day",
+      "year": 1991,
+      "synopsis": "Deset let po neúspěšném pokusu zabít Sarah Connorovou, matku budoucího vůdce lidstva ve válce proti strojům, se do Los Angeles vrací z budoucnosti nový Terminátor, typ T-1000, aby zlikvidoval už narozeného Johna Connora. Dospělý Connor v roce 2029 na svoji ochranu posílá do minulosti druhého terminátora T-800. Oba stroje nezávisle na sobě pátrají po malém Johnovi. Chlapec zjišťuje, že T-800 je naprogramován na jeho ochranu a s jeho pomocí osvobodí svou matku z psychiatrického ústavu, kde je léčena z údajné schizofrenie. T-800 oběma vysvětluje, co přinese budoucnost. Tu je však možné změnit...a při tom všem hrdiny stíhá nemilosrdný a zřejmě nezničitelný T-1000.",
+      "synopsis_language": "cs",
+      "runtime_min": 137,
+      "genres": [
+        "Akční",
+        "Thriller",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "James Cameron"
+      ],
+      "screenwriter": [
+        "William Wisher",
+        "James Cameron"
+      ],
+      "cast": [
+        "Arnold Schwarzenegger",
+        "Linda Hamilton",
+        "Edward Furlong",
+        "Robert Patrick",
+        "Earl Boen",
+        "Joe Morton",
+        "S. Epatha Merkerson",
+        "Castulo Guerra"
+      ],
+      "production_company": [
+        "Carolco Pictures",
+        "Pacific Western",
+        "Lightstorm Entertainment",
+        "Le Studio Canal+"
+      ],
+      "poster_path": "/k6hLkz7721IluWLO9wFaJo5EK2D.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/izkMjmhauFx9DjoBQqM5sM5WAwE.jpg",
+      "trailer_youtube_key": "BuBD2s2NmEM",
+      "age_rating": "R (US)",
+      "tmdb_id": 280,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Termin%C3%A1tor+2%3A+Den+z%C3%BA%C4%8Dtov%C3%A1n%C3%AD+1991",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0
     },
     {
