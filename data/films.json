@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T19:03:57+02:00",
+  "generated_at": "2026-08-05T22:29:08+02:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -73,7 +73,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=12+opic+1995",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:32+02:00"
     },
     {
       "film_id": "120 bpm",
@@ -120,7 +121,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=120+BPM+2017",
       "resolved": true,
       "match_reason": "manual override",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:33+02:00"
     },
     {
       "film_id": "2000 metru do andrijivky",
@@ -243,7 +245,7 @@
     {
       "film_id": "6 gramu",
       "title_cz": "6 gramů",
-      "title_en": "6 gramů",
+      "title_en": "6 grams",
       "original_title": "6 gramů",
       "year": 2026,
       "synopsis": "Na lyžařském výcviku je u studentů na pokoji nalezen pytlík s bílým práškem. Čtyři otcové: divadelní herec, finanční poradce, realitní makléř s politickými ambicemi a městský policista tak zažijí odpoledne, které se rychle vymkne kontrole. Ředitelka školy si je předvolá, aby zjistila, kdo za to může.",
@@ -268,9 +270,11 @@
         "Petr Uhlík",
         "Erika Stárková"
       ],
-      "production_company": [],
-      "poster_path": "/xNMDEgXPeCnvdE9m49X5RNFMvnB.jpg",
-      "poster_fallback_url": "",
+      "production_company": [
+        "Bio Illusion"
+      ],
+      "poster_path": "/azyjg4EEDhIENdTvCw1KVKPl6Cj.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/0222S2I1.jpg",
       "backdrop_path": "/igMQSUE0EIsQQXUEsaFTX1wupAO.jpg",
       "trailer_youtube_key": "bUrpCmnPuG8",
       "age_rating": "",
@@ -278,7 +282,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=6+gram%C5%AF+2026",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:33+02:00"
     },
     {
       "film_id": "80 rozlicenych novinaru",
@@ -348,7 +353,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Adamova+jablka+2005",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:27:34+02:00"
     },
     {
       "film_id": "addamsova rodina 2",
@@ -367,14 +373,14 @@
         "Dobrodružný"
       ],
       "director": [
-        "Conrad Vernon",
-        "Greg Tiernan"
+        "Greg Tiernan",
+        "Conrad Vernon"
       ],
       "screenwriter": [
-        "Susanna Fogel",
-        "Benji Samit",
         "Ben Queen",
-        "Dan Hernandez"
+        "Susanna Fogel",
+        "Dan Hernandez",
+        "Benji Samit"
       ],
       "cast": [
         "Oscar Isaac",
@@ -402,7 +408,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Addamsova+rodina+2+2021",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:34+02:00"
     },
     {
       "film_id": "aero naslepo",
@@ -474,7 +481,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Aftersun+2022",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:35+02:00"
     },
     {
       "film_id": "aladin 1992",
@@ -628,7 +636,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Amazonie+2013",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:27:35+02:00"
     },
     {
       "film_id": "americky sen",
@@ -670,7 +679,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Americk%C3%BD+sen+2005",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:36+02:00"
     },
     {
       "film_id": "amoosed losi odysea",
@@ -699,7 +709,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=AMOOSED%3A+los%C3%AD+odysea+2026",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:37+02:00"
     },
     {
       "film_id": "anatomie padu",
@@ -747,7 +758,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Anatomie+p%C3%A1du+2023",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:37+02:00"
     },
     {
       "film_id": "andelske vejce",
@@ -780,7 +792,7 @@
         "Studio Deen"
       ],
       "poster_path": "/dqi68LqT8z4lduMg0xR2TZHkRId.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2025/09/12/6edd1134ddcf0fcae600d3dfb1dfc92e.jpg",
+      "poster_fallback_url": "",
       "backdrop_path": "/nZn384qWYugXu6U1N8Ya0Iv0NXE.jpg",
       "trailer_youtube_key": "SqyVGzaQFpQ",
       "age_rating": "NR (US)",
@@ -788,7 +800,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=And%C4%9Blsk%C3%A9+vejce+1985",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:27:38+02:00"
     },
     {
       "film_id": "architekt",
@@ -834,7 +847,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Architekt+2025",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:38+02:00"
     },
     {
       "film_id": "architektura cssr 58 89",
@@ -871,7 +885,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Architektura+%C4%8CSSR+58%E2%80%9389+2024",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:39+02:00"
     },
     {
       "film_id": "arco",
@@ -892,8 +907,8 @@
         "Ugo Bienvenu"
       ],
       "screenwriter": [
-        "Ugo Bienvenu",
-        "Félix de Givry"
+        "Félix de Givry",
+        "Ugo Bienvenu"
       ],
       "cast": [
         "Margot Ringard Oldra",
@@ -913,7 +928,7 @@
         "Sons of Rigor Films"
       ],
       "poster_path": "/rWvbMnqLTpyTHmNii4TrnmgzpcS.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2025/12/15/0a3638fbc4cfb6cee9862b81aaa57497.jpg",
+      "poster_fallback_url": "",
       "backdrop_path": "/reQELo8rDiLIOoYIA7M6q7KGRW0.jpg",
       "trailer_youtube_key": "j7Tpaj-Iet8",
       "age_rating": "U",
@@ -921,7 +936,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Arco+2025",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.11, title 1.00)",
-      "match_score": 1.115
+      "match_score": 1.115,
+      "resolved_at": "2026-08-05T22:27:40+02:00"
     },
     {
       "film_id": "arrietty ze sveta pujcovnicku",
@@ -1038,15 +1054,16 @@
         "The North Road Company"
       ],
       "poster_path": "/htY2mz7fcj5qZRTvkxMFCo45yQk.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/2aA8iPlMCks3k131ymFBAY6FL0b.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8114S2R.jpg",
+      "backdrop_path": "/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg",
       "trailer_youtube_key": "0HjdiohVOik",
       "age_rating": "15+",
       "tmdb_id": 1083381,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Backrooms+2026",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:40+02:00"
     },
     {
       "film_id": "bara basikova cinema tour",
@@ -1106,7 +1123,7 @@
         "Bontonfilm"
       ],
       "poster_path": "",
-      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/07/09/0c6a3ce110fa1d78bf5aeff652f0a667.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/3677D3R3.jpg",
       "backdrop_path": "",
       "trailer_youtube_key": "",
       "age_rating": "12+",
@@ -1114,7 +1131,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Bardotky+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.10, title 1.00)",
-      "match_score": 1.1
+      "match_score": 1.1,
+      "resolved_at": "2026-08-05T22:27:41+02:00"
     },
     {
       "film_id": "bee team na stope",
@@ -1152,7 +1170,7 @@
         "Amazon MGM Studios"
       ],
       "poster_path": "/xVp94erqT2xq7KlNDv1LjXjfPvn.jpg",
-      "poster_fallback_url": "",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7956S2R.jpg",
       "backdrop_path": "/a8uQvrplTkhGJQog6GZ6CqF8An6.jpg",
       "trailer_youtube_key": "826SRt1CFbg",
       "age_rating": "PG (US)",
@@ -1160,7 +1178,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=B%C3%A9%C3%A9+team+na+stop%C4%9B+2026",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:41+02:00"
     },
     {
       "film_id": "bezesne noci",
@@ -1204,7 +1223,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Bezesn%C3%A9+noci+2017",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:42+02:00"
     },
     {
       "film_id": "big lebowski",
@@ -1250,7 +1270,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Big+Lebowski+1998",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:42+02:00"
     },
     {
       "film_id": "billie eilish hit me hard and soft the tour",
@@ -1333,7 +1354,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Birthday+Party",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:43+02:00"
     },
     {
       "film_id": "bitva o alzir",
@@ -1379,7 +1401,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Bitva+o+Al%C5%BE%C3%ADr+1966",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:27:44+02:00"
     },
     {
       "film_id": "blaznive",
@@ -1412,7 +1435,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Bl%C3%A1zniv%C4%9B+2025",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:44+02:00"
     },
     {
       "film_id": "blaznivy marsupilami",
@@ -1591,7 +1615,7 @@
         "Riche Productions"
       ],
       "poster_path": "/oD3C1KADbYqzQ2fvfuMq4k5pKk5.jpg",
-      "poster_fallback_url": "",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7842D3X1.jpg",
       "backdrop_path": "/zT9iYKMtmU82Jo44WbiuMOW7jRi.jpg",
       "trailer_youtube_key": "Jq_aSHxM80w",
       "age_rating": "R (US)",
@@ -1599,7 +1623,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Bojovn%C3%ADk+2015",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:45+02:00"
     },
     {
       "film_id": "bourlive vysiny",
@@ -1787,7 +1812,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=ChaO+2019",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:45+02:00"
     },
     {
       "film_id": "chica checa",
@@ -1795,8 +1821,8 @@
       "title_en": "Czech Girl",
       "original_title": "Chica Checa",
       "year": 2026,
-      "synopsis": "Widowed Zdena lives a quiet life as a postwoman in a small Czech village. When her beloved son Lukas returns home from France to say goodbye to his dying grandmother, his determination to make her seemingly impossible wish come true leads him to reveal a secret that challenges the values of the village: his queer life in Paris and his drag queen alter ego, Chica Checa.",
-      "synopsis_language": "en",
+      "synopsis": "Pětapadesátiletá Zdena na první pohled vede obyčejný život venkovské pošťačky. Jednoduché to ale nemá. Dům se rozpadá a samotu jí pomáhají zahánět okurky a televize. Její syn Lukáš žije ve Francii – úspěšný, šťastný, vzdálený – aspoň tak to působí na obrazovce starého počítače, přes který jsou občas v kontaktu. Když Lukášova babička Věra (Věra Janků) vysloví své poslední přání – vidět Helenu Vondráčkovou – zdá se to jako rozmar umírající ženy. Jenže s příjezdem Lukáše domů přijede i tajemství, které roky pečlivě chránil. Jeho návštěva spustí lavinu: ukáže se, že je gay a živí se jako úspěšná drag queen Chica Checa. A také že Zdena touží po jiném životě, než okolí očekává. Snaha udělat devadesátileté babičce radost spojí Lukáše a Zdenu dohromady a možná trochu překvapí i je samotné. Protože když přestanete lhát svým nejbližším, musíte přestat lhát i sami sobě…",
+      "synopsis_language": "cs",
       "runtime_min": 96,
       "genres": [
         "Komedie",
@@ -1824,16 +1850,17 @@
         "Arinafilm",
         "The French Connection"
       ],
-      "poster_path": "/qc1SF2xuOK7UPN7qVpCdv69v6si.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/06/23/a83d66ae30063875fddc9e360b4fce61.jpg",
-      "backdrop_path": "/aqmby2szGSgL6kYJMlP5oftaCyd.jpg",
+      "poster_path": "/77xmXH1OBm1a2CHPHv9tcsnEncp.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/06/23/a83d66ae30063875fddc9e360b4fce61.jpg",
+      "backdrop_path": "/aPvH6m2C9e9nJQv6CS2lDY5jOgF.jpg",
       "trailer_youtube_key": "XUKn2SK7UI0",
       "age_rating": "12+",
       "tmdb_id": 1339767,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Chica+Checa+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:27:46+02:00"
     },
     {
       "film_id": "chlast",
@@ -1881,7 +1908,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Chlast+2020",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:47+02:00"
     },
     {
       "film_id": "chungking express",
@@ -1984,7 +2012,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Cirque+du+Soleil%3A+KOOZA+2008",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:47+02:00"
     },
     {
       "film_id": "citova hodnota",
@@ -1996,14 +2025,15 @@
       "synopsis_language": "cs",
       "runtime_min": 135,
       "genres": [
-        "Drama"
+        "Drama",
+        "Komedie"
       ],
       "director": [
         "Joachim Trier"
       ],
       "screenwriter": [
-        "Eskil Vogt",
-        "Joachim Trier"
+        "Joachim Trier",
+        "Eskil Vogt"
       ],
       "cast": [
         "Renate Reinsve",
@@ -2042,7 +2072,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Citov%C3%A1+hodnota+2025",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:48+02:00"
     },
     {
       "film_id": "co je ti holka",
@@ -2139,7 +2170,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Co+n%C3%A1m+zbylo+z+l%C3%A1sky+2025",
       "resolved": true,
       "match_reason": "manual override",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:48+02:00"
     },
     {
       "film_id": "cosi fan tutte opera",
@@ -2175,7 +2207,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Cosi+fan+tutte+%28Opera%29+2018",
       "resolved": true,
       "match_reason": "verified against director/runtime (0.77, title 0.77)",
-      "match_score": 0.769
+      "match_score": 0.769,
+      "resolved_at": "2026-08-05T22:27:49+02:00"
     },
     {
       "film_id": "ctverec",
@@ -2227,7 +2260,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=%C4%8Ctverec+2017",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:49+02:00"
     },
     {
       "film_id": "ctyri matky",
@@ -2273,7 +2307,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=%C4%8Cty%C5%99i+matky+2025",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:50+02:00"
     },
     {
       "film_id": "ctyri sestry",
@@ -2321,7 +2356,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=%C4%8Cty%C5%99i+sestry+2023",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:51+02:00"
     },
     {
       "film_id": "dabel nosi pradu 2",
@@ -2369,7 +2405,7 @@
     },
     {
       "film_id": "dalajlama ocean moudrosti",
-      "title_cz": "Dalajláma - Oceán moudrosti",
+      "title_cz": "Dalajlama - Oceán moudrosti",
       "title_en": "Dalai Lama - Ocean of Wisdom",
       "original_title": "Dalajlama - Oceán moudrosti",
       "year": 2026,
@@ -2392,15 +2428,16 @@
         "Sound4Film"
       ],
       "poster_path": "/6pnidXK0xg4StAlMw35GF194jVz.jpg",
-      "poster_fallback_url": "",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/0164S2SS2.jpg",
       "backdrop_path": "/knQ52g71vfJTBLEvCx4oEYzEe2c.jpg",
       "trailer_youtube_key": "P2i-JwCQ2ww",
       "age_rating": "",
       "tmdb_id": 1729173,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Dalajl%C3%A1ma+-+Oce%C3%A1n+moudrosti+2026",
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Dalajlama+-+Oce%C3%A1n+moudrosti+2026",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:51+02:00"
     },
     {
       "film_id": "dealer",
@@ -2420,8 +2457,8 @@
         "Nicolas Winding Refn"
       ],
       "screenwriter": [
-        "Nicolas Winding Refn",
-        "Jens Dahl"
+        "Jens Dahl",
+        "Nicolas Winding Refn"
       ],
       "cast": [
         "Kim Bodnia",
@@ -2445,7 +2482,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Dealer+1996",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.11, title 1.00)",
-      "match_score": 1.115
+      "match_score": 1.115,
+      "resolved_at": "2026-08-05T22:27:52+02:00"
     },
     {
       "film_id": "dealer 2",
@@ -2489,7 +2527,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Dealer+2+2004",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:27:52+02:00"
     },
     {
       "film_id": "dealer 3",
@@ -2537,7 +2576,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Dealer+3+2005",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.10, title 1.00)",
-      "match_score": 1.1
+      "match_score": 1.1,
+      "resolved_at": "2026-08-05T22:27:53+02:00"
     },
     {
       "film_id": "den odhaleni",
@@ -2574,7 +2614,7 @@
         "Amblin Entertainment"
       ],
       "poster_path": "/wVvRf7Yk1n27o2dsrwswdHWXqzV.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/04/24/f7b99ab08a2554ea5e2704691a571cd3.jpg",
+      "poster_fallback_url": "",
       "backdrop_path": "/flxau5Iu7bChQHsESqvGZ3FQRaI.jpg",
       "trailer_youtube_key": "NzIiDnKDfdM",
       "age_rating": "12+",
@@ -2582,7 +2622,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Den+odhalen%C3%AD+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:27:54+02:00"
     },
     {
       "film_id": "denik princezny",
@@ -2793,7 +2834,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Divok%C3%A1+banda+1969",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:54+02:00"
     },
     {
       "film_id": "dobre rano vietname",
@@ -2838,7 +2880,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Dobr%C3%A9+r%C3%A1no%2C+Vietname+1987",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:55+02:00"
     },
     {
       "film_id": "dobry will hunting",
@@ -2901,8 +2944,8 @@
         "Wim Wenders"
       ],
       "screenwriter": [
-        "Takuma Takasaki",
-        "Wim Wenders"
+        "Wim Wenders",
+        "Takuma Takasaki"
       ],
       "cast": [
         "Koji Yakusho",
@@ -2927,7 +2970,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Dokonal%C3%A9+dny+2023",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:55+02:00"
     },
     {
       "film_id": "double feature ildiko enyedi",
@@ -2957,12 +3001,12 @@
     {
       "film_id": "dovolena v ceskem raji",
       "title_cz": "Dovolená v Českém ráji",
-      "title_en": "Dovolená v Českém ráji",
+      "title_en": "Bohemian Paradise",
       "original_title": "Dovolená v Českém ráji",
       "year": 2026,
       "synopsis": "Manželství Milana a Týny Svobodových se v posledních měsících proměnilo v sérii malých i větších nedorozumění, ve kterých se dokážou pohádat už téměř o cokoliv. Dovolená se tak jeví jako správná volba k záchraně vztahu. Jenže co když si ji každý představuje jinak? Milan má slabost pro českou přírodu a je nadšený z představy spaní pod širákem, zatímco Týna by se nejraději viděla u moře. Kemp v Českém ráji vnímá spíše jako kompromis. Už od příjezdu se i zdánlivě obyčejné věci mění v komické katastrofy, které postupně narůstají. Místo odpočinku se mezi nimi dusno jen stupňuje. Po neočekávané příhodě na hradě Trosky se rozhodnou zkusit něco úplně jiného – být chvíli od sebe. Možná tak konečně zjistí, co je v životě opravdu důležité….",
       "synopsis_language": "cs",
-      "runtime_min": null,
+      "runtime_min": 90,
       "genres": [
         "Komedie",
         "Rodinný"
@@ -2970,7 +3014,9 @@
       "director": [
         "Adam Rybanský"
       ],
-      "screenwriter": [],
+      "screenwriter": [
+        "Adam Rybanský"
+      ],
       "cast": [
         "Tomáš Jeřábek",
         "Magdaléna Borová",
@@ -2982,18 +3028,20 @@
         "Simona Peková"
       ],
       "production_company": [
-        "Bratři"
+        "Bratři",
+        "Česká televize"
       ],
       "poster_path": "/9fCmXAp4IIwLT3dZoG7vicNeK3e.jpg",
-      "poster_fallback_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/07/01/7d53defb2d3dfee374c5463c78c886b1.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/0697D2SX1.jpg",
+      "backdrop_path": "/gP8cUwTKdy8Eyal4qEfRdaI0UEG.jpg",
+      "trailer_youtube_key": "Jd0lYI7nmks",
       "age_rating": "",
       "tmdb_id": 1661097,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Dovolen%C3%A1+v+%C4%8Cesk%C3%A9m+r%C3%A1ji+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:56+02:00"
     },
     {
       "film_id": "drama",
@@ -3032,14 +3080,15 @@
       ],
       "poster_path": "/pjztX7PQZMh0CxsSKaptAWfAY5n.jpg",
       "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/02/25/ec4f669accee7800f4c217ba7a40e42c.jpg",
-      "backdrop_path": "/gQxnJoswBzsENExzygVnFiemvK7.jpg",
+      "backdrop_path": "/1oKLEA9JOhvaBwLpqjROisvWMy7.jpg",
       "trailer_youtube_key": "0ZDzsH3XGFA",
       "age_rating": "15+",
       "tmdb_id": 1325734,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Drama+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:27:57+02:00"
     },
     {
       "film_id": "drink draw tove",
@@ -3113,7 +3162,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Drobn%C3%A1+nehoda+2025",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:57+02:00"
     },
     {
       "film_id": "duch",
@@ -3158,7 +3208,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Duch+1990",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:58+02:00"
     },
     {
       "film_id": "dva prokuratori",
@@ -3255,23 +3306,29 @@
       ],
       "screenwriter": [],
       "cast": [
-        "Petr Geisler"
+        "Petr Geisler",
+        "Anna Geislerová",
+        "Ester Geislerová",
+        "Lenka Geislerová",
+        "Věra Geislerová",
+        "Min Tanaka"
       ],
       "production_company": [
         "Total HelpArt T.H.A.",
         "Sonnyboy",
         "Česká televize"
       ],
-      "poster_path": "",
+      "poster_path": "/5N5c3UMns2vZIWpiPcgpv3GTKKB.jpg",
       "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/06/22/e0dfdb2725ec787762a553921dafe198.webp",
-      "backdrop_path": "",
+      "backdrop_path": "/o7y82VVvFe1Iq0Pl33xPUrwiDny.jpg",
       "trailer_youtube_key": "ZzqLMg8h6Jw",
       "age_rating": "",
       "tmdb_id": 1706744,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Dv%C4%9B+deci+tu%C5%A1e+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:27:58+02:00"
     },
     {
       "film_id": "elon a pokusni kralici",
@@ -3309,7 +3366,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Elon+a+pokusn%C3%AD+kr%C3%A1l%C3%ADci+2026",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:27:59+02:00"
     },
     {
       "film_id": "eos dansky sberatel delacroix az gauguin",
@@ -3365,7 +3423,7 @@
         "Seventh Art Productions"
       ],
       "poster_path": "/fzHHWd3dB2Dns936AWkEu7cJAUQ.jpg",
-      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/07/08/1aed19a0468e160c7400ecf504312324.jpg",
+      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/07/08/1aed19a0468e160c7400ecf504312324.jpg",
       "backdrop_path": "/YHW4wQaUdtHjnvhZH4uQtsjfqt.jpg",
       "trailer_youtube_key": "D76y2YhjV8A",
       "age_rating": "",
@@ -3373,7 +3431,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=EOS%3A+Frida+Kahlo+2020",
       "resolved": true,
       "match_reason": "verified against director/runtime (0.95, title 0.85)",
-      "match_score": 0.946
+      "match_score": 0.946,
+      "resolved_at": "2026-08-05T22:27:59+02:00"
     },
     {
       "film_id": "eos pribehy umeni z tokia",
@@ -3561,7 +3620,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=GHOST%3A+2+BIG+TO+RIG+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (0.85, title 0.80)",
-      "match_score": 0.85
+      "match_score": 0.85,
+      "resolved_at": "2026-08-05T22:28:00+02:00"
     },
     {
       "film_id": "hanebni pancharti",
@@ -3634,7 +3694,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Hanebn%C3%BD+pancharti+2009",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:01+02:00"
     },
     {
       "film_id": "harry potter a kamen mudrcu",
@@ -3679,7 +3740,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Harry+Potter+a+K%C3%A1men+mudrc%C5%AF+2001",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:01+02:00"
     },
     {
       "film_id": "harry potter a kamen mudrcu 25 vyroci",
@@ -3809,7 +3871,7 @@
         "El Deseo"
       ],
       "poster_path": "/ji29dXqoeIsQiVnXAkzI4nzxMjr.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/06/22/776b5835cb81935a737c51750b614342.jpg",
+      "poster_fallback_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/06/22/776b5835cb81935a737c51750b614342.jpg",
       "backdrop_path": "/ppLv2F7dhvI3wxaEoOP1E0OyBPP.jpg",
       "trailer_youtube_key": "7PgPkSpuYpY",
       "age_rating": "",
@@ -3817,7 +3879,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Ho%C5%99k%C3%A9+sv%C3%A1tky+2026",
       "resolved": true,
       "match_reason": "manual override",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:02+02:00"
     },
     {
       "film_id": "hranice vernosti",
@@ -3846,7 +3909,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Hranice+v%C4%9Brnosti+2025",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:03+02:00"
     },
     {
       "film_id": "hrdina zapadu",
@@ -3916,7 +3980,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=H%C5%99%C3%AD%C5%A1n%C3%BD+tanec+1987",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.11, title 1.00)",
-      "match_score": 1.115
+      "match_score": 1.115,
+      "resolved_at": "2026-08-05T22:28:03+02:00"
     },
     {
       "film_id": "hurvinkova cesta do tramtarie",
@@ -4072,7 +4137,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=J%C3%A1%2C+Daniel+Blake+2016",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:04+02:00"
     },
     {
       "film_id": "jedna bitva za druhou",
@@ -4118,7 +4184,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Jedna+bitva+za+druhou+2025",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:05+02:00"
     },
     {
       "film_id": "jednej spravne",
@@ -4180,8 +4247,8 @@
         "Norman Jewison"
       ],
       "screenwriter": [
-        "Melvyn Bragg",
-        "Norman Jewison"
+        "Norman Jewison",
+        "Melvyn Bragg"
       ],
       "cast": [
         "Ted Neeley",
@@ -4205,7 +4272,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Jesus+Christ+Superstar+1973",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:05+02:00"
     },
     {
       "film_id": "jumanji 1995",
@@ -4253,7 +4321,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Jumanji+%281995%29+1995",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:06+02:00"
     },
     {
       "film_id": "kanaly 1957",
@@ -4367,7 +4436,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Kavej+2+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:06+02:00"
     },
     {
       "film_id": "kdybych mela nohy tak ti nakopu",
@@ -4607,7 +4677,7 @@
         "TriStar Pictures"
       ],
       "poster_path": "/hwIYw22HmAUMobV4zsX69MgfVUz.jpg",
-      "poster_fallback_url": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/29/e7d6f211d1b31fe461535c37e8493bd9.jpg",
       "backdrop_path": "/3NyCi98Y2lqLawrV41kNCcyo6Ab.jpg",
       "trailer_youtube_key": "zyKILTuhFFg",
       "age_rating": "R (US)",
@@ -4615,7 +4685,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1l+ryb%C3%A1%C5%99+1991",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:07+02:00"
     },
     {
       "film_id": "kralovska opera carmen 2026 27",
@@ -4866,7 +4937,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1lovstv%C3%AD+ko%C4%8Dek+2002",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:07+02:00"
     },
     {
       "film_id": "kralovstvi mydlovych bublin",
@@ -4939,7 +5011,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1ska+v+r%C5%AF%C5%BEov%C3%A9m+1986",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:08+02:00"
     },
     {
       "film_id": "kratke leto",
@@ -4981,7 +5054,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1tk%C3%A9+l%C3%A9to+2025",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:09+02:00"
     },
     {
       "film_id": "lak na vlasy",
@@ -5074,7 +5148,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=L%C3%A1ska+2015",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:09+02:00"
     },
     {
       "film_id": "latino party",
@@ -5137,7 +5212,7 @@
         "Nutprodukce",
         "Nutprodukcia"
       ],
-      "poster_path": "/qvGKS5Vgd4DCQxfXQVd4jw9BD50.jpg",
+      "poster_path": "/weSmEV6bJAmWfi2L2QN2xriVN3S.jpg",
       "poster_fallback_url": "",
       "backdrop_path": "/cSLRpGk72ZIy09hGKvCmifMKFAV.jpg",
       "trailer_youtube_key": "8ftPgcjDSwg",
@@ -5146,7 +5221,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Letn%C3%AD+%C5%A1kola%2C+2001+2025",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:10+02:00"
     },
     {
       "film_id": "leviticus",
@@ -5186,7 +5262,7 @@
         "Lazy Susan Films"
       ],
       "poster_path": "/yBdnjr3RMZvEThmGUVU5Z2u3UsB.jpg",
-      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/06/18/1862e790fc0563da813bcad1b74fc800.png",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8041D3SX1.jpg",
       "backdrop_path": "/7y8zWGEjs7tresw4Hzkkf4TdkcL.jpg",
       "trailer_youtube_key": "WXuK0vlFxII",
       "age_rating": "15+",
@@ -5194,7 +5270,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Leviticus+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:10+02:00"
     },
     {
       "film_id": "libove spolecenstvo letni zivak na zahrade kina kavalirka",
@@ -5312,7 +5389,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Macbeth+%28Opera%29",
       "resolved": true,
       "match_reason": "verified against director/runtime (0.76, title 0.76)",
-      "match_score": 0.765
+      "match_score": 0.765,
+      "resolved_at": "2026-08-05T22:28:11+02:00"
     },
     {
       "film_id": "mala amelie",
@@ -5333,9 +5411,9 @@
         "Liane-cho Han"
       ],
       "screenwriter": [
-        "Liane-cho Han",
-        "Eddine Noel",
         "Aude Py",
+        "Eddine Noel",
+        "Liane-cho Han",
         "Maïlys Vallade"
       ],
       "cast": [
@@ -5357,7 +5435,7 @@
         "Ikki Films"
       ],
       "poster_path": "/As1MI46u7yWuBhZ5AI41GdB867G.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/04/24/a1ed0e118e0e1144f0a83b2b2c9623a2.jpg",
+      "poster_fallback_url": "",
       "backdrop_path": "/2WCpiFmRqXyu5y7WoZjEa3CJbiI.jpg",
       "trailer_youtube_key": "VRDBXP9QQwg",
       "age_rating": "PG (US)",
@@ -5365,7 +5443,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Mal%C3%A1+Am%C3%A9lie+2025",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:11+02:00"
     },
     {
       "film_id": "mala sestra",
@@ -5412,7 +5491,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Mal%C3%A1+sestra+2015",
       "resolved": true,
       "match_reason": "verified against director/runtime (0.81, title 0.81)",
-      "match_score": 0.815
+      "match_score": 0.815,
+      "resolved_at": "2026-08-05T22:28:12+02:00"
     },
     {
       "film_id": "mandalorian a grogu",
@@ -5450,7 +5530,7 @@
         "Lucasfilm Ltd.",
         "Fairview Entertainment"
       ],
-      "poster_path": "/3uQzFhr3OZwAVEQd6PwAlQAmfKP.jpg",
+      "poster_path": "/1Yz7Ga4hHa2xORhigSd4tnFzXy.jpg",
       "poster_fallback_url": "",
       "backdrop_path": "/MJcERawyqGqJdPsOBc0C449hQ9.jpg",
       "trailer_youtube_key": "I5D1ojZjmBo",
@@ -5459,7 +5539,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Mandalorian+a+Grogu+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (0.86, title 0.86)",
-      "match_score": 0.864
+      "match_score": 0.864,
+      "resolved_at": "2026-08-05T22:28:13+02:00"
     },
     {
       "film_id": "manon opera",
@@ -5602,7 +5683,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Matrix+1999",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:13+02:00"
     },
     {
       "film_id": "me 20 stoleti",
@@ -5729,7 +5811,7 @@
         "Ukrainian State Film Agency"
       ],
       "poster_path": "/jT1D9sUhfoqYh4aV4lpVuVuT2Q9.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2023/03/08/9f2b3863b7ebcd5a6018d30e88517f23.jpg",
+      "poster_fallback_url": "",
       "backdrop_path": "/tNRHOWkBZW6T7fNIKMQNl17kFyI.jpg",
       "trailer_youtube_key": "RPyCUrLqA4M",
       "age_rating": "",
@@ -5737,7 +5819,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=M%C3%A9+tich%C3%A9+my%C5%A1lenky+2020",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:14+02:00"
     },
     {
       "film_id": "michael",
@@ -5774,7 +5857,7 @@
         "Optimum Productions"
       ],
       "poster_path": "/zm0KAbOjlt9eR5y7vDiL2dEOwMl.jpg",
-      "poster_fallback_url": "",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7785S2R.jpg",
       "backdrop_path": "/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
       "trailer_youtube_key": "k-YAcjaLuSI",
       "age_rating": "12+",
@@ -5782,7 +5865,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Michael+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:14+02:00"
     },
     {
       "film_id": "milost",
@@ -5867,7 +5951,7 @@
         "Illumination"
       ],
       "poster_path": "/6ZhLFj6pGK9JjA0JIldYB8xKCJm.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/06/02/d03269d34f9c3ec82f94669bb03b2d57.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8023S2R.jpg",
       "backdrop_path": "/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
       "trailer_youtube_key": "V-O-uBaHk3c",
       "age_rating": "U",
@@ -5875,7 +5959,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Mimoni+a+monstra+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.11, title 1.00)",
-      "match_score": 1.115
+      "match_score": 1.115,
+      "resolved_at": "2026-08-05T22:28:15+02:00"
     },
     {
       "film_id": "mistr a marketka",
@@ -5921,7 +6006,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Mistr+a+Mark%C3%A9tka+2024",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.11, title 1.00)",
-      "match_score": 1.115
+      "match_score": 1.115,
+      "resolved_at": "2026-08-05T22:28:16+02:00"
     },
     {
       "film_id": "mistryne",
@@ -5954,7 +6040,7 @@
         "Magiclab"
       ],
       "poster_path": "/7OV1Xb6NjUgjtv46cs5livuR1oc.jpg",
-      "poster_fallback_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/06/22/f620138313b4b2a76e0e58ae4b979edf.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/06/22/f620138313b4b2a76e0e58ae4b979edf.jpg",
       "backdrop_path": "/dkSXpwrIVo9v7WEhcJUeHZHBAzp.jpg",
       "trailer_youtube_key": "iwF5DWe2Dqc",
       "age_rating": "",
@@ -5962,7 +6048,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Mistryn%C4%9B",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:16+02:00"
     },
     {
       "film_id": "mlceni",
@@ -6012,7 +6099,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Ml%C4%8Den%C3%AD+2016",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:17+02:00"
     },
     {
       "film_id": "modry samet",
@@ -6088,7 +6176,8 @@
         "Teorema",
         "Instituto Mexicano de Cinematografía",
         "Eficine",
-        "Kinotitlán"
+        "Kinotitlán",
+        "K & S Films"
       ],
       "poster_path": "/tff1IQnQIfx4akKYbD2rsGk31pU.jpg",
       "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/06/22/b98390ce60329f71a93854e279dd4be6.webp",
@@ -6099,7 +6188,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Mouchy+2026",
       "resolved": true,
       "match_reason": "manual override",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:17+02:00"
     },
     {
       "film_id": "mrs doubtfire tata v sukni",
@@ -6119,8 +6209,8 @@
         "Chris Columbus"
       ],
       "screenwriter": [
-        "Randi Mayem Singer",
         "Leslie Dixon",
+        "Randi Mayem Singer",
         "Jeffrey Price",
         "Peter S. Seaman"
       ],
@@ -6147,7 +6237,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Mrs.+Doubtfire+-+T%C3%A1ta+v+sukni+1993",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:18+02:00"
     },
     {
       "film_id": "mrzuta rybka",
@@ -6202,7 +6293,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Mrzut%C3%A1+rybka+2026",
       "resolved": true,
       "match_reason": "manual override",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:19+02:00"
     },
     {
       "film_id": "muj soused totoro",
@@ -6284,7 +6376,7 @@
         "A. Film Production"
       ],
       "poster_path": "/ivnoXwbT3dzf28dkfXGgTceucds.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/05/28/4d22cdff6bda83e7f070fcfad2bfb638.png",
+      "poster_fallback_url": "",
       "backdrop_path": "/xEM4grRNMP0TMHKbk3jnmbbLw4f.jpg",
       "trailer_youtube_key": "",
       "age_rating": "",
@@ -6292,7 +6384,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Mumbo+Jumbo+2026",
       "resolved": true,
       "match_reason": "manual override",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:19+02:00"
     },
     {
       "film_id": "na skok do divociny",
@@ -6332,14 +6425,15 @@
       ],
       "poster_path": "/iPIN0SZCyCHO0y6920HmTYfRgB8.jpg",
       "poster_fallback_url": "",
-      "backdrop_path": "/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
+      "backdrop_path": "/3Jj0A10NVu2dWnoEL5t5oT79L1Y.jpg",
       "trailer_youtube_key": "PypDSyIRRSs",
       "age_rating": "U",
       "tmdb_id": 1327819,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Na+skok+do+divo%C4%8Diny+2026",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:20+02:00"
     },
     {
       "film_id": "napis az dorazis domu",
@@ -6373,7 +6467,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Napi%C5%A1%2C+a%C5%BE+doraz%C3%AD%C5%A1+dom%C5%AF+2022",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:20+02:00"
     },
     {
       "film_id": "nebezpecne znamosti",
@@ -6486,7 +6581,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Nejhor%C5%A1%C3%AD+%C4%8Dlov%C4%9Bk+na+sv%C4%9Bt%C4%9B+2021",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:21+02:00"
     },
     {
       "film_id": "nenavist",
@@ -6532,7 +6628,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Nen%C3%A1vist+1995",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:22+02:00"
     },
     {
       "film_id": "neni jina moznost",
@@ -6676,7 +6773,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Ne%C5%99%C3%ADkej+mi+mami+2025",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:22+02:00"
     },
     {
       "film_id": "netopyrek nik",
@@ -6874,7 +6972,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=O+ku%C5%99atech+a+lidech+2015",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:23+02:00"
     },
     {
       "film_id": "o tele a dusi",
@@ -6918,7 +7017,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=O+t%C4%9Ble+a+du%C5%A1i+2017",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:23+02:00"
     },
     {
       "film_id": "obecna skola",
@@ -7002,15 +7102,16 @@
         "5000 Broadway Productions"
       ],
       "poster_path": "/pC6SDxEUYcabd0xGCg3T6lzwxh.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/76WFQTmh4gsqYpWTejxuEu5Iu69.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/1808S2R.jpg",
+      "backdrop_path": "/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg",
       "trailer_youtube_key": "8Zsa_ntzNxo",
       "age_rating": "U",
       "tmdb_id": 1108427,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Odv%C3%A1%C5%BEn%C3%A1+Vaiana+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:24+02:00"
     },
     {
       "film_id": "odyssea",
@@ -7038,8 +7139,8 @@
         "Anne Hathaway",
         "Robert Pattinson",
         "Himesh Patel",
-        "John Leguizamo",
         "Charlize Theron",
+        "John Leguizamo",
         "Travis Scott"
       ],
       "production_company": [
@@ -7047,15 +7148,16 @@
         "Syncopy"
       ],
       "poster_path": "/zLbUuaoCctimWJ4TUPW2C1yVImc.jpg",
-      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/06/15/22814c5eff3bfe06bd6a84cb1edef97a.jpg",
-      "backdrop_path": "/tYuC9kUwqhpDQ3pv1kLMqyMF1Jw.jpg",
+      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/06/15/22814c5eff3bfe06bd6a84cb1edef97a.jpg",
+      "backdrop_path": "/sSIzzVhhLfgLKVBcAUv0X6cLYz9.jpg",
       "trailer_youtube_key": "AyIZ9tiiN8I",
       "age_rating": "15+",
       "tmdb_id": 1368337,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Odyssea+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:25+02:00"
     },
     {
       "film_id": "ohnive cervena obloha",
@@ -7341,11 +7443,11 @@
       ],
       "production_company": [
         "D1film",
-        "Art_Production",
-        "Third Floor Film Production"
+        "Third Floor Film Production",
+        "R.U.R."
       ],
       "poster_path": "/b7cbepSZByPE0LSZPL4eB84ZZRR.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/07/12/acb51c90a49367cf92c7cbcedbd1b69a.jpg",
+      "poster_fallback_url": "",
       "backdrop_path": "/sYyH3D2meo3EypkFFaREsqRYKRt.jpg",
       "trailer_youtube_key": "",
       "age_rating": "",
@@ -7353,7 +7455,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Padl%C3%A9+ovoce+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:25+02:00"
     },
     {
       "film_id": "padli andele",
@@ -7497,7 +7600,8 @@
         "Liv Ullmann",
         "Margaretha Krook",
         "Gunnar Björnstrand",
-        "Jörgen Lindström"
+        "Jörgen Lindström",
+        "Thích Quảng Đức"
       ],
       "production_company": [
         "SF Studios"
@@ -7511,7 +7615,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Persona+1966",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:26+02:00"
     },
     {
       "film_id": "pet svestek",
@@ -7528,7 +7633,9 @@
       "director": [
         "Jan Svěrák"
       ],
-      "screenwriter": [],
+      "screenwriter": [
+        "Jan Svěrák"
+      ],
       "cast": [
         "Lenka Termerová",
         "Oldřich Kaiser",
@@ -7545,7 +7652,7 @@
         "prima+"
       ],
       "poster_path": "/9WzSp58KeedU8NHcAcJkqYNYnuv.jpg",
-      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/05/04/cde1ab0bb62c28fc7ad49aa29f408241.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/3822S3X1.jpg",
       "backdrop_path": "/oPn4zwOQQYGaddNfoUAqdkc7Gvm.jpg",
       "trailer_youtube_key": "Kmjyl3BhWM0",
       "age_rating": "",
@@ -7553,7 +7660,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=P%C4%9Bt+%C5%A1vestek+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:26+02:00"
     },
     {
       "film_id": "pillion",
@@ -7647,7 +7755,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Pir%C3%A1ti+z+Karibiku+-+Proklet%C3%AD+%C4%8Cern%C3%A9+perly+2003",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:27+02:00"
     },
     {
       "film_id": "po vecerce",
@@ -7683,7 +7792,7 @@
         "DonArt production"
       ],
       "poster_path": "/upIeNzkfKiNSu9BwTVSrSgzN7NI.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/05/29/ebc87d7c4d1f79ad058a68850733d8ca.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/0534D2X1.jpg",
       "backdrop_path": "",
       "trailer_youtube_key": "",
       "age_rating": "U",
@@ -7691,7 +7800,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Po+ve%C4%8Derce+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:28+02:00"
     },
     {
       "film_id": "poberta",
@@ -7735,7 +7845,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Poberta+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:28+02:00"
     },
     {
       "film_id": "poeta",
@@ -7786,7 +7897,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Poeta+2025",
       "resolved": true,
       "match_reason": "verified against director/runtime (0.77, title 0.77)",
-      "match_score": 0.769
+      "match_score": 0.769,
+      "resolved_at": "2026-08-05T22:28:29+02:00"
     },
     {
       "film_id": "pohadky po babicce",
@@ -7847,7 +7959,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Poh%C3%A1dky+po+babi%C4%8Dce+2025",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:29+02:00"
     },
     {
       "film_id": "pohadky tisice a jedne noci",
@@ -7876,7 +7989,7 @@
         "Krátký film Praha – Filmové studio Gottwaldov"
       ],
       "poster_path": "/9kwA0mlVi47VaKKREHS5I58emI6.jpg",
-      "poster_fallback_url": "",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2025/12/12/97b71b0dd93b91ed16c3fb6ce1dbdab9.jpg",
       "backdrop_path": "/nSIrVPrBszqAiAUgxXbUTqVn7WL.jpg",
       "trailer_youtube_key": "",
       "age_rating": "",
@@ -7884,7 +7997,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Poh%C3%A1dky+tis%C3%ADce+a+jedn%C3%A9+noci+1974",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:30+02:00"
     },
     {
       "film_id": "pomoc neviditelnych",
@@ -7915,7 +8029,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Pomoc+neviditeln%C3%BDch",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:31+02:00"
     },
     {
       "film_id": "pomocnice",
@@ -8049,15 +8164,16 @@
         "Blumhouse Productions"
       ],
       "poster_path": "/8ww7uTShJt9KAegdLZEIMJft4Bb.jpg",
-      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/05/20/f9a36e32fe3391f056aca55c4319a116.jpg",
-      "backdrop_path": "/r013C8Me2bZ0pUi0OWJRh0h7MzT.jpg",
-      "trailer_youtube_key": "gMC8kkwbIQQ",
+      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/05/20/f9a36e32fe3391f056aca55c4319a116.jpg",
+      "backdrop_path": "/rZfmzpixLKLR3Hg2u0WgC7XLFl8.jpg",
+      "trailer_youtube_key": "TaaDkbG3I7g",
       "age_rating": "15+",
       "tmdb_id": 1339713,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Posedlost+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:31+02:00"
     },
     {
       "film_id": "posledni viking",
@@ -8103,7 +8219,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Posledn%C3%AD+Viking+2025",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:32+02:00"
     },
     {
       "film_id": "potopa",
@@ -8164,7 +8281,8 @@
       "runtime_min": 107,
       "genres": [
         "Drama",
-        "Komedie"
+        "Komedie",
+        "Romantický"
       ],
       "director": [
         "Olivia Wilde"
@@ -8174,8 +8292,8 @@
         "Will McCormack"
       ],
       "cast": [
-        "Olivia Wilde",
         "Seth Rogen",
+        "Olivia Wilde",
         "Penélope Cruz",
         "Edward Norton",
         "Skip Howland",
@@ -8186,10 +8304,11 @@
       "production_company": [
         "Annapurna Pictures",
         "FilmNation Entertainment",
-        "Permut Presentations"
+        "Permut Presentations",
+        "A24"
       ],
       "poster_path": "/uoSlEfHnONjVvRqiaKMZoQUMO3V.jpg",
-      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/05/29/d43411793b0b50b0a2c99c70a949f5d9.jpg",
+      "poster_fallback_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/05/29/d43411793b0b50b0a2c99c70a949f5d9.jpg",
       "backdrop_path": "/kLA1GqiOEyVgXxgNqLoCr7bYcqu.jpg",
       "trailer_youtube_key": "nelkiuezJxg",
       "age_rating": "R (US)",
@@ -8197,7 +8316,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Pozv%C3%A1n%C3%AD+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:32+02:00"
     },
     {
       "film_id": "pramen",
@@ -8209,7 +8329,8 @@
       "synopsis_language": "en",
       "runtime_min": 88,
       "genres": [
-        "Drama"
+        "Drama",
+        "Historický"
       ],
       "director": [
         "Ivan Ostrochovský"
@@ -8228,17 +8349,24 @@
         "Martin Šulík",
         "Milan Mikulčík"
       ],
-      "production_company": [],
+      "production_company": [
+        "Punkchart films",
+        "Negativ",
+        "Proton Cinema",
+        "Česká televize",
+        "STVR"
+      ],
       "poster_path": "/vg2KV2VT3h4TT0IxB9dCH0Ox2R4.jpg",
       "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/06/22/9e0f368a903b30f10736ffec5dc53ae0.webp",
       "backdrop_path": "/nfpgKDea6asqL8LKvOLiRXUD72u.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "",
+      "trailer_youtube_key": "s5t0fGkkxL8",
+      "age_rating": "12+",
       "tmdb_id": 1397737,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Pramen+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:33+02:00"
     },
     {
       "film_id": "predpremiera serialu filter debata",
@@ -8345,7 +8473,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=P%C5%99%C3%ADb%C4%9Bhy+Kouzeln%C3%A9ho+stromu+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:34+02:00"
     },
     {
       "film_id": "princezna kosmolesba",
@@ -8363,8 +8492,8 @@
         "Dobrodružný"
       ],
       "director": [
-        "Emma Hough Hobbs",
-        "Leela Varghese"
+        "Leela Varghese",
+        "Emma Hough Hobbs"
       ],
       "screenwriter": [
         "Emma Hough Hobbs",
@@ -8395,7 +8524,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Princezna+kosmolesba+2025",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:34+02:00"
     },
     {
       "film_id": "prisaham ze za to nemuzu",
@@ -8431,15 +8561,16 @@
         "Tempo Productions"
       ],
       "poster_path": "/gL1rfAYVdp1lrnNnO4lLlo4O4hc.jpg",
-      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/05/21/b59863b6bd52f3207ae60de7d1df99cf.jpg",
-      "backdrop_path": "/fe6kkxaxn0mCU2gl1vfU44IYWsy.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/21/b59863b6bd52f3207ae60de7d1df99cf.jpg",
+      "backdrop_path": "/4mKczHAW4XPDXGk7V5k7Ui3dgUk.jpg",
       "trailer_youtube_key": "10ynpduiRpM",
       "age_rating": "R (US)",
       "tmdb_id": 1317149,
       "csfd_url": "https://www.csfd.cz/hledat/?q=P%C5%99%C3%ADsah%C3%A1m%2C+%C5%BEe+za+to+nem%C5%AF%C5%BEu+2025",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:35+02:00"
     },
     {
       "film_id": "proklety ostrov",
@@ -8486,7 +8617,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Proklet%C3%BD+ostrov+2010",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:35+02:00"
     },
     {
       "film_id": "protagonista patrizia schlosser deepfake stud a hnev",
@@ -8555,7 +8687,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Psycho+1960",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:36+02:00"
     },
     {
       "film_id": "pta et al revoluce na platne",
@@ -8627,7 +8760,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Pulp+Fiction+1994",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:37+02:00"
     },
     {
       "film_id": "queer",
@@ -8672,7 +8806,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Queer+2024",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:37+02:00"
     },
     {
       "film_id": "quo vadis aida",
@@ -8725,7 +8860,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Quo+vadis%2C+Aida%3F+2021",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:38+02:00"
     },
     {
       "film_id": "radeji zesilet v divocine",
@@ -8806,7 +8942,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%98ezn%C3%ADci+2003",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:38+02:00"
     },
     {
       "film_id": "riefenstahl",
@@ -8856,7 +8993,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Riefenstahl+2024",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:39+02:00"
     },
     {
       "film_id": "rod draka premiera 8 dilu 3 serie",
@@ -9001,7 +9139,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Romer%C3%ADa+2025",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:39+02:00"
     },
     {
       "film_id": "rozchod nadera a simin",
@@ -9044,7 +9183,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Rozchod+Nadera+a+Simin+2011",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:40+02:00"
     },
     {
       "film_id": "rufus morsky dracek ktery neumel plavat",
@@ -9090,7 +9230,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Rufus%3A+Mo%C5%99sk%C3%BD+dr%C3%A1%C4%8Dek%2C+kter%C3%BD+neum%C4%9Bl+plavat+2025",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:41+02:00"
     },
     {
       "film_id": "rytiri spravedlnosti",
@@ -9137,7 +9278,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Ryt%C3%AD%C5%99i+spravedlnosti+2020",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:41+02:00"
     },
     {
       "film_id": "sampion",
@@ -9184,7 +9326,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%A0ampi%C3%B3n+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:42+02:00"
     },
     {
       "film_id": "samson a dalila opera",
@@ -9256,7 +9399,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Scary+Movie+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.05, title 1.00)",
-      "match_score": 1.05
+      "match_score": 1.05,
+      "resolved_at": "2026-08-05T22:28:42+02:00"
     },
     {
       "film_id": "seda zona",
@@ -9290,7 +9434,8 @@
       "production_company": [
         "C2 Motion Picture Group",
         "Toff Guy Films",
-        "Black Bear Pictures"
+        "Black Bear Pictures",
+        "Red Sea Film Foundation"
       ],
       "poster_path": "/dQgIcW6Th08kMRf2HBoYWoFE6OD.jpg",
       "poster_fallback_url": "",
@@ -9301,7 +9446,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%A0ed%C3%A1+z%C3%B3na+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:43+02:00"
     },
     {
       "film_id": "sedma pecet",
@@ -9462,7 +9608,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Sestry+z+kou%C5%99ov%C3%A9+sauny+2023",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:44+02:00"
     },
     {
       "film_id": "sex",
@@ -9488,7 +9635,7 @@
         "Xces Film",
         "Iizumi Production"
       ],
-      "poster_path": "/nth8G0m835nk1xWsV6Ga95FT2na.jpg",
+      "poster_path": "/fDKjelHpsbpv4tmdKf8cXQknc5K.jpg",
       "poster_fallback_url": "",
       "backdrop_path": "",
       "trailer_youtube_key": "",
@@ -9497,7 +9644,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Sex+1998",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:44+02:00"
     },
     {
       "film_id": "sex a smrt v kempu miasma",
@@ -9612,7 +9760,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Sirat+2025",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:45+02:00"
     },
     {
       "film_id": "slepice",
@@ -9660,7 +9809,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Slepice+2026",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:46+02:00"
     },
     {
       "film_id": "slunovrat",
@@ -9705,7 +9855,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Slunovrat+2019",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:46+02:00"
     },
     {
       "film_id": "smrt robina hooda",
@@ -9750,7 +9901,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Smrt+Robina+Hooda+2026",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:47+02:00"
     },
     {
       "film_id": "smrtelne zlo v plamenech",
@@ -9780,15 +9932,15 @@
         "Erroll Shand",
         "Maude Davey",
         "George Pullar",
-        "Victory Ndukwe"
+        "Greta van den Brink"
       ],
       "production_company": [
         "New Line Cinema",
         "Screen Gems",
         "Ghost House Pictures"
       ],
-      "poster_path": "/ztadKzIIR0ERYqpHteaPFtk7inP.jpg",
-      "poster_fallback_url": "",
+      "poster_path": "/uRxrNXQWkHoENm3nwVOZDYSCx2F.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8228D2R.jpg",
       "backdrop_path": "/A5Tz6ogGt4VV8NESG9oWVct5bo1.jpg",
       "trailer_youtube_key": "RddZObTlmA8",
       "age_rating": "15+",
@@ -9796,7 +9948,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Smrteln%C3%A9+zlo%3A+V+plamenech+2026",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:47+02:00"
     },
     {
       "film_id": "sny",
@@ -9841,7 +9994,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Sny+2024",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:48+02:00"
     },
     {
       "film_id": "soukromy zivot",
@@ -9881,7 +10035,7 @@
         "Buenos Hair"
       ],
       "poster_path": "/7aYpPqT2AK7zJIWSQ923cUrtVi5.jpg",
-      "poster_fallback_url": "",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2025/10/14/00bc5c4d9bd637b3ef77d8d9acd58404.jpg",
       "backdrop_path": "/3fZ5HvkrjaS34sZERshWm9koXdF.jpg",
       "trailer_youtube_key": "2JabG5C6IU8",
       "age_rating": "R (US)",
@@ -9889,7 +10043,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Soukrom%C3%BD+%C5%BEivot+2025",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:48+02:00"
     },
     {
       "film_id": "spasitel",
@@ -9937,7 +10092,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Spasitel+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.05, title 1.00)",
-      "match_score": 1.05
+      "match_score": 1.05,
+      "resolved_at": "2026-08-05T22:28:49+02:00"
     },
     {
       "film_id": "spider man zbrusu novy den",
@@ -9962,30 +10118,31 @@
       ],
       "cast": [
         "Tom Holland",
-        "Zendaya",
         "Sadie Sink",
-        "Jacob Batalon",
-        "Jon Bernthal",
         "Tramell Tillman",
-        "Michael Mando",
-        "Mark Ruffalo"
+        "Zendaya",
+        "Jon Bernthal",
+        "Jacob Batalon",
+        "Mark Ruffalo",
+        "Liza Colón-Zayas"
       ],
       "production_company": [
         "Marvel Studios",
         "Columbia Pictures",
         "Pascal Pictures",
-        "TSG Entertainment II"
+        "TSG Entertainment"
       ],
       "poster_path": "/27AISM4WhMtJO8jXm3DrzBvwzAd.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/vjMvFSmGUxEtqVdaZgvFee9XkZl.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8085S2R.jpg",
+      "backdrop_path": "/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
       "trailer_youtube_key": "P3uI5sLosKU",
-      "age_rating": "PG-13 (US)",
+      "age_rating": "12+",
       "tmdb_id": 969681,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Spider-Man%3A+Zbrusu+nov%C3%BD+den+2026",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:50+02:00"
     },
     {
       "film_id": "spoutej me",
@@ -10005,8 +10162,8 @@
         "Pedro Almodóvar"
       ],
       "screenwriter": [
-        "Pedro Almodóvar",
-        "Yuyi Beringola"
+        "Yuyi Beringola",
+        "Pedro Almodóvar"
       ],
       "cast": [
         "Victoria Abril",
@@ -10030,7 +10187,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Spoutej+m%C4%9B%21+1990",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.11, title 1.00)",
-      "match_score": 1.115
+      "match_score": 1.115,
+      "resolved_at": "2026-08-05T22:28:50+02:00"
     },
     {
       "film_id": "spravedlnost",
@@ -10117,7 +10275,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Stalker+%281979%29+1979",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.05, title 1.00)",
-      "match_score": 1.05
+      "match_score": 1.05,
+      "resolved_at": "2026-08-05T22:28:51+02:00"
     },
     {
       "film_id": "star wars mandalorian a grogu",
@@ -10300,7 +10459,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Stvo%C5%99eni+pro+l%C3%A1sku+2000",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:52+02:00"
     },
     {
       "film_id": "substance",
@@ -10346,7 +10506,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Substance+2024",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:52+02:00"
     },
     {
       "film_id": "super mario galakticky film",
@@ -10365,29 +10526,29 @@
         "Animovaný"
       ],
       "director": [
-        "Michael Jelenic",
-        "Aaron Horvath"
+        "Aaron Horvath",
+        "Michael Jelenic"
       ],
       "screenwriter": [
         "Matthew Fogel"
       ],
       "cast": [
         "Chris Pratt",
-        "Anya Taylor-Joy",
         "Charlie Day",
+        "Anya Taylor-Joy",
         "Jack Black",
+        "Keegan-Michael Key",
         "Donald Glover",
         "Benny Safdie",
-        "Brie Larson",
-        "Keegan-Michael Key"
+        "Brie Larson"
       ],
       "production_company": [
         "Illumination",
         "Universal Pictures",
         "Nintendo"
       ],
-      "poster_path": "/7uDDrCfyplW0J90hgEn6r5WsT3V.jpg",
-      "poster_fallback_url": "",
+      "poster_path": "/fRs66TR9iWGmNoVoU8atvW7WDCq.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7999D2R.jpg",
       "backdrop_path": "/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
       "trailer_youtube_key": "LWG9su7iyXc",
       "age_rating": "PG (US)",
@@ -10395,7 +10556,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Super+Mario+galaktick%C3%BD+film+2026",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:53+02:00"
     },
     {
       "film_id": "supergirl",
@@ -10643,7 +10805,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Tajemstv%C3%AD+K%C5%99i%C5%A1%C5%A5%C3%A1lov%C3%A9+planety+2026",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:54+02:00"
     },
     {
       "film_id": "tajemstvi kristalove planety s uvodem a losovanim o darky",
@@ -10741,7 +10904,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Tancuj+Matyldo+2023",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:54+02:00"
     },
     {
       "film_id": "tar",
@@ -10786,7 +10950,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=T%C3%A1r+2022",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:55+02:00"
     },
     {
       "film_id": "terminator 2 den zuctovani",
@@ -10834,7 +10999,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Termin%C3%A1tor+2%3A+Den+z%C3%BA%C4%8Dtov%C3%A1n%C3%AD+1991",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:56+02:00"
     },
     {
       "film_id": "the apprentice pribeh trumpa",
@@ -10893,7 +11059,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=The+Apprentice%3A+P%C5%99%C3%ADb%C4%9Bh+Trumpa+2024",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:56+02:00"
     },
     {
       "film_id": "the moment",
@@ -10942,7 +11109,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=The+Moment+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:57+02:00"
     },
     {
       "film_id": "ticha noc opera",
@@ -11007,7 +11175,7 @@
         "Allons Voir"
       ],
       "poster_path": "/bUUd6D7E0DuzxwSo4qnu136LW5v.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/29/158b7a24807c297d6715bb753cb2feec.jpg",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/05/29/158b7a24807c297d6715bb753cb2feec.jpg",
       "backdrop_path": "/3HgNb4XRFVxwWP6XrES2oGOvHit.jpg",
       "trailer_youtube_key": "TaRZnpAmtJk",
       "age_rating": "",
@@ -11015,7 +11183,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Tich%C3%A1+p%C5%99%C3%ADtelkyn%C4%9B+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:28:58+02:00"
     },
     {
       "film_id": "tlapkova patrola dinosauri film",
@@ -11055,15 +11224,16 @@
         "Paramount Animation"
       ],
       "poster_path": "/oIKOZuF94JsTRNUyZZgsFi183b1.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/rlREba6gEHwcIyxvZLrUebJjxsI.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7760D2SS1.jpg",
+      "backdrop_path": "/upNeU9FNGAvdhnoThvv64Z0MWKn.jpg",
       "trailer_youtube_key": "xgI5iYmOf5Q",
       "age_rating": "PG (US)",
       "tmdb_id": 1185806,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Tlapkov%C3%A1+patrola%3A+Dinosau%C5%99%C3%AD+film+2026",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:58+02:00"
     },
     {
       "film_id": "tlapkova patrola ve velkofilmu",
@@ -11167,7 +11337,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Tom+a+Jerry%3A+Kouzeln%C3%BD+kompas+2025",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:59+02:00"
     },
     {
       "film_id": "tonda slavka a kouzelne svetlo",
@@ -11260,7 +11431,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Tove+2020",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:28:59+02:00"
     },
     {
       "film_id": "toy story 5 pribeh hracek",
@@ -11268,8 +11440,8 @@
       "title_en": "Toy Story 5",
       "original_title": "Toy Story 5",
       "year": 2026,
-      "synopsis": "When Bonnie receives a Lilypad tablet as a gift and becomes obsessed, Buzz, Woody, Jessie and the rest of the gang's jobs become exponentially harder when they have to go head to head with the all-new threat to playtime.",
-      "synopsis_language": "en",
+      "synopsis": "Oblíbená parta hraček se vrací v novém dobrodružství, které je postaví před výzvu odpovídající dnešní době. Woody, Buzz Rakeťák, Jessie i Vidlík zjišťují, že svět dětského pokoje už dávno není jen o fantazii a klasických hrách. Do jejich života vstupuje moderní technologie – chytrý tablet ve tvaru žáby přezdívaný Žabletka – a s ní i zcela nové pořádky. Toy Story 5: Příběh hraček přináší další kapitolu příběhu, který dokazuje, že opravdové přátelství – a síla představivosti – mají své místo i v digitální éře.",
+      "synopsis_language": "cs",
       "runtime_min": 102,
       "genres": [
         "Animovaný",
@@ -11298,15 +11470,16 @@
         "Pixar"
       ],
       "poster_path": "/meIMzQKHRmRYh5sPSCCLtKnfnEi.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/05/29/971dd12674c80781576e734e85080562.jpg",
-      "backdrop_path": "/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7784S2R.jpg",
+      "backdrop_path": "/8sSKdEmlmqF4kJUd28SqthXC4yZ.jpg",
       "trailer_youtube_key": "MCm0aCqr8CM",
       "age_rating": "U",
       "tmdb_id": 1084244,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Toy+Story+5%3A+P%C5%99%C3%ADb%C4%9Bh+hra%C4%8Dek+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:29:00+02:00"
     },
     {
       "film_id": "trochu zivota",
@@ -11351,7 +11524,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Trochu+%C5%BEivota+2025",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:29:00+02:00"
     },
     {
       "film_id": "trojuhelnik smutku",
@@ -11409,7 +11583,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Troj%C3%BAheln%C3%ADk+smutku+2022",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:29:01+02:00"
     },
     {
       "film_id": "ty jsi vesmir",
@@ -11477,7 +11652,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Ucpanej+syst%C3%A9m+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.10, title 1.00)",
-      "match_score": 1.1
+      "match_score": 1.1,
+      "resolved_at": "2026-08-05T22:29:02+02:00"
     },
     {
       "film_id": "umamusume pretty derby beginning of a new era",
@@ -11683,7 +11859,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Ve%C5%99ejn%C4%9B+prosp%C4%9B%C5%A1n%C3%A9+pr%C3%A1ce+2025",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:29:02+02:00"
     },
     {
       "film_id": "verejny prostor frantiska skaly",
@@ -11720,7 +11897,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Ve%C5%99ejn%C3%BD+prostor+Franti%C5%A1ka+Sk%C3%A1ly+2026",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:29:03+02:00"
     },
     {
       "film_id": "vikend na chate",
@@ -11763,7 +11941,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=V%C3%ADkend+na+chat%C4%9B+2020",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:29:04+02:00"
     },
     {
       "film_id": "volani vody",
@@ -11833,7 +12012,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=V%C5%A1e+o+m%C3%A9+matce+1999",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15
+      "match_score": 1.15,
+      "resolved_at": "2026-08-05T22:29:04+02:00"
     },
     {
       "film_id": "wham 10 days in china",
@@ -12047,7 +12227,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%BDena+na+v%C3%A1le%C4%8Dn%C3%A9+stezce+2018",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:29:05+02:00"
     },
     {
       "film_id": "zeny na pokraji nervoveho zhrouceni",
@@ -12191,7 +12372,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Zmizen%C3%AD+Josefa+Mengeleho+2025",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:29:05+02:00"
     },
     {
       "film_id": "zmrzlinar",
@@ -12204,7 +12386,8 @@
       "runtime_min": 86,
       "genres": [
         "Horor",
-        "Thriller"
+        "Thriller",
+        "Komedie"
       ],
       "director": [
         "Eli Roth"
@@ -12234,15 +12417,16 @@
         "StudioCanal"
       ],
       "poster_path": "/fiMbQi3XceIrpZ70MTOJLTdLPGU.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/giekwhdwa8SFtfPi0mOn5uvkXJ0.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8317S2R.jpg",
+      "backdrop_path": "/75pK9Dj1CheZFItgld9TVvb2P4x.jpg",
       "trailer_youtube_key": "ZC3ilNa5a38",
-      "age_rating": "NR (US)",
+      "age_rating": "18+",
       "tmdb_id": 1477712,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Zmrzlin%C3%A1%C5%99+2026",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:29:06+02:00"
     },
     {
       "film_id": "zona zajmu",
@@ -12290,7 +12474,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Z%C3%B3na+z%C3%A1jmu+2023",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:29:07+02:00"
     },
     {
       "film_id": "zootropolis mesto zvirat 2",
@@ -12471,7 +12656,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Ztracen%C3%A1+zem%C4%9B+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:29:07+02:00"
     },
     {
       "film_id": "ztratili jsme stalina",
@@ -12492,9 +12678,9 @@
       ],
       "screenwriter": [
         "Fabien Nury",
-        "Armando Iannucci",
         "David Schneider",
-        "Ian Martin"
+        "Ian Martin",
+        "Armando Iannucci"
       ],
       "cast": [
         "Steve Buscemi",
@@ -12526,7 +12712,8 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Ztratili+jsme+Stalina+2017",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0
+      "match_score": 1.0,
+      "resolved_at": "2026-08-05T22:29:08+02:00"
     }
   ]
 }

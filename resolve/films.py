@@ -3,12 +3,16 @@ Build data/films.json from data/screenings.json.
 
 Reads every unique film title the scrapers found, resolves it against TMDb once,
 and writes a film record the app can render. Titles already present in
-films.json are never re-resolved — the whole point of the cache is that a film
-costs API calls exactly once, ever.
+films.json are never re-resolved *for the sake of finding them again* — the
+whole point of the cache is that a film costs API calls exactly once for
+that — but TMDb's API terms prohibit caching data for longer than 6 months
+(themoviedb.org/api-terms-of-use), so every resolved record still gets
+re-fetched periodically regardless of whether anything's actually new about
+it. See STALE_AFTER below.
 
 Usage, from the project folder:
 
-    python -m resolve.films              # resolve anything new
+    python -m resolve.films              # resolve anything new (or due a refresh)
     python -m resolve.films --retry      # also retry previously-failed titles
     python -m resolve.films --force      # re-resolve everything from scratch
 """
@@ -18,7 +22,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 from scrapers.base import normalize_title
@@ -167,6 +171,10 @@ def build_film_record(
         "resolved": True,
         "match_reason": match_reason,
         "match_score": round(match_score, 3),
+        # When this record was actually fetched from TMDb — not to be
+        # confused with generated_at on the file as a whole. Drives the
+        # 6-month-cache-limit refresh in resolve_all() below.
+        "resolved_at": datetime.now().astimezone().isoformat(timespec="seconds"),
     }
 
 
@@ -327,6 +335,35 @@ def assign_film_ids(screenings: list[dict], film_keys) -> int:
     return stamped
 
 
+# TMDb's API terms cap caching at 6 months (themoviedb.org/api-terms-of-use,
+# "Restrictions": "Cache, for longer than 6 months, any information obtained
+# through or from TMDB or the TMDB APIs"). 150 days rather than a literal 6
+# months so a record is always due for refresh with real margin to spare —
+# the daily cron won't run every single day forever without a gap somewhere,
+# and this shouldn't depend on catching the exact boundary.
+STALE_AFTER = timedelta(days=150)
+
+
+def _is_stale(record: dict) -> bool:
+    """
+    Whether a resolved record is due for a re-fetch under TMDb's cache limit.
+
+    A record with no resolved_at at all is one written before this field
+    existed — treated as due immediately rather than erroring, so the whole
+    existing cache naturally catches up to real timestamps over the next
+    run or two instead of needing a separate one-off migration script.
+    """
+    resolved_at = record.get("resolved_at")
+    if not resolved_at:
+        return True
+    try:
+        stamped = datetime.fromisoformat(resolved_at)
+    except ValueError:
+        return True
+    now = datetime.now(stamped.tzinfo) if stamped.tzinfo else datetime.now()
+    return (now - stamped) > STALE_AFTER
+
+
 def load_json(path: Path, default):
     if not path.exists():
         return default
@@ -354,13 +391,19 @@ def resolve_all(retry_failed: bool = False, force: bool = False) -> dict:
     client = TMDbClient()
 
     resolved_count = 0
+    refreshed_count = 0
     failed = []
 
     for key, hints in sorted(wanted.items()):
         cached = cache.get(key)
+        is_refresh = False
         if cached and not force:
-            if cached.get("resolved") or not retry_failed:
-                continue  # already done, or a known failure we're not retrying
+            if cached.get("resolved"):
+                if not _is_stale(cached):
+                    continue  # resolved recently enough — nothing to do
+                is_refresh = True  # due for a refresh under TMDb's 6-month cache limit
+            elif not retry_failed:
+                continue  # a known failure we're not retrying
 
         title = hints["title_cz"]
         override = overrides.get(key, {})
@@ -375,6 +418,17 @@ def resolve_all(retry_failed: bool = False, force: bool = False) -> dict:
                 tmdb_id = int(override["tmdb_id"])
                 details_en = client.movie_details(tmdb_id, language=ENGLISH)
                 reason, score = "manual override", 1.0
+            elif is_refresh and cached.get("tmdb_id"):
+                # Already matched correctly once — a refresh re-fetches that
+                # same id directly rather than re-running match_film()'s
+                # title/director/runtime search from scratch. Cheaper (skips
+                # the search + verification calls), and safer: re-searching
+                # risks a confirmed-correct match drifting to a different
+                # TMDb entry if search ranking or the catalog changed, which
+                # a 6-month-cache-limit refresh has no business risking.
+                tmdb_id = cached["tmdb_id"]
+                details_en = client.movie_details(tmdb_id, language=ENGLISH)
+                reason, score = cached.get("match_reason", "refresh"), cached.get("match_score", 1.0)
             else:
                 result = match_film(
                     client, title, hints.get("director", ""), hints.get("runtime_min")
@@ -412,8 +466,12 @@ def resolve_all(retry_failed: bool = False, force: bool = False) -> dict:
                 record["csfd_url"] = override["csfd_url"]
 
             cache[key] = record
-            resolved_count += 1
-            print(f"  + {title} -> {record['title_en'] or record['original_title']} ({record['year']})")
+            if is_refresh:
+                refreshed_count += 1
+                print(f"  ~ {title} -> {record['title_en'] or record['original_title']} ({record['year']}) [refresh]")
+            else:
+                resolved_count += 1
+                print(f"  + {title} -> {record['title_en'] or record['original_title']} ({record['year']})")
 
         except Exception as error:
             # One bad film must not lose the whole run's work.
@@ -446,7 +504,10 @@ def resolve_all(retry_failed: bool = False, force: bool = False) -> dict:
 
     total = len(payload["films"])
     unresolved = [f["title_cz"] for f in payload["films"] if not f.get("resolved")]
-    print(f"\n{resolved_count} newly resolved, {total} films total, {client.call_count} API calls.")
+    print(
+        f"\n{resolved_count} newly resolved, {refreshed_count} refreshed "
+        f"(TMDb's 6-month cache limit), {total} films total, {client.call_count} API calls."
+    )
     if unresolved:
         print(f"{len(unresolved)} unresolved: {', '.join(unresolved)}")
         print(f"Add a tmdb_id for these in {OVERRIDES_FILE.name} and run again.")

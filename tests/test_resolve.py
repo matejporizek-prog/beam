@@ -13,10 +13,13 @@ from __future__ import annotations
 
 import pytest
 
+from datetime import datetime, timedelta
+
 from resolve import csfd
 from resolve.films import (
     _age_rating,
     _cast,
+    _is_stale,
     _people,
     _trailer_key,
     build_film_record,
@@ -504,6 +507,48 @@ def test_record_always_carries_a_csfd_link(odyssea_cs, odyssea_en):
     record = build_film_record("Odyssea", odyssea_cs, odyssea_en, 12345, "x", 1.0)
     assert record["csfd_url"].startswith("https://www.csfd.cz/hledat/?q=")
     assert "2026" in record["csfd_url"]
+
+
+def test_record_carries_a_resolved_at_timestamp(odyssea_cs, odyssea_en):
+    """
+    Drives the TMDb-cache-limit refresh in resolve_all() — without this, a
+    resolved record can never be told apart from one that's six months stale.
+    """
+    record = build_film_record("Odyssea", odyssea_cs, odyssea_en, 12345, "x", 1.0)
+    assert datetime.fromisoformat(record["resolved_at"])
+
+
+# --------------------------------------------------------------------------
+# TMDb's 6-month cache limit (themoviedb.org/api-terms-of-use)
+# --------------------------------------------------------------------------
+
+def test_a_record_with_no_timestamp_is_stale():
+    """
+    Every record written before this field existed has no resolved_at at
+    all — treated as immediately due rather than erroring, so the existing
+    cache catches up to real timestamps over the next run or two instead of
+    needing a one-off migration script.
+    """
+    assert _is_stale({"resolved": True})
+
+
+def test_a_freshly_resolved_record_is_not_stale():
+    now = datetime.now().astimezone().isoformat(timespec="seconds")
+    assert not _is_stale({"resolved": True, "resolved_at": now})
+
+
+def test_a_record_older_than_the_limit_is_stale():
+    old = (datetime.now().astimezone() - timedelta(days=200)).isoformat(timespec="seconds")
+    assert _is_stale({"resolved": True, "resolved_at": old})
+
+
+def test_a_record_within_the_limit_is_not_stale():
+    recent = (datetime.now().astimezone() - timedelta(days=30)).isoformat(timespec="seconds")
+    assert not _is_stale({"resolved": True, "resolved_at": recent})
+
+
+def test_an_unparseable_timestamp_is_treated_as_stale_not_a_crash():
+    assert _is_stale({"resolved": True, "resolved_at": "not-a-real-timestamp"})
 
 
 # --------------------------------------------------------------------------
