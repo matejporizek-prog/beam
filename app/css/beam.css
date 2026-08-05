@@ -285,7 +285,15 @@ header.compact .brand h1 { font-size: 26px; }
    .dnum — "22.7.2027" at .dnum's 17px Spectral size doesn't fit this
    52px-wide chip, and only the rare chip that's actually crossed into
    another year pays for it at all (see yearIfDifferent() in format.js). */
-.day .dyear { font-family: 'IBM Plex Mono', monospace; font-size: 8px; letter-spacing: .04em; display: block; color: var(--text-3); }
+/* FIX (impeccable typeset, P1): 8px is below any comfortable reading floor
+   for what is, rarely, real information someone needs to actually read (a
+   screening has crossed into another year) — not a disclosed/rare label like
+   a past-screening timestamp, which is why the Label floor (not ceiling)
+   still applies rather than nav's 11px treatment. Bumped to the middle of
+   Label's own 9.5-11 range; the 52px-wide day chip has ample width, and
+   .dyear only ever adds one extra stacked line to a chip that already has
+   spare vertical room below its density dots. */
+.day .dyear { font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: .04em; display: block; color: var(--text-3); }
 .day.active .dyear { color: var(--accent-dim); }
 .day.active { background: var(--card); border-color: var(--accent-dim); color: var(--accent); }
 .day.active .dnum { color: var(--accent); }
@@ -307,7 +315,7 @@ header.compact .brand h1 { font-size: 26px; }
 .controls { display: flex; align-items: center; justify-content: space-between; padding: 0 20px 8px; }
 .filtr-btn {
   display: inline-flex; align-items: center; gap: 7px; cursor: pointer;
-  background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 9px;
   padding: 6px 11px 6px 10px; color: var(--text-2);
   font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase;
   transition: color .15s, border-color .15s;
@@ -319,7 +327,7 @@ header.compact .brand h1 { font-size: 26px; }
   background: var(--accent); color: var(--bg); font-size: 10px; align-items: center; justify-content: center;
 }
 .filtr-count.show { display: inline-flex; }
-.segmented { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.segmented { display: inline-flex; border: 1px solid var(--line); border-radius: 9px; overflow: hidden; }
 .seg {
   font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: .1em; text-transform: uppercase;
   color: var(--text-2); background: transparent; border: none; padding: 6px 11px 5px; cursor: pointer;
@@ -352,9 +360,9 @@ header.compact .brand h1 { font-size: 26px; }
   display: flex; align-items: center; justify-content: center;
   font-family: 'Spectral', serif; color: var(--poster-mark);
 }
-.poster-sm { flex: 0 0 auto; width: 32px; height: 46px; border-radius: 4px; font-size: 16px; }
+.poster-sm { flex: 0 0 auto; width: 32px; height: 46px; border-radius: 5px; font-size: 16px; }
 .poster { flex: 0 0 auto; width: 46px; height: 66px; border-radius: 5px; font-size: 22px; font-weight: 500; }
-.sr-poster { flex: 0 0 auto; width: 38px; height: 54px; border-radius: 4px; font-size: 17px; }
+.sr-poster { flex: 0 0 auto; width: 38px; height: 54px; border-radius: 5px; font-size: 17px; }
 
 .poster img, .poster-sm img, .ov-poster img, .sr-poster img {
   position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
@@ -386,7 +394,7 @@ header.compact .brand h1 { font-size: 26px; }
 .showstrip { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; }
 .slot {
   display: inline-flex; align-items: center; gap: 6px; padding: 4px 8px;
-  background: var(--card); border: 1px solid var(--line); border-radius: 7px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 5px;
   font-size: 12px; color: var(--text-2);
 }
 .slot.past { opacity: .4; }
@@ -506,7 +514,7 @@ header.compact .brand h1 { font-size: 26px; }
   text-transform: uppercase; color: var(--text-3); text-align: center; padding-bottom: 6px;
 }
 .prem-day {
-  aspect-ratio: 1; border-radius: 8px; display: flex; flex-direction: column;
+  aspect-ratio: 1; border-radius: 9px; display: flex; flex-direction: column;
   align-items: center; justify-content: center; gap: 3px;
   /* A day with a premiere renders as a <button> (see renderPremieres()),
      everything else stays a plain <div> — only marked days are tap targets.
@@ -804,7 +812,7 @@ header.compact .brand h1 { font-size: 26px; }
 .map-popup-addr { font-size: 12px; color: var(--text-2); margin-top: 2px; }
 .map-popup-actions { display: flex; gap: 8px; margin-top: 9px; }
 .map-popup-btn {
-  padding: 7px 13px; border: 1px solid transparent; border-radius: 8px;
+  padding: 7px 13px; border: 1px solid transparent; border-radius: 9px;
   background: var(--accent); color: var(--bg); font-family: 'Archivo', sans-serif;
   font-weight: 600; font-size: 12.5px; cursor: pointer;
   text-decoration: none; display: inline-block;
@@ -868,7 +876,7 @@ header.compact .brand h1 { font-size: 26px; }
 .fpill .x { margin-left: 5px; opacity: .6; }
 
 .sheet-apply {
-  width: 100%; margin-top: 20px; padding: 14px; border: none; border-radius: 12px;
+  width: 100%; margin-top: 20px; padding: 14px; border: none; border-radius: 13px;
   background: var(--accent); color: var(--bg); font-family: 'Archivo', sans-serif; font-weight: 600;
   font-size: 15px; cursor: pointer;
 }
@@ -889,7 +897,7 @@ header.compact .brand h1 { font-size: 26px; }
 }
 .search-bar { display: flex; align-items: center; gap: 10px; padding: 16px 16px 12px; border-bottom: 1px solid var(--line); }
 .search-back { flex: none; width: 38px; height: 38px; border-radius: 50%; border: none; background: transparent; color: var(--text); font-size: 20px; cursor: pointer; }
-.search-inputwrap { flex: 1; display: flex; align-items: center; gap: 9px; background: var(--card); border: 1px solid var(--card-edge); border-radius: 11px; padding: 0 12px; }
+.search-inputwrap { flex: 1; display: flex; align-items: center; gap: 9px; background: var(--card); border: 1px solid var(--card-edge); border-radius: 9px; padding: 0 12px; }
 .search-inputwrap svg { width: 18px; height: 18px; color: var(--text-3); flex: none; }
 .search-inputwrap input { flex: 1; background: none; border: none; outline: none; color: var(--text); font-family: 'Archivo', sans-serif; font-size: 15px; padding: 11px 0; }
 .search-inputwrap input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -995,7 +1003,7 @@ html.search-open .beam { display: none; }
 .ov-save.saved { color: var(--accent); }
 .ov-head { display: flex; gap: 15px; padding: 0 20px; margin-top: -48px; position: relative; z-index: 2; }
 .ov-poster {
-  flex: 0 0 auto; width: 92px; height: 134px; border-radius: 8px; font-size: 40px;
+  flex: 0 0 auto; width: 92px; height: 134px; border-radius: 9px; font-size: 40px;
   box-shadow: 0 10px 28px -12px rgba(0,0,0,.9);
 }
 .ov-poster::before {
@@ -1060,11 +1068,11 @@ html.search-open .beam { display: none; }
   font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--text-2);
 }
 .ov-facts .dot { color: var(--text-3); }
-.ov-facts .rating { color: var(--text); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; font-size: 11px; }
+.ov-facts .rating { color: var(--text); border: 1px solid var(--line); border-radius: 5px; padding: 1px 5px; font-size: 11px; }
 .ov-genres { display: flex; flex-wrap: wrap; gap: 6px; padding: 12px 20px 0; }
 .ov-genre { font-size: 11.5px; color: var(--text-2); border: 1px solid var(--line); border-radius: 20px; padding: 4px 11px; }
 .ov-trailer {
-  margin: 20px 20px 0; height: 168px; border-radius: 14px; position: relative; overflow: hidden;
+  margin: 20px 20px 0; height: 168px; border-radius: 13px; position: relative; overflow: hidden;
   border: 1px solid var(--card-edge); cursor: pointer;
   background: radial-gradient(80% 120% at 30% 20%, rgba(231,201,138,.10), transparent 55%), linear-gradient(150deg, #20262E, #12151A);
   background-size: cover; background-position: center;
@@ -1094,7 +1102,7 @@ html.search-open .beam { display: none; }
 .ov-credit .val { color: var(--text); }
 .ov-ext {
   display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 16px;
-  padding: 12px 15px; border: 1px solid var(--card-edge); border-radius: 10px; background: var(--card);
+  padding: 12px 15px; border: 1px solid var(--card-edge); border-radius: 9px; background: var(--card);
   cursor: pointer; text-decoration: none;
 }
 .ov-ext-l { display: flex; align-items: baseline; gap: 8px; }
@@ -1103,7 +1111,7 @@ html.search-open .beam { display: none; }
 .ov-ext-arrow { color: var(--accent); font-size: 15px; }
 .buy {
   flex: none; font-size: 12px; font-weight: 500; color: var(--bg); background: var(--accent);
-  border: none; border-radius: 8px; padding: 8px 13px; cursor: pointer; text-decoration: none;
+  border: none; border-radius: 9px; padding: 8px 13px; cursor: pointer; text-decoration: none;
   display: inline-block;
 }
 .buy.past { background: var(--line); color: var(--text-3); pointer-events: none; }
@@ -1117,7 +1125,11 @@ html.search-open .beam { display: none; }
   opacity: 0; pointer-events: none; transition: opacity .22s;
 }
 .trailer-modal.open { opacity: 1; pointer-events: auto; }
-.trailer-frame { width: 100%; max-width: 430px; aspect-ratio: 16 / 9; border: none; border-radius: 12px; background: #000; }
+/* FIX (impeccable layout, P2): the one un-tokenized color and off-scale
+   radius in the file — raw #000 with no rationale comment, unlike every
+   other black/near-black use elsewhere. --sprocket is the darkest token and
+   the natural fit for a video-placeholder backdrop; 13px matches lg. */
+.trailer-frame { width: 100%; max-width: 430px; aspect-ratio: 16 / 9; border: none; border-radius: 13px; background: var(--sprocket); }
 .trailer-close {
   position: absolute; top: 18px; right: 18px; width: 40px; height: 40px; border-radius: 50%;
   border: 1px solid var(--card-edge); background: var(--card); color: var(--text); font-size: 20px; cursor: pointer;
@@ -1128,7 +1140,7 @@ html.search-open .beam { display: none; }
 .toast {
   position: fixed; left: 50%; bottom: calc(var(--nav-h) + 18px); z-index: 70;
   transform: translateX(-50%) translateY(14px);
-  background: var(--card); border: 1px solid var(--card-edge); border-radius: 10px;
+  background: var(--card); border: 1px solid var(--card-edge); border-radius: 9px;
   padding: 11px 16px; color: var(--text); font-size: 13px; max-width: 320px; text-align: center;
   opacity: 0; pointer-events: none; transition: opacity .22s, transform .22s;
   box-shadow: 0 12px 30px -14px rgba(0,0,0,.95);

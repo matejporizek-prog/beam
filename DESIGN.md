@@ -44,7 +44,37 @@ typography:
     fontWeight: 500
     lineHeight: 1.3
     letterSpacing: "0.14em"
+  caption:
+    fontFamily: "Archivo, system-ui, sans-serif"
+    fontSize: "13px"
+    fontWeight: 400
+    lineHeight: 1.4
+    letterSpacing: "normal"
+  hero:
+    fontFamily: "Spectral, Georgia, serif"
+    fontSize: "34px"
+    fontWeight: 600
+    lineHeight: 1.08
+    letterSpacing: "normal"
+  # Legitimate second steps for a role already named above, or a role too
+  # narrow (single use) to warrant its own named block. Added 2026-08-05
+  # (/impeccable typeset) to close the gap the frontmatter's one-value-per-role
+  # shape left between this file and its own prose, which already documented
+  # several of these as ranges (Headline 21-22, Title 18/15-16, Body 14-15,
+  # Label 9.5-11) the detector had no way to read. Every value here is a real,
+  # currently-shipped size verified against its selector, not a default.
+  scale:
+    hero-compact: "26px"        # .brand h1, header.compact (scroll-shrunk wordmark)
+    headline-alt: "22px"        # .es-title (empty-state heading, prose already ranges this)
+    month-heading: "19px"       # .prem-month-label (Premiéry calendar heading)
+    daynum: "17px"               # .day .dnum (the day strip's own big numeral)
+    title-search: "16px"        # .sr-title (search result title, prose's Title 500/15-16)
+    title-compact: "15px"       # .fr-title, .vrow .vtitle .t etc. (prose's Title 500/15-16 / Body's 15px)
+    caption-loose: "13.5px"     # .es-sub, .boot, .ov-credit (empty/boot-state secondary copy)
+    caption-dense: "12.5px"     # .slot .st, .closed-note, .map-popup-btn
+    caption-tight: "12px"       # .film-meta, .fr-sub, .ov-facts, .buy
 rounded:
+  xs: "3px"    # the .slot chip-badge cluster (.sfmt/.sdab/.seng) — smaller than sm's own chip scale, deliberately
   sm: "5px"
   md: "9px"
   lg: "13px"
@@ -60,7 +90,7 @@ components:
   button-primary:
     backgroundColor: "{colors.champagne}"
     textColor: "{colors.bg}"
-    typography: "{typography.body}"
+    typography: "{typography.scale.title-compact}"   # 15px, one step above Body — a primary CTA earns the emphasis
     rounded: "{rounded.md}"
     padding: "14px"
   icon-button:
@@ -88,13 +118,13 @@ components:
   pill-filter:
     backgroundColor: "transparent"
     textColor: "{colors.text-secondary}"
-    typography: "{typography.body}"
+    typography: "{typography.caption}"   # 13px, not Body's 14 — Žánr alone can show 19 pills at once, density over comfort here
     rounded: "{rounded.pill}"
     padding: "7px 15px"
   pill-filter-selected:
     backgroundColor: "rgba(231,201,138,0.08)"
     textColor: "{colors.champagne}"
-    typography: "{typography.body}"
+    typography: "{typography.caption}"
     rounded: "{rounded.pill}"
     padding: "7px 15px"
 ---
@@ -150,11 +180,16 @@ Almost the whole interface is a five-step near-black-to-white neutral scale; cha
 **Character:** Spectral is the only font that gets to carry a human decision — a film's title, a section heading, a day number. Archivo is neutral, quiet workhorse prose. IBM Plex Mono is reserved for anything mechanical or systemic: clock times, counts, uppercase eyebrow labels — its presence is the visual signal that "this is data, not a choice."
 
 ### Hierarchy
+- **Hero** (600, 34px / 26px scroll-shrunk, line-height 1.08): the app's own wordmark in the header — one step above Display, and deliberately so; this is the one place the app names itself, not a document heading.
 - **Display** (600, 25px, line-height 1.08): the detail overlay's film title — the single most important piece of text on any screen.
 - **Headline** (600, 21–22px): sheet and empty-state titles ("Filtr", "Nic tu není").
-- **Title** (600, 18px / 500, 15–16px): dense list-row film titles (Program, search results, watchlist rows).
+- **Title** (600, 18px / 500, 15–16px): dense list-row film titles (Program, search results, watchlist rows), plus the same 500-weight step reused for secondary row titles (map popups, search results, screening rows inside the detail overlay).
 - **Body** (400, 14–15px): synopsis text, filter row labels, form inputs.
-- **Label** (400–500, 9.5–11px, letter-spacing 0.08–0.16em, uppercase): day-of-week, section eyebrows, chip text, timestamps, the day strip's numerals' unit label.
+- **Caption** (400, 12–13.5px): the tier between Label and Body that carries everything else load-bearing but secondary — row metadata, filter pills, map popup text, empty/boot-state copy, toast text. Same face as Body (Archivo), just quieter and denser; reused by IBM Plex Mono contexts too where a timestamp or count needs to read as more prominent than Label but isn't the row's main content (a screening row's own time, a "+N more" marker).
+- **Label** (400–500, 9.5–11px, letter-spacing 0.08–0.16em, uppercase): day-of-week, section eyebrows, chip text, disclosed/rare timestamps (a day chip's year suffix, a past screening's time).
+- **Daynum** (500, 17px, Spectral): the day strip's own big numeral — its own step, not a Title/Headline variant, since it's a single number rather than a title.
+
+Icon-only glyphs (×, ‹, ›, +, ♥, →, the disclosure-marker "+" on every `<details>`) and poster/monogram placeholder letters size to their own button or tile, not this ramp — a circular icon button's glyph and a 92×134px poster tile's fallback initial are never "chosen reading text," so holding them to Caption/Title/etc. would be a category error even where their pixel value happens to coincide with one.
 
 ### Named Rules
 **The Mechanical-Face Rule.** Any text that's measured rather than chosen — a time, a count, a percentage, a machine-generated label — is IBM Plex Mono, usually uppercase and letter-spaced. The moment content is a human's editorial choice (a title, a synopsis), it switches to Spectral or Archivo.
@@ -176,12 +211,12 @@ Flat by default — list rows, chips, pills, and cards carry no shadow at rest; 
 
 ## Shapes
 
-Corners are always rounded — nothing in the app is a hard rectangle — but the radius stays modest and functional rather than a soft/bubbly signature: 5px on the smallest chip/poster-thumbnail scale, 9px on day-strip and input-scale controls, 13px on card-scale containers (the map, score cards, empty-state marks), up to 20px only on the filter sheet's top corners and full pill shapes for filter tags. Icon-scale actions (search, close, save, nav) are always full circles, never rounded squares. The one recurring physical motif is the 35mm film reference: a thin repeating-perforation stripe along a poster tile's left edge, and a full sprocket-hole rail along the top and bottom of the bottom nav — both quiet enough to read as texture, not as loud branding.
+Corners are always rounded — nothing in the app is a hard rectangle — but the radius stays modest and functional rather than a soft/bubbly signature: 3px on the smallest mono chip-badges (a slot row's format/dub/eng markers, deliberately a step under the general chip scale since they're a step smaller too), 5px on the general chip/poster-thumbnail scale, 9px on day-strip, input, button and poster-tile-scale controls, 13px on card-scale containers (the map, score cards, empty-state marks, the trailer thumbnail, the primary CTA), up to 20px only on the filter sheet's top corners and full pill shapes for filter tags. Icon-scale actions (search, close, save, nav) are always full circles, never rounded squares — and the same self-referential logic applies wherever a radius is set to exactly half an element's own height rather than picking a step off this scale at all (the filter-count badge, the sheet's own drag handle): that radius is describing "fully rounded," not choosing a size, so it isn't scale drift even when the raw number doesn't match a documented step. The one recurring physical motif is the 35mm film reference: a thin repeating-perforation stripe along a poster tile's left edge, and a full sprocket-hole rail along the top and bottom of the bottom nav — both quiet enough to read as texture, not as loud branding.
 
 ## Components
 
 ### Buttons
-- **Shape:** rounded rectangle, 9–12px radius depending on scale; icon-only actions are always full circles (`border-radius: 50%`).
+- **Shape:** rounded rectangle, 9–13px radius depending on scale; icon-only actions are always full circles (`border-radius: 50%`).
 - **Primary:** filled Champagne background, Void text, 600-weight Archivo — used for the single most committal action on a screen (apply filters, buy tickets).
 - **Icon buttons:** a flat Card-colored disc with a Card Edge ring at rest; on press or when representing an "on" state, the icon and border shift to Champagne / Champagne Dim with no fill change.
 - **Secondary text buttons** (clear filters, "Celý měsíc"): no background at all, Text Tertiary or Champagne label depending on whether the action is destructive/neutral or affirmative.

@@ -15,8 +15,8 @@
    is watched automatically.
    ========================================================================== */
 
-import { state } from './data.js?v=54';
-import { store } from './store.js?v=54';
+import { state } from './data.js?v=55';
+import { store } from './store.js?v=55';
 
 /* Public half of the VAPID keypair used to sign push messages server-side.
    Not secret — every subscribing browser needs it, same as a site's own TLS
