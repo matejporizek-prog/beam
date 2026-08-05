@@ -8,15 +8,15 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=57';
-import { store } from './store.js?v=57';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=58';
+import { store } from './store.js?v=58';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount, renderDateJump,
-} from './screens.js?v=57';
-import { esc } from './format.js?v=57';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=57';
-import { initSplash } from './splash.js?v=57';
+} from './screens.js?v=58';
+import { esc } from './format.js?v=58';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=58';
+import { initSplash } from './splash.js?v=58';
 
 /* ---------- app state ---------- */
 
@@ -526,8 +526,9 @@ function syncFilterUI() {
 
   /* An active filter tucked behind "Více filtrů" must never be invisible to
      the person who set it — force the disclosure open whenever any of the
-     three filters it holds (multiplex, creators, ENG-only) is on. */
-  $('filter-more').open = $('filter-more').open || filters.mplex || filters.enOnly || filters.creators.size > 0;
+     three filters it holds is on. Multiplex moved out to the sheet's top
+     2026-08-05, Formát moved in, so this checks Formát now, not mplex. */
+  $('filter-more').open = $('filter-more').open || filters.format.size > 0 || filters.enOnly || filters.creators.size > 0;
 
   const count = activeFilterCount(filters);
   const badge = $('filtr-count');
