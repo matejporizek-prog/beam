@@ -141,6 +141,20 @@ def run(dry_run: bool = False) -> dict:
         all_screenings.extend(result["screenings"])
         print(f"  + {name}: {len(result['screenings'])} screenings")
 
+        # Zero screenings across the *entire* covered window is different from
+        # one quiet day (that's what empty_dates is for): every cinema here
+        # screens regularly, so a scraper that ran without raising but found
+        # nothing at all almost always means a selector or an API shape
+        # changed underneath it — not that the cinema went dark. A real,
+        # planned closure should set closed_until instead of relying on this
+        # going unnoticed the way an exception wouldn't.
+        if not result["screenings"] and not result.get("closed_until"):
+            failures.append({
+                "cinema": name,
+                "error": "ran without error but found 0 screenings — a selector or API shape may have changed",
+            })
+            print(f"    ? 0 screenings and no closed_until — likely a silent break, not a quiet week")
+
     all_screenings.sort(key=lambda s: (s["date"], s["time"], s["cinema"]))
 
     payload = {

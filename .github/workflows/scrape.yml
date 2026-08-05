@@ -85,3 +85,26 @@ jobs:
           else
             echo "No data changes — nothing to commit."
           fi
+
+      # Deliberately the last step: the good data from every other cinema has
+      # already been committed above by this point, so failing here doesn't
+      # cost the run anything real. It exists purely to turn a scraper that's
+      # gone quiet — no exception, so nothing above would otherwise notice —
+      # into a red run. GitHub emails the workflow's owner on a failed
+      # scheduled run by default, which is the entire monitoring story here:
+      # no extra service, no webhook, just not swallowing the signal that
+      # scrapers.run.py already collects in data/screenings.json's "failures".
+      - name: Fail loudly if any cinema needs attention
+        run: |
+          python -c "
+          import json, sys
+          data = json.loads(open('data/screenings.json', encoding='utf-8').read())
+          failures = data.get('failures', [])
+          if not failures:
+              print('All scrapers healthy.')
+              sys.exit(0)
+          print(f'{len(failures)} cinema(s) need attention:')
+          for f in failures:
+              print(f\"  - {f['cinema']}: {f['error']}\")
+          sys.exit(1)
+          "

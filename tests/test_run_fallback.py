@@ -135,6 +135,40 @@ def test_a_failed_scraper_with_no_usable_fallback_just_records_the_failure(tmp_p
     assert payload["screenings"] == []
 
 
+def test_a_cinema_that_scrapes_clean_but_finds_nothing_is_flagged(tmp_path):
+    """No exception, but zero screenings across the whole covered window —
+    the silent-break case an exception-based failure can't see. Every cinema
+    here screens regularly, so this almost always means a selector or API
+    shape changed, not a real quiet stretch."""
+    def empty_scraper():
+        return {"source_url": "https://ok.example", "screenings": []}
+
+    with patch("scrapers.run.OUTPUT_FILE", tmp_path / "does-not-exist.json"), \
+         patch.dict("scrapers.run.SCRAPERS", {"Quiet Cinema": empty_scraper}, clear=True):
+        payload = run(dry_run=True)
+
+    assert payload["failures"] == [{
+        "cinema": "Quiet Cinema",
+        "error": "ran without error but found 0 screenings — a selector or API shape may have changed",
+    }]
+    # Unlike an exception-based failure, the cinema itself still shows up —
+    # there's nothing wrong with the entry, just nothing in it.
+    assert payload["cinemas"] == [{"name": "Quiet Cinema", "source_url": "https://ok.example"}]
+
+
+def test_a_real_planned_closure_is_not_flagged(tmp_path):
+    """A scraper that reports closed_until (Ponrepo's case) means the zero
+    screenings are explained and expected — not a silent break."""
+    def closed_scraper():
+        return {"source_url": "https://ok.example", "screenings": [], "closed_until": "2026-09-01"}
+
+    with patch("scrapers.run.OUTPUT_FILE", tmp_path / "does-not-exist.json"), \
+         patch.dict("scrapers.run.SCRAPERS", {"Closed Cinema": closed_scraper}, clear=True):
+        payload = run(dry_run=True)
+
+    assert payload.get("failures") is None
+
+
 def test_no_fallback_available_on_a_brand_new_first_run(tmp_path):
     """No previous screenings.json at all (a first-ever run) must behave
     identically to today's failure handling — no crash, no fallback to
