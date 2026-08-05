@@ -10,16 +10,16 @@ import {
   state, filmFor, filmById, titleOf, screeningsForFilm, nextScreening,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf, isMultiplex, multiplexChainOf,
-} from './data.js?v=53';
+} from './data.js?v=54';
 
 import {
   DOW, esc, fold, dateOf, shortDate, longDay, whenLabel, yearIfDifferent,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=53';
+} from './format.js?v=54';
 
-import { store } from './store.js?v=53';
-import { isPushSupported } from './push.js?v=53';
-import { initCinemaMap } from './map.js?v=53';
+import { store } from './store.js?v=54';
+import { isPushSupported } from './push.js?v=54';
+import { initCinemaMap } from './map.js?v=54';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when

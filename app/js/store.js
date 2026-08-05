@@ -17,6 +17,7 @@ const KEYS = {
   premieres: 'beam.premieres',   // legacy — folded into watchlist by migrate()
   filters: 'beam.filters',
   notify: 'beam.notify',
+  chipHint: 'beam.chipHintSeen',
 };
 
 /* Premieres and screening films share one watchlist so that "Chci vidět" is a
@@ -142,5 +143,19 @@ export const store = {
 
   setNotifyEnabled(on) {
     write(KEYS.notify, !!on);
+  },
+
+  /* ---- chip legend hint ---- */
+
+  /* FIX (impeccable critique, P2): the filled/outlined chip convention
+     (format fact vs. screening characteristic — DESIGN.md's own signature
+     "meaning lives in shape" rule) had no in-product explanation. Shown once
+     on the first chip tap anywhere in the app, never again after. */
+  chipHintSeen() {
+    return read(KEYS.chipHint, false);
+  },
+
+  markChipHintSeen() {
+    write(KEYS.chipHint, true);
   },
 };

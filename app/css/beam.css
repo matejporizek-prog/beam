@@ -404,22 +404,27 @@ header.compact .brand h1 { font-size: 26px; }
 .chip.dab { color: var(--warn); background: transparent; border: 1px solid var(--warn-dim); }
 .chip.eng { color: var(--text-2); background: transparent; border: 1px solid var(--line); }
 
+/* FIX (impeccable critique, P2): these three sat at 9.5px, the very bottom
+   of DESIGN.md's own documented Label range — the same class of finding a
+   prior round already fixed for nav labels/day-strip (see the note on
+   .nav-item .nl). Bumped to 11px, that fix's same top-of-range treatment,
+   for the format/dub/eng markers repeated on every program row. */
 .slot .sfmt {
-  font-family: 'IBM Plex Mono', monospace; font-size: 9.5px; font-weight: 600;
+  font-family: 'IBM Plex Mono', monospace; font-size: 11px; font-weight: 600;
   color: var(--bg); background: var(--accent); border-radius: 3px; padding: 1px 4px;
 }
 .slot .sdab {
-  font-family: 'IBM Plex Mono', monospace; font-size: 9.5px;
+  font-family: 'IBM Plex Mono', monospace; font-size: 11px;
   color: var(--warn); border: 1px solid var(--warn-dim); border-radius: 3px; padding: 0 3px;
 }
 /* FIX (impeccable critique, minor): slotMarkup used to drop the ENG marker
    entirely, so filtering to "Jen s anglickými titulky" showed a showstrip
    with no visible reason any of it matched. Same neutral/informational tier
    as .chip.eng elsewhere (outlined, not filled — this isn't a physical fact
-   like format, just a note), just re-cut to the slot chip's own compact
-   9.5px scale to match .sfmt/.sdab beside it. */
+   like format, just a note), re-cut to the slot chip's own compact scale to
+   match .sfmt/.sdab beside it. */
 .slot .seng {
-  font-family: 'IBM Plex Mono', monospace; font-size: 9.5px;
+  font-family: 'IBM Plex Mono', monospace; font-size: 11px;
   color: var(--text-2); border: 1px solid var(--line); border-radius: 3px; padding: 0 3px;
 }
 
@@ -495,8 +500,9 @@ header.compact .brand h1 { font-size: 26px; }
   display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px;
   padding: 0 20px 8px;
 }
+/* FIX (impeccable critique, P2): same 9.5px-floor fix as .slot .sfmt/.sdab/.seng above. */
 .prem-dow {
-  font-family: 'IBM Plex Mono', monospace; font-size: 9.5px; letter-spacing: .1em;
+  font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: .1em;
   text-transform: uppercase; color: var(--text-3); text-align: center; padding-bottom: 6px;
 }
 .prem-day {
@@ -729,6 +735,23 @@ header.compact .brand h1 { font-size: 26px; }
 .filter-group { padding: 14px 0; border-top: 1px solid var(--line); }
 .filter-group:first-of-type { border-top: none; }
 .fg-label { font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--text-3); margin-bottom: 10px; }
+
+/* FIX (impeccable critique, P1): the lower-frequency third of the sheet
+   (multiplex toggle, Tvůrci, ENG-only) tucked behind a disclosure — same
+   rotating-"+" language as .past-group/.ov-chain elsewhere in the app,
+   rather than inventing a new expand affordance. .filter-group's own
+   :first-of-type/border rules apply unchanged inside here since each
+   <details> is its own new parent for that selector. */
+.filter-more { border-top: 1px solid var(--line); }
+.filter-more-summary {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  padding: 14px 0; cursor: pointer; list-style: none;
+  font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--text-3);
+}
+.filter-more-summary::-webkit-details-marker { display: none; }
+.filter-more-summary::after { content: '+'; font-size: 15px; line-height: 1; transition: transform .18s; }
+.filter-more[open] .filter-more-summary::after { transform: rotate(45deg); }
 .filter-row { display: flex; align-items: center; justify-content: space-between; gap: 14px; cursor: pointer; }
 .filter-row.compact { padding-top: 0; }
 .fr-title { font-size: 15px; color: var(--text); }
@@ -1114,6 +1137,12 @@ html.search-open .beam { display: none; }
 
 /* ===== loading / error states ============================================= */
 .boot { padding: 90px 34px; text-align: center; color: var(--text-3); font-size: 13.5px; line-height: 1.7; }
+/* FIX (impeccable critique, P2): the raw error string used to print inline
+   for everyone; now it's an opt-in disclosure, same pattern as .today-done
+   etc. — quiet by default, still there for anyone who wants it. */
+.boot-err { margin-top: 14px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; }
+.boot-err summary { cursor: pointer; letter-spacing: .04em; }
+.boot-err[open] summary { margin-bottom: 8px; }
 
 @media (prefers-reduced-motion: reduce) {
   *, .beam, .grain { animation: none !important; transition: none !important; }

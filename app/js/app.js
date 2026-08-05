@@ -8,15 +8,15 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=53';
-import { store } from './store.js?v=53';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=54';
+import { store } from './store.js?v=54';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount, renderDateJump,
-} from './screens.js?v=53';
-import { esc } from './format.js?v=53';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=53';
-import { initSplash } from './splash.js?v=53';
+} from './screens.js?v=54';
+import { esc } from './format.js?v=54';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=54';
+import { initSplash } from './splash.js?v=54';
 
 /* ---------- app state ---------- */
 
@@ -85,10 +85,17 @@ async function boot() {
   try {
     await loadData();
   } catch (error) {
+    /* FIX (impeccable critique, P2): used to print error.message straight into
+       the UI — raw JS text ("Failed to fetch" etc.) breaking the app's Czech
+       copy voice at its lowest-trust moment. Plain Czech copy leads now; the
+       technical string is still here for anyone who wants it, just tucked
+       behind the same <details> disclosure pattern used elsewhere in the app
+       (today's-past-films, multiplex grouping, genre "+N") rather than shown
+       to everyone by default. */
     $('prog-list').innerHTML =
       `<div class="boot">Data se nepodařilo načíst.<br><br>
-       <span style="color:var(--text-3)">${error.message}</span><br><br>
-       Zkus stránku načíst znovu.</div>`;
+       Zkus stránku načíst znovu.
+       <details class="boot-err"><summary>Technický detail</summary>${esc(error.message)}</details></div>`;
     // No brand moment to protect when what's showing next is a failure, not
     // Program — skip the splash's minimum-display wait.
     splash.hide({ immediate: true });
@@ -352,6 +359,16 @@ function wireEvents() {
       return;
     }
 
+    /* First-ever tap on a format/version chip, anywhere — teaches the
+       filled/outlined convention instead of opening whatever row it's inside
+       (see showChipHint()). Every later tap on a chip behaves normally,
+       since store.markChipHintSeen() means this branch never matches again. */
+    if (!store.chipHintSeen() && event.target.closest('.chip.fmt, .chip.dab, .sfmt, .sdab')) {
+      store.markChipHintSeen();
+      showChipHint();
+      return;
+    }
+
     /* Any element carrying data-film opens that film's detail overlay. */
     const filmEl = event.target.closest('[data-film]');
     if (filmEl && !event.target.closest('.buy')) {
@@ -490,6 +507,9 @@ function togglePill(set, value) {
 function clearFilters() {
   filters = { mplex: false, version: new Set(), format: new Set(), enOnly: false, creators: new Set(), genres: new Set() };
   store.saveFilters(filters);
+  // Nothing left inside it to justify staying open — collapse "Více filtrů"
+  // back down along with everything else Vymazat resets.
+  $('filter-more').open = false;
   syncFilterUI();
 }
 
@@ -503,6 +523,11 @@ function syncFilterUI() {
   renderGenrePills();
   renderCreatorChips();
   renderCreatorResults();
+
+  /* An active filter tucked behind "Více filtrů" must never be invisible to
+     the person who set it — force the disclosure open whenever any of the
+     three filters it holds (multiplex, creators, ENG-only) is on. */
+  $('filter-more').open = $('filter-more').open || filters.mplex || filters.enOnly || filters.creators.size > 0;
 
   const count = activeFilterCount(filters);
   const badge = $('filtr-count');
@@ -852,6 +877,24 @@ function toast(message) {
   el.classList.add('show');
   clearTimeout(toastTimer);
   toastTimer = setTimeout(() => el.classList.remove('show'), 2000);
+}
+
+/* FIX (impeccable critique, P2): DESIGN.md's clearest instance of its own
+   "meaning lives in shape, not color" rule — a filled chip is a physical
+   format fact, an outlined one is a screening characteristic — had no
+   in-product explanation. Reuses the toast element (real chip swatches so
+   the shape difference is shown, not just described) with a longer hold
+   than a normal confirmation toast, since this is teaching something rather
+   than confirming an action just taken. store.markChipHintSeen() means this
+   fires at most once, ever, per device. */
+function showChipHint() {
+  const el = $('toast');
+  el.innerHTML =
+    '<span class="chip fmt">35mm</span> fakt o formátu · ' +
+    '<span class="chip dab">dabováno</span> vlastnost promítání';
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 4500);
 }
 
 /* ---------- the projector beam ---------- */

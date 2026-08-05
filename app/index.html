@@ -27,7 +27,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
-<link rel="stylesheet" href="./css/beam.css?v=53">
+<link rel="stylesheet" href="./css/beam.css?v=54">
 </head>
 <body>
 <!-- Boot splash: the projector lamp striking, before Program appears. Static
@@ -174,16 +174,6 @@
     </div>
 
     <div class="filter-group">
-      <div class="filter-row" id="row-mplex" role="switch" tabindex="0" aria-checked="false">
-        <div>
-          <div class="fr-title">Zahrnout multiplexy</div>
-          <div class="fr-sub">Cinema City, CineStar, Premiere</div>
-        </div>
-        <span class="switch" id="sw-mplex" aria-hidden="true"><span class="knob"></span></span>
-      </div>
-    </div>
-
-    <div class="filter-group">
       <div class="fg-label">Verze</div>
       <div class="pill-picker" id="fp-version">
         <button class="fpill" data-v="titulky">titulky</button>
@@ -206,20 +196,41 @@
       <button class="fp-genre-toggle" id="fp-genre-toggle"></button>
     </div>
 
-    <div class="filter-group">
-      <div class="fg-label">Tvůrci</div>
-      <div class="pill-picker" id="creator-chips"></div>
-      <input class="creator-input" id="creator-input" type="text" placeholder="Režisér nebo scénárista…" autocomplete="off">
-      <div class="pill-picker" id="creator-results"></div>
-    </div>
+    <!-- FIX (impeccable critique, P1): six decision groups used to sit in one
+         undifferentiated scroll — the app's only real >4-item cognitive-load
+         violation. Verze/Formát/Žánr are what's actually screening, so they
+         stay visible; the multiplex toggle, Tvůrci search and ENG-only toggle
+         are lower-frequency asks, tucked behind this disclosure (auto-opened
+         by syncFilterUI() in app.js when any of them is already active, so an
+         existing filter is never hidden from the person who set it). -->
+    <details class="filter-more" id="filter-more">
+      <summary class="filter-more-summary">Více filtrů</summary>
 
-    <div class="filter-group">
-      <div class="fg-label">Jen s anglickými titulky</div>
-      <div class="filter-row compact" id="row-en" role="switch" tabindex="0" aria-checked="false" aria-label="Jen s anglickými titulky">
-        <div class="fr-sub">english friendly projekce</div>
-        <span class="switch" id="sw-en" aria-hidden="true"><span class="knob"></span></span>
+      <div class="filter-group">
+        <div class="filter-row" id="row-mplex" role="switch" tabindex="0" aria-checked="false">
+          <div>
+            <div class="fr-title">Zahrnout multiplexy</div>
+            <div class="fr-sub">Cinema City, CineStar, Premiere</div>
+          </div>
+          <span class="switch" id="sw-mplex" aria-hidden="true"><span class="knob"></span></span>
+        </div>
       </div>
-    </div>
+
+      <div class="filter-group">
+        <div class="fg-label">Tvůrci</div>
+        <div class="pill-picker" id="creator-chips"></div>
+        <input class="creator-input" id="creator-input" type="text" placeholder="Režisér nebo scénárista…" autocomplete="off">
+        <div class="pill-picker" id="creator-results"></div>
+      </div>
+
+      <div class="filter-group">
+        <div class="fg-label">Jen s anglickými titulky</div>
+        <div class="filter-row compact" id="row-en" role="switch" tabindex="0" aria-checked="false" aria-label="Jen s anglickými titulky">
+          <div class="fr-sub">english friendly projekce</div>
+          <span class="switch" id="sw-en" aria-hidden="true"><span class="knob"></span></span>
+        </div>
+      </div>
+    </details>
 
     <button class="sheet-apply" id="sheet-apply">Zobrazit výsledky</button>
   </div>
@@ -283,6 +294,6 @@
 <!-- The ?v= query is a cache-busting version. Bump it (here and on the imports
      inside the js/ modules) when shipping changed JS so browsers fetch the new
      code instead of a cached copy. Milestone 5 can automate this at deploy. -->
-<script type="module" src="./js/app.js?v=53"></script>
+<script type="module" src="./js/app.js?v=54"></script>
 </body>
 </html>
