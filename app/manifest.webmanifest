@@ -1,7 +1,7 @@
 {
-  "name": "Beam — pražská artová kina",
+  "name": "Beam — pražská kina",
   "short_name": "Beam",
-  "description": "Program pražských artových kin na jednom místě. Trailery, premiéry a osobní seznam filmů.",
+  "description": "Program pražských kin na jednom místě. Trailery, premiéry a osobní seznam filmů.",
   "lang": "cs",
   "dir": "ltr",
   "start_url": "./index.html",
