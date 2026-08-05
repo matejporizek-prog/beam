@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T07:37:05+00:00",
+  "generated_at": "2026-08-05T07:39:09+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -7919,6 +7919,54 @@
       "match_score": 1.1
     },
     {
+      "film_id": "pribehy kouzelneho stromu",
+      "title_cz": "Příběhy Kouzelného stromu",
+      "title_en": "The Magic Faraway Tree",
+      "original_title": "The Magic Faraway Tree",
+      "year": 2026,
+      "synopsis": "Příběhy Kouzelného stromu nás přenesou do světa, kde obyčejný les skrývá neobyčejná tajemství a fantazie znovu ožívá.  Polly, Tim a jejich děti Tomáš, Eva a Terezka jsou moderní rodina, věčně ponořená do digitálního světa a zvyklá na hektický městský život. Když se rozhodnou přestěhovat na odlehlý anglický venkov, ocitají se daleko od všeho, co dosud znali.  Bez Wi-Fi, elektřiny a svých milovaných elektronických vychytávek jsou děti postaveny před nečekanou výzvu: objevit svět kolem sebe. Při průzkumu okolí narazí na kouzelný strom, místo plné podivuhodných bytostí a kouzel. Seznamují se s vílou Silkou, skřítkem Měsíčkem, Inženýrem Vařislavem Kastrolem a dalšími obyvateli.",
+      "synopsis_language": "cs",
+      "runtime_min": 110,
+      "genres": [
+        "Dobrodružný",
+        "Rodinný",
+        "Fantasy"
+      ],
+      "director": [
+        "Ben Gregor"
+      ],
+      "screenwriter": [
+        "Simon Farnaby"
+      ],
+      "cast": [
+        "Billie Gadsdon",
+        "Nicola Coughlan",
+        "Delilah Bennett-Cardy",
+        "Phoenix Laroche",
+        "Nonso Anozie",
+        "Andrew Garfield",
+        "Rebecca Ferguson",
+        "Claire Foy"
+      ],
+      "production_company": [
+        "Neal Street Productions",
+        "Ashland Hill Media Finance",
+        "Palisades Park Pictures",
+        "Elysian Film Group",
+        "StudioCanal UK"
+      ],
+      "poster_path": "/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/03/20/f5dabd713b72148da5720ef67a8021ba.webp",
+      "backdrop_path": "/l2Iv2JVEvzlDu7Hxm7ZCm9QprqR.jpg",
+      "trailer_youtube_key": "ISQ9CiPcoLM",
+      "age_rating": "",
+      "tmdb_id": 1140521,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=P%C5%99%C3%ADb%C4%9Bhy+Kouzeln%C3%A9ho+stromu+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
+    },
+    {
       "film_id": "princezna kosmolesba",
       "title_cz": "Princezna kosmolesba",
       "title_en": "Lesbian Space Princess",
@@ -10128,6 +10176,31 @@
       "match_score": 1.0
     },
     {
+      "film_id": "tajemstvi dzungle s uvodem a losovanim o darky",
+      "title_cz": "Tajemství džungle s úvodem a losováním o dárky",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Tajemstv%C3%AD+d%C5%BEungle+s+%C3%BAvodem+a+losov%C3%A1n%C3%ADm+o+d%C3%A1rky",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Tajemství džungle s úvodem a losováním o dárky'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "tajemstvi kristalove planety",
       "title_cz": "Tajemství Křišťálové planety",
       "title_en": "Tajemství křišťálové planety",
@@ -10165,6 +10238,31 @@
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0
+    },
+    {
+      "film_id": "tajemstvi kristalove planety s uvodem a losovanim o darky",
+      "title_cz": "Tajemství Křišťálové planety s úvodem a losováním o dárky",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Tajemstv%C3%AD+K%C5%99i%C5%A1%C5%A5%C3%A1lov%C3%A9+planety+s+%C3%BAvodem+a+losov%C3%A1n%C3%ADm+o+d%C3%A1rky",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Tajemství Křišťálové planety s úvodem a losováním o dárky'",
+      "match_score": 0.0
     },
     {
       "film_id": "tajemstvi sykorek",
@@ -11260,6 +11358,51 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Volání vody'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "vse o me matce",
+      "title_cz": "Vše o mé matce",
+      "title_en": "All About My Mother",
+      "original_title": "Todo sobre mi madre",
+      "year": 1999,
+      "synopsis": "Estéban tragicky zemřel. Bylo mu čerstvých sedmnáct a poslední řádky v jeho deníku patřily otci, se kterým se nikdy nesetkal, protože matku opustil dřív, než se o existenci svého syna stačil dozvědět. Estébanova matka se proto rozhodne vydat po stopách svého mládí, transvestitu Lolu najít a dodatečně ho spravit o jeho otcovství.",
+      "synopsis_language": "cs",
+      "runtime_min": 101,
+      "genres": [
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "Pedro Almodóvar"
+      ],
+      "screenwriter": [
+        "Pedro Almodóvar"
+      ],
+      "cast": [
+        "Cecilia Roth",
+        "Marisa Paredes",
+        "Candela Peña",
+        "Antonia San Juan",
+        "Penélope Cruz",
+        "Rosa María Sardà",
+        "Fernando Fernán Gómez",
+        "Fernando Guillén"
+      ],
+      "production_company": [
+        "El Deseo",
+        "Renn Productions",
+        "France 2 Cinéma"
+      ],
+      "poster_path": "/evvT3HUwoQYoPQXWFO10R6AvhxG.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2024/04/30/af8be446cee8d51ef5563068098a499f.jpg",
+      "backdrop_path": "/tilClWjFZeUTGJu0pxgF72fvUmN.jpg",
+      "trailer_youtube_key": "0Ki8qXRBIFI",
+      "age_rating": "15+",
+      "tmdb_id": 99,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=V%C5%A1e+o+m%C3%A9+matce+1999",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15
     },
     {
       "film_id": "wham 10 days in china",
