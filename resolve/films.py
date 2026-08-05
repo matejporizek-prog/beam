@@ -483,10 +483,17 @@ def resolve_all(retry_failed: bool = False, force: bool = False) -> dict:
             cache[key] = errored
             failed.append(title)
 
+    # Drop cache entries for titles no longer in any current screening. Without
+    # this, a film that stops showing would sit in films.json forever, past
+    # the loop above (which only ever visits `wanted` keys) and so past
+    # STALE_AFTER too — exactly the indefinite caching TMDb's terms prohibit.
+    # The watchlist survives this fine: it keys on film_id and caches the
+    # title client-side precisely so a saved film stays named after it drops
+    # out of the current program (see store.js).
     payload = {
         "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
         "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
-        "films": [cache[key] for key in sorted(cache)],
+        "films": [cache[key] for key in sorted(wanted) if key in cache],
     }
 
     FILMS_FILE.parent.mkdir(parents=True, exist_ok=True)
