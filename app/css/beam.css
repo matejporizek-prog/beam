@@ -226,9 +226,35 @@ body {
 .content { position: relative; z-index: 2; padding-bottom: calc(var(--nav-h) + 24px); }
 
 /* ===== header ============================================================= */
+/* FIX (native-motion polish): the header shrinks as you scroll.
+
+   REVIEWED (impeccable optimize): this is the file's one remaining
+   padding/width/height transition, flagged by every design-system scan for
+   not following the transform-only discipline documented everywhere else
+   (blur, backdrop-filter, the beam, the grain). Investigated rather than
+   mechanically "fixed":
+
+   - It's genuinely a layout-affecting resize, not decoration -- the whole
+     point is the header actually occupying less vertical space once
+     scrolled, so content gets more room. transform: scale() cannot do
+     this: it changes paint, never layout, so the header's box (and
+     everything below it) would stay put while its content visually
+     shrank inside unchanged, oversized padding -- the opposite of the
+     effect this exists for, and not a like-for-like GPU swap.
+   - It's a one-shot, threshold-triggered transition (window.scrollY > 24
+     in app.js, rAF-throttled to at most once per frame and a no-op once
+     already past the threshold), not a continuous scroll-bound repaint --
+     the ~220ms cost pays once per scroll session in each direction, not
+     every frame the way the beam's blur or a live backdrop-filter would.
+
+   Left as padding/width/font-size intentionally: the transform-only rule
+   exists to stop continuous per-frame repaint cost, which this doesn't
+   have, and satisfying the rule literally here would either break the
+   actual shrink or need restructuring risk this file's own instinct
+   (measure, don't optimize what isn't slow) argues against for a
+   once-per-scroll, sub-250ms cost. */
 header {
   padding: 24px 20px 14px; display: flex; align-items: center; justify-content: space-between;
-  /* FIX (native-motion polish): the header shrinks as you scroll. */
   transition: padding .22s ease;
 }
 header.compact { padding-top: 12px; padding-bottom: 10px; }

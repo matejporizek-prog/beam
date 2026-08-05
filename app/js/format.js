@@ -2,7 +2,7 @@
    Czech formatting helpers and the small shared markup primitives.
    ========================================================================== */
 
-import { todayISO, initialOf, posterUrl } from './data.js?v=56';
+import { todayISO, initialOf, posterUrl } from './data.js?v=57';
 
 export const DOW = ['NE', 'PO', 'ÚT', 'ST', 'ČT', 'PÁ', 'SO'];
 export const DOW_LONG = ['NEDĚLE', 'PONDĚLÍ', 'ÚTERÝ', 'STŘEDA', 'ČTVRTEK', 'PÁTEK', 'SOBOTA'];
