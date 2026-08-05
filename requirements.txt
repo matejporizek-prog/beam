@@ -5,4 +5,10 @@ pytest>=8.2
 # Makes Python trust the same certificate authorities the OS does. Required on
 # Windows, where kinoaero.cz otherwise fails TLS verification.
 truststore>=0.9
+# Windows has no system IANA time zone database, so zoneinfo.ZoneInfo raises
+# ZoneInfoNotFoundError without this (cinestar.py converts UTC screening
+# times to Europe/Prague). Linux ships its own system tzdata and works
+# either way, so this is a no-op there — needed for local Windows dev, not
+# a GitHub Actions requirement.
+tzdata>=2024.1
 

@@ -120,6 +120,18 @@
       "address": "Švehlova 1391/32, 102 00 Praha 10",
       "lat": 50.0531501,
       "lng": 14.5180672
+    },
+    {
+      "name": "CineStar Anděl",
+      "address": "Radlická 3179/1E, 150 00 Praha 5",
+      "lat": 50.0710587,
+      "lng": 14.4017187
+    },
+    {
+      "name": "CineStar Černý Most",
+      "address": "Chlumecká 765/6, 198 19 Praha 9",
+      "lat": 50.1080761,
+      "lng": 14.5858027
     }
   ]
 }

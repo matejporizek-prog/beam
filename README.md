@@ -24,16 +24,16 @@ all under one seasonal summer strand. Doesn't fit the curated-arthouse premise
 the other 13 cinemas do; see `prague-cinema-app-brainstorm.md`'s scope list
 for the full reasoning.
 
-**Phase 3 ("multiplexes") has added seven more**: all six Prague Cinema City
-locations and Premiere Cinemas Praha Hostivař — see "Phase 3" below. This was
-always the long-term plan, not scope creep: the planning doc named Cinema
-City/CineStar/Premiere by name as the eventual full-coverage goal, and the
-app's arthouse-as-default filter (multiplexes opt-in, hidden by default) was
-built from day one specifically so this expansion wouldn't need a UI change
-when it finally happened. **CineStar is deliberately not scraped yet**: its
-site serves automated HTTP clients an incomplete page (the showtime grid, but
-not the film catalog needed to know which film each time slot is for) — see
-"Phase 3" for what was actually tried.
+**Phase 3 ("multiplexes") has added all nine**: all six Prague Cinema City
+locations, Premiere Cinemas Praha Hostivař, and both CineStar locations
+(Anděl, Černý Most) — see "Phase 3" below. This was always the long-term
+plan, not scope creep: the planning doc named Cinema City/CineStar/Premiere
+by name as the eventual full-coverage goal, and the app's arthouse-as-default
+filter (multiplexes opt-in, hidden by default) was built from day one
+specifically so this expansion wouldn't need a UI change when it finally
+happened. **CineStar was flagged as not scrapable for a while** (an
+automated client seemed to get an incomplete page back) but turned out to be
+fully scrapable when revisited 2026-08-05 — see "Phase 3" for what changed.
 
 ## Running it
 
@@ -469,7 +469,8 @@ The planning doc always named this as the long-term goal, not an afterthought
 Premiere) is still the goal", with the app's arthouse/multiplex filter toggle
 built from day one specifically so this wouldn't need a UI change when it
 finally happened. Three chains, three completely different platforms — and
-one of the three turned out not to be scrapable at all.
+one of the three (CineStar) looked unscrapable for a while before turning
+out fine.
 
 **Cinema City** (six Prague locations: Flora, Chodov, Letňany, Nový Smíchov,
 Slovanský dům, Zličín) is, unexpectedly, the *best* data source in this whole
@@ -507,25 +508,52 @@ tab ("Předprodej"/presale, with no date in its label) links to future
 advance sales rather than a specific day and is skipped by the same "does
 this label actually contain a day.month" check that finds the other seven.
 
-**CineStar (2 Prague locations: Anděl, Černý Most) is not scraped.** Its
-schedule page genuinely does embed full showtime and film-catalog data —
-confirmed by reading it live in an actual browser, where it appears as a
-Nuxt 3 SSR payload (`<script id="__NUXT_DATA__">`, devalue's flat
-reference-array format, not plain JSON — a small deserializer was written
-and tested against it and it worked correctly). The problem is upstream of
-parsing: every plain HTTP request tried against that same URL — realistic
-browser headers, a warmed-up cookie session, cache-busting, full
-`sec-ch-ua`/`Sec-Fetch-*` client-hint headers — consistently got back a
-version of the page with the bare screening times but missing the film
-catalog entirely, i.e. showtimes with no way to know which film they're for.
-Real browser loads never had this problem. That pattern (degraded payload
-for automated clients, not an outright block) looks like Cloudflare-level bot
-mitigation rather than anything a smarter HTTP client could work around —
-which is a materially different problem from "harder to parse", and exactly
-why this was flagged back rather than pushed through silently. Worth
-revisiting if a good approach turns up (a headless-browser fetch would very
-likely work, at the cost of a much heavier scraping dependency than anything
-else in this project).
+**CineStar (2 Prague locations: Anděl, Černý Most) — resolved 2026-08-05,
+scraped like everything else.** This was flagged back once already: an
+earlier session found that every plain HTTP request against the program page
+came back with the showtime grid but the film catalog stripped out (bare
+times, no way to know which film each one was for), while a real browser
+load never had that problem — a pattern that looked like Cloudflare-level
+bot mitigation degrading the response for automated clients specifically,
+not just "harder to parse". Revisited from scratch rather than assumed
+still true, and the exact same request — this project's own plain
+`requests` call, this project's own polite self-identifying User-Agent, no
+special headers, no session warm-up, no TLS fingerprint tricks — now comes
+back with the complete payload, every time, checked repeatedly including
+side-by-side against a browser-TLS-impersonating client that returned
+byte-identical results. Whatever was degrading it before either wasn't what
+it looked like, or CineStar's own protection has since changed; either way
+it's a plain, ordinary scrape now.
+
+The schedule (`scheduledEventsEntries`: event id, UTC start/finish, a
+numeric film id, and a flat list of presentation tags like
+"Dabing"/"Titulky"/"3D"/"Gold Class") is embedded in the program page's own
+`__NUXT_DATA__` script tag — a Nuxt 3 SSR payload in devalue's flat
+reference-array format, not plain JSON. `scrapers/devalue.py` is a small
+deserializer for that format, checked against devalue's own source
+(Rich-Harris/devalue) rather than guessed. The film catalog resolving each
+numeric id to a title/runtime/poster isn't in that payload — a second plain
+GET against `craft.cinestar.cz`'s own public GraphQL endpoint (found by
+reading a live page's actual network requests, not guessed), given every
+distinct film id from the schedule, resolves all of them in one call.
+
+One real data quirk worth recording: CineStar's own catalog bakes the
+screening variant straight into the title text itself — "Mimoni a monstra
+DABING", "Odyssea TITULKY GC" — confirmed systematic across an entire live
+catalog (52 titles), not an occasional glitch. `_clean_title()` strips a
+known allowlist of trailing tokens (CZ/DABING/TITULKY/OV/GC/TDL/BC/ATMOS/3D/
+MINI KINO/UA ZNĚNÍ/ČSFD — GC/TDL/BC are auditorium-tier codes, confirmed
+against both Prague locations' catalogs, not just one) rather than a blanket
+"strip trailing uppercase word"
+heuristic — two real titles in that same catalog ("Cirque du Soleil: KOOZA",
+"GHOST: 2 BIG TO RIG") are themselves genuinely all-caps, and a blanket rule
+would have mangled both.
+
+Not yet captured: a per-screening booking URL (`websale.cinestar.cz`'s exact
+link pattern wasn't confirmed live) and original spoken language per
+screening (only whether it's dubbed/subtitled, not which language) — both
+left empty rather than guessed, the same "missing beats wrong" call as
+Kavalírka's uncaptured `imdb_url`.
 
 ## Two things about the Aerofilms cinemas specifically
 

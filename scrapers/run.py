@@ -20,6 +20,7 @@ from pathlib import Path
 from . import (
     atlas, bio_oko, cinema_city_chodov, cinema_city_flora, cinema_city_letnany,
     cinema_city_novy_smichov, cinema_city_slovansky_dum, cinema_city_zlicin,
+    cinestar_andel, cinestar_cerny_most,
     edison, kavalirka, kino35, kino_aero, kino_pilotu, lucerna, mat, ponrepo,
     premiere_hostivar, pritomnost, svetozor, zaplotem,
 )
@@ -41,8 +42,8 @@ SCRAPERS = {
     "Divadlo Za plotem": zaplotem.scrape,
     "Kino 35": kino35.scrape,
     # Multiplexes — hidden by the app's arthouse-default filter, but scraped
-    # the same as everything else. See cinema_city.py and
-    # premiere_hostivar.py for why CineStar isn't here yet.
+    # the same as everything else. See cinema_city.py and cinestar.py for
+    # how each platform is scraped.
     "Cinema City Flora": cinema_city_flora.scrape,
     "Cinema City Chodov": cinema_city_chodov.scrape,
     "Cinema City Letňany": cinema_city_letnany.scrape,
@@ -50,6 +51,8 @@ SCRAPERS = {
     "Cinema City Slovanský dům": cinema_city_slovansky_dum.scrape,
     "Cinema City Zličín": cinema_city_zlicin.scrape,
     "Premiere Cinemas Praha Hostivař": premiere_hostivar.scrape,
+    "CineStar Anděl": cinestar_andel.scrape,
+    "CineStar Černý Most": cinestar_cerny_most.scrape,
 }
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
