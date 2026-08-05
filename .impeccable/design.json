@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-31T15:00:00+02:00",
+  "generatedAt": "2026-08-05T18:00:00+02:00",
   "title": "Design System: Beam",
   "extensions": {
     "colorMeta": {
@@ -24,13 +24,21 @@
       "text": { "role": "neutral", "displayName": "Text", "canonical": "#ECEFF3" },
       "text-secondary": { "role": "neutral", "displayName": "Text Secondary", "canonical": "#9BA5B0" },
       "text-tertiary": { "role": "neutral", "displayName": "Text Tertiary", "canonical": "#828A94" },
-      "poster-mark": { "role": "primary-dim", "displayName": "Poster Mark", "canonical": "#B89660" }
+      "poster-mark": { "role": "primary-dim", "displayName": "Poster Mark", "canonical": "#B89660" },
+      "lamp-white": { "role": "fx", "displayName": "Lamp White", "canonical": "rgba(230,242,255,.6)" },
+      "lamp-falloff": { "role": "fx", "displayName": "Lamp Falloff", "canonical": "rgba(184,212,255,.28)" },
+      "dust-warm": { "role": "fx", "displayName": "Dust Warm", "canonical": "rgba(255,238,210,.85)" },
+      "film-base": { "role": "fx", "displayName": "Film Base", "canonical": "rgba(20,17,14,.30)" },
+      "shadow-disc": { "role": "shadow", "displayName": "Shadow — Floating Disc", "canonical": "rgba(0,0,0,.9)" },
+      "shadow-panel": { "role": "shadow", "displayName": "Shadow — Floating Panel", "canonical": "rgba(0,0,0,.95)" }
     },
     "typographyMeta": {
+      "hero": { "displayName": "Hero", "purpose": "The app's own wordmark in the header — one step above Display, the one place the app names itself." },
       "display": { "displayName": "Display", "purpose": "The detail overlay's film title — the single most important text on any screen." },
       "headline": { "displayName": "Headline", "purpose": "Sheet and empty-state titles." },
       "title": { "displayName": "Title", "purpose": "Dense list-row film titles across Program, search, and the watchlist." },
       "body": { "displayName": "Body", "purpose": "Synopsis text, form inputs, filter row labels." },
+      "caption": { "displayName": "Caption", "purpose": "The tier between Label and Body — row metadata, filter pills, map popup text, empty/boot-state copy, toast text." },
       "label": { "displayName": "Label", "purpose": "Anything mechanical: timestamps, counts, uppercase eyebrow labels, chip text." }
     },
     "shadows": [
@@ -51,7 +59,7 @@
       "refersTo": "button-primary",
       "description": "The single most committal action on a screen — apply filters, buy tickets.",
       "html": "<button class=\"ds-btn-primary\">Použít filtr</button>",
-      "css": ".ds-btn-primary { width: 100%; padding: 14px; border: none; border-radius: 12px; background: #E7C98A; color: #0C0E11; font-family: Archivo, sans-serif; font-weight: 600; font-size: 15px; cursor: pointer; transition: transform .12s; } .ds-btn-primary:active { transform: scale(.98); }"
+      "css": ".ds-btn-primary { width: 100%; padding: 14px; border: none; border-radius: 13px; background: #E7C98A; color: #0C0E11; font-family: Archivo, sans-serif; font-weight: 600; font-size: 15px; cursor: pointer; transition: transform .12s; } .ds-btn-primary:active { transform: scale(.98); }"
     },
     {
       "name": "Icon Button",
@@ -81,7 +89,7 @@
       "name": "Filter Pill",
       "kind": "chip",
       "refersTo": "pill-filter",
-      "description": "A fully-rounded toggle pill; selected state adds a faint champagne wash rather than a hard fill, so several selected pills stay legible together.",
+      "description": "A fully-rounded toggle pill; selected state adds a faint champagne wash rather than a hard fill, so several selected pills stay legible together. Set at the Caption size (13px), not Body — Žánr alone can show 19 pills at once, so density outranks comfort here.",
       "html": "<div style=\"display:flex; gap:8px;\"><button class=\"ds-pill\">titulky</button><button class=\"ds-pill ds-pill-selected\">dabováno</button></div>",
       "css": ".ds-pill { font-size: 13px; color: #9BA5B0; background: transparent; border: 1px solid #252A31; border-radius: 20px; padding: 7px 15px; cursor: pointer; transition: all .15s; } .ds-pill-selected { color: #E7C98A; border-color: #8A7645; background: rgba(231,201,138,.08); }"
     },
@@ -107,7 +115,7 @@
       "refersTo": "nav-item",
       "description": "A bottom-nav destination on the 35mm sprocket-perforated strip — active state is icon/label color alone, no background box, so it doesn't compete with the perforation rails.",
       "html": "<button class=\"ds-nav-item ds-nav-item-active\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path d=\"M3 9h18\"/></svg><span>Program</span></button>",
-      "css": ".ds-nav-item { display: flex; flex-direction: column; align-items: center; gap: 3px; background: transparent; border: none; color: #828A94; font-family: Archivo, sans-serif; font-size: 10px; cursor: pointer; transition: color .2s; } .ds-nav-item-active { color: #E7C98A; }"
+      "css": ".ds-nav-item { display: flex; flex-direction: column; align-items: center; gap: 3px; background: transparent; border: none; color: #828A94; font-family: Archivo, sans-serif; font-size: 11px; cursor: pointer; transition: color .2s; } .ds-nav-item-active { color: #E7C98A; }"
     }
   ],
   "narrative": {

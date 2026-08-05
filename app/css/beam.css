@@ -240,12 +240,20 @@ header.compact .brand-mark { width: 34px; height: 34px; }
   transition: font-size .22s ease;
 }
 header.compact .brand h1 { font-size: 26px; }
+/* FIX (impeccable harden): icon buttons throughout this file sit at 34-42px,
+   under the 44px touch-target convention (still clears WCAG 2.2's binding
+   24x24 minimum, so this is a real-world usability polish, not a compliance
+   fix). Rather than growing the visible discs — a visual change across every
+   screen with no way to check the result in this environment — each gets an
+   invisible ::before hit-slop expanding its tappable area to ~44x44, checked
+   against its actual neighbors so no two hit-areas overlap and steal a tap. */
 .hdr-search {
-  flex: none; width: 42px; height: 42px; border-radius: 50%;
+  flex: none; width: 42px; height: 42px; border-radius: 50%; position: relative;
   border: 1px solid var(--card-edge); background: var(--card); color: var(--text-2);
   display: flex; align-items: center; justify-content: center; cursor: pointer;
   transition: color .16s, border-color .16s;
 }
+.hdr-search::before { content: ''; position: absolute; inset: -1px; }
 .hdr-search svg { width: 21px; height: 21px; }
 .hdr-search:active { color: var(--accent); border-color: var(--accent-dim); }
 
@@ -454,10 +462,11 @@ header.compact .brand h1 { font-size: 26px; }
 .row { display: flex; gap: 12px; padding: 13px 20px; align-items: center; border-bottom: 1px solid var(--line); cursor: pointer; transition: background .14s; }
 .row:active { background: rgba(255,255,255,.02); }
 .row-action {
-  flex: none; width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--line);
+  flex: none; width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--line); position: relative;
   background: transparent; color: var(--text-2); cursor: pointer; font-size: 16px;
   display: flex; align-items: center; justify-content: center; transition: all .18s;
 }
+.row-action::before { content: ''; position: absolute; inset: -5px; }
 .row-action.on { color: var(--accent); border-color: var(--accent-dim); background: rgba(231,201,138,.08); }
 
 /* The one save affordance, shared by Program rows, Premiéry and the watchlist.
@@ -465,7 +474,7 @@ header.compact .brand h1 { font-size: 26px; }
    round dark disc with a white heart, turning champagne when saved. Keeping the
    two visually the same means the gesture reads as one thing everywhere. */
 .save-heart {
-  flex: none; align-self: center;
+  flex: none; align-self: center; position: relative;
   width: 38px; height: 38px; border-radius: 50%;
   /* No backdrop-filter here, for the same reason the nav dropped its blur —
      and worse: this button repeats on EVERY program/watchlist row, so at 38
@@ -478,6 +487,7 @@ header.compact .brand h1 { font-size: 26px; }
   display: flex; align-items: center; justify-content: center;
   transition: color .18s, transform .12s;
 }
+.save-heart::before { content: ''; position: absolute; inset: -3px; }
 .save-heart.on { color: var(--accent); }
 .save-heart:active { transform: scale(.86); }
 
@@ -496,11 +506,12 @@ header.compact .brand h1 { font-size: 26px; }
   text-transform: capitalize;
 }
 .prem-nav {
-  flex: none; width: 36px; height: 36px; border-radius: 50%;
+  flex: none; width: 36px; height: 36px; border-radius: 50%; position: relative;
   border: 1px solid var(--card-edge); background: var(--card); color: var(--text-2);
   font-size: 17px; cursor: pointer; display: flex; align-items: center; justify-content: center;
   transition: color .16s, border-color .16s, opacity .16s;
 }
+.prem-nav::before { content: ''; position: absolute; inset: -4px; }
 .prem-nav:active { color: var(--accent); border-color: var(--accent-dim); }
 .prem-nav:disabled { opacity: .3; cursor: default; }
 
@@ -666,6 +677,13 @@ header.compact .brand h1 { font-size: 26px; }
   color: var(--text-3); position: relative; transition: color .2s;
   margin: 0 3px;
 }
+/* FIX (impeccable harden): the nav's own 15px/16px top/bottom padding
+   (see .nav) leaves each item's actual box under 44px tall even though it's
+   plenty wide (flex: 1). That padding is otherwise-dead space belonging
+   exclusively to the item above/below it, not shared with a horizontal
+   neighbor, so extending into it here is free — reaches 44px+ tall without
+   moving the icon/label or touching .nav's own layout at all. */
+.nav-item::before { content: ''; position: absolute; top: -8px; bottom: -8px; left: 0; right: 0; }
 .nav-item svg { width: 22px; height: 22px; position: relative; z-index: 1; }
 /* Same reasoning as .day .dow above: permanently-visible nav text, moved to
    the top of DESIGN.md's own documented Label range (9.5-11px). */
@@ -896,7 +914,8 @@ header.compact .brand h1 { font-size: 26px; }
   animation: ov-in .34s cubic-bezier(.2,.7,.2,1);
 }
 .search-bar { display: flex; align-items: center; gap: 10px; padding: 16px 16px 12px; border-bottom: 1px solid var(--line); }
-.search-back { flex: none; width: 38px; height: 38px; border-radius: 50%; border: none; background: transparent; color: var(--text); font-size: 20px; cursor: pointer; }
+.search-back { flex: none; width: 38px; height: 38px; border-radius: 50%; border: none; background: transparent; color: var(--text); font-size: 20px; cursor: pointer; position: relative; }
+.search-back::before { content: ''; position: absolute; inset: -3px; }
 .search-inputwrap { flex: 1; display: flex; align-items: center; gap: 9px; background: var(--card); border: 1px solid var(--card-edge); border-radius: 9px; padding: 0 12px; }
 .search-inputwrap svg { width: 18px; height: 18px; color: var(--text-3); flex: none; }
 .search-inputwrap input { flex: 1; background: none; border: none; outline: none; color: var(--text); font-family: 'Archivo', sans-serif; font-size: 15px; padding: 11px 0; }
@@ -998,6 +1017,7 @@ html.search-open .beam { display: none; }
   border: none; background: rgba(12,14,17,.78); color: var(--text);
   cursor: pointer;
 }
+.ov-close::before, .ov-save::before { content: ''; position: absolute; inset: -3px; }
 .ov-close { left: 16px; font-size: 20px; }
 .ov-save { right: 16px; font-size: 16px; }
 .ov-save.saved { color: var(--accent); }
@@ -1134,6 +1154,7 @@ html.search-open .beam { display: none; }
   position: absolute; top: 18px; right: 18px; width: 40px; height: 40px; border-radius: 50%;
   border: 1px solid var(--card-edge); background: var(--card); color: var(--text); font-size: 20px; cursor: pointer;
 }
+.trailer-close::before { content: ''; position: absolute; inset: -2px; }
 
 /* ===== toast ============================================================== */
 /* FIX: replaces the prototype's "V přípravě…" button-text swap. */

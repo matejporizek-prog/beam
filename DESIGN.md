@@ -13,6 +13,21 @@ colors:
   champagne: "#E7C98A"
   champagne-dim: "#8A7645"
   poster-mark: "#B89660"
+  # A separate, coherent sub-palette for literal light and physical texture
+  # (the beam's own glow, drifting dust, the nav's aged-film-stock gradient)
+  # rather than UI chrome — see the Light & Texture note under Colors.
+  # Added 2026-08-05 (/impeccable document); these existed in the shipped CSS
+  # well before this entry, just never carried into the system's own record.
+  lamp-white: "rgba(230,242,255,.6)"
+  lamp-falloff: "rgba(184,212,255,.28)"
+  dust-warm: "rgba(255,238,210,.85)"
+  film-base: "rgba(20,17,14,.30)"
+  # The two shadow recipes below (see Shadow Vocabulary) were already
+  # documented in prose, verbatim, since this file's first version — but
+  # prose isn't machine-readable, so a detector had no way to know a
+  # box-shadow's own rgba was this system's own recipe rather than drift.
+  shadow-disc: "rgba(0,0,0,.9)"
+  shadow-panel: "rgba(0,0,0,.95)"
 typography:
   display:
     fontFamily: "Spectral, Georgia, serif"
@@ -165,6 +180,13 @@ Almost the whole interface is a five-step near-black-to-white neutral scale; cha
 - **Text** (`#ECEFF3`): primary reading text — titles, body copy, active labels. Never pure white.
 - **Text Secondary** (`#9BA5B0`): supporting text that still needs to read clearly — sub-labels, secondary metadata, unselected pill text.
 - **Text Tertiary** (`#828A94`): the quietest tier — day-of-week labels, timestamps on past screenings, placeholder and disabled text. Lightened from an earlier `#69707A` (2026-07-31): that value measured 3.9:1 on Void and 3.4:1 on Card, both below the 4.5:1 AA minimum, on a token used almost everywhere as real text.
+
+### Light & Texture (FX only — not UI chrome)
+A small, separate palette for the app's one literal special effect — the projector beam and the dust drifting through it — plus one physical-texture gradient. None of these are interface state; they never mean "active" or "selected," and the One Voice Rule doesn't apply to them the way it applies to Champagne. They're grouped here because a color detector has no way to tell "this is light" from "this is chrome" apart from this note.
+- **Lamp White** (`rgba(230,242,255,.6)`): the beam's own bright core — the aperture glow at its origin, the beam-core fill, and drifting dust motes all share this same cool near-white, just at different opacities for different jobs.
+- **Lamp Falloff** (`rgba(184,212,255,.28)`): the same lamp light, further from its source — the outer ring of the origin glow, where it's already dimming into the surrounding dark.
+- **Dust Warm** (`rgba(255,238,210,.85)`): the warm-toned half of the drifting dust motes — alternated with Lamp White so the field reads as real particles catching light at different angles, not one repeated sprite.
+- **Film Base** (`rgba(20,17,14,.30)`): a gradient stop in the bottom nav's background, aged-film-stock texture rather than a flat fill — warmer and browner than Void on purpose, the one place the nav departs from the app's cool neutral scale.
 
 ### Named Rules
 **The One Voice Rule.** Champagne is the only color in the entire system that means something is happening — active, saved, on, selected. It never appears as passive decoration; if you're using it, you're marking state.
