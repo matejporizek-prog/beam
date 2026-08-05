@@ -8,15 +8,15 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=58';
-import { store } from './store.js?v=58';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=59';
+import { store } from './store.js?v=59';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount, renderDateJump,
-} from './screens.js?v=58';
-import { esc } from './format.js?v=58';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=58';
-import { initSplash } from './splash.js?v=58';
+} from './screens.js?v=59';
+import { esc } from './format.js?v=59';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=59';
+import { initSplash } from './splash.js?v=59';
 
 /* ---------- app state ---------- */
 

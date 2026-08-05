@@ -10,16 +10,16 @@ import {
   state, filmFor, filmById, titleOf, screeningsForFilm, nextScreening,
   isPast, todayISO, shortVenue, is35mm, versionOf, strandOf, isEnglishFriendly,
   closedCinemasOn, posterUrl, backdropUrl, POSTER_LARGE, initialOf, isMultiplex, multiplexChainOf,
-} from './data.js?v=58';
+} from './data.js?v=59';
 
 import {
   DOW, esc, fold, dateOf, shortDate, longDay, whenLabel, yearIfDifferent,
   posterTile, chip, runtimeLabel, densityDots,
-} from './format.js?v=58';
+} from './format.js?v=59';
 
-import { store } from './store.js?v=58';
-import { isPushSupported } from './push.js?v=58';
-import { initCinemaMap } from './map.js?v=58';
+import { store } from './store.js?v=59';
+import { isPushSupported } from './push.js?v=59';
+import { initCinemaMap } from './map.js?v=59';
 
 /* One save affordance, used everywhere a film can be added to Chci vidět —
    Program rows, Premiéry, the watchlist itself. A filled champagne heart when
@@ -752,6 +752,15 @@ export function renderMap(el) {
     `<p class="attribution">
       Program aktualizován ${esc(generated)}<br>
       ${state.screenings.length} projekcí · ${state.films.size} filmů
+    </p>` +
+    /* FIX (going public): no dedicated settings/about screen exists to hang
+       this off since Profil split into Mapa + the notify toggle in Chci
+       vidět (see the module comment above) — same "small trust-relevant
+       info, nowhere better to live" reasoning as the freshness line above
+       it, so it gets its own line in the same quiet, small-print style
+       rather than a new section. */
+    `<p class="attribution">
+      Beam neukládá nic na server kromě volitelných push upozornění (anonymní, bez účtu a e-mailu) — seznam Chci vidět a filtry zůstávají jen v tomto zařízení.
     </p>`;
 
   /* Not awaited: renderMap() stays synchronous like every other render
