@@ -141,6 +141,17 @@ def test_flora_wrapper_calls_through_with_its_own_name_and_id():
 # Helper units
 # --------------------------------------------------------------------------
 
+def test_special_release_suffix_is_stripped_from_the_title():
+    # Vista's own catalog has a separate entry for a Ukrainian-dubbed print
+    # of the same film, named "Spider-Man: Zbrusu nový den UKR" in its own
+    # `name` field — found live 2026-08-06 at Cinema City Zličín.
+    assert cinema_city._clean_title("Spider-Man: Zbrusu nový den UKR") == "Spider-Man: Zbrusu nový den"
+
+
+def test_clean_title_leaves_an_ordinary_title_untouched():
+    assert cinema_city._clean_title("Odyssea") == "Odyssea"
+
+
 def test_language_info_maps_dubbed_titulky_and_original():
     dabing, dabing_eng, dabing_lang = cinema_city._language_info(
         {"original": ["en"], "dubbed": ["cs"], "subtitles": []}

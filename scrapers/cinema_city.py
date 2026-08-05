@@ -67,6 +67,24 @@ STRAND_ATTRS = [
     ("laser-barco", "Laser"),
 ]
 
+# Found live (2026-08-05, while adding CineStar — Vista's own film catalog
+# has the same kind of quirk CineStar's turned out to have systematically,
+# just a single isolated case here rather than a general pattern): one
+# special-release film entry carries this trailing token in its own `name`
+# field — "Spider-Man: Zbrusu nový den UKR", a Ukrainian-dubbed print,
+# distinct from the normal Czech-market entry for the same film. Checked
+# across 6 locations x 3 days and this is the only title affected, so a
+# narrow allowlist rather than a general heuristic is the right scope here —
+# extend it if another location/date ever turns up a second one.
+_TITLE_SUFFIX_TOKENS = {"UKR"}
+
+
+def _clean_title(name: str) -> str:
+    tokens = name.split()
+    while tokens and tokens[-1] in _TITLE_SUFFIX_TOKENS:
+        tokens.pop()
+    return " ".join(tokens).strip() or name.strip()
+
 
 def scrape(cinema: str, cinema_id: str, payloads: dict[str, dict] | None = None) -> dict:
     """
@@ -154,7 +172,7 @@ def _screening_from_event(event: dict, films_by_id: dict, cinema: str) -> Screen
 
     return Screening(
         cinema=cinema,
-        title_cz=film["name"],
+        title_cz=_clean_title(film["name"]),
         date=screening_date,
         time=screening_time,
         language=language,
