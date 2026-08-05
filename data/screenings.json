@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T18:49:24+02:00",
+  "generated_at": "2026-08-05T19:03:26+02:00",
   "cinemas": [
     {
       "name": "Kino Aero",
@@ -3145,187 +3145,6 @@
       "film_id": "odyssea"
     },
     {
-      "cinema": "Cinema City Chodov",
-      "title_cz": "Odyssea",
-      "date": "2026-08-05",
-      "time": "18:40",
-      "language": "angličtina",
-      "format": "",
-      "note": "Laser",
-      "english_friendly": true,
-      "language_version": "titulky",
-      "strand": "Laser",
-      "hall": "9",
-      "tags": [
-        "15-plus",
-        "2d",
-        "drama",
-        "first-subbed-lang-cs",
-        "history",
-        "laser-barco",
-        "original-lang-en",
-        "subbed"
-      ],
-      "booking_url": "https://www.cinemacity.cz/cz/booking-router/launch/221245?lang=cs",
-      "poster_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R.jpg",
-      "director": "",
-      "runtime_min": 180,
-      "source_id": "221245",
-      "imdb_url": "",
-      "film_id": "odyssea"
-    },
-    {
-      "cinema": "Cinema City Chodov",
-      "title_cz": "Spider-Man: Zbrusu nový den",
-      "date": "2026-08-05",
-      "time": "18:40",
-      "language": "angličtina",
-      "format": "",
-      "note": "VIP",
-      "english_friendly": true,
-      "language_version": "titulky",
-      "strand": "VIP",
-      "hall": "18",
-      "tags": [
-        "12-plus",
-        "2d",
-        "action",
-        "adventure",
-        "first-subbed-lang-cs",
-        "laser-barco",
-        "original-lang-en",
-        "sci-fi",
-        "subbed",
-        "vip"
-      ],
-      "booking_url": "https://www.cinemacity.cz/cz/booking-router/launch/221227?lang=cs",
-      "poster_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8085S2R.jpg",
-      "director": "",
-      "runtime_min": 145,
-      "source_id": "221227",
-      "imdb_url": "",
-      "film_id": "spider man zbrusu novy den"
-    },
-    {
-      "cinema": "Cinema City Letňany",
-      "title_cz": "Odyssea",
-      "date": "2026-08-05",
-      "time": "18:40",
-      "language": "angličtina",
-      "format": "",
-      "note": "dabing",
-      "english_friendly": false,
-      "language_version": "dabing",
-      "strand": "",
-      "hall": "11",
-      "tags": [
-        "15-plus",
-        "2d",
-        "drama",
-        "dubbed",
-        "dubbed-lang-cs",
-        "history",
-        "original-lang-en"
-      ],
-      "booking_url": "https://www.cinemacity.cz/cz/booking-router/launch/222788?lang=cs",
-      "poster_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R.jpg",
-      "director": "",
-      "runtime_min": 180,
-      "source_id": "222788",
-      "imdb_url": "",
-      "film_id": "odyssea"
-    },
-    {
-      "cinema": "Cinema City Letňany",
-      "title_cz": "Posedlost",
-      "date": "2026-08-05",
-      "time": "18:40",
-      "language": "angličtina",
-      "format": "",
-      "note": "titulky",
-      "english_friendly": true,
-      "language_version": "titulky",
-      "strand": "",
-      "hall": "5",
-      "tags": [
-        "15-plus",
-        "2d",
-        "first-subbed-lang-cs",
-        "horror",
-        "original-lang-en",
-        "subbed"
-      ],
-      "booking_url": "https://www.cinemacity.cz/cz/booking-router/launch/222869?lang=cs",
-      "poster_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8134S3I.jpg",
-      "director": "",
-      "runtime_min": 109,
-      "source_id": "222869",
-      "imdb_url": "",
-      "film_id": "posedlost"
-    },
-    {
-      "cinema": "Cinema City Nový Smíchov",
-      "title_cz": "Odyssea",
-      "date": "2026-08-05",
-      "time": "18:40",
-      "language": "angličtina",
-      "format": "",
-      "note": "Laser",
-      "english_friendly": true,
-      "language_version": "titulky",
-      "strand": "Laser",
-      "hall": "12",
-      "tags": [
-        "15-plus",
-        "2d",
-        "drama",
-        "first-subbed-lang-cs",
-        "history",
-        "laser-barco",
-        "original-lang-en",
-        "subbed"
-      ],
-      "booking_url": "https://www.cinemacity.cz/cz/booking-router/launch/223157?lang=cs",
-      "poster_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7268S2R.jpg",
-      "director": "",
-      "runtime_min": 180,
-      "source_id": "223157",
-      "imdb_url": "",
-      "film_id": "odyssea"
-    },
-    {
-      "cinema": "Cinema City Zličín",
-      "title_cz": "Odvážná Vaiana",
-      "date": "2026-08-05",
-      "time": "18:40",
-      "language": "angličtina",
-      "format": "",
-      "note": "dabing",
-      "english_friendly": false,
-      "language_version": "dabing",
-      "strand": "",
-      "hall": "7",
-      "tags": [
-        "2d",
-        "adventure",
-        "comedy",
-        "dubbed",
-        "dubbed-lang-cs",
-        "family",
-        "fantasy",
-        "musical",
-        "original-lang-en",
-        "suitable-for-all"
-      ],
-      "booking_url": "https://www.cinemacity.cz/cz/booking-router/launch/221874?lang=cs",
-      "poster_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/1808S2R.jpg",
-      "director": "",
-      "runtime_min": 115,
-      "source_id": "221874",
-      "imdb_url": "",
-      "film_id": "odvazna vaiana"
-    },
-    {
       "cinema": "CineStar Anděl",
       "title_cz": "Posedlost",
       "date": "2026-08-05",
@@ -3727,31 +3546,6 @@
       "film_id": "spider man zbrusu novy den"
     },
     {
-      "cinema": "Edison Filmhub",
-      "title_cz": "Princezna kosmolesba",
-      "date": "2026-08-05",
-      "time": "19:00",
-      "language": "angličtina",
-      "format": "",
-      "note": "Čtvrtá vlna / Prague Pride / + Q&A Julie Šafová",
-      "english_friendly": true,
-      "language_version": "titulky",
-      "strand": "Čtvrtá vlna / Prague Pride / + Q&A Julie Šafová",
-      "hall": "",
-      "tags": [
-        "Čtvrtá vlna",
-        "Prague Pride",
-        "+ Q&A Julie Šafová"
-      ],
-      "booking_url": "https://edisonfilmhub.cz/filmy/princezna-kosmolesba",
-      "poster_url": "",
-      "director": "",
-      "runtime_min": null,
-      "source_id": "",
-      "imdb_url": "",
-      "film_id": "princezna kosmolesba"
-    },
-    {
       "cinema": "Premiere Cinemas Praha Hostivař",
       "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-05",
@@ -4134,7 +3928,7 @@
       "strand": "",
       "hall": "",
       "tags": [],
-      "booking_url": "https://www.premierecinemas.cz/vstupenky/171077/",
+      "booking_url": "",
       "poster_url": "",
       "director": "",
       "runtime_min": null,
@@ -12705,7 +12499,7 @@
     },
     {
       "cinema": "Cinema City Zličín",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-06",
       "time": "14:40",
       "language": "angličtina",
@@ -12731,7 +12525,7 @@
       "runtime_min": 145,
       "source_id": "227173",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Kino Pilotů",
@@ -13110,7 +12904,7 @@
     },
     {
       "cinema": "Cinema City Nový Smíchov",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-06",
       "time": "15:00",
       "language": "angličtina",
@@ -13137,7 +12931,7 @@
       "runtime_min": 145,
       "source_id": "227279",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Cinema City Slovanský dům",
@@ -14760,7 +14554,7 @@
     },
     {
       "cinema": "Cinema City Chodov",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-06",
       "time": "16:30",
       "language": "angličtina",
@@ -14787,7 +14581,7 @@
       "runtime_min": 145,
       "source_id": "224721",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Cinema City Chodov",
@@ -16049,7 +15843,7 @@
     },
     {
       "cinema": "Cinema City Slovanský dům",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-06",
       "time": "17:20",
       "language": "angličtina",
@@ -16075,7 +15869,7 @@
       "runtime_min": 145,
       "source_id": "225552",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Premiere Cinemas Praha Hostivař",
@@ -27296,7 +27090,7 @@
     },
     {
       "cinema": "Cinema City Zličín",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-07",
       "time": "14:40",
       "language": "angličtina",
@@ -27322,7 +27116,7 @@
       "runtime_min": 145,
       "source_id": "227774",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Kino Světozor",
@@ -27656,7 +27450,7 @@
     },
     {
       "cinema": "Cinema City Nový Smíchov",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-07",
       "time": "15:00",
       "language": "angličtina",
@@ -27683,7 +27477,7 @@
       "runtime_min": 145,
       "source_id": "227572",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Cinema City Slovanský dům",
@@ -29279,7 +29073,7 @@
     },
     {
       "cinema": "Cinema City Chodov",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-07",
       "time": "16:30",
       "language": "angličtina",
@@ -29306,7 +29100,7 @@
       "runtime_min": 145,
       "source_id": "226805",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Cinema City Chodov",
@@ -30528,7 +30322,7 @@
     },
     {
       "cinema": "Cinema City Slovanský dům",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-07",
       "time": "17:20",
       "language": "angličtina",
@@ -30554,7 +30348,7 @@
       "runtime_min": 145,
       "source_id": "225901",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Premiere Cinemas Praha Hostivař",
@@ -42464,7 +42258,7 @@
     },
     {
       "cinema": "Cinema City Zličín",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-08",
       "time": "14:40",
       "language": "angličtina",
@@ -42490,7 +42284,7 @@
       "runtime_min": 145,
       "source_id": "228032",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Kino Atlas",
@@ -42843,7 +42637,7 @@
     },
     {
       "cinema": "Cinema City Nový Smíchov",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-08",
       "time": "15:00",
       "language": "angličtina",
@@ -42870,7 +42664,7 @@
       "runtime_min": 145,
       "source_id": "227573",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Cinema City Slovanský dům",
@@ -44540,7 +44334,7 @@
     },
     {
       "cinema": "Cinema City Chodov",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-08",
       "time": "16:30",
       "language": "angličtina",
@@ -44567,7 +44361,7 @@
       "runtime_min": 145,
       "source_id": "226806",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Cinema City Chodov",
@@ -45875,7 +45669,7 @@
     },
     {
       "cinema": "Cinema City Slovanský dům",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-08",
       "time": "17:20",
       "language": "angličtina",
@@ -45901,7 +45695,7 @@
       "runtime_min": 145,
       "source_id": "225902",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Premiere Cinemas Praha Hostivař",
@@ -57742,7 +57536,7 @@
     },
     {
       "cinema": "Cinema City Zličín",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-09",
       "time": "14:40",
       "language": "angličtina",
@@ -57768,7 +57562,7 @@
       "runtime_min": 145,
       "source_id": "228039",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Kino Atlas",
@@ -58098,7 +57892,7 @@
     },
     {
       "cinema": "Cinema City Nový Smíchov",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-09",
       "time": "15:00",
       "language": "angličtina",
@@ -58125,7 +57919,7 @@
       "runtime_min": 145,
       "source_id": "227574",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Cinema City Slovanský dům",
@@ -59741,7 +59535,7 @@
     },
     {
       "cinema": "Cinema City Chodov",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-09",
       "time": "16:30",
       "language": "angličtina",
@@ -59768,7 +59562,7 @@
       "runtime_min": 145,
       "source_id": "226807",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Cinema City Letňany",
@@ -60142,7 +59936,7 @@
     },
     {
       "cinema": "Cinema City Slovanský dům",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-09",
       "time": "16:40",
       "language": "angličtina",
@@ -60168,7 +59962,7 @@
       "runtime_min": 145,
       "source_id": "225930",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Cinema City Zličín",
@@ -71980,7 +71774,7 @@
     },
     {
       "cinema": "Cinema City Zličín",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-10",
       "time": "14:40",
       "language": "angličtina",
@@ -72006,7 +71800,7 @@
       "runtime_min": 145,
       "source_id": "227841",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Kino Lucerna",
@@ -72364,7 +72158,7 @@
     },
     {
       "cinema": "Cinema City Nový Smíchov",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-10",
       "time": "15:00",
       "language": "angličtina",
@@ -72391,7 +72185,7 @@
       "runtime_min": 145,
       "source_id": "227575",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Cinema City Slovanský dům",
@@ -73920,7 +73714,7 @@
     },
     {
       "cinema": "Cinema City Chodov",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-10",
       "time": "16:30",
       "language": "angličtina",
@@ -73947,7 +73741,7 @@
       "runtime_min": 145,
       "source_id": "226808",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Cinema City Chodov",
@@ -75139,7 +74933,7 @@
     },
     {
       "cinema": "Cinema City Slovanský dům",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
+      "title_cz": "Spider-Man: Zbrusu nový den",
       "date": "2026-08-10",
       "time": "17:20",
       "language": "angličtina",
@@ -75165,7 +74959,7 @@
       "runtime_min": 145,
       "source_id": "225903",
       "imdb_url": "",
-      "film_id": "spider man zbrusu novy den ukr"
+      "film_id": "spider man zbrusu novy den"
     },
     {
       "cinema": "Premiere Cinemas Praha Hostivař",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T18:52:09+02:00",
+  "generated_at": "2026-08-05T19:03:57+02:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -9986,31 +9986,6 @@
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0
-    },
-    {
-      "film_id": "spider man zbrusu novy den ukr",
-      "title_cz": "Spider-Man: Zbrusu nový den UKR",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8085S2R1.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Spider-Man%3A+Zbrusu+nov%C3%BD+den+UKR",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Spider-Man: Zbrusu nový den UKR'",
-      "match_score": 0.0
     },
     {
       "film_id": "spoutej me",
