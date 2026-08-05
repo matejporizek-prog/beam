@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T07:39:11+00:00",
+  "generated_at": "2026-08-05T18:53:02+02:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -2430,6 +2430,53 @@
       "age_rating": "",
       "tmdb_id": 1084728,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Asterix+a+Obelix%3A+Kr%C3%A1lovstv%C3%AD+N%C3%BAbie+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-12-03"
+    },
+    {
+      "film_id": "silena noc 2",
+      "title_cz": "Šílená noc 2",
+      "title_en": "Violent Night 2",
+      "original_title": "Violent Night 2",
+      "year": 2026,
+      "synopsis": "When Santa forgets the true meaning of Christmas, he finds himself in the heart of a lively mall community in desperate need of his help. Sapped of his magic, he’ll need another way to take on the goons threatening the mall, and time is running out. Santa has to rediscover his faith in goodness and call in some last-minute reinforcements from the one person no baddie wants to tangle with: Mrs. Claus",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Akční",
+        "Komedie",
+        "Fantasy"
+      ],
+      "director": [
+        "Tommy Wirkola"
+      ],
+      "screenwriter": [
+        "Pat Casey",
+        "Josh Miller"
+      ],
+      "cast": [
+        "David Harbour",
+        "Kristen Bell",
+        "Daniela Melchior",
+        "Jared Harris",
+        "Joe Pantoliano",
+        "Maxwell Jacob Friedman",
+        "Andrew Bachelor",
+        "Maggie Robertson"
+      ],
+      "production_company": [
+        "87North Productions",
+        "Universal Pictures"
+      ],
+      "poster_path": "/wKgTxSjVZBjtTzK1wEXkLffaWC1.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/uvYnQE4I40J5vtj2acWYWSlv672.jpg",
+      "trailer_youtube_key": "FmM2giDwLAE",
+      "age_rating": "R (US)",
+      "tmdb_id": 1078446,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%A0%C3%ADlen%C3%A1+noc+2+2026",
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
