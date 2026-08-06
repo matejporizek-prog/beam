@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T22:37:36+02:00",
+  "generated_at": "2026-08-06T07:39:58+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -292,31 +292,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:27:34+02:00"
-    },
-    {
-      "film_id": "aero naslepo",
-      "title_cz": "Aero naslepo",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2021/09/24/28a6125ad3f3bc6a23eb203337ad059b.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Aero+naslepo",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Aero naslepo'",
-      "match_score": 0.0
     },
     {
       "film_id": "aftersun",
@@ -1758,6 +1733,31 @@
       "resolved_at": "2026-08-05T22:27:51+02:00"
     },
     {
+      "film_id": "david robert mitchell double feature",
+      "title_cz": "David Robert Mitchell double feature",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/07/23/b7876da4117474734de958bd28798176.webp",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=David+Robert+Mitchell+double+feature",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'David Robert Mitchell double feature'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "dealer",
       "title_cz": "Dealer",
       "title_en": "Pusher",
@@ -2245,6 +2245,52 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-08-05T22:27:57+02:00"
+    },
+    {
+      "film_id": "drazi soudruzi",
+      "title_cz": "Drazí soudruzi!",
+      "title_en": "Dear Comrades!",
+      "original_title": "Дорогие товарищи!",
+      "year": 2020,
+      "synopsis": "Provinční město na jihu SSSR, 1962. Lyudmila, oddaná úřednice komunistické strany a idealistická veteránka z druhé světové války, je metlou všeho, co vnímá jako protisovětský sentiment. Spolu s dalšími místními úředníky strany je zaskočena stávkou v místní továrně, které se účastní její vlastní dcera. Vzhledem k tomu, že se situace rychle vymkla kontrole, začala Lyudmila zoufale pátrat po své dceři tváří v tvář zákazům vycházení, hromadnému zatýkání a bezohledným pokusům úřadů zakrýt státní násilí. Její kdysi nezpochybnitelná víra ve stranickou linii je otřesena jejím rostoucím povědomím o lidských ztrátách, které tříští její povědomí o světu.",
+      "synopsis_language": "cs",
+      "runtime_min": 121,
+      "genres": [
+        "Historický",
+        "Drama"
+      ],
+      "director": [
+        "Andrei Konchalovsky"
+      ],
+      "screenwriter": [
+        "Elena Kiseleva",
+        "Andrei Konchalovsky"
+      ],
+      "cast": [
+        "Yuliya Vysotskaya",
+        "Sergei Erlish",
+        "Yulia Burova",
+        "Andrei Gusev",
+        "Vladislav Komarov",
+        "Dmitry Kostyaev",
+        "Вячеслав Пигарев",
+        "Владимир Бабаев"
+      ],
+      "production_company": [
+        "Production Center of Andrei Konchalovsky",
+        "Russia 1"
+      ],
+      "poster_path": "/cSGuuDsKoU3R0HF0alWHvUjLqU3.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/kQjoo1BCMaItNOrLxZU3g5X75NC.jpg",
+      "trailer_youtube_key": "_l72XC45UDE",
+      "age_rating": "",
+      "tmdb_id": 587609,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Draz%C3%AD+soudruzi%21+2020",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-06T07:39:55+00:00"
     },
     {
       "film_id": "drink draw tove",
@@ -3708,6 +3754,31 @@
       "resolved_at": "2026-08-05T22:28:11+02:00"
     },
     {
+      "film_id": "magicka posedlost 2",
+      "title_cz": "Magická posedlost 2",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Magick%C3%A1+posedlost+2",
+      "resolved": false,
+      "match_reason": "no candidate scored above 0.75",
+      "match_score": 0.389
+    },
+    {
       "film_id": "mala amelie",
       "title_cz": "Malá Amélie",
       "title_en": "Little Amélie or the Character of Rain",
@@ -4516,58 +4587,6 @@
       "resolved_at": "2026-08-05T22:28:20+02:00"
     },
     {
-      "film_id": "nejhorsi clovek na svete",
-      "title_cz": "Nejhorší člověk na světě",
-      "title_en": "The Worst Person in the World",
-      "original_title": "Verdens verste menneske",
-      "year": 2021,
-      "synopsis": "Film o půvabné dívce, která se v životě stále hledá. Před třicítkou se ostatně obor studia i partner mění snadno; netřeba se věnovat něčemu, co vás nebaví, ani se zaklesnout ve vztahu bez jiskry. Mladický elán i bezstarostnost ale jednoho dne vyprchají, zrovna ve chvíli, kdy Juliino zmatené srdce tápe…",
-      "synopsis_language": "cs",
-      "runtime_min": 128,
-      "genres": [
-        "Drama",
-        "Romantický",
-        "Komedie"
-      ],
-      "director": [
-        "Joachim Trier"
-      ],
-      "screenwriter": [
-        "Joachim Trier",
-        "Eskil Vogt"
-      ],
-      "cast": [
-        "Renate Reinsve",
-        "Anders Danielsen Lie",
-        "Herbert Nordrum",
-        "Hans Olav Brenner",
-        "Helene Bjørneby",
-        "Vidar Sandem",
-        "Maria Grazia Di Meo",
-        "Lasse Gretland"
-      ],
-      "production_company": [
-        "Oslo Pictures",
-        "Film i Väst",
-        "Snowglobe",
-        "B-Reel Films",
-        "ARTE France Cinéma",
-        "MK Productions",
-        "mk2 Films"
-      ],
-      "poster_path": "/xzSWjMLwFdxWNxw5brmZl7PZlae.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/woYGBHERSMhIHqmkkRCbCXp81l4.jpg",
-      "trailer_youtube_key": "aXrm8V75H4E",
-      "age_rating": "18+",
-      "tmdb_id": 660120,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Nejhor%C5%A1%C3%AD+%C4%8Dlov%C4%9Bk+na+sv%C4%9Bt%C4%9B+2021",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-05T22:28:21+02:00"
-    },
-    {
       "film_id": "nenavist",
       "title_cz": "Nenávist",
       "title_en": "La Haine",
@@ -4952,31 +4971,6 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Othello+%28Opera%29",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Othello (Opera)'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "p ride duhove ozveny p festu",
-      "title_cz": "P*ride: duhové ozvěny P*festu",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/07/10/25857f4e1175cbb7e3c0fbff7b0d3454.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=P%2Aride%3A+duhov%C3%A9+ozv%C4%9Bny+P%2Afestu",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'P*ride: duhové ozvěny P*festu'",
       "match_score": 0.0
     },
     {
@@ -6107,6 +6101,54 @@
       "resolved_at": "2026-08-05T22:28:38+02:00"
     },
     {
+      "film_id": "resident evil",
+      "title_cz": "Resident Evil",
+      "title_en": "Resident Evil",
+      "original_title": "Resident Evil",
+      "year": 2026,
+      "synopsis": "Bryan, a medical courier, is in the process of making a delivery when a sudden outbreak occurs, forcing him to fight for survival.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Horor",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Zach Cregger"
+      ],
+      "screenwriter": [
+        "Shay Hatten",
+        "Zach Cregger"
+      ],
+      "cast": [
+        "Austin Abrams",
+        "Zach Cherry",
+        "Kali Reis",
+        "Paul Walter Hauser",
+        "Johnno Wilson"
+      ],
+      "production_company": [
+        "Constantin Film",
+        "Subconscious",
+        "Vertigo Entertainment",
+        "Davis Films",
+        "Columbia Pictures",
+        "PlayStation Productions",
+        "TriStar Pictures"
+      ],
+      "poster_path": "/qku2uWSoJ9amQV5MWo1Eek29iji.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/ddfXMkaPViSrg0P5aoYGFMc58x2.jpg",
+      "trailer_youtube_key": "mNd1gb19A-c",
+      "age_rating": "",
+      "tmdb_id": 1423191,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Resident+Evil+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-06T07:39:56+00:00"
+    },
+    {
       "film_id": "reznici",
       "title_cz": "Řezníci",
       "title_en": "The Green Butchers",
@@ -6296,6 +6338,53 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:28:39+02:00"
+    },
+    {
+      "film_id": "rose",
+      "title_cz": "Rose",
+      "title_en": "Rose",
+      "original_title": "Rose",
+      "year": 2026,
+      "synopsis": "In the turmoil of the Thirty-Years' War, a mysterious soldier appears in a secluded Protestant village claiming to be heir to a long-abandoned manor. His quest for recognition and acceptance are complicated by his secret: under a false identity, false name, and pretense of a false gender, he has made his way to the village. But to achieve her goals, Rose, as the soldier is actually called, will stop at nothing.",
+      "synopsis_language": "en",
+      "runtime_min": 93,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Markus Schleinzer"
+      ],
+      "screenwriter": [
+        "Markus Schleinzer"
+      ],
+      "cast": [
+        "Sandra Hüller",
+        "Caro Braun",
+        "Marisa Growaldt",
+        "Godehard Giese",
+        "Robert Gwisdek",
+        "Maria Dragus",
+        "Annalisa Hohl",
+        "Augustino Renken"
+      ],
+      "production_company": [
+        "Schubert",
+        "Row Pictures",
+        "Walker & Worm Film",
+        "ORF",
+        "ZDF"
+      ],
+      "poster_path": "/9xxcGE5NOtiC5qnNuWwqKqE3iIQ.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/1KUzZMCBOtInUFoGUEJJsQyQKVi.jpg",
+      "trailer_youtube_key": "80xR3G5eowo",
+      "age_rating": "",
+      "tmdb_id": 1176962,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Rose+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-06T07:39:57+00:00"
     },
     {
       "film_id": "rozchod nadera a simin",
@@ -8164,31 +8253,6 @@
       "resolved_at": "2026-08-05T22:29:02+02:00"
     },
     {
-      "film_id": "umamusume pretty derby beginning of a new era",
-      "title_cz": "Umamusume: Pretty Derby - Beginning of a New Era",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Umamusume%3A+Pretty+Derby+-+Beginning+of+a+New+Era",
-      "resolved": false,
-      "match_reason": "no candidate scored above 0.75",
-      "match_score": 0.0
-    },
-    {
       "film_id": "vagabundi na cestach",
       "title_cz": "Vagabundi na Cestách | Pěšky přes půl planety: z Bali do Česka",
       "title_en": "",
@@ -8397,6 +8461,57 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-08-05T22:29:04+02:00"
+    },
+    {
+      "film_id": "zahada silver lake",
+      "title_cz": "Záhada Silver Lake",
+      "title_en": "Under the Silver Lake",
+      "original_title": "Under the Silver Lake",
+      "year": 2018,
+      "synopsis": "Neo-noir točící se kolem třiatřicetiletého Sama, který se po zmizení své mysteriózní sousedky Sarah pouští do surreálného pátrání, aby dekódoval tajemství, skandály a konspirace ukrývající se v hlubinách Města andělů.",
+      "synopsis_language": "cs",
+      "runtime_min": 139,
+      "genres": [
+        "Krimi",
+        "Drama",
+        "Mysteriózní"
+      ],
+      "director": [
+        "David Robert Mitchell"
+      ],
+      "screenwriter": [
+        "David Robert Mitchell"
+      ],
+      "cast": [
+        "Andrew Garfield",
+        "Riley Keough",
+        "Topher Grace",
+        "Callie Hernandez",
+        "Don McManus",
+        "Jeremy Bobb",
+        "Riki Lindhome",
+        "Patrick Fischler"
+      ],
+      "production_company": [
+        "Michael De Luca Productions",
+        "Good Fear",
+        "PASTEL",
+        "UnLTD Productions",
+        "Salem Street Entertainment",
+        "Boo Pictures",
+        "Vendian Entertainment"
+      ],
+      "poster_path": "/xrV6ceP2z7RAc2bTfZTE2wRSF7F.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2025/04/23/519f3de6b03e2555c0a87853d9bb8695.jpg",
+      "backdrop_path": "/44dgugY6wBUFfJdaVOhNfr6E5g3.jpg",
+      "trailer_youtube_key": "FzeoCQKYajI",
+      "age_rating": "R (US)",
+      "tmdb_id": 396461,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Z%C3%A1hada+Silver+Lake+2018",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.05, title 1.00)",
+      "match_score": 1.05,
+      "resolved_at": "2026-08-06T07:39:58+00:00"
     },
     {
       "film_id": "zapisky skutecneho zlocince",

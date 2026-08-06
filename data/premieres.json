@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T19:04:05+02:00",
+  "generated_at": "2026-08-06T07:40:00+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -958,6 +958,46 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "release_date": "2026-09-10"
+    },
+    {
+      "film_id": "bara basikova",
+      "title_cz": "Bára Basiková",
+      "title_en": "Bára - Diary of a Rockstar",
+      "original_title": "Bára Basiková",
+      "year": 2026,
+      "synopsis": "Bára Basiková is an icon of Czech rock and other music genres. To what extent can her public, media-distorted image differ from the person she really is? The answer comes in the form of the latest long-term documentary study from Helena Třeštíková, whose empathy, coupled with admirable self-reflection and openness on the part of the protagonist, gives rise to a fascinating film portrait: over the course of fifty years we follow a woman who demonstrates remarkable strength as she faces the challenges of both her professional and private lives.​",
+      "synopsis_language": "en",
+      "runtime_min": 97,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Helena Třeštíková"
+      ],
+      "screenwriter": [
+        "Helena Třeštíková"
+      ],
+      "cast": [
+        "Bára Basiková"
+      ],
+      "production_company": [
+        "Negativ",
+        "Česká televize",
+        "innogy Česká republika",
+        "Miro Agency"
+      ],
+      "poster_path": "/3zCUPN7GNdhuZRw5N3hj5bIUxWb.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/o2ZAoRrMxpsZ1Kj7C6xjgjfSBOS.jpg",
+      "trailer_youtube_key": "DzufiGIJRNc",
+      "age_rating": "",
+      "tmdb_id": 1708935,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=B%C3%A1ra+Basikov%C3%A1+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-06T07:40:00+00:00",
+      "release_date": "2026-09-17"
     },
     {
       "film_id": "coyote vs acme",
