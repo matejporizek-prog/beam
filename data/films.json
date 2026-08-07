@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T07:39:58+00:00",
+  "generated_at": "2026-08-07T06:09:05+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -75,54 +75,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:27:32+02:00"
-    },
-    {
-      "film_id": "120 bpm",
-      "title_cz": "120 BPM",
-      "title_en": "BPM (Beats per Minute)",
-      "original_title": "120 battements par minute",
-      "year": 2017,
-      "synopsis": "Paris, in the early 1990s: a group of young activists is desperately tied to finding the cure against an unknown lethal disease. They target the pharmaceutical labs that are retaining potential cures, and multiply direct actions, with the hope of saving their lives as well as the ones of future generations.",
-      "synopsis_language": "en",
-      "runtime_min": 143,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Robin Campillo"
-      ],
-      "screenwriter": [
-        "Philippe Mangeot",
-        "Robin Campillo"
-      ],
-      "cast": [
-        "Nahuel Pérez Biscayart",
-        "Arnaud Valois",
-        "Adèle Haenel",
-        "Antoine Reinartz",
-        "Félix Maritaud",
-        "Ariel Borenstein",
-        "Aloïse Sauvage",
-        "Simon Bourgade"
-      ],
-      "production_company": [
-        "Les Films de Pierre",
-        "Page 114",
-        "Memento Production",
-        "Playtime",
-        "France 3 Cinéma"
-      ],
-      "poster_path": "/7mdxe4MfqBdKGeKZAZYELJmCKVT.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/1pyUrlbTVCkGkcu7LsGMqxuCtkP.jpg",
-      "trailer_youtube_key": "4GzCfjF0vDU",
-      "age_rating": "",
-      "tmdb_id": 451945,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=120+BPM+2017",
-      "resolved": true,
-      "match_reason": "manual override",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:27:33+02:00"
     },
     {
       "film_id": "6 gramu",
@@ -1024,53 +976,6 @@
       "resolved_at": "2026-08-05T22:27:43+02:00"
     },
     {
-      "film_id": "bitva o alzir",
-      "title_cz": "Bitva o Alžír",
-      "title_en": "The Battle of Algiers",
-      "original_title": "La battaglia di Algeri",
-      "year": 1966,
-      "synopsis": "Alžír, 7.října 1957. Francouzští vojáci donutí zajatce vyzradit adresu jednoho z posledních vůdců povstání Aliho Bodáka. Následuje retrospektiva. Bodák si s nejvěrnějšími připomíná klíčové okamžiky národně revolučního odboje, který trvá již tři léta. Nejprve zkouška: Ali dostane zbraň, kterou má zabít policistu, chybí mu však náboje... Po vyčištění vnitřních řad se odboj zaměří na přepadávání veřejných složek a krádeže zbraní, následují teroristické atentáty... Závěrečné záběry ukazují vítězství revoluce, která Alžír osvobodila 2. června 1962. Režisér Gillo Pontecorvo, původním povoláním novinář a aktivní účastník antifašistického odboje italské mládeže, se rozhodl Bitvu o Alžír natočit dokumentaristickou metodou. Po ročním studiu pramenů a zkoumání autentických míst alžírské revoluce realizoval \"nezapomenutelný obraz\", sugestivní výpověď, která má v řadě sekvencí sílu a věrohodnost autenticky snímaného materiálu.",
-      "synopsis_language": "cs",
-      "runtime_min": 122,
-      "genres": [
-        "Drama",
-        "Válečný",
-        "Historický"
-      ],
-      "director": [
-        "Gillo Pontecorvo"
-      ],
-      "screenwriter": [
-        "Franco Solinas",
-        "Gillo Pontecorvo"
-      ],
-      "cast": [
-        "Brahim Hadjadj",
-        "Mohamed Ben Kassen",
-        "Yacef Saâdi",
-        "Fouzia El Kader",
-        "Hadj Smaine Mohamed Seghir",
-        "Larbi Zekkal",
-        "Rouiched",
-        "Noureddine Brahimi"
-      ],
-      "production_company": [
-        "Igor Film",
-        "Casbah Film"
-      ],
-      "poster_path": "/ohqf21dJ8PBFmNLXwNCGAajJ1Tv.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/27/29ce520f01a73802953640b054eec4a6.jpg",
-      "backdrop_path": "/ze7GsNSv418o7pzqc9fb00LWWDk.jpg",
-      "trailer_youtube_key": "vhhoS3zOskE",
-      "age_rating": "NR (US)",
-      "tmdb_id": 17295,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Bitva+o+Al%C5%BE%C3%ADr+1966",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-05T22:27:44+02:00"
-    },
-    {
       "film_id": "blaznive",
       "title_cz": "Bláznivě",
       "title_en": "Madly",
@@ -1944,31 +1849,6 @@
       "resolved_at": "2026-08-05T22:27:54+02:00"
     },
     {
-      "film_id": "designblok uvadi film horke svatky",
-      "title_cz": "DesignBlok uvádí: film Hořké svátky",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/07/27/605243d09b15b835a76bd0d1dd118646.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=DesignBlok+uv%C3%A1d%C3%AD%3A+film+Ho%C5%99k%C3%A9+sv%C3%A1tky",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'DesignBlok uvádí: film Hořké svátky'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "detska nedele tlapkova patrola dinosauri film",
       "title_cz": "Dětská neděle - Tlapková patrola: Dinosauří film",
       "title_en": "",
@@ -2062,52 +1942,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:27:54+02:00"
-    },
-    {
-      "film_id": "dobre rano vietname",
-      "title_cz": "Dobré ráno, Vietname",
-      "title_en": "Good Morning, Vietnam",
-      "original_title": "Good Morning, Vietnam",
-      "year": 1987,
-      "synopsis": "Dobré ráno, Vietname! To je pozdrav nového discjockeye (Robin Williams) na vlnách armádního rozhlasu, který doslova srší humorem a miluje rock and roll... Nový moderátor na vlnách armádního rozhlasu zásadně změní ranní vysílání. Vojáci ho zbožňují, ale někteří nadřízení ho zkrátka nenávidí. Velmi lidský příběh ukazuje krutý čas války ve Vietnamu v protikladu s nesmrtelným humorem Robina Williamse a hudebních hitů té doby.",
-      "synopsis_language": "cs",
-      "runtime_min": 121,
-      "genres": [
-        "Komedie",
-        "Drama",
-        "Válečný"
-      ],
-      "director": [
-        "Barry Levinson"
-      ],
-      "screenwriter": [
-        "Mitch Markowitz"
-      ],
-      "cast": [
-        "Robin Williams",
-        "Forest Whitaker",
-        "Tom T. Tran",
-        "Chintara Sukapatana",
-        "Bruno Kirby",
-        "Robert Wuhl",
-        "J.T. Walsh",
-        "Noble Willingham"
-      ],
-      "production_company": [
-        "Touchstone Pictures",
-        "Silver Screen Partners III"
-      ],
-      "poster_path": "/sreISlFUn5TyR41QNjlfAdX5SEW.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/mbgJEkrJ0uBOakLwpufdmW4K8Im.jpg",
-      "trailer_youtube_key": "JnBXv3W0arQ",
-      "age_rating": "12+",
-      "tmdb_id": 801,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Dobr%C3%A9+r%C3%A1no%2C+Vietname+1987",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:27:55+02:00"
     },
     {
       "film_id": "dokonale dny",
@@ -2553,6 +2387,31 @@
       "resolved_at": "2026-08-05T22:27:59+02:00"
     },
     {
+      "film_id": "geislerky v oku",
+      "title_cz": "Geislerky v Oku",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/06/29/62594df6e032900f4dbdb078a0feb854.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Geislerky+v+Oku",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Geislerky v Oku'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "ghost 2 big to rig",
       "title_cz": "GHOST: 2 BIG TO RIG",
       "title_en": "2 Big to Rig",
@@ -2795,52 +2654,6 @@
       "resolved_at": "2026-08-05T22:28:03+02:00"
     },
     {
-      "film_id": "hrisny tanec",
-      "title_cz": "Hříšný tanec",
-      "title_en": "Dirty Dancing",
-      "original_title": "Dirty Dancing",
-      "year": 1987,
-      "synopsis": "Píše se rok 1963. Beatles v USA ještě nejsou známí a diskotékám kralují latinsko-americké tance. Do letoviska horského hotelu přijíždí na prázdninový pobyt 17letá Frances, všemi přezdívaná Baby, se sestrou Lisou a s rodiči. V hotelu se vyučují klasické tance, či tance z Latinské Ameriky, ale personál vyznává nejraději úplně jiný druh tance – tzv. dirty dancing (hříšný tanec). Baby se seznámí s tanečním instruktorem Johnnym a prožije nejen svou první lásku, ale i proměnu z „ošklivého káčátka“ na sebevědomou mladou ženu.",
-      "synopsis_language": "cs",
-      "runtime_min": 97,
-      "genres": [
-        "Drama",
-        "Hudební",
-        "Romantický"
-      ],
-      "director": [
-        "Emile Ardolino"
-      ],
-      "screenwriter": [
-        "Eleanor Bergstein"
-      ],
-      "cast": [
-        "Jennifer Grey",
-        "Patrick Swayze",
-        "Jerry Orbach",
-        "Cynthia Rhodes",
-        "Jack Weston",
-        "Jane Brucker",
-        "Kelly Bishop",
-        "Lonny Price"
-      ],
-      "production_company": [
-        "Great American Films Limited Partnership",
-        "Vestron Pictures"
-      ],
-      "poster_path": "/5tCJ8eCRhlvP4Ie1rqkn6igHnhS.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/6iDQCBUSZKzY8Rnu8ECwl2gXcfG.jpg",
-      "trailer_youtube_key": "0rzsa_KEoKs",
-      "age_rating": "18",
-      "tmdb_id": 88,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=H%C5%99%C3%AD%C5%A1n%C3%BD+tanec+1987",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.11, title 1.00)",
-      "match_score": 1.115,
-      "resolved_at": "2026-08-05T22:28:03+02:00"
-    },
-    {
       "film_id": "ja daniel blake",
       "title_cz": "Já, Daniel Blake",
       "title_en": "I, Daniel Blake",
@@ -2888,53 +2701,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:28:04+02:00"
-    },
-    {
-      "film_id": "jedna bitva za druhou",
-      "title_cz": "Jedna bitva za druhou",
-      "title_en": "One Battle After Another",
-      "original_title": "One Battle After Another",
-      "year": 2025,
-      "synopsis": "Šestnáct let po krvavých událostech minulosti se stíny starých nepřátel vracejí. Bývalí revolucionáři, kteří kdysi bojovali bok po boku a přežili nemožné, jsou nuceni znovu spojit své síly. Tentokrát jde o něco osobního – záchranu dcery jednoho z nich, které hrozí neodvratné nebezpečí. Každý krok je rizikem, každé rozhodnutí zkouškou odvahy, a staré spory mezi nimi se musí překonat, pokud chtějí přežít.",
-      "synopsis_language": "cs",
-      "runtime_min": 162,
-      "genres": [
-        "Thriller",
-        "Krimi",
-        "Komedie"
-      ],
-      "director": [
-        "Paul Thomas Anderson"
-      ],
-      "screenwriter": [
-        "Paul Thomas Anderson"
-      ],
-      "cast": [
-        "Leonardo DiCaprio",
-        "Sean Penn",
-        "Chase Infiniti",
-        "Benicio del Toro",
-        "Regina Hall",
-        "Teyana Taylor",
-        "Wood Harris",
-        "Tony Goldwyn"
-      ],
-      "production_company": [
-        "Warner Bros. Pictures",
-        "Ghoulardi Film Company",
-        "Domain Entertainment"
-      ],
-      "poster_path": "/8VJ7Cbvk1KTPwMMQj5mquGqOGFT.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2025/09/10/81ec393b4bc51b86f0226a2c8cba111d.jpg",
-      "backdrop_path": "/zpEWFNqoN8Qg1SzMMHmaGyOBTdW.jpg",
-      "trailer_youtube_key": "u6GVb4p7oD4",
-      "age_rating": "15+",
-      "tmdb_id": 1054867,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Jedna+bitva+za+druhou+2025",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-05T22:28:05+02:00"
     },
     {
       "film_id": "jesus christ superstar",
@@ -3366,58 +3132,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Královský balet: ROMEO A JULIE (2026/27)'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "kralovstvi kocek",
-      "title_cz": "Království koček",
-      "title_en": "The Cat Returns",
-      "original_title": "猫の恩返し",
-      "year": 2002,
-      "synopsis": "Dívka Haru zachrání kocoura, který přecházel rušnou ulici. Tím ale uvede do chodu sérii fantaskních událostí, které ji přivedou až do království koček. Onen kocour totiž byl kočičí princ a jeho otec, aby projevil vděk, za něj chce Haru provdat. Pomoc před nedobrovolným osudem Haru nalézá v Kočičí obchodní kanceláři. Ta sídlí ve světě bytostí, které mají duši, tedy výtvorů lidské představivosti. Jedním z nich je i elegantní Baron, který se spolu s přízemním kocourem Mutou a chrličem Totem pokusí plánované svatbě zabránit.",
-      "synopsis_language": "cs",
-      "runtime_min": 75,
-      "genres": [
-        "Dobrodružný",
-        "Fantasy",
-        "Animovaný",
-        "Drama",
-        "Rodinný"
-      ],
-      "director": [
-        "Hiroyuki Morita"
-      ],
-      "screenwriter": [
-        "Reiko Yoshida"
-      ],
-      "cast": [
-        "Chizuru Ikewaki",
-        "Yoshihiko Hakamada",
-        "Aki Maeda",
-        "Tetsu Watanabe",
-        "Yousuke Saito",
-        "Takayuki Yamada",
-        "Hitomi Sato",
-        "Kenta Satoi"
-      ],
-      "production_company": [
-        "Studio Ghibli",
-        "Hakuhodo DY Media Partners",
-        "Mitsubishi",
-        "Nippon Television Network Corporation",
-        "TOHO",
-        "Tokuma Shoten"
-      ],
-      "poster_path": "/9ripXZmaPueob1qVgqJz4HWIGlm.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2024/03/07/afd0ea8c3bf10d8f5fc9ef55f45e08cc.jpg",
-      "backdrop_path": "/tlQtvjwwTAAbNbtZ7IIGPlY50Hx.jpg",
-      "trailer_youtube_key": "yVnlvaxFQ6E",
-      "age_rating": "U",
-      "tmdb_id": 15370,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1lovstv%C3%AD+ko%C4%8Dek+2002",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-05T22:28:07+02:00"
     },
     {
       "film_id": "kraska v ruzovem",
@@ -4401,62 +4115,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:28:18+02:00"
-    },
-    {
-      "film_id": "mrzuta rybka",
-      "title_cz": "Mrzutá rybka",
-      "title_en": "The Pout-Pout Fish",
-      "original_title": "The Pout-Pout Fish",
-      "year": 2026,
-      "synopsis": "Living on a rundown shipwreck, Mr. Fish one day discovers a hyperactive young sea dragon Pip – who had mistaken his home for a junkyard – pilfering his belongings. The heated argument that ensues leaves both their houses in ruin. But there is hope! Embarking on a seemingly impossible quest in search of the mythical 'Shimmer' to grant them a wish, there’s only one problem: someone else is on the hunt...",
-      "synopsis_language": "en",
-      "runtime_min": 91,
-      "genres": [
-        "Animovaný",
-        "Rodinný",
-        "Dobrodružný",
-        "Komedie"
-      ],
-      "director": [
-        "Ricard Cussó"
-      ],
-      "screenwriter": [
-        "Elie Choufany",
-        "Elise Allen",
-        "Dominic Morris"
-      ],
-      "cast": [
-        "Nick Offerman",
-        "Nina Oyama",
-        "Miranda Otto",
-        "Amy Sedaris",
-        "Jordin Sparks",
-        "Remy Hii",
-        "Mark Coles Smith",
-        "Nazeem Hussain"
-      ],
-      "production_company": [
-        "MIMO Studios",
-        "Like A Photon Creative",
-        "Macmillan Films",
-        "Cosmic Dino Studio",
-        "Alceon Entertainment Partners",
-        "Eclectik Vision",
-        "Screen Queensland",
-        "Sola Media",
-        "Maslow Entertainment"
-      ],
-      "poster_path": "/fcDXgGL14qL46It1XOozEjX5Jws.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/6qQQhhF87Rm1z2TYhXAmoPiEHME.jpg",
-      "trailer_youtube_key": "NhQfp1eITTY",
-      "age_rating": "PG (US)",
-      "tmdb_id": 1146058,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Mrzut%C3%A1+rybka+2026",
-      "resolved": true,
-      "match_reason": "manual override",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:19+02:00"
     },
     {
       "film_id": "mumbo jumbo",
@@ -5926,31 +5584,6 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:28:36+02:00"
-    },
-    {
-      "film_id": "pta et al revoluce na platne",
-      "title_cz": "PTA et al. - Revoluce na plátně",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/29/223342c2e1b405c9193c41a3bad9dcee.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=PTA+et+al.+-+Revoluce+na+pl%C3%A1tn%C4%9B",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'PTA et al. - Revoluce na plátně'",
-      "match_score": 0.0
     },
     {
       "film_id": "pulp fiction",
@@ -8461,6 +8094,31 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-08-05T22:29:04+02:00"
+    },
+    {
+      "film_id": "vyprodano film brunch hrisny tanec",
+      "title_cz": "Vyprodáno: Film & Brunch: Hříšný tanec",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Vyprod%C3%A1no%3A+Film+%26+Brunch%3A+H%C5%99%C3%AD%C5%A1n%C3%BD+tanec",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Vyprodáno: Film & Brunch: Hříšný tanec'",
+      "match_score": 0.0
     },
     {
       "film_id": "zahada silver lake",

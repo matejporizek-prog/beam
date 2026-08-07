@@ -1,136 +1,7 @@
 {
-  "generated_at": "2026-08-06T07:40:00+00:00",
+  "generated_at": "2026-08-07T06:09:08+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
-    {
-      "film_id": "6 gramu",
-      "title_cz": "6 gramů",
-      "title_en": "6 gramů",
-      "original_title": "6 gramů",
-      "year": 2026,
-      "synopsis": "Na lyžařském výcviku je u studentů na pokoji nalezen pytlík s bílým práškem. Čtyři otcové: divadelní herec, finanční poradce, realitní makléř s politickými ambicemi a městský policista tak zažijí odpoledne, které se rychle vymkne kontrole. Ředitelka školy si je předvolá, aby zjistila, kdo za to může.",
-      "synopsis_language": "cs",
-      "runtime_min": 90,
-      "genres": [
-        "Komedie"
-      ],
-      "director": [
-        "Miroslav Ondruš"
-      ],
-      "screenwriter": [
-        "Miroslav Ondruš"
-      ],
-      "cast": [
-        "Ondřej Vetchý",
-        "David Novotný",
-        "Jiří Mádl",
-        "Martin Pechlát",
-        "Lenka Vlasáková",
-        "Leona Skleničková",
-        "Petr Uhlík",
-        "Erika Stárková"
-      ],
-      "production_company": [],
-      "poster_path": "/xNMDEgXPeCnvdE9m49X5RNFMvnB.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/igMQSUE0EIsQQXUEsaFTX1wupAO.jpg",
-      "trailer_youtube_key": "bUrpCmnPuG8",
-      "age_rating": "",
-      "tmdb_id": 1671297,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=6+gram%C5%AF+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "release_date": "2026-08-06"
-    },
-    {
-      "film_id": "dve deci tuse",
-      "title_cz": "Dvě deci tuše",
-      "title_en": "A Pint of Ink",
-      "original_title": "Dvě deci tuše",
-      "year": 2026,
-      "synopsis": "Through photographs, home videos, letters and personal recollections, Ester Geislerová composes a portrait of Japanologist, translator, journalist, educator, calligrapher—and her father—Petr Geisler, a charismatic charmer who remained mysteriously elusive even to his closest family.",
-      "synopsis_language": "en",
-      "runtime_min": 83,
-      "genres": [
-        "Dokumentární"
-      ],
-      "director": [
-        "Ester Geislerová"
-      ],
-      "screenwriter": [],
-      "cast": [
-        "Petr Geisler"
-      ],
-      "production_company": [
-        "Total HelpArt T.H.A.",
-        "Sonnyboy",
-        "Česká televize"
-      ],
-      "poster_path": "/5N5c3UMns2vZIWpiPcgpv3GTKKB.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/o7y82VVvFe1Iq0Pl33xPUrwiDny.jpg",
-      "trailer_youtube_key": "ZzqLMg8h6Jw",
-      "age_rating": "",
-      "tmdb_id": 1706744,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Dv%C4%9B+deci+tu%C5%A1e+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "release_date": "2026-08-06"
-    },
-    {
-      "film_id": "zmrzlinar",
-      "title_cz": "Zmrzlinář",
-      "title_en": "Ice Cream Man",
-      "original_title": "Ice Cream Man",
-      "year": 2026,
-      "synopsis": "V městečku Bayleen Bay panuje horké léto. Děti si užívají prázdniny, dospělí řeší své každodenní starosti a zdá se, že nic nemůže narušit ospalou atmosféru malého města. Pak ale přijíždí zmrzlinář...  Rozdává úsměvy, jeho vůz hraje známou, veselou melodii a nabízí lahodnou zmrzlinu, které žádné dítě nedokáže odolat. Jenže po prvním soustu se začíná dít něco znepokojivého. Děti se mění. Jsou agresivní, nevyzpytatelné a stále nebezpečnější. Zatímco se město propadá do chaosu, hrstka těch, kteří odolali, se snaží přijít na to, kdo tajemný zmrzlinář je a proč si vybral právě je.",
-      "synopsis_language": "cs",
-      "runtime_min": 86,
-      "genres": [
-        "Horor",
-        "Thriller"
-      ],
-      "director": [
-        "Eli Roth"
-      ],
-      "screenwriter": [
-        "Eli Roth",
-        "Noah Belson"
-      ],
-      "cast": [
-        "Ari Millen",
-        "Charlie Zeltzer",
-        "Shiloh O’Reilly",
-        "Kiori Mirza Waldman",
-        "Sarah Abbott",
-        "Benjamin Byron Davis",
-        "Karen Cliche",
-        "Dylan Hawco"
-      ],
-      "production_company": [
-        "The Horror Section",
-        "Media Capital Technologies",
-        "Head Gear Films",
-        "Mass Appeal",
-        "Metrol Technology",
-        "dentsu",
-        "Sixth Dimension",
-        "StudioCanal"
-      ],
-      "poster_path": "/fiMbQi3XceIrpZ70MTOJLTdLPGU.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/75pK9Dj1CheZFItgld9TVvb2P4x.jpg",
-      "trailer_youtube_key": "ZC3ilNa5a38",
-      "age_rating": "NR (US)",
-      "tmdb_id": 1477712,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Zmrzlin%C3%A1%C5%99+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "release_date": "2026-08-06"
-    },
     {
       "film_id": "birthday party",
       "title_cz": "Birthday Party",
@@ -457,6 +328,60 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-08-20"
+    },
+    {
+      "film_id": "tom a jerry kouzelny kompas",
+      "title_cz": "Tom a Jerry: Kouzelný kompas",
+      "title_en": "Tom and Jerry: Forbidden Compass",
+      "original_title": "猫和老鼠：星盘奇缘",
+      "year": 2025,
+      "synopsis": "During a chase inside a museum, Tom and Jerry find an ancient magical compass and end up being transported through time. Lost in a distant era, they will need to work together to find a way back home.",
+      "synopsis_language": "en",
+      "runtime_min": 99,
+      "genres": [
+        "Animovaný",
+        "Komedie",
+        "Rodinný",
+        "Fantasy",
+        "Dobrodružný"
+      ],
+      "director": [
+        "Zhang Gang"
+      ],
+      "screenwriter": [
+        "Zhang Gang",
+        "Bob Boyle"
+      ],
+      "cast": [
+        "John Shang",
+        "Ruan Yifei",
+        "Jiang Wen",
+        "Shun Zi",
+        "Lan Long",
+        "Tu Xiongfei",
+        "Li Baixin",
+        "Li Hanlin"
+      ],
+      "production_company": [
+        "Warner Bros. China",
+        "China Film 中国电影股份",
+        "Wu Zhou Film Distribution",
+        "Original Force Animation",
+        "Origin Animation",
+        "China Film Group Corporation"
+      ],
+      "poster_path": "/8wzghxpAWxKA9GVRvvO9FZTeFqX.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/9VM1KI9sVZETl0d00FK7CnBzxiw.jpg",
+      "trailer_youtube_key": "VBPlpfK6zXg",
+      "age_rating": "PG (US)",
+      "tmdb_id": 1497970,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Tom+a+Jerry%3A+Kouzeln%C3%BD+kompas+2025",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-07T06:09:07+00:00",
       "release_date": "2026-08-20"
     },
     {
@@ -957,6 +882,54 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-09-10"
+    },
+    {
+      "film_id": "",
+      "title_cz": "호프",
+      "title_en": "Hope",
+      "original_title": "호프",
+      "year": 2026,
+      "synopsis": "In the remote South Korean village of Hope Harbor, police chief Bum-seok and officer Sung-ae are called to investigate a mysterious creature wreaking havoc on the community. But all is not as it seems, and perceptions can be misleading. What begins as ignorance plants the seed of disaster, escalating through human conflict into a tragedy of cosmic proportions.",
+      "synopsis_language": "en",
+      "runtime_min": 157,
+      "genres": [
+        "Vědeckofantastický",
+        "Mysteriózní",
+        "Akční"
+      ],
+      "director": [
+        "Na Hong-jin"
+      ],
+      "screenwriter": [
+        "Na Hong-jin"
+      ],
+      "cast": [
+        "Hwang Jung-min",
+        "Zo In-sung",
+        "Hoyeon",
+        "Alicia Vikander",
+        "Michael Fassbender",
+        "Taylor Russell",
+        "Cameron Britton",
+        "Lee Sang-hee"
+      ],
+      "production_company": [
+        "Forged Films",
+        "Plus M Entertainment",
+        "Westworld Story"
+      ],
+      "poster_path": "/ptqlN6mDIAqJjVA86J5eOoG82zc.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/i0lipAm0VHFA3EH0CPV0s5LJMIE.jpg",
+      "trailer_youtube_key": "R5jcEBVBEbQ",
+      "age_rating": "",
+      "tmdb_id": 1058424,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%ED%98%B8%ED%94%84+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-07T06:09:07+00:00",
       "release_date": "2026-09-10"
     },
     {
