@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T05:47:28+00:00",
+  "generated_at": "2026-08-10T06:11:00+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -706,6 +706,53 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-09-03"
+    },
+    {
+      "film_id": "teenage sex and death at camp miasma",
+      "title_cz": "Teenage Sex and Death at Camp Miasma",
+      "title_en": "Teenage Sex and Death at Camp Miasma",
+      "original_title": "Teenage Sex and Death at Camp Miasma",
+      "year": 2026,
+      "synopsis": "After years of slapdash sequels and waning fandom, the Camp Miasma slasher franchise is handed over to an enthusiastic young director for resurrection. But when she visits the original's star, a now-reclusive actress shrouded in mystery, the two women fall into a blood-soaked world of desire, fear, and delirium.",
+      "synopsis_language": "en",
+      "runtime_min": 112,
+      "genres": [
+        "Komedie",
+        "Horor",
+        "Romantický"
+      ],
+      "director": [
+        "Jane Schoenbrun"
+      ],
+      "screenwriter": [
+        "Jane Schoenbrun"
+      ],
+      "cast": [
+        "Hannah Einbinder",
+        "Gillian Anderson",
+        "Amanda Fix",
+        "Arthur Conti",
+        "Eva Victor",
+        "Zach Cherry",
+        "Sarah Sherman",
+        "Patrick Fischler"
+      ],
+      "production_company": [
+        "MUBI",
+        "Plan B Entertainment"
+      ],
+      "poster_path": "/5Cz1EJOKpZ8hqvBNZYF9C2zTB2T.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/d1n2ySWSanU34eEsluRjfrjRq52.jpg",
+      "trailer_youtube_key": "j9TsiTgYZGw",
+      "age_rating": "R (US)",
+      "tmdb_id": 1240889,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Teenage+Sex+and+Death+at+Camp+Miasma+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-10T06:10:59+00:00",
       "release_date": "2026-09-03"
     },
     {
@@ -2869,6 +2916,53 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "release_date": "2026-12-31"
+    },
+    {
+      "film_id": "vlkodlak",
+      "title_cz": "Vlkodlak",
+      "title_en": "Werwulf",
+      "original_title": "Werwulf",
+      "year": 2026,
+      "synopsis": "Ve středověké Británii se mlhavou krajinou potuluje tajemná bytost, která mění místní folklór v děsivou realitu, zatímco vesničané čelí prastaré nadpřirozené hrozbě.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Horor"
+      ],
+      "director": [
+        "Robert Eggers"
+      ],
+      "screenwriter": [
+        "Robert Eggers",
+        "Sjón"
+      ],
+      "cast": [
+        "Aaron Taylor-Johnson",
+        "Lily-Rose Depp",
+        "Willem Dafoe",
+        "Bodhi Rae Breathnach",
+        "Ralph Ineson",
+        "Vidal Arzoni",
+        "Ned Dennehy",
+        "Jack Morris"
+      ],
+      "production_company": [
+        "Working Title Films",
+        "Maiden Voyage Pictures",
+        "Focus Features"
+      ],
+      "poster_path": "/imnkSt4PSQpxIuyiRpJCiLk3SZz.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/jmW9NkzbpI9vhyxJU2x644Nj7VU.jpg",
+      "trailer_youtube_key": "cmjpadVj-Vk",
+      "age_rating": "",
+      "tmdb_id": 1421903,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Vlkodlak+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-10T06:11:00+00:00",
+      "release_date": "2027-01-07"
     }
   ]
 }
