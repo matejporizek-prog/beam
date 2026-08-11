@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T06:11:00+00:00",
+  "generated_at": "2026-08-11T05:52:38+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -1260,6 +1260,52 @@
       "release_date": "2026-09-24"
     },
     {
+      "film_id": "linkin park unshatter",
+      "title_cz": "LINKIN PARK: UNSHATTER",
+      "title_en": "LINKIN PARK: UNSHATTER",
+      "original_title": "LINKIN PARK: UNSHATTER",
+      "year": 2026,
+      "synopsis": "Po sedmileté odmlce, která následovala po zdrcující ztrátě jejich milovaného zpěváka Chestera Benningtona, hledají zbývající členové LINKIN PARK složitě cestu vpřed. Jejich společná minulost a letité přátelství v kombinaci se svěžím pohledem dvou nových členů kapely však zažehnou novou kreativní energii, která je zavede na transformativní cestu uměleckého znovuzrození. Film UNSHATTER sleduje kapelu od prvních osobních setkání ve studiu v roce 2022 přes vydání nového alba FROM ZERO až po velkolepý koncert v S?o Paulu a propojuje vzácné archivní záběry, strhující záběry z vyprodaných představení a upřímné rozhovory s členy kapely i jejich fanoušky. Zachycuje tak syrový a upřímný příběh o tom, co znamená začít znovu.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Hudební",
+        "Dokumentární"
+      ],
+      "director": [
+        "Joe Hahn"
+      ],
+      "screenwriter": [
+        "Igor Kovalik"
+      ],
+      "cast": [
+        "Emily Armstrong",
+        "Mike Shinoda",
+        "Joe Hahn",
+        "Dave Farrell",
+        "Colin Brittain",
+        "Alex Feder",
+        "Brad Delson"
+      ],
+      "production_company": [
+        "CJ 4DPLEX",
+        "CJ 4DPLEX America",
+        "hungryman"
+      ],
+      "poster_path": "/6oe1rQunmYBz8dAKKbmE7IsmlR8.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/sEpHqsxIhAo7Q7fNZ4G60RxUgrP.jpg",
+      "trailer_youtube_key": "K9Lpxc7bVTM",
+      "age_rating": "",
+      "tmdb_id": 1388805,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=LINKIN+PARK%3A+UNSHATTER+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-11T05:52:38+00:00",
+      "release_date": "2026-09-30"
+    },
+    {
       "film_id": "digger",
       "title_cz": "Digger",
       "title_en": "Digger",
@@ -2311,6 +2357,54 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-11-12"
+    },
+    {
+      "film_id": "paper tiger",
+      "title_cz": "Paper Tiger",
+      "title_en": "Paper Tiger",
+      "original_title": "Paper Tiger",
+      "year": 2026,
+      "synopsis": "Two brothers become entangled in a scheme that turns out to be too good to be true. As they try to navigate their way through the dangerous world of the Russian mafia, family bonds begin to fray with life-altering consequences.",
+      "synopsis_language": "en",
+      "runtime_min": 115,
+      "genres": [
+        "Krimi",
+        "Drama",
+        "Thriller"
+      ],
+      "director": [
+        "James Gray"
+      ],
+      "screenwriter": [
+        "James Gray"
+      ],
+      "cast": [
+        "Adam Driver",
+        "Miles Teller",
+        "Scarlett Johansson",
+        "Gavin Goudey",
+        "Roman Engel",
+        "Cindy Katz",
+        "Yavor Vesselinov",
+        "Victor Ptak"
+      ],
+      "production_company": [
+        "RT Features",
+        "Leone Film Group",
+        "Keep Your Head Productions"
+      ],
+      "poster_path": "/v023L1AFtd3rpy61B5JiEOR1sMF.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/7MdKguHQw1n5Mfhj0vC5QRkrgj9.jpg",
+      "trailer_youtube_key": "ldCb77jXIsM",
+      "age_rating": "R (US)",
+      "tmdb_id": 1381273,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Paper+Tiger+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-11T05:52:38+00:00",
       "release_date": "2026-11-12"
     },
     {
