@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T05:52:38+00:00",
+  "generated_at": "2026-08-12T06:11:47+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -235,6 +235,54 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "release_date": "2026-08-13"
+    },
+    {
+      "film_id": "chica checa",
+      "title_cz": "Chica Checa",
+      "title_en": "Czech Girl",
+      "original_title": "Chica Checa",
+      "year": 2026,
+      "synopsis": "Pětapadesátiletá Zdena na první pohled vede obyčejný život venkovské pošťačky. Jednoduché to ale nemá. Dům se rozpadá a samotu jí pomáhají zahánět okurky a televize. Její syn Lukáš žije ve Francii – úspěšný, šťastný, vzdálený – aspoň tak to působí na obrazovce starého počítače, přes který jsou občas v kontaktu. Když Lukášova babička Věra (Věra Janků) vysloví své poslední přání – vidět Helenu Vondráčkovou – zdá se to jako rozmar umírající ženy. Jenže s příjezdem Lukáše domů přijede i tajemství, které roky pečlivě chránil. Jeho návštěva spustí lavinu: ukáže se, že je gay a živí se jako úspěšná drag queen Chica Checa. A také že Zdena touží po jiném životě, než okolí očekává. Snaha udělat devadesátileté babičce radost spojí Lukáše a Zdenu dohromady a možná trochu překvapí i je samotné. Protože když přestanete lhát svým nejbližším, musíte přestat lhát i sami sobě…",
+      "synopsis_language": "cs",
+      "runtime_min": 96,
+      "genres": [
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "Šimon Holý"
+      ],
+      "screenwriter": [
+        "Šimon Holý"
+      ],
+      "cast": [
+        "Pavla Tomicová",
+        "Alexandra Borbély",
+        "Jan Cina",
+        "Alena Doláková",
+        "Erwan Kepoa Falé",
+        "Jitka Schneiderová",
+        "Natálie Řehořová",
+        "Sara Venclovská"
+      ],
+      "production_company": [
+        "Silk Films",
+        "Česká televize",
+        "Arinafilm",
+        "The French Connection"
+      ],
+      "poster_path": "/77xmXH1OBm1a2CHPHv9tcsnEncp.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/aPvH6m2C9e9nJQv6CS2lDY5jOgF.jpg",
+      "trailer_youtube_key": "XUKn2SK7UI0",
+      "age_rating": "12+",
+      "tmdb_id": 1339767,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Chica+Checa+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-12T06:11:47+00:00",
+      "release_date": "2026-08-20"
     },
     {
       "film_id": "jsou mezi nami",

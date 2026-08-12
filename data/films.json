@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T05:52:36+00:00",
+  "generated_at": "2026-08-12T06:11:46+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -244,54 +244,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:27:34+02:00"
-    },
-    {
-      "film_id": "aftersun",
-      "title_cz": "Aftersun",
-      "title_en": "Aftersun",
-      "original_title": "Aftersun",
-      "year": 2022,
-      "synopsis": "Někdy v devadesátých letech, kdesi v tureckém přímořském resortu tráví dovolenou rozvedený mladý otec Calum se skoro náctiletou dcerou Sophií. Pohodové vystupování táty, který žádnou legraci nezkazí a baví se tím, že jej okolí považuje za dívčina staršího bratra, však zastírá znepokojivý závoj melancholie.",
-      "synopsis_language": "cs",
-      "runtime_min": 101,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Charlotte Wells"
-      ],
-      "screenwriter": [
-        "Charlotte Wells"
-      ],
-      "cast": [
-        "Paul Mescal",
-        "Frankie Corio",
-        "Brooklyn Toulson",
-        "Celia Rowlson-Hall",
-        "Sally Messham",
-        "Ayşe Parlak",
-        "Sophia Lamanova",
-        "Spike Fearn"
-      ],
-      "production_company": [
-        "PASTEL",
-        "BBC Film",
-        "Tango Entertainment",
-        "Unified Theory",
-        "Screen Scotland",
-        "BFI"
-      ],
-      "poster_path": "/sNhWDtzJx0S91N1kue8wr7OpZSj.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/4jdduww9j5RyzO4ITRcuBFhqNN1.jpg",
-      "trailer_youtube_key": "kdLHVqkNYw0",
-      "age_rating": "12+",
-      "tmdb_id": 965150,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Aftersun+2022",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:27:35+02:00"
     },
     {
       "film_id": "amazonie",
@@ -1723,6 +1675,53 @@
       "resolved_at": "2026-08-09T05:47:15+00:00"
     },
     {
+      "film_id": "dogman",
+      "title_cz": "Dogman",
+      "title_en": "Dog Man",
+      "original_title": "Dog Man",
+      "year": 2025,
+      "synopsis": "Tvořili nerozlučnou dvojku – polda a jeho pes. Jenže pak se přichomýtli ke kolosální explozi, která pro ně měla velmi vážné následky. Naštěstí se ocitli v rukou skvělých doktorů, kteří posbírali to, co z nich zbylo, spojili to dohromady a stvořili Dogmana. Od krku dolů vypadá jako úplně obyčejný lidský polda, od krku nahoru jako policejní pes. Dogman velmi brzy zjistí, že taková kombinace přináší pro práci prodloužené ruky zákona spoustu výhod, což oceňuje zejména policejní náčelník (jen kdyby ho Dogman pořád neolizoval a nehonil každou veverku, kterou uvidí). Hrdina s policejní plackou se všem hodí ve chvíli, kdy místní superpadouch, kocour Péťa, začne spřádat nový ďábelský plán, jenž mu má umožnit být ještě zlejší. Ve zkratce – naklonuje se a ze svého malého klona Peťulky vychová stejného zloducha, jako je on sám, aby jim šel zločin pěkně od ruky. Jenže je tu Dogman, který má na polopsa nečekanou slabost pro koťátka.",
+      "synopsis_language": "cs",
+      "runtime_min": 89,
+      "genres": [
+        "Rodinný",
+        "Komedie",
+        "Dobrodružný",
+        "Animovaný",
+        "Akční"
+      ],
+      "director": [
+        "Peter Hastings"
+      ],
+      "screenwriter": [
+        "Peter Hastings"
+      ],
+      "cast": [
+        "Peter Hastings",
+        "Pete Davidson",
+        "Lil Rel Howery",
+        "Isla Fisher",
+        "Lucas Hopkins Calderon",
+        "Ricky Gervais",
+        "Poppy Liu",
+        "Stephen Root"
+      ],
+      "production_company": [
+        "DreamWorks Animation"
+      ],
+      "poster_path": "/6qeqxXgCXutjcMZZI7rafwWCLIU.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2025/01/28/618b1f2c146f5cef0e7fcce231fad032.jpg",
+      "backdrop_path": "/iXU87IdtNsYt7n6OigPJBDdbFf1.jpg",
+      "trailer_youtube_key": "QaJbAennB_Q",
+      "age_rating": "U",
+      "tmdb_id": 774370,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Dogman+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.11, title 1.00)",
+      "match_score": 1.115,
+      "resolved_at": "2026-08-12T06:11:44+00:00"
+    },
+    {
       "film_id": "dovolena v ceskem raji",
       "title_cz": "Dovolená v Českém ráji",
       "title_en": "Bohemian Paradise",
@@ -2016,45 +2015,6 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-08-05T22:27:58+02:00"
-    },
-    {
-      "film_id": "elon a pokusni kralici",
-      "title_cz": "Elon a pokusní králíci",
-      "title_en": "Elon Musk Unveiled: The Tesla Experiment",
-      "original_title": "Elon Musk Uncovered: Das Tesla-Experiment",
-      "year": 2026,
-      "synopsis": "It's 2014 and tech billionaire Elon Musk unveils his plans for a self-driving car in front of an enthusiastic audience. What consumers don't know is that Tesla's \"autopilot\" function is far from road-ready, and new owners are being used to improve the software by providing their data. A fatal accident in Florida triggers a protracted lawsuit to hold Tesla accountable. And it's not the only incident. Shocking footage from dashcams and security cameras shows the ruthlessness of Tesla cars suddenly braking or accelerating—and the crashes that follow. Then, an employee leaks thousands of documents containing complaints from users.",
-      "synopsis_language": "en",
-      "runtime_min": 90,
-      "genres": [
-        "Dokumentární"
-      ],
-      "director": [
-        "Andreas Pichler"
-      ],
-      "screenwriter": [
-        "Andreas Pichler",
-        "Anne von Petersdorff",
-        "Christian Beetz"
-      ],
-      "cast": [
-        "Elon Musk",
-        "Donald Trump"
-      ],
-      "production_company": [
-        "Beetz Brothers Film Production"
-      ],
-      "poster_path": "/3zQwMGwaqJnYefiMUvTd4bDeokX.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/8kiI7O8EHGBxRZy93XLjSYSaVXt.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1567688,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Elon+a+pokusn%C3%AD+kr%C3%A1l%C3%ADci+2026",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:27:59+02:00"
     },
     {
       "film_id": "film za stovku",
@@ -2468,6 +2428,53 @@
       "resolved_at": "2026-08-05T22:28:05+02:00"
     },
     {
+      "film_id": "juno",
+      "title_cz": "Juno",
+      "title_en": "Juno",
+      "original_title": "Juno",
+      "year": 2007,
+      "synopsis": "Komedie o dospívání a jeho nečekaných nástrahách.  Juno je šestnáctiletá středoškolačka, která se potýká s nečekaným těhotenstvím. Otcem dítěte je další teenager Paulie, kterého ovšem ona nepovažuje za svého přítele. Chce, aby všechno skončilo jako špatný sen, ale zjišťuje, že musí začít situaci řešit. Využije pomoci své nejlepší přítelkyně Leah a uvažuje o Centru pro pomoc ženám, aby jí pomohlo s „rychlým potratem“, jak tomu sama říká. Před klinikou ale potká svou kamarádku Su-Chin, která odmítá potraty a přesvědčí ji, aby svoje rozhodnutí změnila.  Juno nakonec spolu s Leah nachází v Penny Saver inzerát od Marka a Vanessy Loringových, kteří zoufale touží po dítěti a právě zde začíná příběh mladičké dívky Juno a jejího dospívání.",
+      "synopsis_language": "cs",
+      "runtime_min": 96,
+      "genres": [
+        "Komedie",
+        "Drama",
+        "Romantický"
+      ],
+      "director": [
+        "Jason Reitman"
+      ],
+      "screenwriter": [
+        "Diablo Cody"
+      ],
+      "cast": [
+        "Elliot Page",
+        "Michael Cera",
+        "Jennifer Garner",
+        "Jason Bateman",
+        "J.K. Simmons",
+        "Allison Janney",
+        "Olivia Thirlby",
+        "Eileen Pedde"
+      ],
+      "production_company": [
+        "Mandate Pictures",
+        "Mr. Mudd",
+        "Fox Searchlight Pictures"
+      ],
+      "poster_path": "/jNIn2tVhpvFD6P9IojldI3mNYcn.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/04/adf1c19251bd7bb7cda415a9b023d01f.jpg",
+      "backdrop_path": "/sRXMmeNHTSWRYdDz3zaHNyyPJ0u.jpg",
+      "trailer_youtube_key": "miy1fE-8Z0U",
+      "age_rating": "15+",
+      "tmdb_id": 7326,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Juno+2007",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-08-12T06:11:45+00:00"
+    },
+    {
       "film_id": "kamaradi z papuchalkovy skaly",
       "title_cz": "Kamarádi z Papuchalkovy skály",
       "title_en": "Puffin Rock and the New Friends",
@@ -2841,51 +2848,6 @@
       "match_score": 0.0
     },
     {
-      "film_id": "kraska v ruzovem",
-      "title_cz": "Kráska v růžovém",
-      "title_en": "Pretty in Pink",
-      "original_title": "Pretty in Pink",
-      "year": 1986,
-      "synopsis": "Andie Walshová je osmnáctiletá studentka, která se musí postarat nejen o sebe, ale i o svého povalečského otce, který je nešťastný z útěku své manželky a neustále slibuje, že si najde práci. Andie je díky tomu jiná než její spolužáci. Sama si vlastnoručně tvoří všemožné růžové kreace a tím je stále všem na očích. Má svůj vlastní vkus a sebevědomí. Přesto ale zatím v životě nepoznala moc lásky. Jednoho dne se ale život Andy naprosto změní...",
-      "synopsis_language": "cs",
-      "runtime_min": 97,
-      "genres": [
-        "Romantický",
-        "Drama"
-      ],
-      "director": [
-        "Howard Deutch"
-      ],
-      "screenwriter": [
-        "John Hughes"
-      ],
-      "cast": [
-        "Molly Ringwald",
-        "Andrew McCarthy",
-        "Jon Cryer",
-        "Annie Potts",
-        "Harry Dean Stanton",
-        "James Spader",
-        "Kate Vernon",
-        "Alexa Kenin"
-      ],
-      "production_company": [
-        "Paramount Pictures",
-        "Hughes Entertainment"
-      ],
-      "poster_path": "/jeFJyzJBufJexpOuywuPp8q2tCJ.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/bZneRu42OnfMJzQJ0Mn39kCI5v3.jpg",
-      "trailer_youtube_key": "mRLQUGq8eE8",
-      "age_rating": "PG-13 (US)",
-      "tmdb_id": 11522,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1ska+v+r%C5%AF%C5%BEov%C3%A9m+1986",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:08+02:00"
-    },
-    {
       "film_id": "kratke leto",
       "title_cz": "Krátké léto",
       "title_en": "Short Summer",
@@ -2925,54 +2887,6 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1tk%C3%A9+l%C3%A9to+2025",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:09+02:00"
-    },
-    {
-      "film_id": "laska",
-      "title_cz": "Láska",
-      "title_en": "Love",
-      "original_title": "Love",
-      "year": 2015,
-      "synopsis": "Láska stojí mimo dobro a zlo. Láska je genetická potřeba. Láska je překonáním sebe sama. Láska je změněným stavem vědomí. Láska je tvrdá droga. Láska je duševní choroba. Láska je hra o moc. Láska je oslepující světlo. Láska je sperma, tělesné tekutiny a slzy. Láska se anglicky řekne Love. Love je vzrušující sexuální melodrama, které vypráví příběh jednoho kluka a jedné holky... a vlastně ještě jedné holky.",
-      "synopsis_language": "cs",
-      "runtime_min": 134,
-      "genres": [
-        "Drama",
-        "Romantický"
-      ],
-      "director": [
-        "Gaspar Noé"
-      ],
-      "screenwriter": [
-        "Gaspar Noé"
-      ],
-      "cast": [
-        "Karl Glusman",
-        "Aomi Muyock",
-        "Klara Kristin",
-        "Ugo Fox",
-        "Juan Saavedra",
-        "Gaspar Noé",
-        "Isabelle Nicou",
-        "Benoît Debie"
-      ],
-      "production_company": [
-        "Wild Bunch",
-        "Les Cinémas de la Zone",
-        "RT Features",
-        "Rectangle Productions",
-        "SCOPE Pictures"
-      ],
-      "poster_path": "/uc7ASg5JhTmDQOuColvxmNaTi7P.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/hoszursvZR1C054sTXVQBcBDory.jpg",
-      "trailer_youtube_key": "mR4JLD84RBo",
-      "age_rating": "NC-17 (US)",
-      "tmdb_id": 292431,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=L%C3%A1ska+2015",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:28:09+02:00"
     },
@@ -3786,57 +3700,6 @@
       "resolved_at": "2026-08-05T22:28:16+02:00"
     },
     {
-      "film_id": "mlceni",
-      "title_cz": "Mlčení",
-      "title_en": "Silence",
-      "original_title": "Silence",
-      "year": 2016,
-      "synopsis": "V polovině 17. století je Japonsko zcela uzavřené kontaktu se západními mocnostmi. Křesťanství je zde postavené mimo zákon a křesťané musí svou víru skrývat. Dva portugalští jezuité, otec Rodrigues (Andrew Garfield) a otec Garupe (Adam Driver), se vydávají do země vycházejícího slunce s velmi nebezpečným cílem: najít svého učitele, otce Ferreiru (Liam Neeson), který se prý zřekl víry. Japonští feudálové a vládnoucí samurajové jsou odhodláni křesťanství ve své zemi vymýtit. Šířit slovo Boží je jeden z nejtěžších zločinů. Křesťané jsou pronásledováni a brutálně mučeni. Buď se zřeknou své víry, nebo jsou vystaveni dlouhé agónii a bolestivé smrti. Mladé mnichy čeká ta nejtěžší zkouška víry a vytrvalosti, na kterou možná nejsou připraveni...",
-      "synopsis_language": "cs",
-      "runtime_min": 161,
-      "genres": [
-        "Drama",
-        "Historický"
-      ],
-      "director": [
-        "Martin Scorsese"
-      ],
-      "screenwriter": [
-        "Jay Cocks",
-        "Martin Scorsese"
-      ],
-      "cast": [
-        "Andrew Garfield",
-        "Adam Driver",
-        "Liam Neeson",
-        "Tadanobu Asano",
-        "Ciarán Hinds",
-        "Issey Ogata",
-        "Shinya Tsukamoto",
-        "Yoshi Oida"
-      ],
-      "production_company": [
-        "Waypoint Entertainment",
-        "Cappa Defina Productions",
-        "CatchPlay",
-        "Fábrica de Cine",
-        "SharpSword Films",
-        "Sikelia Productions",
-        "EFO Films"
-      ],
-      "poster_path": "/tU6xZKKvvLcrBcLIdGAQwVnFFgW.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/2tE0A6WjLowwQOUY8se1Xlf3O6U.jpg",
-      "trailer_youtube_key": "IqrgxZLd_gE",
-      "age_rating": "12+",
-      "tmdb_id": 68730,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Ml%C4%8Den%C3%AD+2016",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:17+02:00"
-    },
-    {
       "film_id": "mouchy",
       "title_cz": "Mouchy",
       "title_en": "Flies",
@@ -3880,55 +3743,6 @@
       "match_reason": "manual override",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:28:17+02:00"
-    },
-    {
-      "film_id": "mrs doubtfire tata v sukni",
-      "title_cz": "Mrs. Doubtfire - Táta v sukni",
-      "title_en": "Mrs. Doubtfire",
-      "original_title": "Mrs. Doubtfire",
-      "year": 1993,
-      "synopsis": "Kam až by takový běžný otec byl schopen zajít, aby mohl strávit více času se svými dětmi? Daniel Hillard není žádný běžný otec, takže jakmile se dozví, že jeho exmanželka potřebuje hospodyni, okamžitě se uchází o místo. Stačí perfektní paruka, trochu make-upu a šaty pro každou příležitost a Daniel se stává paní Doubtfire, loajální britskou chůvou, která je okamžitě přijata. Převlečený Daniel je najednou ženou, ačkoli nikdy netušil, že by jí mohl být, a to mu umožní začít s celou svou rodinou úplně nový život. Díky fantastickému, vtipnému a často i dojemnému Robinu Williamsovi se tento film stal kasovním trhákem, na který se dá dívat zas a znova.",
-      "synopsis_language": "cs",
-      "runtime_min": 120,
-      "genres": [
-        "Komedie",
-        "Drama",
-        "Rodinný"
-      ],
-      "director": [
-        "Chris Columbus"
-      ],
-      "screenwriter": [
-        "Leslie Dixon",
-        "Randi Mayem Singer",
-        "Jeffrey Price",
-        "Peter S. Seaman"
-      ],
-      "cast": [
-        "Robin Williams",
-        "Sally Field",
-        "Lisa Jakub",
-        "Matthew Lawrence",
-        "Mara Wilson",
-        "Pierce Brosnan",
-        "Robert Prosky",
-        "Anne Haney"
-      ],
-      "production_company": [
-        "20th Century Fox",
-        "Blue Wolf Productions"
-      ],
-      "poster_path": "/7A2ApHn5td2MCMIBY9nIu2gnZx8.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/f9X91dUckoRzOZlw4XBUOfkN9FC.jpg",
-      "trailer_youtube_key": "NBZ2ioWBxD8",
-      "age_rating": "U",
-      "tmdb_id": 788,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Mrs.+Doubtfire+-+T%C3%A1ta+v+sukni+1993",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:18+02:00"
     },
     {
       "film_id": "muj soused totoro",
@@ -4021,6 +3835,54 @@
       "match_reason": "manual override",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:28:19+02:00"
+    },
+    {
+      "film_id": "na skok do divociny",
+      "title_cz": "Na skok do divočiny",
+      "title_en": "Hoppers",
+      "original_title": "Hoppers",
+      "year": 2026,
+      "synopsis": "Připravovaná nová animovaná akční komedie představuje milovnici zvířat Mabel, která se chopí příležitosti – nebo vlastně skočí – vyzkoušet novou technologii, která jí umožňuje komunikovat se zvířaty novým vzrušujícím způsobem.",
+      "synopsis_language": "cs",
+      "runtime_min": 104,
+      "genres": [
+        "Dobrodružný",
+        "Animovaný",
+        "Komedie",
+        "Rodinný",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Daniel Chong"
+      ],
+      "screenwriter": [
+        "Jesse Andrews",
+        "Daniel Chong"
+      ],
+      "cast": [
+        "Piper Curda",
+        "Bobby Moynihan",
+        "Jon Hamm",
+        "Kathy Najimy",
+        "Dave Franco",
+        "Eduardo Franco",
+        "Aparna Nancherla",
+        "Tom Law"
+      ],
+      "production_company": [
+        "Pixar"
+      ],
+      "poster_path": "/iPIN0SZCyCHO0y6920HmTYfRgB8.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/02/18/46dd54a8ccd1b1316ebac4acbf005dce.jpg",
+      "backdrop_path": "/3Jj0A10NVu2dWnoEL5t5oT79L1Y.jpg",
+      "trailer_youtube_key": "PypDSyIRRSs",
+      "age_rating": "U",
+      "tmdb_id": 1327819,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Na+skok+do+divo%C4%8Diny+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-08-12T06:11:45+00:00"
     },
     {
       "film_id": "nahore nebe v doline ja",
@@ -4398,6 +4260,31 @@
       "resolved_at": "2026-08-05T22:28:25+02:00"
     },
     {
+      "film_id": "oko naslepo",
+      "title_cz": "Oko naslepo",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2021/10/14/f96164bb6d0fd921d281feaa33b128b7.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Oko+naslepo",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Oko naslepo'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "othello opera",
       "title_cz": "Othello (Opera)",
       "title_en": "",
@@ -4648,51 +4535,6 @@
       "age_rating": "U",
       "tmdb_id": 1525441,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Po+ve%C4%8Derce+2026",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-05T22:28:28+02:00"
-    },
-    {
-      "film_id": "poberta",
-      "title_cz": "Poberta",
-      "title_en": "Little Thief",
-      "original_title": "Poberta",
-      "year": 2026,
-      "synopsis": "Zloděj, lupič, chmaták, podvodník, darebák, gauner – to vše skrývá název zlodějské (heist) komedie s hlavním „hrdinou“ Lupynem, který se po propuštění z vězení vrací do rodného města. Sotva se ohřeje na svobodě, už plánuje se svými kumpány, kteří ho předtím vyměnili za podmíněné tresty, další kšeft. Do karet mu hraje probíhající pandemie, výjimečná situace, v níž neplatí pravidla, jež platila dosud. Lichvář Asasín se spolu s místním zkorumpovaným policistou snaží zjistit, kdo v jejich rajónu škodí, a vytěžit z toho pro sebe co nejvíc. Lupyn zase potřebuje peníze na nový život se svou láskou Tamarou, postupně se tak zaplétá do spirály lží a absurdních situací.",
-      "synopsis_language": "cs",
-      "runtime_min": 100,
-      "genres": [
-        "Krimi",
-        "Komedie"
-      ],
-      "director": [
-        "Ondřej Hudeček"
-      ],
-      "screenwriter": [
-        "Ondřej Hudeček"
-      ],
-      "cast": [
-        "Matyáš Řezníček",
-        "Václav Neužil",
-        "Stanislav Majer",
-        "Denisa Barešová",
-        "Lukáš Příkazký",
-        "Filip Kaňkovský",
-        "Petr Borovec",
-        "Eva Vrbková"
-      ],
-      "production_company": [
-        "Nutprodukce",
-        "Bontonfilm"
-      ],
-      "poster_path": "/lQJjlLTgyNHK2dmKjly2GqfYBzj.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/zZ1zrmwm2vglj75lkX6TcIdpnKy.jpg",
-      "trailer_youtube_key": "Yys3FGRyK48",
-      "age_rating": "12+",
-      "tmdb_id": 1620912,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Poberta+2026",
       "resolved": true,
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
@@ -5305,76 +5147,6 @@
       "resolved_at": "2026-08-05T22:28:35+02:00"
     },
     {
-      "film_id": "protagonista patrizia schlosser deepfake stud a hnev",
-      "title_cz": "Protagonista: Patrizia Schlosser - Deepfake, stud a hněv",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/07/28/a07a9f9810ac9a2b14f1ca46a9b48017.png",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Protagonista%3A+Patrizia+Schlosser+-+Deepfake%2C+stud+a+hn%C4%9Bv",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Protagonista: Patrizia Schlosser - Deepfake, stud a hněv'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "psycho",
-      "title_cz": "Psycho",
-      "title_en": "Psycho",
-      "original_title": "Psycho",
-      "year": 1960,
-      "synopsis": "Anthony Perkins jako duševně nemocný Norman Bates. Jeho starý ponurý dům slouží jako příležitostný motel a rozhodně není místem klidného odpočinku. O tom se přesvědčí i Marion Craneová (Janet Leigh). Soukromý detektiv (Martin Balsam) a Marionina sestra (Vera Miles) se vydávají po stopách zmizelé mladé Marion. Smrtelné napětí stoupá, až nakonec vyústí ve strašný a nevyhnutelný závěr.",
-      "synopsis_language": "cs",
-      "runtime_min": 109,
-      "genres": [
-        "Horor",
-        "Thriller",
-        "Mysteriózní"
-      ],
-      "director": [
-        "Alfred Hitchcock"
-      ],
-      "screenwriter": [
-        "Joseph Stefano"
-      ],
-      "cast": [
-        "Anthony Perkins",
-        "Janet Leigh",
-        "Vera Miles",
-        "John Gavin",
-        "Martin Balsam",
-        "John McIntire",
-        "Simon Oakland",
-        "Frank Albertson"
-      ],
-      "production_company": [
-        "Shamley Productions"
-      ],
-      "poster_path": "/3NykMwpWMNHgt9FlNTL5cm2dMR1.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/mufF1aYvwdpKerhq5R1YrVcbJLY.jpg",
-      "trailer_youtube_key": "D90QhegiVvo",
-      "age_rating": "U",
-      "tmdb_id": 539,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Psycho+1960",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:36+02:00"
-    },
-    {
       "film_id": "pulp fiction",
       "title_cz": "Pulp Fiction",
       "title_en": "Pulp Fiction",
@@ -5468,60 +5240,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-11T05:52:34+00:00"
-    },
-    {
-      "film_id": "quo vadis aida",
-      "title_cz": "Quo vadis, Aida?",
-      "title_en": "Quo Vadis, Aida?",
-      "original_title": "Quo Vadis, Aida?",
-      "year": 2021,
-      "synopsis": "Je rok 1995 a Aida pracuje jako překladatelka pro OSN ve Srebrenici. Její rodina je mezi tisícovkami místních, kteří hledají v „bezpečné zóně\" OSN útočiště před srbskou armádou. Pár hodin od míst, kde s oblibou trávíme letní dovolené, se schyluje k největší evropské tragédii od konce druhé světové války. Při vyjednáváních si Aida postupně uvědomuje vážnost situace. Jde o osud města i o život jejích milovaných. Podaří se jí je zachránit?",
-      "synopsis_language": "cs",
-      "runtime_min": 104,
-      "genres": [
-        "Válečný",
-        "Drama",
-        "Historický"
-      ],
-      "director": [
-        "Jasmila Žbanić"
-      ],
-      "screenwriter": [
-        "Hasan Nuhanovic",
-        "Jasmila Žbanić"
-      ],
-      "cast": [
-        "Jasna Đuričić",
-        "Izudin Bajrović",
-        "Boris Ler",
-        "Dino Bajrović",
-        "Johan Heldenbergh",
-        "Raymond Thiry",
-        "Boris Isaković",
-        "Emir Hadžihafizbegović"
-      ],
-      "production_company": [
-        "Deblokada",
-        "Digital Cube",
-        "N279 Entertainment",
-        "Extreme Emotions",
-        "Razor Film Produktion",
-        "Tordenfilm",
-        "Coop99 Filmproduktion",
-        "Indie Prod",
-        "TRT"
-      ],
-      "poster_path": "/rOx1ABDVE4DfjKYGgTGRha3fCPk.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/awElIr61fFpbudzlCfobIpbwEro.jpg",
-      "trailer_youtube_key": "ygbLfo2dtfo",
-      "age_rating": "",
-      "tmdb_id": 728118,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Quo+vadis%2C+Aida%3F+2021",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:38+02:00"
     },
     {
       "film_id": "resident evil",
@@ -6335,55 +6053,6 @@
       "resolved_at": "2026-08-05T22:28:48+02:00"
     },
     {
-      "film_id": "soukromy zivot",
-      "title_cz": "Soukromý život",
-      "title_en": "A Private Life",
-      "original_title": "Vie privée",
-      "year": 2025,
-      "synopsis": "Lilian Steiner je uznávaná psychiatrička. Jednoho dne se dozvídá o smrti jedné ze svých pacientek. Lilian je tou zprávou zasažená. Vsugeruje si, že se jedná o vraždu, a začíná pátrat na vlastní pěst.",
-      "synopsis_language": "cs",
-      "runtime_min": 108,
-      "genres": [
-        "Mysteriózní",
-        "Krimi",
-        "Drama"
-      ],
-      "director": [
-        "Rebecca Zlotowski"
-      ],
-      "screenwriter": [
-        "Anne Berest",
-        "Gaëlle Macé"
-      ],
-      "cast": [
-        "Jodie Foster",
-        "Daniel Auteuil",
-        "Virginie Efira",
-        "Mathieu Amalric",
-        "Vincent Lacoste",
-        "Luàna Bajrami",
-        "Noam Morgensztern",
-        "Sophie Guillemin"
-      ],
-      "production_company": [
-        "Les Films Velvet",
-        "France 3 Cinéma",
-        "Auvergne-Rhône-Alpes Cinéma",
-        "Buenos Hair"
-      ],
-      "poster_path": "/7aYpPqT2AK7zJIWSQ923cUrtVi5.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2025/10/14/00bc5c4d9bd637b3ef77d8d9acd58404.jpg",
-      "backdrop_path": "/3fZ5HvkrjaS34sZERshWm9koXdF.jpg",
-      "trailer_youtube_key": "2JabG5C6IU8",
-      "age_rating": "R (US)",
-      "tmdb_id": 1290432,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Soukrom%C3%BD+%C5%BEivot+2025",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:48+02:00"
-    },
-    {
       "film_id": "spasitel",
       "title_cz": "Spasitel",
       "title_en": "Project Hail Mary",
@@ -6666,31 +6335,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:28:53+02:00"
-    },
-    {
-      "film_id": "tajemstvi dzungle s uvodem a losovanim o darky",
-      "title_cz": "Tajemství džungle s úvodem a losováním o dárky",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Tajemstv%C3%AD+d%C5%BEungle+s+%C3%BAvodem+a+losov%C3%A1n%C3%ADm+o+d%C3%A1rky",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Tajemství džungle s úvodem a losováním o dárky'",
-      "match_score": 0.0
     },
     {
       "film_id": "tajemstvi kristalove planety",
@@ -7887,62 +7531,6 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-11T05:52:36+00:00"
-    },
-    {
-      "film_id": "ztratili jsme stalina",
-      "title_cz": "Ztratili jsme Stalina",
-      "title_en": "The Death of Stalin",
-      "original_title": "The Death of Stalin",
-      "year": 2017,
-      "synopsis": "5. března 1953 umírá muž. Tím mužem je Josef Stalin. Po jeho skonu vypuká v řadách jeho nejbližších naprostý zmatek a panika. Na to, co nastane po skonu velkého vůdce, se dosud báli jen pomyslet. Vždyť Lenin byl, je a bude vždy živý. Proč by nemohl i Stalin? Během jeho života se soustředili především na to, jak jej přežít. A teď se začnou naplno projevovat absurdní a pokřivené charaktery všech těchto Stalinových pohrobků. Začíná boj o veškerou moc nad komunistickou říší, která do této chvíle patřila jen a pouze brutálnímu diktátorovi. O nejvyšší post nebo aspoň o bezpečné místečko pod ním se perou ti, kteří se za dobu Stalinovy krutovlády dokázali zbavit jakéhokoli vlastního názoru. Stále se ujišťují, co by tomu nebo tamtomu řekl Stalin, a co by se jim za to asi tak mohlo stát. Povýšení? Gulag? Provaz? Koho se mají bát teď? Jedni kují pikle proti druhým a do toho společně organizují okázalý diktátorův pohřeb.",
-      "synopsis_language": "cs",
-      "runtime_min": 107,
-      "genres": [
-        "Komedie",
-        "Drama",
-        "Historický"
-      ],
-      "director": [
-        "Armando Iannucci"
-      ],
-      "screenwriter": [
-        "Fabien Nury",
-        "David Schneider",
-        "Ian Martin",
-        "Armando Iannucci"
-      ],
-      "cast": [
-        "Steve Buscemi",
-        "Simon Russell Beale",
-        "Jeffrey Tambor",
-        "Jason Isaacs",
-        "Michael Palin",
-        "Rupert Friend",
-        "Andrea Riseborough",
-        "Dermot Crowley"
-      ],
-      "production_company": [
-        "Gaumont",
-        "Quad Productions",
-        "Main Journey",
-        "France 3 Cinéma",
-        "La Compagnie Cinématographique",
-        "Panache Productions",
-        "AFPI",
-        "Title Media",
-        "Free Range Films"
-      ],
-      "poster_path": "/uJz35nTuL4QrXycKYd6ikxWVRJg.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/x2FqFdUxRekbNdow3vZdtDqL96z.jpg",
-      "trailer_youtube_key": "LiJ-0cjMD60",
-      "age_rating": "12+",
-      "tmdb_id": 402897,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Ztratili+jsme+Stalina+2017",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:29:08+02:00"
     }
   ]
 }
