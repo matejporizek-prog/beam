@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T06:14:44+00:00",
+  "generated_at": "2026-08-14T06:13:00+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -1485,31 +1485,6 @@
       "resolved_at": "2026-08-05T22:27:51+02:00"
     },
     {
-      "film_id": "david robert mitchell double feature",
-      "title_cz": "David Robert Mitchell double feature",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/07/23/b7876da4117474734de958bd28798176.webp",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=David+Robert+Mitchell+double+feature",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'David Robert Mitchell double feature'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "devce ze zapadu opera",
       "title_cz": "Děvče ze Západu (Opera)",
       "title_en": "",
@@ -2525,6 +2500,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Kino%C5%A1punti+a+kapybary",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Kinošpunti a kapybary'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "kinotaj",
+      "title_cz": "Kinotaj",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kinotaj",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Kinotaj'",
       "match_score": 0.0
     },
     {
@@ -3603,53 +3603,6 @@
       "resolved_at": "2026-08-05T22:28:17+02:00"
     },
     {
-      "film_id": "muj soused totoro",
-      "title_cz": "Můj soused Totoro",
-      "title_en": "My Neighbor Totoro",
-      "original_title": "となりのトトロ",
-      "year": 1988,
-      "synopsis": "Satsuke a její malá sestřička Mei se společně s tatínkem stěhují do nového domu na venkově. Jejich maminka je v nemocnici, tatínek má hodně práce, a tak oběma zůstává spousta času na seznamování se s novým domovem. Brzy poznají, že dům a jeho okolí  jsou obývány nejrůznějšími kouzelnými bytostmi. Díky zvědavé Mei narazí na dobráckého lesního ducha Totora, se kterým za krátko zažijí nejedno úžasné dobrodružství.",
-      "synopsis_language": "cs",
-      "runtime_min": 86,
-      "genres": [
-        "Fantasy",
-        "Animovaný",
-        "Rodinný"
-      ],
-      "director": [
-        "Hayao Miyazaki"
-      ],
-      "screenwriter": [
-        "Hayao Miyazaki"
-      ],
-      "cast": [
-        "Noriko Hidaka",
-        "Chika Sakamoto",
-        "Hitoshi Takagi",
-        "Shigesato Itoi",
-        "Sumi Shimamoto",
-        "Tanie Kitabayashi",
-        "Toshiyuki Amagasa",
-        "Yuko Maruyama"
-      ],
-      "production_company": [
-        "Studio Ghibli",
-        "Nibariki",
-        "Tokuma Shoten"
-      ],
-      "poster_path": "/aCA67jHLItGvAq9RsweARnc40s3.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/zkThiZAaAie8Lw7RAc5yPTOewBV.jpg",
-      "trailer_youtube_key": "ROfVsRqBhy0",
-      "age_rating": "G (US)",
-      "tmdb_id": 8392,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=M%C5%AFj+soused+Totoro+1988",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-08T05:42:34+00:00"
-    },
-    {
       "film_id": "mumbo jumbo",
       "title_cz": "Mumbo Jumbo",
       "title_en": "When Mumbo Jumbo Grew Giant",
@@ -4354,6 +4307,51 @@
       "resolved_at": "2026-08-11T05:52:33+00:00"
     },
     {
+      "film_id": "po vecerce",
+      "title_cz": "Po večerce",
+      "title_en": "Po večerce",
+      "original_title": "Po večerce",
+      "year": 2026,
+      "synopsis": "Kráťa, manažer na pokraji úplného vyhoření, kývne na prosbu svého nemocného táty Miloše a rozhodne se místo něj ujmout vedení zchátralého letního dětského tábora, kam kdysi jezdil jako dítě. Ihned po příjezdu se Kráťa dostává do konfliktu s kolektivem pracovníků tábora, v čele s Cyrilem, který si na funkci léta brousí zuby. Situace ale opravdu vygraduje až příjezdem kontroly z hygieny, kde pracuje dávná Kráťova láska z tábora Anežka Svobodová, která dnes žije s jeho dřívějším úhlavním rivalem, nyní mocným místním podnikatelem Karlem. A aby se situace ještě víc zkomplikovala, ukazuje se, že Karel má s místem, kde se tábor nachází, zcela jiné úmysly...",
+      "synopsis_language": "cs",
+      "runtime_min": 107,
+      "genres": [
+        "Romantický",
+        "Rodinný",
+        "Komedie"
+      ],
+      "director": [
+        "Dan Pánek"
+      ],
+      "screenwriter": [
+        "Dan Pánek"
+      ],
+      "cast": [
+        "Vladimír Polívka",
+        "Eva Podzimková",
+        "Václav Neužil",
+        "Ondřej Pavelka",
+        "Dana Batulková",
+        "Maxmilián Dolanský",
+        "Stanislav Majer",
+        "Hana Vagnerová"
+      ],
+      "production_company": [
+        "DonArt production"
+      ],
+      "poster_path": "/upIeNzkfKiNSu9BwTVSrSgzN7NI.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 1525441,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Po+ve%C4%8Derce+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.05, title 1.00)",
+      "match_score": 1.05,
+      "resolved_at": "2026-08-14T06:12:58+00:00"
+    },
+    {
       "film_id": "pohadky tisice a jedne noci",
       "title_cz": "Pohádky tisíce a jedné noci",
       "title_en": "A Thousand and One Nights",
@@ -5004,6 +5002,31 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:28:39+02:00"
+    },
+    {
+      "film_id": "rod draka premiera 8 dilu 3 serie",
+      "title_cz": "Rod Draka: premiéra 8. dílu 3. série",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Rod+Draka%3A+premi%C3%A9ra+8.+d%C3%ADlu+3.+s%C3%A9rie",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Rod Draka: premiéra 8. dílu 3. série'",
+      "match_score": 0.0
     },
     {
       "film_id": "romeo a julie",
@@ -6334,6 +6357,54 @@
       "resolved_at": "2026-08-05T22:29:00+02:00"
     },
     {
+      "film_id": "troja",
+      "title_cz": "Troja",
+      "title_en": "Troy",
+      "original_title": "Troy",
+      "year": 2004,
+      "synopsis": "Roku 1193 před Kristem unesl Trojský princ Paris ženu Spartského krále Menelaose, krásnou Helenu. Králův hněv vyústil v desetiletou válku mezi nejsilnějším z řeckých měst a Trojany. Střetli se v ní největší antičtí hrdinové Sparty v čele s Achilesem a Troji, vedení Hectorem, nejstarším synem krále Priama. Její vyústění patří k největším příběhům všech dob.",
+      "synopsis_language": "cs",
+      "runtime_min": 163,
+      "genres": [
+        "Válečný",
+        "Akční",
+        "Historický"
+      ],
+      "director": [
+        "Wolfgang Petersen"
+      ],
+      "screenwriter": [
+        "David Benioff"
+      ],
+      "cast": [
+        "Brad Pitt",
+        "Orlando Bloom",
+        "Eric Bana",
+        "Brian Cox",
+        "Sean Bean",
+        "Brendan Gleeson",
+        "Diane Kruger",
+        "Peter O'Toole"
+      ],
+      "production_company": [
+        "Warner Bros. Pictures",
+        "Plan B Entertainment",
+        "Radiant Productions",
+        "Helena Productions"
+      ],
+      "poster_path": "/gGzcwrAjBWTJ1V8mt4xk0JATZc2.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/cu3lhUReOdqFAo5K1jesoftwiBj.jpg",
+      "trailer_youtube_key": "P8xLgg-MNKw",
+      "age_rating": "12+",
+      "tmdb_id": 652,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Troja+2004",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.11, title 1.00)",
+      "match_score": 1.115,
+      "resolved_at": "2026-08-14T06:13:00+00:00"
+    },
+    {
       "film_id": "tvoje jmeno",
       "title_cz": "Tvoje jméno.",
       "title_en": "Your Name.",
@@ -6590,57 +6661,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Volání vody'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "zahada silver lake",
-      "title_cz": "Záhada Silver Lake",
-      "title_en": "Under the Silver Lake",
-      "original_title": "Under the Silver Lake",
-      "year": 2018,
-      "synopsis": "Neo-noir točící se kolem třiatřicetiletého Sama, který se po zmizení své mysteriózní sousedky Sarah pouští do surreálného pátrání, aby dekódoval tajemství, skandály a konspirace ukrývající se v hlubinách Města andělů.",
-      "synopsis_language": "cs",
-      "runtime_min": 139,
-      "genres": [
-        "Krimi",
-        "Drama",
-        "Mysteriózní"
-      ],
-      "director": [
-        "David Robert Mitchell"
-      ],
-      "screenwriter": [
-        "David Robert Mitchell"
-      ],
-      "cast": [
-        "Andrew Garfield",
-        "Riley Keough",
-        "Topher Grace",
-        "Callie Hernandez",
-        "Don McManus",
-        "Jeremy Bobb",
-        "Riki Lindhome",
-        "Patrick Fischler"
-      ],
-      "production_company": [
-        "Michael De Luca Productions",
-        "Good Fear",
-        "PASTEL",
-        "UnLTD Productions",
-        "Salem Street Entertainment",
-        "Boo Pictures",
-        "Vendian Entertainment"
-      ],
-      "poster_path": "/xrV6ceP2z7RAc2bTfZTE2wRSF7F.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2025/04/23/519f3de6b03e2555c0a87853d9bb8695.jpg",
-      "backdrop_path": "/44dgugY6wBUFfJdaVOhNfr6E5g3.jpg",
-      "trailer_youtube_key": "FzeoCQKYajI",
-      "age_rating": "R (US)",
-      "tmdb_id": 396461,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Z%C3%A1hada+Silver+Lake+2018",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.05, title 1.00)",
-      "match_score": 1.05,
-      "resolved_at": "2026-08-06T07:39:58+00:00"
     },
     {
       "film_id": "zapisky skutecneho zlocince",
