@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T06:13:00+00:00",
+  "generated_at": "2026-08-15T05:24:01+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -75,6 +75,31 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:27:32+02:00"
+    },
+    {
+      "film_id": "2000 metru do andrijivky",
+      "title_cz": "2000 metrů do Andrijivky",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=2000+metr%C5%AF+do+Andrijivky",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for '2000 metrů do Andrijivky'",
+      "match_score": 0.0
     },
     {
       "film_id": "6 gramu",
@@ -244,6 +269,54 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:27:34+02:00"
+    },
+    {
+      "film_id": "aftersun",
+      "title_cz": "Aftersun",
+      "title_en": "Aftersun",
+      "original_title": "Aftersun",
+      "year": 2022,
+      "synopsis": "Někdy v devadesátých letech, kdesi v tureckém přímořském resortu tráví dovolenou rozvedený mladý otec Calum se skoro náctiletou dcerou Sophií. Pohodové vystupování táty, který žádnou legraci nezkazí a baví se tím, že jej okolí považuje za dívčina staršího bratra, však zastírá znepokojivý závoj melancholie.",
+      "synopsis_language": "cs",
+      "runtime_min": 101,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Charlotte Wells"
+      ],
+      "screenwriter": [
+        "Charlotte Wells"
+      ],
+      "cast": [
+        "Paul Mescal",
+        "Frankie Corio",
+        "Brooklyn Toulson",
+        "Celia Rowlson-Hall",
+        "Sally Messham",
+        "Ayşe Parlak",
+        "Sophia Lamanova",
+        "Spike Fearn"
+      ],
+      "production_company": [
+        "PASTEL",
+        "BBC Film",
+        "Tango Entertainment",
+        "Unified Theory",
+        "Screen Scotland",
+        "BFI"
+      ],
+      "poster_path": "/sNhWDtzJx0S91N1kue8wr7OpZSj.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/4jdduww9j5RyzO4ITRcuBFhqNN1.jpg",
+      "trailer_youtube_key": "kdLHVqkNYw0",
+      "age_rating": "12+",
+      "tmdb_id": 965150,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Aftersun+2022",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-15T05:23:57+00:00"
     },
     {
       "film_id": "amazonie",
@@ -1025,6 +1098,31 @@
       "match_score": 0.0
     },
     {
+      "film_id": "cecko ticha pritelkyne",
+      "title_cz": "Céčko Tichá přítelkyně",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=C%C3%A9%C4%8Dko+Tich%C3%A1+p%C5%99%C3%ADtelkyn%C4%9B",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Céčko Tichá přítelkyně'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "chao",
       "title_cz": "ChaO",
       "title_en": "Landless",
@@ -1267,55 +1365,6 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:27:47+02:00"
-    },
-    {
-      "film_id": "co nam zbylo z lasky",
-      "title_cz": "Co nám zbylo z lásky",
-      "title_en": "The Love That Remains",
-      "original_title": "Ástin sem eftir er",
-      "year": 2025,
-      "synopsis": "Tenderly captures a year in the life of a family as the parents navigate their separation. Through both playful and heartfelt moments, the film portrays the bittersweet essence of faded love and shared memories amidst the changing seasons.",
-      "synopsis_language": "en",
-      "runtime_min": 109,
-      "genres": [
-        "Drama",
-        "Komedie"
-      ],
-      "director": [
-        "Hlynur Pálmason"
-      ],
-      "screenwriter": [
-        "Hlynur Pálmason"
-      ],
-      "cast": [
-        "Saga Garðarsdóttir",
-        "Sverrir Gudnason",
-        "Ída Mekkín Hlynsdóttir",
-        "Þorgils Hlynsson",
-        "Grímur Hlynsson",
-        "Ingvar E. Sigurðsson",
-        "Katla M. Þorgeirsdóttir",
-        "Kristinn Guðmundsson"
-      ],
-      "production_company": [
-        "Snowglobe",
-        "Still Vivid",
-        "HOBAB",
-        "Film i Väst",
-        "ARTE France Cinéma",
-        "Maneki Films"
-      ],
-      "poster_path": "/gveoShAALiQfdINESmjmsPGb0IC.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/7xWTnediis2NYgZTq7ZndvI9JgW.jpg",
-      "trailer_youtube_key": "jZ0fdmesr-w",
-      "age_rating": "12+",
-      "tmdb_id": 1258509,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Co+n%C3%A1m+zbylo+z+l%C3%A1sky+2025",
-      "resolved": true,
-      "match_reason": "manual override",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:27:48+02:00"
     },
     {
       "film_id": "cosi fan tutte opera",
@@ -1602,6 +1651,51 @@
       "match_reason": "verified against director/runtime (1.11, title 1.00)",
       "match_score": 1.115,
       "resolved_at": "2026-08-12T06:11:44+00:00"
+    },
+    {
+      "film_id": "dokonale dny",
+      "title_cz": "Dokonalé dny",
+      "title_en": "Perfect Days",
+      "original_title": "PERFECT DAYS",
+      "year": 2023,
+      "synopsis": "Hirajama přijímá práci uklízeče veřejných toalet s překvapivou pokorou, přestože jeho život se nám může zdát únavný a nudný, někdy i ponižující. Rutina ale dává dnům kýženou strukturu a radost přinese i prosté rozjímání v parku, chvíle strávená s knihou nebo poslech hudby. Ač Hirajama vyzařuje klid a spokojenost, nejde přece jen o pouhý obranný mechanismus?",
+      "synopsis_language": "cs",
+      "runtime_min": 124,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Wim Wenders"
+      ],
+      "screenwriter": [
+        "Wim Wenders",
+        "Takuma Takasaki"
+      ],
+      "cast": [
+        "Koji Yakusho",
+        "Tokio Emoto",
+        "Arisa Nakano",
+        "Aoi Yamada",
+        "Yumi Aso",
+        "Sayuri Ishikawa",
+        "Tomokazu Miura",
+        "Min Tanaka"
+      ],
+      "production_company": [
+        "Master Mind",
+        "Wenders Images"
+      ],
+      "poster_path": "/cNOO4w85K0pVjmHjiRmPfUUsLT1.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/hjWxngV6tidwDkfJDEgMjHD2KEz.jpg",
+      "trailer_youtube_key": "hSGUfczF8uA",
+      "age_rating": "12+",
+      "tmdb_id": 976893,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Dokonal%C3%A9+dny+2023",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-15T05:23:58+00:00"
     },
     {
       "film_id": "dovolena v ceskem raji",
@@ -1971,31 +2065,6 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Garden+party+pro+u%C4%8Ditele+%E2%80%93+Ne%C5%BE+zazvon%C3%AD",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Garden party pro učitele – Než zazvoní'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "geislerky v oku",
-      "title_cz": "Geislerky v Oku",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/06/29/62594df6e032900f4dbdb078a0feb854.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Geislerky+v+Oku",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Geislerky v Oku'",
       "match_score": 0.0
     },
     {
@@ -2864,54 +2933,6 @@
       "resolved_at": "2026-08-11T05:52:32+00:00"
     },
     {
-      "film_id": "letni skola 2001",
-      "title_cz": "Letní škola, 2001",
-      "title_en": "Summer School, 2001",
-      "original_title": "Letní škola, 2001",
-      "year": 2025,
-      "synopsis": "Léto 2001. Sedmnáctiletý Kien se zářivě červeným účesem se po deseti letech ve Vietnamu vrací k rodině do tržnice v Chebu. Místo vřelého přivítání ho čeká odcizený otec, ustaraná matka a mladší bratr, který mu nic nedaruje. Mezi nažehlováním pokémonů na trička, drilováním češtiny a randěním u jezera vyplouvá na povrch tajemství, jehož odhalení převrátí život tržnice vzhůru nohama...",
-      "synopsis_language": "cs",
-      "runtime_min": 103,
-      "genres": [
-        "Drama",
-        "Rodinný"
-      ],
-      "director": [
-        "Dužan Duong"
-      ],
-      "screenwriter": [
-        "Dužan Duong",
-        "Lukáš Kokeš",
-        "Jan Smutný"
-      ],
-      "cast": [
-        "Bùi Thế Dương",
-        "Hoang Anh Doan",
-        "Tô Tiến Tài",
-        "Lê Quỳnh Lan",
-        "Dung Nguyen",
-        "Thang Xuan Ngo",
-        "Xuan Tiem To",
-        "Thi Pham Nhung"
-      ],
-      "production_company": [
-        "AZN kru",
-        "Nutprodukce",
-        "Nutprodukcia"
-      ],
-      "poster_path": "/weSmEV6bJAmWfi2L2QN2xriVN3S.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/cSLRpGk72ZIy09hGKvCmifMKFAV.jpg",
-      "trailer_youtube_key": "8ftPgcjDSwg",
-      "age_rating": "12+",
-      "tmdb_id": 1481097,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Letn%C3%AD+%C5%A1kola%2C+2001+2025",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:10+02:00"
-    },
-    {
       "film_id": "leviticus",
       "title_cz": "Leviticus",
       "title_en": "Leviticus",
@@ -3465,6 +3486,98 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-08-05T22:28:14+02:00"
+    },
+    {
+      "film_id": "michael",
+      "title_cz": "Michael",
+      "title_en": "Michael",
+      "original_title": "Michael",
+      "year": 2026,
+      "synopsis": "Michael podrobně mapuje kariéru budoucího Krále popu od jeho prvních kroků v rodinné skupině Jackson Five, kde od začátku prokazoval největší talent, i když byl nejmladším členem kapely. Stále populárnější skupinu vede pevnou rukou jeho táta Joe, možná až příliš pevnou pro křehkého Michaela. Když se o Jackson Five začnou zajímat hudební producenti, všichni si okamžitě uvědomí, že Michael je nejcennějším členem skupiny. Ti nejodvážnější z nich dokonce začínají mluvit o tom, jak by jeho kariéře prospělo, kdyby se vydal na sólovou dráhu. Joe, despotický otec a tvrdý manažer v jedné osobě, o tom samozřejmě nechce ani slyšet. Michael však touží jít vlastní cestou. A tak nad Jacksonovými zavládne klid před bouří, ze které se zrodí hudební legenda a některé z nejlepších písní v historii populární hudby.",
+      "synopsis_language": "cs",
+      "runtime_min": 128,
+      "genres": [
+        "Hudební",
+        "Drama"
+      ],
+      "director": [
+        "Antoine Fuqua"
+      ],
+      "screenwriter": [
+        "John Logan"
+      ],
+      "cast": [
+        "Jaafar Jackson",
+        "Colman Domingo",
+        "Nia Long",
+        "Juliano Krue Valdi",
+        "KeiLyn Durrel Jones",
+        "Miles Teller",
+        "Larenz Tate",
+        "Laura Harrier"
+      ],
+      "production_company": [
+        "Lionsgate",
+        "GK Films",
+        "Optimum Productions"
+      ],
+      "poster_path": "/zm0KAbOjlt9eR5y7vDiL2dEOwMl.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
+      "trailer_youtube_key": "k-YAcjaLuSI",
+      "age_rating": "12+",
+      "tmdb_id": 936075,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Michael+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-15T05:23:58+00:00"
+    },
+    {
+      "film_id": "milost",
+      "title_cz": "Milost",
+      "title_en": "La Grazia",
+      "original_title": "La grazia",
+      "year": 2025,
+      "synopsis": "Italského prezidenta (Toni Servillo) čekají před odchodem z úřadu poslední těžká rozhodnutí. Na stole má dvě žádosti o milost za vraždy z lásky a jeden kontroverzní zákon. Aby přestal váhat nad správným řešením, musí se nejdřív smířit s nedávným odchodem milované ženy i podezřením, že mu byla nevěrná. Odpověď na tajemství, které mu nedá spát, ale zná jen jeden člověk. Originální drama o lásce, pochybách a odpovědnosti představuje oscarového režiséra Paola Sorrentina (Velká nádhera, Mládí) ve zcela novém světle a životní formě. (Aerofilms)",
+      "synopsis_language": "cs",
+      "runtime_min": 131,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Paolo Sorrentino"
+      ],
+      "screenwriter": [
+        "Paolo Sorrentino"
+      ],
+      "cast": [
+        "Toni Servillo",
+        "Anna Ferzetti",
+        "Massimo Venturiello",
+        "Milvia Marigliano",
+        "Orlando Cinque",
+        "Giuseppe Gaiani",
+        "Giovanna Guida",
+        "Alessia Giuliani"
+      ],
+      "production_company": [
+        "The Apartment Pictures",
+        "Numero10",
+        "Fremantle Italia",
+        "PiperFilm"
+      ],
+      "poster_path": "/g8x2zmPvlmYobahJRb7enPDa1ZU.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/baIjN7xPyw2In1CuHACTgzcsF20.jpg",
+      "trailer_youtube_key": "zvQn44a_IHo",
+      "age_rating": "R (US)",
+      "tmdb_id": 1397364,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Milost+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-15T05:23:59+00:00"
     },
     {
       "film_id": "mimoni a monstra",
@@ -4307,51 +4420,6 @@
       "resolved_at": "2026-08-11T05:52:33+00:00"
     },
     {
-      "film_id": "po vecerce",
-      "title_cz": "Po večerce",
-      "title_en": "Po večerce",
-      "original_title": "Po večerce",
-      "year": 2026,
-      "synopsis": "Kráťa, manažer na pokraji úplného vyhoření, kývne na prosbu svého nemocného táty Miloše a rozhodne se místo něj ujmout vedení zchátralého letního dětského tábora, kam kdysi jezdil jako dítě. Ihned po příjezdu se Kráťa dostává do konfliktu s kolektivem pracovníků tábora, v čele s Cyrilem, který si na funkci léta brousí zuby. Situace ale opravdu vygraduje až příjezdem kontroly z hygieny, kde pracuje dávná Kráťova láska z tábora Anežka Svobodová, která dnes žije s jeho dřívějším úhlavním rivalem, nyní mocným místním podnikatelem Karlem. A aby se situace ještě víc zkomplikovala, ukazuje se, že Karel má s místem, kde se tábor nachází, zcela jiné úmysly...",
-      "synopsis_language": "cs",
-      "runtime_min": 107,
-      "genres": [
-        "Romantický",
-        "Rodinný",
-        "Komedie"
-      ],
-      "director": [
-        "Dan Pánek"
-      ],
-      "screenwriter": [
-        "Dan Pánek"
-      ],
-      "cast": [
-        "Vladimír Polívka",
-        "Eva Podzimková",
-        "Václav Neužil",
-        "Ondřej Pavelka",
-        "Dana Batulková",
-        "Maxmilián Dolanský",
-        "Stanislav Majer",
-        "Hana Vagnerová"
-      ],
-      "production_company": [
-        "DonArt production"
-      ],
-      "poster_path": "/upIeNzkfKiNSu9BwTVSrSgzN7NI.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "U",
-      "tmdb_id": 1525441,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Po+ve%C4%8Derce+2026",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.05, title 1.00)",
-      "match_score": 1.05,
-      "resolved_at": "2026-08-14T06:12:58+00:00"
-    },
-    {
       "film_id": "pohadky tisice a jedne noci",
       "title_cz": "Pohádky tisíce a jedné noci",
       "title_en": "A Thousand and One Nights",
@@ -5004,31 +5072,6 @@
       "resolved_at": "2026-08-05T22:28:39+02:00"
     },
     {
-      "film_id": "rod draka premiera 8 dilu 3 serie",
-      "title_cz": "Rod Draka: premiéra 8. dílu 3. série",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Rod+Draka%3A+premi%C3%A9ra+8.+d%C3%ADlu+3.+s%C3%A9rie",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Rod Draka: premiéra 8. dílu 3. série'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "romeo a julie",
       "title_cz": "Romeo a Julie",
       "title_en": "",
@@ -5462,6 +5505,56 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Sex a smrt v kempu Miasma'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "sirat",
+      "title_cz": "Sirat",
+      "title_en": "Sirāt",
+      "original_title": "Sirāt",
+      "year": 2025,
+      "synopsis": "Luis přijíždí na divokou party uprostřed marockých hor, aby se svým malým synem hledal zmizelou dceru Mar. V obklopení hypnotických beatů a zvláštní, syrové svobody vyráží se skupinou techno nomádů pátrat na poslední akci kdesi hluboko v poušti. Karavana předělaných náklaďáků naložených soundsystémy, naftou a drogami se prodírá rozpáleným pískem. Putování se rychle mění v šílenou halucinační jízdu, z níž není snadného úniku. Sirat je rave apokalypsa, která šokovala Cannes a kromě Ceny poroty si odnesla pověst nejoriginálnějšího filmu festivalu s kultovním potenciálem.",
+      "synopsis_language": "cs",
+      "runtime_min": 115,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "director": [
+        "Oliver Laxe"
+      ],
+      "screenwriter": [
+        "Oliver Laxe",
+        "Santiago Fillol"
+      ],
+      "cast": [
+        "Sergi López",
+        "Bruno Núñez",
+        "Stefania Gadda",
+        "Joshua Liam Henderson",
+        "Richard Bellamy",
+        "Tonin Janvier",
+        "Jade Oukid",
+        "Ahmed Abbou"
+      ],
+      "production_company": [
+        "Movistar Plus+",
+        "Los Desertores Films",
+        "Filmes da Ermida",
+        "El Deseo",
+        "Uri Films",
+        "4 A 4 Productions"
+      ],
+      "poster_path": "/edEDZwU3kZerqdylZsyCn7feH23.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/kOUV5WbisWMg56d8eB45ZHEVxYq.jpg",
+      "trailer_youtube_key": "3_9OkHX8ZiA",
+      "age_rating": "R (US)",
+      "tmdb_id": 1151272,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Sirat+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-15T05:24:00+00:00"
     },
     {
       "film_id": "slepice",
@@ -6568,6 +6661,31 @@
       "resolved_at": "2026-08-09T05:47:26+00:00"
     },
     {
+      "film_id": "velrybi pisen cesky dabing",
+      "title_cz": "Velrybí píseň (český dabing)",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Velryb%C3%AD+p%C3%ADse%C5%88+%28%C4%8Desk%C3%BD+dabing%29",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Velrybí píseň (český dabing)'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "verejne prospesne prace",
       "title_cz": "Veřejně prospěšné práce",
       "title_en": "Urban Disobedience Toolkit",
@@ -6636,6 +6754,50 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:29:03+02:00"
+    },
+    {
+      "film_id": "vikend na chate",
+      "title_cz": "Víkend na chatě",
+      "title_en": "Games People Play",
+      "original_title": "Seurapeli",
+      "year": 2020,
+      "synopsis": "Roky nevázaného mládí vystřídaly nažehlené konvence střední třídy a blížící se polokulaté narozeniny společné kamarádky Mitzi tak snadno zavdají příčinu k návštěvě chaty, kde kdysi všichni pařili jako náctiletí.",
+      "synopsis_language": "cs",
+      "runtime_min": 105,
+      "genres": [
+        "Drama",
+        "Komedie"
+      ],
+      "director": [
+        "Jenni Toivoniemi"
+      ],
+      "screenwriter": [
+        "Jenni Toivoniemi"
+      ],
+      "cast": [
+        "Eero Milonoff",
+        "Emmi Parviainen",
+        "Laura Birn",
+        "Christian Hillborg",
+        "Iida-Maria Heinonen",
+        "Paavo Kinnunen",
+        "Paula Vesala",
+        "Samuli Niittymäki"
+      ],
+      "production_company": [
+        "Tuffi Films"
+      ],
+      "poster_path": "/5lYz3Two9BQHPdyGKJhw1diXWP7.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/spzAUftam5GtqcjoW9VeX3ybYZ7.jpg",
+      "trailer_youtube_key": "TFEWSCsFhBc",
+      "age_rating": "",
+      "tmdb_id": 657430,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=V%C3%ADkend+na+chat%C4%9B+2020",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-15T05:24:01+00:00"
     },
     {
       "film_id": "volani vody",
