@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T05:24:01+00:00",
+  "generated_at": "2026-08-16T05:25:27+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -608,55 +608,57 @@
       "resolved_at": "2026-08-05T22:27:39+02:00"
     },
     {
-      "film_id": "arco",
-      "title_cz": "Arco",
-      "title_en": "Arco",
-      "original_title": "Arco",
-      "year": 2025,
-      "synopsis": "Je rok 2075. Desetiletá Iris vidí spadnout z nebe tajemného chlapce v duhovém obleku. Jmenuje se Arco a pochází z budoucnosti. Mezi Iris a Arcem vzniká přátelství, křehké a krásné spojení dvou odlišných světů. Společně s robotem Mikkim se vydají na cestu s cílem dostat chlapce zpět domů. Zároveň jsou možná jediní, kteří dokáží zachránit planetu. Arco je okouzlující, vizuálně dechberoucí a dojemná odysea plná naděje a optimismu, kterou produkovala Natalie Portman. Film Uga Bienvenu měl premiéru na festivalu v Cannes a získal hlavní cenu za nejlepší celovečerní film na festivalu animovaného filmu v Annecy.",
+      "film_id": "arrietty ze sveta pujcovnicku",
+      "title_cz": "Arrietty ze světa půjčovníčků",
+      "title_en": "The Secret World of Arrietty",
+      "original_title": "借りぐらしのアリエッティ",
+      "year": 2010,
+      "synopsis": "To jsou malinkatí lidé žijící v prostorech mezi zdmi či pod podlahami starých domů, kteří si vše, co potřebují k životu, půjčují od jejich obyvatel. Mladá Arrietty takto se svými rodiči žije v domě, kde bydlí babička mladého chlapce Šóa. V den, kdy Šó přijede, zrovna Arrietty čeká její první výprava s tatínkem pro zásoby do světa velkých lidí.",
       "synopsis_language": "cs",
-      "runtime_min": 88,
+      "runtime_min": 94,
       "genres": [
-        "Dobrodružný",
+        "Fantasy",
         "Animovaný",
-        "Rodinný",
-        "Vědeckofantastický"
+        "Rodinný"
       ],
       "director": [
-        "Ugo Bienvenu"
+        "Hiromasa Yonebayashi"
       ],
       "screenwriter": [
-        "Félix de Givry",
-        "Ugo Bienvenu"
+        "Hayao Miyazaki",
+        "Keiko Niwa"
       ],
       "cast": [
-        "Margot Ringard Oldra",
-        "Oscar Tresanini",
-        "Nathanaël Perrot",
-        "Alma Jodorowsky",
-        "Swann Arlaud",
-        "Vincent Macaigne",
-        "Louis Garrel",
-        "William Lebghil"
+        "Mirai Shida",
+        "Ryunosuke Kamiki",
+        "Tomokazu Miura",
+        "Keiko Takeshita",
+        "Kirin Kiki",
+        "Shinobu Otake",
+        "Tatsuya Fujiwara",
+        "Shin'ichi Hatori"
       ],
       "production_company": [
-        "Remembers",
-        "MountainA",
-        "France 3 Cinéma",
-        "Fit Via Vi",
-        "Sons of Rigor Films"
+        "Studio Ghibli",
+        "Hakuhodo DY Media Partners",
+        "Mitsubishi Shoji",
+        "dentsu",
+        "TOHO",
+        "Nippon Television Network Corporation",
+        "Wild Bunch",
+        "The Walt Disney Company (Japan)"
       ],
-      "poster_path": "/rWvbMnqLTpyTHmNii4TrnmgzpcS.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/reQELo8rDiLIOoYIA7M6q7KGRW0.jpg",
-      "trailer_youtube_key": "j7Tpaj-Iet8",
+      "poster_path": "/sUSkcFebnw9AoXldXeSM4vmtELV.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2024/09/10/5d0671a0e20a3d699a7c2c08d92d4f3d.jpg",
+      "backdrop_path": "/7Z7WVzJsSReG8B0CaPk0bvWD7tK.jpg",
+      "trailer_youtube_key": "DskjJGeaRQA",
       "age_rating": "U",
-      "tmdb_id": 804370,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Arco+2025",
+      "tmdb_id": 51739,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Arrietty+ze+sv%C4%9Bta+p%C5%AFj%C4%8Dovn%C3%AD%C4%8Dk%C5%AF+2010",
       "resolved": true,
-      "match_reason": "verified against director/runtime (1.11, title 1.00)",
-      "match_score": 1.115,
-      "resolved_at": "2026-08-05T22:27:40+02:00"
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-08-16T05:25:25+00:00"
     },
     {
       "film_id": "backrooms",
@@ -1121,49 +1123,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Céčko Tichá přítelkyně'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "chao",
-      "title_cz": "ChaO",
-      "title_en": "Landless",
-      "original_title": "Chão",
-      "year": 2019,
-      "synopsis": "Rodin žijících bez přístupu ke zdravé půdě, na níž by bylo možné pěstovat obilí a zeleninu pro svoji obživu, jsou v Brazílii tisíce. Většina úrodné půdy je v rukách bohatých vlastníků, jejichž cílem je velký agrobyznys a kteří neváhají používat zdraví škodlivé pesticidy a GMO. Už od roku 1984 se lidé formují v sociálním hnutí Movimento dos Trabalhadores Rurais Sem Terra (Pracující bez půdy) a volají po změně. Požadují pozemkovou reformu a vyvlastnění půdy.",
-      "synopsis_language": "cs",
-      "runtime_min": 109,
-      "genres": [
-        "Dokumentární"
-      ],
-      "director": [
-        "Camila Freitas"
-      ],
-      "screenwriter": [
-        "Camila Freitas",
-        "Marina Meliande"
-      ],
-      "cast": [
-        "Natalina Vó Cândida",
-        "Wilmar P.C. Fernandes",
-        "Valtenir Gomes",
-        "Elizabett Conceição",
-        "José Bento Reginaldo Pires",
-        "Eliane Aparecida do Prado",
-        "Nelson Guedes"
-      ],
-      "production_company": [
-        "Trotoar"
-      ],
-      "poster_path": "/E0KTAa4Roq750YFrN5KjYtTWhZ.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/rH7MK4IOJ0GYJD9paa4Xvdmqxgw.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 577024,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=ChaO+2019",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:27:45+02:00"
     },
     {
       "film_id": "chica checa",
@@ -2335,51 +2294,6 @@
       "resolved_at": "2026-08-05T22:28:03+02:00"
     },
     {
-      "film_id": "jesus christ superstar",
-      "title_cz": "Jesus Christ Superstar",
-      "title_en": "Jesus Christ Superstar",
-      "original_title": "Jesus Christ Superstar",
-      "year": 1973,
-      "synopsis": "Legendární filmové zpracování světoznámého muzikálu v režii Normana Jewisona. Rocková opera vypráví z pohledu Jidáše Iškariotského, příběh posledních sedmi dnů života JEŽÍŠE KRISTA - od jeho příchodu do Jeruzaléma až do ukřižování. Ambiciózní a mimořádně finančně náročný filmový projekt vznikal v exterierech přímo v Izraeli.",
-      "synopsis_language": "cs",
-      "runtime_min": 108,
-      "genres": [
-        "Drama",
-        "Historický"
-      ],
-      "director": [
-        "Norman Jewison"
-      ],
-      "screenwriter": [
-        "Norman Jewison",
-        "Melvyn Bragg"
-      ],
-      "cast": [
-        "Ted Neeley",
-        "Carl Anderson",
-        "Yvonne Elliman",
-        "Barry Dennen",
-        "Bob Bingham",
-        "Larry Marshall",
-        "Josh Mostel",
-        "Kurt Yaghjian"
-      ],
-      "production_company": [
-        "Universal Pictures"
-      ],
-      "poster_path": "/2NQgIjHxYyMJZWeUFH5cuKhN4nh.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/xQRh7hSPdtEE0aUmuY8EdifrXPK.jpg",
-      "trailer_youtube_key": "CEUDcqYGK74",
-      "age_rating": "G (US)",
-      "tmdb_id": 12545,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Jesus+Christ+Superstar+1973",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-05T22:28:05+02:00"
-    },
-    {
       "film_id": "juno",
       "title_cz": "Juno",
       "title_en": "Juno",
@@ -2595,6 +2509,48 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Kinotaj'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "kocici odysea",
+      "title_cz": "Kočičí odysea",
+      "title_en": "Flow",
+      "original_title": "Straume",
+      "year": 2024,
+      "synopsis": "Svět se zdá být na konci, plný pozůstatků lidské přítomnosti. Kočka je samotářské zvíře, ale když je její domov zničen velkou povodní, najde útočiště na lodi obývané různými druhy, se kterými se musí spojit navzdory jejich odlišnostem. Na osamělé lodi plující mystickou zaplavenou krajinou se tak vyrovnávají s výzvami a nebezpečími, které jim přináší adaptace na tento nový svět.",
+      "synopsis_language": "cs",
+      "runtime_min": 85,
+      "genres": [
+        "Dobrodružný",
+        "Animovaný",
+        "Rodinný",
+        "Fantasy"
+      ],
+      "director": [
+        "Gints Zilbalodis"
+      ],
+      "screenwriter": [
+        "Matīss Kaža",
+        "Gints Zilbalodis"
+      ],
+      "cast": [],
+      "production_company": [
+        "Dream Well Studio",
+        "Sacrebleu Productions",
+        "Take Five",
+        "ARTE France Cinéma",
+        "RTBF"
+      ],
+      "poster_path": "/jloXRl1PtsXyvFLQ9JP7YBQRgGT.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2024/12/02/f67a75358c775c095cac48fd23e00675.jpg",
+      "backdrop_path": "/4XPNNt0zfZKBqxxVWaQALd57UHl.jpg",
+      "trailer_youtube_key": "1ewCDRKpWUU",
+      "age_rating": "U",
+      "tmdb_id": 823219,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ko%C4%8Di%C4%8D%C3%AD+odysea+2024",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-08-16T05:25:26+00:00"
     },
     {
       "film_id": "konec oak street",
@@ -3007,51 +2963,6 @@
       "match_score": 0.0
     },
     {
-      "film_id": "limonadovy joe aneb konska opera",
-      "title_cz": "Limonádový Joe aneb Koňská opera",
-      "title_en": "Lemonade Joe",
-      "original_title": "Limonádový Joe aneb Koňská opera",
-      "year": 1964,
-      "synopsis": "V Trigger Whisky Saloonu, který stojí v malém městečku Stetson City kdesi na Divokém západě, se strhne rvačka. Majitel podniku Doug Badman uklidní rozvášněné pistolníky vystoupením „famósní arizonské pěnice“ Tornado Lou, která zazpívá píseň o šampiónu svého srdce. Ve chvíli, kdy se pistolník Grimpo chystá vypít svého oblíbeného „supercloumáka“, objeví se v saloonu pan Goodman s dcerou Winnifred, kteří se snaží pomocí letáků a písně odvrátit pistolníky od pití alkoholických nápojů. Jedinou odpovědí jim jsou urážky.  Tu se však v saloonu objeví sličný kovboj v bělostném oděvu a poručí si sklenici kolalokovy limonády. Potom hravě donutí Grimpa, aby se omluvil půvabné Winifred a než odjede, stačí ještě zlikvidovat bandu bankovních lupičů a probudit v srdcích Winnifred i Tornado Lou hlubokou lásku. Zanedlouho se Trigger Whisky Saloon ocitne na pokraji bankrotu, protože pistolníci popíjejí kolalokovu limonádu v sousedství, kde pan Goodman otevřel nealkoholický bar...",
-      "synopsis_language": "cs",
-      "runtime_min": 100,
-      "genres": [
-        "Komedie",
-        "Western"
-      ],
-      "director": [
-        "Oldřich Lipský"
-      ],
-      "screenwriter": [
-        "Jiří Brdečka",
-        "Oldřich Lipský"
-      ],
-      "cast": [
-        "Karel Fiala",
-        "Miloš Kopecký",
-        "Rudolf Deyl",
-        "Květa Fialová",
-        "Olga Schoberová",
-        "Bohuš Záhorský",
-        "Josef Hlinomaz",
-        "Karel Effa"
-      ],
-      "production_company": [
-        "Filmové studio Barrandov"
-      ],
-      "poster_path": "/cOOOjMGCfBjY5tLyBEK8hYFpwCw.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/qJDyJI9CxkTrHqvfxyxTlHl6sNJ.jpg",
-      "trailer_youtube_key": "Zm_BreW18hw",
-      "age_rating": "",
-      "tmdb_id": 20629,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Limon%C3%A1dov%C3%BD+Joe+aneb+Ko%C5%88sk%C3%A1+opera+1964",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-09T05:47:20+00:00"
-    },
-    {
       "film_id": "linkin park unshatter",
       "title_cz": "LINKIN PARK: UNSHATTER",
       "title_en": "LINKIN PARK: UNSHATTER",
@@ -3344,55 +3255,6 @@
       "match_score": 0.595
     },
     {
-      "film_id": "matrix",
-      "title_cz": "Matrix",
-      "title_en": "The Matrix",
-      "original_title": "The Matrix",
-      "year": 1999,
-      "synopsis": "Představte si, že vaše realita je jen iluzí a vaše nejtemnější noční můry jsou ve skutečnosti pravdivé. Představte si, že vaše současnost je vlastně minulostí a to budoucí se děje právě teď. Když si to dokážete představit, potom se budete cítit jako hrdina snímku Matrix, Thomas Anderson. A věřte, že to nebude příjemný pocit.",
-      "synopsis_language": "cs",
-      "runtime_min": 136,
-      "genres": [
-        "Akční",
-        "Vědeckofantastický"
-      ],
-      "director": [
-        "Lana Wachowski",
-        "Lilly Wachowski"
-      ],
-      "screenwriter": [
-        "Lana Wachowski",
-        "Lilly Wachowski"
-      ],
-      "cast": [
-        "Keanu Reeves",
-        "Laurence Fishburne",
-        "Carrie-Anne Moss",
-        "Hugo Weaving",
-        "Gloria Foster",
-        "Joe Pantoliano",
-        "Marcus Chong",
-        "Julian Arahanga"
-      ],
-      "production_company": [
-        "Village Roadshow Pictures",
-        "Groucho II Film Partnership",
-        "Silver Pictures",
-        "Warner Bros. Pictures"
-      ],
-      "poster_path": "/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2023/04/10/53bdf9f3abc6cc097314fea929b174b1.jpg",
-      "backdrop_path": "/tlm8UkiQsitc8rSuIAscQDCnP8d.jpg",
-      "trailer_youtube_key": "FVI84Dfx2-I",
-      "age_rating": "12+",
-      "tmdb_id": 603,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Matrix+1999",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-05T22:28:13+02:00"
-    },
-    {
       "film_id": "maverick",
       "title_cz": "Maverick",
       "title_en": "Maverick",
@@ -3627,6 +3489,53 @@
       "match_reason": "verified against director/runtime (1.11, title 1.00)",
       "match_score": 1.115,
       "resolved_at": "2026-08-05T22:28:15+02:00"
+    },
+    {
+      "film_id": "mistr a marketka",
+      "title_cz": "Mistr a Markétka",
+      "title_en": "The Master and Margarita",
+      "original_title": "Мастер и Маргарита",
+      "year": 2024,
+      "synopsis": "Cenzurovaná kniha. Provokativní film. Nesmazatelný příběh. Adaptace nejslavnějšího díla Michaila Bulgakova se stala symbolem kulturního odporu proti cenzuře a autoritářství – a právě proto byla v dnešním Rusku terčem útoků režimu. V Moskvě 30. let je dramatik vyhnán ze Svazu spisovatelů a ocitá se na okraji společnosti. Pod vlivem své múzy Markétky začíná psát nový román – satirický příběh, v němž se všichni jeho pronásledovatelé zrcadlí jako groteskní postavy. Do Moskvy přichází tajemný cizinec Woland, zosobnění temné síly, který obrací město naruby a trestá ty, kdo stáli za pádem autora. Adaptace nejslavnějšího díla Michaila Bulgakova se stala symbolem kulturního odporu proti cenzuře a autoritářství – a právě proto byla v dnešním Rusku terčem útoků režimu.",
+      "synopsis_language": "cs",
+      "runtime_min": 152,
+      "genres": [
+        "Fantasy",
+        "Drama"
+      ],
+      "director": [
+        "Michael Lockshin"
+      ],
+      "screenwriter": [
+        "Roman Kantor"
+      ],
+      "cast": [
+        "August Diehl",
+        "Yuliya Snigir",
+        "Evgeny Tsyganov",
+        "Claes Bang",
+        "Yuri Kolokolnikov",
+        "Aleksey Guskov",
+        "Aleksey Rozin",
+        "Aleksandr Yatsenko"
+      ],
+      "production_company": [
+        "Mars Media Entertainment",
+        "AMedia",
+        "Profit",
+        "Kinoprime Foundation"
+      ],
+      "poster_path": "/9ZubjDI5Z3om36eCI20OAUbaamn.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/els3qltvcOnflTlU48iyfMPIctU.jpg",
+      "trailer_youtube_key": "4ms2zEv1xH4",
+      "age_rating": "",
+      "tmdb_id": 586353,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Mistr+a+Mark%C3%A9tka+2024",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.11, title 1.00)",
+      "match_score": 1.115,
+      "resolved_at": "2026-08-16T05:25:27+00:00"
     },
     {
       "film_id": "mistryne",
@@ -4420,44 +4329,6 @@
       "resolved_at": "2026-08-11T05:52:33+00:00"
     },
     {
-      "film_id": "pohadky tisice a jedne noci",
-      "title_cz": "Pohádky tisíce a jedné noci",
-      "title_en": "A Thousand and One Nights",
-      "original_title": "Pohádky tisíce a jedné noci",
-      "year": 1974,
-      "synopsis": "Klasik domácího trikového filmu Karel Zeman se na od 70. let začal vracet k čistě animované tvorbě. Jako inspirace mu posloužily arabské pohádky o námořníku Sindbádovi. Původně samostatné krátké snímky (celkem jich bylo sedm) později sestavil do celovečerního tvaru, aniž by potlačil epizodický charakter: líčí, jak se hlavní hrdina ocitl v zemi obrů, jak zmáhal nástrahy magnetové hory či mořského sultána, nechybí ani létající koberec. Výtvarně se Zeman pokusil napodobit styl perských a arabských miniatur.",
-      "synopsis_language": "cs",
-      "runtime_min": 93,
-      "genres": [
-        "Animovaný",
-        "Dobrodružný",
-        "Fantasy"
-      ],
-      "director": [
-        "Karel Zeman"
-      ],
-      "screenwriter": [
-        "Karel Zeman"
-      ],
-      "cast": [
-        "Jan Tříska"
-      ],
-      "production_company": [
-        "Krátký film Praha – Filmové studio Gottwaldov"
-      ],
-      "poster_path": "/9kwA0mlVi47VaKKREHS5I58emI6.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2025/12/12/97b71b0dd93b91ed16c3fb6ce1dbdab9.jpg",
-      "backdrop_path": "/nSIrVPrBszqAiAUgxXbUTqVn7WL.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 46657,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Poh%C3%A1dky+tis%C3%ADce+a+jedn%C3%A9+noci+1974",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:30+02:00"
-    },
-    {
       "film_id": "pomoc neviditelnych",
       "title_cz": "Pomoc neviditelných",
       "title_en": "Help of the invisibles",
@@ -4925,54 +4796,6 @@
       "resolved_at": "2026-08-05T22:28:35+02:00"
     },
     {
-      "film_id": "pulp fiction",
-      "title_cz": "Pulp Fiction",
-      "title_en": "Pulp Fiction",
-      "original_title": "Pulp Fiction",
-      "year": 1994,
-      "synopsis": "Děj Pulp Fiction tvoří několik příběhů z losangeleského gangsterského prostředí, které se v několika scénách spojují a prolínají. Jejich společným prvkem jsou postavy Marsella Wallace, Vincenta Vegy a Miy Wallacové, což jsou jediné tři postavy, které se vyskytují ve všech povídkách. Příběhy jsou plné bizarních dějových zvratů, narážek na klasické béčkové filmy i postmoderních prvků.",
-      "synopsis_language": "cs",
-      "runtime_min": 154,
-      "genres": [
-        "Thriller",
-        "Krimi",
-        "Komedie"
-      ],
-      "director": [
-        "Quentin Tarantino"
-      ],
-      "screenwriter": [
-        "Roger Avary",
-        "Quentin Tarantino"
-      ],
-      "cast": [
-        "John Travolta",
-        "Samuel L. Jackson",
-        "Uma Thurman",
-        "Bruce Willis",
-        "Ving Rhames",
-        "Harvey Keitel",
-        "Eric Stoltz",
-        "Tim Roth"
-      ],
-      "production_company": [
-        "Miramax",
-        "A Band Apart",
-        "Jersey Films"
-      ],
-      "poster_path": "/tSAJEF3kD0a7LrN2heLK6CXmV6y.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
-      "trailer_youtube_key": "zt1uSDXL5NA",
-      "age_rating": "15+",
-      "tmdb_id": 680,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Pulp+Fiction+1994",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:37+02:00"
-    },
-    {
       "film_id": "resident evil",
       "title_cz": "Resident Evil",
       "title_en": "Resident Evil",
@@ -5406,36 +5229,6 @@
       "resolved_at": "2026-08-05T22:28:43+02:00"
     },
     {
-      "film_id": "sepot lesa",
-      "title_cz": "Šepot lesa",
-      "title_en": "Whispering Forest",
-      "original_title": "Bialowieza, la forêt qui murmure…",
-      "year": 2025,
-      "synopsis": "In the heart of the extraordinary Bialowieza primeval forest in Poland, the last in Europe, artists Katarzyna Kot and Stéphane Guiran meet scientists, women healers and inspiring local people. They discover the wounds of its inhabitants, the heeling dimension of the forest, converse with its whispers, and question our way of being among the living. In resonance with the forest, with the help of local residents and other artist-musicians, they compose a vibrant tribute to this Great Living Being.",
-      "synopsis_language": "en",
-      "runtime_min": 63,
-      "genres": [],
-      "director": [
-        "Katarzyna Kot"
-      ],
-      "screenwriter": [
-        "Stéphane Guiran"
-      ],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1509635,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%A0epot+lesa+2025",
-      "resolved": true,
-      "match_reason": "manual override",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-09T05:47:24+00:00"
-    },
-    {
       "film_id": "septej",
       "title_cz": "Šeptej",
       "title_en": "Whisper",
@@ -5795,52 +5588,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:28:50+02:00"
-    },
-    {
-      "film_id": "stalker 1979",
-      "title_cz": "Stalker (1979)",
-      "title_en": "Stalker",
-      "original_title": "Сталкер",
-      "year": 1979,
-      "synopsis": "Nebezpečná cesta Zónou k vysněné místnosti, kde moudří konečně najdou pravdu. Zóna je jakýmsi tajemným, pečlivě střeženým prostorem na několika kilometrech čtverečních země, vzniklým snad za pradávné návštěvy mimozemských civilizací. Prostorem, skrývajícím jiné časoprostorové dimenze, kam je životu nebezpečno vstoupit. Přesto, anebo snad právě proto je Zóna místem, které přitahuje. V samém srdci této tajemné krajiny se prý totiž skrývá jakási „komnata\", v níž se splní člověku jeho nejtajnější přání. Průvodcem těch, kteří nemohou odolat volání tajemné Zóny, je titulní postava filmu – Stalker. Věčný vězeň, odsouzenec pekla, bydlí se svou ženou a dcerkou na samém okraji Zóny a čas od času podniká výpravy za nebezpečnou hranici.",
-      "synopsis_language": "cs",
-      "runtime_min": 162,
-      "genres": [
-        "Vědeckofantastický",
-        "Drama"
-      ],
-      "director": [
-        "Andrei Tarkovsky"
-      ],
-      "screenwriter": [
-        "Arkadiy Strugatskiy",
-        "Andrei Tarkovsky",
-        "Boris Strugatskiy"
-      ],
-      "cast": [
-        "Alisa Freyndlikh",
-        "Aleksandr Kaydanovskiy",
-        "Anatoliy Solonitsyn",
-        "Mykola Hrynko",
-        "Natalya Abramova",
-        "Faime Jurno",
-        "Evgeniy Kostin",
-        "Raimo Rendi"
-      ],
-      "production_company": [
-        "Mosfilm"
-      ],
-      "poster_path": "/ztHPSt5PeowkIFOHBXZr47sMUQc.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2024/07/24/1079b65c98cc6eae1f9359af42d4cfa2.jpg",
-      "backdrop_path": "/6yrbWzzrPp7pwz6zHdifspJk8t3.jpg",
-      "trailer_youtube_key": "JCuwthnCRpg",
-      "age_rating": "NR (US)",
-      "tmdb_id": 1398,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Stalker+%281979%29+1979",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.05, title 1.00)",
-      "match_score": 1.05,
-      "resolved_at": "2026-08-05T22:28:51+02:00"
     },
     {
       "film_id": "stastni spolu",
