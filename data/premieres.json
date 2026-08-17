@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T05:25:28+00:00",
+  "generated_at": "2026-08-17T05:34:42+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -2871,6 +2871,108 @@
       "match_score": 1.0,
       "resolved_at": "2026-08-10T06:11:00+00:00",
       "release_date": "2027-01-07"
+    },
+    {
+      "film_id": "deti krve a kosti",
+      "title_cz": "Děti krve a kostí",
+      "title_en": "Children of Blood and Bone",
+      "original_title": "Children of Blood and Bone",
+      "year": 2027,
+      "synopsis": "In the world of Orïsha, a young woman goes on a quest to reclaim the magic that was violently stolen from her people. She and her brother ally with the daughter and son of the king to fight back against his brutal rule.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Fantasy",
+        "Dobrodružný"
+      ],
+      "director": [
+        "Gina Prince-Bythewood"
+      ],
+      "screenwriter": [
+        "Gina Prince-Bythewood",
+        "Tomi Adeyemi"
+      ],
+      "cast": [
+        "Thuso Mbedu",
+        "Amandla Stenberg",
+        "Damson Idris",
+        "Tosin Cole",
+        "Viola Davis",
+        "Cynthia Erivo",
+        "Idris Elba",
+        "Lashana Lynch"
+      ],
+      "production_company": [
+        "Temple Hill Entertainment",
+        "Sunswept Entertainment",
+        "Paramount Pictures",
+        "Domain Entertainment",
+        "2.0 Entertainment"
+      ],
+      "poster_path": "/qxUPu92DF5Bo6jcCDhnMTHFPEEc.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/iJHHwaFZumvMLx96apZPNhhIb1A.jpg",
+      "trailer_youtube_key": "HnWvg90lQt8",
+      "age_rating": "",
+      "tmdb_id": 621304,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=D%C4%9Bti+krve+a+kost%C3%AD+2027",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-17T05:34:42+00:00",
+      "release_date": "2027-01-14"
+    },
+    {
+      "film_id": "gentle monster",
+      "title_cz": "Gentle Monster",
+      "title_en": "Gentle Monster",
+      "original_title": "Gentle Monster",
+      "year": 2026,
+      "synopsis": "After relocating with her family to the countryside, a renowned pianist uncovers a life-shattering truth that forces her to confront the complexities of love, trust, and deception.",
+      "synopsis_language": "en",
+      "runtime_min": 114,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Marie Kreutzer"
+      ],
+      "screenwriter": [
+        "Marie Kreutzer"
+      ],
+      "cast": [
+        "Léa Seydoux",
+        "Catherine Deneuve",
+        "Jella Haase",
+        "Laurence Rupp",
+        "Sylvester Groth",
+        "Katharina Lorenz",
+        "Regina Fritsch",
+        "Raphael Nicholas"
+      ],
+      "production_company": [
+        "Film AG",
+        "Komplizen Film",
+        "Kazak Productions",
+        "Kjellson & Wik",
+        "Film i Väst",
+        "ORF",
+        "ZDF",
+        "ZDF/Arte",
+        "DESMAR"
+      ],
+      "poster_path": "/vER7UcKarHai0vP9ocHIu1wxJL3.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/p9cdAwkoPkmSC370arNTcDCpZYX.jpg",
+      "trailer_youtube_key": "hsOgBqDSi9M",
+      "age_rating": "R (US)",
+      "tmdb_id": 1473148,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Gentle+Monster+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-17T05:34:42+00:00",
+      "release_date": "2027-01-14"
     }
   ]
 }

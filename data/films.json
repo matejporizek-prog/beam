@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T05:25:27+00:00",
+  "generated_at": "2026-08-17T05:34:40+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -426,36 +426,6 @@
       "resolved_at": "2026-08-05T22:27:36+02:00"
     },
     {
-      "film_id": "amoosed losi odysea",
-      "title_cz": "AMOOSED: losí odysea",
-      "title_en": "AMOOSED: a moose odyssey",
-      "original_title": "AMOOSED: losí odysea",
-      "year": 2026,
-      "synopsis": "When director and ethnologist Hana Nováková encountered an elk, it changed her life. And she wasn't the first. For centuries, people across continents and cultures have been fascinated by this ancient totem animal, one of the largest mammals in the northern hemisphere. Whereas in the past they wanted to conquer it, today they tend to listen to it. The director's cinematic odyssey is the result of several years of searching for the secrets of the moose. It leads from Czech forests through a Russian domestication station to the territory of the indigenous peoples of Canada. A collage of stories told from personal, spiritual, and scientific perspectives shows the moose as a guide between worlds, a symbol of balance and renewal, and a possible answer to the question of how we can heal our relationship with nature.",
-      "synopsis_language": "en",
-      "runtime_min": 76,
-      "genres": [
-        "Dokumentární"
-      ],
-      "director": [
-        "Hana Nováková"
-      ],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "/5o0Vn46JFMl1lT4rZD7sG0addtd.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1571218,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=AMOOSED%3A+los%C3%AD+odysea+2026",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:27:37+02:00"
-    },
-    {
       "film_id": "andelske vejce",
       "title_cz": "Andělské vejce",
       "title_en": "Angel's Egg",
@@ -606,6 +576,57 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:27:39+02:00"
+    },
+    {
+      "film_id": "arco",
+      "title_cz": "Arco",
+      "title_en": "Arco",
+      "original_title": "Arco",
+      "year": 2025,
+      "synopsis": "Je rok 2075. Desetiletá Iris vidí spadnout z nebe tajemného chlapce v duhovém obleku. Jmenuje se Arco a pochází z budoucnosti. Mezi Iris a Arcem vzniká přátelství, křehké a krásné spojení dvou odlišných světů. Společně s robotem Mikkim se vydají na cestu s cílem dostat chlapce zpět domů. Zároveň jsou možná jediní, kteří dokáží zachránit planetu. Arco je okouzlující, vizuálně dechberoucí a dojemná odysea plná naděje a optimismu, kterou produkovala Natalie Portman. Film Uga Bienvenu měl premiéru na festivalu v Cannes a získal hlavní cenu za nejlepší celovečerní film na festivalu animovaného filmu v Annecy.",
+      "synopsis_language": "cs",
+      "runtime_min": 88,
+      "genres": [
+        "Dobrodružný",
+        "Animovaný",
+        "Rodinný",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Ugo Bienvenu"
+      ],
+      "screenwriter": [
+        "Ugo Bienvenu",
+        "Félix de Givry"
+      ],
+      "cast": [
+        "Margot Ringard Oldra",
+        "Oscar Tresanini",
+        "Nathanaël Perrot",
+        "Alma Jodorowsky",
+        "Swann Arlaud",
+        "Vincent Macaigne",
+        "Louis Garrel",
+        "William Lebghil"
+      ],
+      "production_company": [
+        "Remembers",
+        "MountainA",
+        "France 3 Cinéma",
+        "Fit Via Vi",
+        "Sons of Rigor Films"
+      ],
+      "poster_path": "/rWvbMnqLTpyTHmNii4TrnmgzpcS.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2025/12/15/0a3638fbc4cfb6cee9862b81aaa57497.jpg",
+      "backdrop_path": "/reQELo8rDiLIOoYIA7M6q7KGRW0.jpg",
+      "trailer_youtube_key": "j7Tpaj-Iet8",
+      "age_rating": "U",
+      "tmdb_id": 804370,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Arco+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.11, title 1.00)",
+      "match_score": 1.115,
+      "resolved_at": "2026-08-17T05:34:39+00:00"
     },
     {
       "film_id": "arrietty ze sveta pujcovnicku",
@@ -2421,6 +2442,51 @@
       "resolved_at": "2026-08-09T05:47:15+00:00"
     },
     {
+      "film_id": "kde je dum meho pritele",
+      "title_cz": "Kde je dům mého přítele?",
+      "title_en": "Where Is The Friend's House?",
+      "original_title": "خانه‌ی دوست کجاست؟",
+      "year": 1987,
+      "synopsis": "Malý Ahmed omylem přinese ze školy sešit svého spolužáka, kterému učitelka pohrozila přísným trestem, pokud opět přijde do školy bez sešitu a bez domácího úkolu. Vydává se proto najít dům svého přítele, aby mu včas vrátil zápisník, ačkoli zpočátku nenachází u dospělých příliš pochopení. První film z takzvané kokerské trilogie nejvýznamnějšího íránského režiséra Abbáse Kiarostamího se odehrává ve fascinujícím prostředí tradiční vesnice Koker v severním Íránu a pomocí poezie, mystiky a symbolických motivů vypráví o humanismu a životních hodnotách obyčejných Íránců.",
+      "synopsis_language": "cs",
+      "runtime_min": 83,
+      "genres": [
+        "Drama",
+        "Dobrodružný"
+      ],
+      "director": [
+        "Abbas Kiarostami"
+      ],
+      "screenwriter": [
+        "Abbas Kiarostami"
+      ],
+      "cast": [
+        "Babek Ahmadpour",
+        "Ahmed Ahmadpour",
+        "Kheda Barech Defai",
+        "Iran Outari",
+        "Ait Ansari",
+        "Sadika Taohidi",
+        "Biman Mouafi",
+        "Ali Djamali"
+      ],
+      "production_company": [
+        "Kanoon",
+        "Farabi Cinema"
+      ],
+      "poster_path": "/avSSrkHcLc1Zl0Ne5C1YBTskKBS.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/29/47bcc072d218bd445e1fbaa80dbbde27.jpg",
+      "backdrop_path": "/ylBiGZhgBsly0frseG2PvqoYM4o.jpg",
+      "trailer_youtube_key": "run-u_2zAdA",
+      "age_rating": "",
+      "tmdb_id": 49964,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kde+je+d%C5%AFm+m%C3%A9ho+p%C5%99%C3%ADtele%3F+1987",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-08-17T05:34:40+00:00"
+    },
+    {
       "film_id": "kdyby se holubi promenili ve zlato",
       "title_cz": "Kdyby se holubi proměnili ve zlato",
       "title_en": "If Pigeons Turned to Gold",
@@ -2846,49 +2912,6 @@
       "match_score": 0.526
     },
     {
-      "film_id": "lesni jahody",
-      "title_cz": "Lesní jahody",
-      "title_en": "Wild Strawberries",
-      "original_title": "Smultronstället",
-      "year": 1957,
-      "synopsis": "Co znamená ten zvláštní sen samotářského profesora Borga v úvodu filmu? Tato scéna, k níž Bergmana inspiroval jeho vlastní sen, zatížená temnou symbolikou a surrealistickými záhrobními rekvizitami, jako by jednoznačně znamenala předpověď brzké smrti. Vše tomu nasvědčuje: vylidněné město, zastavený čas ve slepémciferníku hodin bez rafijí i Borgova vlastní živá mrtvola, která se na něj sápe z rakve. Avšak zpráva vyslaná snem je něčím víc: naléhavým vzkazem o neodčiněném dluhu, který musí Borg nejdřív splatit životu, než zemře. Sen tu funguje jako spouštějící signál k zahájení namáhavého sestupu do nitra na cestě k pravdivému sebepoznání a přehodnocení dosavadní existence.",
-      "synopsis_language": "cs",
-      "runtime_min": 91,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Ingmar Bergman"
-      ],
-      "screenwriter": [
-        "Ingmar Bergman"
-      ],
-      "cast": [
-        "Victor Sjöström",
-        "Bibi Andersson",
-        "Ingrid Thulin",
-        "Gunnar Björnstrand",
-        "Jullan Kindahl",
-        "Folke Sundquist",
-        "Björn Bjelfvenstam",
-        "Naima Wifstrand"
-      ],
-      "production_company": [
-        "SF Studios"
-      ],
-      "poster_path": "/1Sh4fqJXnVVSvZ8XDppkf0sVdHZ.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/BBVAUchYvkmPThVIqipgAfabfl.jpg",
-      "trailer_youtube_key": "EwMgTyVbCS0",
-      "age_rating": "",
-      "tmdb_id": 614,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Lesn%C3%AD+jahody+1957",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-11T05:52:32+00:00"
-    },
-    {
       "film_id": "leviticus",
       "title_cz": "Leviticus",
       "title_en": "Leviticus",
@@ -3006,50 +3029,6 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-11T05:52:33+00:00"
-    },
-    {
-      "film_id": "lisak a zajda zachranuji les",
-      "title_cz": "Lišák a Zajda zachraňují les",
-      "title_en": "Fox and Hare Save the Forest",
-      "original_title": "Fox and Hare Save the Forest",
-      "year": 2024,
-      "synopsis": "Nadešel velký den! Karel Bobrý, největší stavitel mezi bobry, slavnostně otevírá své mistrovské dílo – obrovskou přehradu, kterou postavil se svými krysími pomocníky. Zatímco bobr sní o obdivu a slávě, Lišák a Zajda pořádají večírek se svými zvířecími přáteli. Ráno ale zjistí, že zmizel jejich kamarád Výr a jejich milovaný les se pomalu zaplavuje vodou. Je za tím Karel a jeho přehrada? Lišák a Zajda se vydávají na dobrodružnou cestu plnou humoru a napětí, aby zachránili Výra i svůj domov.",
-      "synopsis_language": "cs",
-      "runtime_min": 72,
-      "genres": [
-        "Animovaný",
-        "Dobrodružný",
-        "Rodinný"
-      ],
-      "director": [
-        "Mascha Halberstad"
-      ],
-      "screenwriter": [
-        "Fabie van Hulsebos"
-      ],
-      "cast": [
-        "Alex Klaasen",
-        "Remko Vrijdag",
-        "Sigrid ten Napel",
-        "Ilse Warringa",
-        "Robrecht Vanden Thoren"
-      ],
-      "production_company": [
-        "Submarine",
-        "Doghouse Films",
-        "Walking The Dog"
-      ],
-      "poster_path": "/rZQ93JZ1VzKdch2sY1DbccQN8WR.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/4sHXKmoUZan9oGFFHSUADGVza6p.jpg",
-      "trailer_youtube_key": "JaOch6z9TZw",
-      "age_rating": "U",
-      "tmdb_id": 1061785,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Li%C5%A1%C3%A1k+a+Zajda+zachra%C5%88uj%C3%AD+les+2024",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-09T05:47:21+00:00"
     },
     {
       "film_id": "lisejniky holosec",
@@ -3253,55 +3232,6 @@
       "resolved": false,
       "match_reason": "no candidate scored above 0.75",
       "match_score": 0.595
-    },
-    {
-      "film_id": "maverick",
-      "title_cz": "Maverick",
-      "title_en": "Maverick",
-      "original_title": "Maverick",
-      "year": 1994,
-      "synopsis": "Šarmantní hazardní karetní hráč Bret Maverick se vydává na proslulý pokerový šampionát Tří řek. Obrovskou výhru půl milionu dolarů chce ale získat i půvabná a všemi mastmi mazaná Annabelle Bransfordová, s níž se seznámí na cestě. Podobný zájem má také šerif Zane Coburn, zamračený pistolník Angel a další hráči. Podmínkou je, že každý před započetím šampionátu složí dvacet pět tisíc dolarů. A protože ve hře půjde o tak obrovskou finanční částku, pokoušejí se všichni své spoluhráče předem nějak oblufnout, nepříjemně překvapit, anebo je dokonce odstranit z cesty...",
-      "synopsis_language": "cs",
-      "runtime_min": 127,
-      "genres": [
-        "Akční",
-        "Dobrodružný",
-        "Komedie",
-        "Drama",
-        "Western"
-      ],
-      "director": [
-        "Richard Donner"
-      ],
-      "screenwriter": [
-        "William Goldman"
-      ],
-      "cast": [
-        "Mel Gibson",
-        "Jodie Foster",
-        "James Garner",
-        "Graham Greene",
-        "Alfred Molina",
-        "James Coburn",
-        "Dub Taylor",
-        "Geoffrey Lewis"
-      ],
-      "production_company": [
-        "Warner Bros. Pictures",
-        "Icon Productions",
-        "Donner/Shuler-Donner Productions"
-      ],
-      "poster_path": "/mTVbGGi5PIexmxVzeyFd2RYKwfM.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/ctzKCslTsMRsOJNvAm1Mw8ytiHY.jpg",
-      "trailer_youtube_key": "mQ69CVbCiow",
-      "age_rating": "U",
-      "tmdb_id": 9359,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Maverick+1994",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-09T05:47:22+00:00"
     },
     {
       "film_id": "me tiche myslenky",
@@ -3670,6 +3600,49 @@
       "resolved_at": "2026-08-05T22:28:19+02:00"
     },
     {
+      "film_id": "na jednu noc",
+      "title_cz": "Na jednu noc",
+      "title_en": "One Night Stand",
+      "original_title": "One Night Stand",
+      "year": 1997,
+      "synopsis": "In Los Angeles, Max Carlyle makes a good living directing commercials and has a happy home life with his wife, Mimi, and two children. When Carlyle travels to New York City to visit his friend Charlie, who has been diagnosed with AIDS, he has repeat run-ins with a beautiful woman, Karen, and eventually sleeps with her. Though he goes home the next day and doesn't return until a year later, Carlyle's infidelity still lingers.",
+      "synopsis_language": "en",
+      "runtime_min": 102,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Mike Figgis"
+      ],
+      "screenwriter": [
+        "Mike Figgis"
+      ],
+      "cast": [
+        "Wesley Snipes",
+        "Nastassja Kinski",
+        "Kyle MacLachlan",
+        "Ming-Na Wen",
+        "Robert Downey Jr.",
+        "Marcus T. Paulk",
+        "Glenn Plummer",
+        "Amanda Donohoe"
+      ],
+      "production_company": [
+        "New Line Cinema"
+      ],
+      "poster_path": "/h6aDoPEyK4rgp4MiuRvQjepoyZx.jpg",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/08/13/d4b2bdb753b543118830be30c82f8b54.jpg",
+      "backdrop_path": "/7zrjfBsYSOfWXBWpAlc7BLwHd2R.jpg",
+      "trailer_youtube_key": "EjCSBgN2vRY",
+      "age_rating": "15+",
+      "tmdb_id": 12616,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Na+jednu+noc+1997",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (0.75, title 0.80)",
+      "match_score": 0.75,
+      "resolved_at": "2026-08-17T05:34:40+00:00"
+    },
+    {
       "film_id": "na skok do divociny",
       "title_cz": "Na skok do divočiny",
       "title_en": "Hoppers",
@@ -3718,51 +3691,6 @@
       "resolved_at": "2026-08-12T06:11:45+00:00"
     },
     {
-      "film_id": "nahore nebe v doline ja",
-      "title_cz": "Nahoře nebe, v dolině já",
-      "title_en": "Promise, I'll Be Fine",
-      "original_title": "Hore je nebo, v doline som ja",
-      "year": 2025,
-      "synopsis": "Enrique sní o šťastné rodině, ale důvěra k jeho matce Martině klesá. Útočiště nachází u přátel a ve virtuální realitě, postupně se sbližuje s oběťmi Martininých podvodů v \"Utekáči\". S jejich pomocí a se svou bandou odhalují Martininu pravou tvář. Před Enriquem je morální rozhodnutí: přijmout matčiny hodnoty nebo najít lepší cestu.",
-      "synopsis_language": "cs",
-      "runtime_min": 93,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Katarína Gramatová"
-      ],
-      "screenwriter": [
-        "Katarína Gramatová",
-        "Igor Engler"
-      ],
-      "cast": [
-        "Michal Záchenský",
-        "Eva Mores",
-        "Jana Oľhová",
-        "Adam Šuniar",
-        "Dominik Vetrák",
-        "Július Oľha",
-        "Attila Mokos",
-        "Marek Geišberg"
-      ],
-      "production_company": [
-        "NOCHI film",
-        "DRYEYE film"
-      ],
-      "poster_path": "/a8TpePjGiPPoDGiFfR18wpZFRuC.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/fPvBQFPmXjW29ttse4bsKc3iKs2.jpg",
-      "trailer_youtube_key": "zKgWXNLdx8w",
-      "age_rating": "",
-      "tmdb_id": 1361935,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Naho%C5%99e+nebe%2C+v+dolin%C4%9B+j%C3%A1+2025",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-08T05:42:35+00:00"
-    },
-    {
       "film_id": "napis az dorazis domu",
       "title_cz": "Napiš, až dorazíš domů",
       "title_en": "Text me when you get home xx",
@@ -3796,103 +3724,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:28:20+02:00"
-    },
-    {
-      "film_id": "nenavist",
-      "title_cz": "Nenávist",
-      "title_en": "La Haine",
-      "original_title": "La Haine",
-      "year": 1995,
-      "synopsis": "Pochmurný příběh odehrávající se během jednoho dne o třech kamarádech s různým původem, různou mentalitou, intelektem a způsobem, jakým se vyrovnávají s těžkým životem na předměstí současného multikulturního Paříže.",
-      "synopsis_language": "cs",
-      "runtime_min": 98,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Mathieu Kassovitz"
-      ],
-      "screenwriter": [
-        "Mathieu Kassovitz"
-      ],
-      "cast": [
-        "Vincent Cassel",
-        "Hubert Koundé",
-        "Saïd Taghmaoui",
-        "Abdel Ahmed Ghili",
-        "Solo",
-        "Joseph Momo",
-        "Héloïse Rauth",
-        "Rywka Wajsbrot"
-      ],
-      "production_company": [
-        "Kasso Productions",
-        "La Sept Cinéma",
-        "Les Productions Lazennec",
-        "Canal+",
-        "StudioCanal"
-      ],
-      "poster_path": "/gfdhSzPyAWtAizqs4ytc0MwOlQg.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/viGCwLxupyoaLsa6hrnu1gYrB0B.jpg",
-      "trailer_youtube_key": "FKwcXt3JIaU",
-      "age_rating": "NR (US)",
-      "tmdb_id": 406,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Nen%C3%A1vist+1995",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:22+02:00"
-    },
-    {
-      "film_id": "neni jina moznost",
-      "title_cz": "Není jiná možnost",
-      "title_en": "No Other Choice",
-      "original_title": "어쩔수가없다",
-      "year": 2025,
-      "synopsis": "Man-su má všechno, o čem snil: stabilní práci v prestižní papírenské firmě, respekt, šťastnou rodinu a velký dům se skleníkem plným bonsají. Když ale papírnu koupí Američané a Man-su přijde o místo, začne se jeho dokonalý svět rozpadat. Jediná možnost, jak vše v korporátním světě získat zpět? Odstranit konkurenci.",
-      "synopsis_language": "cs",
-      "runtime_min": 139,
-      "genres": [
-        "Komedie",
-        "Krimi",
-        "Thriller"
-      ],
-      "director": [
-        "Park Chan-wook"
-      ],
-      "screenwriter": [
-        "Park Chan-wook",
-        "Lee Kyoung-mi",
-        "Don McKellar",
-        "Lee Ja-hye"
-      ],
-      "cast": [
-        "Lee Byung-hun",
-        "Son Ye-jin",
-        "Park Hee-soon",
-        "Lee Sung-min",
-        "Yeom Hye-ran",
-        "Cha Seung-won",
-        "Oh Dal-su",
-        "Kim Woo-seung"
-      ],
-      "production_company": [
-        "CJ ENM Studios",
-        "Moho Film",
-        "KG Productions"
-      ],
-      "poster_path": "/oNngk3kEWapbojOVfoPaq2rpOOn.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/1eM6Ey1FzpgJigrxRiSYtntSWq7.jpg",
-      "trailer_youtube_key": "SK_DEabMNVg",
-      "age_rating": "12+",
-      "tmdb_id": 639988,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Nen%C3%AD+jin%C3%A1+mo%C5%BEnost+2025",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-09T05:47:23+00:00"
     },
     {
       "film_id": "nt live hrdina zapadu",
@@ -5012,53 +4843,6 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-06T07:39:57+00:00"
-    },
-    {
-      "film_id": "rufus morsky dracek ktery neumel plavat",
-      "title_cz": "Rufus: Mořský dráček, který neuměl plavat",
-      "title_en": "Rufus: The Sea Serpent Who Couldn't Swim",
-      "original_title": "Ruffen: Sjøormen som ikke kunne svømme",
-      "year": 2025,
-      "synopsis": "Uprostřed oceánu, na skrytém ostrově zahaleném magickou mlhou strýce Ludovica – napůl mořské příšery, napůl draka – žije tajemná komunita mořských hadů. Mezi nimi je i mladý Rufus, samotář, který se od ostatních výrazně liší – neumí totiž plavat. Když však ostrov postihne katastrofa a strýc Ludovic ztratí své schopnosti chránit jeho obyvatele, Rufus musí překonat svůj největší strach a postavit se osudu. Dokáže zachránit svou rodinu dřív, než bude pozdě?",
-      "synopsis_language": "cs",
-      "runtime_min": 80,
-      "genres": [
-        "Animovaný",
-        "Rodinný"
-      ],
-      "director": [
-        "Endre Skandfer"
-      ],
-      "screenwriter": [
-        "Karsten Fullu"
-      ],
-      "cast": [
-        "Mudit Gupta",
-        "Janne Formoe",
-        "Torstein Bae",
-        "Stig Henrik Hoff",
-        "Kåre Conradi",
-        "Anne Marit Jacobsen",
-        "Olivia Augusta Røv Magelssen",
-        "Dennis Storhøi"
-      ],
-      "production_company": [
-        "Anima Vitae Point",
-        "Atmosphere Media",
-        "Maipo Film",
-        "NeXtFrames Animation"
-      ],
-      "poster_path": "/sgoNvH0yEDonzJpGEzmBo5NlPSO.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/mH7bfSIQelApYiTlefB8rKNJ81J.jpg",
-      "trailer_youtube_key": "FQz9GeFjjy4",
-      "age_rating": "",
-      "tmdb_id": 1512207,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Rufus%3A+Mo%C5%99sk%C3%BD+dr%C3%A1%C4%8Dek%2C+kter%C3%BD+neum%C4%9Bl+plavat+2025",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:41+02:00"
     },
     {
       "film_id": "rytiri spravedlnosti",
@@ -6243,57 +6027,6 @@
       "match_reason": "verified against director/runtime (1.11, title 1.00)",
       "match_score": 1.115,
       "resolved_at": "2026-08-14T06:13:00+00:00"
-    },
-    {
-      "film_id": "tvoje jmeno",
-      "title_cz": "Tvoje jméno.",
-      "title_en": "Your Name.",
-      "original_title": "君の名は。",
-      "year": 2016,
-      "synopsis": "Micuha žije v malém horském městečku a sní o životě v Tokiu. Taki je středoškolák z Tokia, který se cítí ztracený uprostřed ruchu velkoměsta. Když se jednoho dne probudí v těle toho druhého, vytvoří se mezi nimi zvláštní pouto — spletitá hra snů, vzpomínek a náhod. S každou další výměnou se jejich životy proplétají hlouběji, až do chvíle, kdy spojení náhle zmizí. Taki se vydává hledat dívku, kterou nikdy nepotkal a přesto se stala součástí jeho srdce.",
-      "synopsis_language": "cs",
-      "runtime_min": 106,
-      "genres": [
-        "Animovaný",
-        "Romantický",
-        "Drama"
-      ],
-      "director": [
-        "Makoto Shinkai"
-      ],
-      "screenwriter": [
-        "Makoto Shinkai"
-      ],
-      "cast": [
-        "Ryunosuke Kamiki",
-        "Mone Kamishiraishi",
-        "Ryo Narita",
-        "Aoi Yuuki",
-        "Nobunaga Shimazaki",
-        "Kaito Ishikawa",
-        "Kanon Tani",
-        "Masaki Terasoma"
-      ],
-      "production_company": [
-        "CoMix Wave Films",
-        "TOHO",
-        "KADOKAWA",
-        "jeki",
-        "AMUSE",
-        "voque ting",
-        "Lawson Entertainment"
-      ],
-      "poster_path": "/7OaHQ8waNL7gv73Es0xQ57mXbhh.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2025/08/13/79eb527ba20616451e692e8e6f7c208c.webp",
-      "backdrop_path": "/8x9iKH8kWA0zdkgNdpAew7OstYe.jpg",
-      "trailer_youtube_key": "RuyHIkXdYf8",
-      "age_rating": "PG (US)",
-      "tmdb_id": 372058,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Tvoje+jm%C3%A9no.+2016",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-09T05:47:25+00:00"
     },
     {
       "film_id": "ucpanej system",
