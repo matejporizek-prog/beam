@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T05:34:42+00:00",
+  "generated_at": "2026-08-18T05:25:55+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -196,6 +196,60 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "resolved_at": "2026-08-07T06:09:07+00:00",
+      "release_date": "2026-08-20"
+    },
+    {
+      "film_id": "arva",
+      "title_cz": "Árva",
+      "title_en": "Orphan",
+      "original_title": "Árva",
+      "year": 2025,
+      "synopsis": "Hungary, 1957. A young Jewish boy, raised by his mother with idealized tales of his dead father, has his world turned upside down when a brutish man appears, claiming to be his true parent.",
+      "synopsis_language": "en",
+      "runtime_min": 132,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "László Nemes"
+      ],
+      "screenwriter": [
+        "Clara Royer",
+        "László Nemes"
+      ],
+      "cast": [
+        "Bojtorján Barabas",
+        "Grégory Gadebois",
+        "Andrea Waskovics",
+        "Marcin Czarnik",
+        "Elíz Szabó",
+        "Gyorgy Bojtik",
+        "Gábor Iványi",
+        "Soma Sándor"
+      ],
+      "production_company": [
+        "Pioneer Pictures",
+        "Good Chaos",
+        "Agat Films & Cie / Ex Nihilo",
+        "Pallas Film",
+        "ARTE France Cinéma",
+        "Mid March Media",
+        "AR Content",
+        "Lumen",
+        "Twenty Twenty Vision Filmproduktion",
+        "Mozinet"
+      ],
+      "poster_path": "/cfDIfmcIwBJddo5p3l3Q2CA9o5w.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/A5njgd1yycX1kEkDSfZWecQjenb.jpg",
+      "trailer_youtube_key": "ttF-uKy81ZE",
+      "age_rating": "12+",
+      "tmdb_id": 803208,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C3%81rva+2025",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-18T05:25:54+00:00",
       "release_date": "2026-08-20"
     },
     {
@@ -1168,6 +1222,48 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-10-01"
+    },
+    {
+      "film_id": "tango pro 3",
+      "title_cz": "Tango pro 3",
+      "title_en": "Tango pro 3",
+      "original_title": "Tango pro 3",
+      "year": 2026,
+      "synopsis": "Jeden životní pád, jedna životní příležitost. Julii (Kristýna Boková) a Kristiána (Ján Koleník) nečekaně spojí populární taneční show a touha uspět. Dosáhnout stejného cíle není snadné, když každý z nich má jinou motivaci. Julii, sympatické grafičce, se právě rozpadl život. Taneční soutěž bere jako šanci dokázat sobě a svým blízkým, že se nevzdává a pokud bojuje, tak podle pravidel.  Charismatický tanečník Kristián touží vrátit se na vrchol a zachránit si kariéru, ve které před lety zářil se svou bývalou partnerkou Viki (Helena Dvořáková).",
+      "synopsis_language": "cs",
+      "runtime_min": 111,
+      "genres": [
+        "Romantický"
+      ],
+      "director": [
+        "Lenka Kny"
+      ],
+      "screenwriter": [
+        "Lenka Kny"
+      ],
+      "cast": [
+        "Kristýna Boková",
+        "Ján Koleník",
+        "Helena Dvořáková",
+        "Martin Dejdar",
+        "Anna Polívková",
+        "Zuzana Norisová",
+        "Marek Taclík",
+        "Marek Němec"
+      ],
+      "production_company": [],
+      "poster_path": "/yRRAyaPlvHapIcFIbqxjp4rBeZv.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/2aoL5fsOk68kdk9oUb9Lj3BWtSV.jpg",
+      "trailer_youtube_key": "uIgxrdyeWE0",
+      "age_rating": "",
+      "tmdb_id": 1751307,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Tango+pro+3+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-18T05:25:55+00:00",
       "release_date": "2026-10-01"
     },
     {
