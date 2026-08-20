@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T05:30:39+00:00",
+  "generated_at": "2026-08-20T05:29:36+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -383,49 +383,6 @@
       "resolved_at": "2026-08-05T22:27:35+02:00"
     },
     {
-      "film_id": "americky sen",
-      "title_cz": "Americký sen",
-      "title_en": "Sueno",
-      "original_title": "Sueño",
-      "year": 2005,
-      "synopsis": "Antonio (John Leguizamo - Moulin Rouge) má celý život jediný sen chce se stát slavným muzikantem. A tak jednoho dne utíká z prašného mexického příhraničního města a naskakuje do autobusu směr Los Angeles. Tady se mu převrací život naruby ve chvíli, kdy propadá kouzlu krásné a ctižádostivé doktorky Niny (Ana Claudia Talancón - Zločin pátera Amara). Jeho láska k Nině je stále větší, stejně jako obdiv k sousedce Mirabelle (Elizabeth Peña), rozvedené matce dvou dětí a nadané bývalé zpěvačce. Po dlouhém naléhání Antonio Mirabellu přemlouvá, aby se stala členkou jeho kapely a zapojila se do přípravy na soutěž talentů, která jim všem může navždy změnit život. Užijte si kouzelný příběh o nekonečné síle lásky, naděje a snů.",
-      "synopsis_language": "cs",
-      "runtime_min": 104,
-      "genres": [
-        "Drama",
-        "Komedie",
-        "Romantický"
-      ],
-      "director": [
-        "Renée Chabria"
-      ],
-      "screenwriter": [
-        "Renée Chabria"
-      ],
-      "cast": [
-        "John Leguizamo",
-        "Ana Claudia Talancón",
-        "Elizabeth Peña",
-        "Nestor Serrano",
-        "José María Yázpik",
-        "Jsu Garcia",
-        "Rafael Simón",
-        "Rick Simone"
-      ],
-      "production_company": [],
-      "poster_path": "/huJxYV08PB3uxrBNbhE2e5msT4f.jpg",
-      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/3607S3X1.jpg",
-      "backdrop_path": "/kOZWjotmignexEk0JGuehKzE7gI.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "PG-13 (US)",
-      "tmdb_id": 127711,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Americk%C3%BD+sen+2005",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:27:36+02:00"
-    },
-    {
       "film_id": "andelske vejce",
       "title_cz": "Andělské vejce",
       "title_en": "Angel's Egg",
@@ -491,53 +448,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'André Rieu - letní koncert 2026: Viva Maastricht!'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "architekt",
-      "title_cz": "Architekt",
-      "title_en": "The Great Arch",
-      "original_title": "L'Inconnu de la Grande Arche",
-      "year": 2025,
-      "synopsis": "Rok 1983. Je vyhlášena architektonická soutěž o novou dominantu Paříže, která se má stát symbolem její moderní čtvrti La Défense. Soutěže se účastní největší mezinárodní architektonické firmy a překvapivě vyhrává neznámý učitel architektury Johan Otto von Spreckelsen se svým projektem Velký oblouk – La Grande Arche. Do této chvíle tento padesátiletý Dán postavil pouze čtyři budovy: svůj domov a tři malé kaple, život zasvětil především výuce a hledání rovnováhy mezi prostorem, světlem a duší člověka. Jeho Velký oblouk je prostý, geometricky čistý, inspirovaný ideou brány k nebi. Film sleduje, jak se Otto vyrovnává s tlakem politiků, úředníků i médií a s vlastními pochybnostmi, zda lze zůstat věrný duchovní vizi uprostřed světa kompromisů. Stavba, která měla být symbolem harmonie, se postupně mění v zrcadlo jeho vnitřního zápasu. (CinemArt)",
-      "synopsis_language": "cs",
-      "runtime_min": 105,
-      "genres": [
-        "Drama",
-        "Historický"
-      ],
-      "director": [
-        "Stéphane Demoustier"
-      ],
-      "screenwriter": [
-        "Stéphane Demoustier"
-      ],
-      "cast": [
-        "Claes Bang",
-        "Xavier Dolan",
-        "Swann Arlaud",
-        "Sidse Babett Knudsen",
-        "Michel Fau",
-        "Jean des Forêts",
-        "Micha Lescot",
-        "Alessandro Bressanello"
-      ],
-      "production_company": [
-        "Agat Films & Cie / Ex Nihilo",
-        "France 3 Cinéma",
-        "Le Pacte",
-        "Zentropa Entertainments"
-      ],
-      "poster_path": "/rBd15gS2a8PEryeyzk0kFf92wHF.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/4CmqIt9w9iNuYPLkWLFmSnczXkc.jpg",
-      "trailer_youtube_key": "FhtqB5aq1t8",
-      "age_rating": "12+",
-      "tmdb_id": 1290424,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Architekt+2025",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:27:38+02:00"
     },
     {
       "film_id": "architektura cssr 58 89",
@@ -926,6 +836,54 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:27:43+02:00"
+    },
+    {
+      "film_id": "blade runner the final cut",
+      "title_cz": "Blade Runner: The Final Cut",
+      "title_en": "Blade Runner",
+      "original_title": "Blade Runner",
+      "year": 1982,
+      "synopsis": "Příběh se odehrává v blízké budoucnosti, kdy věda pokročila a společnost začala vyrábět replikanty, kteří jsou od lidí k nerozeznání. Těm je však po krvavé vzpouře v jedné mimozemské kolonii zakázán vstup na Zemi pod trestem smrti...",
+      "synopsis_language": "cs",
+      "runtime_min": 117,
+      "genres": [
+        "Vědeckofantastický",
+        "Drama",
+        "Thriller"
+      ],
+      "director": [
+        "Ridley Scott"
+      ],
+      "screenwriter": [
+        "David Webb Peoples",
+        "Hampton Fancher"
+      ],
+      "cast": [
+        "Harrison Ford",
+        "Rutger Hauer",
+        "Sean Young",
+        "Edward James Olmos",
+        "M. Emmet Walsh",
+        "Daryl Hannah",
+        "William Sanderson",
+        "Brion James"
+      ],
+      "production_company": [
+        "Shaw Brothers",
+        "The Ladd Company",
+        "Warner Bros. Pictures"
+      ],
+      "poster_path": "/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2025/10/14/2d529f12de4f06042de24de55f1e5116.jpg",
+      "backdrop_path": "/hJ5R9d6QuH3tzr8L8neZZTuzNXm.jpg",
+      "trailer_youtube_key": "qoEyZoOTtss",
+      "age_rating": "18+",
+      "tmdb_id": 78,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Blade+Runner%3A+The+Final+Cut+1982",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (0.78, title 0.63)",
+      "match_score": 0.782,
+      "resolved_at": "2026-08-20T05:29:32+00:00"
     },
     {
       "film_id": "blue lock",
@@ -1417,51 +1375,6 @@
       "resolved_at": "2026-08-05T22:27:51+02:00"
     },
     {
-      "film_id": "dabel nosi pradu 2",
-      "title_cz": "Ďabel nosí Pradu 2",
-      "title_en": "The Devil Wears Prada 2",
-      "original_title": "The Devil Wears Prada 2",
-      "year": 2026,
-      "synopsis": "Téměř 20 let po svém ikonickém ztvárnění postav Mirandy, Andy, Emily a Nigela se Meryl Streep, Anne Hathaway, Emily Blunt a Stanley Tucci vrací do módních ulic New Yorku a elegantních kanceláří časopisu Runway v netrpělivě očekávaném pokračování fenoménu z roku 2006, který zasáhl, ovlinil a definoval celou generaci.",
-      "synopsis_language": "cs",
-      "runtime_min": 119,
-      "genres": [
-        "Komedie",
-        "Drama"
-      ],
-      "director": [
-        "David Frankel"
-      ],
-      "screenwriter": [
-        "Aline Brosh McKenna"
-      ],
-      "cast": [
-        "Anne Hathaway",
-        "Meryl Streep",
-        "Emily Blunt",
-        "Stanley Tucci",
-        "Kenneth Branagh",
-        "Justin Theroux",
-        "Lucy Liu",
-        "Tracie Thoms"
-      ],
-      "production_company": [
-        "20th Century Studios",
-        "Wendy Finerman Productions"
-      ],
-      "poster_path": "/vVF3wmBRNmCjQhgmgENUAisELok.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/Af907x5h9W1wVis8XrSd7ynTWuy.jpg",
-      "trailer_youtube_key": "kFi_9bR5zdw",
-      "age_rating": "U",
-      "tmdb_id": 1314481,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=%C4%8Eabel+nos%C3%AD+Pradu+2+2026",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-09T05:47:14+00:00"
-    },
-    {
       "film_id": "dalajlama ocean moudrosti",
       "title_cz": "Dalajlama - Oceán moudrosti",
       "title_en": "Dalai Lama - Ocean of Wisdom",
@@ -1521,100 +1434,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Děvče ze Západu (Opera)'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "die my love",
-      "title_cz": "Die My Love",
-      "title_en": "Die My Love",
-      "original_title": "Die My Love",
-      "year": 2025,
-      "synopsis": "Grace (Jennifer Lawrence) a Jackson (Robert Pattinson) jsou po uši zamilovaní. Po narození dítěte a přestěhování na venkov si malují společnou budoucnost plnou nadějí a snů. Jenže Grace, vyčerpaná mateřstvím a otrávená vlastním životem, v sobě cítí narůstat něco divokého – nespoutanou energii, kterou nedokáže zastavit. Nekompromisní, temně komický psychothriller Lynne Ramsay vás vtáhne do chaosu ženské duše jako málokterý film.",
-      "synopsis_language": "cs",
-      "runtime_min": 119,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Lynne Ramsay"
-      ],
-      "screenwriter": [
-        "Enda Walsh",
-        "Lynne Ramsay",
-        "Alice Birch"
-      ],
-      "cast": [
-        "Jennifer Lawrence",
-        "Robert Pattinson",
-        "Sissy Spacek",
-        "LaKeith Stanfield",
-        "Nick Nolte",
-        "Gabrielle Rose",
-        "Clare Coulter",
-        "Sarah Lind"
-      ],
-      "production_company": [
-        "Excellent Cadaver",
-        "Sikelia Productions",
-        "Black Label Media"
-      ],
-      "poster_path": "/kajpShbFhOdpl6yCrLezMrr9tB4.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/dEkFlZzj2cb5F7SShvqkL54E4lr.jpg",
-      "trailer_youtube_key": "2jzXHW6Qe70",
-      "age_rating": "15+",
-      "tmdb_id": 1033148,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Die+My+Love+2025",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-09T05:47:15+00:00"
-    },
-    {
-      "film_id": "dogman",
-      "title_cz": "Dogman",
-      "title_en": "Dog Man",
-      "original_title": "Dog Man",
-      "year": 2025,
-      "synopsis": "Tvořili nerozlučnou dvojku – polda a jeho pes. Jenže pak se přichomýtli ke kolosální explozi, která pro ně měla velmi vážné následky. Naštěstí se ocitli v rukou skvělých doktorů, kteří posbírali to, co z nich zbylo, spojili to dohromady a stvořili Dogmana. Od krku dolů vypadá jako úplně obyčejný lidský polda, od krku nahoru jako policejní pes. Dogman velmi brzy zjistí, že taková kombinace přináší pro práci prodloužené ruky zákona spoustu výhod, což oceňuje zejména policejní náčelník (jen kdyby ho Dogman pořád neolizoval a nehonil každou veverku, kterou uvidí). Hrdina s policejní plackou se všem hodí ve chvíli, kdy místní superpadouch, kocour Péťa, začne spřádat nový ďábelský plán, jenž mu má umožnit být ještě zlejší. Ve zkratce – naklonuje se a ze svého malého klona Peťulky vychová stejného zloducha, jako je on sám, aby jim šel zločin pěkně od ruky. Jenže je tu Dogman, který má na polopsa nečekanou slabost pro koťátka.",
-      "synopsis_language": "cs",
-      "runtime_min": 89,
-      "genres": [
-        "Rodinný",
-        "Komedie",
-        "Dobrodružný",
-        "Animovaný",
-        "Akční"
-      ],
-      "director": [
-        "Peter Hastings"
-      ],
-      "screenwriter": [
-        "Peter Hastings"
-      ],
-      "cast": [
-        "Peter Hastings",
-        "Pete Davidson",
-        "Lil Rel Howery",
-        "Isla Fisher",
-        "Lucas Hopkins Calderon",
-        "Ricky Gervais",
-        "Poppy Liu",
-        "Stephen Root"
-      ],
-      "production_company": [
-        "DreamWorks Animation"
-      ],
-      "poster_path": "/6qeqxXgCXutjcMZZI7rafwWCLIU.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2025/01/28/618b1f2c146f5cef0e7fcce231fad032.jpg",
-      "backdrop_path": "/iXU87IdtNsYt7n6OigPJBDdbFf1.jpg",
-      "trailer_youtube_key": "QaJbAennB_Q",
-      "age_rating": "U",
-      "tmdb_id": 774370,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Dogman+2025",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.11, title 1.00)",
-      "match_score": 1.115,
-      "resolved_at": "2026-08-12T06:11:44+00:00"
     },
     {
       "film_id": "dokonale dny",
@@ -2361,53 +2180,6 @@
       "match_score": 0.0
     },
     {
-      "film_id": "juno",
-      "title_cz": "Juno",
-      "title_en": "Juno",
-      "original_title": "Juno",
-      "year": 2007,
-      "synopsis": "Komedie o dospívání a jeho nečekaných nástrahách.  Juno je šestnáctiletá středoškolačka, která se potýká s nečekaným těhotenstvím. Otcem dítěte je další teenager Paulie, kterého ovšem ona nepovažuje za svého přítele. Chce, aby všechno skončilo jako špatný sen, ale zjišťuje, že musí začít situaci řešit. Využije pomoci své nejlepší přítelkyně Leah a uvažuje o Centru pro pomoc ženám, aby jí pomohlo s „rychlým potratem“, jak tomu sama říká. Před klinikou ale potká svou kamarádku Su-Chin, která odmítá potraty a přesvědčí ji, aby svoje rozhodnutí změnila.  Juno nakonec spolu s Leah nachází v Penny Saver inzerát od Marka a Vanessy Loringových, kteří zoufale touží po dítěti a právě zde začíná příběh mladičké dívky Juno a jejího dospívání.",
-      "synopsis_language": "cs",
-      "runtime_min": 96,
-      "genres": [
-        "Komedie",
-        "Drama",
-        "Romantický"
-      ],
-      "director": [
-        "Jason Reitman"
-      ],
-      "screenwriter": [
-        "Diablo Cody"
-      ],
-      "cast": [
-        "Elliot Page",
-        "Michael Cera",
-        "Jennifer Garner",
-        "Jason Bateman",
-        "J.K. Simmons",
-        "Allison Janney",
-        "Olivia Thirlby",
-        "Eileen Pedde"
-      ],
-      "production_company": [
-        "Mandate Pictures",
-        "Mr. Mudd",
-        "Fox Searchlight Pictures"
-      ],
-      "poster_path": "/jNIn2tVhpvFD6P9IojldI3mNYcn.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/04/adf1c19251bd7bb7cda415a9b023d01f.jpg",
-      "backdrop_path": "/sRXMmeNHTSWRYdDz3zaHNyyPJ0u.jpg",
-      "trailer_youtube_key": "miy1fE-8Z0U",
-      "age_rating": "15+",
-      "tmdb_id": 7326,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Juno+2007",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-12T06:11:45+00:00"
-    },
-    {
       "film_id": "kde je dum meho pritele",
       "title_cz": "Kde je dům mého přítele?",
       "title_en": "Where Is The Friend's House?",
@@ -3043,31 +2815,6 @@
       "resolved_at": "2026-08-05T22:28:10+02:00"
     },
     {
-      "film_id": "libove spolecenstvo letni zivak na zahrade kina kavalirka",
-      "title_cz": "Libové společenstvo – letní ŽIVÁK na zahradě Kina Kavalírka",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Libov%C3%A9+spole%C4%8Denstvo+%E2%80%93+letn%C3%AD+%C5%BDIV%C3%81K+na+zahrad%C4%9B+Kina+Kaval%C3%ADrka",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Libové společenstvo – letní ŽIVÁK na zahradě Kina Kavalírka'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "linkin park unshatter",
       "title_cz": "LINKIN PARK: UNSHATTER",
       "title_en": "LINKIN PARK: UNSHATTER",
@@ -3111,31 +2858,6 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-11T05:52:33+00:00"
-    },
-    {
-      "film_id": "lisejniky holosec",
-      "title_cz": "Lišejníky & Holoseč",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Li%C5%A1ejn%C3%ADky+%26+Holose%C4%8D",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Lišejníky & Holoseč'",
-      "match_score": 0.0
     },
     {
       "film_id": "macbeth opera",
@@ -3808,6 +3530,31 @@
       "resolved_at": "2026-08-05T22:28:20+02:00"
     },
     {
+      "film_id": "nebezpecne znamosti",
+      "title_cz": "Nebezpečné známosti | NT Live",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/04/17/7e1d5a95e29bf94b6e276ea596f05752.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Nebezpe%C4%8Dn%C3%A9+zn%C3%A1mosti+%7C+NT+Live",
+      "resolved": false,
+      "match_reason": "title matched 'Nebezpečné známosti' but director and runtime contradict it",
+      "match_score": 0.85
+    },
+    {
       "film_id": "nedosazitelna laska",
       "title_cz": "Nedosažitelná láska",
       "title_en": "",
@@ -3830,6 +3577,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Nedosa%C5%BEiteln%C3%A1+l%C3%A1ska",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Nedosažitelná láska'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "nerdopolis uvadi ostrov",
+      "title_cz": "Nerdopolis uvádí: Ostrov",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Nerdopolis+uv%C3%A1d%C3%AD%3A+Ostrov",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Nerdopolis uvádí: Ostrov'",
       "match_score": 0.0
     },
     {
@@ -4078,31 +3850,6 @@
       "resolved_at": "2026-08-05T22:28:25+02:00"
     },
     {
-      "film_id": "oko naslepo",
-      "title_cz": "Oko naslepo",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2021/10/14/f96164bb6d0fd921d281feaa33b128b7.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Oko+naslepo",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Oko naslepo'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "orwell 2 2 5",
       "title_cz": "Orwell: 2 + 2 = 5",
       "title_en": "Orwell: 2+2=5",
@@ -4241,6 +3988,31 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-08-05T22:28:25+02:00"
+    },
+    {
+      "film_id": "pariz 1900",
+      "title_cz": "Paříž 1900",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Pa%C5%99%C3%AD%C5%BE+1900",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Paříž 1900'",
+      "match_score": 0.0
     },
     {
       "film_id": "parsifal opera",
@@ -4842,6 +4614,31 @@
       "resolved_at": "2026-08-06T07:39:56+00:00"
     },
     {
+      "film_id": "ridley scott double feature",
+      "title_cz": "Ridley Scott double feature",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2021/09/29/239752404fac8104e78d53c33617e115.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ridley+Scott+double+feature",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Ridley Scott double feature'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "romeo a julie",
       "title_cz": "Romeo a Julie",
       "title_en": "",
@@ -5007,54 +4804,6 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-08-05T22:28:41+02:00"
-    },
-    {
-      "film_id": "sampion",
-      "title_cz": "Šampión",
-      "title_en": "Champion",
-      "original_title": "Šampión",
-      "year": 2026,
-      "synopsis": "Ondrej Nepela, fenomenální sportovec, který po letech reprezentování své vlasti touží po jediném, opustit zlatou klec socialistického Československa a účinkovat v populární revue Holiday on Ice. Během závěrečné přípravy na mistrovství bojuje Ondrej nejen s režimem, ale především sám se sebou. Krátce před rozhodující jízdou ho ochromí strach a Hilda Múdra musí najít způsob, jak ho znovu postavit na nohy.",
-      "synopsis_language": "cs",
-      "runtime_min": 90,
-      "genres": [
-        "Drama",
-        "Historický"
-      ],
-      "director": [
-        "Jakub Červenka"
-      ],
-      "screenwriter": [
-        "Jakub Červenka",
-        "Nina Morgenstein"
-      ],
-      "cast": [
-        "Adam Kubala",
-        "Jana Nagyová Pulm",
-        "Karel Dobrý",
-        "Gabriela Marcinková",
-        "Daniel Fischer",
-        "Peter Bebjak",
-        "Martin Klinčúch",
-        "Roman Luknár"
-      ],
-      "production_company": [
-        "Bedna Films",
-        "Česká televize",
-        "PFX",
-        "B Production"
-      ],
-      "poster_path": "/x1qBDj0z9AbNKktOdmAXJ9nSEHw.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/jvsyLu1YnhIVnWSJbao6TFd44iN.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1512841,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%A0ampi%C3%B3n+2026",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:42+02:00"
     },
     {
       "film_id": "samson a dalila opera",
@@ -5298,53 +5047,6 @@
       "resolved_at": "2026-08-05T22:28:47+02:00"
     },
     {
-      "film_id": "smrtelne zlo v plamenech",
-      "title_cz": "Smrtelné zlo: V plamenech",
-      "title_en": "Evil Dead Burn",
-      "original_title": "Evil Dead Burn",
-      "year": 2026,
-      "synopsis": "Truchlící Alice hledá po ztrátě manžela útěchu u svých příbuzných v jejich odlehlém rodinném domě. Zde omylem osvobodí krvežíznivé démony skryté v prastaré knize. Rodinné setkání se tak změní v krvavou noční můru plnou démonů.",
-      "synopsis_language": "cs",
-      "runtime_min": 110,
-      "genres": [
-        "Horor",
-        "Thriller"
-      ],
-      "director": [
-        "Sébastien Vaniček"
-      ],
-      "screenwriter": [
-        "Sébastien Vaniček",
-        "Florent Bernard"
-      ],
-      "cast": [
-        "Souheila Yacoub",
-        "Tandi Wright",
-        "Hunter Doohan",
-        "Luciane Buchanan",
-        "Erroll Shand",
-        "Maude Davey",
-        "George Pullar",
-        "Greta van den Brink"
-      ],
-      "production_company": [
-        "New Line Cinema",
-        "Screen Gems",
-        "Ghost House Pictures"
-      ],
-      "poster_path": "/uRxrNXQWkHoENm3nwVOZDYSCx2F.jpg",
-      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8228D2R.jpg",
-      "backdrop_path": "/A5Tz6ogGt4VV8NESG9oWVct5bo1.jpg",
-      "trailer_youtube_key": "RddZObTlmA8",
-      "age_rating": "15+",
-      "tmdb_id": 1212763,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Smrteln%C3%A9+zlo%3A+V+plamenech+2026",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:47+02:00"
-    },
-    {
       "film_id": "smrtonosna zbran",
       "title_cz": "Smrtonosná zbraň",
       "title_en": "Lethal Weapon",
@@ -5414,55 +5116,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Spartacus: Fragile Campaign'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "spasitel",
-      "title_cz": "Spasitel",
-      "title_en": "Project Hail Mary",
-      "original_title": "Project Hail Mary",
-      "year": 2026,
-      "synopsis": "Učitel přírodopisu Ryland Grace se probudí na vesmírné lodi vzdálené světelné roky od domova, aniž by si pamatoval, kdo je a jak se tam dostal. Když se mu paměť vrátí, začne odhalovat svůj úkol: vyřešit záhadu tajemné látky, která způsobuje vyhasínání Slunce. Musí využít svých vědeckých znalostí a neortodoxních nápadů, aby zachránil vše na Zemi před zánikem… ale díky nečekanému přátelství na to možná nebude muset být sám.",
-      "synopsis_language": "cs",
-      "runtime_min": 157,
-      "genres": [
-        "Vědeckofantastický",
-        "Dobrodružný"
-      ],
-      "director": [
-        "Phil Lord",
-        "Christopher Miller"
-      ],
-      "screenwriter": [
-        "Drew Goddard"
-      ],
-      "cast": [
-        "Ryan Gosling",
-        "Sandra Hüller",
-        "James Ortiz",
-        "Lionel Boyce",
-        "Milana Vayntrub",
-        "Ken Leung",
-        "Priya Kansara",
-        "Mia Soteriou"
-      ],
-      "production_company": [
-        "Lord Miller",
-        "Amazon MGM Studios",
-        "Pascal Pictures",
-        "Open Invite Entertainment",
-        "Waypoint Entertainment"
-      ],
-      "poster_path": "/sjG9ODJhSKDluawRsyhW3ijwjbQ.jpg",
-      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7449S2R.jpg",
-      "backdrop_path": "/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
-      "trailer_youtube_key": "26708YSDK-4",
-      "age_rating": "12+",
-      "tmdb_id": 687163,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Spasitel+2026",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.05, title 1.00)",
-      "match_score": 1.05,
-      "resolved_at": "2026-08-05T22:28:49+02:00"
     },
     {
       "film_id": "spider man zbrusu novy den",
@@ -6218,6 +5871,55 @@
       "resolved_at": "2026-08-05T22:29:02+02:00"
     },
     {
+      "film_id": "unbroken",
+      "title_cz": "UnBroken",
+      "title_en": "Unbroken",
+      "original_title": "Unbroken",
+      "year": 2014,
+      "synopsis": "Jako malý kluk byl Louis pěkný sígr, jeho výhodou bylo, že před následky svých činů dokázal skoro vždycky utéct. Toho si všiml jeho starší bratr Pete, kterého napadlo, že by běžecký talent mohl využít na závodní dráze. Dotáhl to až do amerického olympijského týmu na hry v Berlíně v roce 1936, kde mimo jiných ohromil i Hitlera. O pár let později ohromoval jeho spojence jako člen posádky amerického bombardéru operujícího v jižním Pacifiku. Když během jedné záchranné operace jeho stroj spadl do oceánu, byl Louis jedním ze tří členů posádky, kteří havárii přežili. Víc než měsíc strávil v záchranném člunu, než ho zachránila kolem plující loď. Bohužel, ta loď byla japonská. Zamperini se ocitl v zajateckém táboře, který připomínal peklo na zemi. Už tak těžké podmínky k životu se Louisovi ještě zhoršily, když se jeho věznitelé dozvěděli, že je to slavný sportovec. Chtěli ho zničit, chtěli ho zlomit. Jenže on byl prostě nezlomný.",
+      "synopsis_language": "cs",
+      "runtime_min": 138,
+      "genres": [
+        "Drama",
+        "Válečný"
+      ],
+      "director": [
+        "Angelina Jolie"
+      ],
+      "screenwriter": [
+        "Richard LaGravenese",
+        "Ethan Coen",
+        "Joel Coen",
+        "William Nicholson"
+      ],
+      "cast": [
+        "Jack O'Connell",
+        "Alex Russell",
+        "Domhnall Gleeson",
+        "Garrett Hedlund",
+        "MIYAVI",
+        "Finn Wittrock",
+        "Jai Courtney",
+        "Maddalena Ischiale"
+      ],
+      "production_company": [
+        "Legendary Pictures",
+        "Jolie Pas",
+        "3 Arts Entertainment"
+      ],
+      "poster_path": "/vAlHUjHwLWMV5mg4epGR9WSIfiy.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/wxdtjlapI0d1vsXhNN0LhLMsaGw.jpg",
+      "trailer_youtube_key": "rGlsxVfCSyQ",
+      "age_rating": "15+",
+      "tmdb_id": 227306,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=UnBroken+2014",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-20T05:29:35+00:00"
+    },
+    {
       "film_id": "velrybi pisen cesky dabing",
       "title_cz": "Velrybí píseň (český dabing)",
       "title_en": "",
@@ -6500,6 +6202,53 @@
       "match_score": 0.0
     },
     {
+      "film_id": "zbesilost v srdci",
+      "title_cz": "Zběsilost v srdci",
+      "title_en": "Wild at Heart",
+      "original_title": "Wild at Heart",
+      "year": 1990,
+      "synopsis": "Mys strachu. Poblíž hranice Severní a Jižní Karoliny. Na schodišti k tanečnímu sálu surově ubije Námořník Ripley černocha Boba, který jej napadl nožem. Muže najala Marietta Paceová, nenávidějící Námořníka, který chodí s její milovanou dcerou Lulou. - O 22 měsíců a 18 dnů později. Přes matčin odpor Lula čeká před vězením na Námořníka, propuštěného na podmínku. Odjedou jejím kabrioletem do motelu, kde se vášnivě milují. Lula vzpomíná, jak ji ve třinácti letech znásilnil otcův obchodní společník, který o tři měsíce později uhořel při autohavárii. Námořník si zase vybavuje svou hádku s Mariettou na toaletě. Tvrdě ji odmítl, když se mu nabízela a ona na něho poštvala Boba. - Dvojice jde večer tančit. Ripley napadne Lulina tanečníka, a pak dívce zpívá s kapelou píseň Elvise Presleyho. Milenci se rozhodnou odjet do Kalifornie, ačkoliv mladík tím poruší podmínku...",
+      "synopsis_language": "cs",
+      "runtime_min": 125,
+      "genres": [
+        "Krimi",
+        "Thriller",
+        "Romantický"
+      ],
+      "director": [
+        "David Lynch"
+      ],
+      "screenwriter": [
+        "David Lynch"
+      ],
+      "cast": [
+        "Nicolas Cage",
+        "Laura Dern",
+        "Willem Dafoe",
+        "Diane Ladd",
+        "Harry Dean Stanton",
+        "J.E. Freeman",
+        "Isabella Rossellini",
+        "Grace Zabriskie"
+      ],
+      "production_company": [
+        "PolyGram Filmed Entertainment",
+        "Propaganda Films",
+        "PolyGram Filmproduktion"
+      ],
+      "poster_path": "/uLUFI5sJIfWrBUWB2Y1dEuyvvVy.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/6xJ2odkMFmO2LptVUBR8t8wBldQ.jpg",
+      "trailer_youtube_key": "dQIdBfrF0Ik",
+      "age_rating": "R (US)",
+      "tmdb_id": 483,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Zb%C4%9Bsilost+v+srdci+1990",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-08-20T05:29:36+00:00"
+    },
+    {
       "film_id": "zena na valecne stezce",
       "title_cz": "Žena na válečné stezce",
       "title_en": "Woman at War",
@@ -6550,54 +6299,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:29:05+02:00"
-    },
-    {
-      "film_id": "zlom vaz bav se neumri",
-      "title_cz": "Zlom vaz, bav se, neumři",
-      "title_en": "Good Luck, Have Fun, Don't Die",
-      "original_title": "Good Luck, Have Fun, Don't Die",
-      "year": 2026,
-      "synopsis": "„Muž z budoucnosti“ přichází do restaurace v Los Angeles, kde musí získat přesnou kombinaci nespokojených zákazníků, aby se k němu přidali na jednodenní výpravu za záchranou světa před smrtící hrozbou zločinecké umělé inteligence.",
-      "synopsis_language": "cs",
-      "runtime_min": 134,
-      "genres": [
-        "Vědeckofantastický",
-        "Akční",
-        "Komedie"
-      ],
-      "director": [
-        "Gore Verbinski"
-      ],
-      "screenwriter": [
-        "Matthew Robinson"
-      ],
-      "cast": [
-        "Sam Rockwell",
-        "Juno Temple",
-        "Haley Lu Richardson",
-        "Michael Peña",
-        "Zazie Beetz",
-        "Asim Chaudhry",
-        "Tom Taylor",
-        "Georgia Goodman"
-      ],
-      "production_company": [
-        "Constantin Film",
-        "Blind Wink",
-        "3 Arts Entertainment",
-        "Robert Kulzer Productions"
-      ],
-      "poster_path": "/rWcfOdY7TU6lTdazWj0ebDZnAfO.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/drRxbu2OHG0DEENptZ8wI5f0uEU.jpg",
-      "trailer_youtube_key": "Nm4WbapDzDQ",
-      "age_rating": "R (US)",
-      "tmdb_id": 1119449,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Zlom+vaz%2C+bav+se%2C+neum%C5%99i+2026",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-08T05:42:35+00:00"
     },
     {
       "film_id": "zmizeni josefa mengeleho",
