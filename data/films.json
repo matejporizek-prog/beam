@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T05:29:36+00:00",
+  "generated_at": "2026-08-21T05:29:35+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -143,31 +143,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:27:33+02:00"
-    },
-    {
-      "film_id": "80 rozlicenych novinaru",
-      "title_cz": "80 rozlícených novinářů",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=80+rozl%C3%ADcen%C3%BDch+novin%C3%A1%C5%99%C5%AF",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for '80 rozlícených novinářů'",
-      "match_score": 0.0
     },
     {
       "film_id": "adamova jablka",
@@ -319,6 +294,31 @@
       "resolved_at": "2026-08-15T05:23:57+00:00"
     },
     {
+      "film_id": "alice guy 13 kratkych filmu",
+      "title_cz": "Alice Guy – 13 krátkých filmů",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Alice+Guy+%E2%80%93+13+kr%C3%A1tk%C3%BDch+film%C5%AF",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Alice Guy – 13 krátkých filmů'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "amazonie",
       "title_cz": "Amazonie",
       "title_en": "Amazonia",
@@ -448,6 +448,53 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'André Rieu - letní koncert 2026: Viva Maastricht!'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "architekt",
+      "title_cz": "Architekt",
+      "title_en": "The Great Arch",
+      "original_title": "L'Inconnu de la Grande Arche",
+      "year": 2025,
+      "synopsis": "Rok 1983. Je vyhlášena architektonická soutěž o novou dominantu Paříže, která se má stát symbolem její moderní čtvrti La Défense. Soutěže se účastní největší mezinárodní architektonické firmy a překvapivě vyhrává neznámý učitel architektury Johan Otto von Spreckelsen se svým projektem Velký oblouk – La Grande Arche. Do této chvíle tento padesátiletý Dán postavil pouze čtyři budovy: svůj domov a tři malé kaple, život zasvětil především výuce a hledání rovnováhy mezi prostorem, světlem a duší člověka. Jeho Velký oblouk je prostý, geometricky čistý, inspirovaný ideou brány k nebi. Film sleduje, jak se Otto vyrovnává s tlakem politiků, úředníků i médií a s vlastními pochybnostmi, zda lze zůstat věrný duchovní vizi uprostřed světa kompromisů. Stavba, která měla být symbolem harmonie, se postupně mění v zrcadlo jeho vnitřního zápasu. (CinemArt)",
+      "synopsis_language": "cs",
+      "runtime_min": 105,
+      "genres": [
+        "Drama",
+        "Historický"
+      ],
+      "director": [
+        "Stéphane Demoustier"
+      ],
+      "screenwriter": [
+        "Stéphane Demoustier"
+      ],
+      "cast": [
+        "Claes Bang",
+        "Xavier Dolan",
+        "Swann Arlaud",
+        "Sidse Babett Knudsen",
+        "Michel Fau",
+        "Jean des Forêts",
+        "Micha Lescot",
+        "Alessandro Bressanello"
+      ],
+      "production_company": [
+        "Agat Films & Cie / Ex Nihilo",
+        "France 3 Cinéma",
+        "Le Pacte",
+        "Zentropa Entertainments"
+      ],
+      "poster_path": "/rBd15gS2a8PEryeyzk0kFf92wHF.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/4CmqIt9w9iNuYPLkWLFmSnczXkc.jpg",
+      "trailer_youtube_key": "FhtqB5aq1t8",
+      "age_rating": "12+",
+      "tmdb_id": 1290424,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Architekt+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-08-21T05:29:32+00:00"
     },
     {
       "film_id": "architektura cssr 58 89",
@@ -1481,6 +1528,31 @@
       "resolved_at": "2026-08-15T05:23:58+00:00"
     },
     {
+      "film_id": "dokonaly den predpremiera s delegaci",
+      "title_cz": "Dokonalý den - předpremiéra s delegací",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/0202D2X11.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Dokonal%C3%BD+den+-+p%C5%99edpremi%C3%A9ra+s+delegac%C3%AD",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Dokonalý den - předpremiéra s delegací'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "dovolena v ceskem raji",
       "title_cz": "Dovolená v Českém ráji",
       "title_en": "Bohemian Paradise",
@@ -1888,6 +1960,54 @@
       "resolved_at": "2026-08-05T22:28:00+02:00"
     },
     {
+      "film_id": "hamnet",
+      "title_cz": "Hamnet",
+      "title_en": "Hamnet",
+      "original_title": "Hamnet",
+      "year": 2025,
+      "synopsis": "Když věčně hladový domácí učitel William Shakespeare potká divokou volnomyšlenkářku Agnes, zrodí se příslovečná láska jako trám, v jejímž průběhu se jim narodí tři děti. Protože rodinu je třeba živit a zároveň uspokojovat Williamův dramatický talent, tráví on většinu času v Londýně budováním svých snů, zatímco Anges se na zdánlivě idylickém anglickém venkově snaží ve všech směrech zabezpečit domácnost a všechny tři děti, dvě dcery a syna Hamneta, jenž touží pokračovat v otcových šlépějích. Jenže neštěstí nechodí po horách, ale po lidech a v Anglii za vlády královny Alžběty I. to platilo obzvlášť. Když rodinu postihne nevýslovná tragédie, otřese to i zdánlivě nezničitelným vztahem mezi Williamem a Agnes. V temnotě a zoufalství se Shakespeare vybičuje k napsání svého vrcholného díla, tragédie o Hamletovi. Světu tím nadělí nezapomenutelný příběh a sobě a své ženě lék na žal a trápení.",
+      "synopsis_language": "cs",
+      "runtime_min": 125,
+      "genres": [
+        "Drama",
+        "Romantický"
+      ],
+      "director": [
+        "Chloé Zhao"
+      ],
+      "screenwriter": [
+        "Chloé Zhao",
+        "Maggie O'Farrell"
+      ],
+      "cast": [
+        "Jessie Buckley",
+        "Paul Mescal",
+        "Emily Watson",
+        "Joe Alwyn",
+        "Jacobi Jupe",
+        "Noah Jupe",
+        "Olivia Lynes",
+        "Justine Mitchell"
+      ],
+      "production_company": [
+        "Hera Pictures",
+        "Neal Street Productions",
+        "Amblin Entertainment",
+        "Book of Shadows"
+      ],
+      "poster_path": "/vbeyOZm2bvBXcbgPD3v6o94epPX.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/73BClq9FOcrWrutnpiqhCNEWEwJ.jpg",
+      "trailer_youtube_key": "xYcgQMxQwmk",
+      "age_rating": "PG-13 (US)",
+      "tmdb_id": 858024,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Hamnet+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-08-21T05:29:33+00:00"
+    },
+    {
       "film_id": "hanebny pancharti",
       "title_cz": "Hanebný pancharti",
       "title_en": "Inglourious Basterds",
@@ -2050,31 +2170,6 @@
       "match_reason": "manual override",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:28:02+02:00"
-    },
-    {
-      "film_id": "howluv kracejici hrad",
-      "title_cz": "Howlův kráčející hrad",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2025/05/26/ae85fcb8bcd838cadbe1d971454ecd57.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Howl%C5%AFv+kr%C3%A1%C4%8Dej%C3%ADc%C3%AD+hrad",
-      "resolved": false,
-      "match_reason": "no candidate scored above 0.75",
-      "match_score": 0.378
     },
     {
       "film_id": "hranice vernosti",
@@ -3850,6 +3945,31 @@
       "resolved_at": "2026-08-05T22:28:25+02:00"
     },
     {
+      "film_id": "opera d ete",
+      "title_cz": "Opera d´été | Giacomo Puccini : Bohéma",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Opera+d%C2%B4%C3%A9t%C3%A9+%7C+Giacomo+Puccini+%3A+Boh%C3%A9ma",
+      "resolved": false,
+      "match_reason": "no candidate scored above 0.75",
+      "match_score": 0.353
+    },
+    {
       "film_id": "orwell 2 2 5",
       "title_cz": "Orwell: 2 + 2 = 5",
       "title_en": "Orwell: 2+2=5",
@@ -3896,6 +4016,55 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-18T05:25:47+00:00"
+    },
+    {
+      "film_id": "osamely vlk",
+      "title_cz": "Osamělý vlk",
+      "title_en": "Lone wolf",
+      "original_title": "Osamělý vlk",
+      "year": 2026,
+      "synopsis": "Dokudrama Osamělý vlk sleduje život a bojové osudy stíhače RAF Josefa Františka. Režisér Ondřej Veverka představí divákům příběh letce, který se proslavil v řadách 303. polské stíhací perutě RAF během letecké bitvy o Británii. Příběh přiblíží Josefa Františka nejen jako letecké eso s osmnácti sestřely během bitvy o Británii, ale také jako člověka s vnitřními pochybnostmi a výjimečnou odvahou.",
+      "synopsis_language": "cs",
+      "runtime_min": 94,
+      "genres": [
+        "Dokumentární",
+        "Drama",
+        "Historický"
+      ],
+      "director": [
+        "Ondřej Veverka"
+      ],
+      "screenwriter": [
+        "Ondřej Veverka",
+        "Petr Pelech"
+      ],
+      "cast": [
+        "Viktor Zavadil",
+        "Tadeáš Moravec",
+        "Piotr Trojan",
+        "Kryštof Grygar",
+        "Josef Trojan",
+        "Jan Nedbal",
+        "Miroslav Hanuš",
+        "Jan Budař"
+      ],
+      "production_company": [
+        "Rolling media",
+        "Česká televize",
+        "QQ Studio Ostrava",
+        "Magiclab"
+      ],
+      "poster_path": "/z4qNJNFIqtokBhdiylqJGJywGlC.jpg",
+      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/08/17/bf1111570c8a933600a26ce6a40bfdaf.jpg",
+      "backdrop_path": "/aFZwSLAyRKsEWpKo5eAx7vXc1xH.jpg",
+      "trailer_youtube_key": "cQguQ4c-ZhI",
+      "age_rating": "",
+      "tmdb_id": 1732663,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Osam%C4%9Bl%C3%BD+vlk+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-08-21T05:29:34+00:00"
     },
     {
       "film_id": "osviceni televizi",
@@ -4758,6 +4927,97 @@
       "resolved_at": "2026-08-06T07:39:57+00:00"
     },
     {
+      "film_id": "rosemary ma detatko",
+      "title_cz": "Rosemary má děťátko",
+      "title_en": "Rosemary's Baby",
+      "original_title": "Rosemary's Baby",
+      "year": 1968,
+      "synopsis": "Kultovní psychologický horor podle románu Iry Levina o křehké Rosemary, jejíž rodící se domácí idyla bere za své v okamžiku, kdy pochopí, že dítě, které nosí pod srdcem, je plodem spiknutí vyznavačů Ďábla ze sousedství na sedmém patře ponuré newyorské budovy The Bramford.",
+      "synopsis_language": "cs",
+      "runtime_min": 138,
+      "genres": [
+        "Drama",
+        "Horor",
+        "Thriller"
+      ],
+      "director": [
+        "Roman Polanski"
+      ],
+      "screenwriter": [
+        "Roman Polanski"
+      ],
+      "cast": [
+        "Mia Farrow",
+        "John Cassavetes",
+        "Ruth Gordon",
+        "Sidney Blackmer",
+        "Maurice Evans",
+        "Ralph Bellamy",
+        "Victoria Vetri",
+        "Patsy Kelly"
+      ],
+      "production_company": [
+        "William Castle Productions"
+      ],
+      "poster_path": "/uYgvlHceRFjAFbsNeMInYcLZLUb.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/qszuXKhzYR24oRpsmh7eZaPbvL8.jpg",
+      "trailer_youtube_key": "pwLKIcB0zDw",
+      "age_rating": "15+",
+      "tmdb_id": 805,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Rosemary+m%C3%A1+d%C4%9B%C5%A5%C3%A1tko+1968",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-08-21T05:29:34+00:00"
+    },
+    {
+      "film_id": "rozzum v divocine",
+      "title_cz": "Rozzum v divočině",
+      "title_en": "The Wild Robot",
+      "original_title": "The Wild Robot",
+      "year": 2024,
+      "synopsis": "Robot Rozzum ztroskotá na neobydleném ostrově a musí se přizpůsobit jeho drsnému prostředí, postupně vybudovat vztahy s ostrovními zvířecími obyvateli a stát se adoptivním rodičem osiřelého housátka.",
+      "synopsis_language": "cs",
+      "runtime_min": 102,
+      "genres": [
+        "Rodinný",
+        "Animovaný",
+        "Vědeckofantastický",
+        "Dobrodružný"
+      ],
+      "director": [
+        "Chris Sanders"
+      ],
+      "screenwriter": [
+        "Chris Sanders"
+      ],
+      "cast": [
+        "Lupita Nyong'o",
+        "Pedro Pascal",
+        "Kit Connor",
+        "Bill Nighy",
+        "Stephanie Hsu",
+        "Matt Berry",
+        "Ving Rhames",
+        "Mark Hamill"
+      ],
+      "production_company": [
+        "DreamWorks Animation"
+      ],
+      "poster_path": "/cy2wjAPS0tUPvUteUqLTldWUl7P.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2024/09/09/80e370c53de905359b93d76145a7d6da.jpg",
+      "backdrop_path": "/mQZJoIhTEkNhCYAqcHrQqhENLdu.jpg",
+      "trailer_youtube_key": "VUCNBAmse04",
+      "age_rating": "U",
+      "tmdb_id": 1184918,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Rozzum+v+divo%C4%8Din%C4%9B+2024",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-08-21T05:29:35+00:00"
+    },
+    {
       "film_id": "rytiri spravedlnosti",
       "title_cz": "Rytíři spravedlnosti",
       "title_en": "Riders of Justice",
@@ -5346,55 +5606,6 @@
       "age_rating": "",
       "tmdb_id": 1670546,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Tajemstv%C3%AD+K%C5%99i%C5%A1%C5%A5%C3%A1lov%C3%A9+planety+2026",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:54+02:00"
-    },
-    {
-      "film_id": "tancuj matyldo",
-      "title_cz": "Tancuj Matyldo",
-      "title_en": "Waltzing Matilda",
-      "original_title": "Tancuj Matyldo",
-      "year": 2023,
-      "synopsis": "V příběhu inspirovaném skutečnou událostí žije uzavřený Karel ve světě řádu a striktních pravidel, ve kterém nezbývá mnoho místa pro empatii. Svou extrovertní a bohémskou matku Matyldu, bývalou barovou zpěvačku, navštěvuje víceméně z povinnosti. Matylda přijde nečekaně o byt a Karlovi nezbyde než ji vzít k sobě. Jejich soužití je ale pro něj katastrofou. Zvlášť když vyjde najevo, že u Matyldy propuká Alzheimerova choroba. Jako možné řešení se nabízí, že o svéráznou babičku bude pečovat Karlův syn Pavel, nezodpovědný floutek pohrdající otcovou profesí exekutora.",
-      "synopsis_language": "cs",
-      "runtime_min": 113,
-      "genres": [
-        "Komedie",
-        "Drama"
-      ],
-      "director": [
-        "Petr Slavík"
-      ],
-      "screenwriter": [
-        "Nataša Slavíková",
-        "Petr Slavík"
-      ],
-      "cast": [
-        "Karel Roden",
-        "Regina Rázlová",
-        "Antonio Šoposki",
-        "Zuzana Kanócz",
-        "Simona Postlerová",
-        "Eva Leinweberová",
-        "Miroslav Babuský",
-        "Natálie Hejlová"
-      ],
-      "production_company": [
-        "Phoenix Production",
-        "Česká televize",
-        "VIRUSfilm",
-        "RTVS",
-        "i/o post"
-      ],
-      "poster_path": "/jiMETpSc7NVE09l3B2Y4epz4OBv.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/uEDDNFuUHx4yOkcIpR0j6obYS5G.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "12+",
-      "tmdb_id": 1211640,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Tancuj+Matyldo+2023",
       "resolved": true,
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,

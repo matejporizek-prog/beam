@@ -1,301 +1,7 @@
 {
-  "generated_at": "2026-08-20T05:29:37+00:00",
+  "generated_at": "2026-08-21T05:29:37+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
-    {
-      "film_id": "chica checa",
-      "title_cz": "Chica Checa",
-      "title_en": "Czech Girl",
-      "original_title": "Chica Checa",
-      "year": 2026,
-      "synopsis": "Pětapadesátiletá Zdena na první pohled vede obyčejný život venkovské pošťačky. Jednoduché to ale nemá. Dům se rozpadá a samotu jí pomáhají zahánět okurky a televize. Její syn Lukáš žije ve Francii – úspěšný, šťastný, vzdálený – aspoň tak to působí na obrazovce starého počítače, přes který jsou občas v kontaktu. Když Lukášova babička Věra (Věra Janků) vysloví své poslední přání – vidět Helenu Vondráčkovou – zdá se to jako rozmar umírající ženy. Jenže s příjezdem Lukáše domů přijede i tajemství, které roky pečlivě chránil. Jeho návštěva spustí lavinu: ukáže se, že je gay a živí se jako úspěšná drag queen Chica Checa. A také že Zdena touží po jiném životě, než okolí očekává. Snaha udělat devadesátileté babičce radost spojí Lukáše a Zdenu dohromady a možná trochu překvapí i je samotné. Protože když přestanete lhát svým nejbližším, musíte přestat lhát i sami sobě…",
-      "synopsis_language": "cs",
-      "runtime_min": 96,
-      "genres": [
-        "Komedie",
-        "Drama"
-      ],
-      "director": [
-        "Šimon Holý"
-      ],
-      "screenwriter": [
-        "Šimon Holý"
-      ],
-      "cast": [
-        "Pavla Tomicová",
-        "Alexandra Borbély",
-        "Jan Cina",
-        "Alena Doláková",
-        "Erwan Kepoa Falé",
-        "Jitka Schneiderová",
-        "Natálie Řehořová",
-        "Sara Venclovská"
-      ],
-      "production_company": [
-        "Silk Films",
-        "Česká televize",
-        "Arinafilm",
-        "The French Connection"
-      ],
-      "poster_path": "/77xmXH1OBm1a2CHPHv9tcsnEncp.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/aPvH6m2C9e9nJQv6CS2lDY5jOgF.jpg",
-      "trailer_youtube_key": "XUKn2SK7UI0",
-      "age_rating": "12+",
-      "tmdb_id": 1339767,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Chica+Checa+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-12T06:11:47+00:00",
-      "release_date": "2026-08-20"
-    },
-    {
-      "film_id": "jsou mezi nami",
-      "title_cz": "Jsou mezi námi",
-      "title_en": "Insidious: Out of the Further",
-      "original_title": "Insidious: Out of the Further",
-      "year": 2026,
-      "synopsis": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
-      "synopsis_language": "en",
-      "runtime_min": null,
-      "genres": [
-        "Horor",
-        "Thriller"
-      ],
-      "director": [
-        "Jacob Chase"
-      ],
-      "screenwriter": [
-        "Jacob Chase",
-        "David Leslie Johnson-McGoldrick"
-      ],
-      "cast": [
-        "Amelia Eve",
-        "Island Austin",
-        "Lin Shaye",
-        "Sam Spruell",
-        "Brandon Perea",
-        "Maisie Richardson-Sellers",
-        "Joseph Lopez",
-        "Laura Gordon"
-      ],
-      "production_company": [
-        "Blumhouse Productions",
-        "Screen Gems",
-        "Stage 6 Films",
-        "Atomic Monster"
-      ],
-      "poster_path": "/4tTrW9dXCByS5wt2pXVWb58zNjz.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/hD8y787ciNWQ2bn396YrSsOIzdN.jpg",
-      "trailer_youtube_key": "jxU8FU3o75A",
-      "age_rating": "PG-13 (US)",
-      "tmdb_id": 1291595,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Jsou+mezi+n%C3%A1mi+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "release_date": "2026-08-20"
-    },
-    {
-      "film_id": "one night only",
-      "title_cz": "One Night Only",
-      "title_en": "One Night Only",
-      "original_title": "One Night Only",
-      "year": 2026,
-      "synopsis": "Two love-starved strangers crash into each other on the one night of the year when single people are allowed to have sex.",
-      "synopsis_language": "en",
-      "runtime_min": 102,
-      "genres": [
-        "Komedie",
-        "Romantický",
-        "Vědeckofantastický"
-      ],
-      "director": [
-        "Will Gluck"
-      ],
-      "screenwriter": [
-        "Travis Braun"
-      ],
-      "cast": [
-        "Monica Barbaro",
-        "Callum Turner",
-        "Maya Hawke",
-        "Julia Fox",
-        "Molly Ringwald",
-        "LeVar Burton",
-        "Okieriete Onaodowan",
-        "Este Haim"
-      ],
-      "production_company": [
-        "Universal Pictures",
-        "Olive Bridge Entertainment"
-      ],
-      "poster_path": "/f1v8IcYcQggeq1N0unoMJMrzTd9.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/mfgNUnFB25BNIwe9iPJ17cUN64S.jpg",
-      "trailer_youtube_key": "lDsAVq9lo9g",
-      "age_rating": "R (US)",
-      "tmdb_id": 1433367,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=One+Night+Only+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "release_date": "2026-08-20"
-    },
-    {
-      "film_id": "tom a jerry kouzelny kompas",
-      "title_cz": "Tom a Jerry: Kouzelný kompas",
-      "title_en": "Tom and Jerry: Forbidden Compass",
-      "original_title": "猫和老鼠：星盘奇缘",
-      "year": 2025,
-      "synopsis": "During a chase inside a museum, Tom and Jerry find an ancient magical compass and end up being transported through time. Lost in a distant era, they will need to work together to find a way back home.",
-      "synopsis_language": "en",
-      "runtime_min": 99,
-      "genres": [
-        "Animovaný",
-        "Komedie",
-        "Rodinný",
-        "Fantasy",
-        "Dobrodružný"
-      ],
-      "director": [
-        "Zhang Gang"
-      ],
-      "screenwriter": [
-        "Zhang Gang",
-        "Bob Boyle"
-      ],
-      "cast": [
-        "John Shang",
-        "Ruan Yifei",
-        "Jiang Wen",
-        "Shun Zi",
-        "Lan Long",
-        "Tu Xiongfei",
-        "Li Baixin",
-        "Li Hanlin"
-      ],
-      "production_company": [
-        "Warner Bros. China",
-        "China Film 中国电影股份",
-        "Wu Zhou Film Distribution",
-        "Original Force Animation",
-        "Origin Animation",
-        "China Film Group Corporation"
-      ],
-      "poster_path": "/8wzghxpAWxKA9GVRvvO9FZTeFqX.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/9VM1KI9sVZETl0d00FK7CnBzxiw.jpg",
-      "trailer_youtube_key": "VBPlpfK6zXg",
-      "age_rating": "PG (US)",
-      "tmdb_id": 1497970,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Tom+a+Jerry%3A+Kouzeln%C3%BD+kompas+2025",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-07T06:09:07+00:00",
-      "release_date": "2026-08-20"
-    },
-    {
-      "film_id": "arva",
-      "title_cz": "Árva",
-      "title_en": "Orphan",
-      "original_title": "Árva",
-      "year": 2025,
-      "synopsis": "Hungary, 1957. A young Jewish boy, raised by his mother with idealized tales of his dead father, has his world turned upside down when a brutish man appears, claiming to be his true parent.",
-      "synopsis_language": "en",
-      "runtime_min": 132,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "László Nemes"
-      ],
-      "screenwriter": [
-        "Clara Royer",
-        "László Nemes"
-      ],
-      "cast": [
-        "Bojtorján Barabas",
-        "Grégory Gadebois",
-        "Andrea Waskovics",
-        "Marcin Czarnik",
-        "Elíz Szabó",
-        "Gyorgy Bojtik",
-        "Gábor Iványi",
-        "Soma Sándor"
-      ],
-      "production_company": [
-        "Pioneer Pictures",
-        "Good Chaos",
-        "Agat Films & Cie / Ex Nihilo",
-        "Pallas Film",
-        "ARTE France Cinéma",
-        "Mid March Media",
-        "AR Content",
-        "Lumen",
-        "Twenty Twenty Vision Filmproduktion",
-        "Mozinet"
-      ],
-      "poster_path": "/cfDIfmcIwBJddo5p3l3Q2CA9o5w.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/A5njgd1yycX1kEkDSfZWecQjenb.jpg",
-      "trailer_youtube_key": "ttF-uKy81ZE",
-      "age_rating": "12+",
-      "tmdb_id": 803208,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=%C3%81rva+2025",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-18T05:25:54+00:00",
-      "release_date": "2026-08-20"
-    },
-    {
-      "film_id": "",
-      "title_cz": "ブルーロック",
-      "title_en": "Blue Lock",
-      "original_title": "ブルーロック",
-      "year": 2026,
-      "synopsis": "A secret training program is established by the Japan Football Union to scout the world’s greatest striker after several years of defeat for the national team. Three hundred high school players gather at a remote facility to compete in ruthless trials where only one will emerge as the world’s greatest and most egoistic striker. The price of failure is absolute: those eliminated are permanently banned from ever joining the National Team.",
-      "synopsis_language": "en",
-      "runtime_min": null,
-      "genres": [
-        "Akční",
-        "Drama"
-      ],
-      "director": [
-        "Yusuke Taki"
-      ],
-      "screenwriter": [
-        "Tetsuo Kamata"
-      ],
-      "cast": [
-        "Fumiya Takahashi",
-        "Kaito Sakurai",
-        "Kyohei Takahashi",
-        "Kouta Nomura",
-        "Yuzu Aoki",
-        "Sho Nishigaki",
-        "Yuki Tachibana",
-        "Raizou Ishikawa"
-      ],
-      "production_company": [
-        "TOHO"
-      ],
-      "poster_path": "/mMNJWZ0G1eMBo3nE07pDcHWi6By.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/znXyQgqITDm8fJxcvmlRpKlw49T.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1623376,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "release_date": "2026-08-20"
-    },
     {
       "film_id": "osamely vlk",
       "title_cz": "Osamělý vlk",
@@ -389,6 +95,53 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-08-27"
+    },
+    {
+      "film_id": "vzpoura",
+      "title_cz": "Vzpoura",
+      "title_en": "Mutiny",
+      "original_title": "Mutiny",
+      "year": 2026,
+      "synopsis": "Cole Reed (Jason Statham) v minulosti sloužil u speciálních jednotek a později u londýnské policie. V současnosti pracuje jako soukromý bezpečnostní specialista. Když je jeho miliardářský zaměstnavatel zavražděn přímo před jeho očima a z činu se pokusí obvinit jeho, Cole je nucen dát se na útěk. Nastoupí na nákladní loď, kde rozpoutá svou osamělou misi pomsty proti skutečným pachatelům a přitom odhalí mezinárodní spiknutí.",
+      "synopsis_language": "cs",
+      "runtime_min": 95,
+      "genres": [
+        "Akční",
+        "Thriller"
+      ],
+      "director": [
+        "Jean-François Richet"
+      ],
+      "screenwriter": [
+        "Lindsay Michel",
+        "J.P. Davis"
+      ],
+      "cast": [
+        "Jason Statham",
+        "Annabelle Wallis",
+        "Roland Møller",
+        "Ramon Tikaram",
+        "Arnas Fedaravičius",
+        "Jason Wong",
+        "Adrian Lester",
+        "Chaneil Kular"
+      ],
+      "production_company": [
+        "Punch Palace Productions",
+        "MadRiver Pictures"
+      ],
+      "poster_path": "/pVMxkaViouALWwc1EdZBaiZJTxJ.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/xYro90dW4z7es4JG1vo1bmZ0lUN.jpg",
+      "trailer_youtube_key": "2Iqvbe98Gb4",
+      "age_rating": "12+",
+      "tmdb_id": 1288445,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Vzpoura+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-21T05:29:37+00:00",
       "release_date": "2026-08-27"
     },
     {
@@ -1566,6 +1319,52 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-10-15"
+    },
+    {
+      "film_id": "everytime",
+      "title_cz": "Everytime",
+      "title_en": "Everytime",
+      "original_title": "Everytime",
+      "year": 2026,
+      "synopsis": "A tragedy brings a mother, daughter, and teenage boy together. Struggling with blame and forgiveness, the unlikely trio take a trip to Tenerife  for a family holiday that never happened. Under the glow of the sun,  past and present quietly start to overlap.",
+      "synopsis_language": "en",
+      "runtime_min": 119,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Sandra Wollner"
+      ],
+      "screenwriter": [
+        "Sandra Wollner"
+      ],
+      "cast": [
+        "Birgit Minichmayr",
+        "Tristán López",
+        "Lotte Keiling",
+        "Carla Hüttermann",
+        "Hermann Beyer",
+        "Eva Weißenborn",
+        "Knut Berger",
+        "Lilly Marie Tschörtner"
+      ],
+      "production_company": [
+        "The Barricades",
+        "ZDF",
+        "Panama Film"
+      ],
+      "poster_path": "/bOEoQxzC74eGMGbSq6xW7eLZjWn.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/5WPckRy930hu9vAQQnBorz1wSBo.jpg",
+      "trailer_youtube_key": "ORAun-RMCeY",
+      "age_rating": "",
+      "tmdb_id": 1655419,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Everytime+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-21T05:29:37+00:00",
       "release_date": "2026-10-15"
     },
     {
