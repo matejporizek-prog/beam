@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T05:29:37+00:00",
+  "generated_at": "2026-08-22T05:24:43+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -924,6 +924,46 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "resolved_at": "2026-08-11T05:52:38+00:00",
+      "release_date": "2026-09-30"
+    },
+    {
+      "film_id": "vez",
+      "title_cz": "Věž",
+      "title_en": "The Tower",
+      "original_title": "Věž",
+      "year": 2026,
+      "synopsis": "Tereza cherishes moments of being the carefree girl she once was. She enjoys time with her boyfriend, but her thoughts drift to fears about raising Karla. She keeps her worlds apart, but one night changes everything. The Tower is a short film about losing oneself and how life's most important roles are often thrust upon us.",
+      "synopsis_language": "en",
+      "runtime_min": 23,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Marie-Magdalena Kochová"
+      ],
+      "screenwriter": [
+        "Josef Kokta"
+      ],
+      "cast": [
+        "Adam Ernest",
+        "Luna Sofie Bauerová",
+        "Luciana Tomášová"
+      ],
+      "production_company": [
+        "FAMU",
+        "Fork Film"
+      ],
+      "poster_path": "/rh9INRrHI8CEIBzqnjxU40imapI.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1524583,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=V%C4%9B%C5%BE+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-22T05:24:43+00:00",
       "release_date": "2026-09-30"
     },
     {
