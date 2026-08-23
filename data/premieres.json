@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T05:24:43+00:00",
+  "generated_at": "2026-08-23T05:26:47+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -2336,6 +2336,33 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "release_date": "2026-11-25"
+    },
+    {
+      "film_id": "thankskilling day",
+      "title_cz": "Thankskilling Day",
+      "title_en": "Thankskilling Day",
+      "original_title": "Thankskilling Day",
+      "year": 2026,
+      "synopsis": "Natáčení příběhu šesti studentů, jejichž nevinné soupeření o první místo v únikové hře se promění v boj o holý život probíhal v bývalé průmyslové hale ČKD, dnešních prostorách zábavního parku Futurento.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1754526,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Thankskilling+Day+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-23T05:26:47+00:00",
+      "release_date": "2026-11-26"
     },
     {
       "film_id": "asterix a obelix kralovstvi nubie",

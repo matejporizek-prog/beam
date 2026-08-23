@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T05:24:42+00:00",
+  "generated_at": "2026-08-23T05:26:46+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -192,52 +192,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for '80 rozlícených novinářů'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "adamova jablka",
-      "title_cz": "Adamova jablka",
-      "title_en": "Adam's Apples",
-      "original_title": "Adams æbler",
-      "year": 2005,
-      "synopsis": "Neonacista ve výkonu trestu Adam přijíždí na faru, aby se zde věnoval veřejně prospěšným pracem. Farář Ivan je pro Adama na první pohled nestravitelnou osobou. Jako jeho první práci Adamovi zadá upéct jablečný koláč z jablek ze stromu na pozemku fary, který napadlo hejno havranů. Podle Ivana je to Boží trest a je na Adamovi, aby v této zkoušce obstál. Adamovi je to upřímně jedno. Jedinou modlou je mu obrázek Hitlera nad postelí a přemýšlí, jak by se z téhle díry co nejrychleji dostal. Po pár dnech však zjišťuje, že s farářem není něco v pořádku. Co se zprvu Adamovi jevilo jako náboženský fanatismus se zdá být psychickou chorobou. Když Ivan jednoho dne náhle zkolabuje, dozvídá se Adam od lékaře překvapivou novinu. Bizarnost celé situace mu však nedovolí odejít a Adam je nucen čelit celé řadě nevšedních situací. Celým filmem nás provází úryvky z knihy Jobovy, která je příběhu symbolickým předobrazem.",
-      "synopsis_language": "cs",
-      "runtime_min": 95,
-      "genres": [
-        "Drama",
-        "Komedie",
-        "Krimi"
-      ],
-      "director": [
-        "Anders Thomas Jensen"
-      ],
-      "screenwriter": [
-        "Anders Thomas Jensen",
-        "Rikke Deepthi Hansen"
-      ],
-      "cast": [
-        "Mads Mikkelsen",
-        "Ulrich Thomsen",
-        "Paprika Steen",
-        "Ole Thestrup",
-        "Nikolaj Lie Kaas",
-        "Nicolas Bro",
-        "Ali Kazim",
-        "Gyrd Løfquist"
-      ],
-      "production_company": [
-        "M&M Productions"
-      ],
-      "poster_path": "/6RNmgq0UKvPuzLI6iY81ugLhjw2.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/iVnsOj0MtVE1lzfillNAPqCdhpR.jpg",
-      "trailer_youtube_key": "RaJdhU7qWVk",
-      "age_rating": "R (US)",
-      "tmdb_id": 1023,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Adamova+jablka+2005",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-05T22:27:34+02:00"
     },
     {
       "film_id": "addamsova rodina 2",
@@ -1870,52 +1824,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-06T07:39:55+00:00"
-    },
-    {
-      "film_id": "duch",
-      "title_cz": "Duch",
-      "title_en": "Ghost",
-      "original_title": "Ghost",
-      "year": 1990,
-      "synopsis": "Mladý newyorský bankovní úředník Sam začne žít s výtvarnicí Molly. Jejich počínající šťastný život je však přerván Samovou násilnou smrtí, když jej na ulici zastřelí neznámý poberta. Ale Sam nemůže milovanou dívku opustit, a tak ji provází životem alespoň jako duch. Ze záhrobí naváže spojení se světem živých prostřednictvím bizarního média, kterým je černoška Oda Mae.",
-      "synopsis_language": "cs",
-      "runtime_min": 127,
-      "genres": [
-        "Fantasy",
-        "Romantický",
-        "Thriller"
-      ],
-      "director": [
-        "Jerry Zucker"
-      ],
-      "screenwriter": [
-        "Bruce Joel Rubin"
-      ],
-      "cast": [
-        "Patrick Swayze",
-        "Demi Moore",
-        "Whoopi Goldberg",
-        "Tony Goldwyn",
-        "Vincent Schiavelli",
-        "Rick Aviles",
-        "Martina Deignan",
-        "Rick Kleber"
-      ],
-      "production_company": [
-        "Paramount Pictures",
-        "Howard W. Koch Productions"
-      ],
-      "poster_path": "/mKLrD8J8KLcRQo7odUXpUnJawGf.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/6nLdSON3ErniBZTXWG7WRqs5jGz.jpg",
-      "trailer_youtube_key": "jWvUTmvaOyU",
-      "age_rating": "PG-13 (US)",
-      "tmdb_id": 251,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Duch+1990",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:27:58+02:00"
     },
     {
       "film_id": "dvacet let met v kinech oslava vyroci opera",
@@ -7217,52 +7125,6 @@
       "resolved_at": "2026-08-05T22:29:00+02:00"
     },
     {
-      "film_id": "trochu zivota",
-      "title_cz": "Trochu života",
-      "title_en": "Live a Little",
-      "original_title": "Leva lite",
-      "year": 2025,
-      "synopsis": "Dvě mladé Švédky, nejlepší kamarádky Laura a Alex, vyrážejí na letní dobrodružství, při kterém vlakem procestují evropská hlavní města. V plánu je Varšava, Praha, Berlín i Paříž, přičemž spát budou na pohovkách cizinců. Jejich prázdninovým snem je oddat se spontánnímu životu, poznat neznámé kultury a nechat se ubytovávat místními. Jednoho rána se po divoké párty Laura probere vedle muže, na nějž si z předchozí noci nevzpomíná. O pár dní později se k výpravě připojuje její přítel Elias, který je z incidentu značně rozrušený. Laura se nedokáže v hlavě dobrat toho, co se skutečně stalo, ale záblesky z onoho večera se jí neustále vrací. Není si jistá, jestli ke všemu došlo s jejím souhlasem. Snímek Trochu života, celovečerní debut Fanny Ovesen, je barvitým, odvážným a intimním příběhem o hledání sebe sama, prozkoumávajícím nejistotu, šedé zóny konsentu a obtížné vyjednávání osobních hranic. (Film Europe)",
-      "synopsis_language": "cs",
-      "runtime_min": 98,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Fanny Ovesen"
-      ],
-      "screenwriter": [
-        "Fanny Ovesen"
-      ],
-      "cast": [
-        "Embla Ingelman-Sundberg",
-        "Aviva Wrede",
-        "Oscar Lesage",
-        "Odin Romanus",
-        "Thelma Buabeng",
-        "Yohannes Frezgi",
-        "Filip Zareba",
-        "Laurean Wagner"
-      ],
-      "production_company": [
-        "Kjellson & Wik",
-        "Ström Pictures",
-        "True Content Production",
-        "Film i Väst"
-      ],
-      "poster_path": "/3Mxqtt6qwV3i3oSJH3LhGqn1TrB.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/yeZT79XJ2iYZ05uwkawjG3TGV1n.jpg",
-      "trailer_youtube_key": "LNLESq_Mf44",
-      "age_rating": "",
-      "tmdb_id": 1414079,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Trochu+%C5%BEivota+2025",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:29:00+02:00"
-    },
-    {
       "film_id": "troja",
       "title_cz": "Troja",
       "title_en": "Troy",
@@ -7484,31 +7346,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-22T05:24:41+00:00"
-    },
-    {
-      "film_id": "velrybi pisen cesky dabing",
-      "title_cz": "Velrybí píseň (český dabing)",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Velryb%C3%AD+p%C3%ADse%C5%88+%28%C4%8Desk%C3%BD+dabing%29",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Velrybí píseň (český dabing)'",
-      "match_score": 0.0
     },
     {
       "film_id": "verejne prospesne prace",
