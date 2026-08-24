@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T05:26:46+00:00",
+  "generated_at": "2026-08-24T05:37:44+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -589,59 +589,6 @@
       "resolved_at": "2026-08-17T05:34:39+00:00"
     },
     {
-      "film_id": "arrietty ze sveta pujcovnicku",
-      "title_cz": "Arrietty ze světa půjčovníčků",
-      "title_en": "The Secret World of Arrietty",
-      "original_title": "借りぐらしのアリエッティ",
-      "year": 2010,
-      "synopsis": "To jsou malinkatí lidé žijící v prostorech mezi zdmi či pod podlahami starých domů, kteří si vše, co potřebují k životu, půjčují od jejich obyvatel. Mladá Arrietty takto se svými rodiči žije v domě, kde bydlí babička mladého chlapce Šóa. V den, kdy Šó přijede, zrovna Arrietty čeká její první výprava s tatínkem pro zásoby do světa velkých lidí.",
-      "synopsis_language": "cs",
-      "runtime_min": 94,
-      "genres": [
-        "Fantasy",
-        "Animovaný",
-        "Rodinný"
-      ],
-      "director": [
-        "Hiromasa Yonebayashi"
-      ],
-      "screenwriter": [
-        "Hayao Miyazaki",
-        "Keiko Niwa"
-      ],
-      "cast": [
-        "Mirai Shida",
-        "Ryunosuke Kamiki",
-        "Tomokazu Miura",
-        "Keiko Takeshita",
-        "Kirin Kiki",
-        "Shinobu Otake",
-        "Tatsuya Fujiwara",
-        "Shin'ichi Hatori"
-      ],
-      "production_company": [
-        "Studio Ghibli",
-        "Hakuhodo DY Media Partners",
-        "Mitsubishi Shoji",
-        "dentsu",
-        "TOHO",
-        "Nippon Television Network Corporation",
-        "Wild Bunch",
-        "The Walt Disney Company (Japan)"
-      ],
-      "poster_path": "/sUSkcFebnw9AoXldXeSM4vmtELV.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2024/09/10/5d0671a0e20a3d699a7c2c08d92d4f3d.jpg",
-      "backdrop_path": "/7Z7WVzJsSReG8B0CaPk0bvWD7tK.jpg",
-      "trailer_youtube_key": "DskjJGeaRQA",
-      "age_rating": "U",
-      "tmdb_id": 51739,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Arrietty+ze+sv%C4%9Bta+p%C5%AFj%C4%8Dovn%C3%AD%C4%8Dk%C5%AF+2010",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-16T05:25:25+00:00"
-    },
-    {
       "film_id": "backrooms",
       "title_cz": "Backrooms",
       "title_en": "Backrooms",
@@ -1050,31 +997,6 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Carmen+%28Z%C3%A1znam+opery%29",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Carmen (Záznam opery)'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "cecko ticha pritelkyne",
-      "title_cz": "Céčko Tichá přítelkyně",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=C%C3%A9%C4%8Dko+Tich%C3%A1+p%C5%99%C3%ADtelkyn%C4%9B",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Céčko Tichá přítelkyně'",
       "match_score": 0.0
     },
     {
@@ -1731,53 +1653,6 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:27:56+02:00"
-    },
-    {
-      "film_id": "drama",
-      "title_cz": "Drama",
-      "title_en": "The Drama",
-      "original_title": "The Drama",
-      "year": 2026,
-      "synopsis": "Vztah snoubenců projde týden před svatbou nečekanou zkouškou. Zdánlivě dokonalý pár je tak vystaven nečekanému dramatu a krizi.",
-      "synopsis_language": "cs",
-      "runtime_min": 105,
-      "genres": [
-        "Romantický",
-        "Komedie",
-        "Drama"
-      ],
-      "director": [
-        "Kristoffer Borgli"
-      ],
-      "screenwriter": [
-        "Kristoffer Borgli"
-      ],
-      "cast": [
-        "Zendaya",
-        "Robert Pattinson",
-        "Alana Haim",
-        "Mamoudou Athie",
-        "Hailey Benton Gates",
-        "Sydney Lemmon",
-        "Hannah Gross",
-        "Anna Baryshnikov"
-      ],
-      "production_company": [
-        "A24",
-        "Square Peg",
-        "Dilemma Films"
-      ],
-      "poster_path": "/pjztX7PQZMh0CxsSKaptAWfAY5n.jpg",
-      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/02/25/ec4f669accee7800f4c217ba7a40e42c.jpg",
-      "backdrop_path": "/1oKLEA9JOhvaBwLpqjROisvWMy7.jpg",
-      "trailer_youtube_key": "0ZDzsH3XGFA",
-      "age_rating": "15+",
-      "tmdb_id": 1325734,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Drama+2026",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-05T22:27:57+02:00"
     },
     {
       "film_id": "drazi soudruzi",
@@ -2605,31 +2480,6 @@
       "resolved_at": "2026-08-13T06:14:43+00:00"
     },
     {
-      "film_id": "khalifa",
-      "title_cz": "Khalifa",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/3564O3SX1.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Khalifa",
-      "resolved": false,
-      "match_reason": "title matched 'Khalifah' but runtime contradict it",
-      "match_score": 0.883
-    },
-    {
       "film_id": "kinospunti a kapybary",
       "title_cz": "Kinošpunti a kapybary",
       "title_en": "",
@@ -2678,48 +2528,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Kinotaj'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "kocici odysea",
-      "title_cz": "Kočičí odysea",
-      "title_en": "Flow",
-      "original_title": "Straume",
-      "year": 2024,
-      "synopsis": "Svět se zdá být na konci, plný pozůstatků lidské přítomnosti. Kočka je samotářské zvíře, ale když je její domov zničen velkou povodní, najde útočiště na lodi obývané různými druhy, se kterými se musí spojit navzdory jejich odlišnostem. Na osamělé lodi plující mystickou zaplavenou krajinou se tak vyrovnávají s výzvami a nebezpečími, které jim přináší adaptace na tento nový svět.",
-      "synopsis_language": "cs",
-      "runtime_min": 85,
-      "genres": [
-        "Dobrodružný",
-        "Animovaný",
-        "Rodinný",
-        "Fantasy"
-      ],
-      "director": [
-        "Gints Zilbalodis"
-      ],
-      "screenwriter": [
-        "Matīss Kaža",
-        "Gints Zilbalodis"
-      ],
-      "cast": [],
-      "production_company": [
-        "Dream Well Studio",
-        "Sacrebleu Productions",
-        "Take Five",
-        "ARTE France Cinéma",
-        "RTBF"
-      ],
-      "poster_path": "/jloXRl1PtsXyvFLQ9JP7YBQRgGT.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2024/12/02/f67a75358c775c095cac48fd23e00675.jpg",
-      "backdrop_path": "/4XPNNt0zfZKBqxxVWaQALd57UHl.jpg",
-      "trailer_youtube_key": "1ewCDRKpWUU",
-      "age_rating": "U",
-      "tmdb_id": 823219,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Ko%C4%8Di%C4%8D%C3%AD+odysea+2024",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-16T05:25:26+00:00"
     },
     {
       "film_id": "konec oak street",
@@ -3214,49 +3022,29 @@
       "resolved_at": "2026-08-22T05:24:29+00:00"
     },
     {
-      "film_id": "leto s monikou",
-      "title_cz": "Léto s Monikou",
-      "title_en": "Summer with Monika",
-      "original_title": "Sommaren med Monika",
-      "year": 1953,
-      "synopsis": "Ve svém raném filmu Bergman pokračuje v soustředěném zkoumání citových vztahů, tentokrát nezralé lásky sotva dospělých mladých lidí ze sociálně nižší vrstvy na předměstí Stockholmu. Temperamentní přidrzlá Monika okouzlí a svede plachého, nesmělého Harryho a podniknou spolu romantický únik lodí z města na ostrov. Rajské opojení brzy pomine a dvojice, zbavena iluzorních snů, je vržena zpět do tvrdé reality.",
-      "synopsis_language": "cs",
-      "runtime_min": 96,
-      "genres": [
-        "Drama",
-        "Romantický"
-      ],
-      "director": [
-        "Ingmar Bergman"
-      ],
-      "screenwriter": [
-        "Per Anders Fogelström",
-        "Ingmar Bergman"
-      ],
-      "cast": [
-        "Harriet Andersson",
-        "Lars Ekborg",
-        "Dagmar Ebbesen",
-        "Åke Fridell",
-        "Naemi Briese",
-        "Åke Grönberg",
-        "Sigge Fürst",
-        "John Harryson"
-      ],
-      "production_company": [
-        "SF Studios"
-      ],
-      "poster_path": "/fSZqjEPMMhIcIoaFZY48SFfR4De.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/kF5UhtIbadVqR0sfhzBBmwq8ToG.jpg",
-      "trailer_youtube_key": "W_yx-_D7b-c",
-      "age_rating": "R (US)",
-      "tmdb_id": 47735,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=L%C3%A9to+s+Monikou+1953",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-18T05:25:45+00:00"
+      "film_id": "letni koncert andre rieu 2026 viva maastricht",
+      "title_cz": "Letní koncert André Rieu 2026: Viva Maastricht!",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/0202D2I1.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Letn%C3%AD+koncert+Andr%C3%A9+Rieu+2026%3A+Viva+Maastricht%21",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Letní koncert André Rieu 2026: Viva Maastricht!'",
+      "match_score": 0.0
     },
     {
       "film_id": "leviticus",
@@ -3602,52 +3390,6 @@
       "match_score": 0.595
     },
     {
-      "film_id": "me tiche myslenky",
-      "title_cz": "Mé tiché myšlenky",
-      "title_en": "My Thoughts Are Silent",
-      "original_title": "Мої думки тихі",
-      "year": 2020,
-      "synopsis": "Pětadvacetiletý Vadym se živí nahráváním a prodejem zvuků. Když přijde velkoryse honorovaná nabídka, která by mu pomohla uskutečnit sen o cestě do Kanady, dvakrát se nerozmýšlí a vydává se nahrávat zvuky zvířat na Zakarpatí… Debutující Antonio Lukič v obrazově nápadité road movie, podbarvené zvuky syntezátoru, prokazuje nebývalý cit pro budování tragikomických situací.",
-      "synopsis_language": "cs",
-      "runtime_min": 104,
-      "genres": [
-        "Komedie",
-        "Drama"
-      ],
-      "director": [
-        "Antonio Lukich"
-      ],
-      "screenwriter": [
-        "Valeria Kalchenko",
-        "Antonio Lukich"
-      ],
-      "cast": [
-        "Andrii Lidahovskyi",
-        "Irma Vitovska",
-        "Iryna Verenych-Ostrovska",
-        "Serhii Volosovets",
-        "Viktor Shevchenko",
-        "Istan Rozumny",
-        "Pavlo Dovhan-Levytskyi",
-        "Roland Mishko"
-      ],
-      "production_company": [
-        "Toy Cinema",
-        "Ukrainian State Film Agency"
-      ],
-      "poster_path": "/jT1D9sUhfoqYh4aV4lpVuVuT2Q9.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/tNRHOWkBZW6T7fNIKMQNl17kFyI.jpg",
-      "trailer_youtube_key": "RPyCUrLqA4M",
-      "age_rating": "",
-      "tmdb_id": 609031,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=M%C3%A9+tich%C3%A9+my%C5%A1lenky+2020",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-05T22:28:14+02:00"
-    },
-    {
       "film_id": "melancholie",
       "title_cz": "Melancholie",
       "title_en": "Melancholia",
@@ -3698,52 +3440,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-22T05:24:30+00:00"
-    },
-    {
-      "film_id": "michael",
-      "title_cz": "Michael",
-      "title_en": "Michael",
-      "original_title": "Michael",
-      "year": 2026,
-      "synopsis": "Michael podrobně mapuje kariéru budoucího Krále popu od jeho prvních kroků v rodinné skupině Jackson Five, kde od začátku prokazoval největší talent, i když byl nejmladším členem kapely. Stále populárnější skupinu vede pevnou rukou jeho táta Joe, možná až příliš pevnou pro křehkého Michaela. Když se o Jackson Five začnou zajímat hudební producenti, všichni si okamžitě uvědomí, že Michael je nejcennějším členem skupiny. Ti nejodvážnější z nich dokonce začínají mluvit o tom, jak by jeho kariéře prospělo, kdyby se vydal na sólovou dráhu. Joe, despotický otec a tvrdý manažer v jedné osobě, o tom samozřejmě nechce ani slyšet. Michael však touží jít vlastní cestou. A tak nad Jacksonovými zavládne klid před bouří, ze které se zrodí hudební legenda a některé z nejlepších písní v historii populární hudby.",
-      "synopsis_language": "cs",
-      "runtime_min": 128,
-      "genres": [
-        "Hudební",
-        "Drama"
-      ],
-      "director": [
-        "Antoine Fuqua"
-      ],
-      "screenwriter": [
-        "John Logan"
-      ],
-      "cast": [
-        "Jaafar Jackson",
-        "Colman Domingo",
-        "Nia Long",
-        "Juliano Krue Valdi",
-        "KeiLyn Durrel Jones",
-        "Miles Teller",
-        "Larenz Tate",
-        "Laura Harrier"
-      ],
-      "production_company": [
-        "Lionsgate",
-        "GK Films",
-        "Optimum Productions"
-      ],
-      "poster_path": "/zm0KAbOjlt9eR5y7vDiL2dEOwMl.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
-      "trailer_youtube_key": "k-YAcjaLuSI",
-      "age_rating": "12+",
-      "tmdb_id": 936075,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Michael+2026",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-15T05:23:58+00:00"
     },
     {
       "film_id": "milost",
@@ -3975,51 +3671,6 @@
       "resolved_at": "2026-08-05T22:28:17+02:00"
     },
     {
-      "film_id": "mumbo jumbo",
-      "title_cz": "Mumbo Jumbo",
-      "title_en": "When Mumbo Jumbo Grew Giant",
-      "original_title": "Da Mumbo Jumbo blev kæmpestor",
-      "year": 2026,
-      "synopsis": "When the happy little hippo, Mumbo Jumbo, accidentally turns giant his life changes for the worse - seemingly forever. Now Mumbo is forced out on a challenging journey in order to encounter an unpredictable witch. Luckily Mumbo's best friends join him. It’s still an insurmountable task, but at least the friends are facing it together. It is not easy being a small hippo, nor a giant one, and when the only way back to normal depends on the cooperation of a frank and mischievous witch, anyone can imagine that it requires a true effort. Hopefully Mumbo Jumbo will develop a strong belief in himself during the adventure. Otherwise, it will definitely be an impossible mission.",
-      "synopsis_language": "en",
-      "runtime_min": 83,
-      "genres": [
-        "Animovaný",
-        "Dobrodružný",
-        "Rodinný"
-      ],
-      "director": [
-        "Karsten Kiilerich"
-      ],
-      "screenwriter": [
-        "Karsten Kiilerich"
-      ],
-      "cast": [
-        "Victor Spanning",
-        "Annevig Schelde Ebbe",
-        "Kirsten Lehfeldt",
-        "Rebecca Rønde Kiilerich",
-        "Asger Reher",
-        "Peter Zhelder",
-        "Lars Mikkelsen",
-        "Cecilie Stenspil"
-      ],
-      "production_company": [
-        "A. Film Production"
-      ],
-      "poster_path": "/ivnoXwbT3dzf28dkfXGgTceucds.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/xEM4grRNMP0TMHKbk3jnmbbLw4f.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1218067,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Mumbo+Jumbo+2026",
-      "resolved": true,
-      "match_reason": "manual override",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:19+02:00"
-    },
-    {
       "film_id": "na jednu noc",
       "title_cz": "Na jednu noc",
       "title_en": "One Night Stand",
@@ -4183,31 +3834,6 @@
       "resolved_at": "2026-08-22T05:24:31+00:00"
     },
     {
-      "film_id": "nebezpecne znamosti",
-      "title_cz": "Nebezpečné známosti | NT Live",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/04/17/7e1d5a95e29bf94b6e276ea596f05752.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Nebezpe%C4%8Dn%C3%A9+zn%C3%A1mosti+%7C+NT+Live",
-      "resolved": false,
-      "match_reason": "title matched 'Nebezpečné známosti' but director and runtime contradict it",
-      "match_score": 0.85
-    },
-    {
       "film_id": "nedosazitelna laska",
       "title_cz": "Nedosažitelná láska",
       "title_en": "",
@@ -4357,6 +3983,31 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Nerdopolis uvádí: Ostrov'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "noc lovce",
+      "title_cz": "Noc lovce",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/30/545df3e07d9c4d118deab6493ef6d6aa.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Noc+lovce",
+      "resolved": false,
+      "match_reason": "no candidate scored above 0.75",
+      "match_score": 0.4
     },
     {
       "film_id": "nt live hrdina zapadu",
@@ -4981,55 +4632,6 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-08-05T22:28:26+02:00"
-    },
-    {
-      "film_id": "pillion",
-      "title_cz": "Pillion",
-      "title_en": "Pillion",
-      "original_title": "Pillion",
-      "year": 2025,
-      "synopsis": "Colin, a timid man, meets Ray, a confident biker gang leader, who initiates him into a submissive relationship, challenging Colin’s mundane existence and prompting personal growth through their unconventional dynamic.",
-      "synopsis_language": "en",
-      "runtime_min": 107,
-      "genres": [
-        "Romantický",
-        "Drama",
-        "Komedie"
-      ],
-      "director": [
-        "Harry Lighton"
-      ],
-      "screenwriter": [
-        "Harry Lighton"
-      ],
-      "cast": [
-        "Harry Melling",
-        "Alexander Skarsgård",
-        "Lesley Sharp",
-        "Douglas Hodge",
-        "Jake Shears",
-        "Mat Hill",
-        "Nick Figgis",
-        "Zoe Engerer"
-      ],
-      "production_company": [
-        "BBC Film",
-        "BFI",
-        "Element Pictures",
-        "Fremantle",
-        "September Film"
-      ],
-      "poster_path": "/7Pd6ChSQjSXy4snJiorSdzg2cG3.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/rBYrtkAy9YtRuFpX1g6JbcjRT8h.jpg",
-      "trailer_youtube_key": "Gl8n5I-IIHU",
-      "age_rating": "15+",
-      "tmdb_id": 1287141,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Pillion+2025",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-11T05:52:33+00:00"
     },
     {
       "film_id": "polibek pavouci zeny",
@@ -5684,53 +5286,6 @@
       "match_score": 0.9
     },
     {
-      "film_id": "romeria",
-      "title_cz": "Romería",
-      "title_en": "Romería",
-      "original_title": "Romería",
-      "year": 2025,
-      "synopsis": "Marina, 18 let, osiřelá v raném věku, musí cestovat na španělské pobřeží Atlantiku, aby získala podpis na žádost o stipendium od prarodičů z otcovy strany, které nikdy nepoznala. Proplouvá mořem nových tet, strýců a bratranců, nejistá, zda bude přijata s otevřenou náručí, nebo narazí na odpor. Marina probouzí dlouho pohřbené emoce, oživuje něhu a odhaluje nevyřčené rány spojené s minulostí a skládá dohromady fragmentární a často protichůdné vzpomínky na rodiče, které si sotva pamatuje.",
-      "synopsis_language": "cs",
-      "runtime_min": 112,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Carla Simón"
-      ],
-      "screenwriter": [
-        "Carla Simón"
-      ],
-      "cast": [
-        "Llúcia Garcia",
-        "Mitch",
-        "Tristán Ulloa",
-        "Celine Tyll",
-        "León Romagosa",
-        "Hans Romagosa",
-        "Marina Troncoso",
-        "José Ángel Egido"
-      ],
-      "production_company": [
-        "Elastica Films",
-        "Romería Vigo",
-        "ZDF/Arte",
-        "Dos Soles Media",
-        "Ventall Cinema"
-      ],
-      "poster_path": "/svscmm7MZml1JqBMl62REnbxhjP.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/wbykOr1LrP463tXqIMH0wZPvMpz.jpg",
-      "trailer_youtube_key": "da3CAnPA_EM",
-      "age_rating": "",
-      "tmdb_id": 1182861,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Romer%C3%ADa+2025",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:39+02:00"
-    },
-    {
       "film_id": "rose",
       "title_cz": "Rose",
       "title_en": "Rose",
@@ -5989,55 +5544,6 @@
       "resolved_at": "2026-08-22T05:24:35+00:00"
     },
     {
-      "film_id": "sedm statecnych",
-      "title_cz": "Sedm statečných",
-      "title_en": "The Magnificent Seven",
-      "original_title": "The Magnificent Seven",
-      "year": 1960,
-      "synopsis": "Vesnice Ixcatlan trpí nájezdy banditů vedených nelítostným Calverou, který vesničany každý rok připraví o většinu sklizně a zásob. Proto se vesničané rozhodnou nakoupit v nejbližším městečku zbraně a bránit se. Chtějí o svém plánu poradit s profesionálním pistolníkem Chrisem, který je nadchnul bravurním kouskem jehož byli svědky po svém příjezdu do městečka. Ten jim však poradí, aby si nekupovali drahé zbraně, se kterými stejně neumí zacházet, ale najali si střelce a sám se záležitosti ujme. Podaří se mu získat ještě šest dalších mužů a s nimi se vydá do ohrožené vesnice. Přestože první střetnutí s Calverovými muži dopadne pro statečné muže příznivě, nevyzpytatelná povaha vesničanů situaci zcela nečekaně zkomplikuje.",
-      "synopsis_language": "cs",
-      "runtime_min": 123,
-      "genres": [
-        "Western",
-        "Akční",
-        "Dobrodružný",
-        "Drama"
-      ],
-      "director": [
-        "John Sturges"
-      ],
-      "screenwriter": [
-        "William Roberts",
-        "Walter Bernstein",
-        "Walter Newman"
-      ],
-      "cast": [
-        "Yul Brynner",
-        "Eli Wallach",
-        "Steve McQueen",
-        "Charles Bronson",
-        "Robert Vaughn",
-        "Brad Dexter",
-        "James Coburn",
-        "Horst Buchholz"
-      ],
-      "production_company": [
-        "Alpha Productions",
-        "The Mirisch Company"
-      ],
-      "poster_path": "/yVd1zcIaX50d4lZJ8JV68VqmOID.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/x0JQBBfK68gHm8rmyKk60bnnyw9.jpg",
-      "trailer_youtube_key": "MAOaEaSgwGQ",
-      "age_rating": "U",
-      "tmdb_id": 966,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Sedm+state%C4%8Dn%C3%BDch+1960",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-18T05:25:48+00:00"
-    },
-    {
       "film_id": "septej",
       "title_cz": "Šeptej",
       "title_en": "Whisper",
@@ -6107,56 +5613,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Sex a smrt v kempu Miasma'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "sirat",
-      "title_cz": "Sirat",
-      "title_en": "Sirāt",
-      "original_title": "Sirāt",
-      "year": 2025,
-      "synopsis": "Luis přijíždí na divokou party uprostřed marockých hor, aby se svým malým synem hledal zmizelou dceru Mar. V obklopení hypnotických beatů a zvláštní, syrové svobody vyráží se skupinou techno nomádů pátrat na poslední akci kdesi hluboko v poušti. Karavana předělaných náklaďáků naložených soundsystémy, naftou a drogami se prodírá rozpáleným pískem. Putování se rychle mění v šílenou halucinační jízdu, z níž není snadného úniku. Sirat je rave apokalypsa, která šokovala Cannes a kromě Ceny poroty si odnesla pověst nejoriginálnějšího filmu festivalu s kultovním potenciálem.",
-      "synopsis_language": "cs",
-      "runtime_min": 115,
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "director": [
-        "Oliver Laxe"
-      ],
-      "screenwriter": [
-        "Oliver Laxe",
-        "Santiago Fillol"
-      ],
-      "cast": [
-        "Sergi López",
-        "Bruno Núñez",
-        "Stefania Gadda",
-        "Joshua Liam Henderson",
-        "Richard Bellamy",
-        "Tonin Janvier",
-        "Jade Oukid",
-        "Ahmed Abbou"
-      ],
-      "production_company": [
-        "Movistar Plus+",
-        "Los Desertores Films",
-        "Filmes da Ermida",
-        "El Deseo",
-        "Uri Films",
-        "4 A 4 Productions"
-      ],
-      "poster_path": "/edEDZwU3kZerqdylZsyCn7feH23.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/kOUV5WbisWMg56d8eB45ZHEVxYq.jpg",
-      "trailer_youtube_key": "3_9OkHX8ZiA",
-      "age_rating": "R (US)",
-      "tmdb_id": 1151272,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Sirat+2025",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-15T05:24:00+00:00"
     },
     {
       "film_id": "smrt robina hooda",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T05:26:47+00:00",
+  "generated_at": "2026-08-24T05:37:46+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -2935,6 +2935,52 @@
       "match_score": 1.0,
       "resolved_at": "2026-08-17T05:34:42+00:00",
       "release_date": "2027-01-14"
+    },
+    {
+      "film_id": "expedice galejnik",
+      "title_cz": "Expedice Galejník",
+      "title_en": "Expedice Galejník",
+      "original_title": "Expedice Galejník",
+      "year": 2027,
+      "synopsis": "Příběh čtyř tátů, jejich šesti dětí a jednoho starého mládence zavede diváky na letní putovní výpravu do hor. Expedice Galejník má dvě základní pravidla: Přežít! A žádné ženské. Od začátku však nejde nic podle plánu…",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Rodinný",
+        "Dobrodružný"
+      ],
+      "director": [
+        "Zuzana Marianková"
+      ],
+      "screenwriter": [
+        "Jan Hanzlík",
+        "Zuzana Marianková"
+      ],
+      "cast": [
+        "Stanislav Majer",
+        "Kryštof Hádek",
+        "Lukáš Hejlík",
+        "Jan Révai",
+        "Petr Vaněk",
+        "Gabriela Marcinková",
+        "Tomáš Maštalír",
+        "Robert Mikluš"
+      ],
+      "production_company": [
+        "Film Kolektiv"
+      ],
+      "poster_path": "/i2dPwvdLtouxJDYgSCSKLEgXuMx.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "BPu0XB_gIKY",
+      "age_rating": "",
+      "tmdb_id": 1743425,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Expedice+Galejn%C3%ADk+2027",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-24T05:37:46+00:00",
+      "release_date": "2027-01-21"
     }
   ]
 }
