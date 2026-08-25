@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T05:37:46+00:00",
+  "generated_at": "2026-08-25T05:29:15+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -1555,6 +1555,48 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "release_date": "2026-10-15"
+    },
+    {
+      "film_id": "ali g who iz i",
+      "title_cz": "Ali G: Who Iz I?",
+      "title_en": "Ali G: Who Iz I?",
+      "original_title": "Ali G: Who Iz I?",
+      "year": 2026,
+      "synopsis": "Plot details TBA.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Komedie"
+      ],
+      "director": [
+        "Sacha Baron Cohen"
+      ],
+      "screenwriter": [
+        "Sacha Baron Cohen"
+      ],
+      "cast": [
+        "Sacha Baron Cohen"
+      ],
+      "production_company": [
+        "Four by Two Films",
+        "MRC",
+        "Film4 Productions",
+        "Working Title Films",
+        "Alfresco Enterprises",
+        "Revolution Films"
+      ],
+      "poster_path": "/e0hUYHJyLuOQTjTEITPYAbVORd1.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/AfjusltCcByJ3rH2XHu4RRLKc2R.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "R (US)",
+      "tmdb_id": 1727734,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ali+G%3A+Who+Iz+I%3F+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-25T05:29:15+00:00",
+      "release_date": "2026-10-22"
     },
     {
       "film_id": "clayface",

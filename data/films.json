@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T05:37:44+00:00",
+  "generated_at": "2026-08-25T05:29:13+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -249,54 +249,6 @@
       "resolved_at": "2026-08-05T22:27:34+02:00"
     },
     {
-      "film_id": "aftersun",
-      "title_cz": "Aftersun",
-      "title_en": "Aftersun",
-      "original_title": "Aftersun",
-      "year": 2022,
-      "synopsis": "Někdy v devadesátých letech, kdesi v tureckém přímořském resortu tráví dovolenou rozvedený mladý otec Calum se skoro náctiletou dcerou Sophií. Pohodové vystupování táty, který žádnou legraci nezkazí a baví se tím, že jej okolí považuje za dívčina staršího bratra, však zastírá znepokojivý závoj melancholie.",
-      "synopsis_language": "cs",
-      "runtime_min": 101,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Charlotte Wells"
-      ],
-      "screenwriter": [
-        "Charlotte Wells"
-      ],
-      "cast": [
-        "Paul Mescal",
-        "Frankie Corio",
-        "Brooklyn Toulson",
-        "Celia Rowlson-Hall",
-        "Sally Messham",
-        "Ayşe Parlak",
-        "Sophia Lamanova",
-        "Spike Fearn"
-      ],
-      "production_company": [
-        "PASTEL",
-        "BBC Film",
-        "Tango Entertainment",
-        "Unified Theory",
-        "Screen Scotland",
-        "BFI"
-      ],
-      "poster_path": "/sNhWDtzJx0S91N1kue8wr7OpZSj.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/4jdduww9j5RyzO4ITRcuBFhqNN1.jpg",
-      "trailer_youtube_key": "kdLHVqkNYw0",
-      "age_rating": "12+",
-      "tmdb_id": 965150,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Aftersun+2022",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-15T05:23:57+00:00"
-    },
-    {
       "film_id": "alice guy 13 kratkych filmu",
       "title_cz": "Alice Guy – 13 krátkých filmů",
       "title_en": "",
@@ -538,57 +490,6 @@
       "resolved_at": "2026-08-05T22:27:39+02:00"
     },
     {
-      "film_id": "arco",
-      "title_cz": "Arco",
-      "title_en": "Arco",
-      "original_title": "Arco",
-      "year": 2025,
-      "synopsis": "Je rok 2075. Desetiletá Iris vidí spadnout z nebe tajemného chlapce v duhovém obleku. Jmenuje se Arco a pochází z budoucnosti. Mezi Iris a Arcem vzniká přátelství, křehké a krásné spojení dvou odlišných světů. Společně s robotem Mikkim se vydají na cestu s cílem dostat chlapce zpět domů. Zároveň jsou možná jediní, kteří dokáží zachránit planetu. Arco je okouzlující, vizuálně dechberoucí a dojemná odysea plná naděje a optimismu, kterou produkovala Natalie Portman. Film Uga Bienvenu měl premiéru na festivalu v Cannes a získal hlavní cenu za nejlepší celovečerní film na festivalu animovaného filmu v Annecy.",
-      "synopsis_language": "cs",
-      "runtime_min": 88,
-      "genres": [
-        "Dobrodružný",
-        "Animovaný",
-        "Rodinný",
-        "Vědeckofantastický"
-      ],
-      "director": [
-        "Ugo Bienvenu"
-      ],
-      "screenwriter": [
-        "Ugo Bienvenu",
-        "Félix de Givry"
-      ],
-      "cast": [
-        "Margot Ringard Oldra",
-        "Oscar Tresanini",
-        "Nathanaël Perrot",
-        "Alma Jodorowsky",
-        "Swann Arlaud",
-        "Vincent Macaigne",
-        "Louis Garrel",
-        "William Lebghil"
-      ],
-      "production_company": [
-        "Remembers",
-        "MountainA",
-        "France 3 Cinéma",
-        "Fit Via Vi",
-        "Sons of Rigor Films"
-      ],
-      "poster_path": "/rWvbMnqLTpyTHmNii4TrnmgzpcS.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2025/12/15/0a3638fbc4cfb6cee9862b81aaa57497.jpg",
-      "backdrop_path": "/reQELo8rDiLIOoYIA7M6q7KGRW0.jpg",
-      "trailer_youtube_key": "j7Tpaj-Iet8",
-      "age_rating": "U",
-      "tmdb_id": 804370,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Arco+2025",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.11, title 1.00)",
-      "match_score": 1.115,
-      "resolved_at": "2026-08-17T05:34:39+00:00"
-    },
-    {
       "film_id": "backrooms",
       "title_cz": "Backrooms",
       "title_en": "Backrooms",
@@ -744,6 +645,31 @@
       "match_reason": "verified against director/runtime (1.10, title 1.00)",
       "match_score": 1.1,
       "resolved_at": "2026-08-05T22:27:41+02:00"
+    },
+    {
+      "film_id": "bethlehem kudumba unit",
+      "title_cz": "Bethlehem Kudumba Unit",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/6198O2SX1.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Bethlehem+Kudumba+Unit",
+      "resolved": false,
+      "match_reason": "no candidate scored above 0.75",
+      "match_score": 0.0
     },
     {
       "film_id": "big lebowski",
@@ -1585,6 +1511,50 @@
       "resolved_at": "2026-08-15T05:23:58+00:00"
     },
     {
+      "film_id": "dokonaly den",
+      "title_cz": "Dokonalý den",
+      "title_en": "Dokonalý den",
+      "original_title": "Dokonalý den",
+      "year": 2026,
+      "synopsis": "Anna spěchá na pracovní pohovor. Má to promyšlené, naplánované a pod kontrolou…až do chvíle, než se jí cestou pokazí auto. Anna místo kariérního vítězství končí ve vlaku, kde potká Edu. Eda vystoupí v místě, které pro něj má velký význam, a přesvědčí nic netušící Annu, aby ho následovala. Zažívají nečekaná dobrodružství, poznávají okolí i jeden druhého. Po noci plné vášně přichází ráno a s ním i vystřízlivění. Eda je krátce po rozchodu a Anna brzy odcestuje do Kanady. Je na čase se rozloučit. Jenže život má pro Annu jiné plány. V práci o ni totiž projeví velký zájem Ellis. Anna se tak poprvé v životě ocitá mezi dvěma úplně odlišnými světy…a dvěma úplně odlišnými možnostmi, kam její život může směřovat.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Romantický",
+        "Komedie"
+      ],
+      "director": [
+        "Jiří Matoušek"
+      ],
+      "screenwriter": [
+        "Marie Stará"
+      ],
+      "cast": [
+        "Kateřina Marie Fialová",
+        "Vladimír Polívka",
+        "Tereza Kostková",
+        "Natalia Germani",
+        "Anna Dvořáková",
+        "Tomáš Jeřábek",
+        "Marek Taclík",
+        "Vojtěch Vondráček"
+      ],
+      "production_company": [
+        "DonArt production"
+      ],
+      "poster_path": "/wFOAWewYLpZGIlIcazZyzfE3nZ.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/0202D2X1.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "QbAdlAaOYro",
+      "age_rating": "",
+      "tmdb_id": 1733409,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Dokonal%C3%BD+den+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-25T05:29:06+00:00"
+    },
+    {
       "film_id": "dokonaly den predpremiera s delegaci",
       "title_cz": "Dokonalý den - předpremiéra s delegací",
       "title_en": "",
@@ -1655,50 +1625,50 @@
       "resolved_at": "2026-08-05T22:27:56+02:00"
     },
     {
-      "film_id": "drazi soudruzi",
-      "title_cz": "Drazí soudruzi!",
-      "title_en": "Dear Comrades!",
-      "original_title": "Дорогие товарищи!",
-      "year": 2020,
-      "synopsis": "Provinční město na jihu SSSR, 1962. Lyudmila, oddaná úřednice komunistické strany a idealistická veteránka z druhé světové války, je metlou všeho, co vnímá jako protisovětský sentiment. Spolu s dalšími místními úředníky strany je zaskočena stávkou v místní továrně, které se účastní její vlastní dcera. Vzhledem k tomu, že se situace rychle vymkla kontrole, začala Lyudmila zoufale pátrat po své dceři tváří v tvář zákazům vycházení, hromadnému zatýkání a bezohledným pokusům úřadů zakrýt státní násilí. Její kdysi nezpochybnitelná víra ve stranickou linii je otřesena jejím rostoucím povědomím o lidských ztrátách, které tříští její povědomí o světu.",
+      "film_id": "dracula 1992",
+      "title_cz": "Dracula (1992)",
+      "title_en": "Bram Stoker's Dracula",
+      "original_title": "Bram Stoker's Dracula",
+      "year": 1992,
+      "synopsis": "Sídlo hraběte Draculy v Transylvanii sotva někdo objeví. V 15. století žil kníže Vlad, který se proslavil jako obratný diplomat, statečný bojovník proti pohanům a také jako nesmírně krutý muž se zálibou v napichování protivníků na kůl. Jeho postava prý inspirovala koncem minulého století spisovatele Brama Stokera k napsání dnes již klasického románu o upírech - Draculy. Ten je zde zosobněním zla, proti němuž se postaví skupina odvážných lidí v čele s profesorem Van Helsingem. Režisér Coppola se rozhodl jako první natočit Stokerův román v celé jeho šíři. Hrabě Dracula je v podstatě milující muž, který tragicky přišel o svou celoživotní lásku a v žalu proklel Boha za jeho krutost. Po staletích neklidného bloudění se dostává do Anglie, aby zde hledal odraz své dávné lásky. Převtělováním ve vlka, netopýra či mlhu nachází další kandidáty upírského života. Konečná bitva o duši krásné Miny proběhne v transylvánských horách, kde se Dracula se svojí vyvolenou chce ukrýt",
       "synopsis_language": "cs",
-      "runtime_min": 121,
+      "runtime_min": 128,
       "genres": [
-        "Historický",
-        "Drama"
+        "Romantický",
+        "Horor"
       ],
       "director": [
-        "Andrei Konchalovsky"
+        "Francis Ford Coppola"
       ],
       "screenwriter": [
-        "Elena Kiseleva",
-        "Andrei Konchalovsky"
+        "James V. Hart"
       ],
       "cast": [
-        "Yuliya Vysotskaya",
-        "Sergei Erlish",
-        "Yulia Burova",
-        "Andrei Gusev",
-        "Vladislav Komarov",
-        "Dmitry Kostyaev",
-        "Вячеслав Пигарев",
-        "Владимир Бабаев"
+        "Gary Oldman",
+        "Winona Ryder",
+        "Anthony Hopkins",
+        "Keanu Reeves",
+        "Sadie Frost",
+        "Cary Elwes",
+        "Richard E. Grant",
+        "Billy Campbell"
       ],
       "production_company": [
-        "Production Center of Andrei Konchalovsky",
-        "Russia 1"
+        "American Zoetrope",
+        "Osiris Films",
+        "Columbia Pictures"
       ],
-      "poster_path": "/cSGuuDsKoU3R0HF0alWHvUjLqU3.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/kQjoo1BCMaItNOrLxZU3g5X75NC.jpg",
-      "trailer_youtube_key": "_l72XC45UDE",
-      "age_rating": "",
-      "tmdb_id": 587609,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Draz%C3%AD+soudruzi%21+2020",
+      "poster_path": "/jSxCIZXudp5q8wQO8VERGX8hRAl.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2024/09/04/ec11b62af0c6398b38d810ada5cb6a84.jpg",
+      "backdrop_path": "/88S6EYQBVyQktDfSqsB33I169jN.jpg",
+      "trailer_youtube_key": "xD6JMxOGBLQ",
+      "age_rating": "15+",
+      "tmdb_id": 6114,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Dracula+%281992%29+1992",
       "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-06T07:39:55+00:00"
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-08-25T05:29:07+00:00"
     },
     {
       "film_id": "dvacet let met v kinech oslava vyroci opera",
@@ -1806,40 +1776,6 @@
       "resolved_at": "2026-08-22T05:24:24+00:00"
     },
     {
-      "film_id": "eos mlady picasso",
-      "title_cz": "EOS: Mladý Picasso",
-      "title_en": "Young Picasso",
-      "original_title": "Young Picasso",
-      "year": 2019,
-      "synopsis": "Pablo Picasso je jedním z největších umělců všech dob. Mnoho filmů se zaměřuje na jeho pozdější roky – jeho umění, milostný život i široký okruh jeho přátel. Jak to ale celé začalo? Jaké důvody vedly k Picassově vzestupu? Klíčovou roli hrála tři města – Málaga, Barcelona a Paříž. Film všechny postupně navštíví a prozkoumá jejich vliv na Picassa a jeho raná umělecká díla. Podrobně se zaměřuje na dvě období umělcovy tvorby – modré a růžové. Film vás tak zavede až do roku 1907 k vytvoření obrazu Avignonské slečny, který představuje klíčový milník historie výtvarného umění.",
-      "synopsis_language": "cs",
-      "runtime_min": 91,
-      "genres": [
-        "Dokumentární"
-      ],
-      "director": [
-        "Phil Grabsky"
-      ],
-      "screenwriter": [],
-      "cast": [
-        "Pablo Picasso"
-      ],
-      "production_company": [
-        "Seventh Art Productions"
-      ],
-      "poster_path": "/2Nozut0uGh0RuzINM1sKNbs0AYf.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/xDRWeSbrLOoHIkHqfOtKdmuXVb3.jpg",
-      "trailer_youtube_key": "L3LW-dZhpCg",
-      "age_rating": "NR (US)",
-      "tmdb_id": 527089,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=EOS%3A+Mlad%C3%BD+Picasso+2019",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-18T05:25:43+00:00"
-    },
-    {
       "film_id": "film za stovku",
       "title_cz": "FILM ZA STOVKU | Milost",
       "title_en": "",
@@ -1862,6 +1798,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=FILM+ZA+STOVKU+%7C+Milost",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'FILM ZA STOVKU'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "filmovy kviz",
+      "title_cz": "Filmový kvíz",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Filmov%C3%BD+kv%C3%ADz",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Filmový kvíz'",
       "match_score": 0.0
     },
     {
@@ -2393,51 +2354,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-22T05:24:27+00:00"
-    },
-    {
-      "film_id": "kde je dum meho pritele",
-      "title_cz": "Kde je dům mého přítele?",
-      "title_en": "Where Is The Friend's House?",
-      "original_title": "خانه‌ی دوست کجاست؟",
-      "year": 1987,
-      "synopsis": "Malý Ahmed omylem přinese ze školy sešit svého spolužáka, kterému učitelka pohrozila přísným trestem, pokud opět přijde do školy bez sešitu a bez domácího úkolu. Vydává se proto najít dům svého přítele, aby mu včas vrátil zápisník, ačkoli zpočátku nenachází u dospělých příliš pochopení. První film z takzvané kokerské trilogie nejvýznamnějšího íránského režiséra Abbáse Kiarostamího se odehrává ve fascinujícím prostředí tradiční vesnice Koker v severním Íránu a pomocí poezie, mystiky a symbolických motivů vypráví o humanismu a životních hodnotách obyčejných Íránců.",
-      "synopsis_language": "cs",
-      "runtime_min": 83,
-      "genres": [
-        "Drama",
-        "Dobrodružný"
-      ],
-      "director": [
-        "Abbas Kiarostami"
-      ],
-      "screenwriter": [
-        "Abbas Kiarostami"
-      ],
-      "cast": [
-        "Babek Ahmadpour",
-        "Ahmed Ahmadpour",
-        "Kheda Barech Defai",
-        "Iran Outari",
-        "Ait Ansari",
-        "Sadika Taohidi",
-        "Biman Mouafi",
-        "Ali Djamali"
-      ],
-      "production_company": [
-        "Kanoon",
-        "Farabi Cinema"
-      ],
-      "poster_path": "/avSSrkHcLc1Zl0Ne5C1YBTskKBS.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/29/47bcc072d218bd445e1fbaa80dbbde27.jpg",
-      "backdrop_path": "/ylBiGZhgBsly0frseG2PvqoYM4o.jpg",
-      "trailer_youtube_key": "run-u_2zAdA",
-      "age_rating": "",
-      "tmdb_id": 49964,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Kde+je+d%C5%AFm+m%C3%A9ho+p%C5%99%C3%ADtele%3F+1987",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-17T05:34:40+00:00"
     },
     {
       "film_id": "kdyby se holubi promenili ve zlato",
@@ -2989,6 +2905,31 @@
       "match_score": 0.526
     },
     {
+      "film_id": "kuzma ua zneni",
+      "title_cz": "Kuzma UA ZNÉNÍ",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kuzma+UA+ZN%C3%89N%C3%8D",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Kuzma UA ZNÉNÍ'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "lecive ucinky sebeklamu",
       "title_cz": "Léčivé účinky sebeklamu",
       "title_en": "Léčivé účinky sebeklamu",
@@ -3363,6 +3304,52 @@
       "match_reason": "verified against director/runtime (0.81, title 0.81)",
       "match_score": 0.815,
       "resolved_at": "2026-08-05T22:28:12+02:00"
+    },
+    {
+      "film_id": "mamma mia",
+      "title_cz": "Mamma Mia!",
+      "title_en": "Mamma Mia!",
+      "original_title": "Mamma Mia!",
+      "year": 2008,
+      "synopsis": "Mladičká Sophie žije s mírně šílenou matkou Donnou na řeckém ostrůvku Kalokairi, kde vedou lehce uvadající rodinný hotýlek. Ani s jednou není k vydržení, protože se Sophie bude záhy vdávat. Zatímco Donna si v téhle souvislosti dělá ryze praktické starosti, Sophie řeší jediný problém – kdo ji odvede k oltáři. Nalezený matčin deník totiž odhalil, že se Donna v době kriticky blízké Sophiinu početí spustila hned se třemi chlapci. Podnikavá dívka, která zdědila matčinu excentričnost, nelení a všechny tři na svatbu pozve. A oni (rozevlátý obchodník Sam, upjatý bankéř Harry a svérázný dobrodruh Bill) přijedou. Do obřadu zbývá čtyřiadvacet hodin. Během nich bude nevěsta muset najít toho pravého. A protože Donna neměla o příjezdu tří připomínek hříchů mládí ani ponětí, bude na Kalokairi veselo i bez svatby.",
+      "synopsis_language": "cs",
+      "runtime_min": 110,
+      "genres": [
+        "Komedie",
+        "Romantický"
+      ],
+      "director": [
+        "Phyllida Lloyd"
+      ],
+      "screenwriter": [
+        "Catherine Johnson"
+      ],
+      "cast": [
+        "Amanda Seyfried",
+        "Meryl Streep",
+        "Pierce Brosnan",
+        "Colin Firth",
+        "Stellan Skarsgård",
+        "Christine Baranski",
+        "Julie Walters",
+        "Dominic Cooper"
+      ],
+      "production_company": [
+        "Littlestar",
+        "Playtone",
+        "Internationale Filmproduktion Richter"
+      ],
+      "poster_path": "/s99h82xqI44Le6Qddw9K0olwEJl.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/90sDsHugeRU5dtTG3zEVIOXXl4L.jpg",
+      "trailer_youtube_key": "8RBNHdG35WY",
+      "age_rating": "15+",
+      "tmdb_id": 11631,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Mamma+Mia%21+2008",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.05, title 1.00)",
+      "match_score": 1.05,
+      "resolved_at": "2026-08-25T05:29:09+00:00"
     },
     {
       "film_id": "manon opera",
@@ -4058,58 +4045,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'NT Live: Pátý krok'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "o kuratech a lidech",
-      "title_cz": "O kuřatech a lidech",
-      "title_en": "Men & Chicken",
-      "original_title": "Mænd & høns",
-      "year": 2015,
-      "synopsis": "Gabriel a Elias se u smrtelného lože svého otce dozví, že jsou adoptovaní. Jejich biologickým otcem je Evelio Thanatos, odborník na výzkum kmenových buněk. Po příjezdu na ostrov Ork bratři zjistí, že mají další tři sourozence – velmi neortodoxní sourozence. Jako zkultivovat trio neotesaných buranů, kteří chodí spát se slepicemi a pro ránu nejdou daleko? Uznávaný mistr černých severských komedií se po desetileté režijní pauze vrací s filmem o vejcích, která padla daleko od stromu.",
-      "synopsis_language": "cs",
-      "runtime_min": 104,
-      "genres": [
-        "Komedie",
-        "Drama"
-      ],
-      "director": [
-        "Anders Thomas Jensen"
-      ],
-      "screenwriter": [
-        "Anders Thomas Jensen"
-      ],
-      "cast": [
-        "Mads Mikkelsen",
-        "David Dencik",
-        "Nikolaj Lie Kaas",
-        "Søren Malling",
-        "Nicolas Bro",
-        "Ole Thestrup",
-        "Bodil Jørgensen",
-        "Kirsten Lehfeldt"
-      ],
-      "production_company": [
-        "M&M Productions",
-        "DCM Pictures",
-        "DR",
-        "Det Danske Filminstitut",
-        "Film Fyn",
-        "Film i Väst",
-        "DCM Productions",
-        "Nadcon Film",
-        "Studio Babelsberg"
-      ],
-      "poster_path": "/v06j6D63LIk6ylb4SksN8gSQBm0.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/coAxeGkmdEXhsbSdpSsjg0i4cRn.jpg",
-      "trailer_youtube_key": "aLwuQDbw9UQ",
-      "age_rating": "",
-      "tmdb_id": 296313,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=O+ku%C5%99atech+a+lidech+2015",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-05T22:28:23+02:00"
     },
     {
       "film_id": "odplata",
@@ -5261,6 +5196,52 @@
       "match_score": 0.0
     },
     {
+      "film_id": "rodinna oslava",
+      "title_cz": "Rodinná oslava",
+      "title_en": "The Celebration",
+      "original_title": "Festen",
+      "year": 1998,
+      "synopsis": "Ve velkém osamělém domě se připravuje oslava. Helger Klingenfeldt, patriarcha rodiny, slaví 60. narozeniny. Pomalu se začínají scházet hosté. Přátelé, příbuzní a samozřejmě oslavencovi nejbližší: manželka Elsa a tři dospělí potomci – Christian, Michael a Helena. Vše je připraveno, hosté usedají ke stolu. Nikdo netuší, co bude následovat, když Christian povstane, aby se ujal slova. Brzy všichni pochopí, že na tento večer a tuto noc nikdy nezapomenou.",
+      "synopsis_language": "cs",
+      "runtime_min": 105,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Thomas Vinterberg"
+      ],
+      "screenwriter": [
+        "Thomas Vinterberg",
+        "Mogens Rukov"
+      ],
+      "cast": [
+        "Ulrich Thomsen",
+        "Henning Moritzen",
+        "Thomas Bo Larsen",
+        "Paprika Steen",
+        "Birthe Neumann",
+        "Trine Dyrholm",
+        "Helle Dolleris",
+        "Therese Glahn"
+      ],
+      "production_company": [
+        "DR",
+        "SVT",
+        "Nimbus Film"
+      ],
+      "poster_path": "/ibWzFsS6Z7cTEKJIE738URYS4Mo.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/yCtgdv7TfgZLHj6R9IQKD5TjljP.jpg",
+      "trailer_youtube_key": "XCqc_JTiNxg",
+      "age_rating": "15+",
+      "tmdb_id": 309,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Rodinn%C3%A1+oslava+1998",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-25T05:29:10+00:00"
+    },
+    {
       "film_id": "romeo a julie",
       "title_cz": "Romeo a Julie",
       "title_en": "",
@@ -5705,6 +5686,55 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-08-18T05:25:49+00:00"
+    },
+    {
+      "film_id": "soukromy zivot",
+      "title_cz": "Soukromý život",
+      "title_en": "A Private Life",
+      "original_title": "Vie privée",
+      "year": 2025,
+      "synopsis": "Lilian Steiner je uznávaná psychiatrička. Jednoho dne se dozvídá o smrti jedné ze svých pacientek. Lilian je tou zprávou zasažená. Vsugeruje si, že se jedná o vraždu, a začíná pátrat na vlastní pěst.",
+      "synopsis_language": "cs",
+      "runtime_min": 108,
+      "genres": [
+        "Mysteriózní",
+        "Krimi",
+        "Drama"
+      ],
+      "director": [
+        "Rebecca Zlotowski"
+      ],
+      "screenwriter": [
+        "Anne Berest",
+        "Gaëlle Macé"
+      ],
+      "cast": [
+        "Jodie Foster",
+        "Daniel Auteuil",
+        "Virginie Efira",
+        "Mathieu Amalric",
+        "Vincent Lacoste",
+        "Luàna Bajrami",
+        "Noam Morgensztern",
+        "Sophie Guillemin"
+      ],
+      "production_company": [
+        "Les Films Velvet",
+        "France 3 Cinéma",
+        "Auvergne-Rhône-Alpes Cinéma",
+        "Buenos Hair"
+      ],
+      "poster_path": "/7aYpPqT2AK7zJIWSQ923cUrtVi5.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/3fZ5HvkrjaS34sZERshWm9koXdF.jpg",
+      "trailer_youtube_key": "2JabG5C6IU8",
+      "age_rating": "R (US)",
+      "tmdb_id": 1290432,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Soukrom%C3%BD+%C5%BEivot+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-25T05:29:11+00:00"
     },
     {
       "film_id": "spartacus fragile campaign",
@@ -6534,6 +6564,42 @@
       "resolved_at": "2026-08-22T05:24:40+00:00"
     },
     {
+      "film_id": "toxic",
+      "title_cz": "Toxic",
+      "title_en": "Toxic",
+      "original_title": "Toxic",
+      "year": 2025,
+      "synopsis": "Ryan struggles with the loss of his sister, Julia, from her abusive relationship and remembers why he feels it's his fault.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Reid Geissler"
+      ],
+      "screenwriter": [
+        "Reid Geissler"
+      ],
+      "cast": [
+        "Davit Khublaryan",
+        "Mattaya Braun",
+        "Peter Davey"
+      ],
+      "production_company": [],
+      "poster_path": "/i9bCjlvIFqVWvuHIRNiTvZfkpfT.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/6113S2R.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1389620,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Toxic+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-25T05:29:12+00:00"
+    },
+    {
       "film_id": "toy story 5 pribeh hracek",
       "title_cz": "Toy Story 5: Příběh hraček",
       "title_en": "Toy Story 5",
@@ -7041,6 +7107,52 @@
       "match_reason": "verified against director/runtime (1.10, title 1.00)",
       "match_score": 1.1,
       "resolved_at": "2026-08-19T05:30:39+00:00"
+    },
+    {
+      "film_id": "vzpoura",
+      "title_cz": "Vzpoura",
+      "title_en": "Mutiny",
+      "original_title": "Mutiny",
+      "year": 2026,
+      "synopsis": "Cole Reed (Jason Statham) v minulosti sloužil u speciálních jednotek a později u londýnské policie. V současnosti pracuje jako soukromý bezpečnostní specialista. Když je jeho miliardářský zaměstnavatel zavražděn přímo před jeho očima a z činu se pokusí obvinit jeho, Cole je nucen dát se na útěk. Nastoupí na nákladní loď, kde rozpoutá svou osamělou misi pomsty proti skutečným pachatelům a přitom odhalí mezinárodní spiknutí.",
+      "synopsis_language": "cs",
+      "runtime_min": 95,
+      "genres": [
+        "Akční",
+        "Thriller"
+      ],
+      "director": [
+        "Jean-François Richet"
+      ],
+      "screenwriter": [
+        "Lindsay Michel",
+        "J.P. Davis"
+      ],
+      "cast": [
+        "Jason Statham",
+        "Annabelle Wallis",
+        "Roland Møller",
+        "Ramon Tikaram",
+        "Arnas Fedaravičius",
+        "Jason Wong",
+        "Adrian Lester",
+        "Chaneil Kular"
+      ],
+      "production_company": [
+        "Punch Palace Productions",
+        "MadRiver Pictures"
+      ],
+      "poster_path": "/aAnTt6KpmbbHbd6xH3FQFlppZjc.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/6699O2SX1.jpg",
+      "backdrop_path": "/qDa0fqDqIBCovRp975RvtGPcuN3.jpg",
+      "trailer_youtube_key": "2Iqvbe98Gb4",
+      "age_rating": "12+",
+      "tmdb_id": 1288445,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Vzpoura+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.05, title 1.00)",
+      "match_score": 1.05,
+      "resolved_at": "2026-08-25T05:29:13+00:00"
     },
     {
       "film_id": "wellness vikend",
