@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T05:29:13+00:00",
+  "generated_at": "2026-08-26T05:33:53+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -249,6 +249,31 @@
       "resolved_at": "2026-08-05T22:27:34+02:00"
     },
     {
+      "film_id": "aero naslepo",
+      "title_cz": "Aero naslepo",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2021/09/24/28a6125ad3f3bc6a23eb203337ad059b.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Aero+naslepo",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Aero naslepo'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "alice guy 13 kratkych filmu",
       "title_cz": "Alice Guy – 13 krátkých filmů",
       "title_en": "",
@@ -488,6 +513,31 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:27:39+02:00"
+    },
+    {
+      "film_id": "avengers endgame special edition iv",
+      "title_cz": "Avengers: Endgame Special Edition IV",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Avengers%3A+Endgame+Special+Edition+IV",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Avengers: Endgame Special Edition IV'",
+      "match_score": 0.0
     },
     {
       "film_id": "backrooms",
@@ -1173,59 +1223,6 @@
       "resolved_at": "2026-08-05T22:27:47+02:00"
     },
     {
-      "film_id": "constantine",
-      "title_cz": "Constantine",
-      "title_en": "Constantine",
-      "original_title": "Constantine",
-      "year": 2005,
-      "synopsis": "Film natočený podle komiksů Hellblazer vypráví příběh Johna Constantina, muže, který doslova prošel peklem a vrátil se z něj. Tento muž se dá dohromady se skeptickou policistkou Angelou Dodsonovou, aby společně vyřešili záhadnou sebevraždu jejího dvojčete. Jejich vyšetřování je dovede do světa démonů a andělů, který existuje těsně pod povrchem současného Los Angeles. Hlavní hrdinové se stanou zajatci série katastrofických událostí z jiného světa, díky čemuž se nevyhnutelně sblíží a pokusí se najíst vlastní klid za jakoukoli cenu…",
-      "synopsis_language": "cs",
-      "runtime_min": 120,
-      "genres": [
-        "Fantasy",
-        "Akční",
-        "Horor"
-      ],
-      "director": [
-        "Francis Lawrence"
-      ],
-      "screenwriter": [
-        "Kevin Brodbin",
-        "Frank A. Cappello"
-      ],
-      "cast": [
-        "Keanu Reeves",
-        "Rachel Weisz",
-        "Shia LaBeouf",
-        "Djimon Hounsou",
-        "Max Baker",
-        "Pruitt Taylor Vince",
-        "Gavin Rossdale",
-        "Tilda Swinton"
-      ],
-      "production_company": [
-        "Village Roadshow Pictures",
-        "Lonely Film Productions",
-        "The Donners' Company",
-        "Batfilm Productions",
-        "Weed Road Pictures",
-        "Warner Bros. Pictures",
-        "3 Arts Entertainment",
-        "DC Vertigo"
-      ],
-      "poster_path": "/vPYgvd2MwHlxTamAOjwVQp4qs1W.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2023/02/14/3e300fbdc8272190bcb9085cda8422ff.webp",
-      "backdrop_path": "/x3YFn10ehQKMRIJwIfiDAX8S9Xt.jpg",
-      "trailer_youtube_key": "819JCbGfZpg",
-      "age_rating": "12",
-      "tmdb_id": 561,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Constantine+2005",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.11, title 1.00)",
-      "match_score": 1.115,
-      "resolved_at": "2026-08-18T05:25:43+00:00"
-    },
-    {
       "film_id": "cosi fan tutte opera",
       "title_cz": "Cosi fan tutte (Opera)",
       "title_en": "Così Fan Tutte - Opéra de Lausanne",
@@ -1669,6 +1666,53 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-08-25T05:29:07+00:00"
+    },
+    {
+      "film_id": "drama",
+      "title_cz": "Drama",
+      "title_en": "The Drama",
+      "original_title": "The Drama",
+      "year": 2026,
+      "synopsis": "Vztah snoubenců projde týden před svatbou nečekanou zkouškou. Zdánlivě dokonalý pár je tak vystaven nečekanému dramatu a krizi.",
+      "synopsis_language": "cs",
+      "runtime_min": 105,
+      "genres": [
+        "Romantický",
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "Kristoffer Borgli"
+      ],
+      "screenwriter": [
+        "Kristoffer Borgli"
+      ],
+      "cast": [
+        "Zendaya",
+        "Robert Pattinson",
+        "Alana Haim",
+        "Mamoudou Athie",
+        "Hailey Benton Gates",
+        "Sydney Lemmon",
+        "Hannah Gross",
+        "Anna Baryshnikov"
+      ],
+      "production_company": [
+        "A24",
+        "Square Peg",
+        "Dilemma Films"
+      ],
+      "poster_path": "/pjztX7PQZMh0CxsSKaptAWfAY5n.jpg",
+      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/02/25/ec4f669accee7800f4c217ba7a40e42c.jpg",
+      "backdrop_path": "/1oKLEA9JOhvaBwLpqjROisvWMy7.jpg",
+      "trailer_youtube_key": "0ZDzsH3XGFA",
+      "age_rating": "15+",
+      "tmdb_id": 1325734,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Drama+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-08-26T05:33:51+00:00"
     },
     {
       "film_id": "dvacet let met v kinech oslava vyroci opera",
@@ -2561,52 +2605,6 @@
       "resolved_at": "2026-08-22T05:24:28+00:00"
     },
     {
-      "film_id": "krajina strelcu",
-      "title_cz": "Krajina střelců",
-      "title_en": "Open Range",
-      "original_title": "Open Range",
-      "year": 2003,
-      "synopsis": "Příběh dvou postarších honáků Šéfa Spearmana a Charleyho Waitea, kteří jsou okolnostmi donuceni vzít právo do svých rukou a podstoupit zdánlivě beznadějný souboj se zlovůlí, zkorumpovanou mocí a nakonec i se sebou samými. Jeho hrdinové si zakládají na nezávislosti a volnosti, ovšem ve chvíli, kdy mocný rančer Baxter a uplacený šerif Poole svévolně ohrozí jejich majetek a životy, musejí se bránit.",
-      "synopsis_language": "cs",
-      "runtime_min": 139,
-      "genres": [
-        "Western"
-      ],
-      "director": [
-        "Kevin Costner"
-      ],
-      "screenwriter": [
-        "Craig Storper"
-      ],
-      "cast": [
-        "Kevin Costner",
-        "Robert Duvall",
-        "Michael Gambon",
-        "Michael Jeter",
-        "Diego Luna",
-        "James Russo",
-        "Abraham Benrubi",
-        "Kim Coates"
-      ],
-      "production_company": [
-        "Cobalt Media Group",
-        "Touchstone Pictures",
-        "Beacon Pictures",
-        "Tig Productions"
-      ],
-      "poster_path": "/1mrNc88NrUEGtMtat4FD7sfpFrW.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/e65E7jH5bKMSgHJnWLw4ex02Dyu.jpg",
-      "trailer_youtube_key": "Rd1tXbsOGxs",
-      "age_rating": "R (US)",
-      "tmdb_id": 2055,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Krajina+st%C5%99elc%C5%AF+2003",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-18T05:25:45+00:00"
-    },
-    {
       "film_id": "kralovska opera carmen 2026 27",
       "title_cz": "Královská opera: CARMEN (2026/27)",
       "title_en": "",
@@ -2835,49 +2833,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-22T05:24:28+00:00"
-    },
-    {
-      "film_id": "kratke leto",
-      "title_cz": "Krátké léto",
-      "title_en": "Short Summer",
-      "original_title": "Short Summer",
-      "year": 2025,
-      "synopsis": "Osmiletá Katya tráví léto u prarodičů na venkově. Čas se zastavil, dospělí mlčí a v pozadí válka ničí životy. Mezitím děti dospívají a mraky plují po obloze.",
-      "synopsis_language": "cs",
-      "runtime_min": 101,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Nastia Korkia"
-      ],
-      "screenwriter": [
-        "Nastia Korkia",
-        "Mikhail Bushkov"
-      ],
-      "cast": [
-        "Maiia Pleshkevich",
-        "Yakov Karykhalin",
-        "Aleksandr Karpushin",
-        "Vesna Jovanović",
-        "Aleksandr Feklistov"
-      ],
-      "production_company": [
-        "Tamtam Film",
-        "Totem Atelier",
-        "Art & Popcorn"
-      ],
-      "poster_path": "/8koHNQPJmwgd53S3heLOufS9YUM.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/wNbRug9SLvK5cvFJ2a4JjqgxDYH.jpg",
-      "trailer_youtube_key": "2yqXG3OcpNQ",
-      "age_rating": "",
-      "tmdb_id": 1394398,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1tk%C3%A9+l%C3%A9to+2025",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:09+02:00"
     },
     {
       "film_id": "kuzma",
@@ -3429,52 +3384,6 @@
       "resolved_at": "2026-08-22T05:24:30+00:00"
     },
     {
-      "film_id": "milost",
-      "title_cz": "Milost",
-      "title_en": "La Grazia",
-      "original_title": "La grazia",
-      "year": 2025,
-      "synopsis": "Italského prezidenta (Toni Servillo) čekají před odchodem z úřadu poslední těžká rozhodnutí. Na stole má dvě žádosti o milost za vraždy z lásky a jeden kontroverzní zákon. Aby přestal váhat nad správným řešením, musí se nejdřív smířit s nedávným odchodem milované ženy i podezřením, že mu byla nevěrná. Odpověď na tajemství, které mu nedá spát, ale zná jen jeden člověk. Originální drama o lásce, pochybách a odpovědnosti představuje oscarového režiséra Paola Sorrentina (Velká nádhera, Mládí) ve zcela novém světle a životní formě. (Aerofilms)",
-      "synopsis_language": "cs",
-      "runtime_min": 131,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Paolo Sorrentino"
-      ],
-      "screenwriter": [
-        "Paolo Sorrentino"
-      ],
-      "cast": [
-        "Toni Servillo",
-        "Anna Ferzetti",
-        "Massimo Venturiello",
-        "Milvia Marigliano",
-        "Orlando Cinque",
-        "Giuseppe Gaiani",
-        "Giovanna Guida",
-        "Alessia Giuliani"
-      ],
-      "production_company": [
-        "The Apartment Pictures",
-        "Numero10",
-        "Fremantle Italia",
-        "PiperFilm"
-      ],
-      "poster_path": "/g8x2zmPvlmYobahJRb7enPDa1ZU.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/baIjN7xPyw2In1CuHACTgzcsF20.jpg",
-      "trailer_youtube_key": "zvQn44a_IHo",
-      "age_rating": "R (US)",
-      "tmdb_id": 1397364,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Milost+2025",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-15T05:23:59+00:00"
-    },
-    {
       "film_id": "mimoni a monstra",
       "title_cz": "Mimoni a monstra",
       "title_en": "Minions & Monsters",
@@ -3522,53 +3431,6 @@
       "match_reason": "verified against director/runtime (1.11, title 1.00)",
       "match_score": 1.115,
       "resolved_at": "2026-08-05T22:28:15+02:00"
-    },
-    {
-      "film_id": "mistr a marketka",
-      "title_cz": "Mistr a Markétka",
-      "title_en": "The Master and Margarita",
-      "original_title": "Мастер и Маргарита",
-      "year": 2024,
-      "synopsis": "Cenzurovaná kniha. Provokativní film. Nesmazatelný příběh. Adaptace nejslavnějšího díla Michaila Bulgakova se stala symbolem kulturního odporu proti cenzuře a autoritářství – a právě proto byla v dnešním Rusku terčem útoků režimu. V Moskvě 30. let je dramatik vyhnán ze Svazu spisovatelů a ocitá se na okraji společnosti. Pod vlivem své múzy Markétky začíná psát nový román – satirický příběh, v němž se všichni jeho pronásledovatelé zrcadlí jako groteskní postavy. Do Moskvy přichází tajemný cizinec Woland, zosobnění temné síly, který obrací město naruby a trestá ty, kdo stáli za pádem autora. Adaptace nejslavnějšího díla Michaila Bulgakova se stala symbolem kulturního odporu proti cenzuře a autoritářství – a právě proto byla v dnešním Rusku terčem útoků režimu.",
-      "synopsis_language": "cs",
-      "runtime_min": 152,
-      "genres": [
-        "Fantasy",
-        "Drama"
-      ],
-      "director": [
-        "Michael Lockshin"
-      ],
-      "screenwriter": [
-        "Roman Kantor"
-      ],
-      "cast": [
-        "August Diehl",
-        "Yuliya Snigir",
-        "Evgeny Tsyganov",
-        "Claes Bang",
-        "Yuri Kolokolnikov",
-        "Aleksey Guskov",
-        "Aleksey Rozin",
-        "Aleksandr Yatsenko"
-      ],
-      "production_company": [
-        "Mars Media Entertainment",
-        "AMedia",
-        "Profit",
-        "Kinoprime Foundation"
-      ],
-      "poster_path": "/9ZubjDI5Z3om36eCI20OAUbaamn.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/els3qltvcOnflTlU48iyfMPIctU.jpg",
-      "trailer_youtube_key": "4ms2zEv1xH4",
-      "age_rating": "",
-      "tmdb_id": 586353,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Mistr+a+Mark%C3%A9tka+2024",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.11, title 1.00)",
-      "match_score": 1.115,
-      "resolved_at": "2026-08-16T05:25:27+00:00"
     },
     {
       "film_id": "mistryne",
@@ -4213,54 +4075,6 @@
       "resolved": false,
       "match_reason": "no candidate scored above 0.75",
       "match_score": 0.353
-    },
-    {
-      "film_id": "orwell 2 2 5",
-      "title_cz": "Orwell: 2 + 2 = 5",
-      "title_en": "Orwell: 2+2=5",
-      "original_title": "Orwell: 2+2=5",
-      "year": 2025,
-      "synopsis": "1949. George Orwell dokončuje svůj poslední, ale nejdůležitější román 1984. Film ORWELL: 2+2=5 se noří hluboko do Orwellových posledních měsíců a vizionářského díla, aby prozkoumal kořeny zásadních a znepokojivých konceptů, které tento autor odhalil světu v jeho dystopické mistrovské práci... Dvojsmysl, Myšlenkový zločin, Newspeak, všudypřítomný přízrak Velkého bratra... znepokojivé socio-politické pravdy, které dnes rezonují ještě silněji.",
-      "synopsis_language": "cs",
-      "runtime_min": 119,
-      "genres": [
-        "Dokumentární"
-      ],
-      "director": [
-        "Raoul Peck"
-      ],
-      "screenwriter": [
-        "Raoul Peck"
-      ],
-      "cast": [
-        "Damian Lewis",
-        "George Orwell",
-        "George W. Bush",
-        "Viktor Orbán",
-        "Colin Powell",
-        "Joseph Stalin",
-        "Malcolm X",
-        "Ernest Hemingway"
-      ],
-      "production_company": [
-        "Anonymous Content",
-        "Closer Media",
-        "Jigsaw Productions",
-        "Velvet Film",
-        "Universal Pictures Content Group",
-        "The Estate of the Late Sonia Brownell Orwell"
-      ],
-      "poster_path": "/qG1LjcK8ohi4mSJ9j8KHUs5svbe.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/iVqXcSZs4ye2HTROwUYQgy3Dx7c.jpg",
-      "trailer_youtube_key": "HUvq6a_DIV0",
-      "age_rating": "R (US)",
-      "tmdb_id": 1098534,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Orwell%3A+2+%2B+2+%3D+5+2025",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-18T05:25:47+00:00"
     },
     {
       "film_id": "osamely vlk",
@@ -5084,6 +4898,52 @@
       "resolved_at": "2026-08-05T22:28:35+02:00"
     },
     {
+      "film_id": "protivny sprosty holky 2004",
+      "title_cz": "Protivný sprostý holky (2004)",
+      "title_en": "Mean Girls",
+      "original_title": "Mean Girls",
+      "year": 2004,
+      "synopsis": "Cady Heron (Lindsay Lohan) žila se svými rodiči po patnáct let v Africe a nyní se vrací do Ameriky a nastupuje do školy, kde se seznamuje s Damianem (Daniel Franzese) a Janis (Lizzy Caplan). Brzy se také setkává se třemi nejoblíbenějšími holkami na škole - Reginou (Rachel McAdams), Gretchen (Lacey Chabert) a Karen (Amanda Seyfried) - které Cady zasvětí do jejich stylu života. Poté co Cady začne chodit s Aaronem (Jonathan Bennett), nastává problém, Aaron je totiž bývalý přítel Reginy. Té se to samozřejmě nelíbí a rozhodne se s Aaronem znovu začít chodit. Cady se svými přáteli Janis a Daminem vymýšlí ďábelský plán, jak se pomstít.",
+      "synopsis_language": "cs",
+      "runtime_min": 97,
+      "genres": [
+        "Drama",
+        "Komedie"
+      ],
+      "director": [
+        "Mark Waters"
+      ],
+      "screenwriter": [
+        "Tina Fey"
+      ],
+      "cast": [
+        "Lindsay Lohan",
+        "Rachel McAdams",
+        "Lizzy Caplan",
+        "Lacey Chabert",
+        "Amanda Seyfried",
+        "Daniel Franzese",
+        "Jonathan Bennett",
+        "Rajiv Surendra"
+      ],
+      "production_company": [
+        "Broadway Video",
+        "Paramount Pictures",
+        "M.G. Films"
+      ],
+      "poster_path": "/ERmfAjmEE71x3GPnvwAARdOiWw.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2023/05/22/97b0d721117bc3f3858338e5920e86cd.jpg",
+      "backdrop_path": "/nP3y0TkR6XniFs9J53qQkg4Bnnk.jpg",
+      "trailer_youtube_key": "EMzEmGfTuM4",
+      "age_rating": "PG-13 (US)",
+      "tmdb_id": 10625,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Protivn%C3%BD+sprost%C3%BD+holky+%282004%29+2004",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.11, title 1.00)",
+      "match_score": 1.115,
+      "resolved_at": "2026-08-26T05:33:52+00:00"
+    },
+    {
       "film_id": "queen v budapesti",
       "title_cz": "Queen v Budapešti",
       "title_en": "Queen: Hungarian Rhapsody - Live in Budapest '86",
@@ -5523,52 +5383,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-22T05:24:35+00:00"
-    },
-    {
-      "film_id": "septej",
-      "title_cz": "Šeptej",
-      "title_en": "Whisper",
-      "original_title": "Šeptej",
-      "year": 1996,
-      "synopsis": "Hrdinkou je šestnáctiletá dívka z malého městečka, která uteče z domova, aby poznala svět. Prožije několik neobyčejných dnů ve víru velkoměsta, které jí přinesou okouzlení i poznání složitosti citových vztahů.",
-      "synopsis_language": "cs",
-      "runtime_min": 82,
-      "genres": [
-        "Drama",
-        "Romantický"
-      ],
-      "director": [
-        "David Ondříček"
-      ],
-      "screenwriter": [
-        "David Ondříček",
-        "Tomáš Mašín",
-        "Jan Novák"
-      ],
-      "cast": [
-        "Tatiana Dyková",
-        "Jan P. Muchow",
-        "Jan Čechtický",
-        "Martin Myšička",
-        "Kateřina Winterová",
-        "Petra Špalková",
-        "Zdeněk David",
-        "Antonín Brtoun"
-      ],
-      "production_company": [
-        "Negativ"
-      ],
-      "poster_path": "/2MaGscB8USAoBc5fG8NDBMOWoEy.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/06/24/a64130b817c881239388fdba52331ed5.jpg",
-      "backdrop_path": "/w9YbJeA9mvE25Gj1D08vdR9JEah.jpg",
-      "trailer_youtube_key": "N8KugJKWmWw",
-      "age_rating": "12+",
-      "tmdb_id": 256675,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%A0eptej+1996",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-13T06:14:44+00:00"
     },
     {
       "film_id": "sex a smrt v kempu miasma",
@@ -6940,50 +6754,6 @@
       "resolved_at": "2026-08-05T22:29:03+02:00"
     },
     {
-      "film_id": "vikend na chate",
-      "title_cz": "Víkend na chatě",
-      "title_en": "Games People Play",
-      "original_title": "Seurapeli",
-      "year": 2020,
-      "synopsis": "Roky nevázaného mládí vystřídaly nažehlené konvence střední třídy a blížící se polokulaté narozeniny společné kamarádky Mitzi tak snadno zavdají příčinu k návštěvě chaty, kde kdysi všichni pařili jako náctiletí.",
-      "synopsis_language": "cs",
-      "runtime_min": 105,
-      "genres": [
-        "Drama",
-        "Komedie"
-      ],
-      "director": [
-        "Jenni Toivoniemi"
-      ],
-      "screenwriter": [
-        "Jenni Toivoniemi"
-      ],
-      "cast": [
-        "Eero Milonoff",
-        "Emmi Parviainen",
-        "Laura Birn",
-        "Christian Hillborg",
-        "Iida-Maria Heinonen",
-        "Paavo Kinnunen",
-        "Paula Vesala",
-        "Samuli Niittymäki"
-      ],
-      "production_company": [
-        "Tuffi Films"
-      ],
-      "poster_path": "/5lYz3Two9BQHPdyGKJhw1diXWP7.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/spzAUftam5GtqcjoW9VeX3ybYZ7.jpg",
-      "trailer_youtube_key": "TFEWSCsFhBc",
-      "age_rating": "",
-      "tmdb_id": 657430,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=V%C3%ADkend+na+chat%C4%9B+2020",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-15T05:24:01+00:00"
-    },
-    {
       "film_id": "vlny",
       "title_cz": "Vlny",
       "title_en": "Waves",
@@ -7177,6 +6947,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Wellness+v%C3%ADkend",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Wellness víkend'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "zahajeni lanzmannovskych dni v praze",
+      "title_cz": "Zahájení Lanzmannovských dní v Praze",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Zah%C3%A1jen%C3%AD+Lanzmannovsk%C3%BDch+dn%C3%AD+v+Praze",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Zahájení Lanzmannovských dní v Praze'",
       "match_score": 0.0
     },
     {
