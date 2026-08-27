@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T05:33:54+00:00",
+  "generated_at": "2026-08-27T16:06:04+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -143,6 +143,54 @@
       "match_score": 1.0,
       "resolved_at": "2026-08-21T05:29:37+00:00",
       "release_date": "2026-08-27"
+    },
+    {
+      "film_id": "toxicky",
+      "title_cz": "Toxický",
+      "title_en": "Toxic: A Fairy Tale for Grown-ups",
+      "original_title": "ಟಾಕ್ಸಿಕ್",
+      "year": 2026,
+      "synopsis": "A powerful drug cartel pulls the strings behind a facade of sun-soaked beaches as a gritty, violent underworld power struggle emerges during the crumbling of Portuguese colonial rule.Isko Bunk Karke School jaao",
+      "synopsis_language": "en",
+      "runtime_min": 195,
+      "genres": [
+        "Akční",
+        "Krimi",
+        "Drama"
+      ],
+      "director": [
+        "Geethu Mohandas"
+      ],
+      "screenwriter": [
+        "Geethu Mohandas",
+        "Yash"
+      ],
+      "cast": [
+        "Yash",
+        "Nayanthara",
+        "Kiara Advani",
+        "Rukmini Vasanth",
+        "Huma Qureshi",
+        "Tara Sutaria",
+        "Sudev Nair",
+        "Akshay Oberoi"
+      ],
+      "production_company": [
+        "KVN Productions",
+        "Monster Mind Creations"
+      ],
+      "poster_path": "/uPDutjavZO22SbIngBezk173vSb.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/tBRSSfgqOAq7YlG8udcoJIBm2FG.jpg",
+      "trailer_youtube_key": "EfluEyQ5QIA",
+      "age_rating": "18+",
+      "tmdb_id": 1213243,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Toxick%C3%BD+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-27T16:06:04+00:00",
+      "release_date": "2026-08-28"
     },
     {
       "film_id": "33 kroku",
