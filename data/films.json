@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T16:06:02+00:00",
+  "generated_at": "2026-08-28T17:11:03+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -515,6 +515,57 @@
       "resolved_at": "2026-08-05T22:27:39+02:00"
     },
     {
+      "film_id": "auta",
+      "title_cz": "Auta",
+      "title_en": "Cars",
+      "original_title": "Cars",
+      "year": 2006,
+      "synopsis": "Když se začínající, avšak velmi ambiciózní závodní auto Blesk McQueen během cesty na velkolepý šampionát Zlatý píst neočekávaně zatoulá do ospalé Kardanové lhoty u Silnice 66, naučí se, že opravdová radost ze života se neskrývá za cílovou rovinkou, ale na cestě k ní. Auta ze lhoty, s nimiž se v průběhu svého putování napříč Amerikou seznámí, mu ukáží, že na světě existují i důležitější věci než trofeje, sláva a sponzoři.",
+      "synopsis_language": "cs",
+      "runtime_min": 116,
+      "genres": [
+        "Animovaný",
+        "Dobrodružný",
+        "Komedie",
+        "Rodinný"
+      ],
+      "director": [
+        "John Lasseter"
+      ],
+      "screenwriter": [
+        "John Lasseter",
+        "Jørgen Klubien",
+        "Dan Fogelman",
+        "Phil Lorin",
+        "Kiel Murray",
+        "Joe Ranft"
+      ],
+      "cast": [
+        "Owen Wilson",
+        "Paul Newman",
+        "Bonnie Hunt",
+        "Larry the Cable Guy",
+        "Cheech Marin",
+        "Tony Shalhoub",
+        "Guido Quaroni",
+        "Jenifer Lewis"
+      ],
+      "production_company": [
+        "Pixar"
+      ],
+      "poster_path": "/i9RThm8vdRPdjjjZaPgA6KVNCE6.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/26/2aa67ed88d2a741d53c39d09fe572688.jpg",
+      "backdrop_path": "/sOLgkBKf1gjMRc4yXxM5aciXdfr.jpg",
+      "trailer_youtube_key": "FE3fkXpvrz4",
+      "age_rating": "15+",
+      "tmdb_id": 920,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Auta+2006",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-08-28T17:11:01+00:00"
+    },
+    {
       "film_id": "avengers endgame special edition iv",
       "title_cz": "Avengers: Endgame Special Edition IV",
       "title_en": "",
@@ -803,54 +854,6 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:27:43+02:00"
-    },
-    {
-      "film_id": "blade runner the final cut",
-      "title_cz": "Blade Runner: The Final Cut",
-      "title_en": "Blade Runner",
-      "original_title": "Blade Runner",
-      "year": 1982,
-      "synopsis": "Příběh se odehrává v blízké budoucnosti, kdy věda pokročila a společnost začala vyrábět replikanty, kteří jsou od lidí k nerozeznání. Těm je však po krvavé vzpouře v jedné mimozemské kolonii zakázán vstup na Zemi pod trestem smrti...",
-      "synopsis_language": "cs",
-      "runtime_min": 117,
-      "genres": [
-        "Vědeckofantastický",
-        "Drama",
-        "Thriller"
-      ],
-      "director": [
-        "Ridley Scott"
-      ],
-      "screenwriter": [
-        "David Webb Peoples",
-        "Hampton Fancher"
-      ],
-      "cast": [
-        "Harrison Ford",
-        "Rutger Hauer",
-        "Sean Young",
-        "Edward James Olmos",
-        "M. Emmet Walsh",
-        "Daryl Hannah",
-        "William Sanderson",
-        "Brion James"
-      ],
-      "production_company": [
-        "Shaw Brothers",
-        "The Ladd Company",
-        "Warner Bros. Pictures"
-      ],
-      "poster_path": "/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2025/10/14/2d529f12de4f06042de24de55f1e5116.jpg",
-      "backdrop_path": "/hJ5R9d6QuH3tzr8L8neZZTuzNXm.jpg",
-      "trailer_youtube_key": "qoEyZoOTtss",
-      "age_rating": "18+",
-      "tmdb_id": 78,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Blade+Runner%3A+The+Final+Cut+1982",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (0.78, title 0.63)",
-      "match_score": 0.782,
-      "resolved_at": "2026-08-20T05:29:32+00:00"
     },
     {
       "film_id": "blue lock",
@@ -5388,31 +5391,6 @@
       "resolved_at": "2026-08-06T07:39:56+00:00"
     },
     {
-      "film_id": "ridley scott double feature",
-      "title_cz": "Ridley Scott double feature",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2021/09/29/239752404fac8104e78d53c33617e115.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Ridley+Scott+double+feature",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Ridley Scott double feature'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "rodinna oslava",
       "title_cz": "Rodinná oslava",
       "title_en": "The Celebration",
@@ -5807,6 +5785,56 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-27T16:05:57+00:00"
+    },
+    {
+      "film_id": "sirat",
+      "title_cz": "Sirat",
+      "title_en": "Sirāt",
+      "original_title": "Sirāt",
+      "year": 2025,
+      "synopsis": "Luis přijíždí na divokou party uprostřed marockých hor, aby se svým malým synem hledal zmizelou dceru Mar. V obklopení hypnotických beatů a zvláštní, syrové svobody vyráží se skupinou techno nomádů pátrat na poslední akci kdesi hluboko v poušti. Karavana předělaných náklaďáků naložených soundsystémy, naftou a drogami se prodírá rozpáleným pískem. Putování se rychle mění v šílenou halucinační jízdu, z níž není snadného úniku.",
+      "synopsis_language": "cs",
+      "runtime_min": 115,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "director": [
+        "Oliver Laxe"
+      ],
+      "screenwriter": [
+        "Oliver Laxe",
+        "Santiago Fillol"
+      ],
+      "cast": [
+        "Sergi López",
+        "Bruno Núñez",
+        "Stefania Gadda",
+        "Joshua Liam Henderson",
+        "Richard Bellamy",
+        "Tonin Janvier",
+        "Jade Oukid",
+        "Ahmed Abbou"
+      ],
+      "production_company": [
+        "Movistar Plus+",
+        "Los Desertores Films",
+        "Filmes da Ermida",
+        "El Deseo",
+        "Uri Films",
+        "4 A 4 Productions"
+      ],
+      "poster_path": "/x1Z9TFFSHud4XMN6PYmsaloKs3z.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/kOUV5WbisWMg56d8eB45ZHEVxYq.jpg",
+      "trailer_youtube_key": "3_9OkHX8ZiA",
+      "age_rating": "12+",
+      "tmdb_id": 1151272,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Sirat+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-08-28T17:11:02+00:00"
     },
     {
       "film_id": "siryakari live tour 2026",
@@ -6439,6 +6467,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Termin%C3%A1tor+double+feature",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Terminátor double feature'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "testovani cinemini pro deti se sluchovym postizenim",
+      "title_cz": "Testování Cinemini pro děti se sluchovým postižením",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Testov%C3%A1n%C3%AD+Cinemini+pro+d%C4%9Bti+se+sluchov%C3%BDm+posti%C5%BEen%C3%ADm",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Testování Cinemini pro děti se sluchovým postižením'",
       "match_score": 0.0
     },
     {
@@ -7466,6 +7519,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Wellness+v%C3%ADkend",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Wellness víkend'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "workshop jazyk filmu uvod do anatomie filmove reci",
+      "title_cz": "Workshop Jazyk filmu: Úvod do anatomie filmové řeči",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Workshop+Jazyk+filmu%3A+%C3%9Avod+do+anatomie+filmov%C3%A9+%C5%99e%C4%8Di",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Workshop Jazyk filmu: Úvod do anatomie filmové řeči'",
       "match_score": 0.0
     },
     {
