@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T17:11:03+00:00",
+  "generated_at": "2026-08-29T11:28:45+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -363,46 +363,47 @@
       "resolved_at": "2026-08-05T22:27:35+02:00"
     },
     {
-      "film_id": "andelske vejce",
-      "title_cz": "Andělské vejce",
-      "title_en": "Angel's Egg",
-      "original_title": "天使のたまご",
-      "year": 1985,
-      "synopsis": "V zatopeném městě se mladá dívka stará o velké vejce, které pečlivě drží v náručí. Věří, že je to vejce anděla. Z podivného vozu vystupuje chlapec s obrovskou zbraní. Hledá ptáka, kterého viděl ve snu. Zdá se, že v opuštěném městě mezi sebou tyto dvě postavy navazují křehké pouto, ale jedné noci chlapec dívčino vejce rozbije.",
+      "film_id": "americky sen",
+      "title_cz": "Americký sen",
+      "title_en": "Sueno",
+      "original_title": "Sueño",
+      "year": 2005,
+      "synopsis": "Antonio (John Leguizamo - Moulin Rouge) má celý život jediný sen chce se stát slavným muzikantem. A tak jednoho dne utíká z prašného mexického příhraničního města a naskakuje do autobusu směr Los Angeles. Tady se mu převrací život naruby ve chvíli, kdy propadá kouzlu krásné a ctižádostivé doktorky Niny (Ana Claudia Talancón - Zločin pátera Amara). Jeho láska k Nině je stále větší, stejně jako obdiv k sousedce Mirabelle (Elizabeth Peña), rozvedené matce dvou dětí a nadané bývalé zpěvačce. Po dlouhém naléhání Antonio Mirabellu přemlouvá, aby se stala členkou jeho kapely a zapojila se do přípravy na soutěž talentů, která jim všem může navždy změnit život. Užijte si kouzelný příběh o nekonečné síle lásky, naděje a snů.",
       "synopsis_language": "cs",
-      "runtime_min": 71,
+      "runtime_min": 104,
       "genres": [
-        "Animovaný",
-        "Fantasy",
-        "Mysteriózní",
-        "Vědeckofantastický"
+        "Drama",
+        "Komedie",
+        "Romantický"
       ],
       "director": [
-        "Mamoru Oshii"
+        "Renée Chabria"
       ],
       "screenwriter": [
-        "Mamoru Oshii"
+        "Renée Chabria"
       ],
       "cast": [
-        "Keiichi Noda",
-        "Mako Hyodo",
-        "Jinpachi Nezu"
+        "John Leguizamo",
+        "Ana Claudia Talancón",
+        "Elizabeth Peña",
+        "Nestor Serrano",
+        "José María Yázpik",
+        "Jsu Garcia",
+        "Rafael Simón",
+        "Rick Simone"
       ],
-      "production_company": [
-        "Tokuma Shoten",
-        "Studio Deen"
-      ],
-      "poster_path": "/dqi68LqT8z4lduMg0xR2TZHkRId.jpg",
+      "production_company": [],
+      "poster_path": "/huJxYV08PB3uxrBNbhE2e5msT4f.jpg",
       "poster_fallback_url": "",
-      "backdrop_path": "/nZn384qWYugXu6U1N8Ya0Iv0NXE.jpg",
-      "trailer_youtube_key": "SqyVGzaQFpQ",
-      "age_rating": "NR (US)",
-      "tmdb_id": 15916,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=And%C4%9Blsk%C3%A9+vejce+1985",
+      "backdrop_path": "/kOZWjotmignexEk0JGuehKzE7gI.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "PG-13 (US)",
+      "tmdb_id": 127711,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Americk%C3%BD+sen+2005",
       "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-05T22:27:38+02:00"
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-29T11:28:44+00:00"
     },
     {
       "film_id": "andre rieu letni koncert 2026 viva maastricht",
@@ -3326,60 +3327,6 @@
       "match_score": 0.389
     },
     {
-      "film_id": "mala amelie",
-      "title_cz": "Malá Amélie",
-      "title_en": "Little Amélie or the Character of Rain",
-      "original_title": "Amélie et la métaphysique des tubes",
-      "year": 2025,
-      "synopsis": "Amélie je tříletá holčička, která je pevně přesvědčena o své všemocnosti. Touha porozumět záhadě vlastní existence se doopravdy probudí v momentě, kdy poprvé ochutná kousek čokolády. Začíná tak neobyčejně okouzlující cesta do dětské duše. Skrze silné pouto se svou chůvou Amélie odhaluje, kým je a jaké má místo ve světě, který nakonec nedokáže ohýbat podle svých rozmarů. Malá Amélie upoutá dechberoucí animací a světem bezbřehé fantazie, který je dětem vlastní a dospělé nabádá vidět svět dětskýma očima. Film měl premiéru na festivalu v Cannes, získal ocenění na filmovém festivalu animovaného filmu v Annecy a byl nominovaný na Oscara, Zlatý glóbus a Césary.",
-      "synopsis_language": "cs",
-      "runtime_min": 77,
-      "genres": [
-        "Animovaný",
-        "Drama",
-        "Rodinný"
-      ],
-      "director": [
-        "Maïlys Vallade",
-        "Liane-cho Han"
-      ],
-      "screenwriter": [
-        "Aude Py",
-        "Eddine Noel",
-        "Liane-cho Han",
-        "Maïlys Vallade"
-      ],
-      "cast": [
-        "Loïse Charpentier",
-        "Victoria Grobois",
-        "Yumi Fujimori",
-        "Cathy Cerda",
-        "Marc Arnaud",
-        "Laëtitia Coryn",
-        "Haylee Issembourg",
-        "Isaac Schoumsky"
-      ],
-      "production_company": [
-        "Maybe Movies",
-        "2 Minutes",
-        "France 3 Cinéma",
-        "Puffin Pictures",
-        "22D Music",
-        "Ikki Films"
-      ],
-      "poster_path": "/As1MI46u7yWuBhZ5AI41GdB867G.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/2WCpiFmRqXyu5y7WoZjEa3CJbiI.jpg",
-      "trailer_youtube_key": "VRDBXP9QQwg",
-      "age_rating": "PG (US)",
-      "tmdb_id": 682012,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Mal%C3%A1+Am%C3%A9lie+2025",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-05T22:28:11+02:00"
-    },
-    {
       "film_id": "mala sestra",
       "title_cz": "Malá sestra",
       "title_en": "Our Little Sister",
@@ -3426,52 +3373,6 @@
       "match_reason": "verified against director/runtime (0.81, title 0.81)",
       "match_score": 0.815,
       "resolved_at": "2026-08-05T22:28:12+02:00"
-    },
-    {
-      "film_id": "mamma mia",
-      "title_cz": "Mamma Mia!",
-      "title_en": "Mamma Mia!",
-      "original_title": "Mamma Mia!",
-      "year": 2008,
-      "synopsis": "Mladičká Sophie žije s mírně šílenou matkou Donnou na řeckém ostrůvku Kalokairi, kde vedou lehce uvadající rodinný hotýlek. Ani s jednou není k vydržení, protože se Sophie bude záhy vdávat. Zatímco Donna si v téhle souvislosti dělá ryze praktické starosti, Sophie řeší jediný problém – kdo ji odvede k oltáři. Nalezený matčin deník totiž odhalil, že se Donna v době kriticky blízké Sophiinu početí spustila hned se třemi chlapci. Podnikavá dívka, která zdědila matčinu excentričnost, nelení a všechny tři na svatbu pozve. A oni (rozevlátý obchodník Sam, upjatý bankéř Harry a svérázný dobrodruh Bill) přijedou. Do obřadu zbývá čtyřiadvacet hodin. Během nich bude nevěsta muset najít toho pravého. A protože Donna neměla o příjezdu tří připomínek hříchů mládí ani ponětí, bude na Kalokairi veselo i bez svatby.",
-      "synopsis_language": "cs",
-      "runtime_min": 110,
-      "genres": [
-        "Komedie",
-        "Romantický"
-      ],
-      "director": [
-        "Phyllida Lloyd"
-      ],
-      "screenwriter": [
-        "Catherine Johnson"
-      ],
-      "cast": [
-        "Amanda Seyfried",
-        "Meryl Streep",
-        "Pierce Brosnan",
-        "Colin Firth",
-        "Stellan Skarsgård",
-        "Christine Baranski",
-        "Julie Walters",
-        "Dominic Cooper"
-      ],
-      "production_company": [
-        "Littlestar",
-        "Playtone",
-        "Internationale Filmproduktion Richter"
-      ],
-      "poster_path": "/s99h82xqI44Le6Qddw9K0olwEJl.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/90sDsHugeRU5dtTG3zEVIOXXl4L.jpg",
-      "trailer_youtube_key": "8RBNHdG35WY",
-      "age_rating": "15+",
-      "tmdb_id": 11631,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Mamma+Mia%21+2008",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.05, title 1.00)",
-      "match_score": 1.05,
-      "resolved_at": "2026-08-25T05:29:09+00:00"
     },
     {
       "film_id": "manon opera",
@@ -4621,6 +4522,56 @@
       "resolved": false,
       "match_reason": "title matched 'Parsifal' but runtime contradict it",
       "match_score": 0.677
+    },
+    {
+      "film_id": "pasmo pohadek",
+      "title_cz": "Pásmo pohádek",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2022/09/29/b23f0ab7adbaa82c06d3319c5a928095.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=P%C3%A1smo+poh%C3%A1dek",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Pásmo pohádek'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "pasmo pohadek s tvorivou dilnou",
+      "title_cz": "Pásmo pohádek s tvořivou dílnou",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2024/09/05/fcb1bef1fc25763ec3dccef9851df53f.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=P%C3%A1smo+poh%C3%A1dek+s+tvo%C5%99ivou+d%C3%ADlnou",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Pásmo pohádek s tvořivou dílnou'",
+      "match_score": 0.0
     },
     {
       "film_id": "pet svestek",
@@ -5860,6 +5811,52 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'SirYakari LIVE TOUR 2026'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "smrt robina hooda",
+      "title_cz": "Smrt Robina Hooda",
+      "title_en": "The Death of Robin Hood",
+      "original_title": "The Death of Robin Hood",
+      "year": 2026,
+      "synopsis": "Robin Hood, který se po životě plném zločinů a vražd potýká se svou minulostí, se ocitá těžce zraněný po bitvě, o níž si myslel, že bude jeho poslední. V rukou tajemné ženy se mu naskytne šance na spásu.",
+      "synopsis_language": "cs",
+      "runtime_min": 123,
+      "genres": [
+        "Dobrodružný",
+        "Drama",
+        "Akční"
+      ],
+      "director": [
+        "Michael Sarnoski"
+      ],
+      "screenwriter": [
+        "Michael Sarnoski"
+      ],
+      "cast": [
+        "Hugh Jackman",
+        "Jodie Comer",
+        "Bill Skarsgård",
+        "Murray Bartlett",
+        "Noah Jupe",
+        "Jade Croot",
+        "Faith Delaney",
+        "Tabitha Smyth"
+      ],
+      "production_company": [
+        "Lyrical Media",
+        "Ryder Picture Company"
+      ],
+      "poster_path": "/13MmRwmG5NmaMfU8qNrtgGXisiD.jpg",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/08/06/1761a3bf147f7bd979141661eb5d67b3.jpg",
+      "backdrop_path": "/lh3BDkmWJh998n4fQcHYcVi7dpm.jpg",
+      "trailer_youtube_key": "tlSDDuWxO_0",
+      "age_rating": "R (US)",
+      "tmdb_id": 1284465,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Smrt+Robina+Hooda+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-08-29T11:28:45+00:00"
     },
     {
       "film_id": "smrtonosna zbran",
