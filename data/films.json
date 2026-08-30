@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T11:28:45+00:00",
+  "generated_at": "2026-08-30T10:19:33+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -1275,6 +1275,59 @@
       "resolved_at": "2026-08-27T16:05:45+00:00"
     },
     {
+      "film_id": "constantine",
+      "title_cz": "Constantine",
+      "title_en": "Constantine",
+      "original_title": "Constantine",
+      "year": 2005,
+      "synopsis": "Film natočený podle komiksů Hellblazer vypráví příběh Johna Constantina, muže, který doslova prošel peklem a vrátil se z něj. Tento muž se dá dohromady se skeptickou policistkou Angelou Dodsonovou, aby společně vyřešili záhadnou sebevraždu jejího dvojčete. Jejich vyšetřování je dovede do světa démonů a andělů, který existuje těsně pod povrchem současného Los Angeles. Hlavní hrdinové se stanou zajatci série katastrofických událostí z jiného světa, díky čemuž se nevyhnutelně sblíží a pokusí se najíst vlastní klid za jakoukoli cenu…",
+      "synopsis_language": "cs",
+      "runtime_min": 120,
+      "genres": [
+        "Fantasy",
+        "Akční",
+        "Horor"
+      ],
+      "director": [
+        "Francis Lawrence"
+      ],
+      "screenwriter": [
+        "Kevin Brodbin",
+        "Frank A. Cappello"
+      ],
+      "cast": [
+        "Keanu Reeves",
+        "Rachel Weisz",
+        "Shia LaBeouf",
+        "Djimon Hounsou",
+        "Max Baker",
+        "Pruitt Taylor Vince",
+        "Gavin Rossdale",
+        "Tilda Swinton"
+      ],
+      "production_company": [
+        "Village Roadshow Pictures",
+        "Lonely Film Productions",
+        "The Donners' Company",
+        "Batfilm Productions",
+        "Weed Road Pictures",
+        "Warner Bros. Pictures",
+        "3 Arts Entertainment",
+        "DC Vertigo"
+      ],
+      "poster_path": "/vPYgvd2MwHlxTamAOjwVQp4qs1W.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2023/02/14/3e300fbdc8272190bcb9085cda8422ff.webp",
+      "backdrop_path": "/x3YFn10ehQKMRIJwIfiDAX8S9Xt.jpg",
+      "trailer_youtube_key": "819JCbGfZpg",
+      "age_rating": "12",
+      "tmdb_id": 561,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Constantine+2005",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.11, title 1.00)",
+      "match_score": 1.115,
+      "resolved_at": "2026-08-30T10:19:32+00:00"
+    },
+    {
       "film_id": "construction site",
       "title_cz": "Construction Site",
       "title_en": "",
@@ -2028,54 +2081,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Flight Club: Pýcha a předsudek'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "ghost 2 big to rig",
-      "title_cz": "GHOST: 2 BIG TO RIG",
-      "title_en": "2 Big to Rig",
-      "original_title": "2 Big to Rig",
-      "year": 2026,
-      "synopsis": "Captured live over the course of GHOST’s two sold-out shows in Mexico City last year, 2 BIG TO RIG is the definitive document of the band's unforgettable SKELETOUR WORLD TOUR, presented in IMAX® in select locations.  Featuring the only pro-shot footage of Papa V Perpetua and his band of Nameless Ghouls from the phone-free SKELETOUR, 2 BIG TO RIG immerses the audience in the GHOST live ritual, including exclusive behind-the-scenes and backstage access.",
-      "synopsis_language": "en",
-      "runtime_min": 115,
-      "genres": [
-        "Hudební",
-        "Dokumentární"
-      ],
-      "director": [
-        "Amir Juan Chamdin",
-        "Jim Parsons"
-      ],
-      "screenwriter": [
-        "Tobias Forge"
-      ],
-      "cast": [
-        "Tobias Forge",
-        "Per Eriksson",
-        "Cosmo Sniderman",
-        "Hayden C Scott",
-        "Laura Scarborough",
-        "Olivia Morreale",
-        "Randy Moore",
-        "Gabriela Gunčíková"
-      ],
-      "production_company": [
-        "Fortress Entertainment Group",
-        "Loma Vista Productions",
-        "Trafalgar Releasing",
-        "Popecorn Cinematic Pictures"
-      ],
-      "poster_path": "/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/y4kqw66F7maIsNE4AOMhISVZCz.jpg",
-      "trailer_youtube_key": "Gp4a9EF_7Js",
-      "age_rating": "NR (US)",
-      "tmdb_id": 1693400,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=GHOST%3A+2+BIG+TO+RIG+2026",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (0.85, title 0.80)",
-      "match_score": 0.85,
-      "resolved_at": "2026-08-05T22:28:00+02:00"
     },
     {
       "film_id": "guru",
@@ -5342,52 +5347,6 @@
       "resolved_at": "2026-08-06T07:39:56+00:00"
     },
     {
-      "film_id": "rodinna oslava",
-      "title_cz": "Rodinná oslava",
-      "title_en": "The Celebration",
-      "original_title": "Festen",
-      "year": 1998,
-      "synopsis": "Ve velkém osamělém domě se připravuje oslava. Helger Klingenfeldt, patriarcha rodiny, slaví 60. narozeniny. Pomalu se začínají scházet hosté. Přátelé, příbuzní a samozřejmě oslavencovi nejbližší: manželka Elsa a tři dospělí potomci – Christian, Michael a Helena. Vše je připraveno, hosté usedají ke stolu. Nikdo netuší, co bude následovat, když Christian povstane, aby se ujal slova. Brzy všichni pochopí, že na tento večer a tuto noc nikdy nezapomenou.",
-      "synopsis_language": "cs",
-      "runtime_min": 105,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Thomas Vinterberg"
-      ],
-      "screenwriter": [
-        "Thomas Vinterberg",
-        "Mogens Rukov"
-      ],
-      "cast": [
-        "Ulrich Thomsen",
-        "Henning Moritzen",
-        "Thomas Bo Larsen",
-        "Paprika Steen",
-        "Birthe Neumann",
-        "Trine Dyrholm",
-        "Helle Dolleris",
-        "Therese Glahn"
-      ],
-      "production_company": [
-        "DR",
-        "SVT",
-        "Nimbus Film"
-      ],
-      "poster_path": "/ibWzFsS6Z7cTEKJIE738URYS4Mo.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/yCtgdv7TfgZLHj6R9IQKD5TjljP.jpg",
-      "trailer_youtube_key": "XCqc_JTiNxg",
-      "age_rating": "15+",
-      "tmdb_id": 309,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Rodinn%C3%A1+oslava+1998",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-25T05:29:10+00:00"
-    },
-    {
       "film_id": "rodinne predstaveni",
       "title_cz": "RODINNÉ PŘEDSTAVENÍ | Zdravím tě, světe!",
       "title_en": "",
@@ -6321,53 +6280,6 @@
       "resolved_at": "2026-08-05T22:28:54+02:00"
     },
     {
-      "film_id": "terminator",
-      "title_cz": "Terminátor",
-      "title_en": "The Terminator",
-      "original_title": "The Terminator",
-      "year": 1984,
-      "synopsis": "Z roku 2029 je do Los Angeles roku 1984 vyslán zabijácký stroj podobný člověku. Má za úkol zabít Sarah Connorovou dřív, než přivede na svět syna, který se má později stát vůdcem lidí ve válce proti strojům. Lidé žijící v budoucnosti ovšem do současnosti také vyslali svého muže, který se bude snažit Sarah zachránit.",
-      "synopsis_language": "cs",
-      "runtime_min": 108,
-      "genres": [
-        "Akční",
-        "Thriller",
-        "Vědeckofantastický"
-      ],
-      "director": [
-        "James Cameron"
-      ],
-      "screenwriter": [
-        "James Cameron",
-        "Gale Anne Hurd"
-      ],
-      "cast": [
-        "Arnold Schwarzenegger",
-        "Michael Biehn",
-        "Linda Hamilton",
-        "Paul Winfield",
-        "Lance Henriksen",
-        "Rick Rossovich",
-        "Bess Motta",
-        "Earl Boen"
-      ],
-      "production_company": [
-        "Hemdale",
-        "Pacific Western"
-      ],
-      "poster_path": "/68gszw8bWjhMIfP9PdHSi4ZFkNE.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2022/05/16/d29d8027f715227b6a05ecaee274844e.jpg",
-      "backdrop_path": "/ffdqHMWkh1h9MABwIfbfRJhgFW6.jpg",
-      "trailer_youtube_key": "nGrW-OR2uDk",
-      "age_rating": "R (US)",
-      "tmdb_id": 218,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Termin%C3%A1tor+1984",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-22T05:24:38+00:00"
-    },
-    {
       "film_id": "terminator 2 den zuctovani",
       "title_cz": "Terminátor 2: Den zúčtování",
       "title_en": "Terminator 2: Judgment Day",
@@ -6439,31 +6351,6 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Termin%C3%A1tor+2%3A+Den+z%C3%BA%C4%8Dtov%C3%A1n%C3%AD+%2835.+v%C3%BDro%C4%8D%C3%AD%29",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Terminátor 2: Den zúčtování (35. výročí)'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "terminator double feature",
-      "title_cz": "Terminátor double feature",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/14/71ba8c97647b58cc53fb21b8c92ea526.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Termin%C3%A1tor+double+feature",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Terminátor double feature'",
       "match_score": 0.0
     },
     {
@@ -6855,42 +6742,6 @@
       "resolved_at": "2026-08-22T05:24:40+00:00"
     },
     {
-      "film_id": "toxic",
-      "title_cz": "Toxic",
-      "title_en": "Toxic",
-      "original_title": "Toxic",
-      "year": 2025,
-      "synopsis": "Ryan struggles with the loss of his sister, Julia, from her abusive relationship and remembers why he feels it's his fault.",
-      "synopsis_language": "en",
-      "runtime_min": null,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Reid Geissler"
-      ],
-      "screenwriter": [
-        "Reid Geissler"
-      ],
-      "cast": [
-        "Davit Khublaryan",
-        "Mattaya Braun",
-        "Peter Davey"
-      ],
-      "production_company": [],
-      "poster_path": "/i9bCjlvIFqVWvuHIRNiTvZfkpfT.jpg",
-      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/6113S2R.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1389620,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Toxic+2025",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-25T05:29:12+00:00"
-    },
-    {
       "film_id": "toy story 5 pribeh hracek",
       "title_cz": "Toy Story 5: Příběh hraček",
       "title_en": "Toy Story 5",
@@ -7079,50 +6930,6 @@
       "resolved_at": "2026-08-22T05:24:41+00:00"
     },
     {
-      "film_id": "ucpanej system",
-      "title_cz": "Ucpanej systém",
-      "title_en": "Ucpanej systém",
-      "original_title": "Ucpanej systém",
-      "year": 2026,
-      "synopsis": "Když se vám během jednoho dne po…e celý život a navíc potkáte Boha v hospodě, který vám řekne, že sice existuje, ale že je to líná p…a, která na vše s..e, myslíte si, že nemůže být hůř. Ale ono může... Inscenace Ucpanej systém vznikla na základě povídkové knihy a filmového scénáře známého skotského spisovatele Irvina Welshe „The Acid House“. Smutnými hrdiny jsou mladí lidé, kteří se nedokážou vymanit z podivné bezvýchodnosti své ztracené existence. Welshovy romány a povídky jsou syrově upřímné, plné drog, drsného jazyka a fotbalu, zkoumají temná zákoutí světa i duše. Pod černěhumorným povrchem anekdot se ale skrývá podstatná a působivá generační výpověď. (Aerofilms)",
-      "synopsis_language": "cs",
-      "runtime_min": 140,
-      "genres": [
-        "Komedie"
-      ],
-      "director": [
-        "Michal Vajdička",
-        "Jakub Tabery"
-      ],
-      "screenwriter": [
-        "Daniel Majling"
-      ],
-      "cast": [
-        "Ivan Trojan",
-        "Miroslav Krobot",
-        "Václav Neužil",
-        "Hynek Čermák",
-        "Matěj Hádek",
-        "Jaroslav Plesl",
-        "Lukáš Příkazký",
-        "Petr Vršek"
-      ],
-      "production_company": [
-        "Aerofilms"
-      ],
-      "poster_path": "/sIkNwE8h5DpE4JLS0kHeVPNhp0H.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/jLHXR5jKW3x5sRXglFVzaKC4q4k.jpg",
-      "trailer_youtube_key": "_T-YSTaD_zU",
-      "age_rating": "15+",
-      "tmdb_id": 1665571,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Ucpanej+syst%C3%A9m+2026",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.10, title 1.00)",
-      "match_score": 1.1,
-      "resolved_at": "2026-08-05T22:29:02+02:00"
-    },
-    {
       "film_id": "unbroken",
       "title_cz": "UnBroken",
       "title_en": "Unbroken",
@@ -7277,60 +7084,6 @@
       "resolved_at": "2026-08-05T22:29:03+02:00"
     },
     {
-      "film_id": "vlny",
-      "title_cz": "Vlny",
-      "title_en": "Waves",
-      "original_title": "Vlny",
-      "year": 2024,
-      "synopsis": "Na konci 60. let, kdy zněl z československých rádiových vln rokenrol a studentské revolty měnily svět, nastoupí starší z bratrů do prestižní redakce rozhlasu. Záhy se ocitne v nebezpečném souboji redaktorů a tajných služeb. Ve víru událostí půjde brzy všem o život a hlavní hrdina stojí před drsnou volbou: ochránit bratra, nebo pravdu a kolegy?",
-      "synopsis_language": "cs",
-      "runtime_min": 131,
-      "genres": [
-        "Thriller",
-        "Drama",
-        "Historický"
-      ],
-      "director": [
-        "Jiří Mádl"
-      ],
-      "screenwriter": [
-        "Jiří Mádl"
-      ],
-      "cast": [
-        "Vojtěch Vodochodský",
-        "Ondřej Stupka",
-        "Tatiana Pauhofová",
-        "Stanislav Majer",
-        "Vojtěch Kotek",
-        "Marika Šoposká",
-        "Petr Lněnička",
-        "Martin Hofmann"
-      ],
-      "production_company": [
-        "Dawson Productions",
-        "Česká televize",
-        "Český rozhlas",
-        "Wandal Production",
-        "Barrandov Studio",
-        "innogy Česká republika",
-        "RTVS",
-        "Bontonfilm",
-        "Dobrovolný ekologický spolek - ochrana ptactva",
-        "Státní fond ČR pro podporu a rozvoj české kinematografie"
-      ],
-      "poster_path": "/by8522UxsaqhM09QmlcmTObygAw.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/6p0ZlZW4wp7nUOGEZgO6lxyswdi.jpg",
-      "trailer_youtube_key": "BLZcKmZQqV8",
-      "age_rating": "12+",
-      "tmdb_id": 1251621,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Vlny+2024",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-18T05:25:51+00:00"
-    },
-    {
       "film_id": "volani vody",
       "title_cz": "Volání vody",
       "title_en": "",
@@ -7353,6 +7106,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Vol%C3%A1n%C3%AD+vody",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Volání vody'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "vymena starostu",
+      "title_cz": "Výměna starostů",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/08/11/13bd2b1cfb7f2e5fd677e2517a596de3.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=V%C3%BDm%C4%9Bna+starost%C5%AF",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Výměna starostů'",
       "match_score": 0.0
     },
     {
@@ -7738,6 +7516,56 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-08-18T05:25:53+00:00"
+    },
+    {
+      "film_id": "ztracene iluze",
+      "title_cz": "Ztracené iluze",
+      "title_en": "Lost Illusions",
+      "original_title": "Illusions perdues",
+      "year": 2021,
+      "synopsis": "Lucien je mladý neznámý básník, žijící ve Francii 19. století, který do svého bytí vkládá velké naděje a ambice. Opouští rodinnou tiskárnu v kraji, z něhož pochází, aby zkusil najít štěstí v Paříži po boku své patronky. V tomto úžasném městě se brzy ocitá vydaný napospas vlastnímu osudu a postupně objevuje zákulisí světa zisku a přetvářky. Lidskou komedii, ve které je možné vše koupit či prodat: literární věhlas i tištěná média, politiku i city, pověst i duši. Lucien bude milovat, bude trpět a vystřízliví ze svých iluzí.",
+      "synopsis_language": "cs",
+      "runtime_min": 149,
+      "genres": [
+        "Drama",
+        "Romantický",
+        "Historický"
+      ],
+      "director": [
+        "Xavier Giannoli"
+      ],
+      "screenwriter": [
+        "Yves Stavrides"
+      ],
+      "cast": [
+        "Benjamin Voisin",
+        "Cécile de France",
+        "Vincent Lacoste",
+        "Xavier Dolan",
+        "Salomé Dewaels",
+        "Jeanne Balibar",
+        "André Marcon",
+        "Louis-Do de Lencquesaing"
+      ],
+      "production_company": [
+        "Curiosa Films",
+        "France 3 Cinéma",
+        "Pictanovo",
+        "uMedia",
+        "Gaumont",
+        "Gabriel Inc."
+      ],
+      "poster_path": "/uYyuC9NOuw6hCI0tSLBzjSoJMeb.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/gsqJEai2EvRfuMzxSb6uSgRwrRN.jpg",
+      "trailer_youtube_key": "7sEyLd3MgH8",
+      "age_rating": "15+",
+      "tmdb_id": 660000,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ztracen%C3%A9+iluze+2021",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-30T10:19:33+00:00"
     }
   ]
 }
