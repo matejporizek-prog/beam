@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T10:19:33+00:00",
+  "generated_at": "2026-08-31T11:20:54+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -406,31 +406,6 @@
       "resolved_at": "2026-08-29T11:28:44+00:00"
     },
     {
-      "film_id": "andre rieu letni koncert 2026 viva maastricht",
-      "title_cz": "André Rieu - letní koncert 2026: Viva Maastricht!",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Andr%C3%A9+Rieu+-+letn%C3%AD+koncert+2026%3A+Viva+Maastricht%21",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'André Rieu - letní koncert 2026: Viva Maastricht!'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "architekt",
       "title_cz": "Architekt",
       "title_en": "The Great Arch",
@@ -747,31 +722,6 @@
       "match_reason": "verified against director/runtime (1.10, title 1.00)",
       "match_score": 1.1,
       "resolved_at": "2026-08-05T22:27:41+02:00"
-    },
-    {
-      "film_id": "bethlehem kudumba unit",
-      "title_cz": "Bethlehem Kudumba Unit",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/6198O2SX1.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Bethlehem+Kudumba+Unit",
-      "resolved": false,
-      "match_reason": "no candidate scored above 0.75",
-      "match_score": 0.0
     },
     {
       "film_id": "big lebowski",
@@ -2230,52 +2180,6 @@
       "resolved_at": "2026-08-05T22:28:01+02:00"
     },
     {
-      "film_id": "harry potter a kamen mudrcu",
-      "title_cz": "Harry Potter a Kámen mudrců",
-      "title_en": "Harry Potter and the Philosopher's Stone",
-      "original_title": "Harry Potter and the Philosopher's Stone",
-      "year": 2001,
-      "synopsis": "Harry Potter se v den svých jedenáctých narozenin dozvídá, že je osiřelým synem dvou velkých kouzelníků a sám má magické schopnosti. Na Škole čar a kouzel v Bradavicích se Harry mimo jiné naučí hrát famfrpál na létajícím koštěti a sehraje vzrušující šachovou partii s živými figurami, aby se mohl postavit Tomu, jehož jméno se nesmí vyslovit, který je odhodlán ho zahubit.",
-      "synopsis_language": "cs",
-      "runtime_min": 152,
-      "genres": [
-        "Dobrodružný",
-        "Fantasy"
-      ],
-      "director": [
-        "Chris Columbus"
-      ],
-      "screenwriter": [
-        "Steve Kloves"
-      ],
-      "cast": [
-        "Daniel Radcliffe",
-        "Rupert Grint",
-        "Emma Watson",
-        "Richard Harris",
-        "Tom Felton",
-        "Alan Rickman",
-        "Robbie Coltrane",
-        "Maggie Smith"
-      ],
-      "production_company": [
-        "Warner Bros. Pictures",
-        "Heyday Films",
-        "1492 Pictures"
-      ],
-      "poster_path": "/2EpqAuG2ES1GCSx6Ggbi9RL5c53.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/1XAC6RPT01UX9EQGy2JVn5c8pgy.jpg",
-      "trailer_youtube_key": "l91Km49W9qI",
-      "age_rating": "U",
-      "tmdb_id": 671,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Harry+Potter+a+K%C3%A1men+mudrc%C5%AF+2001",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:01+02:00"
-    },
-    {
       "film_id": "harry potter a kamen mudrcu 25 vyroci",
       "title_cz": "Harry Potter a Kámen mudrců (25. výročí)",
       "title_en": "",
@@ -2458,6 +2362,31 @@
       "match_reason": "verified against director/runtime (0.79, title 0.74)",
       "match_score": 0.787,
       "resolved_at": "2026-08-18T05:25:44+00:00"
+    },
+    {
+      "film_id": "jam sessh prague vol 73",
+      "title_cz": "Jam Sessh Prague vol. 73",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.kinopritomnost.cz/uploads/images/movies/2023/04/20/cdc15001d63454ae2a52faa328285e02.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Jam+Sessh+Prague+vol.+73",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Jam Sessh Prague vol. 73'",
+      "match_score": 0.0
     },
     {
       "film_id": "kapralova",
@@ -3045,31 +2974,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-22T05:24:29+00:00"
-    },
-    {
-      "film_id": "letni koncert andre rieu 2026 viva maastricht",
-      "title_cz": "Letní koncert André Rieu 2026: Viva Maastricht!",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/0202D2I1.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Letn%C3%AD+koncert+Andr%C3%A9+Rieu+2026%3A+Viva+Maastricht%21",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Letní koncert André Rieu 2026: Viva Maastricht!'",
-      "match_score": 0.0
     },
     {
       "film_id": "leviticus",
@@ -3682,54 +3586,6 @@
       "resolved_at": "2026-08-17T05:34:40+00:00"
     },
     {
-      "film_id": "na skok do divociny",
-      "title_cz": "Na skok do divočiny",
-      "title_en": "Hoppers",
-      "original_title": "Hoppers",
-      "year": 2026,
-      "synopsis": "Připravovaná nová animovaná akční komedie představuje milovnici zvířat Mabel, která se chopí příležitosti – nebo vlastně skočí – vyzkoušet novou technologii, která jí umožňuje komunikovat se zvířaty novým vzrušujícím způsobem.",
-      "synopsis_language": "cs",
-      "runtime_min": 104,
-      "genres": [
-        "Dobrodružný",
-        "Animovaný",
-        "Komedie",
-        "Rodinný",
-        "Vědeckofantastický"
-      ],
-      "director": [
-        "Daniel Chong"
-      ],
-      "screenwriter": [
-        "Jesse Andrews",
-        "Daniel Chong"
-      ],
-      "cast": [
-        "Piper Curda",
-        "Bobby Moynihan",
-        "Jon Hamm",
-        "Kathy Najimy",
-        "Dave Franco",
-        "Eduardo Franco",
-        "Aparna Nancherla",
-        "Tom Law"
-      ],
-      "production_company": [
-        "Pixar"
-      ],
-      "poster_path": "/iPIN0SZCyCHO0y6920HmTYfRgB8.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/02/18/46dd54a8ccd1b1316ebac4acbf005dce.jpg",
-      "backdrop_path": "/3Jj0A10NVu2dWnoEL5t5oT79L1Y.jpg",
-      "trailer_youtube_key": "PypDSyIRRSs",
-      "age_rating": "U",
-      "tmdb_id": 1327819,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Na+skok+do+divo%C4%8Diny+2026",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-12T06:11:45+00:00"
-    },
-    {
       "film_id": "nakladove nadrazi zizkov 2036",
       "title_cz": "Nákladové nádraží Žižkov 2036",
       "title_en": "",
@@ -3948,56 +3804,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-22T05:24:31+00:00"
-    },
-    {
-      "film_id": "neni jina moznost",
-      "title_cz": "Není jiná možnost",
-      "title_en": "No Other Choice",
-      "original_title": "어쩔수가없다",
-      "year": 2025,
-      "synopsis": "Man-su má všechno, o čem snil: stabilní práci v prestižní papírenské firmě, respekt, šťastnou rodinu a velký dům se skleníkem plným bonsají. Když ale papírnu koupí Američané a Man-su přijde o místo, začne se jeho dokonalý svět rozpadat. Jediná možnost, jak vše v korporátním světě získat zpět? Odstranit konkurenci.",
-      "synopsis_language": "cs",
-      "runtime_min": 139,
-      "genres": [
-        "Komedie",
-        "Krimi",
-        "Thriller"
-      ],
-      "director": [
-        "Park Chan-wook"
-      ],
-      "screenwriter": [
-        "Park Chan-wook",
-        "Lee Kyoung-mi",
-        "Don McKellar",
-        "Lee Ja-hye"
-      ],
-      "cast": [
-        "Lee Byung-hun",
-        "Son Ye-jin",
-        "Park Hee-soon",
-        "Lee Sung-min",
-        "Yeom Hye-ran",
-        "Cha Seung-won",
-        "Oh Dal-su",
-        "Kim Woo-seung"
-      ],
-      "production_company": [
-        "CJ ENM Studios",
-        "Moho Film",
-        "KG Productions"
-      ],
-      "poster_path": "/oNngk3kEWapbojOVfoPaq2rpOOn.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/1eM6Ey1FzpgJigrxRiSYtntSWq7.jpg",
-      "trailer_youtube_key": "SK_DEabMNVg",
-      "age_rating": "12+",
-      "tmdb_id": 639988,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Nen%C3%AD+jin%C3%A1+mo%C5%BEnost+2025",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-22T05:24:32+00:00"
     },
     {
       "film_id": "nerdopolis uvadi ostrov",
@@ -4898,6 +4704,31 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-08-05T22:28:33+02:00"
+    },
+    {
+      "film_id": "pravda nebo lez dabing damska jizda",
+      "title_cz": "Pravda, nebo lež DABING (Dámská jízda)",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Pravda%2C+nebo+le%C5%BE+DABING+%28D%C3%A1msk%C3%A1+j%C3%ADzda%29",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Pravda, nebo lež DABING (Dámská jízda)'",
+      "match_score": 0.0
     },
     {
       "film_id": "pribehy ze zememori",
@@ -6280,6 +6111,51 @@
       "resolved_at": "2026-08-05T22:28:54+02:00"
     },
     {
+      "film_id": "tajnosti a lzi",
+      "title_cz": "Tajnosti a lži",
+      "title_en": "Secrets & Lies",
+      "original_title": "Secrets & Lies",
+      "year": 1996,
+      "synopsis": "Když mladé černošce Hortense zemře adoptivní matka, rozhodne se vyhledat tu skutečnou. V adopční agentuře ji čeká překvapenmí – v kolonce barva pleti stojí jasně napsáno – bílá. Zmatená dívka se rozhodne matku najít. Cynthia Purleyová žije v řadovém domku v dělnické čtvrti se svou další nemanželskou dcerou Roxanne. Setkání s prvním dítětem, jež po porodu ani neviděla, je pro ni šokem. Přesto mezi matkou, která tráví dny v osamění, a nově nalezenou dcerou, vznikne hezký intimní vztah. Cynthia nakonec představí Hortense své rodině. Toto setkání přinese pro všechny očištění od tajností a lží, jimiž téměř každý z hrdinů přehlušoval svou bolest či psychické trauma.",
+      "synopsis_language": "cs",
+      "runtime_min": 142,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Mike Leigh"
+      ],
+      "screenwriter": [
+        "Mike Leigh"
+      ],
+      "cast": [
+        "Brenda Blethyn",
+        "Marianne Jean-Baptiste",
+        "Timothy Spall",
+        "Phyllis Logan",
+        "Claire Rushbrook",
+        "Lee Ross",
+        "Lesley Manville",
+        "Elizabeth Berrington"
+      ],
+      "production_company": [
+        "CiBy 2000",
+        "Thin Man Films",
+        "Film4 Productions"
+      ],
+      "poster_path": "/zQBuRQ3hrLhkEsXcxteUxuxLrvs.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/07/bbe4413d12a3c6f478bf82c4b18e4c54.jpg",
+      "backdrop_path": "/oLh3r9BhrymkMjKtI2geTGkKMif.jpg",
+      "trailer_youtube_key": "V1e9ovKQViw",
+      "age_rating": "U",
+      "tmdb_id": 11159,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Tajnosti+a+l%C5%BEi+1996",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-08-31T11:20:54+00:00"
+    },
+    {
       "film_id": "terminator 2 den zuctovani",
       "title_cz": "Terminátor 2: Den zúčtování",
       "title_en": "Terminator 2: Judgment Day",
@@ -6833,101 +6709,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-27T16:06:01+00:00"
-    },
-    {
-      "film_id": "troja",
-      "title_cz": "Troja",
-      "title_en": "Troy",
-      "original_title": "Troy",
-      "year": 2004,
-      "synopsis": "Roku 1193 před Kristem unesl Trojský princ Paris ženu Spartského krále Menelaose, krásnou Helenu. Králův hněv vyústil v desetiletou válku mezi nejsilnějším z řeckých měst a Trojany. Střetli se v ní největší antičtí hrdinové Sparty v čele s Achilesem a Troji, vedení Hectorem, nejstarším synem krále Priama. Její vyústění patří k největším příběhům všech dob.",
-      "synopsis_language": "cs",
-      "runtime_min": 163,
-      "genres": [
-        "Válečný",
-        "Akční",
-        "Historický"
-      ],
-      "director": [
-        "Wolfgang Petersen"
-      ],
-      "screenwriter": [
-        "David Benioff"
-      ],
-      "cast": [
-        "Brad Pitt",
-        "Orlando Bloom",
-        "Eric Bana",
-        "Brian Cox",
-        "Sean Bean",
-        "Brendan Gleeson",
-        "Diane Kruger",
-        "Peter O'Toole"
-      ],
-      "production_company": [
-        "Warner Bros. Pictures",
-        "Plan B Entertainment",
-        "Radiant Productions",
-        "Helena Productions"
-      ],
-      "poster_path": "/gGzcwrAjBWTJ1V8mt4xk0JATZc2.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/cu3lhUReOdqFAo5K1jesoftwiBj.jpg",
-      "trailer_youtube_key": "P8xLgg-MNKw",
-      "age_rating": "12+",
-      "tmdb_id": 652,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Troja+2004",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.11, title 1.00)",
-      "match_score": 1.115,
-      "resolved_at": "2026-08-14T06:13:00+00:00"
-    },
-    {
-      "film_id": "trumfove eso",
-      "title_cz": "Trumfové eso",
-      "title_en": "Ace High",
-      "original_title": "I quattro dell'Ave Maria",
-      "year": 1968,
-      "synopsis": "Bud Spencer a Terence Hill v boji s nebezpečnými pistolníky a falešnými hráči. O velkých penězích a účinných intrikách, o dvou přátelích, kteří lehkovážně pozbyli a s velkou námahou nabyli zpět své bohatství, o mužích, kteří dokáží nebezpečně dobře zacházet s pistolí, a o jiných, kteří se vyznají ve falešných hrách.",
-      "synopsis_language": "cs",
-      "runtime_min": 132,
-      "genres": [
-        "Western",
-        "Akční",
-        "Komedie"
-      ],
-      "director": [
-        "Giuseppe Colizzi"
-      ],
-      "screenwriter": [
-        "Giuseppe Colizzi",
-        "Bino Cicogna"
-      ],
-      "cast": [
-        "Eli Wallach",
-        "Terence Hill",
-        "Bud Spencer",
-        "Brock Peters",
-        "Kevin McCarthy",
-        "Livio Lorenzon",
-        "Steffen Zacharias",
-        "Armando Bandini"
-      ],
-      "production_company": [
-        "Crono Cinematografica",
-        "San Marco"
-      ],
-      "poster_path": "/yHcktRMAVJ5Ulub2p4L5Temo4FZ.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/myO1oP0NIGTBpSQuTb0uj5ROZwQ.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "PG-13 (US)",
-      "tmdb_id": 11874,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Trumfov%C3%A9+eso+1968",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-22T05:24:41+00:00"
     },
     {
       "film_id": "unbroken",

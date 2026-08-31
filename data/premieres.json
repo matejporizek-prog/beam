@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T10:19:34+00:00",
+  "generated_at": "2026-08-31T11:20:56+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -2309,6 +2309,51 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-12-03"
+    },
+    {
+      "film_id": "behemoth",
+      "title_cz": "Behemoth!",
+      "title_en": "Behemoth!",
+      "original_title": "Behemoth!",
+      "year": 2026,
+      "synopsis": "Gifted cellist Alex Serian returns home to Los Angeles after 20 years on the road. Music, which has been the constant, all-consuming river of his life, begins to carry Alex on an adventure that will change him forever.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Hudební",
+        "Drama"
+      ],
+      "director": [
+        "Tony Gilroy"
+      ],
+      "screenwriter": [
+        "Tony Gilroy"
+      ],
+      "cast": [
+        "Pedro Pascal",
+        "Olivia Wilde",
+        "Eva Victor",
+        "Will Arnett",
+        "Hank Azaria",
+        "Alexa Swinton",
+        "Kaya Ralls",
+        "Erik Griffin"
+      ],
+      "production_company": [
+        "Searchlight Pictures"
+      ],
+      "poster_path": "/bcyGYWfcXr0GnXewaE5gkvYy1iQ.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/gI3s8kkXsG0VHkpWjtZBKOz6sOk.jpg",
+      "trailer_youtube_key": "nlHocRZln8c",
+      "age_rating": "",
+      "tmdb_id": 1452168,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Behemoth%21+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-31T11:20:56+00:00",
       "release_date": "2026-12-03"
     },
     {
