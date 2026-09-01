@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-08-31T11:20:56+00:00",
+  "generated_at": "2026-09-01T09:48:00+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
+    {
+      "film_id": "katy perry the lifetimes tour live from paris",
+      "title_cz": "Katy Perry: The Lifetimes Tour – Live from Paris",
+      "title_en": "Katy Perry: The Lifetimes Tour – Live from Paris",
+      "original_title": "Katy Perry: The Lifetimes Tour – Live from Paris",
+      "year": 2026,
+      "synopsis": "Koncertní film byl natočen během vyprodaných koncertů v listopadu 2025 v ikonické pařížské Accor Areně a zachycuje jednu z nejvelkolepějších popových show současnosti. Uznávaný režisér koncertních snímků Paul Dugdale využil více než 60 kamer a zprostředkovává divákům pohlcující zážitek z první řady, během kterého naplno vynikne rozsah, energie i vizuální velkolepost tohoto světového turné. Film přináší průřez celou kariérou Katy Perry skrze setlist plný největších hitů, oslnivou scénu, úchvatnou choreografii i elektrizující atmosféru v publiku a oslavuje ji jako absolutní světovou hvězdu. Každý moment je zachycen s filmovou precizností a staví diváka přímo do centra tohoto nezapomenutelného zážitku – od intimních okamžiků spojení s fanoušky až po nesmrtelné hity, které otřásají celou halou.",
+      "synopsis_language": "cs",
+      "runtime_min": 119,
+      "genres": [
+        "Dokumentární",
+        "Hudební"
+      ],
+      "director": [
+        "Paul Dugdale"
+      ],
+      "screenwriter": [
+        "Katy Perry"
+      ],
+      "cast": [
+        "Katy Perry"
+      ],
+      "production_company": [
+        "SiFi Productions",
+        "Silent House Productions",
+        "10 Lives Content"
+      ],
+      "poster_path": "/pgR2XVeWtWuTcZ8C8sOE2i2bi0d.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/1BfOqbDhvtmAv7SwyobM5eTjQMm.jpg",
+      "trailer_youtube_key": "pfoJZGiPsOw",
+      "age_rating": "12+",
+      "tmdb_id": 1684016,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Katy+Perry%3A+The+Lifetimes+Tour+%E2%80%93+Live+from+Paris+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:54+00:00",
+      "release_date": "2026-09-02"
+    },
     {
       "film_id": "33 kroku",
       "title_cz": "33 kroků",
@@ -52,6 +92,43 @@
       "release_date": "2026-09-03"
     },
     {
+      "film_id": "dobre rano",
+      "title_cz": "Dobré ráno",
+      "title_en": "Good Morning",
+      "original_title": "Dobré ráno",
+      "year": 2025,
+      "synopsis": "Malé stvoření bloudí neznámým lesem plným podivných stromů. Když se vyšplhá nahoru, konečně si může vychutnat klid, slunce a výhled do krajiny. Jenže ráno, které vypadalo bezpečně, se během okamžiku promění. Na obzoru se objeví obrovský stín a křehká rovnováha světa se začne hroutit. Krátká animovaná miniatura pracuje s překvapením, napětím a pocitem, že i zdánlivě obyčejná chvíle může skrývat něco nečekaného.",
+      "synopsis_language": "cs",
+      "runtime_min": 2,
+      "genres": [
+        "Fantasy",
+        "Komedie",
+        "Animovaný"
+      ],
+      "director": [
+        "Živa Divjak"
+      ],
+      "screenwriter": [
+        "Živa Divjak"
+      ],
+      "cast": [],
+      "production_company": [
+        "FAMU"
+      ],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 1499554,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Dobr%C3%A9+r%C3%A1no+2025",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:50+00:00",
+      "release_date": "2026-09-03"
+    },
+    {
       "film_id": "dokonaly den",
       "title_cz": "Dokonalý den",
       "title_en": "Dokonalý den",
@@ -93,6 +170,130 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-09-03"
+    },
+    {
+      "film_id": "eliska liska",
+      "title_cz": "Eliška Liška",
+      "title_en": "Eliška Liška",
+      "original_title": "Eliška Liška",
+      "year": 2026,
+      "synopsis": "Film vypráví o cestě skupiny dětí v čele s vedoucím Vulpesem, který se ocitá na prahu dospělosti a stojí před ním náročný úkol. Spolu s dětmi se vydává do divočiny za humny na hon za liščím ocáskem – artefaktem, který se v místním společenství předává z generace na generaci. Vulpes zjišťuje, že aby dospěl, musí sám naučit děti věřit v kouzlo zázraku. A nakonec se stát tím, kdo zázrak, v podobě mýtického ocásku, pro mladší generaci sám vytvoří.",
+      "synopsis_language": "cs",
+      "runtime_min": 21,
+      "genres": [
+        "Rodinný"
+      ],
+      "director": [
+        "Nina Zardalishvili"
+      ],
+      "screenwriter": [
+        "Nina Zardalishvili",
+        "Oliver Beaujard",
+        "Kamila Krbcová"
+      ],
+      "cast": [
+        "Matyáš Svoboda",
+        "Nico Klimek",
+        "Jakub Novák",
+        "Josefína Máchalová",
+        "Aveline Kollo",
+        "Zdeněk Pecháček",
+        "Jiří Maryško",
+        "Zdeňka Sajfertová"
+      ],
+      "production_company": [],
+      "poster_path": "/i0U7pdKFa49Pq8zeS9AHJ69OCIn.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/9uOehKAitg2uT2N8RIAIcNLAFBn.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 1759438,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Eli%C5%A1ka+Li%C5%A1ka+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:55+00:00",
+      "release_date": "2026-09-03"
+    },
+    {
+      "film_id": "ode hry ke hre",
+      "title_cz": "Ode hry ke hře",
+      "title_en": "From Play to Play",
+      "original_title": "Ode hry ke hře",
+      "year": 2026,
+      "synopsis": "Tato “observační báseň” vznikla ze zvědavosti a touhy pozorovat a slyšet, jak si děti hrají, když je dospělí nekontrolují. Co si vymýšlí? Co si říkají? A jak zrcadlí a chápou svět dospělých okolo?",
+      "synopsis_language": "cs",
+      "runtime_min": 8,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Mikoláš Arsenjev"
+      ],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "/eBx4VMEYgzoCw9z72EYysWDuaPq.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/cm6HhuVNL9i7hjYHgzxUeaV1s5u.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 1450963,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ode+hry+ke+h%C5%99e+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:56+00:00",
+      "release_date": "2026-09-03"
+    },
+    {
+      "film_id": "osm nohou a milion followeru",
+      "title_cz": "Osm nohou a milion followerů",
+      "title_en": "Spider Island",
+      "original_title": "Spider Island",
+      "year": 2026,
+      "synopsis": "Skupinka VIP influencerů z celého světa se sejde na nedotčeném tropickém ostrově, kam byli pozváni ke slavnostnímu otevření nového luxusního dovolenkového resortu. Všichni si naplno užívají tyrkysové moře, pláže s bílým pískem, koktejly u bazénu a nekonečnou zábavu... dokud sluneční idylku nenaruší nečekaný vetřelec. Nejprve jeden, kterého následují miliony dalších. Vyděšené Influencery už nesledují jen followeři, ale někdo mnohem, mnohem nebezpečnější. Dá se přežít tento horor v ráji? A kdo zveřejní poslední post?",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Komedie",
+        "Horor"
+      ],
+      "director": [
+        "Christopher Smith"
+      ],
+      "screenwriter": [
+        "Christopher Jolley",
+        "Ben Jacques",
+        "David Quantick"
+      ],
+      "cast": [
+        "Rose Williams",
+        "Tim McInnerny",
+        "Avani Gregg",
+        "Abraham Lewis",
+        "Carlotta Banat",
+        "Anuschka van Lent",
+        "Justin Daniels Anene",
+        "Owen Warner"
+      ],
+      "production_company": [
+        "Vertigo Films",
+        "Fiction Films",
+        "NOW Films"
+      ],
+      "poster_path": "/JsFbhI5A8xoODI5iouJcefv1Rh.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/5JfVDRXXWw9iF1UERjd4QTdlCow.jpg",
+      "trailer_youtube_key": "u69TJzLmCPo",
+      "age_rating": "15+",
+      "tmdb_id": 1462861,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Osm+nohou+a+milion+follower%C5%AF+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:54+00:00",
       "release_date": "2026-09-03"
     },
     {
@@ -138,6 +339,40 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-09-03"
+    },
+    {
+      "film_id": "pstros",
+      "title_cz": "Pštros",
+      "title_en": "Ostrich",
+      "original_title": "Ostrich",
+      "year": 2026,
+      "synopsis": "Den co den vídá vrabec obrázky pštrosů všude, kam se podívá: na plakátech, v reklamách i svém smartphonu. Malý ptáček je pštrosy s dlouhými krky, oslnivýma očima a svalnatýma nohama ohromen a chtěI by být jako oni. Chodí do posilovny, aby nabral svaly, sleduje make-up tutoriály a navštěvuje studio protahování krku, až se nakonec k dosažení svého cíle skutečně přiblíží. Ale jednoho dne, kdy do města přijede opravdový pštros a hlavní hrdina se se svým idolem setká osobně, se jedna věc stává naprosto jasnou: ať se bude snažit sebevíc, opravdovým pštrosem se stát nikdy nemůže.",
+      "synopsis_language": "cs",
+      "runtime_min": 9,
+      "genres": [
+        "Animovaný",
+        "Komedie"
+      ],
+      "director": [
+        "Marie-Christine Kenov"
+      ],
+      "screenwriter": [
+        "Marie-Christine Kenov"
+      ],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "/7azmTkEQwWp1cG348Z74aIMjTfc.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/eY7P0bJwHQDluvI1qbrjP40nSDg.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 1493313,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=P%C5%A1tros+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:56+00:00",
       "release_date": "2026-09-03"
     },
     {
@@ -235,6 +470,131 @@
       "release_date": "2026-09-03"
     },
     {
+      "film_id": "zapas stoleti",
+      "title_cz": "Zápas století",
+      "title_en": "The Match",
+      "original_title": "El Partido",
+      "year": 2026,
+      "synopsis": "22. června 1986, Aztécký stadion v Mexico City. Kapitán Anglie Peter Shilton a jeho argentinský protějšek Diego Armando Maradona si před čtvrtfinále mistrovství světa podávají ruce. Začíná zápas, který vstoupí do dějin sportu. Jenže na hřišti se tehdy hrálo o mnohem víc než o postup do semifinále. Zatímco gól století a nechvalně proslulou „boží ruku“ znají téměř všichni, skutečný příběh „zápasu století“ je ještě dramatičtější. Válka o Falklandy, národní hrdost, politické napětí i osobní osudy hráčů vytvořily kulisu utkání, které dodnes vyvolává vášnivé debaty. Dokument Juana Cabrala a Santiaga Franca se po čtyřiceti letech vrací k legendárnímu střetnutí očima těch, kteří byli přímo na trávníku. Z bývalých soupeřů se stávají přátelé a z ikonického fotbalového zápasu fascinující příběh o rivalitě, paměti a smíření. Strhující kombinace archivních materiálů a osobních vzpomínek připomíná, proč se někdy celý svět dokáže na devadesát minut zastavit.",
+      "synopsis_language": "cs",
+      "runtime_min": 91,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Juan Cabral",
+        "Santiago Franco"
+      ],
+      "screenwriter": [
+        "Juan Cabral",
+        "Santiago Franco"
+      ],
+      "cast": [
+        "Gary Lineker",
+        "Jorge Valdano",
+        "John Barnes",
+        "Jorge Burruchaga",
+        "Ricardo Giusti",
+        "Julio Olarticoechea",
+        "Oscar Ruggeri  ",
+        "Peter Shilton"
+      ],
+      "production_company": [
+        "Industria del Milagro",
+        "Blurr Stories",
+        "Labhouse",
+        "Buena Vista International",
+        "Cine Argentino",
+        "INCAA"
+      ],
+      "poster_path": "/uJErmSiyvr0HENwUvp3ZVbd458a.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/kvGDXseMAZ6GYExkjP9h5L6hrWi.jpg",
+      "trailer_youtube_key": "xED9MDEkezY",
+      "age_rating": "U",
+      "tmdb_id": 1666712,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Z%C3%A1pas+stolet%C3%AD+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:53+00:00",
+      "release_date": "2026-09-03"
+    },
+    {
+      "film_id": "smik",
+      "title_cz": "Šmik!",
+      "title_en": "Šmik!",
+      "original_title": "Šmik!",
+      "year": 2026,
+      "synopsis": "Pudlice si chce uvařit něco dobrého, jenže právě v tu chvíli zazvoní telefon. Na druhém konci je někdo, kdo si chce povídat – a hrdinka si chce povídat taky. Jenže telefonní šňůra nedosáhne až ke kuchyňské lince a vaření nepočká. Co dělat, když chcete být na dvou místech najednou?",
+      "synopsis_language": "cs",
+      "runtime_min": 1,
+      "genres": [
+        "Animovaný"
+      ],
+      "director": [
+        "Philippe Kastner"
+      ],
+      "screenwriter": [
+        "Philippe Kastner"
+      ],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 1759436,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%A0mik%21+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:55+00:00",
+      "release_date": "2026-09-03"
+    },
+    {
+      "film_id": "bata tomas zivy",
+      "title_cz": "Baťa Tomáš, živý",
+      "title_en": "Baťa Tomáš, živý",
+      "original_title": "Baťa Tomáš, živý",
+      "year": 2026,
+      "synopsis": "Když se letadlo, řízené Baťovým věrným pilotem Jindřichem Broučkem, dne 12. července 1932 odlepilo na otrokovickém letišti od země, nemohl Tomáš Baťa tušit, že mezi živými bude už jen několik sekund.",
+      "synopsis_language": "cs",
+      "runtime_min": 136,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Dodo Gombár",
+        "Jan Brichcín"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "Gustav Řezníček",
+        "Marta Bačíková",
+        "Jan Leflík",
+        "Petra Králová",
+        "Radoslav Šopík",
+        "Pavel Leicman",
+        "Rostislav Marek",
+        "Josef Koller"
+      ],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1759443,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ba%C5%A5a+Tom%C3%A1%C5%A1%2C+%C5%BEiv%C3%BD+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:57+00:00",
+      "release_date": "2026-09-10"
+    },
+    {
       "film_id": "divka v oblacich",
       "title_cz": "Dívka v oblacích",
       "title_en": "The Girl in the Clouds",
@@ -278,6 +638,57 @@
       "release_date": "2026-09-10"
     },
     {
+      "film_id": "guru",
+      "title_cz": "Guru",
+      "title_en": "Guru",
+      "original_title": "Gourou",
+      "year": 2026,
+      "synopsis": "V době, kdy důvěra v politiku vyprchala a náboženství již neposkytuje odpovědi, se Mathieu Vasseur, známý jako „Matt“, stal nejsledovanějším koučem osobního rozvoje ve Francii. Na pódiu nabízí jasnost, sílu a katarzi, vede semináře, které elektrizují publikum a slibují proměnu. Za pečlivě vytvořeným obrazem se však skrývá mnohem znepokojující realita. Jak roste Mattův vliv, rostou i mechanismy kontroly, které jeho následovníky k němu připoutávají. Emoční závislost nahrazuje sebepoznání a přesvědčování tiše přechází v psychologickou dominanci. To, co začíná jako společná cesta za smyslem života, postupně odhaluje temnější stránku systému postaveného na moci, fascinaci a podřízení...",
+      "synopsis_language": "cs",
+      "runtime_min": 126,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "director": [
+        "Yann Gozlan"
+      ],
+      "screenwriter": [
+        "Jean-Baptiste Delafon",
+        "Yann Gozlan",
+        "Pierre Niney"
+      ],
+      "cast": [
+        "Pierre Niney",
+        "Marion Barbeau",
+        "Anthony Bajon",
+        "Christophe Montenez",
+        "Jonathan Turnbull",
+        "Raphaëlle Simon",
+        "Tracy Gotoas",
+        "Holt McCallany"
+      ],
+      "production_company": [
+        "Ninety Films",
+        "WY Productions",
+        "StudioCanal",
+        "Panache Productions",
+        "M6 Films"
+      ],
+      "poster_path": "/1naBllkF4oZ8FlYZWcaVw9vuAnn.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/omOIzarzHL4srQeLd5oPlzEReuf.jpg",
+      "trailer_youtube_key": "18dcAAAQoZ4",
+      "age_rating": "15+",
+      "tmdb_id": 1259983,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Guru+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:51+00:00",
+      "release_date": "2026-09-10"
+    },
+    {
       "film_id": "lecive ucinky sebeklamu",
       "title_cz": "Léčivé účinky sebeklamu",
       "title_en": "Léčivé účinky sebeklamu",
@@ -308,6 +719,54 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-09-10"
+    },
+    {
+      "film_id": "oasis don t look back in anger",
+      "title_cz": "Oasis: Don't Look Back in Anger",
+      "title_en": "Oasis: Don't Look Back in Anger",
+      "original_title": "Oasis: Don't Look Back in Anger",
+      "year": 2026,
+      "synopsis": "Legendární Oasis se vrací na velké plátno. Dokument Don’t Look Back In Anger zachycuje triumfální comeback Liama a Noela Gallagherových během turné Live ’25, které znamenalo jejich první společné živé vystoupení po 16 letech. Film nabídne dosud nezveřejněné záběry ze zákulisí, zkoušek i koncertních pódií a také první společné rozhovory bratrů Gallagherových po více než dvou dekádách.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Dokumentární",
+        "Hudební"
+      ],
+      "director": [
+        "Dylan Southern",
+        "Will Lovelace"
+      ],
+      "screenwriter": [
+        "Steven Knight"
+      ],
+      "cast": [
+        "Liam Gallagher",
+        "Noel Gallagher",
+        "Paul Arthurs",
+        "Gem Archer",
+        "Andy Bell",
+        "Joey Waronker",
+        "Christian Madden",
+        "Anaïs Gallagher"
+      ],
+      "production_company": [
+        "Magna Studios",
+        "Sony Music Vision",
+        "Sony Music Entertainment UK"
+      ],
+      "poster_path": "/nuNfPuFZKtkrglYnz2F9weQm3Ng.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/7Ud7QIJo21odjCaev6V4md9sK16.jpg",
+      "trailer_youtube_key": "6z_0B_lyRTo",
+      "age_rating": "U",
+      "tmdb_id": 1447853,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Oasis%3A+Don%27t+Look+Back+in+Anger+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:57+00:00",
       "release_date": "2026-09-10"
     },
     {
@@ -362,6 +821,42 @@
       "release_date": "2026-09-10"
     },
     {
+      "film_id": "proc slimaci nemaji nohy",
+      "title_cz": "Proč slimáci nemají nohy",
+      "title_en": "Why Slugs Have No Legs",
+      "original_title": "Warum Schnecken keine Beine haben",
+      "year": 2026,
+      "synopsis": "Slimáci mají problém udržet pracovní nasazení se zbytkem hmyzího světa. Jejich pomalé tempo je všem na obtíž, zvlášť v prostředí včel workoholiček, kde se výkon, rychlost a produktivita stávají jediným měřítkem hodnoty. Odlišná rychlost se nepromíjí, a když udeří finanční krize, včely musí svoji produktivitu navýšit jediným možným způsobem…",
+      "synopsis_language": "cs",
+      "runtime_min": 11,
+      "genres": [
+        "Animovaný",
+        "Komedie"
+      ],
+      "director": [
+        "Aline Höchli"
+      ],
+      "screenwriter": [
+        "Aline Höchli"
+      ],
+      "cast": [],
+      "production_company": [
+        "Cinéma Copain"
+      ],
+      "poster_path": "/m6MBgV7ALpdc7aOkpYyxGpCQc5O.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/9VNIsEI5rV2gWTQAfb9rXlC3LNF.jpg",
+      "trailer_youtube_key": "1sOjGS8X3bg",
+      "age_rating": "12+",
+      "tmdb_id": 624848,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Pro%C4%8D+slim%C3%A1ci+nemaj%C3%AD+nohy+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:58+00:00",
+      "release_date": "2026-09-10"
+    },
+    {
       "film_id": "tony",
       "title_cz": "Tony",
       "title_en": "Tony",
@@ -408,6 +903,40 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-09-10"
+    },
+    {
+      "film_id": "volcelest",
+      "title_cz": "Volcelest",
+      "title_en": "Volcelest",
+      "original_title": "Volcelest",
+      "year": 2026,
+      "synopsis": "Zima je tady. Aby přežila, musí malá lasička hranostaje opustit divočinu a usadit se poblíž osamělé farmy a jejích slepic. Příchod hladového zvířete však ohrožuje živobytí muže, který zde žije, a mezi dvěma světy se tak rozehrává tichý zápas o přežití. Beze slov vyprávěný animovaný film proti sobě staví křehkost divoké přírody, lidskou samotu i potřebu bránit to, co nás živí. Kdo je vetřelec a kdo se jen snaží přečkat zimu?",
+      "synopsis_language": "cs",
+      "runtime_min": 15,
+      "genres": [
+        "Animovaný"
+      ],
+      "director": [
+        "Éric Briche"
+      ],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [
+        "Miyu Productions",
+        "ARTE"
+      ],
+      "poster_path": "/fmPfNJEvZ0rwanvWvLucNrRFhIo.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/1CYx92MmWlvw07R1ZU8s881fyRR.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "12+",
+      "tmdb_id": 1279045,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Volcelest+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:58+00:00",
       "release_date": "2026-09-10"
     },
     {
@@ -499,6 +1028,82 @@
       "release_date": "2026-09-17"
     },
     {
+      "film_id": "call",
+      "title_cz": "Call",
+      "title_en": "Call",
+      "original_title": "Call",
+      "year": 2026,
+      "synopsis": "Adam má všechno – kariéru, krásnou ženu, dvě děti, byt v centru města. Jenže jedno odpoledne, kdy zůstane sám doma, se připojí na zdánlivě anonymní sex call. Nevinná hra? Malý úlet? Nebo past? Na druhé straně sedí někdo, kdo ví víc, než by měl.",
+      "synopsis_language": "cs",
+      "runtime_min": 61,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "/joOTPrsOtC77qgXKccknXvAItEp.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/y2wAjFwmcYpfOZvwe7mPuC0QS95.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "15+",
+      "tmdb_id": 1759906,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Call+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:48:00+00:00",
+      "release_date": "2026-09-17"
+    },
+    {
+      "film_id": "christopherove",
+      "title_cz": "Christopherové",
+      "title_en": "The Christophers",
+      "original_title": "The Christophers",
+      "year": 2026,
+      "synopsis": "Excentrický Julian Sklar, legenda londýnské výtvarné scény, se už 20 let nedotkl štětce. Jeho vypočítaví potomci se s tím ale odmítají smířit – otcův odkaz by jim totiž mohl vynést pohádkové dědictví. Najmou proto mladou padělatelku Lori, aby tajně dokončila Christophery, Julianem pečlivě střeženou sérii rozpracovaných obrazů. Jenže přechytračit starého mistra v jeho vlastním ateliéru nebude tak snadné.",
+      "synopsis_language": "cs",
+      "runtime_min": 100,
+      "genres": [
+        "Krimi",
+        "Komedie"
+      ],
+      "director": [
+        "Steven Soderbergh"
+      ],
+      "screenwriter": [
+        "Ed Solomon"
+      ],
+      "cast": [
+        "Michaela Coel",
+        "Ian McKellen",
+        "Jessica Gunning",
+        "James Corden",
+        "Ferdy Roberts",
+        "Tilly Botsford",
+        "Lucy McCormick",
+        "Le Fil"
+      ],
+      "production_company": [
+        "Department M",
+        "Butler & Sklar Productions"
+      ],
+      "poster_path": "/f416nmbDDAavvFtJTstF3NaRFRQ.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/saEkWul1fGNixEug2w6RtOmTws2.jpg",
+      "trailer_youtube_key": "42GkXhRVLUQ",
+      "age_rating": "R (US)",
+      "tmdb_id": 1400357,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Christopherov%C3%A9+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:52+00:00",
+      "release_date": "2026-09-17"
+    },
+    {
       "film_id": "coyote vs acme",
       "title_cz": "Coyote vs. Acme",
       "title_en": "Coyote vs. Acme",
@@ -546,6 +1151,133 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-09-17"
+    },
+    {
+      "film_id": "kratky film o lasce",
+      "title_cz": "Krátký film o lásce",
+      "title_en": "A Short Film About Love",
+      "original_title": "Krótki film o miłości",
+      "year": 1988,
+      "synopsis": "Šedivé varšavské sídliště, 80. léta 20. století. Mladý poštovní úředník Tomek si natahuje budík na půl devátou, aby byl připraven, až se žena z protějšího domu vrátí domů. Atraktivní třicátnici Magdu sleduje už rok, se vší nevinností a upřímností svých devatenácti let. Láska, nad níž pomalu ztrácí kontrolu, ho ale vede k činům překračujícím hranice tichého obdivu. Telefonuje jí, posílá jí falešná poštovní oznámení a začne rozvážet mléko, aby se s ní mohl osobně setkávat, nahlásí u ní v bytě únik plynu, aby jí překazil milostnou schůzku…  Když to nakonec nevydrží a přizná se jí, zkušená, nešťastná a osamělá žena se mu za neobratný vpád do soukromí pomstí – pozve ho domů a předvede mu, co znamená láska pro ni. Hluboce zraněný a ponížený Tomek už nechce dál žít...",
+      "synopsis_language": "cs",
+      "runtime_min": 86,
+      "genres": [
+        "Drama",
+        "Romantický"
+      ],
+      "director": [
+        "Krzysztof Kieślowski"
+      ],
+      "screenwriter": [
+        "Krzysztof Kieślowski",
+        "Krzysztof Piesiewicz"
+      ],
+      "cast": [
+        "Grażyna Szapołowska",
+        "Olaf Lubaszenko",
+        "Stefania Iwińska",
+        "Piotr Machalica",
+        "Artur Barciś",
+        "Stanisław Gawlik",
+        "Tomasz Gradowski",
+        "Rafal Imbro"
+      ],
+      "production_company": [
+        "Wytwórnia Filmów Dokumentalnych i Fabularnych",
+        "Studio Filmowe Tor"
+      ],
+      "poster_path": "/oBksxz1J3lvwjldrBZ1Hs0pCYMu.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/mvPL6z8QFhmk67n6o7sNmU2J1fd.jpg",
+      "trailer_youtube_key": "-iovDnkgGFI",
+      "age_rating": "15+",
+      "tmdb_id": 31056,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1tk%C3%BD+film+o+l%C3%A1sce+1988",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:50+00:00",
+      "release_date": "2026-09-17"
+    },
+    {
+      "film_id": "l abandon",
+      "title_cz": "L'abandon",
+      "title_en": "Forsaken",
+      "original_title": "L'abandon",
+      "year": 2026,
+      "synopsis": "Everyone knows the name of Samuel Paty, but few people really know his story. On October 16, 2020, Samuel Paty, professor of History-Geography, was murdered at the end of his college. In the light of investigations and trials, this film looks back on his last eleven days, and the gear that led to his tragic death.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Vincent Garenq"
+      ],
+      "screenwriter": [
+        "Vincent Garenq",
+        "Alexis Abdelkrim Kebbas"
+      ],
+      "cast": [
+        "Antoine Reinartz",
+        "Emmanuelle Bercot",
+        "Nedjim Bouizzoul",
+        "Emma Boumali",
+        "Azize Kabouche",
+        "Marie-Sohna Condé",
+        "Jean-Michel Lahmi",
+        "Nhoa François"
+      ],
+      "production_company": [
+        "Outside Films",
+        "Les Films du Kiosque",
+        "France 3 Cinéma",
+        "uMedia",
+        "UGC"
+      ],
+      "poster_path": "/kfUKP5IgzgLQyQD1MDt99yq9Af0.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/37LuuL6AFYr6vj0EOTpev9pJMi3.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "12+",
+      "tmdb_id": 1645368,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=L%27abandon+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:53+00:00",
+      "release_date": "2026-09-17"
+    },
+    {
+      "film_id": "lev salonu",
+      "title_cz": "Lev salonu",
+      "title_en": "Lev salonu",
+      "original_title": "Lev salonu",
+      "year": 2026,
+      "synopsis": "Dokument mapuje stejnojmenný projekt, který vznikl v královéhradeckém kině Bio Central u příležitosti oslav 800 let od založení města. Architekt, herec a výtvarník David Vávra objevuje ze sedla speciální rikši architekturu Hradce Králové a vypráví o jeho zásadních epochách. Film je sestřihem pěti živých přenosů architektonických projížděk městem, které byly streamované na plátno, doplněn o záběry z dronů a dalších kamer.",
+      "synopsis_language": "cs",
+      "runtime_min": 93,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [
+        "Bio Central"
+      ],
+      "poster_path": "/mgiXBxXQBRJdvDC1613tg4twvog.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/5yBbSp9n8iL9hhwPnsgzx2OxNFH.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 1759912,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Lev+salonu+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:59+00:00",
       "release_date": "2026-09-17"
     },
     {
@@ -641,6 +1373,107 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-09-17"
+    },
+    {
+      "film_id": "rose",
+      "title_cz": "Rose",
+      "title_en": "Rose",
+      "original_title": "Rose",
+      "year": 2026,
+      "synopsis": "In the turmoil of the Thirty-Years' War, a mysterious soldier appears in a secluded Protestant village claiming to be the heir. His quest for recognition and acceptance are complicated by his secret: under a false identity, false name, and pretense of a false gender, he has made his way to the village. But to achieve her goals, Rose, as the soldier is actually called, will stop at nothing.",
+      "synopsis_language": "en",
+      "runtime_min": 93,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Markus Schleinzer"
+      ],
+      "screenwriter": [
+        "Markus Schleinzer"
+      ],
+      "cast": [
+        "Sandra Hüller",
+        "Caro Braun",
+        "Marisa Growaldt",
+        "Godehard Giese",
+        "Robert Gwisdek",
+        "Maria Dragus",
+        "Annalisa Hohl",
+        "Augustino Renken"
+      ],
+      "production_company": [
+        "Schubert",
+        "Row Pictures",
+        "Walker & Worm Film",
+        "ORF",
+        "ZDF"
+      ],
+      "poster_path": "/9xxcGE5NOtiC5qnNuWwqKqE3iIQ.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/1KUzZMCBOtInUFoGUEJJsQyQKVi.jpg",
+      "trailer_youtube_key": "80xR3G5eowo",
+      "age_rating": "",
+      "tmdb_id": 1176962,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Rose+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:52+00:00",
+      "release_date": "2026-09-17"
+    },
+    {
+      "film_id": "un poeta",
+      "title_cz": "Un poeta",
+      "title_en": "A Poet",
+      "original_title": "Un poeta",
+      "year": 2025,
+      "synopsis": "An aging poet finds purpose mentoring Yurlady, a talented teen, though exposing her to the poetry scene might be unwise. His own poetic pursuits led nowhere, leaving him a stereotypical obscure writer.",
+      "synopsis_language": "en",
+      "runtime_min": 123,
+      "genres": [
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "Simón Mesa Soto"
+      ],
+      "screenwriter": [
+        "Simón Mesa Soto"
+      ],
+      "cast": [
+        "Ubeimar Rios",
+        "Rebeca Andrade",
+        "Guillermo Cardona",
+        "Alisson Correa",
+        "Humberto Restrepo",
+        "Margarita Soto",
+        "Hilda Gutíerrez Lodoño",
+        "Emmanuel Garcés Botero"
+      ],
+      "production_company": [
+        "Ocúltimo",
+        "Medio de Contención Producciones",
+        "ma.ja.de. Fiction",
+        "Momento Film",
+        "Film i Väst",
+        "Das kleine Fernsehspiel",
+        "ZDF/Arte",
+        "Dago García Producciones",
+        "Caracol Televisión"
+      ],
+      "poster_path": "/lg2p2GCrkwF5Ueh6Dj8ECQNhBUz.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/kJQ56bguSWbXAzN7EK1RUekfY0S.jpg",
+      "trailer_youtube_key": "xRyVkKYG3BA",
+      "age_rating": "",
+      "tmdb_id": 1465563,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Un+poeta+2025",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:51+00:00",
       "release_date": "2026-09-17"
     },
     {
@@ -2354,6 +3187,55 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "resolved_at": "2026-08-31T11:20:56+00:00",
+      "release_date": "2026-12-03"
+    },
+    {
+      "film_id": "primetime",
+      "title_cz": "Primetime",
+      "title_en": "Primetime",
+      "original_title": "Primetime",
+      "year": 2026,
+      "synopsis": "In 2006, To Catch a Predator host Chris Hansen sets out to make television history.",
+      "synopsis_language": "en",
+      "runtime_min": 110,
+      "genres": [
+        "Krimi",
+        "Drama",
+        "Thriller"
+      ],
+      "director": [
+        "Lance Oppenheim"
+      ],
+      "screenwriter": [
+        "Ajon Singh"
+      ],
+      "cast": [
+        "Robert Pattinson",
+        "Merritt Wever",
+        "Skyler Gisondo",
+        "Phoebe Bridgers",
+        "Matthew Maher",
+        "Bokeem Woodbine",
+        "Anna Faris",
+        "Eric Rahill"
+      ],
+      "production_company": [
+        "A24",
+        "Icki Eneo Arlo",
+        "Square Peg",
+        "Range Media Partners"
+      ],
+      "poster_path": "/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+      "trailer_youtube_key": "5fHXyqQOKL8",
+      "age_rating": "R (US)",
+      "tmdb_id": 1375441,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Primetime+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:59+00:00",
       "release_date": "2026-12-03"
     },
     {

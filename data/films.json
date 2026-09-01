@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T11:20:54+00:00",
+  "generated_at": "2026-09-01T09:47:48+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -542,6 +542,31 @@
       "resolved_at": "2026-08-28T17:11:01+00:00"
     },
     {
+      "film_id": "auta 20 vyroci",
+      "title_cz": "Auta (20. výročí)",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/2077S3I1.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Auta+%2820.+v%C3%BDro%C4%8D%C3%AD%29",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Auta (20. výročí)'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "avengers endgame special edition iv",
       "title_cz": "Avengers: Endgame Special Edition IV",
       "title_en": "",
@@ -928,6 +953,53 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Carmen (Záznam opery)'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "cerna ovce",
+      "title_cz": "Černá ovce",
+      "title_en": "Saved!",
+      "original_title": "Saved!",
+      "year": 2004,
+      "synopsis": "Mary je slušná dívka z dobré křesťanské rodiny, chodí do dobré křesťanské školy a má dobré křesťanské přátele. Jenže pak se jí svěří její chlapec, že je nejspíš gay a Mary, ve snaze Deana \"napravit\", otěhotní. Až v této situaci pozná skutečné přátele.",
+      "synopsis_language": "cs",
+      "runtime_min": 92,
+      "genres": [
+        "Komedie"
+      ],
+      "director": [
+        "Brian Dannelly"
+      ],
+      "screenwriter": [
+        "Brian Dannelly",
+        "Michael Urban"
+      ],
+      "cast": [
+        "Jena Malone",
+        "Mandy Moore",
+        "Macaulay Culkin",
+        "Patrick Fugit",
+        "Eva Amurri",
+        "Heather Matarazzo",
+        "Martin Donovan",
+        "Mary-Louise Parker"
+      ],
+      "production_company": [
+        "United Artists",
+        "Single Cell Pictures",
+        "Infinity Media",
+        "Metro-Goldwyn-Mayer"
+      ],
+      "poster_path": "/nmf2tFTcRJZVEQ9e3mgLH5gAQYs.jpg",
+      "poster_fallback_url": "https://www.kinopritomnost.cz/uploads/images/movies/2022/10/25/2564a6f47fa4b75fdc7917525fbc6214.jpg",
+      "backdrop_path": "/ehy1Q7v1xnmi9E55jQ9X7OX2Dr1.jpg",
+      "trailer_youtube_key": "cgWdUumlgUo",
+      "age_rating": "PG-13 (US)",
+      "tmdb_id": 13193,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C4%8Cern%C3%A1+ovce+2004",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.01, title 1.00)",
+      "match_score": 1.015,
+      "resolved_at": "2026-09-01T09:47:40+00:00"
     },
     {
       "film_id": "chao",
@@ -1958,6 +2030,59 @@
       "resolved_at": "2026-08-27T16:05:47+00:00"
     },
     {
+      "film_id": "exit 8",
+      "title_cz": "Exit 8",
+      "title_en": "Exit 8",
+      "original_title": "８番出口",
+      "year": 2025,
+      "synopsis": "Muž uvězněný v nekonečné sterilní chodbě metra se vydává hledat Exit 8. Pravidla jeho pátrání jsou jednoduchá: nepřehlédnout nic neobvyklého. Pokud objevíte anomálii, okamžitě se vraťte zpět. Pokud ji neobjevíte, pokračujte dál. Nakonec vyjděte Exitem 8. Ale i jediné přehlédnutí vás pošle zpět na začátek. Lze vůbec někdy dosáhnout cíle a uniknout z této nekonečné chodby?",
+      "synopsis_language": "cs",
+      "runtime_min": 95,
+      "genres": [
+        "Horor",
+        "Mysteriózní",
+        "Thriller"
+      ],
+      "director": [
+        "Genki Kawamura"
+      ],
+      "screenwriter": [
+        "Genki Kawamura",
+        "Kentaro Hirase"
+      ],
+      "cast": [
+        "Kazunari Ninomiya",
+        "Yamato Kochi",
+        "Naru Asanuma",
+        "Kotone Hanase",
+        "Nana Komatsu",
+        "Hirota Otsuka",
+        "Tara Nakashima",
+        "Reo Soda"
+      ],
+      "production_company": [
+        "TOHO",
+        "AOI Pro.",
+        "Story",
+        "Lawson",
+        "Suirinsha",
+        "Tohan",
+        "Office Nino",
+        "Metro Ad Agency"
+      ],
+      "poster_path": "/tffOlAvj6b5CwIsol44FpBhadw8.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/f5csnjqQj5qdqc0EZchon94hXZ6.jpg",
+      "trailer_youtube_key": "zzEDWwhtAHc",
+      "age_rating": "15+",
+      "tmdb_id": 1408208,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Exit+8+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:41+00:00"
+    },
+    {
       "film_id": "film za stovku",
       "title_cz": "FILM ZA STOVKU | Milost",
       "title_en": "",
@@ -2316,6 +2441,31 @@
       "resolved_at": "2026-08-05T22:28:03+02:00"
     },
     {
+      "film_id": "i m game",
+      "title_cz": "I'm Game",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/5147S2R1.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=I%27m+Game",
+      "resolved": false,
+      "match_reason": "title matched 'The Pajama Game' but runtime contradict it",
+      "match_score": 0.559
+    },
+    {
       "film_id": "insidious jsou mezi nami",
       "title_cz": "Insidious: Jsou mezi námi",
       "title_en": "Insidious: Out of the Further",
@@ -2523,31 +2673,6 @@
       "match_score": 0.0
     },
     {
-      "film_id": "kinotaj",
-      "title_cz": "Kinotaj",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Kinotaj",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Kinotaj'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "konec oak street",
       "title_cz": "Konec Oak Street",
       "title_en": "",
@@ -2661,6 +2786,51 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-22T05:24:28+00:00"
+    },
+    {
+      "film_id": "kralove videa",
+      "title_cz": "Králové videa",
+      "title_en": "Video Kings",
+      "original_title": "Králi videa",
+      "year": 2020,
+      "synopsis": "Dokument mapující časy, kdy českým videím vládly rychlodabingy, filmy se nakupovaly na černých burzách a hromadně se pořádaly domácí videoprojekce. Na svoji dobu vzpomínají tehdejší piráti, dabéři, distributoři a vůbec všichni ti, díky kterým bylo čím videa krmit.",
+      "synopsis_language": "cs",
+      "runtime_min": 82,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Lukáš Bulava"
+      ],
+      "screenwriter": [
+        "Petr Svoboda",
+        "Lukáš Bulava"
+      ],
+      "cast": [
+        "Ondřej Hejma",
+        "Zdeněk Troška",
+        "Roman Holý",
+        "František Fuka",
+        "Dana Hábová",
+        "Ondřej Neff",
+        "Petr Šaroch",
+        "Jozef Šedý"
+      ],
+      "production_company": [
+        "Atractive production",
+        "Blackout productions"
+      ],
+      "poster_path": "/yNqxuRfxyIMQ4BmApRfTMrRoPPd.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/upD9iaQLCzJS9PoxBtdEmFcss5T.jpg",
+      "trailer_youtube_key": "YIONlWvJAwk",
+      "age_rating": "",
+      "tmdb_id": 719460,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1lov%C3%A9+videa+2020",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:43+00:00"
     },
     {
       "film_id": "kralovska opera carmen 2026 27",
@@ -3543,6 +3713,56 @@
       "resolved_at": "2026-08-05T22:28:17+02:00"
     },
     {
+      "film_id": "muz na mesici",
+      "title_cz": "Muž na Měsíci",
+      "title_en": "Man on the Moon",
+      "original_title": "Man on the Moon",
+      "year": 1999,
+      "synopsis": "Andy Kaufman byl označován za nejnápaditějšího komika, mistra v provokování obecenstva, který dokázal vyvolat bouře smíchu, úplné ticho i skutečné slzy. Měl obrovskou popularitu a slávu. Již v mladém věku ho však postihla nevyléčitelná choroba. Ve filmu \"Muž na Měsíci\" spojili své síly a schopnosti tři z nejúspěšnějších osobností v oblasti současného filmu - Oscary ověnčený režisér Miloš Forman, úspěšný producent a herec Danny De Vito a komediální superhvězda Jim Carrey. Filmový příběh zachycuje divokou a zábavnou jízdu Andyho životem - od prvních důležitých chvil až po smutný konec",
+      "synopsis_language": "cs",
+      "runtime_min": 118,
+      "genres": [
+        "Komedie",
+        "Drama",
+        "Historický"
+      ],
+      "director": [
+        "Miloš Forman"
+      ],
+      "screenwriter": [
+        "Scott Alexander",
+        "Larry Karaszewski"
+      ],
+      "cast": [
+        "Jim Carrey",
+        "Danny DeVito",
+        "Courtney Love",
+        "Paul Giamatti",
+        "Vincent Schiavelli",
+        "Peter Bonerz",
+        "Jerry Lawler",
+        "Gerry Becker"
+      ],
+      "production_company": [
+        "Mutual Film Company",
+        "Universal Pictures",
+        "Jersey Films",
+        "Cinehaus",
+        "West/Shapiro Productions"
+      ],
+      "poster_path": "/TATf0qz5W0xcsZN8JN3m73s0pb.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/c6jFpztvihsXraV51up2nxXfm5t.jpg",
+      "trailer_youtube_key": "vl50ho0jE1g",
+      "age_rating": "12+",
+      "tmdb_id": 1850,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Mu%C5%BE+na+M%C4%9Bs%C3%ADci+1999",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-09-01T09:47:43+00:00"
+    },
+    {
       "film_id": "na jednu noc",
       "title_cz": "Na jednu noc",
       "title_en": "One Night Stand",
@@ -3644,43 +3864,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:28:20+02:00"
-    },
-    {
-      "film_id": "napoleon ve jmenu umeni",
-      "title_cz": "Napoleon – ve jménu umění",
-      "title_en": "Napoleon: In the Name of Art",
-      "original_title": "Napoleone - Nel nome dell'arte",
-      "year": 2021,
-      "synopsis": "Říkalo se o něm, že stránkami knih prosvištěl se stejnou vervou jako bitevními poli. Jako nadšeného čtenáře a obdivovatele umění nepoháněla Napoleonovy kroky pouze touha po moci a věčné slávě, ale i potřeba dosáhnout vědění a spojit své jméno s odkazem dávných civilizací. Snímek se 200 let po smrti tohoto velikána světové historie vrací ke stopám, které po sobě zanechal především v italské kultuře.",
-      "synopsis_language": "cs",
-      "runtime_min": 100,
-      "genres": [
-        "Dokumentární"
-      ],
-      "director": [
-        "Giovanni Piscaglia"
-      ],
-      "screenwriter": [
-        "Matteo Moneta"
-      ],
-      "cast": [
-        "Jeremy Irons"
-      ],
-      "production_company": [
-        "3D Produzioni",
-        "Nexo Digital"
-      ],
-      "poster_path": "/gxk08tsl3v1GF3Bb6YKusMJhnBX.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/vyIfCuRBgcuLAhwr2HN1NU6BKl6.jpg",
-      "trailer_youtube_key": "_8c0_xw9Yr4",
-      "age_rating": "",
-      "tmdb_id": 887642,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Napoleon+%E2%80%93+ve+jm%C3%A9nu+um%C4%9Bn%C3%AD+2021",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-22T05:24:31+00:00"
     },
     {
       "film_id": "narozen 4 cervence",
@@ -3831,31 +4014,6 @@
       "match_score": 0.0
     },
     {
-      "film_id": "noc lovce",
-      "title_cz": "Noc lovce",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/05/30/545df3e07d9c4d118deab6493ef6d6aa.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Noc+lovce",
-      "resolved": false,
-      "match_reason": "no candidate scored above 0.75",
-      "match_score": 0.4
-    },
-    {
       "film_id": "nt live hrdina zapadu",
       "title_cz": "NT Live: Hrdina západu",
       "title_en": "",
@@ -3904,6 +4062,53 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'NT Live: Pátý krok'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "oasis don t look back in anger",
+      "title_cz": "Oasis: Don't Look Back in Anger",
+      "title_en": "Oasis: Don't Look Back in Anger",
+      "original_title": "Oasis: Don't Look Back in Anger",
+      "year": 2026,
+      "synopsis": "Legendární Oasis se vrací na velké plátno. Dokument Don’t Look Back In Anger zachycuje triumfální comeback Liama a Noela Gallagherových během turné Live ’25, které znamenalo jejich první společné živé vystoupení po 16 letech. Film nabídne dosud nezveřejněné záběry ze zákulisí, zkoušek i koncertních pódií a také první společné rozhovory bratrů Gallagherových po více než dvou dekádách.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Dokumentární",
+        "Hudební"
+      ],
+      "director": [
+        "Dylan Southern",
+        "Will Lovelace"
+      ],
+      "screenwriter": [
+        "Steven Knight"
+      ],
+      "cast": [
+        "Liam Gallagher",
+        "Noel Gallagher",
+        "Paul Arthurs",
+        "Gem Archer",
+        "Andy Bell",
+        "Joey Waronker",
+        "Christian Madden",
+        "Anaïs Gallagher"
+      ],
+      "production_company": [
+        "Magna Studios",
+        "Sony Music Vision",
+        "Sony Music Entertainment UK"
+      ],
+      "poster_path": "/nuNfPuFZKtkrglYnz2F9weQm3Ng.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/7Ud7QIJo21odjCaev6V4md9sK16.jpg",
+      "trailer_youtube_key": "6z_0B_lyRTo",
+      "age_rating": "U",
+      "tmdb_id": 1447853,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Oasis%3A+Don%27t+Look+Back+in+Anger+2026",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:44+00:00"
     },
     {
       "film_id": "odplata",
@@ -4282,31 +4487,6 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Papu%C4%8Dov%C3%BD+den+s+filmem+Chica+Checa",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Papučový den s filmem Chica Checa'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "pariz 1900",
-      "title_cz": "Paříž 1900",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Pa%C5%99%C3%AD%C5%BE+1900",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Paříž 1900'",
       "match_score": 0.0
     },
     {
@@ -5320,54 +5500,6 @@
       "resolved_at": "2026-08-21T05:29:34+00:00"
     },
     {
-      "film_id": "rytiri spravedlnosti",
-      "title_cz": "Rytíři spravedlnosti",
-      "title_en": "Riders of Justice",
-      "original_title": "Retfærdighedens ryttere",
-      "year": 2020,
-      "synopsis": "Nasazený voják Markus se vrací domů ke své dospívající dceři poté, co jeho manželka zemřela při tragické nehodě vlaku. Zdá se, že to byla pouze nešťastná shoda náhod, dokud se neobjeví matematický geek Otto se svými dvěma excentrickými kolegy Lennartem a Emmenthalerem. Otto také cestoval ve zničeném vlaku. A je přesvědčený, že za tím někdo musel být.",
-      "synopsis_language": "cs",
-      "runtime_min": 116,
-      "genres": [
-        "Akční",
-        "Komedie",
-        "Drama",
-        "Thriller"
-      ],
-      "director": [
-        "Anders Thomas Jensen"
-      ],
-      "screenwriter": [
-        "Anders Thomas Jensen"
-      ],
-      "cast": [
-        "Mads Mikkelsen",
-        "Nikolaj Lie Kaas",
-        "Lars Brygmann",
-        "Nicolas Bro",
-        "Andrea Heick Gadeberg",
-        "Gustav Lindh",
-        "Roland Møller",
-        "Albert Rudbeck Lindhardt"
-      ],
-      "production_company": [
-        "Zentropa International Sweden",
-        "Zentropa Entertainments",
-        "Film i Väst"
-      ],
-      "poster_path": "/ryCcQ20rnF2AaSjXmul4jcGxeoy.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/7XZsVVnqTsMJXg3J4CHzeV2Lro9.jpg",
-      "trailer_youtube_key": "W2pEFP1Rvu4",
-      "age_rating": "NR (US)",
-      "tmdb_id": 663870,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Ryt%C3%AD%C5%99i+spravedlnosti+2020",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-05T22:28:41+02:00"
-    },
-    {
       "film_id": "samson a dalila opera",
       "title_cz": "Samson a Dalila (Opera)",
       "title_en": "",
@@ -5463,6 +5595,50 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Schindler: Architekt prostoru'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "sepoty a vykriky",
+      "title_cz": "Šepoty a výkřiky",
+      "title_en": "Cries and Whispers",
+      "original_title": "Viskningar och rop",
+      "year": 1972,
+      "synopsis": "Neutěšený, meditativní obraz lidské samoty tváří v tvář smrti. Děj snímku se odehrává koncem 19. století. Dvě zámožné sestry (Ingrid Thulinová a Liv Ullmannová) přijíždějí na rodinný statek, aby se svou smrtelně nemocnou setrou (Harriet Anderssonová) strávili poslední dny jejího života. Zatímco obě ženy, poznamenány manželstvím a egoismem, nejsou vůči umírající schopny vyvinout citový vztah, nesobecká služebná (Kari Sylwanová), která ji ošetřuje, pečuje o každou její potřebu a poskytuje jí čistou, bezmeznou lásku.\r Kruté a zároveň utěšující Šepoty a výkřiky odhalují složitou krajinu lidského utrpení, žalu a soucitu, kterou svým neobyčejným výkonem oživují Bergmanovi osvědčení herci.\r Film získal mnoho zahraničních poct, nejvyšší ocenění Švédského filmového ústavu za rok 1973, dále Oscara za kameru (S. Nykvist) a Cenu Nejvyšší technické komise na MFF v Cannes 1973.",
+      "synopsis_language": "cs",
+      "runtime_min": 95,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Ingmar Bergman"
+      ],
+      "screenwriter": [
+        "Ingmar Bergman"
+      ],
+      "cast": [
+        "Liv Ullmann",
+        "Ingrid Thulin",
+        "Kari Sylwan",
+        "Harriet Andersson",
+        "Erland Josephson",
+        "Georg Årlin",
+        "Anders Ek",
+        "Henning Moritzen"
+      ],
+      "production_company": [
+        "Cinematograph AB",
+        "Svenska Filminstitutet"
+      ],
+      "poster_path": "/cYQJtOdnTodVUOzUUZUYM0GyYTP.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/xmLgdb0yDBXa7Dlo3aCzjhjCkuE.jpg",
+      "trailer_youtube_key": "zc8f9ZlMnTU",
+      "age_rating": "R (US)",
+      "tmdb_id": 10238,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%A0epoty+a+v%C3%BDk%C5%99iky+1972",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-01T09:47:45+00:00"
     },
     {
       "film_id": "sex a smrt v kempu miasma",
@@ -5790,55 +5966,6 @@
       "resolved_at": "2026-08-25T05:29:11+00:00"
     },
     {
-      "film_id": "spasitel",
-      "title_cz": "Spasitel",
-      "title_en": "Project Hail Mary",
-      "original_title": "Project Hail Mary",
-      "year": 2026,
-      "synopsis": "Učitel přírodopisu Ryland Grace se probudí na vesmírné lodi vzdálené světelné roky od domova, aniž by si pamatoval, kdo je a jak se tam dostal. Když se mu paměť vrátí, začne odhalovat svůj úkol: vyřešit záhadu tajemné látky, která způsobuje vyhasínání Slunce. Musí využít svých vědeckých znalostí a neortodoxních nápadů, aby zachránil vše na Zemi před zánikem… ale díky nečekanému přátelství na to možná nebude muset být sám.",
-      "synopsis_language": "cs",
-      "runtime_min": 157,
-      "genres": [
-        "Vědeckofantastický",
-        "Dobrodružný"
-      ],
-      "director": [
-        "Phil Lord",
-        "Christopher Miller"
-      ],
-      "screenwriter": [
-        "Drew Goddard"
-      ],
-      "cast": [
-        "Ryan Gosling",
-        "Sandra Hüller",
-        "James Ortiz",
-        "Lionel Boyce",
-        "Milana Vayntrub",
-        "Ken Leung",
-        "Priya Kansara",
-        "Mia Soteriou"
-      ],
-      "production_company": [
-        "Lord Miller",
-        "Amazon MGM Studios",
-        "Pascal Pictures",
-        "Open Invite Entertainment",
-        "Waypoint Entertainment"
-      ],
-      "poster_path": "/sjG9ODJhSKDluawRsyhW3ijwjbQ.jpg",
-      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/02/12/559eaedd5cda3424862716c2e2613557.jpg",
-      "backdrop_path": "/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
-      "trailer_youtube_key": "26708YSDK-4",
-      "age_rating": "12+",
-      "tmdb_id": 687163,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Spasitel+2026",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-22T05:24:36+00:00"
-    },
-    {
       "film_id": "spider man zbrusu novy den",
       "title_cz": "Spider-Man: Zbrusu nový den",
       "title_en": "Spider-Man: Brand New Day",
@@ -5934,6 +6061,127 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-08-18T05:25:50+00:00"
+    },
+    {
+      "film_id": "star trek double feature",
+      "title_cz": "Star Trek double feature",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/05/89d3350b8518b7a73b66eb35add0aaa7.png",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Star+Trek+double+feature",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Star Trek double feature'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "star trek vii generace",
+      "title_cz": "Star Trek VII: Generace",
+      "title_en": "Star Trek: Generations",
+      "original_title": "Star Trek: Generations",
+      "year": 1994,
+      "synopsis": "Kapitáni kosmické lodi Enterprise Jean-Luc Pickard a James T. Kirk se ve 24. století snaží překazit plány šíleného fyzika jménem Soran, který je odhodlán zničit civilizaci.",
+      "synopsis_language": "cs",
+      "runtime_min": 113,
+      "genres": [
+        "Vědeckofantastický",
+        "Akční",
+        "Dobrodružný",
+        "Thriller"
+      ],
+      "director": [
+        "David Carson"
+      ],
+      "screenwriter": [
+        "Brannon Braga",
+        "Ronald D. Moore",
+        "Rick Berman"
+      ],
+      "cast": [
+        "Patrick Stewart",
+        "Jonathan Frakes",
+        "Brent Spiner",
+        "LeVar Burton",
+        "Michael Dorn",
+        "Gates McFadden",
+        "Marina Sirtis",
+        "William Shatner"
+      ],
+      "production_company": [
+        "Paramount Pictures"
+      ],
+      "poster_path": "/gh0ZZRwSmlzEZTIZee3ZCN9Jssx.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/05/5e011678ff7ae46eb00b8bf2c63716c5.jpg",
+      "backdrop_path": "/mNdsbVuRdsyo8eitW2IBW2BWRkU.jpg",
+      "trailer_youtube_key": "MUieGh1fHSI",
+      "age_rating": "U",
+      "tmdb_id": 193,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Star+Trek+VII%3A+Generace+1994",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (0.86, title 0.74)",
+      "match_score": 0.859,
+      "resolved_at": "2026-09-01T09:47:46+00:00"
+    },
+    {
+      "film_id": "star trek viii prvni kontakt",
+      "title_cz": "Star Trek VIII: První kontakt",
+      "title_en": "Star Trek: First Contact",
+      "original_title": "Star Trek: First Contact",
+      "year": 1996,
+      "synopsis": "Borg, napůl organická a napůl robotická civilizace si podrobuje ostatní kultury tak, že je násilně přeměňuje a přizpůsobuje svému způsobu života. Se sadistickou královnou v čele se Borg pokusí osudově zasáhnout do běhu dějin Země, a proto se kapitán Picard s posádkou vesmírné lodi Enterprise znovu pustí do souboje s těmi, kteří ho při posledním setkání téměř zabili. Picard prahne po odvetě. Jak daleko však může ve své touze po pomstě zajít?",
+      "synopsis_language": "cs",
+      "runtime_min": 106,
+      "genres": [
+        "Vědeckofantastický",
+        "Akční",
+        "Dobrodružný",
+        "Thriller"
+      ],
+      "director": [
+        "Jonathan Frakes"
+      ],
+      "screenwriter": [
+        "Ronald D. Moore",
+        "Brannon Braga",
+        "Rick Berman"
+      ],
+      "cast": [
+        "Patrick Stewart",
+        "Jonathan Frakes",
+        "Brent Spiner",
+        "LeVar Burton",
+        "Michael Dorn",
+        "Gates McFadden",
+        "Marina Sirtis",
+        "James Cromwell"
+      ],
+      "production_company": [
+        "Paramount Pictures"
+      ],
+      "poster_path": "/iqhHe893Vcf07jNkNQ31tu85dKG.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/05/32e63939a7bba072a91b93919952bca3.jpg",
+      "backdrop_path": "/wygUDDRNpeKUnkekRGeLCZM93tA.jpg",
+      "trailer_youtube_key": "YQ1eiEvefKI",
+      "age_rating": "U",
+      "tmdb_id": 199,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Star+Trek+VIII%3A+Prvn%C3%AD+kontakt+1996",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.02, title 0.90)",
+      "match_score": 1.017,
+      "resolved_at": "2026-09-01T09:47:47+00:00"
     },
     {
       "film_id": "stastni spolu",
@@ -6516,6 +6764,57 @@
       "resolved_at": "2026-08-05T22:28:58+02:00"
     },
     {
+      "film_id": "tlapkova patrola ve velkofilmu",
+      "title_cz": "Tlapková patrola ve velkofilmu",
+      "title_en": "PAW Patrol: The Mighty Movie",
+      "original_title": "PAW Patrol: The Mighty Movie",
+      "year": 2023,
+      "synopsis": "Když se přímo na Adventure City zřítí magický meteorit, získají pejsci z Tlapkové patroly superschopnosti, které je promění v mocné tlapky! Například nejmenší člence týmu, Skye, se díky novým schopnostem splní velký sen. Vše se ovšem zásadně zvrtne, když se zlému bývalému starostovi Humdingerovi podaří utéct z vězení. Společně s Victorií Vance, šílenou vědkyní, která je meteoritem přímo posedlá, se pokusí pejsky o jejich superschopnosti připravit ve snaze stát se superpadouchem. Tlapková patrola musí oba dva zastavit dřív, než bude pro Asteroid City pozdě. A Skye se přesvědčí o tom, že i malinké štěně může znamenat veliký rozdíl.",
+      "synopsis_language": "cs",
+      "runtime_min": 88,
+      "genres": [
+        "Dobrodružný",
+        "Animovaný",
+        "Komedie",
+        "Rodinný",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Cal Brunker"
+      ],
+      "screenwriter": [
+        "Bob Barlen",
+        "Cal Brunker",
+        "Shane Morris"
+      ],
+      "cast": [
+        "Mckenna Grace",
+        "Taraji P. Henson",
+        "Marsai Martin",
+        "Iain Armitage",
+        "Christian Convery",
+        "Will Brisbin",
+        "Finn Lee-Epp",
+        "Ron Pardo"
+      ],
+      "production_company": [
+        "Nickelodeon Movies",
+        "Spin Master",
+        "Paramount Pictures"
+      ],
+      "poster_path": "/pzqGCpqL9J7s3qTB44rUcazKJA3.jpg",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/5863D2R.jpg",
+      "backdrop_path": "/zgQQF04u3OgNBJqClRNby1FPz9s.jpg",
+      "trailer_youtube_key": "yokqCWsXBFk",
+      "age_rating": "U",
+      "tmdb_id": 893723,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Tlapkov%C3%A1+patrola+ve+velkofilmu+2023",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.01, title 1.00)",
+      "match_score": 1.015,
+      "resolved_at": "2026-09-01T09:47:48+00:00"
+    },
+    {
       "film_id": "tom a jerry kouzelny kompas",
       "title_cz": "Tom a Jerry: Kouzelný kompas",
       "title_en": "Tom and Jerry: Forbidden Compass",
@@ -7075,31 +7374,6 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Wellness+v%C3%ADkend",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Wellness víkend'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "workshop jazyk filmu uvod do anatomie filmove reci",
-      "title_cz": "Workshop Jazyk filmu: Úvod do anatomie filmové řeči",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Workshop+Jazyk+filmu%3A+%C3%9Avod+do+anatomie+filmov%C3%A9+%C5%99e%C4%8Di",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Workshop Jazyk filmu: Úvod do anatomie filmové řeči'",
       "match_score": 0.0
     },
     {
