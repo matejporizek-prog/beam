@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T09:48:00+00:00",
+  "generated_at": "2026-09-02T09:18:07+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -1281,52 +1281,6 @@
       "release_date": "2026-09-17"
     },
     {
-      "film_id": "milovnik ne bojovnik",
-      "title_cz": "Milovník, ne bojovník",
-      "title_en": "Lover, Not a Fighter",
-      "original_title": "Milovník, nie bojovník",
-      "year": 2026,
-      "synopsis": "Andrej has a secret plan – to see no one, meet no one, only talk to his grandma and not climb high trees while being drunk. Then he unexpectedly encounters Miša, at whom he previously tried to smile 17 times while being drunk at parties. He never remembered the outcome as he was always too drunk, but not today. Today he is sober. Andrej and Miša start to talk and over the glass of Fanta find an interest in each other. The fight for their young and tender love begins.",
-      "synopsis_language": "en",
-      "runtime_min": 108,
-      "genres": [
-        "Romantický",
-        "Komedie",
-        "Drama"
-      ],
-      "director": [
-        "Martina Buchelová"
-      ],
-      "screenwriter": [
-        "Martina Buchelová"
-      ],
-      "cast": [
-        "Adam Kubala",
-        "Michaela Kostková",
-        "František Beleš",
-        "Jaroslav Vojtek",
-        "Marián Mitaš",
-        "Simona Lewandowska",
-        "Jaroslava Pokorná",
-        "Mia Sofia Arpášová"
-      ],
-      "production_company": [
-        "NOCHI film"
-      ],
-      "poster_path": "/xx8Hnrp22I1UPXeFkVoUN3xxT2y.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1687998,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Milovn%C3%ADk%2C+ne+bojovn%C3%ADk+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-08T05:42:37+00:00",
-      "release_date": "2026-09-17"
-    },
-    {
       "film_id": "resident evil",
       "title_cz": "Resident Evil",
       "title_en": "Resident Evil",
@@ -1844,6 +1798,52 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "release_date": "2026-10-01"
+    },
+    {
+      "film_id": "milovnik ne bojovnik",
+      "title_cz": "Milovník, ne bojovník",
+      "title_en": "Lover, Not a Fighter",
+      "original_title": "Milovník, nie bojovník",
+      "year": 2026,
+      "synopsis": "Andrej has a secret plan – to see no one, meet no one, only talk to his grandma and not climb high trees while being drunk. Then he unexpectedly encounters Miša, at whom he previously tried to smile 17 times while being drunk at parties. He never remembered the outcome as he was always too drunk, but not today. Today he is sober. Andrej and Miša start to talk and over the glass of Fanta find an interest in each other. The fight for their young and tender love begins.",
+      "synopsis_language": "en",
+      "runtime_min": 108,
+      "genres": [
+        "Romantický",
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "Martina Buchelová"
+      ],
+      "screenwriter": [
+        "Martina Buchelová"
+      ],
+      "cast": [
+        "Adam Kubala",
+        "Michaela Kostková",
+        "František Beleš",
+        "Jaroslav Vojtek",
+        "Marián Mitaš",
+        "Simona Lewandowska",
+        "Jaroslava Pokorná",
+        "Mia Sofia Arpášová"
+      ],
+      "production_company": [
+        "NOCHI film"
+      ],
+      "poster_path": "/xx8Hnrp22I1UPXeFkVoUN3xxT2y.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1687998,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Milovn%C3%ADk%2C+ne+bojovn%C3%ADk+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-08-08T05:42:37+00:00",
+      "release_date": "2026-10-08"
     },
     {
       "film_id": "pat mat zpatky na venkove",

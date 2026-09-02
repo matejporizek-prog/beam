@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T09:47:48+00:00",
+  "generated_at": "2026-09-02T09:18:06+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -274,31 +274,6 @@
       "match_score": 0.0
     },
     {
-      "film_id": "alice guy 13 kratkych filmu",
-      "title_cz": "Alice Guy – 13 krátkých filmů",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Alice+Guy+%E2%80%93+13+kr%C3%A1tk%C3%BDch+film%C5%AF",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Alice Guy – 13 krátkých filmů'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "amazonie",
       "title_cz": "Amazonie",
       "title_en": "Amazonia",
@@ -564,6 +539,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Auta+%2820.+v%C3%BDro%C4%8D%C3%AD%29",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Auta (20. výročí)'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "avengers endgame special edition",
+      "title_cz": "Avengers: Endgame Special Edition",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Avengers%3A+Endgame+Special+Edition",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Avengers: Endgame Special Edition'",
       "match_score": 0.0
     },
     {
@@ -1796,52 +1796,6 @@
       "resolved_at": "2026-08-05T22:27:56+02:00"
     },
     {
-      "film_id": "dracula 1992",
-      "title_cz": "Dracula (1992)",
-      "title_en": "Bram Stoker's Dracula",
-      "original_title": "Bram Stoker's Dracula",
-      "year": 1992,
-      "synopsis": "Sídlo hraběte Draculy v Transylvanii sotva někdo objeví. V 15. století žil kníže Vlad, který se proslavil jako obratný diplomat, statečný bojovník proti pohanům a také jako nesmírně krutý muž se zálibou v napichování protivníků na kůl. Jeho postava prý inspirovala koncem minulého století spisovatele Brama Stokera k napsání dnes již klasického románu o upírech - Draculy. Ten je zde zosobněním zla, proti němuž se postaví skupina odvážných lidí v čele s profesorem Van Helsingem. Režisér Coppola se rozhodl jako první natočit Stokerův román v celé jeho šíři. Hrabě Dracula je v podstatě milující muž, který tragicky přišel o svou celoživotní lásku a v žalu proklel Boha za jeho krutost. Po staletích neklidného bloudění se dostává do Anglie, aby zde hledal odraz své dávné lásky. Převtělováním ve vlka, netopýra či mlhu nachází další kandidáty upírského života. Konečná bitva o duši krásné Miny proběhne v transylvánských horách, kde se Dracula se svojí vyvolenou chce ukrýt",
-      "synopsis_language": "cs",
-      "runtime_min": 128,
-      "genres": [
-        "Romantický",
-        "Horor"
-      ],
-      "director": [
-        "Francis Ford Coppola"
-      ],
-      "screenwriter": [
-        "James V. Hart"
-      ],
-      "cast": [
-        "Gary Oldman",
-        "Winona Ryder",
-        "Anthony Hopkins",
-        "Keanu Reeves",
-        "Sadie Frost",
-        "Cary Elwes",
-        "Richard E. Grant",
-        "Billy Campbell"
-      ],
-      "production_company": [
-        "American Zoetrope",
-        "Osiris Films",
-        "Columbia Pictures"
-      ],
-      "poster_path": "/jSxCIZXudp5q8wQO8VERGX8hRAl.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2024/09/04/ec11b62af0c6398b38d810ada5cb6a84.jpg",
-      "backdrop_path": "/88S6EYQBVyQktDfSqsB33I169jN.jpg",
-      "trailer_youtube_key": "xD6JMxOGBLQ",
-      "age_rating": "15+",
-      "tmdb_id": 6114,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Dracula+%281992%29+1992",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-25T05:29:07+00:00"
-    },
-    {
       "film_id": "drama",
       "title_cz": "Drama",
       "title_en": "The Drama",
@@ -2208,54 +2162,6 @@
       "resolved_at": "2026-08-22T05:24:25+00:00"
     },
     {
-      "film_id": "hamnet",
-      "title_cz": "Hamnet",
-      "title_en": "Hamnet",
-      "original_title": "Hamnet",
-      "year": 2025,
-      "synopsis": "Když věčně hladový domácí učitel William Shakespeare potká divokou volnomyšlenkářku Agnes, zrodí se příslovečná láska jako trám, v jejímž průběhu se jim narodí tři děti. Protože rodinu je třeba živit a zároveň uspokojovat Williamův dramatický talent, tráví on většinu času v Londýně budováním svých snů, zatímco Anges se na zdánlivě idylickém anglickém venkově snaží ve všech směrech zabezpečit domácnost a všechny tři děti, dvě dcery a syna Hamneta, jenž touží pokračovat v otcových šlépějích. Jenže neštěstí nechodí po horách, ale po lidech a v Anglii za vlády královny Alžběty I. to platilo obzvlášť. Když rodinu postihne nevýslovná tragédie, otřese to i zdánlivě nezničitelným vztahem mezi Williamem a Agnes. V temnotě a zoufalství se Shakespeare vybičuje k napsání svého vrcholného díla, tragédie o Hamletovi. Světu tím nadělí nezapomenutelný příběh a sobě a své ženě lék na žal a trápení.",
-      "synopsis_language": "cs",
-      "runtime_min": 125,
-      "genres": [
-        "Drama",
-        "Romantický"
-      ],
-      "director": [
-        "Chloé Zhao"
-      ],
-      "screenwriter": [
-        "Chloé Zhao",
-        "Maggie O'Farrell"
-      ],
-      "cast": [
-        "Jessie Buckley",
-        "Paul Mescal",
-        "Emily Watson",
-        "Joe Alwyn",
-        "Jacobi Jupe",
-        "Noah Jupe",
-        "Olivia Lynes",
-        "Justine Mitchell"
-      ],
-      "production_company": [
-        "Hera Pictures",
-        "Neal Street Productions",
-        "Amblin Entertainment",
-        "Book of Shadows"
-      ],
-      "poster_path": "/vbeyOZm2bvBXcbgPD3v6o94epPX.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/73BClq9FOcrWrutnpiqhCNEWEwJ.jpg",
-      "trailer_youtube_key": "xYcgQMxQwmk",
-      "age_rating": "PG-13 (US)",
-      "tmdb_id": 858024,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Hamnet+2025",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-21T05:29:33+00:00"
-    },
-    {
       "film_id": "hanebny pancharti",
       "title_cz": "Hanebný pancharti",
       "title_en": "Inglourious Basterds",
@@ -2512,6 +2418,31 @@
       "match_reason": "verified against director/runtime (0.79, title 0.74)",
       "match_score": 0.787,
       "resolved_at": "2026-08-18T05:25:44+00:00"
+    },
+    {
+      "film_id": "ishorts girls in film",
+      "title_cz": "iShorts: Girls in Film",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/08/31/9bfbaf3d00baf88e3e21bb3046fe2af4.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=iShorts%3A+Girls+in+Film",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'iShorts: Girls in Film'",
+      "match_score": 0.0
     },
     {
       "film_id": "jam sessh prague vol 73",
@@ -3335,52 +3266,6 @@
       "resolved_at": "2026-08-05T22:28:11+02:00"
     },
     {
-      "film_id": "mackennovo zlato",
-      "title_cz": "Mackennovo zlato",
-      "title_en": "Mackenna's Gold",
-      "original_title": "Mackenna's Gold",
-      "year": 1969,
-      "synopsis": "Šerif MacKenna vlastní mapu legendárního Zlatého údolí. Náhle se mapa stává středem pozornosti nejen banditů, ale i lidí z města. Spojeni chamtivostí a strachem z Apačů se vydávají hledat Zlaté údolí. Příběhy mužů a žen posedlých zlatem se završují v divokém a krvavém vyvrcholení tohoto filmu.",
-      "synopsis_language": "cs",
-      "runtime_min": 128,
-      "genres": [
-        "Dobrodružný",
-        "Akční",
-        "Western"
-      ],
-      "director": [
-        "J. Lee Thompson"
-      ],
-      "screenwriter": [
-        "Carl Foreman"
-      ],
-      "cast": [
-        "Gregory Peck",
-        "Omar Sharif",
-        "Camilla Sparv",
-        "Julie Newmar",
-        "Telly Savalas",
-        "Keenan Wynn",
-        "Ted Cassidy",
-        "Lee J. Cobb"
-      ],
-      "production_company": [
-        "Highroad Productions",
-        "Columbia Pictures"
-      ],
-      "poster_path": "/uChjCbOKpoREb3yZrG1p8L3GyC7.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/osqSUfyy3P2PwIRpi0C8XNFADfz.jpg",
-      "trailer_youtube_key": "Q3XVYjhKU-U",
-      "age_rating": "",
-      "tmdb_id": 18118,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Mackennovo+zlato+1969",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-22T05:24:30+00:00"
-    },
-    {
       "film_id": "magicka posedlost 2",
       "title_cz": "Magická posedlost 2",
       "title_en": "",
@@ -4014,6 +3899,54 @@
       "match_score": 0.0
     },
     {
+      "film_id": "nocni zvirata",
+      "title_cz": "Noční zvířata",
+      "title_en": "Nocturnal Animals",
+      "original_title": "Nocturnal Animals",
+      "year": 2016,
+      "synopsis": "Susan Morrowová má všechno, po čem vždy toužila, a přesto se ocitla v životní pasti. Kurátorka galerie moderního umění se snaží svou vnitřní prázdnotu zaplňovat vystavováním šokujících exponátů a po nocích bdí v prázdné zlaté kleci v luxusním domě v L. A., ze kterého asi i před ní nápadně často utíká její partner. Rukopis románu Noční zvířata, který napsal její bývalý manžel Edward by mohl být dokonalým lékem na nespavost. Kdyby nebyl jeho příběh tak zneklidňující...",
+      "synopsis_language": "cs",
+      "runtime_min": 115,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "director": [
+        "Tom Ford"
+      ],
+      "screenwriter": [
+        "Tom Ford"
+      ],
+      "cast": [
+        "Amy Adams",
+        "Jake Gyllenhaal",
+        "Michael Shannon",
+        "Aaron Taylor-Johnson",
+        "Isla Fisher",
+        "Ellie Bamber",
+        "Armie Hammer",
+        "Karl Glusman"
+      ],
+      "production_company": [
+        "Fade To Black",
+        "Artina Films",
+        "Focus Features",
+        "Perfect World Pictures",
+        "Tom Ford"
+      ],
+      "poster_path": "/dQe6ogURLtpHBwWOQam1fwMGQK7.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/5d6m8CIBQcHeiwr6R5ou4wxO9Vn.jpg",
+      "trailer_youtube_key": "SI45fDplBpw",
+      "age_rating": "18+",
+      "tmdb_id": 340666,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=No%C4%8Dn%C3%AD+zv%C3%AD%C5%99ata+2016",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-09-02T09:18:05+00:00"
+    },
+    {
       "film_id": "nt live hrdina zapadu",
       "title_cz": "NT Live: Hrdina západu",
       "title_en": "",
@@ -4562,6 +4495,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=P%C3%A1smo+poh%C3%A1dek+s+tvo%C5%99ivou+d%C3%ADlnou",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Pásmo pohádek s tvořivou dílnou'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "penova koupel",
+      "title_cz": "Pěnová koupel",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/07/5e956436e116e676360fd10aef755350.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=P%C4%9Bnov%C3%A1+koupel",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Pěnová koupel'",
       "match_score": 0.0
     },
     {
@@ -7472,58 +7430,6 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-08-20T05:29:36+00:00"
-    },
-    {
-      "film_id": "zena na valecne stezce",
-      "title_cz": "Žena na válečné stezce",
-      "title_en": "Woman at War",
-      "original_title": "Kona fer í stríð",
-      "year": 2018,
-      "synopsis": "Je lepší metodou záchrany světa sabotáž stožárů vysokého napětí, nebo adoptování ukrajinského sirotka? Tuto otázku řeší svérázná „zenová teroristka“ ve šťavnatém, ironickém, nádherně nasnímaném a lahodně nazvučeném filmu Benedikta Erlingssona. Padesátnice Halla je zdánlivě spořádaná učitelka a sbormistryně, ale pod klidným zevnějškem dříme víc, než se na první pohled zdá. Tvrdá a nekompromisní žena má ještě druhý život – vede totiž soukromou válku s průmyslovými giganty, kteří ničí islandskou krajinu. Nejhledanější žena ostrova řeší s lukem v ruce dilema mnohých z nás: jak svým dílem přispět k tomu, aby nedošlo k ekologické a sociální katastrofě?",
-      "synopsis_language": "cs",
-      "runtime_min": 97,
-      "genres": [
-        "Drama",
-        "Thriller",
-        "Komedie"
-      ],
-      "director": [
-        "Benedikt Erlingsson"
-      ],
-      "screenwriter": [
-        "Benedikt Erlingsson",
-        "Ólafur Egill Egilsson"
-      ],
-      "cast": [
-        "Halldóra Geirharðsdóttir",
-        "Jóhann Sigurðarson",
-        "Davíð Þór Jónsson",
-        "Magnús Trygvason Eliassen",
-        "Ómar Guðjónsson",
-        "Iryna Danyleiko",
-        "Galyna Goncharenko",
-        "Susanna Kurpenko"
-      ],
-      "production_company": [
-        "Slot Machine",
-        "Gulldrengurinn",
-        "Vintage Pictures",
-        "Köggull Filmworks",
-        "Solar Media Entertainment",
-        "Ukrainian State Film Agency",
-        "Ministry of Culture of Ukraine"
-      ],
-      "poster_path": "/iVSWklWE8EOrWAJaqXpmVCn7KYw.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/7XolBNeZsAm4Gehx09Y4cPdvd5q.jpg",
-      "trailer_youtube_key": "JFFEPPoRkXM",
-      "age_rating": "",
-      "tmdb_id": 348657,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%BDena+na+v%C3%A1le%C4%8Dn%C3%A9+stezce+2018",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:29:05+02:00"
     },
     {
       "film_id": "znameni",
