@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T09:18:06+00:00",
+  "generated_at": "2026-09-03T09:29:16+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -249,31 +249,6 @@
       "resolved_at": "2026-08-05T22:27:34+02:00"
     },
     {
-      "film_id": "aero naslepo",
-      "title_cz": "Aero naslepo",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2021/09/24/28a6125ad3f3bc6a23eb203337ad059b.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Aero+naslepo",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Aero naslepo'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "amazonie",
       "title_cz": "Amazonie",
       "title_en": "Amazonia",
@@ -379,53 +354,6 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-29T11:28:44+00:00"
-    },
-    {
-      "film_id": "architekt",
-      "title_cz": "Architekt",
-      "title_en": "The Great Arch",
-      "original_title": "L'Inconnu de la Grande Arche",
-      "year": 2025,
-      "synopsis": "Rok 1983. Je vyhlášena architektonická soutěž o novou dominantu Paříže, která se má stát symbolem její moderní čtvrti La Défense. Soutěže se účastní největší mezinárodní architektonické firmy a překvapivě vyhrává neznámý učitel architektury Johan Otto von Spreckelsen se svým projektem Velký oblouk – La Grande Arche. Do této chvíle tento padesátiletý Dán postavil pouze čtyři budovy: svůj domov a tři malé kaple, život zasvětil především výuce a hledání rovnováhy mezi prostorem, světlem a duší člověka. Jeho Velký oblouk je prostý, geometricky čistý, inspirovaný ideou brány k nebi. Film sleduje, jak se Otto vyrovnává s tlakem politiků, úředníků i médií a s vlastními pochybnostmi, zda lze zůstat věrný duchovní vizi uprostřed světa kompromisů. Stavba, která měla být symbolem harmonie, se postupně mění v zrcadlo jeho vnitřního zápasu. (CinemArt)",
-      "synopsis_language": "cs",
-      "runtime_min": 105,
-      "genres": [
-        "Drama",
-        "Historický"
-      ],
-      "director": [
-        "Stéphane Demoustier"
-      ],
-      "screenwriter": [
-        "Stéphane Demoustier"
-      ],
-      "cast": [
-        "Claes Bang",
-        "Xavier Dolan",
-        "Swann Arlaud",
-        "Sidse Babett Knudsen",
-        "Michel Fau",
-        "Jean des Forêts",
-        "Micha Lescot",
-        "Alessandro Bressanello"
-      ],
-      "production_company": [
-        "Agat Films & Cie / Ex Nihilo",
-        "France 3 Cinéma",
-        "Le Pacte",
-        "Zentropa Entertainments"
-      ],
-      "poster_path": "/rBd15gS2a8PEryeyzk0kFf92wHF.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/4CmqIt9w9iNuYPLkWLFmSnczXkc.jpg",
-      "trailer_youtube_key": "FhtqB5aq1t8",
-      "age_rating": "12+",
-      "tmdb_id": 1290424,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Architekt+2025",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-21T05:29:32+00:00"
     },
     {
       "film_id": "architektura cssr 58 89",
@@ -2211,31 +2139,6 @@
       "resolved_at": "2026-08-05T22:28:01+02:00"
     },
     {
-      "film_id": "harry potter a kamen mudrcu 25 vyroci",
-      "title_cz": "Harry Potter a Kámen mudrců (25. výročí)",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Harry+Potter+a+K%C3%A1men+mudrc%C5%AF+%2825.+v%C3%BDro%C4%8D%C3%AD%29",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Harry Potter a Kámen mudrců (25. výročí)'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "hope",
       "title_cz": "Hope",
       "title_en": "Hope",
@@ -2577,6 +2480,31 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-13T06:14:43+00:00"
+    },
+    {
+      "film_id": "kino i zahradni bar ma zavreno",
+      "title_cz": "Kino i zahradní bar má zavřeno",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kino+i+zahradn%C3%AD+bar+m%C3%A1+zav%C5%99eno",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Kino i zahradní bar má zavřeno'",
+      "match_score": 0.0
     },
     {
       "film_id": "kinospunti a kapybary",
@@ -3215,31 +3143,6 @@
       "resolved_at": "2026-08-27T16:05:48+00:00"
     },
     {
-      "film_id": "lisejniky holosec",
-      "title_cz": "Lišejníky & Holoseč",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Li%C5%A1ejn%C3%ADky+%26+Holose%C4%8D",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Lišejníky & Holoseč'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "macbeth opera",
       "title_cz": "Macbeth (Opera)",
       "title_en": "MACBETH - OPERA DIRECTO",
@@ -3714,41 +3617,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Nákladové nádraží Žižkov 2036'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "napis az dorazis domu",
-      "title_cz": "Napiš, až dorazíš domů",
-      "title_en": "Text me when you get home xx",
-      "original_title": "Text me when you get home xx",
-      "year": 2022,
-      "synopsis": "Mladá žena uprostřed noci na cestě domů taxíkem. Nevinná konverzace se rychle stáčí k intimnějším tématům a atmosféra postupně houstne. Pár obratných zkratek a auto se brzy kodrcá na odlehlé silnici kdesi na periferii. Co je záměr a co náhoda? Film Napiš, až dorazíš domů je jedním z příspěvků k nekonečné, ale stále velmi aktuální debatě o sexualizovaném násilí.",
-      "synopsis_language": "cs",
-      "runtime_min": 11,
-      "genres": [],
-      "director": [
-        "Niklas Bauer"
-      ],
-      "screenwriter": [
-        "Niklas Bauer"
-      ],
-      "cast": [
-        "Lennora Esi",
-        "Marios Gavrilis"
-      ],
-      "production_company": [
-        "Fachhochschule Dortmund"
-      ],
-      "poster_path": "/xYUWgELGzrPoVzmJZ4UpZKfxs8e.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/a8rZPQoXJkCz9F8443nFbdVOuuI.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1012190,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Napi%C5%A1%2C+a%C5%BE+doraz%C3%AD%C5%A1+dom%C5%AF+2022",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:20+02:00"
     },
     {
       "film_id": "narozen 4 cervence",
@@ -4746,6 +4614,31 @@
       "resolved_at": "2026-08-05T22:28:32+02:00"
     },
     {
+      "film_id": "posledni z nespravedlivych",
+      "title_cz": "Poslední z nespravedlivých",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Posledn%C3%AD+z+nespravedliv%C3%BDch",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Poslední z nespravedlivých'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "pozvani",
       "title_cz": "Pozvání",
       "title_en": "The Invite",
@@ -5144,52 +5037,6 @@
       "resolved_at": "2026-08-05T22:28:35+02:00"
     },
     {
-      "film_id": "protivny sprosty holky 2004",
-      "title_cz": "Protivný sprostý holky (2004)",
-      "title_en": "Mean Girls",
-      "original_title": "Mean Girls",
-      "year": 2004,
-      "synopsis": "Cady Heron (Lindsay Lohan) žila se svými rodiči po patnáct let v Africe a nyní se vrací do Ameriky a nastupuje do školy, kde se seznamuje s Damianem (Daniel Franzese) a Janis (Lizzy Caplan). Brzy se také setkává se třemi nejoblíbenějšími holkami na škole - Reginou (Rachel McAdams), Gretchen (Lacey Chabert) a Karen (Amanda Seyfried) - které Cady zasvětí do jejich stylu života. Poté co Cady začne chodit s Aaronem (Jonathan Bennett), nastává problém, Aaron je totiž bývalý přítel Reginy. Té se to samozřejmě nelíbí a rozhodne se s Aaronem znovu začít chodit. Cady se svými přáteli Janis a Daminem vymýšlí ďábelský plán, jak se pomstít.",
-      "synopsis_language": "cs",
-      "runtime_min": 97,
-      "genres": [
-        "Drama",
-        "Komedie"
-      ],
-      "director": [
-        "Mark Waters"
-      ],
-      "screenwriter": [
-        "Tina Fey"
-      ],
-      "cast": [
-        "Lindsay Lohan",
-        "Rachel McAdams",
-        "Lizzy Caplan",
-        "Lacey Chabert",
-        "Amanda Seyfried",
-        "Daniel Franzese",
-        "Jonathan Bennett",
-        "Rajiv Surendra"
-      ],
-      "production_company": [
-        "Broadway Video",
-        "Paramount Pictures",
-        "M.G. Films"
-      ],
-      "poster_path": "/ERmfAjmEE71x3GPnvwAARdOiWw.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2023/05/22/97b0d721117bc3f3858338e5920e86cd.jpg",
-      "backdrop_path": "/nP3y0TkR6XniFs9J53qQkg4Bnnk.jpg",
-      "trailer_youtube_key": "EMzEmGfTuM4",
-      "age_rating": "PG-13 (US)",
-      "tmdb_id": 10625,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Protivn%C3%BD+sprost%C3%BD+holky+%282004%29+2004",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.11, title 1.00)",
-      "match_score": 1.115,
-      "resolved_at": "2026-08-26T05:33:52+00:00"
-    },
-    {
       "film_id": "queen budapest",
       "title_cz": "QUEEN BUDAPEST",
       "title_en": "Queen Budapest",
@@ -5555,6 +5402,31 @@
       "match_score": 0.0
     },
     {
+      "film_id": "sentimentalni cesta po paradzanovove planete",
+      "title_cz": "Sentimentální cesta po Paradžanovově planetě",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Sentiment%C3%A1ln%C3%AD+cesta+po+Parad%C5%BEanovov%C4%9B+planet%C4%9B",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Sentimentální cesta po Paradžanovově planetě'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "sepoty a vykriky",
       "title_cz": "Šepoty a výkřiky",
       "title_en": "Cries and Whispers",
@@ -5873,55 +5745,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-27T16:05:58+00:00"
-    },
-    {
-      "film_id": "soukromy zivot",
-      "title_cz": "Soukromý život",
-      "title_en": "A Private Life",
-      "original_title": "Vie privée",
-      "year": 2025,
-      "synopsis": "Lilian Steiner je uznávaná psychiatrička. Jednoho dne se dozvídá o smrti jedné ze svých pacientek. Lilian je tou zprávou zasažená. Vsugeruje si, že se jedná o vraždu, a začíná pátrat na vlastní pěst.",
-      "synopsis_language": "cs",
-      "runtime_min": 108,
-      "genres": [
-        "Mysteriózní",
-        "Krimi",
-        "Drama"
-      ],
-      "director": [
-        "Rebecca Zlotowski"
-      ],
-      "screenwriter": [
-        "Anne Berest",
-        "Gaëlle Macé"
-      ],
-      "cast": [
-        "Jodie Foster",
-        "Daniel Auteuil",
-        "Virginie Efira",
-        "Mathieu Amalric",
-        "Vincent Lacoste",
-        "Luàna Bajrami",
-        "Noam Morgensztern",
-        "Sophie Guillemin"
-      ],
-      "production_company": [
-        "Les Films Velvet",
-        "France 3 Cinéma",
-        "Auvergne-Rhône-Alpes Cinéma",
-        "Buenos Hair"
-      ],
-      "poster_path": "/7aYpPqT2AK7zJIWSQ923cUrtVi5.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/3fZ5HvkrjaS34sZERshWm9koXdF.jpg",
-      "trailer_youtube_key": "2JabG5C6IU8",
-      "age_rating": "R (US)",
-      "tmdb_id": 1290432,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Soukrom%C3%BD+%C5%BEivot+2025",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-25T05:29:11+00:00"
     },
     {
       "film_id": "spider man zbrusu novy den",
@@ -6968,6 +6791,31 @@
       "resolved_at": "2026-08-27T16:06:01+00:00"
     },
     {
+      "film_id": "umeni v kine 35",
+      "title_cz": "UMĚNÍ V KINĚ 35 | EOS: Frida Kahlo",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=UM%C4%9AN%C3%8D+V+KIN%C4%9A+35+%7C+EOS%3A+Frida+Kahlo",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'UMĚNÍ V KINĚ 35'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "unbroken",
       "title_cz": "UnBroken",
       "title_en": "Unbroken",
@@ -7015,6 +6863,31 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-20T05:29:35+00:00"
+    },
+    {
+      "film_id": "urban pictus cinema",
+      "title_cz": "Urban Pictus Cinema",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/08/14/f60875c141c610d6f46f6acddf1d5c67.webp",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Urban+Pictus+Cinema",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Urban Pictus Cinema'",
+      "match_score": 0.0
     },
     {
       "film_id": "v lurdech",
@@ -7144,31 +7017,6 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Vol%C3%A1n%C3%AD+vody",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Volání vody'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "vymena starostu",
-      "title_cz": "Výměna starostů",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/08/11/13bd2b1cfb7f2e5fd677e2517a596de3.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=V%C3%BDm%C4%9Bna+starost%C5%AF",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Výměna starostů'",
       "match_score": 0.0
     },
     {
@@ -7332,6 +7180,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Wellness+v%C3%ADkend",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Wellness víkend'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "xmp posledni kapitola",
+      "title_cz": "XMP: Poslední Kapitola",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=XMP%3A+Posledn%C3%AD+Kapitola",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'XMP: Poslední Kapitola'",
       "match_score": 0.0
     },
     {

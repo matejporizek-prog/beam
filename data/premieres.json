@@ -1,47 +1,7 @@
 {
-  "generated_at": "2026-09-02T09:18:07+00:00",
+  "generated_at": "2026-09-03T09:29:18+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
-    {
-      "film_id": "katy perry the lifetimes tour live from paris",
-      "title_cz": "Katy Perry: The Lifetimes Tour – Live from Paris",
-      "title_en": "Katy Perry: The Lifetimes Tour – Live from Paris",
-      "original_title": "Katy Perry: The Lifetimes Tour – Live from Paris",
-      "year": 2026,
-      "synopsis": "Koncertní film byl natočen během vyprodaných koncertů v listopadu 2025 v ikonické pařížské Accor Areně a zachycuje jednu z nejvelkolepějších popových show současnosti. Uznávaný režisér koncertních snímků Paul Dugdale využil více než 60 kamer a zprostředkovává divákům pohlcující zážitek z první řady, během kterého naplno vynikne rozsah, energie i vizuální velkolepost tohoto světového turné. Film přináší průřez celou kariérou Katy Perry skrze setlist plný největších hitů, oslnivou scénu, úchvatnou choreografii i elektrizující atmosféru v publiku a oslavuje ji jako absolutní světovou hvězdu. Každý moment je zachycen s filmovou precizností a staví diváka přímo do centra tohoto nezapomenutelného zážitku – od intimních okamžiků spojení s fanoušky až po nesmrtelné hity, které otřásají celou halou.",
-      "synopsis_language": "cs",
-      "runtime_min": 119,
-      "genres": [
-        "Dokumentární",
-        "Hudební"
-      ],
-      "director": [
-        "Paul Dugdale"
-      ],
-      "screenwriter": [
-        "Katy Perry"
-      ],
-      "cast": [
-        "Katy Perry"
-      ],
-      "production_company": [
-        "SiFi Productions",
-        "Silent House Productions",
-        "10 Lives Content"
-      ],
-      "poster_path": "/pgR2XVeWtWuTcZ8C8sOE2i2bi0d.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/1BfOqbDhvtmAv7SwyobM5eTjQMm.jpg",
-      "trailer_youtube_key": "pfoJZGiPsOw",
-      "age_rating": "12+",
-      "tmdb_id": 1684016,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Katy+Perry%3A+The+Lifetimes+Tour+%E2%80%93+Live+from+Paris+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-01T09:47:54+00:00",
-      "release_date": "2026-09-02"
-    },
     {
       "film_id": "33 kroku",
       "title_cz": "33 kroků",
