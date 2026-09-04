@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T09:29:16+00:00",
+  "generated_at": "2026-09-04T09:21:24+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -518,6 +518,52 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Avengers: Endgame Special Edition IV'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "az na krev",
+      "title_cz": "Až na krev",
+      "title_en": "There Will Be Blood",
+      "original_title": "There Will Be Blood",
+      "year": 2007,
+      "synopsis": "Daniel Plainview a jeho syn jsou nezávislí prospektoři, kteří hledají ropná naleziště v Kalifornii na počátku 20. století. Do cesty se jim postaví stejně ambiciózní mladý kazatel Eli Sunday. Jejich bitva se stane centrem temně komického historického příběhu o sestupu do hlubin šílenství.",
+      "synopsis_language": "cs",
+      "runtime_min": 158,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Paul Thomas Anderson"
+      ],
+      "screenwriter": [
+        "Paul Thomas Anderson"
+      ],
+      "cast": [
+        "Daniel Day-Lewis",
+        "Paul Dano",
+        "Kevin J. O'Connor",
+        "Ciarán Hinds",
+        "Dillon Freasier",
+        "Hope Elizabeth Reeves",
+        "Colleen Foy",
+        "Barry Del Sherman"
+      ],
+      "production_company": [
+        "Paramount Vantage",
+        "Miramax",
+        "JoAnne Sellar Productions",
+        "Ghoulardi Film Company"
+      ],
+      "poster_path": "/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2025/12/02/a8ec5532bc9877e833af6c8235540bf3.jpg",
+      "backdrop_path": "/9UAKA6ceZi6TgQwTAAMt7DWwYPI.jpg",
+      "trailer_youtube_key": "-bEwlq_7f4s",
+      "age_rating": "15",
+      "tmdb_id": 7345,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=A%C5%BE+na+krev+2007",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-09-04T09:21:23+00:00"
     },
     {
       "film_id": "backrooms",
@@ -1071,51 +1117,6 @@
       "resolved_at": "2026-08-27T16:05:44+00:00"
     },
     {
-      "film_id": "chungking express",
-      "title_cz": "Chungking Express",
-      "title_en": "Chungking Express",
-      "original_title": "重慶森林",
-      "year": 1994,
-      "synopsis": "Milostné trable dvou policistů, kteří se vyrovnávají s tím, že j opustily jejich partnerky. Lehce načrtnuté příběhy slouží ke stylově čisté a působivé studii, stylizovaně zachycující všednodenní život. Film je složen ze dvou nezávislých příběhů o lidech z okraje společnosti nebo o lidech pro společnost zcela bezvýznamných, jako jsou pašeráci drog nebo prodavačka v bufetu. Vyprávějí o samotě uprostřed davu, o neschopnosti komunikace a nenaplněné lásce. Zároveň je snímek oslavou hektičnosti přelidněného Hongkongu, „města tisíce přistěhovalců“, jak se někdejší britské kolonii přezdívalo.",
-      "synopsis_language": "cs",
-      "runtime_min": 103,
-      "genres": [
-        "Drama",
-        "Komedie",
-        "Romantický"
-      ],
-      "director": [
-        "Wong Kar-Wai"
-      ],
-      "screenwriter": [
-        "Wong Kar-Wai"
-      ],
-      "cast": [
-        "Brigitte Lin",
-        "Takeshi Kaneshiro",
-        "Tony Leung Chiu-wai",
-        "Faye Wong",
-        "Valerie Chow",
-        "Piggy Chan Kam-Chuen",
-        "Kwan Lee-Na",
-        "Leung San"
-      ],
-      "production_company": [
-        "Jet Tone Production"
-      ],
-      "poster_path": "/fv0KUkKoEr1P6Z0lltVyWwtFg5e.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/vuglA60RqvpHK9rIcG8sXaiWw1L.jpg",
-      "trailer_youtube_key": "P9Mxf_6pVA0",
-      "age_rating": "U",
-      "tmdb_id": 11104,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Chungking+Express+1994",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-09T05:47:13+00:00"
-    },
-    {
       "film_id": "cinemini",
       "title_cz": "CINEMINI",
       "title_en": "",
@@ -1174,55 +1175,6 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:27:47+02:00"
-    },
-    {
-      "film_id": "co nam zbylo z lasky",
-      "title_cz": "Co nám zbylo z lásky",
-      "title_en": "The Love That Remains",
-      "original_title": "Ástin sem eftir er",
-      "year": 2025,
-      "synopsis": "Daleko, předaleko, v malém islandském městečku, si pětičlenná rodina s ovčáckým psem užívá pozdní večeři. Vypadají šťastně a spokojeně, ukrytí před nebezpečím okolního světa. Matka, talentovaná umělkyně, chystá své nejrozsáhlejší dílo. Otec vydělává na rybářské lodi. Dospívající děti mají to štěstí, že mohou žít v dokonalém souladu s přírodou. V tomto filmu nejsou žádní pravicoví extrémisté, ani vrazi. Jenom normální lidé s běžnými pocity a problémy. Uvidíte obyčejné maličkosti, jako: túry, koupání psa, sníh, jídlo, mražené ryby, holínky, roční doby, kosatky, letní šaty. Humor, sex... nebo jeho nedostatek. Prostě věci, které jsou skutečně důležité. Pod tím vším se však skrývá něco, čemu nerozumíme. Cosi prastarého, animálního.",
-      "synopsis_language": "cs",
-      "runtime_min": 109,
-      "genres": [
-        "Drama",
-        "Komedie"
-      ],
-      "director": [
-        "Hlynur Pálmason"
-      ],
-      "screenwriter": [
-        "Hlynur Pálmason"
-      ],
-      "cast": [
-        "Saga Garðarsdóttir",
-        "Sverrir Gudnason",
-        "Ída Mekkín Hlynsdóttir",
-        "Þorgils Hlynsson",
-        "Grímur Hlynsson",
-        "Ingvar E. Sigurðsson",
-        "Katla M. Þorgeirsdóttir",
-        "Kristinn Guðmundsson"
-      ],
-      "production_company": [
-        "Snowglobe",
-        "Still Vivid",
-        "HOBAB",
-        "Film i Väst",
-        "ARTE France Cinéma",
-        "Maneki Films"
-      ],
-      "poster_path": "/j2m7Vqy3kmhH94BZg6fLl9pmOcN.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/7xWTnediis2NYgZTq7ZndvI9JgW.jpg",
-      "trailer_youtube_key": "jZ0fdmesr-w",
-      "age_rating": "12+",
-      "tmdb_id": 1258509,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Co+n%C3%A1m+zbylo+z+l%C3%A1sky+2025",
-      "resolved": true,
-      "match_reason": "manual override",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-27T16:05:45+00:00"
     },
     {
       "film_id": "constantine",
@@ -3194,54 +3146,6 @@
       "match_score": 0.389
     },
     {
-      "film_id": "mala sestra",
-      "title_cz": "Malá sestra",
-      "title_en": "Our Little Sister",
-      "original_title": "海街diary",
-      "year": 2015,
-      "synopsis": "Rodinné (melo)drama, které na čechovovském půdorysu domu, zahrady a čtyř sester skládá poctu magii všednosti. Tři sestry žijí společně ve velkém domě ve městě Kamakura. Když jejich otec, který od rodiny odešel před patnácti lety, zemře, cestují na venkov na pohřeb, kde poznají svou plachou nevlastní sestru. Jejich návrh, aby odjela žít společně s nimi, dospívající Suzu s nadšením přijímá. Začíná tak období sladkých i nahořklých dobrodružství...",
-      "synopsis_language": "cs",
-      "runtime_min": 127,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Hirokazu Kore-eda"
-      ],
-      "screenwriter": [
-        "Hirokazu Kore-eda"
-      ],
-      "cast": [
-        "Haruka Ayase",
-        "Masami Nagasawa",
-        "Kaho",
-        "Suzu Hirose",
-        "Ryo Kase",
-        "Ryohei Suzuki",
-        "Ikeda Takafumi",
-        "Kentaro Sakaguchi"
-      ],
-      "production_company": [
-        "Shogakukan",
-        "TOHO",
-        "Fuji Television Network",
-        "BUN-BUKU",
-        "GAGA Corporation",
-        "FILM"
-      ],
-      "poster_path": "/nTRdnuqkSXbo9ZxR8BMQbZRGwkv.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/b0Xdh15XGZbKON9CbFVB5sTqrSJ.jpg",
-      "trailer_youtube_key": "Iy2ZidLDgyk",
-      "age_rating": "",
-      "tmdb_id": 315846,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Mal%C3%A1+sestra+2015",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (0.81, title 0.81)",
-      "match_score": 0.815,
-      "resolved_at": "2026-08-05T22:28:12+02:00"
-    },
-    {
       "film_id": "manon opera",
       "title_cz": "Manon (Opera)",
       "title_en": "",
@@ -3594,31 +3498,6 @@
       "resolved_at": "2026-08-17T05:34:40+00:00"
     },
     {
-      "film_id": "nakladove nadrazi zizkov 2036",
-      "title_cz": "Nákladové nádraží Žižkov 2036",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/22/f211596d7390459c27305a1d19f44e8f.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=N%C3%A1kladov%C3%A9+n%C3%A1dra%C5%BE%C3%AD+%C5%BDi%C5%BEkov+2036",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Nákladové nádraží Žižkov 2036'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "narozen 4 cervence",
       "title_cz": "Narozen 4. července",
       "title_en": "Born on the Fourth of July",
@@ -3862,6 +3741,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=NT+Live%3A+P%C3%A1t%C3%BD+krok",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'NT Live: Pátý krok'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "oasis don 039 t look back in anger",
+      "title_cz": "Oasis: Don&#039;t Look Back in Anger",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/08/26/2a53bd06d465abaf3ca5bc3419ed05aa.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Oasis%3A+Don%26%23039%3Bt+Look+Back+in+Anger",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Oasis: Don&#039;t Look Back in Anger'",
       "match_score": 0.0
     },
     {
@@ -4488,6 +4392,51 @@
       "resolved_at": "2026-08-27T16:05:53+00:00"
     },
     {
+      "film_id": "poklad na sierra madre",
+      "title_cz": "Poklad na Sierra Madre",
+      "title_en": "The Treasure of the Sierra Madre",
+      "original_title": "The Treasure of the Sierra Madre",
+      "year": 1948,
+      "synopsis": "Na dva tulácké smolaře a mrzutého zlatokopa se usměje štěstí a objeví zlato. Ovládne je chamtivost, která zcela pomate jejich mysl.",
+      "synopsis_language": "cs",
+      "runtime_min": 126,
+      "genres": [
+        "Dobrodružný",
+        "Drama",
+        "Western"
+      ],
+      "director": [
+        "John Huston"
+      ],
+      "screenwriter": [
+        "John Huston"
+      ],
+      "cast": [
+        "Humphrey Bogart",
+        "Walter Huston",
+        "Tim Holt",
+        "Bruce Bennett",
+        "Barton MacLane",
+        "Alfonso Bedoya",
+        "Arturo Soto Rangel",
+        "Manuel Dondé"
+      ],
+      "production_company": [
+        "Warner Bros. Pictures"
+      ],
+      "poster_path": "/pWcst7zVbi8Z8W6GFrdNE7HHRxL.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/07/ba8ef4d111df167fc7b98ea9b77a2c68.jpg",
+      "backdrop_path": "/osytHgkv86CTFKxo46l9P7ACEjm.jpg",
+      "trailer_youtube_key": "1DwXNmorsa0",
+      "age_rating": "U",
+      "tmdb_id": 3090,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Poklad+na+Sierra+Madre+1948",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-09-04T09:21:24+00:00"
+    },
+    {
       "film_id": "pomoc neviditelnych",
       "title_cz": "Pomoc neviditelných",
       "title_en": "Help of the invisibles",
@@ -4762,59 +4711,6 @@
       "match_score": 0.0
     },
     {
-      "film_id": "pribehy ze zememori",
-      "title_cz": "Příběhy ze Zeměmoří",
-      "title_en": "Tales from Earthsea",
-      "original_title": "ゲド戦記",
-      "year": 2006,
-      "synopsis": "Temná síla hrozí zničit Zeměmoří. Nejmocnější kouzelník Zeměmoří, Ged, se vydává na cestu, aby rozluštil tajemství okolo blížícího se nebezpečí. S princem Arren po svém boku se vydávají na dobrodružnou cestu, kde zjistí, že kouzelník jménem Cob otevřel dveře mezi Světem živých a mrtvých. Teď již záleží jen na Arrenovi zda dokáže obnovit rovnováhu.",
-      "synopsis_language": "cs",
-      "runtime_min": 115,
-      "genres": [
-        "Animovaný",
-        "Fantasy",
-        "Dobrodružný"
-      ],
-      "director": [
-        "Goro Miyazaki"
-      ],
-      "screenwriter": [
-        "Keiko Niwa",
-        "Goro Miyazaki"
-      ],
-      "cast": [
-        "Junichi Okada",
-        "Aoi Teshima",
-        "Bunta Sugawara",
-        "Yuko Tanaka",
-        "Teruyuki Kagawa",
-        "Jun Fubuki",
-        "Takashi Naito",
-        "Mitsuko Baisho"
-      ],
-      "production_company": [
-        "Studio Ghibli",
-        "Hakuhodo DY Media Partners",
-        "Nippon Television Network Corporation",
-        "TOHO",
-        "d-rights",
-        "dentsu",
-        "Mitsubishi",
-        "Buena Vista Home Entertainment"
-      ],
-      "poster_path": "/ggqKQeBX4N2p67KA4XxqaswSFrV.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2025/01/10/a391320895594d06eaddbf325bccc8c2.jpg",
-      "backdrop_path": "/x5ufEAM7bS7DVXaovApamQh5BNE.jpg",
-      "trailer_youtube_key": "ybC0PdBN_dg",
-      "age_rating": "U",
-      "tmdb_id": 37933,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=P%C5%99%C3%ADb%C4%9Bhy+ze+Zem%C4%9Bmo%C5%99%C3%AD+2006",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-27T16:05:53+00:00"
-    },
-    {
       "film_id": "prickly mountain and my design build life",
       "title_cz": "Prickly Mountain and My Design/Build Life",
       "title_en": "Prickly Mountain and My Design Build Life",
@@ -5035,6 +4931,31 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:28:35+02:00"
+    },
+    {
+      "film_id": "pta et al chamtivost a krev",
+      "title_cz": "PTA et al. - Chamtivost a krev",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/07/5163c0c7dfb3ffdd518d98222dff7e79.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=PTA+et+al.+-+Chamtivost+a+krev",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'PTA et al. - Chamtivost a krev'",
+      "match_score": 0.0
     },
     {
       "film_id": "queen budapest",
@@ -6995,31 +6916,6 @@
       "resolved_at": "2026-08-05T22:29:03+02:00"
     },
     {
-      "film_id": "volani vody",
-      "title_cz": "Volání vody",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Vol%C3%A1n%C3%AD+vody",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Volání vody'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "vzhlizet ke hvezdam",
       "title_cz": "Vzhlížet ke hvězdám",
       "title_en": "The Dog Stars",
@@ -7230,31 +7126,6 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Z%C3%A1pas+stolet%C3%AD",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Zápas století'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "zapisky skutecneho zlocince",
-      "title_cz": "Zápisky skutečného zločince",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Z%C3%A1pisky+skute%C4%8Dn%C3%A9ho+zlo%C4%8Dince",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Zápisky skutečného zločince'",
       "match_score": 0.0
     },
     {
