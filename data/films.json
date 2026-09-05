@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T09:21:24+00:00",
+  "generated_at": "2026-09-05T08:51:06+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -192,61 +192,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for '80 rozlícených novinářů'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "addamsova rodina 2",
-      "title_cz": "Addamsova rodina 2",
-      "title_en": "The Addams Family 2",
-      "original_title": "The Addams Family 2",
-      "year": 2021,
-      "synopsis": "Addamsovi se zapletou do dalších bláznivých dobrodružství a dostanou se do veselých potyček s nejrůznějšími nic netušícími postavami.",
-      "synopsis_language": "cs",
-      "runtime_min": 93,
-      "genres": [
-        "Animovaný",
-        "Rodinný",
-        "Komedie",
-        "Fantasy",
-        "Dobrodružný"
-      ],
-      "director": [
-        "Greg Tiernan",
-        "Conrad Vernon"
-      ],
-      "screenwriter": [
-        "Ben Queen",
-        "Susanna Fogel",
-        "Dan Hernandez",
-        "Benji Samit"
-      ],
-      "cast": [
-        "Oscar Isaac",
-        "Charlize Theron",
-        "Chloë Grace Moretz",
-        "Javon Walton",
-        "Nick Kroll",
-        "Snoop Dogg",
-        "Bette Midler",
-        "Bill Hader"
-      ],
-      "production_company": [
-        "Metro-Goldwyn-Mayer",
-        "Bron Studios",
-        "BermanBraun",
-        "Cinesite Animation",
-        "Nitrogen Studios Canada"
-      ],
-      "poster_path": "/c3tkebGFmyoN58r6YbGaPNM1MSA.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/wfrfxivLOBtGMC98tIr2LSOeKSe.jpg",
-      "trailer_youtube_key": "8kN4W5I_1d8",
-      "age_rating": "U",
-      "tmdb_id": 639721,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Addamsova+rodina+2+2021",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:27:34+02:00"
     },
     {
       "film_id": "amazonie",
@@ -1828,6 +1773,40 @@
       "resolved_at": "2026-08-22T05:24:24+00:00"
     },
     {
+      "film_id": "eos frida kahlo",
+      "title_cz": "EOS: Frida Kahlo",
+      "title_en": "Frida Kahlo",
+      "original_title": "Frida Kahlo",
+      "year": 2020,
+      "synopsis": "Kdo byla Frida Kahlo? Její tvář zná každý, kým ale byla žena skrývající se za zářivými barvami, výrazným obočím a květinovými věnci? Vydejte se na cestu životem skutečné ikony, objevte její umění a poznejte pravdivý příběh jejího bouřlivého, vášnivého a rebelsky prožitého života. Díky použití nejmodernějších technologií uvidíte v nejvyšší kvalitě klíčová díla napříč celou její tvorbou. Skrze vlastní dopisy Fridy Kahlo odhaluje film její nejhlubší emoce a poodkrývá tajemství i symboliku ukrytou v její tvorbě.",
+      "synopsis_language": "cs",
+      "runtime_min": 90,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Ali Ray"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "Frida Kahlo"
+      ],
+      "production_company": [
+        "Seventh Art Productions"
+      ],
+      "poster_path": "/2PlCQ5UExDjMsuX0BiSNJWdPmR9.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/YHW4wQaUdtHjnvhZH4uQtsjfqt.jpg",
+      "trailer_youtube_key": "D76y2YhjV8A",
+      "age_rating": "12+",
+      "tmdb_id": 607710,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=EOS%3A+Frida+Kahlo+2020",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-05T08:50:50+00:00"
+    },
+    {
       "film_id": "eos hieronymus bosch a jeho podivuhodny svet",
       "title_cz": "EOS: Hieronymus Bosch a jeho podivuhodný svět",
       "title_en": "The Curious World of Hieronymus Bosch",
@@ -2172,6 +2151,54 @@
       "resolved_at": "2026-08-05T22:28:02+02:00"
     },
     {
+      "film_id": "hraci",
+      "title_cz": "Hráči",
+      "title_en": "Shade",
+      "original_title": "Shade",
+      "year": 2003,
+      "synopsis": "V temné atmosféře losangeleského tajného hráčského doupěte se scházejí karbaníci. Uznávají jen jediné pravidlo: podvádět. Po dálnici k L.A. se velkou rychlostí blíží automobil. Řidič drží v ruce balíček karet, které s lehkostí snímá: kouzelník, který předvádí své triky. Falešný hráč Vernon. Jeho stará láska Tiffany je žena, která by vyřízla muži srdce, kdyby jí to mělo rychle vydělat prachy. Všichni mají společný cíl: chtějí vyhrát nad Deanem, nepřekonatelným falešným hráčem, kterému ostatní dají všechny své peníze, jen aby mohli říct, že seděli u jeho stolu. A tak přichází ke slovu ON. Velký učitel podvodů a triků Steven (SYLVESTER STALLONE) - král všech hráčů. Karty jsou rozdány a hra začíná!",
+      "synopsis_language": "cs",
+      "runtime_min": 86,
+      "genres": [
+        "Akční",
+        "Thriller",
+        "Krimi"
+      ],
+      "director": [
+        "Damian Nieman"
+      ],
+      "screenwriter": [
+        "Damian Nieman"
+      ],
+      "cast": [
+        "Stuart Townsend",
+        "Sylvester Stallone",
+        "Jamie Foxx",
+        "Gabriel Byrne",
+        "Thandiwe Newton",
+        "Melanie Griffith",
+        "Hal Holbrook",
+        "Roger Guenveur Smith"
+      ],
+      "production_company": [
+        "Judgement Pictures",
+        "Cobalt Media Group",
+        "Hammond Entertainment",
+        "RKO Pictures"
+      ],
+      "poster_path": "/2uK217wp1SSFgbIcwDaPrzlLd7X.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/4bPNy1jpf75bwHk4T7iIuEYayEJ.jpg",
+      "trailer_youtube_key": "0rCOxEgyzWQ",
+      "age_rating": "R (US)",
+      "tmdb_id": 14576,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Hr%C3%A1%C4%8Di+2003",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-05T08:50:52+00:00"
+    },
+    {
       "film_id": "hranice vernosti",
       "title_cz": "Hranice věrnosti",
       "title_en": "Open",
@@ -2325,6 +2352,31 @@
       "match_score": 0.0
     },
     {
+      "film_id": "jeji soukrome peklo",
+      "title_cz": "Její soukromé peklo",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Jej%C3%AD+soukrom%C3%A9+peklo",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Její soukromé peklo'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "kapralova",
       "title_cz": "Kaprálová",
       "title_en": "Kapralova",
@@ -2434,8 +2486,8 @@
       "resolved_at": "2026-08-13T06:14:43+00:00"
     },
     {
-      "film_id": "kino i zahradni bar ma zavreno",
-      "title_cz": "Kino i zahradní bar má zavřeno",
+      "film_id": "kino i zahradni bar maji zavreno",
+      "title_cz": "Kino i zahradní bar mají zavřeno",
       "title_en": "",
       "original_title": "",
       "year": null,
@@ -2453,9 +2505,9 @@
       "trailer_youtube_key": "",
       "age_rating": "",
       "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Kino+i+zahradn%C3%AD+bar+m%C3%A1+zav%C5%99eno",
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kino+i+zahradn%C3%AD+bar+maj%C3%AD+zav%C5%99eno",
       "resolved": false,
-      "match_reason": "TMDb returned no results for 'Kino i zahradní bar má zavřeno'",
+      "match_reason": "TMDb returned no results for 'Kino i zahradní bar mají zavřeno'",
       "match_score": 0.0
     },
     {
@@ -2957,6 +3009,56 @@
       "resolved_at": "2026-08-22T05:24:29+00:00"
     },
     {
+      "film_id": "leviatan",
+      "title_cz": "Leviatan",
+      "title_en": "Leviathan",
+      "original_title": "Leviathan",
+      "year": 1989,
+      "synopsis": "Posádka podmořské americké výzkumné stanice najde ve vraku ruské lodi Leviatan láhev s alkoholem, jeden z jejích členů se z ní napije a začne se geneticky měnit ve slizkou příšeru.",
+      "synopsis_language": "cs",
+      "runtime_min": 98,
+      "genres": [
+        "Dobrodružný",
+        "Horor",
+        "Thriller",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "George P. Cosmatos"
+      ],
+      "screenwriter": [
+        "David Webb Peoples",
+        "Jeb Stuart"
+      ],
+      "cast": [
+        "Peter Weller",
+        "Richard Crenna",
+        "Amanda Pays",
+        "Daniel Stern",
+        "Ernie Hudson",
+        "Michael Carmine",
+        "Lisa Eilbacher",
+        "Héctor Elizondo"
+      ],
+      "production_company": [
+        "Gordon Company",
+        "Filmauro",
+        "Metro-Goldwyn-Mayer",
+        "Leviathan Produzione"
+      ],
+      "poster_path": "/extm7kFsxr0qMoi1G5F3w5Lwlt4.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/21JdNVQc49WnLVjYtvDgBJ5AymB.jpg",
+      "trailer_youtube_key": "8t_ScV5C_J8",
+      "age_rating": "R (US)",
+      "tmdb_id": 14372,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Leviatan+1989",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-05T08:50:54+00:00"
+    },
+    {
       "film_id": "leviticus",
       "title_cz": "Leviticus",
       "title_en": "Leviticus",
@@ -3146,6 +3248,31 @@
       "match_score": 0.389
     },
     {
+      "film_id": "maly unaveny joe prednaska a medailon s karlem jordanem",
+      "title_cz": "Malý unavený Joe + přednáška a medailon s Karlem Jordánem",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Mal%C3%BD+unaven%C3%BD+Joe+%2B+p%C5%99edn%C3%A1%C5%A1ka+a+medailon+s+Karlem+Jord%C3%A1nem",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Malý unavený Joe + přednáška a medailon s Karlem Jordánem'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "manon opera",
       "title_cz": "Manon (Opera)",
       "title_en": "",
@@ -3169,58 +3296,6 @@
       "resolved": false,
       "match_reason": "no candidate scored above 0.75",
       "match_score": 0.595
-    },
-    {
-      "film_id": "melancholie",
-      "title_cz": "Melancholie",
-      "title_en": "Melancholia",
-      "original_title": "Melancholia",
-      "year": 2011,
-      "synopsis": "Uhrančivý příběh dvou sester, z nichž ta mladší se zrovna vdává a stává čerstvou matkou. Svatební veselí se odehrává na starobylém venkovském sídle a všeobecnou sváteční náladu zakalí náhlá hrozba v podobě rudé planety, která vystoupila zpoza slunce a s níž hrozí Zemi bezprostřední srážka.",
-      "synopsis_language": "cs",
-      "runtime_min": 130,
-      "genres": [
-        "Drama",
-        "Vědeckofantastický"
-      ],
-      "director": [
-        "Lars von Trier"
-      ],
-      "screenwriter": [
-        "Lars von Trier"
-      ],
-      "cast": [
-        "Kirsten Dunst",
-        "Charlotte Gainsbourg",
-        "Kiefer Sutherland",
-        "Alexander Skarsgård",
-        "Cameron Spurr",
-        "Stellan Skarsgård",
-        "John Hurt",
-        "Brady Corbet"
-      ],
-      "production_company": [
-        "Zentropa Entertainments",
-        "Memfis Film",
-        "Zentropa International Sweden",
-        "Slot Machine",
-        "Liberator Productions",
-        "Zentropa International Köln",
-        "DR",
-        "Film i Väst",
-        "ARTE France Cinéma"
-      ],
-      "poster_path": "/fMneszMiQuTKY8JUXrGGB5vwqJf.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/qzrS5ShZZPsPdhM5ZbcQKG7fwFo.jpg",
-      "trailer_youtube_key": "6IZGwvxhXvw",
-      "age_rating": "12",
-      "tmdb_id": 62215,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Melancholie+2011",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-22T05:24:30+00:00"
     },
     {
       "film_id": "michael",
@@ -3316,6 +3391,64 @@
       "match_reason": "verified against director/runtime (1.11, title 1.00)",
       "match_score": 1.115,
       "resolved_at": "2026-08-05T22:28:15+02:00"
+    },
+    {
+      "film_id": "minotaur",
+      "title_cz": "Minotaur",
+      "title_en": "Minotaur",
+      "original_title": "Minotaur",
+      "year": 2006,
+      "synopsis": "Když Země byla ještě mladá a magie ještě utajována“… v těchto zapomenutých časech doby železné a bronzové se nachází vesnice s hrozivou kletbou. Každých pár let musí vesnice vydat několik mladíků, které vojáci odvezou přes moře na tajemný a hrozivý ostrov. Zde jsou obětování „bohu“, který prahne po mladém masu. Theo nikdy nebyl odvezen díky protekci svého otce, vůdce vesnice (Cyrnan). Theo ví, že vojáci se za čas zase vrátí. Doba než se tak stane je podnítila skupinu mladíků, aby se vydali pro radu k Sybile. Jejich úkolem je dostat se do paláce a zde zabít Minotaura, který chrání duši krutého boha, jemuž jsou chlapci obětováni. Dokáží se děsivé kletby zbavit?",
+      "synopsis_language": "cs",
+      "runtime_min": 93,
+      "genres": [
+        "Horor",
+        "Dobrodružný",
+        "Fantasy"
+      ],
+      "director": [
+        "Jonathan English"
+      ],
+      "screenwriter": [
+        "Nick Green",
+        "Stephen McDool"
+      ],
+      "cast": [
+        "Tom Hardy",
+        "Michelle Van Der Water",
+        "Tony Todd",
+        "Lex Shrapnel",
+        "Jonathan Readwin",
+        "Rutger Hauer",
+        "Maimie McCoy",
+        "Lucy Brown"
+      ],
+      "production_company": [
+        "Kanzaman S.A.",
+        "Scion Films Limited",
+        "Millennium Media",
+        "Black Forest Films",
+        "Double Edge Entertainment",
+        "First Look International",
+        "CMW Films",
+        "Téléma",
+        "Buskin Film",
+        "Code 99",
+        "Meltemi Entertainments",
+        "Lionsgate",
+        "The Carousel Picture Company"
+      ],
+      "poster_path": "/nwSYtZNc42WaqOzkMpSuZ4NElJr.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/ig5nkwRi0AbPTYxl6zMb8u6dqkQ.jpg",
+      "trailer_youtube_key": "PIF5qAGpV-g",
+      "age_rating": "R (US)",
+      "tmdb_id": 18870,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Minotaur+2006",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-05T08:50:56+00:00"
     },
     {
       "film_id": "mistryne",
@@ -4340,6 +4473,43 @@
       "resolved_at": "2026-08-05T22:28:26+02:00"
     },
     {
+      "film_id": "pina",
+      "title_cz": "Pina",
+      "title_en": "Pina",
+      "original_title": "Pina",
+      "year": 2019,
+      "synopsis": "How would Nature feel if she was a woman, living in Rome? An asocial, weird woman Pina hates rubbish and loves nature. One day she bumps into a blind man and feels some connection with him. Pina invites him for a walk to The Magic Forest, which really exist only in her imagination. They become closer as they they walk and she describes fantastic creatures that live in the Forest around them. Can they get over the distance and fear that separates each of them from each other and the rest of the world? And in the end, did she really exist? Or was it all in his imagination?",
+      "synopsis_language": "en",
+      "runtime_min": 15,
+      "genres": [
+        "Drama",
+        "Komedie"
+      ],
+      "director": [
+        "Yulia Shuvchinskaya"
+      ],
+      "screenwriter": [
+        "Yulia Shuvchinskaya"
+      ],
+      "cast": [
+        "Bruno Di Chiara",
+        "Marzia Pellegrino",
+        "Gaia Lo Vecchio"
+      ],
+      "production_company": [],
+      "poster_path": "/lAnjPCNAKJkk76JbKl2FuXGC7nz.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 789910,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Pina+2019",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-05T08:50:57+00:00"
+    },
+    {
       "film_id": "poeta",
       "title_cz": "Poeta",
       "title_en": "A Poet",
@@ -4885,54 +5055,6 @@
       "resolved_at": "2026-08-11T05:52:34+00:00"
     },
     {
-      "film_id": "proklety ostrov",
-      "title_cz": "Prokletý ostrov",
-      "title_en": "Shutter Island",
-      "original_title": "Shutter Island",
-      "year": 2010,
-      "synopsis": "Když Americký maršál Teddy Daniels dorazí do ústavu pro duševně narušené kriminálníky na ostrově zvaném Shutter Island, odhalí o této lokalitě děsivé pravdy a uvědomí si, že z některých míst nelze nikdy uniknout.",
-      "synopsis_language": "cs",
-      "runtime_min": 138,
-      "genres": [
-        "Drama",
-        "Thriller",
-        "Mysteriózní"
-      ],
-      "director": [
-        "Martin Scorsese"
-      ],
-      "screenwriter": [
-        "Laeta Kalogridis"
-      ],
-      "cast": [
-        "Leonardo DiCaprio",
-        "Mark Ruffalo",
-        "Ben Kingsley",
-        "Max von Sydow",
-        "Michelle Williams",
-        "Emily Mortimer",
-        "Patricia Clarkson",
-        "Jackie Earle Haley"
-      ],
-      "production_company": [
-        "Paramount Pictures",
-        "Phoenix Pictures",
-        "Sikelia Productions",
-        "Appian Way"
-      ],
-      "poster_path": "/xzvAlwLQQFXouV6D4LmZQsuxJ1v.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/rbZvGN1A1QyZuoKzhCw8QPmf2q0.jpg",
-      "trailer_youtube_key": "qdPw9x9h5CY",
-      "age_rating": "18+",
-      "tmdb_id": 11324,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Proklet%C3%BD+ostrov+2010",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:35+02:00"
-    },
-    {
       "film_id": "pta et al chamtivost a krev",
       "title_cz": "PTA et al. - Chamtivost a krev",
       "title_en": "",
@@ -4956,6 +5078,51 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'PTA et al. - Chamtivost a krev'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "pulnocni expres",
+      "title_cz": "Půlnoční expres",
+      "title_en": "Midnight Express",
+      "original_title": "Midnight Express",
+      "year": 1978,
+      "synopsis": "Skutečný příběh mladého američana Billyho Hayese. Dramatický příběh natočený podle skutečné události, vypráví o mladém američanovi Billy Hayesovi, který je v Turecku odsouzen ke 30 letům vězení za to, že se u něj našlo malé množství drog. Ve vězení musí snášet každodenní mučení a ponižování. A proto si brzy uvědomuje, že pokud neuteče, tak zemře!",
+      "synopsis_language": "cs",
+      "runtime_min": 121,
+      "genres": [
+        "Drama",
+        "Krimi"
+      ],
+      "director": [
+        "Alan Parker"
+      ],
+      "screenwriter": [
+        "Oliver Stone"
+      ],
+      "cast": [
+        "Brad Davis",
+        "Irene Miracle",
+        "Bo Hopkins",
+        "Paolo Bonacelli",
+        "Paul L. Smith",
+        "Randy Quaid",
+        "Norbert Weisser",
+        "John Hurt"
+      ],
+      "production_company": [
+        "Columbia Pictures",
+        "Casablanca Filmworks"
+      ],
+      "poster_path": "/6GXioArQEdxcYqOcEfMdpyJPlwx.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/f4dcx5U9X3w27e8iithmsaohF5t.jpg",
+      "trailer_youtube_key": "lhuutAnXBzQ",
+      "age_rating": "R (US)",
+      "tmdb_id": 11327,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=P%C5%AFlno%C4%8Dn%C3%AD+expres+1978",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-05T08:50:58+00:00"
     },
     {
       "film_id": "queen budapest",
@@ -5224,6 +5391,31 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-08-21T05:29:34+00:00"
+    },
+    {
+      "film_id": "rude skaly",
+      "title_cz": "Rudé skály",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Rud%C3%A9+sk%C3%A1ly",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Rudé skály'",
+      "match_score": 0.0
     },
     {
       "film_id": "samson a dalila opera",
@@ -5668,6 +5860,220 @@
       "resolved_at": "2026-08-27T16:05:58+00:00"
     },
     {
+      "film_id": "spaseni",
+      "title_cz": "Spasení",
+      "title_en": "The Deliverance",
+      "original_title": "The Deliverance",
+      "year": 2024,
+      "synopsis": "Samoživitelka Ebony Jacksonová chce v životě začít znovu. Nastěhuje se proto s rodinou do nového domu, kde už ale žije něco strašného.",
+      "synopsis_language": "cs",
+      "runtime_min": 111,
+      "genres": [
+        "Horor",
+        "Thriller"
+      ],
+      "director": [
+        "Lee Daniels"
+      ],
+      "screenwriter": [
+        "Elijah Bynum",
+        "David Coggeshall"
+      ],
+      "cast": [
+        "Andra Day",
+        "Glenn Close",
+        "Anthony B. Jenkins",
+        "Caleb McLaughlin",
+        "Demi Singleton",
+        "Aunjanue Ellis-Taylor",
+        "Mo'Nique",
+        "Omar Epps"
+      ],
+      "production_company": [
+        "Tucker Tooley Entertainment",
+        "Turn Left Productions",
+        "Lee Daniels Entertainment"
+      ],
+      "poster_path": "/og1FteMFRInoQnlZeWqEn8XpXHh.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/qkEnklEGDFy4TRVhuHFn2DI2BP6.jpg",
+      "trailer_youtube_key": "PDcDagDcwPA",
+      "age_rating": "R (US)",
+      "tmdb_id": 930600,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Spasen%C3%AD+2024",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-05T08:50:59+00:00"
+    },
+    {
+      "film_id": "spider man 2 2004",
+      "title_cz": "Spider-Man 2 (2004)",
+      "title_en": "Spider-Man 2",
+      "original_title": "Spider-Man 2",
+      "year": 2004,
+      "synopsis": "Od chvíle, kdy se Peter Parker rozhodl opustit svou dlouholetou lásku Mary Jane Watson, aby se mohl v kostýmu Spider-Mana i nadále zodpovědně věnovat svému povolání superhrdiny, uplynuly dva roky. Jeho touha po milované M.J. se ale postupem času stala ještě silnější a proto si nyní pohrává s myšlenkou, že by se tajného života superhrdiny na důkaz své lásky vzdal. M.J. se však mezitím rozhodla jít dál vydala se na dráhu filmové herečky a v jejím životě figuruje nový muž.  Peter má problémy i se svým nejlepším přítelem Harrym Osbornem. Jejich kamarádský vztah začíná být stále více zastíněn Harryho záští vůči Spider-Manovi, jehož viní ze smrti svého otce. Když už se zdá, že se situace nemůže změnit k horšímu, je Peter postaven tváří v tvář mocnému Dr. Octopusovi ďábelské stvůře s dvěma páry smrtících chapadel, která je mu více než důstojným protivníkem. Aby dokázal jeho řádění zastavit, musí se naučit žít se svým osudem a využít všech svých schopností.",
+      "synopsis_language": "cs",
+      "runtime_min": 128,
+      "genres": [
+        "Akční",
+        "Dobrodružný",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Sam Raimi"
+      ],
+      "screenwriter": [
+        "Alvin Sargent"
+      ],
+      "cast": [
+        "Tobey Maguire",
+        "Kirsten Dunst",
+        "James Franco",
+        "Alfred Molina",
+        "Rosemary Harris",
+        "J.K. Simmons",
+        "Donna Murphy",
+        "Daniel Gillies"
+      ],
+      "production_company": [
+        "Marvel Enterprises",
+        "Laura Ziskin Productions",
+        "Columbia Pictures"
+      ],
+      "poster_path": "/aGuvNAaaZuWXYQQ6N2v7DeuP6mB.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/07/1b30f7d2f4862c350fd75f96edf41415.jpg",
+      "backdrop_path": "/6al048Lat3eLVQOuKtc9h6Tu94d.jpg",
+      "trailer_youtube_key": "CA5vsCnLm34",
+      "age_rating": "U",
+      "tmdb_id": 558,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Spider-Man+2+%282004%29+2004",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.11, title 1.00)",
+      "match_score": 1.115,
+      "resolved_at": "2026-09-05T08:51:00+00:00"
+    },
+    {
+      "film_id": "spider man 2002",
+      "title_cz": "Spider-Man (2002)",
+      "title_en": "Spider-Man",
+      "original_title": "Spider-Man",
+      "year": 2002,
+      "synopsis": "Peter Parker se stal už v raném věku sirotkem, proto ho vychovává teta May a strýc Ben. Žije v Queensu životem normálního studenta: pracuje jako fotograf ve školních novinách, touží po krásné Mary Jane Watson a tráví spoustu času se svým kamarádem Harry Osbornem. Během jednoho pokusu ve škole ho pokouše geneticky upravený pavouk a Peter brzy zjistí, že má neobvyklou sílu a schopnosti. Nejprve je chce využít k tomu, aby získal peníze, ale tváří v tvář tragédii, která udeří blízko jeho domova, se rozhodne bojovat proti zločinnosti.",
+      "synopsis_language": "cs",
+      "runtime_min": 121,
+      "genres": [
+        "Akční",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Sam Raimi"
+      ],
+      "screenwriter": [
+        "David Koepp"
+      ],
+      "cast": [
+        "Tobey Maguire",
+        "Willem Dafoe",
+        "Kirsten Dunst",
+        "James Franco",
+        "Cliff Robertson",
+        "Rosemary Harris",
+        "J.K. Simmons",
+        "Joe Manganiello"
+      ],
+      "production_company": [
+        "Marvel Enterprises",
+        "Laura Ziskin Productions",
+        "Columbia Pictures"
+      ],
+      "poster_path": "/or6XJBVpcEbIkma0V9zshnbEtx4.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/07/44f791c60bb7e181c0df0ba2147ad8b7.jpg",
+      "backdrop_path": "/zQ8AxTPiCiS5nnwXpwTBPBHSaa5.jpg",
+      "trailer_youtube_key": "t06RUxPbp_c",
+      "age_rating": "U",
+      "tmdb_id": 557,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Spider-Man+%282002%29+2002",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-09-05T08:51:02+00:00"
+    },
+    {
+      "film_id": "spider man 3 2007",
+      "title_cz": "Spider-Man 3 (2007)",
+      "title_en": "Spider-Man 3",
+      "original_title": "Spider-Man 3",
+      "year": 2007,
+      "synopsis": "Ve třetím pokračování dobrodružství slavného komiksového hrdiny se „pavoučí muž“, pod jehož maskou se ukrývá plachý student Peter Parker, zamilovaný do své spolužačky Mary Jane, pouští do boje nejen s nebezpečnými padouchy, ale i se svým temným a agresivním „druhým já“. Jeho láska sice získala angažmá na Broadwayi v muzikálu Vzpomínky na Manhattan, ale kritika její výkon strhala. Peter ovšem nemá čas ji utěšovat. Musí do akce a díky různým nedorozuměním se mu jeho dívka začne vzdalovat. Někdejší přítel Harry, který Petera neprávem viní ze smrti svého otce, ho napadne, ale skončí v nemocnici s těžkým zraněním. Peter se také dozvídá pravdu o vrahovi svého strýce a začíná ho stále víc ovládat temná síla, měnící jeho červenomodrý kostým v černý. Dokáže se jí ubránit a získat zpět tu, kterou tolik miluje?",
+      "synopsis_language": "cs",
+      "runtime_min": 139,
+      "genres": [
+        "Akční",
+        "Dobrodružný",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Sam Raimi"
+      ],
+      "screenwriter": [
+        "Alvin Sargent",
+        "Sam Raimi",
+        "Ivan Raimi"
+      ],
+      "cast": [
+        "Tobey Maguire",
+        "Kirsten Dunst",
+        "James Franco",
+        "Thomas Haden Church",
+        "Topher Grace",
+        "Bryce Dallas Howard",
+        "Rosemary Harris",
+        "J.K. Simmons"
+      ],
+      "production_company": [
+        "Laura Ziskin Productions",
+        "Marvel Studios",
+        "Columbia Pictures"
+      ],
+      "poster_path": "/aeAcsDp8VDRhgkTPGuQ8t7XwAB9.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/07/cfc8964f65a13db41d5eac7a64ec752b.jpg",
+      "backdrop_path": "/FfAU0PUs8AJkMU2VbkVNFtRXR4.jpg",
+      "trailer_youtube_key": "e5wUilOeOmg",
+      "age_rating": "U",
+      "tmdb_id": 559,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Spider-Man+3+%282007%29+2007",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-09-05T08:51:03+00:00"
+    },
+    {
+      "film_id": "spider man maraton",
+      "title_cz": "Spider-Man maraton",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/07/09eec1df340776b49e7696ecb5f0d098.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Spider-Man+maraton",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Spider-Man maraton'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "spider man zbrusu novy den",
       "title_cz": "Spider-Man: Zbrusu nový den",
       "title_en": "Spider-Man: Brand New Day",
@@ -6104,6 +6510,59 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-08-31T11:20:54+00:00"
+    },
+    {
+      "film_id": "takovi normalni zabijaci",
+      "title_cz": "Takoví normální zabijáci",
+      "title_en": "Natural Born Killers",
+      "original_title": "Natural Born Killers",
+      "year": 1994,
+      "synopsis": "Mallory neměla mnoho důvodů být šťastná. Otec ji tyranizoval a sexuálně obtěžoval, matka nepodnikala nic na dceřinu obranu. Když se dívka náhodně setkala s Mickeym, byla z toho láska na první pohled. Ještě téhož večera si tajně vypůjčili auto Malloryina otce a vyrazili na projížďku. Otec nahlásil krádež policii, uprchlíci byli dopadeni a Mickey putoval za mříže. Podařilo se mu však utéct, a tak se zanedlouho znovu objevil u Mallory. Jejich setkání mělo hrůzný průběh: nejprve zbili dívčina otce, pak ho utopili v akváriu, a poté přišla na řadu matka tu polili v posteli benzínem a Mallory ji zapálila. Mladí milenci se dávají na útěk a nechávají za sebou další mrtvé. Jejich řádění sledují sdělovací prostředky, policie je jim na stopě...",
+      "synopsis_language": "cs",
+      "runtime_min": 119,
+      "genres": [
+        "Krimi",
+        "Thriller",
+        "Drama"
+      ],
+      "director": [
+        "Oliver Stone"
+      ],
+      "screenwriter": [
+        "David Veloz",
+        "Richard Rutowski",
+        "Oliver Stone",
+        "Quentin Tarantino"
+      ],
+      "cast": [
+        "Woody Harrelson",
+        "Juliette Lewis",
+        "Robert Downey Jr.",
+        "Tommy Lee Jones",
+        "Tom Sizemore",
+        "Rodney Dangerfield",
+        "Edie McClurg",
+        "Jared Harris"
+      ],
+      "production_company": [
+        "Warner Bros. Pictures",
+        "Regency Enterprises",
+        "Alcor Films",
+        "Ixtlan Productions",
+        "New Regency Pictures",
+        "JD Productions"
+      ],
+      "poster_path": "/6omcsys8ph0sx1ufAIVDZAB4lPy.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/k3TOt50cHvTLXWYPnXP0szhiXB8.jpg",
+      "trailer_youtube_key": "XJyLi-3qsDs",
+      "age_rating": "15+",
+      "tmdb_id": 241,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Takov%C3%AD+norm%C3%A1ln%C3%AD+zabij%C3%A1ci+1994",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-05T08:51:04+00:00"
     },
     {
       "film_id": "terminator 2 den zuctovani",
@@ -6962,6 +7421,31 @@
       "resolved_at": "2026-08-19T05:30:39+00:00"
     },
     {
+      "film_id": "vzpominka na princeznu mumbi",
+      "title_cz": "Vzpomínka na princeznu Mumbi",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Vzpom%C3%ADnka+na+princeznu+Mumbi",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Vzpomínka na princeznu Mumbi'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "vzpoura",
       "title_cz": "Vzpoura",
       "title_en": "Mutiny",
@@ -7104,6 +7588,31 @@
       "match_score": 0.0
     },
     {
+      "film_id": "zadni dobri muzi",
+      "title_cz": "Žádní dobří muži",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%BD%C3%A1dn%C3%AD+dob%C5%99%C3%AD+mu%C5%BEi",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Žádní dobří muži'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "zapas stoleti",
       "title_cz": "Zápas století",
       "title_en": "",
@@ -7174,6 +7683,52 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-08-20T05:29:36+00:00"
+    },
+    {
+      "film_id": "zlaty vek",
+      "title_cz": "Zlatý věk",
+      "title_en": "L'Âge d'or",
+      "original_title": "L'Âge d'or",
+      "year": 1930,
+      "synopsis": "Film se skládá z řady těsně propojených vinět, z nichž ta nejtrvalejší popisuje příběh muže a ženy, kteří se vášnivě milují. Jejich pokusy o naplnění vášně jsou neustále mařeny jejich rodinami, církví i měšťanskou společností obecně.",
+      "synopsis_language": "cs",
+      "runtime_min": 63,
+      "genres": [
+        "Romantický",
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "Luis Buñuel"
+      ],
+      "screenwriter": [
+        "Luis Buñuel",
+        "Salvador Dalí"
+      ],
+      "cast": [
+        "Gaston Modot",
+        "Lya Lys",
+        "Caridad de Laberdesque",
+        "Max Ernst",
+        "Josep Llorens Artigas",
+        "Lionel Salem",
+        "Germaine Noizet",
+        "Duchange"
+      ],
+      "production_company": [
+        "Vicomte de Noailles"
+      ],
+      "poster_path": "/eSqRMWp6gRgbKT6lxNrDDnml5dX.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/9sm4hWWjbLVVRhsokPaa1toqHe7.jpg",
+      "trailer_youtube_key": "Q14oKtsd-Zw",
+      "age_rating": "",
+      "tmdb_id": 5729,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Zlat%C3%BD+v%C4%9Bk+1930",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-05T08:51:06+00:00"
     },
     {
       "film_id": "znameni",
