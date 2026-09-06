@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T08:51:06+00:00",
+  "generated_at": "2026-09-06T09:10:50+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -1013,55 +1013,6 @@
       "resolved_at": "2026-08-05T22:27:46+02:00"
     },
     {
-      "film_id": "chlast",
-      "title_cz": "Chlast",
-      "title_en": "Another Round",
-      "original_title": "Druk",
-      "year": 2020,
-      "synopsis": "Existuje teorie, že bychom se měli rodit s malým množstvím alkoholu v krvi a že mírná podnapilost otevírá naši mysl světu kolem nás, zmenšuje naše problémy a zvyšuje naši kreativitu. Povzbuzeni touto teorií se Martin a jeho tři přátelé, všichni znavení středoškolští učitelé, pustí do experimentu spočívajícího v tom, že si během pracovního dne udržují stálou hladinku. Jestliže Churchill vyhrál druhou světovou válku v alkoholovém oparu, co by pár kapek mohlo znamenat pro ně a jejich studenty? Prvotní výsledky jsou povzbudivé a tento malý projekt se stane opravdovým akademickým výzkumem. Jak jejich hodiny, tak výsledky se zlepšují a skupina znovu dostane chuť do života! Když však výzkum přeženou, někteří musí skončit. Je stále jasnější, že i když alkohol mohl dopomoci ke skvělým úspěchům v historii, některé odvážné činy mají své následky.",
-      "synopsis_language": "cs",
-      "runtime_min": 112,
-      "genres": [
-        "Komedie",
-        "Drama"
-      ],
-      "director": [
-        "Thomas Vinterberg"
-      ],
-      "screenwriter": [
-        "Tobias Lindholm",
-        "Thomas Vinterberg"
-      ],
-      "cast": [
-        "Mads Mikkelsen",
-        "Thomas Bo Larsen",
-        "Magnus Millang",
-        "Lars Ranthe",
-        "Maria Bonnevie",
-        "Helene Reingaard Neumann",
-        "Susse Wold",
-        "Magnus Sjørup"
-      ],
-      "production_company": [
-        "Zentropa Entertainments",
-        "Film i Väst",
-        "Topkapi Films",
-        "Zentropa International Sweden",
-        "Zentropa International Netherlands"
-      ],
-      "poster_path": "/7Ig5QyCQdIzdGOsxTesGKN7DBnA.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/a2pPepVPtKY7E4XEkT7W3ZxUOY5.jpg",
-      "trailer_youtube_key": "0aGgbUMr6hQ",
-      "age_rating": "15+",
-      "tmdb_id": 580175,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Chlast+2020",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-27T16:05:44+00:00"
-    },
-    {
       "film_id": "cinemini",
       "title_cz": "CINEMINI",
       "title_en": "",
@@ -1286,51 +1237,6 @@
       "resolved_at": "2026-08-05T22:27:51+02:00"
     },
     {
-      "film_id": "dabel nosi pradu 2",
-      "title_cz": "Ďabel nosí Pradu 2",
-      "title_en": "The Devil Wears Prada 2",
-      "original_title": "The Devil Wears Prada 2",
-      "year": 2026,
-      "synopsis": "Téměř 20 let po svém ikonickém ztvárnění postav Mirandy, Andy, Emily a Nigela se Meryl Streep, Anne Hathaway, Emily Blunt a Stanley Tucci vrací do módních ulic New Yorku a elegantních kanceláří časopisu Runway v netrpělivě očekávaném pokračování fenoménu z roku 2006, který zasáhl, ovlinil a definoval celou generaci.",
-      "synopsis_language": "cs",
-      "runtime_min": 119,
-      "genres": [
-        "Komedie",
-        "Drama"
-      ],
-      "director": [
-        "David Frankel"
-      ],
-      "screenwriter": [
-        "Aline Brosh McKenna"
-      ],
-      "cast": [
-        "Anne Hathaway",
-        "Meryl Streep",
-        "Emily Blunt",
-        "Stanley Tucci",
-        "Kenneth Branagh",
-        "Justin Theroux",
-        "Lucy Liu",
-        "Tracie Thoms"
-      ],
-      "production_company": [
-        "20th Century Studios",
-        "Wendy Finerman Productions"
-      ],
-      "poster_path": "/vVF3wmBRNmCjQhgmgENUAisELok.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/Af907x5h9W1wVis8XrSd7ynTWuy.jpg",
-      "trailer_youtube_key": "kFi_9bR5zdw",
-      "age_rating": "U",
-      "tmdb_id": 1314481,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=%C4%8Eabel+nos%C3%AD+Pradu+2+2026",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-22T05:24:23+00:00"
-    },
-    {
       "film_id": "dalajlama ocean moudrosti",
       "title_cz": "Dalajlama - Oceán moudrosti",
       "title_en": "Dalai Lama - Ocean of Wisdom",
@@ -1390,53 +1296,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Děvče ze Západu (Opera)'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "die my love",
-      "title_cz": "Die My Love",
-      "title_en": "Die My Love",
-      "original_title": "Die My Love",
-      "year": 2025,
-      "synopsis": "Grace a Jackson jsou po uši zamilovaní. Po narození dítěte a přestěhování na venkov si malují společnou budoucnost plnou nadějí a snů. Jenže Grace, vyčerpaná mateřstvím a otrávená vlastním životem, v sobě cítí narůstat něco divokého – nespoutanou energii, kterou nedokáže zastavit. Nekompromisní, temně komický psychothriller Lynne Ramsay vás vtáhne do chaosu ženské duše jako málokterý film.",
-      "synopsis_language": "cs",
-      "runtime_min": 119,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Lynne Ramsay"
-      ],
-      "screenwriter": [
-        "Lynne Ramsay",
-        "Enda Walsh",
-        "Alice Birch"
-      ],
-      "cast": [
-        "Jennifer Lawrence",
-        "Robert Pattinson",
-        "Sissy Spacek",
-        "LaKeith Stanfield",
-        "Nick Nolte",
-        "Gabrielle Rose",
-        "Clare Coulter",
-        "Sarah Lind"
-      ],
-      "production_company": [
-        "Excellent Cadaver",
-        "Sikelia Productions",
-        "Black Label Media"
-      ],
-      "poster_path": "/kajpShbFhOdpl6yCrLezMrr9tB4.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/dEkFlZzj2cb5F7SShvqkL54E4lr.jpg",
-      "trailer_youtube_key": "2jzXHW6Qe70",
-      "age_rating": "15+",
-      "tmdb_id": 1033148,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Die+My+Love+2025",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-27T16:05:46+00:00"
     },
     {
       "film_id": "divka v oblacich",
@@ -2229,31 +2088,6 @@
       "resolved_at": "2026-08-05T22:28:03+02:00"
     },
     {
-      "film_id": "i m game",
-      "title_cz": "I'm Game",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/5147S2R1.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=I%27m+Game",
-      "resolved": false,
-      "match_reason": "title matched 'The Pajama Game' but runtime contradict it",
-      "match_score": 0.559
-    },
-    {
       "film_id": "insidious jsou mezi nami",
       "title_cz": "Insidious: Jsou mezi námi",
       "title_en": "Insidious: Out of the Further",
@@ -2327,6 +2161,58 @@
       "match_score": 0.0
     },
     {
+      "film_id": "jak na vec",
+      "title_cz": "Jak na věc",
+      "title_en": "About a Boy",
+      "original_title": "About a Boy",
+      "year": 2002,
+      "synopsis": "Osmatřicetiletý Will je typický londýnský playboy. Je bohatý, svobodný, bezdětný a bezstarostný. Ale jen do chvíle, než mu jedna z bezpočtu přítelkyň, které až dosud střídal ve svižném tempu, dá \"kopačky\". A víte proč? Kvůli svému dítěti. Právě tato nová a zcela nepochopitelná zkušenost přivede Willa do nedotčeného \"loviště\", a tím je Sdružení osamělých rodičů, kde jsou téměř výhradně svobodné či rozvedené ženy. Právě díky Susie, té nejatraktivnější, se Will jedné neděle seznámí s Marcusem. Je to divný kluk a ještě podivnější je jeho matka Fiona.",
+      "synopsis_language": "cs",
+      "runtime_min": 101,
+      "genres": [
+        "Drama",
+        "Komedie",
+        "Romantický"
+      ],
+      "director": [
+        "Paul Weitz",
+        "Chris Weitz"
+      ],
+      "screenwriter": [
+        "Peter Hedges",
+        "Chris Weitz",
+        "Paul Weitz"
+      ],
+      "cast": [
+        "Hugh Grant",
+        "Nicholas Hoult",
+        "Toni Collette",
+        "Rachel Weisz",
+        "Natalia Tena",
+        "Victoria Smurfit",
+        "Augustus Prew",
+        "Sharon Small"
+      ],
+      "production_company": [
+        "Universal Pictures",
+        "Tribeca Productions",
+        "Working Title Films",
+        "Kalima Productions",
+        "StudioCanal"
+      ],
+      "poster_path": "/qoZ1bD0q9EFqcNiEYbEigsRcNCt.jpg",
+      "poster_fallback_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/08/14/882453e38ee55ce6b116a0c04928107c.webp",
+      "backdrop_path": "/xxiPjhXigJ4zPiqqrA77FK10ULo.jpg",
+      "trailer_youtube_key": "xC7REp40_uc",
+      "age_rating": "12+",
+      "tmdb_id": 245,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Jak+na+v%C4%9Bc+2002",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-09-06T09:10:50+00:00"
+    },
+    {
       "film_id": "jam sessh prague vol 73",
       "title_cz": "Jam Sessh Prague vol. 73",
       "title_en": "",
@@ -2377,75 +2263,6 @@
       "match_score": 0.0
     },
     {
-      "film_id": "kapralova",
-      "title_cz": "Kaprálová",
-      "title_en": "Kapralova",
-      "original_title": "Kaprálová",
-      "year": 2026,
-      "synopsis": "Czech composer Vítězslava Kaprálová was 22 years old when she left to study music in Paris in 1937. Three years later, she died of illness. This documentary, conceived as a dialogue across time and generations, follows in her footsteps. The short but intense period of the composer's life is reconstructed using archival footage and letters full of immediate impressions that the young artist shared with her family in Czechoslovakia. Her legacy is brought to life in parallel thanks to a new generation of conductors, such as Bianca Maretti, who rehearses some of her predecessor's compositions with an orchestra. Kaprálová's portrait thus becomes a tribute to all women who, despite language barriers, prejudices, and their origins, have managed to make their mark in the world of classical music.",
-      "synopsis_language": "en",
-      "runtime_min": 70,
-      "genres": [
-        "Dokumentární"
-      ],
-      "director": [
-        "Petr Záruba"
-      ],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "/72I8ODotVAlThiRkcvgnEehKr1m.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1571238,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Kapr%C3%A1lov%C3%A1+2026",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-22T05:24:27+00:00"
-    },
-    {
-      "film_id": "katy perry the lifetimes tour live from paris",
-      "title_cz": "Katy Perry: The Lifetimes Tour - Live from Paris",
-      "title_en": "Katy Perry: The Lifetimes Tour - Live from Paris",
-      "original_title": "Katy Perry: The Lifetimes Tour - Live from Paris",
-      "year": 2026,
-      "synopsis": "Capturing Katy Perry’s electrifying, immersive concert experience, Katy Perry: The Lifetimes Tour – Live from Paris blends powerhouse performances, exhilarating cinematography, and intimate moments to bring audiences into the spectacular world of this creative artist.",
-      "synopsis_language": "en",
-      "runtime_min": 119,
-      "genres": [
-        "Dokumentární",
-        "Hudební"
-      ],
-      "director": [
-        "Paul Dugdale"
-      ],
-      "screenwriter": [
-        "Katy Perry"
-      ],
-      "cast": [
-        "Katy Perry"
-      ],
-      "production_company": [
-        "SiFi Productions",
-        "Silent House Productions",
-        "10 Lives Content"
-      ],
-      "poster_path": "/ulsXx67XgRupN53gZHCuzwBEA7O.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/1BfOqbDhvtmAv7SwyobM5eTjQMm.jpg",
-      "trailer_youtube_key": "pfoJZGiPsOw",
-      "age_rating": "G (US)",
-      "tmdb_id": 1684016,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Katy+Perry%3A+The+Lifetimes+Tour+-+Live+from+Paris+2026",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-27T16:05:48+00:00"
-    },
-    {
       "film_id": "kdyby se holubi promenili ve zlato",
       "title_cz": "Kdyby se holubi proměnili ve zlato",
       "title_en": "If Pigeons Turned to Gold",
@@ -2484,56 +2301,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-13T06:14:43+00:00"
-    },
-    {
-      "film_id": "kino i zahradni bar maji zavreno",
-      "title_cz": "Kino i zahradní bar mají zavřeno",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Kino+i+zahradn%C3%AD+bar+maj%C3%AD+zav%C5%99eno",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Kino i zahradní bar mají zavřeno'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "kinospunti a kapybary",
-      "title_cz": "Kinošpunti a kapybary",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Kino%C5%A1punti+a+kapybary",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Kinošpunti a kapybary'",
-      "match_score": 0.0
     },
     {
       "film_id": "konec oak street",
@@ -2604,96 +2371,6 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-08-22T05:24:27+00:00"
-    },
-    {
-      "film_id": "kour",
-      "title_cz": "Kouř",
-      "title_en": "The Smoke",
-      "original_title": "Kouř",
-      "year": 1991,
-      "synopsis": "Mladý inženýr přichází na své první působiště se záměrem pracovat, což se však v bizarních poměrech éry posledních let totalitní křeče ukáže být šokujícím výstřelkem. Mirek svým neobvykle normálním postojem uvede do chodu běh \"místních\" dějin, a tak společenské zlo zosobněné nekompetentními šéfy je aktuálně svrženo spravedlivě rozhořčeným, probuzeným davem a jsou nastoleny nové pořádky, které však v mnohém začínají připomínat pořádky staré, obrácené naruby.",
-      "synopsis_language": "cs",
-      "runtime_min": 90,
-      "genres": [
-        "Komedie",
-        "Hudební"
-      ],
-      "director": [
-        "Tomáš Vorel"
-      ],
-      "screenwriter": [
-        "Tomáš Vorel",
-        "Lumír Tuček"
-      ],
-      "cast": [
-        "Jan Slovák",
-        "Lucie Zedníčková",
-        "Jaroslav Dušek",
-        "Monika Šeligová",
-        "Jan Fuchs",
-        "Ladislav Myslivec",
-        "Eva Holubová",
-        "Šimon Caban"
-      ],
-      "production_company": [
-        "Filmové studio Barrandov"
-      ],
-      "poster_path": "/q6ECC6VDdw89to0beMBltfQ2Vn4.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/6HRBwdsFxh9KWC9nSvm4jgEQBWd.jpg",
-      "trailer_youtube_key": "PY5emfPJ5aY",
-      "age_rating": "",
-      "tmdb_id": 55636,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Kou%C5%99+1991",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-22T05:24:28+00:00"
-    },
-    {
-      "film_id": "kralove videa",
-      "title_cz": "Králové videa",
-      "title_en": "Video Kings",
-      "original_title": "Králi videa",
-      "year": 2020,
-      "synopsis": "Dokument mapující časy, kdy českým videím vládly rychlodabingy, filmy se nakupovaly na černých burzách a hromadně se pořádaly domácí videoprojekce. Na svoji dobu vzpomínají tehdejší piráti, dabéři, distributoři a vůbec všichni ti, díky kterým bylo čím videa krmit.",
-      "synopsis_language": "cs",
-      "runtime_min": 82,
-      "genres": [
-        "Dokumentární"
-      ],
-      "director": [
-        "Lukáš Bulava"
-      ],
-      "screenwriter": [
-        "Petr Svoboda",
-        "Lukáš Bulava"
-      ],
-      "cast": [
-        "Ondřej Hejma",
-        "Zdeněk Troška",
-        "Roman Holý",
-        "František Fuka",
-        "Dana Hábová",
-        "Ondřej Neff",
-        "Petr Šaroch",
-        "Jozef Šedý"
-      ],
-      "production_company": [
-        "Atractive production",
-        "Blackout productions"
-      ],
-      "poster_path": "/yNqxuRfxyIMQ4BmApRfTMrRoPPd.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/upD9iaQLCzJS9PoxBtdEmFcss5T.jpg",
-      "trailer_youtube_key": "YIONlWvJAwk",
-      "age_rating": "",
-      "tmdb_id": 719460,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1lov%C3%A9+videa+2020",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-01T09:47:43+00:00"
     },
     {
       "film_id": "kralovska opera carmen 2026 27",
@@ -3151,50 +2828,6 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-11T05:52:33+00:00"
-    },
-    {
-      "film_id": "lisak a zajda zachranuji les",
-      "title_cz": "Lišák a Zajda zachraňují les",
-      "title_en": "Fox and Hare Save the Forest",
-      "original_title": "Fox and Hare Save the Forest",
-      "year": 2024,
-      "synopsis": "Nadešel velký den! Karel Bobrý, největší stavitel mezi bobry, slavnostně otevírá své mistrovské dílo – obrovskou přehradu, kterou postavil se svými krysími pomocníky. Zatímco bobr sní o obdivu a slávě, Lišák a Zajda pořádají večírek se svými zvířecími přáteli. Ráno ale zjistí, že zmizel jejich kamarád Výr a jejich milovaný les se pomalu zaplavuje vodou. Je za tím Karel a jeho přehrada? Lišák a Zajda se vydávají na dobrodružnou cestu plnou humoru a napětí, aby zachránili Výra i svůj domov.",
-      "synopsis_language": "cs",
-      "runtime_min": 72,
-      "genres": [
-        "Animovaný",
-        "Dobrodružný",
-        "Rodinný"
-      ],
-      "director": [
-        "Mascha Halberstad"
-      ],
-      "screenwriter": [
-        "Fabie van Hulsebos"
-      ],
-      "cast": [
-        "Alex Klaasen",
-        "Remko Vrijdag",
-        "Sigrid ten Napel",
-        "Ilse Warringa",
-        "Robrecht Vanden Thoren"
-      ],
-      "production_company": [
-        "Submarine",
-        "Doghouse Films",
-        "Walking The Dog"
-      ],
-      "poster_path": "/rZQ93JZ1VzKdch2sY1DbccQN8WR.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/4sHXKmoUZan9oGFFHSUADGVza6p.jpg",
-      "trailer_youtube_key": "JaOch6z9TZw",
-      "age_rating": "U",
-      "tmdb_id": 1061785,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Li%C5%A1%C3%A1k+a+Zajda+zachra%C5%88uj%C3%AD+les+2024",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-27T16:05:48+00:00"
     },
     {
       "film_id": "macbeth opera",
@@ -4258,51 +3891,6 @@
       "resolved_at": "2026-08-05T22:28:25+02:00"
     },
     {
-      "film_id": "padli andele",
-      "title_cz": "Padlí andělé",
-      "title_en": "Fallen Angels",
-      "original_title": "墮落天使",
-      "year": 1995,
-      "synopsis": "Profesionální zabiják se chystá na svou poslední zakázku. Nejprve ale musí nějak překonat svou náklonost ke své chladné kolegyni. Uvědomuje si, že zaplést se s kolegyní je nejen nevhodné, ale i nebezpečné. Pod nepříjemně temnou, až surrealistickou noční oblohou velkoměsta se setkává s tulačkou, která pátrá po svém bývalém příteli. A zaujme zabijáka svými nekonvenčními způsoby, kterými se na sebe snaží upoutat pozornost.",
-      "synopsis_language": "cs",
-      "runtime_min": 97,
-      "genres": [
-        "Akční",
-        "Romantický",
-        "Krimi"
-      ],
-      "director": [
-        "Wong Kar-Wai"
-      ],
-      "screenwriter": [
-        "Wong Kar-Wai"
-      ],
-      "cast": [
-        "Leon Lai Ming",
-        "Michele Reis",
-        "Takeshi Kaneshiro",
-        "Charlie Yeung Choi-Nei",
-        "Karen Mok Man-Wai",
-        "Chan Man-Lei",
-        "Toru Saito",
-        "Benz Kong To-Hoi"
-      ],
-      "production_company": [
-        "Jet Tone Production"
-      ],
-      "poster_path": "/yyM9BPdwttK5LKZSLvHae7QPKo1.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/lInQVVbPjKFGX7GDcxNMXALy2Y4.jpg",
-      "trailer_youtube_key": "uxaT19BlH0M",
-      "age_rating": "12+",
-      "tmdb_id": 11220,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Padl%C3%AD+and%C4%9Bl%C3%A9+1995",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-22T05:24:33+00:00"
-    },
-    {
       "film_id": "papucovy den s filmem chica checa",
       "title_cz": "Papučový den s filmem Chica Checa",
       "title_en": "",
@@ -4913,57 +4501,6 @@
       "resolved_at": "2026-08-27T16:05:54+00:00"
     },
     {
-      "film_id": "princezna kosmolesba",
-      "title_cz": "Princezna kosmolesba",
-      "title_en": "Lesbian Space Princess",
-      "original_title": "Lesbian Space Princess",
-      "year": 2025,
-      "synopsis": "Introvertní princezna Saira, dcera okázalých lesbických královen planety Clitopolis, je zdrcená, když se s ní její přítelkyně, lovkyně lidí Kiki, náhle rozejde, protože přespříliš vyžaduje jeji pozornost. Když je Kiki unesena heterosexuálními bílými mufouny – zapomenutými inceli budoucnosti –, musí Saira opustit pohodlí homosexuálního vesmíru, aby doručila požadované výkupné: její královský labrys, nejmocnější zbraň známou lesbickému druhu. Jediný problém je... že ji Saira nemá! Saira má na získání zbraně a záchranu Kiki pouhých 24 hodin, a tak se vydává na inter-gay-laktickou cestu sebepoznání, která zahrnuje setkání s problematickou vesmírnou lodí a nově nalezené přátelství s gay-popovou uprchlicí Willow. Bujaré, cukrkandlově barevné animované komediální dobrodružství napříč všeobjímající rozlehlostí queer vesmíru.",
-      "synopsis_language": "cs",
-      "runtime_min": 87,
-      "genres": [
-        "Animovaný",
-        "Komedie",
-        "Vědeckofantastický",
-        "Dobrodružný"
-      ],
-      "director": [
-        "Leela Varghese",
-        "Emma Hough Hobbs"
-      ],
-      "screenwriter": [
-        "Emma Hough Hobbs",
-        "Leela Varghese"
-      ],
-      "cast": [
-        "Shabana Azeez",
-        "Gemma Chua-Tran",
-        "Richard Roxburgh",
-        "Bernie Van Tiel",
-        "Kween Kong",
-        "Jordan Raskopoulos",
-        "Madeleine Sami",
-        "Zachary Ruane"
-      ],
-      "production_company": [
-        "We Made a Thing Studios",
-        "South Australian Film Corporation",
-        "Screen Australia",
-        "Umbrella Entertainment"
-      ],
-      "poster_path": "/fFa0cGVdQAU6RiNvE1SUpmnBhCc.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/rS0ewRtB2ugDvbaVUoCXOpBOppM.jpg",
-      "trailer_youtube_key": "Nra14aUNYS8",
-      "age_rating": "",
-      "tmdb_id": 1333141,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Princezna+kosmolesba+2025",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:28:34+02:00"
-    },
-    {
       "film_id": "prisaham ze za to nemuzu",
       "title_cz": "Přísahám, že za to nemůžu",
       "title_en": "I Swear",
@@ -5251,8 +4788,8 @@
       "resolved_at": "2026-08-06T07:39:56+00:00"
     },
     {
-      "film_id": "rodinne predstaveni",
-      "title_cz": "RODINNÉ PŘEDSTAVENÍ | Zdravím tě, světe!",
+      "film_id": "rodina rodychi",
+      "title_cz": "Rodina (Rodychi)",
       "title_en": "",
       "original_title": "",
       "year": null,
@@ -5270,9 +4807,9 @@
       "trailer_youtube_key": "",
       "age_rating": "",
       "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=RODINN%C3%89+P%C5%98EDSTAVEN%C3%8D+%7C+Zdrav%C3%ADm+t%C4%9B%2C+sv%C4%9Bte%21",
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Rodina+%28Rodychi%29",
       "resolved": false,
-      "match_reason": "TMDb returned no results for 'RODINNÉ PŘEDSTAVENÍ'",
+      "match_reason": "TMDb returned no results for 'Rodina (Rodychi)'",
       "match_score": 0.0
     },
     {
@@ -7490,52 +7027,6 @@
       "match_reason": "verified against director/runtime (1.05, title 1.00)",
       "match_score": 1.05,
       "resolved_at": "2026-08-25T05:29:13+00:00"
-    },
-    {
-      "film_id": "wall street",
-      "title_cz": "Wall Street",
-      "title_en": "Wall Street",
-      "original_title": "Wall Street",
-      "year": 1987,
-      "synopsis": "Nová bitva Olivera Stonea se odehrává na Wall Streetu, v místě, kde se obchoduje za odměnu a vynaloženou sílu. Na jedné straně jsou tu bezohlední milionáři, na straně druhé přehnaně iniciativní nováčci. Dva muži obchodují se svými ženami, rodinami a zároveň proti přesile finančního světa.",
-      "synopsis_language": "cs",
-      "runtime_min": 126,
-      "genres": [
-        "Krimi",
-        "Drama"
-      ],
-      "director": [
-        "Oliver Stone"
-      ],
-      "screenwriter": [
-        "Oliver Stone",
-        "Stanley Weiser"
-      ],
-      "cast": [
-        "Michael Douglas",
-        "Charlie Sheen",
-        "Martin Sheen",
-        "Daryl Hannah",
-        "John C. McGinley",
-        "Hal Holbrook",
-        "Sean Young",
-        "Terence Stamp"
-      ],
-      "production_company": [
-        "20th Century Fox",
-        "Pressman Film"
-      ],
-      "poster_path": "/2tQYq9ntzn2dEwDIGLBSipYPenv.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/v46Uq29FXcl4huvu1Nh7tJ5qAjZ.jpg",
-      "trailer_youtube_key": "Q21U6TxveU0",
-      "age_rating": "R (US)",
-      "tmdb_id": 10673,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Wall+Street+1987",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-27T16:06:02+00:00"
     },
     {
       "film_id": "wellness vikend",

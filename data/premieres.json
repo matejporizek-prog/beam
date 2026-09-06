@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T08:51:07+00:00",
+  "generated_at": "2026-09-06T09:10:52+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -1460,6 +1460,47 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-10-08"
+    },
+    {
+      "film_id": "sipkari",
+      "title_cz": "Šipkaři",
+      "title_en": "Šipkaři",
+      "original_title": "Šipkaři",
+      "year": 2026,
+      "synopsis": "The Darts Players combine black humour, action and a crime plot with a healthy dose of absurdity. Their world is full of characters who have their own agendas, are hiding something and are convinced that they, of all people, have everything under control. The main character, Pepé, believes that this time it will finally work out. All he needs to do is make a few right decisions, find the right people, not panic and, above all, not mess anything up. But his life has never quite gone to plan. When he meets Milánek again after a year, a series of events unfolds that nobody could have foreseen.",
+      "synopsis_language": "en",
+      "runtime_min": 93,
+      "genres": [
+        "Komedie"
+      ],
+      "director": [
+        "Jakub Machala"
+      ],
+      "screenwriter": [
+        "Tomáš Dušička",
+        "Jakub Machala",
+        "Daniel Dangl"
+      ],
+      "cast": [
+        "Tomáš Maštalír",
+        "Jakub Štáfek",
+        "Tatiana Pauhofová",
+        "Kryštof Hádek",
+        "Ivan Franěk"
+      ],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "bcrt5wN2mDk",
+      "age_rating": "U",
+      "tmdb_id": 1764157,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%A0ipka%C5%99i+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-06T09:10:52+00:00",
       "release_date": "2026-10-08"
     },
     {
