@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:10:52+00:00",
+  "generated_at": "2026-09-07T09:56:46+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -878,6 +878,55 @@
       "match_score": 1.0,
       "resolved_at": "2026-09-01T09:47:51+00:00",
       "release_date": "2026-09-17"
+    },
+    {
+      "film_id": "na hrane smrti 2 deadpoint",
+      "title_cz": "Na hraně smrti 2: Deadpoint",
+      "title_en": "Fall 2: Deadpoint",
+      "original_title": "Fall 2: Deadpoint",
+      "year": 2026,
+      "synopsis": "Po tragické ztrátě sestry Hunter se Jax rozhodne čelit svému strachu a vydá se s její bývalou přítelkyní na nebezpečný výstup, který má uctít památku Hunter. Zatímco se jako na laně pohybují po nebezpečných prknech hory Kwan, uvězní je děsivý sesuv kamení 1 524 metrů nad zemí. Tváří v tvář scénám vyvolávajícím závratě, temným pravdám a krutým zvratům musí Jax čelit svým nejhlubším strachům, aby bojovala o přežití a našla vnitřní smíření.",
+      "synopsis_language": "cs",
+      "runtime_min": 98,
+      "genres": [
+        "Thriller"
+      ],
+      "director": [
+        "Peter Spierig",
+        "Michael Spierig"
+      ],
+      "screenwriter": [
+        "Jonathan Frank",
+        "Scott Mann"
+      ],
+      "cast": [
+        "Harriet Slater",
+        "Arsema Thomas",
+        "Tom Brittney",
+        "Virginia Gardner",
+        "Sahajak Boonthanakit",
+        "Korakod Yensuk",
+        "Jordan Coleman",
+        "Maryna Bennett"
+      ],
+      "production_company": [
+        "Tea Shop Productions",
+        "Capstone Pictures",
+        "Flawless Production",
+        "Cousin Jones"
+      ],
+      "poster_path": "/sY65bOZcjQqO6VdpOXLN5VcW61e.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/yQXU4rgJ5LVCzn16SeIg34T35lV.jpg",
+      "trailer_youtube_key": "Krs0VDIjhmE",
+      "age_rating": "12+",
+      "tmdb_id": 1101412,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Na+hran%C4%9B+smrti+2%3A+Deadpoint+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-07T09:56:46+00:00",
+      "release_date": "2026-09-24"
     },
     {
       "film_id": "v srdci divociny",
@@ -3298,6 +3347,86 @@
       "match_score": 1.0,
       "resolved_at": "2026-08-24T05:37:46+00:00",
       "release_date": "2027-01-21"
+    },
+    {
+      "film_id": "ice age boiling point",
+      "title_cz": "Ice Age: Boiling Point",
+      "title_en": "Ice Age: Boiling Point",
+      "original_title": "Ice Age: Boiling Point",
+      "year": 2027,
+      "synopsis": "A dinosaur-and-lava-filled madcap adventure takes Manny, Sid, Diego, Ellie, Buck, acorn-obsessed Scrat – this time joined by Baby Scrat and the enormous Jurassic Scrat – and the rest of the herd to visit never before-seen corners of the treacherous Lost World.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Dobrodružný",
+        "Animovaný",
+        "Komedie",
+        "Rodinný"
+      ],
+      "director": [
+        "John Donkin"
+      ],
+      "screenwriter": [
+        "Michael J. Wilson",
+        "Michael Berg",
+        "Yoni Brenner"
+      ],
+      "cast": [
+        "Ray Romano",
+        "Denis Leary",
+        "John Leguizamo",
+        "Simon Pegg",
+        "Queen Latifah",
+        "Seann William Scott",
+        "Josh Peck",
+        "Jennifer Lopez"
+      ],
+      "production_company": [
+        "20th Century Animation"
+      ],
+      "poster_path": "/mPhAreyZLLcZ9pl4KRyEaqSu1Zv.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/pJfMliqzzVzTU634zpYDMfYNX6c.jpg",
+      "trailer_youtube_key": "3fjmjX0QOIg",
+      "age_rating": "U",
+      "tmdb_id": 1384758,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ice+Age%3A+Boiling+Point+2027",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-07T09:56:46+00:00",
+      "release_date": "2027-02-04"
+    },
+    {
+      "film_id": "princezna zakleta v case 3",
+      "title_cz": "Princezna zakletá v čase 3",
+      "title_en": "Princess Cursed in Time 3",
+      "original_title": "Princezna zakletá v čase 3",
+      "year": 2027,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [
+        "Rodinný",
+        "Fantasy",
+        "Dobrodružný"
+      ],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1165422,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Princezna+zaklet%C3%A1+v+%C4%8Dase+3+2027",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-07T09:56:46+00:00",
+      "release_date": "2027-02-04"
     }
   ]
 }

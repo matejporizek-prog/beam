@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:10:50+00:00",
+  "generated_at": "2026-09-07T09:56:44+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -194,70 +194,6 @@
       "match_score": 0.0
     },
     {
-      "film_id": "amazonie",
-      "title_cz": "Amazonie",
-      "title_en": "Amazonia",
-      "original_title": "Amazonia",
-      "year": 2013,
-      "synopsis": "Po havárii letadla se opičák Sai, který celý život vyrůstal v zajetí, ocitne sám a ztracen v poušti amazonské džungle. (Hollywood Classic Entertainment (H.C.E.))",
-      "synopsis_language": "cs",
-      "runtime_min": 83,
-      "genres": [
-        "Rodinný",
-        "Dobrodružný"
-      ],
-      "director": [
-        "Thierry Ragobert"
-      ],
-      "screenwriter": [
-        "Louis-Paul Desanges",
-        "Thierry Ragobert",
-        "Luiz Bolognesi",
-        "Luc Marescot",
-        "Johanne Bernard"
-      ],
-      "cast": [
-        "Martin Sheen",
-        "Lúcio Mauro Filho",
-        "Isabelle Drummond",
-        "Billy Dobson",
-        "Ana Sofia Clara",
-        "Maria Jark",
-        "Nico Roberto Billy",
-        "Nico Roberto Bart"
-      ],
-      "production_company": [
-        "Tetra Pak",
-        "Gullane Entretenimento",
-        "Banco da Amazônia",
-        "FINEP/Ministério da Ciência, Tecnologia e Inovacão",
-        "France 2 Cinéma",
-        "GDF Suez",
-        "Procirep-Angoa",
-        "Le Pacte",
-        "Media Programme of the European Community",
-        "Telecine",
-        "Globo Filmes",
-        "Canal+",
-        "CNC",
-        "Agência Nacional do Cinema - ANCINE",
-        "RioFilme",
-        "Biloba Films",
-        "Secretaria Municipal de Cultura de São Paulo"
-      ],
-      "poster_path": "/spHMuvgrZnP0AqtwdeHaHlUUsHN.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/hY6R1lWlzPwHX3g5tsdC5AO57UF.jpg",
-      "trailer_youtube_key": "9NG9E-f2XR8",
-      "age_rating": "G (US)",
-      "tmdb_id": 214418,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Amazonie+2013",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-05T22:27:35+02:00"
-    },
-    {
       "film_id": "americky sen",
       "title_cz": "Americký sen",
       "title_en": "Sueno",
@@ -412,6 +348,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Auta+%2820.+v%C3%BDro%C4%8D%C3%AD%29",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Auta (20. výročí)'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "auta obnovena premiera",
+      "title_cz": "Auta - obnovená premiéra",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Auta+-+obnoven%C3%A1+premi%C3%A9ra",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Auta - obnovená premiéra'",
       "match_score": 0.0
     },
     {
@@ -921,51 +882,6 @@
       "resolved_at": "2026-09-01T09:47:40+00:00"
     },
     {
-      "film_id": "chao",
-      "title_cz": "ChaO",
-      "title_en": "ChaO",
-      "original_title": "ChaO",
-      "year": 2025,
-      "synopsis": "In a futuristic world where humans and mermaids coexist, the life of mild-mannered office worker Stephan is upended when he is suddenly proposed to by Chao — a princess from the mermaid kingdom. With no time to make sense of what's happening, Stephan soon finds himself living with the unpredictable, wholehearted Chao, and her sincere love begins to break down his emotional barriers.",
-      "synopsis_language": "en",
-      "runtime_min": 90,
-      "genres": [
-        "Animovaný",
-        "Fantasy",
-        "Romantický"
-      ],
-      "director": [
-        "Yasuhiro Aoki"
-      ],
-      "screenwriter": [
-        "Saku Konohana"
-      ],
-      "cast": [
-        "Ouji Suzuka",
-        "Anna Yamada",
-        "Kavka Shishido",
-        "Yuuichirou Umehara",
-        "Kenta Miyake",
-        "Shunsei Ōta",
-        "Anna Tsuchiya",
-        "Kunihiro Kawashima"
-      ],
-      "production_company": [
-        "STUDIO4℃"
-      ],
-      "poster_path": "/fwPHcDFhnUI12e0sCkEZb9xZmgG.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/tsItQhylPPcoD5qtEHfsG5Pm4mH.jpg",
-      "trailer_youtube_key": "Cc6VyTu_SH0",
-      "age_rating": "NR (US)",
-      "tmdb_id": 1419053,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=ChaO+2025",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-22T05:24:23+00:00"
-    },
-    {
       "film_id": "chica checa",
       "title_cz": "Chica Checa",
       "title_en": "Czech Girl",
@@ -1013,6 +929,51 @@
       "resolved_at": "2026-08-05T22:27:46+02:00"
     },
     {
+      "film_id": "chungking express",
+      "title_cz": "Chungking Express",
+      "title_en": "Chungking Express",
+      "original_title": "重慶森林",
+      "year": 1994,
+      "synopsis": "Milostné trable dvou policistů, kteří se vyrovnávají s tím, že j opustily jejich partnerky. Lehce načrtnuté příběhy slouží ke stylově čisté a působivé studii, stylizovaně zachycující všednodenní život. Film je složen ze dvou nezávislých příběhů o lidech z okraje společnosti nebo o lidech pro společnost zcela bezvýznamných, jako jsou pašeráci drog nebo prodavačka v bufetu. Vyprávějí o samotě uprostřed davu, o neschopnosti komunikace a nenaplněné lásce. Zároveň je snímek oslavou hektičnosti přelidněného Hongkongu, „města tisíce přistěhovalců“, jak se někdejší britské kolonii přezdívalo.",
+      "synopsis_language": "cs",
+      "runtime_min": 103,
+      "genres": [
+        "Drama",
+        "Komedie",
+        "Romantický"
+      ],
+      "director": [
+        "Wong Kar-Wai"
+      ],
+      "screenwriter": [
+        "Wong Kar-Wai"
+      ],
+      "cast": [
+        "Brigitte Lin",
+        "Takeshi Kaneshiro",
+        "Tony Leung Chiu-wai",
+        "Faye Wong",
+        "Valerie Chow",
+        "Piggy Chan Kam-Chuen",
+        "Kwan Lee-Na",
+        "Leung San"
+      ],
+      "production_company": [
+        "Jet Tone Production"
+      ],
+      "poster_path": "/wnZsUJIu4GLtTgiPGzNQ9SXB3X0.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/vuglA60RqvpHK9rIcG8sXaiWw1L.jpg",
+      "trailer_youtube_key": "P9Mxf_6pVA0",
+      "age_rating": "U",
+      "tmdb_id": 11104,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Chungking+Express+1994",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-07T09:56:42+00:00"
+    },
+    {
       "film_id": "cinemini",
       "title_cz": "CINEMINI",
       "title_en": "",
@@ -1036,94 +997,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'CINEMINI'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "cirque du soleil kooza",
-      "title_cz": "Cirque du Soleil: KOOZA",
-      "title_en": "Cirque du Soleil: Kooza",
-      "original_title": "Cirque du Soleil: Kooza",
-      "year": 2008,
-      "synopsis": "The story of an innocent and charming clown who strives to find his own place in the world. KOOZA is a return to the origins of Cirque du Soleil. It combines two circus traditions - acrobatic performance and the art of clowning. Between strength and fragility, laughter and chills and turmoil and harmony. KOOZA is set in an electrify8ing and exotic visual world full of surprises, thrills, audacity and total involvement. filmed live in Toronto, Canada with 8 cameras in high definition.",
-      "synopsis_language": "en",
-      "runtime_min": null,
-      "genres": [
-        "Rodinný"
-      ],
-      "director": [
-        "Mario Janelle"
-      ],
-      "screenwriter": [
-        "David Shiner"
-      ],
-      "cast": [
-        "Jason Berrent",
-        "Darya Vintilova"
-      ],
-      "production_company": [],
-      "poster_path": "/lruLtePKAvRWVHsGWQr7afzR3cP.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/18vxwpd8thqzqARLKjrmxC5Q7YB.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "PG (US)",
-      "tmdb_id": 28348,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Cirque+du+Soleil%3A+KOOZA+2008",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:27:47+02:00"
-    },
-    {
-      "film_id": "constantine",
-      "title_cz": "Constantine",
-      "title_en": "Constantine",
-      "original_title": "Constantine",
-      "year": 2005,
-      "synopsis": "Film natočený podle komiksů Hellblazer vypráví příběh Johna Constantina, muže, který doslova prošel peklem a vrátil se z něj. Tento muž se dá dohromady se skeptickou policistkou Angelou Dodsonovou, aby společně vyřešili záhadnou sebevraždu jejího dvojčete. Jejich vyšetřování je dovede do světa démonů a andělů, který existuje těsně pod povrchem současného Los Angeles. Hlavní hrdinové se stanou zajatci série katastrofických událostí z jiného světa, díky čemuž se nevyhnutelně sblíží a pokusí se najíst vlastní klid za jakoukoli cenu…",
-      "synopsis_language": "cs",
-      "runtime_min": 120,
-      "genres": [
-        "Fantasy",
-        "Akční",
-        "Horor"
-      ],
-      "director": [
-        "Francis Lawrence"
-      ],
-      "screenwriter": [
-        "Kevin Brodbin",
-        "Frank A. Cappello"
-      ],
-      "cast": [
-        "Keanu Reeves",
-        "Rachel Weisz",
-        "Shia LaBeouf",
-        "Djimon Hounsou",
-        "Max Baker",
-        "Pruitt Taylor Vince",
-        "Gavin Rossdale",
-        "Tilda Swinton"
-      ],
-      "production_company": [
-        "Village Roadshow Pictures",
-        "Lonely Film Productions",
-        "The Donners' Company",
-        "Batfilm Productions",
-        "Weed Road Pictures",
-        "Warner Bros. Pictures",
-        "3 Arts Entertainment",
-        "DC Vertigo"
-      ],
-      "poster_path": "/vPYgvd2MwHlxTamAOjwVQp4qs1W.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2023/02/14/3e300fbdc8272190bcb9085cda8422ff.webp",
-      "backdrop_path": "/x3YFn10ehQKMRIJwIfiDAX8S9Xt.jpg",
-      "trailer_youtube_key": "819JCbGfZpg",
-      "age_rating": "12",
-      "tmdb_id": 561,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Constantine+2005",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.11, title 1.00)",
-      "match_score": 1.115,
-      "resolved_at": "2026-08-30T10:19:32+00:00"
     },
     {
       "film_id": "construction site",
@@ -2303,6 +2176,31 @@
       "resolved_at": "2026-08-13T06:14:43+00:00"
     },
     {
+      "film_id": "kinospunti a kapybary",
+      "title_cz": "Kinošpunti a kapybary",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kino%C5%A1punti+a+kapybary",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Kinošpunti a kapybary'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "konec oak street",
       "title_cz": "Konec Oak Street",
       "title_en": "",
@@ -2628,31 +2526,6 @@
       "match_score": 0.526
     },
     {
-      "film_id": "kuzma ua zneni",
-      "title_cz": "Kuzma UA ZNÉNÍ",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Kuzma+UA+ZN%C3%89N%C3%8D",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Kuzma UA ZNÉNÍ'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "lecive ucinky sebeklamu",
       "title_cz": "Léčivé účinky sebeklamu",
       "title_en": "Léčivé účinky sebeklamu",
@@ -2881,6 +2754,60 @@
       "match_score": 0.389
     },
     {
+      "film_id": "mala amelie",
+      "title_cz": "Malá Amélie",
+      "title_en": "Little Amélie or the Character of Rain",
+      "original_title": "Amélie et la métaphysique des tubes",
+      "year": 2025,
+      "synopsis": "Amélie je tříletá holčička, která je pevně přesvědčena o své všemocnosti. Touha porozumět záhadě vlastní existence se doopravdy probudí v momentě, kdy poprvé ochutná kousek čokolády. Začíná tak neobyčejně okouzlující cesta do dětské duše. Skrze silné pouto se svou chůvou Amélie odhaluje, kým je a jaké má místo ve světě, který nakonec nedokáže ohýbat podle svých rozmarů.",
+      "synopsis_language": "cs",
+      "runtime_min": 77,
+      "genres": [
+        "Animovaný",
+        "Drama",
+        "Rodinný"
+      ],
+      "director": [
+        "Maïlys Vallade",
+        "Liane-cho Han"
+      ],
+      "screenwriter": [
+        "Liane-cho Han",
+        "Aude Py",
+        "Eddine Noel",
+        "Maïlys Vallade"
+      ],
+      "cast": [
+        "Loïse Charpentier",
+        "Victoria Grobois",
+        "Yumi Fujimori",
+        "Cathy Cerda",
+        "Marc Arnaud",
+        "Laëtitia Coryn",
+        "Haylee Issembourg",
+        "Isaac Schoumsky"
+      ],
+      "production_company": [
+        "Maybe Movies",
+        "2 Minutes",
+        "France 3 Cinéma",
+        "Puffin Pictures",
+        "22D Music",
+        "Ikki Films"
+      ],
+      "poster_path": "/36kWh2eMFa3EEOUzV0vq8uLwakp.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/2WCpiFmRqXyu5y7WoZjEa3CJbiI.jpg",
+      "trailer_youtube_key": "VRDBXP9QQwg",
+      "age_rating": "U",
+      "tmdb_id": 682012,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Mal%C3%A1+Am%C3%A9lie+2025",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-07T09:56:43+00:00"
+    },
+    {
       "film_id": "maly unaveny joe prednaska a medailon s karlem jordanem",
       "title_cz": "Malý unavený Joe + přednáška a medailon s Karlem Jordánem",
       "title_en": "",
@@ -2929,52 +2856,6 @@
       "resolved": false,
       "match_reason": "no candidate scored above 0.75",
       "match_score": 0.595
-    },
-    {
-      "film_id": "michael",
-      "title_cz": "Michael",
-      "title_en": "Michael",
-      "original_title": "Michael",
-      "year": 2026,
-      "synopsis": "Michael podrobně mapuje kariéru budoucího Krále popu od jeho prvních kroků v rodinné skupině Jackson Five, kde od začátku prokazoval největší talent, i když byl nejmladším členem kapely. Stále populárnější skupinu vede pevnou rukou jeho táta Joe, možná až příliš pevnou pro křehkého Michaela. Když se o Jackson Five začnou zajímat hudební producenti, všichni si okamžitě uvědomí, že Michael je nejcennějším členem skupiny. Ti nejodvážnější z nich dokonce začínají mluvit o tom, jak by jeho kariéře prospělo, kdyby se vydal na sólovou dráhu. Joe, despotický otec a tvrdý manažer v jedné osobě, o tom samozřejmě nechce ani slyšet. Michael však touží jít vlastní cestou. A tak nad Jacksonovými zavládne klid před bouří, ze které se zrodí hudební legenda a některé z nejlepších písní v historii populární hudby.",
-      "synopsis_language": "cs",
-      "runtime_min": 128,
-      "genres": [
-        "Hudební",
-        "Drama"
-      ],
-      "director": [
-        "Antoine Fuqua"
-      ],
-      "screenwriter": [
-        "John Logan"
-      ],
-      "cast": [
-        "Jaafar Jackson",
-        "Colman Domingo",
-        "Nia Long",
-        "Juliano Krue Valdi",
-        "KeiLyn Durrel Jones",
-        "Miles Teller",
-        "Larenz Tate",
-        "Laura Harrier"
-      ],
-      "production_company": [
-        "Lionsgate",
-        "GK Films",
-        "Optimum Productions"
-      ],
-      "poster_path": "/2AvgnCwCakNiJqWZqaQhdGjWNey.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
-      "trailer_youtube_key": "k-YAcjaLuSI",
-      "age_rating": "12+",
-      "tmdb_id": 936075,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Michael+2026",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-27T16:05:50+00:00"
     },
     {
       "film_id": "mimoni a monstra",
@@ -3482,31 +3363,6 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=NT+Live%3A+Hrdina+z%C3%A1padu",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'NT Live: Hrdina západu'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "nt live paty krok",
-      "title_cz": "NT Live: Pátý krok",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=NT+Live%3A+P%C3%A1t%C3%BD+krok",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'NT Live: Pátý krok'",
       "match_score": 0.0
     },
     {
@@ -4740,6 +4596,60 @@
       "resolved_at": "2026-08-22T05:24:35+00:00"
     },
     {
+      "film_id": "quo vadis aida",
+      "title_cz": "Quo vadis, Aida?",
+      "title_en": "Quo Vadis, Aida?",
+      "original_title": "Quo Vadis, Aida?",
+      "year": 2021,
+      "synopsis": "Je rok 1995 a Aida pracuje jako překladatelka pro OSN ve Srebrenici. Její rodina je mezi tisícovkami místních, kteří hledají v „bezpečné zóně\" OSN útočiště před srbskou armádou. Pár hodin od míst, kde s oblibou trávíme letní dovolené, se schyluje k největší evropské tragédii od konce druhé světové války. Při vyjednáváních si Aida postupně uvědomuje vážnost situace. Jde o osud města i o život jejích milovaných. Podaří se jí je zachránit?",
+      "synopsis_language": "cs",
+      "runtime_min": 104,
+      "genres": [
+        "Válečný",
+        "Drama",
+        "Historický"
+      ],
+      "director": [
+        "Jasmila Žbanić"
+      ],
+      "screenwriter": [
+        "Hasan Nuhanovic",
+        "Jasmila Žbanić"
+      ],
+      "cast": [
+        "Jasna Đuričić",
+        "Izudin Bajrović",
+        "Boris Ler",
+        "Dino Bajrović",
+        "Johan Heldenbergh",
+        "Raymond Thiry",
+        "Boris Isaković",
+        "Emir Hadžihafizbegović"
+      ],
+      "production_company": [
+        "Deblokada",
+        "Digital Cube",
+        "N279 Entertainment",
+        "Extreme Emotions",
+        "Razor Film Produktion",
+        "Tordenfilm",
+        "Coop99 Filmproduktion",
+        "Indie Prod",
+        "TRT"
+      ],
+      "poster_path": "/rOx1ABDVE4DfjKYGgTGRha3fCPk.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/awElIr61fFpbudzlCfobIpbwEro.jpg",
+      "trailer_youtube_key": "ygbLfo2dtfo",
+      "age_rating": "",
+      "tmdb_id": 728118,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Quo+vadis%2C+Aida%3F+2021",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-07T09:56:43+00:00"
+    },
+    {
       "film_id": "resident evil",
       "title_cz": "Resident Evil",
       "title_en": "Resident Evil",
@@ -4786,6 +4696,52 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-06T07:39:56+00:00"
+    },
+    {
+      "film_id": "robin hood kral zbojniku",
+      "title_cz": "Robin Hood: Král zbojníků",
+      "title_en": "Robin Hood: Prince of Thieves",
+      "original_title": "Robin Hood: Prince of Thieves",
+      "year": 1991,
+      "synopsis": "Rok 1194. Robin z Locksley unikne z maurského zajetí v Jeruzalémě a vrací se do Anglie. V Nottinghamu se dozvídá, že jeho otec byl zabit, protože se odmítl připojit k tažení šerifa z Nottinghamu proti králi Richardovi. Robin se svým přítelem Azeemem naleznou útočiště v Sherwoodském lese, který ovládají zbojníci, vedení Malým Johnem a Willem Scarlettem. Robin se stává vůdcem bandy, která se denně rozrůstá o uprchlíky před šerifovou krutostí...",
+      "synopsis_language": "cs",
+      "runtime_min": 149,
+      "genres": [
+        "Akční",
+        "Dobrodružný",
+        "Drama"
+      ],
+      "director": [
+        "Kevin Reynolds"
+      ],
+      "screenwriter": [
+        "John Watson",
+        "Pen Densham"
+      ],
+      "cast": [
+        "Kevin Costner",
+        "Morgan Freeman",
+        "Mary Elizabeth Mastrantonio",
+        "Christian Slater",
+        "Alan Rickman",
+        "Geraldine McEwan",
+        "Michael McShane",
+        "Brian Blessed"
+      ],
+      "production_company": [
+        "Morgan Creek Entertainment"
+      ],
+      "poster_path": "/2IUheRGqnRect2OE2GakMbxZs3q.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/07/77dca383e6578a439bb613d0805297d6.jpg",
+      "backdrop_path": "/kuLk79GQq8WQb8fZxc6MtvIhPaC.jpg",
+      "trailer_youtube_key": "fERE7bGPwmo",
+      "age_rating": "PG-13 (US)",
+      "tmdb_id": 8367,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Robin+Hood%3A+Kr%C3%A1l+zbojn%C3%ADk%C5%AF+1991",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.10, title 1.00)",
+      "match_score": 1.1,
+      "resolved_at": "2026-09-07T09:56:44+00:00"
     },
     {
       "film_id": "rodina rodychi",
@@ -5077,50 +5033,6 @@
       "match_score": 0.0
     },
     {
-      "film_id": "sepoty a vykriky",
-      "title_cz": "Šepoty a výkřiky",
-      "title_en": "Cries and Whispers",
-      "original_title": "Viskningar och rop",
-      "year": 1972,
-      "synopsis": "Neutěšený, meditativní obraz lidské samoty tváří v tvář smrti. Děj snímku se odehrává koncem 19. století. Dvě zámožné sestry (Ingrid Thulinová a Liv Ullmannová) přijíždějí na rodinný statek, aby se svou smrtelně nemocnou setrou (Harriet Anderssonová) strávili poslední dny jejího života. Zatímco obě ženy, poznamenány manželstvím a egoismem, nejsou vůči umírající schopny vyvinout citový vztah, nesobecká služebná (Kari Sylwanová), která ji ošetřuje, pečuje o každou její potřebu a poskytuje jí čistou, bezmeznou lásku.\r Kruté a zároveň utěšující Šepoty a výkřiky odhalují složitou krajinu lidského utrpení, žalu a soucitu, kterou svým neobyčejným výkonem oživují Bergmanovi osvědčení herci.\r Film získal mnoho zahraničních poct, nejvyšší ocenění Švédského filmového ústavu za rok 1973, dále Oscara za kameru (S. Nykvist) a Cenu Nejvyšší technické komise na MFF v Cannes 1973.",
-      "synopsis_language": "cs",
-      "runtime_min": 95,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Ingmar Bergman"
-      ],
-      "screenwriter": [
-        "Ingmar Bergman"
-      ],
-      "cast": [
-        "Liv Ullmann",
-        "Ingrid Thulin",
-        "Kari Sylwan",
-        "Harriet Andersson",
-        "Erland Josephson",
-        "Georg Årlin",
-        "Anders Ek",
-        "Henning Moritzen"
-      ],
-      "production_company": [
-        "Cinematograph AB",
-        "Svenska Filminstitutet"
-      ],
-      "poster_path": "/cYQJtOdnTodVUOzUUZUYM0GyYTP.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/xmLgdb0yDBXa7Dlo3aCzjhjCkuE.jpg",
-      "trailer_youtube_key": "zc8f9ZlMnTU",
-      "age_rating": "R (US)",
-      "tmdb_id": 10238,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%A0epoty+a+v%C3%BDk%C5%99iky+1972",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-01T09:47:45+00:00"
-    },
-    {
       "film_id": "sex a smrt v kempu miasma",
       "title_cz": "Sex a smrt v kempu Miasma",
       "title_en": "",
@@ -5349,52 +5261,6 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-08-18T05:25:49+00:00"
-    },
-    {
-      "film_id": "sny",
-      "title_cz": "Sny",
-      "title_en": "Dreams",
-      "original_title": "Drømmer",
-      "year": 2024,
-      "synopsis": "Sedmnáctiletá Johanna prožívá svou první lásku – křehkou, platonickou a o to silnější. Intenzivní pocity, tápání a nejistotu svěřuje svému deníku. Když se však její zápisky dostanou do rukou matky a babičky, tři generace žen jsou nuceny čelit vlastním touhám i omezením, které jim diktuje společnost.",
-      "synopsis_language": "cs",
-      "runtime_min": 110,
-      "genres": [
-        "Romantický",
-        "Drama"
-      ],
-      "director": [
-        "Dag Johan Haugerud"
-      ],
-      "screenwriter": [
-        "Dag Johan Haugerud"
-      ],
-      "cast": [
-        "Ella Øverbye",
-        "Selome Emnetu",
-        "Anne Marit Jacobsen",
-        "Ane Dahl Torp",
-        "Andrine Sæther",
-        "Silje Breivik",
-        "Lars Jacob Holm",
-        "Valdemar Dørmænen Irgens"
-      ],
-      "production_company": [
-        "Motlys",
-        "Oslo Filmfond",
-        "Viaplay Group"
-      ],
-      "poster_path": "/6oGL2NkEjGLlAhTNlANFLmx83VK.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/gjUk32ohE9A05Y4NK9bbkCkAgMB.jpg",
-      "trailer_youtube_key": "ijqwWwGdHZY",
-      "age_rating": "12+",
-      "tmdb_id": 1228682,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Sny+2024",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-27T16:05:58+00:00"
     },
     {
       "film_id": "spaseni",
@@ -6151,31 +6017,6 @@
       "resolved_at": "2026-08-05T22:28:56+02:00"
     },
     {
-      "film_id": "terminator 2 den zuctovani 35 vyroci",
-      "title_cz": "Terminátor 2: Den zúčtování (35. výročí)",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8360S2R.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Termin%C3%A1tor+2%3A+Den+z%C3%BA%C4%8Dtov%C3%A1n%C3%AD+%2835.+v%C3%BDro%C4%8D%C3%AD%29",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Terminátor 2: Den zúčtování (35. výročí)'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "testovani cinemini pro deti se sluchovym postizenim",
       "title_cz": "Testování Cinemini pro děti se sluchovým postižením",
       "title_en": "",
@@ -6460,57 +6301,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:28:58+02:00"
-    },
-    {
-      "film_id": "tlapkova patrola ve velkofilmu",
-      "title_cz": "Tlapková patrola ve velkofilmu",
-      "title_en": "PAW Patrol: The Mighty Movie",
-      "original_title": "PAW Patrol: The Mighty Movie",
-      "year": 2023,
-      "synopsis": "Když se přímo na Adventure City zřítí magický meteorit, získají pejsci z Tlapkové patroly superschopnosti, které je promění v mocné tlapky! Například nejmenší člence týmu, Skye, se díky novým schopnostem splní velký sen. Vše se ovšem zásadně zvrtne, když se zlému bývalému starostovi Humdingerovi podaří utéct z vězení. Společně s Victorií Vance, šílenou vědkyní, která je meteoritem přímo posedlá, se pokusí pejsky o jejich superschopnosti připravit ve snaze stát se superpadouchem. Tlapková patrola musí oba dva zastavit dřív, než bude pro Asteroid City pozdě. A Skye se přesvědčí o tom, že i malinké štěně může znamenat veliký rozdíl.",
-      "synopsis_language": "cs",
-      "runtime_min": 88,
-      "genres": [
-        "Dobrodružný",
-        "Animovaný",
-        "Komedie",
-        "Rodinný",
-        "Vědeckofantastický"
-      ],
-      "director": [
-        "Cal Brunker"
-      ],
-      "screenwriter": [
-        "Bob Barlen",
-        "Cal Brunker",
-        "Shane Morris"
-      ],
-      "cast": [
-        "Mckenna Grace",
-        "Taraji P. Henson",
-        "Marsai Martin",
-        "Iain Armitage",
-        "Christian Convery",
-        "Will Brisbin",
-        "Finn Lee-Epp",
-        "Ron Pardo"
-      ],
-      "production_company": [
-        "Nickelodeon Movies",
-        "Spin Master",
-        "Paramount Pictures"
-      ],
-      "poster_path": "/pzqGCpqL9J7s3qTB44rUcazKJA3.jpg",
-      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/5863D2R.jpg",
-      "backdrop_path": "/zgQQF04u3OgNBJqClRNby1FPz9s.jpg",
-      "trailer_youtube_key": "yokqCWsXBFk",
-      "age_rating": "U",
-      "tmdb_id": 893723,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Tlapkov%C3%A1+patrola+ve+velkofilmu+2023",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.01, title 1.00)",
-      "match_score": 1.015,
-      "resolved_at": "2026-09-01T09:47:48+00:00"
     },
     {
       "film_id": "tom a jerry kouzelny kompas",
