@@ -1,441 +1,7 @@
 {
-  "generated_at": "2026-09-10T09:25:12+00:00",
+  "generated_at": "2026-09-11T09:21:42+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
-    {
-      "film_id": "bata tomas zivy",
-      "title_cz": "Baťa Tomáš, živý",
-      "title_en": "Baťa Tomáš, živý",
-      "original_title": "Baťa Tomáš, živý",
-      "year": 2026,
-      "synopsis": "Když se letadlo, řízené Baťovým věrným pilotem Jindřichem Broučkem, dne 12. července 1932 odlepilo na otrokovickém letišti od země, nemohl Tomáš Baťa tušit, že mezi živými bude už jen několik sekund.",
-      "synopsis_language": "cs",
-      "runtime_min": 136,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Dodo Gombár",
-        "Jan Brichcín"
-      ],
-      "screenwriter": [],
-      "cast": [
-        "Gustav Řezníček",
-        "Marta Bačíková",
-        "Jan Leflík",
-        "Petra Králová",
-        "Radoslav Šopík",
-        "Pavel Leicman",
-        "Rostislav Marek",
-        "Josef Koller"
-      ],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1759443,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Ba%C5%A5a+Tom%C3%A1%C5%A1%2C+%C5%BEiv%C3%BD+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-01T09:47:57+00:00",
-      "release_date": "2026-09-10"
-    },
-    {
-      "film_id": "divka v oblacich",
-      "title_cz": "Dívka v oblacích",
-      "title_en": "The Girl in the Clouds",
-      "original_title": "La Fille dans les nuages",
-      "year": 2026,
-      "synopsis": "Providence je desetiletá dívka, která žije v Paříži se svým strýcem Jasonem a morčetem Airbagem. Miluje knižní ságu Strážci Země. Její autor Octavius bydlí shodou okolností hned vedle – a Providence brzy zjistí, že jeho příběhy nejsou jen fikcí. Octavius totiž píše kouzelným perem, které dokáže proměnit fantazii ve skutečnost. Když se z knih nešťastnou náhodou osvobodí temná bytost Necato, původní tvůrce kouzelného pera, ocitá se v ohrožení svět fantazie i ten reálný. Spisovatle Octavius proto svěří pero Providence a vyšle ji na nebezpečnou cestu za tajemným bratrstvem, které ho může ochránit. Providence se svým mluvícím morčetem Aribagem prochází fantastickými světy a musí se rozhodnout, zda dá přednost vlastním snům, nebo zachrání skutečný svět.",
-      "synopsis_language": "cs",
-      "runtime_min": 88,
-      "genres": [
-        "Animovaný",
-        "Dobrodružný",
-        "Fantasy"
-      ],
-      "director": [
-        "Philippe Riche"
-      ],
-      "screenwriter": [
-        "Luc Bossi",
-        "Philippe Riche"
-      ],
-      "cast": [
-        "Louane",
-        "Jamel Debbouze",
-        "Grégoire Ludig"
-      ],
-      "production_company": [
-        "Brio Films",
-        "SCOPE Pictures",
-        "Panama Productions"
-      ],
-      "poster_path": "/nBb5O0qPHrI2rRqrCtHcxIy4qgI.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/jqiFaPLr3f6MLjHI7dPzEvJRwag.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1151265,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=D%C3%ADvka+v+oblac%C3%ADch+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "release_date": "2026-09-10"
-    },
-    {
-      "film_id": "guru",
-      "title_cz": "Guru",
-      "title_en": "Guru",
-      "original_title": "Gourou",
-      "year": 2026,
-      "synopsis": "V době, kdy důvěra v politiku vyprchala a náboženství již neposkytuje odpovědi, se Mathieu Vasseur, známý jako „Matt“, stal nejsledovanějším koučem osobního rozvoje ve Francii. Na pódiu nabízí jasnost, sílu a katarzi, vede semináře, které elektrizují publikum a slibují proměnu. Za pečlivě vytvořeným obrazem se však skrývá mnohem znepokojující realita. Jak roste Mattův vliv, rostou i mechanismy kontroly, které jeho následovníky k němu připoutávají. Emoční závislost nahrazuje sebepoznání a přesvědčování tiše přechází v psychologickou dominanci. To, co začíná jako společná cesta za smyslem života, postupně odhaluje temnější stránku systému postaveného na moci, fascinaci a podřízení...",
-      "synopsis_language": "cs",
-      "runtime_min": 126,
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "director": [
-        "Yann Gozlan"
-      ],
-      "screenwriter": [
-        "Jean-Baptiste Delafon",
-        "Yann Gozlan",
-        "Pierre Niney"
-      ],
-      "cast": [
-        "Pierre Niney",
-        "Marion Barbeau",
-        "Anthony Bajon",
-        "Christophe Montenez",
-        "Jonathan Turnbull",
-        "Raphaëlle Simon",
-        "Tracy Gotoas",
-        "Holt McCallany"
-      ],
-      "production_company": [
-        "Ninety Films",
-        "WY Productions",
-        "StudioCanal",
-        "Panache Productions",
-        "M6 Films"
-      ],
-      "poster_path": "/1naBllkF4oZ8FlYZWcaVw9vuAnn.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/omOIzarzHL4srQeLd5oPlzEReuf.jpg",
-      "trailer_youtube_key": "18dcAAAQoZ4",
-      "age_rating": "15+",
-      "tmdb_id": 1259983,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Guru+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-01T09:47:51+00:00",
-      "release_date": "2026-09-10"
-    },
-    {
-      "film_id": "lecive ucinky sebeklamu",
-      "title_cz": "Léčivé účinky sebeklamu",
-      "title_en": "Léčivé účinky sebeklamu",
-      "original_title": "Léčivé účinky sebeklamu",
-      "year": 2026,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [
-        "Komedie",
-        "Drama"
-      ],
-      "director": [
-        "Adolf Zika"
-      ],
-      "screenwriter": [
-        "Adolf Zika"
-      ],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1735501,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=L%C3%A9%C4%8Div%C3%A9+%C3%BA%C4%8Dinky+sebeklamu+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "release_date": "2026-09-10"
-    },
-    {
-      "film_id": "oasis don t look back in anger",
-      "title_cz": "Oasis: Don't Look Back in Anger",
-      "title_en": "Oasis: Don't Look Back in Anger",
-      "original_title": "Oasis: Don't Look Back in Anger",
-      "year": 2026,
-      "synopsis": "Legendární Oasis se vrací na velké plátno. Dokument Don’t Look Back In Anger zachycuje triumfální comeback Liama a Noela Gallagherových během turné Live ’25, které znamenalo jejich první společné živé vystoupení po 16 letech. Film nabídne dosud nezveřejněné záběry ze zákulisí, zkoušek i koncertních pódií a také první společné rozhovory bratrů Gallagherových po více než dvou dekádách.",
-      "synopsis_language": "cs",
-      "runtime_min": null,
-      "genres": [
-        "Dokumentární",
-        "Hudební"
-      ],
-      "director": [
-        "Dylan Southern",
-        "Will Lovelace"
-      ],
-      "screenwriter": [
-        "Steven Knight"
-      ],
-      "cast": [
-        "Liam Gallagher",
-        "Noel Gallagher",
-        "Paul Arthurs",
-        "Gem Archer",
-        "Andy Bell",
-        "Joey Waronker",
-        "Christian Madden",
-        "Anaïs Gallagher"
-      ],
-      "production_company": [
-        "Magna Studios",
-        "Sony Music Vision",
-        "Sony Music Entertainment UK"
-      ],
-      "poster_path": "/nuNfPuFZKtkrglYnz2F9weQm3Ng.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/7Ud7QIJo21odjCaev6V4md9sK16.jpg",
-      "trailer_youtube_key": "6z_0B_lyRTo",
-      "age_rating": "U",
-      "tmdb_id": 1447853,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Oasis%3A+Don%27t+Look+Back+in+Anger+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-01T09:47:57+00:00",
-      "release_date": "2026-09-10"
-    },
-    {
-      "film_id": "practical magic 2",
-      "title_cz": "Practical Magic 2",
-      "title_en": "Practical Magic 2",
-      "original_title": "Practical Magic 2",
-      "year": 2026,
-      "synopsis": "The Owens sisters must confront the dark curse that threatens to unravel their family once and for all.",
-      "synopsis_language": "en",
-      "runtime_min": null,
-      "genres": [
-        "Fantasy",
-        "Drama",
-        "Komedie"
-      ],
-      "director": [
-        "Susanne Bier"
-      ],
-      "screenwriter": [
-        "Akiva Goldsman",
-        "Georgia Pritchett"
-      ],
-      "cast": [
-        "Sandra Bullock",
-        "Nicole Kidman",
-        "Joey King",
-        "Maisie Williams",
-        "Xolo Maridueña",
-        "Lee Pace",
-        "Dianne Wiest",
-        "Stockard Channing"
-      ],
-      "production_company": [
-        "Di Novi Pictures",
-        "Warner Bros. Pictures",
-        "Blossom Films",
-        "Fortis Films",
-        "Domain Entertainment",
-        "Alcon Entertainment"
-      ],
-      "poster_path": "/uA8ytJv17alSiREcUthbYAdiPCX.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/yDgYYuz8jDQCRJbHC3XM7IIGoeR.jpg",
-      "trailer_youtube_key": "Ho10_4IX1jE",
-      "age_rating": "",
-      "tmdb_id": 1302904,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Practical+Magic+2+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "release_date": "2026-09-10"
-    },
-    {
-      "film_id": "proc slimaci nemaji nohy",
-      "title_cz": "Proč slimáci nemají nohy",
-      "title_en": "Why Slugs Have No Legs",
-      "original_title": "Warum Schnecken keine Beine haben",
-      "year": 2026,
-      "synopsis": "Slimáci mají problém udržet pracovní nasazení se zbytkem hmyzího světa. Jejich pomalé tempo je všem na obtíž, zvlášť v prostředí včel workoholiček, kde se výkon, rychlost a produktivita stávají jediným měřítkem hodnoty. Odlišná rychlost se nepromíjí, a když udeří finanční krize, včely musí svoji produktivitu navýšit jediným možným způsobem…",
-      "synopsis_language": "cs",
-      "runtime_min": 11,
-      "genres": [
-        "Animovaný",
-        "Komedie"
-      ],
-      "director": [
-        "Aline Höchli"
-      ],
-      "screenwriter": [
-        "Aline Höchli"
-      ],
-      "cast": [],
-      "production_company": [
-        "Cinéma Copain"
-      ],
-      "poster_path": "/m6MBgV7ALpdc7aOkpYyxGpCQc5O.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/9VNIsEI5rV2gWTQAfb9rXlC3LNF.jpg",
-      "trailer_youtube_key": "1sOjGS8X3bg",
-      "age_rating": "12+",
-      "tmdb_id": 624848,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Pro%C4%8D+slim%C3%A1ci+nemaj%C3%AD+nohy+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-01T09:47:58+00:00",
-      "release_date": "2026-09-10"
-    },
-    {
-      "film_id": "tony",
-      "title_cz": "Tony",
-      "title_en": "Tony",
-      "original_title": "Tony",
-      "year": 2026,
-      "synopsis": "A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen, setting off a summer that will shape the course of his life.",
-      "synopsis_language": "en",
-      "runtime_min": 106,
-      "genres": [
-        "Drama",
-        "Komedie"
-      ],
-      "director": [
-        "Matt Johnson"
-      ],
-      "screenwriter": [
-        "Matt Johnson",
-        "Matthew Miller",
-        "Todd Bartels",
-        "Lou Howe"
-      ],
-      "cast": [
-        "Dominic Sessa",
-        "Antonio Banderas",
-        "Emilia Jones",
-        "Leo Woodall",
-        "Stavros Halkias",
-        "Michael Jibrin",
-        "Monica Raymund",
-        "Rich Sommer"
-      ],
-      "production_company": [
-        "Star Thrower Entertainment",
-        "Zapruder Films",
-        "A24"
-      ],
-      "poster_path": "/3WN0JWwRI7oGH7Ni2R6poVWej05.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/bOqTOVkHAL4z87P0Opf6q5mIeRy.jpg",
-      "trailer_youtube_key": "k1MVnzd2aVc",
-      "age_rating": "R (US)",
-      "tmdb_id": 1329016,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Tony+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "release_date": "2026-09-10"
-    },
-    {
-      "film_id": "volcelest",
-      "title_cz": "Volcelest",
-      "title_en": "Volcelest",
-      "original_title": "Volcelest",
-      "year": 2026,
-      "synopsis": "Zima je tady. Aby přežila, musí malá lasička hranostaje opustit divočinu a usadit se poblíž osamělé farmy a jejích slepic. Příchod hladového zvířete však ohrožuje živobytí muže, který zde žije, a mezi dvěma světy se tak rozehrává tichý zápas o přežití. Beze slov vyprávěný animovaný film proti sobě staví křehkost divoké přírody, lidskou samotu i potřebu bránit to, co nás živí. Kdo je vetřelec a kdo se jen snaží přečkat zimu?",
-      "synopsis_language": "cs",
-      "runtime_min": 15,
-      "genres": [
-        "Animovaný"
-      ],
-      "director": [
-        "Éric Briche"
-      ],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [
-        "Miyu Productions",
-        "ARTE"
-      ],
-      "poster_path": "/fmPfNJEvZ0rwanvWvLucNrRFhIo.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/1CYx92MmWlvw07R1ZU8s881fyRR.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "12+",
-      "tmdb_id": 1279045,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Volcelest+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-01T09:47:58+00:00",
-      "release_date": "2026-09-10"
-    },
-    {
-      "film_id": "",
-      "title_cz": "호프",
-      "title_en": "Hope",
-      "original_title": "호프",
-      "year": 2026,
-      "synopsis": "In the remote South Korean village of Hope Harbor, police chief Bum-seok and officer Sung-ae are called to investigate a mysterious creature wreaking havoc on the community. But all is not as it seems, and perceptions can be misleading. What begins as ignorance plants the seed of disaster, escalating through human conflict into a tragedy of cosmic proportions.",
-      "synopsis_language": "en",
-      "runtime_min": 157,
-      "genres": [
-        "Vědeckofantastický",
-        "Mysteriózní",
-        "Akční"
-      ],
-      "director": [
-        "Na Hong-jin"
-      ],
-      "screenwriter": [
-        "Na Hong-jin"
-      ],
-      "cast": [
-        "Hwang Jung-min",
-        "Zo In-sung",
-        "Hoyeon",
-        "Alicia Vikander",
-        "Michael Fassbender",
-        "Taylor Russell",
-        "Cameron Britton",
-        "Lee Sang-hee"
-      ],
-      "production_company": [
-        "Forged Films",
-        "Plus M Entertainment",
-        "Westworld Story"
-      ],
-      "poster_path": "/ptqlN6mDIAqJjVA86J5eOoG82zc.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/i0lipAm0VHFA3EH0CPV0s5LJMIE.jpg",
-      "trailer_youtube_key": "R5jcEBVBEbQ",
-      "age_rating": "",
-      "tmdb_id": 1058424,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=%ED%98%B8%ED%94%84+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-07T06:09:07+00:00",
-      "release_date": "2026-09-10"
-    },
     {
       "film_id": "bara basikova",
       "title_cz": "Bára Basiková",
@@ -880,6 +446,47 @@
       "release_date": "2026-09-17"
     },
     {
+      "film_id": "kdyby se holubi promenili ve zlato",
+      "title_cz": "Kdyby se holubi proměnili ve zlato",
+      "title_en": "If Pigeons Turned to Gold",
+      "original_title": "Kdyby se holubi proměnili ve zlato",
+      "year": 2026,
+      "synopsis": "Pět let zaznamenávala mladá režisérka Pepa Lubojacki emotivní příběhy vlastní rodiny. Proč závislost připravila jejího milovaného bratra a dva bratrance o vztahy, pocit bezpečí, zdraví i střechu nad hlavou? A co když za tím vším nestojí závislost samotná, ale něco, co začalo daleko dřív? Neotřelý mix intimních deníkových záběrů, oživlých fotografií, stylizovaných vzpomínek a grafických koláží dělá z filmu originální zážitek, který je syrový i hravý zároveň. Jako režisérka a sestra Pepa stojí před otázkou, na kterou neexistuje snadná odpověď: kde končí láska a začíná kontrola? Zachraňovat, nebo nechat jít?",
+      "synopsis_language": "cs",
+      "runtime_min": 110,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Pepa Lubojacki"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "Pepa Lubojacki",
+        "David Lubojacki",
+        "David Richter",
+        "Marco Arnone"
+      ],
+      "production_company": [
+        "CLAW films",
+        "GUČA films",
+        "FAMU",
+        "Česká televize"
+      ],
+      "poster_path": "/gr0cfKkOFwv9FJkk7jN40FJLrw0.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/gkZGMcsuaG7NutjFTAkBraC1K2m.jpg",
+      "trailer_youtube_key": "FhHHG9lPbAU",
+      "age_rating": "15+",
+      "tmdb_id": 1616833,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kdyby+se+holubi+prom%C4%9Bnili+ve+zlato+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-11T09:21:42+00:00",
+      "release_date": "2026-09-24"
+    },
+    {
       "film_id": "na hrane smrti 2 deadpoint",
       "title_cz": "Na hraně smrti 2: Deadpoint",
       "title_en": "Fall 2: Deadpoint",
@@ -926,6 +533,96 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "resolved_at": "2026-09-07T09:56:46+00:00",
+      "release_date": "2026-09-24"
+    },
+    {
+      "film_id": "proc bychom se nezabili",
+      "title_cz": "Proč bychom se nezabili",
+      "title_en": "Proč bychom se nezabili",
+      "original_title": "Proč bychom se nezabili",
+      "year": 2026,
+      "synopsis": "Vítejte v Rozumově – vesnici, kde každý ví všechno o všech, sousedské naschvály se dědí z generace na generaci a žádná ostuda nezůstane dlouho za zavřenými vraty. Obec už léta rozděluje válka dvou nesmiřitelných rodin. Na jedné straně stojí Šmrha (Vasil Fridrich), na druhé Průša a oba jsou přesvědčeni, že pravda, čest i zdravý rozum bydlí právě u nich. Jejich děti Karel a Marie se však navzdory otcům tajně milují. Když Marie po dalším rodinném naschválu kývne na účast v televizní reality show Svatba naslepo, rozpoutá tím v Rozumově pořádný poprask.",
+      "synopsis_language": "cs",
+      "runtime_min": 90,
+      "genres": [
+        "Komedie"
+      ],
+      "director": [
+        "Tomáš Svoboda"
+      ],
+      "screenwriter": [
+        "Tomáš Svoboda"
+      ],
+      "cast": [
+        "Petr Uhlík",
+        "Nelly Řehořová",
+        "Štěpán Kozub",
+        "Albert Čuba",
+        "Jiří Lábus",
+        "Tomáš Měcháček",
+        "Michal Isteník",
+        "Vasil Fridrich"
+      ],
+      "production_company": [],
+      "poster_path": "/vuxm0LcHnbMivBylCkkhSzZ3Vg5.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 1767766,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Pro%C4%8D+bychom+se+nezabili+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-11T09:21:41+00:00",
+      "release_date": "2026-09-24"
+    },
+    {
+      "film_id": "rodina",
+      "title_cz": "Rodina",
+      "title_en": "Kin",
+      "original_title": "Родичі",
+      "year": 2026,
+      "synopsis": "After many years of actively avoiding her family, Mariia finally decides to pay them a visit, seemingly to celebrate her grandmother's jubilee. However, her intentions might not be as wholesome as it seems, as the true nature of her visit lies in the fact that the birthday girl decided to grant Mariia the ownership over her home. Mariia's uncle Grygorii learns of this and decides to engage in a turf war with his niece, hoping that this will result in the latter changing her mind. However, the young entrepeneur is a tougher nut to crack than it initially looks.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "Andrii Chereshnya"
+      ],
+      "screenwriter": [
+        "Oleksii Prykhodko",
+        "Yevhen Taller"
+      ],
+      "cast": [
+        "Nazar Zadniprovskyi",
+        "Iryna Mak",
+        "Vira Kobzar",
+        "Oleksandr Yarema",
+        "Antonina Khyzhniak",
+        "Halyna Kornieieva",
+        "Anastasia Ivaniuk",
+        "Liubomyr Valivots"
+      ],
+      "production_company": [
+        "Kyivfilm",
+        "Green Light Films",
+        "MarkerMedia"
+      ],
+      "poster_path": "/o1ZpX9sHJ6D6OgZZImSOLKHkWIf.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/eE1IOMdtd3oiZDz72QW27aQxMzk.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1658840,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Rodina+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-11T09:21:41+00:00",
       "release_date": "2026-09-24"
     },
     {
