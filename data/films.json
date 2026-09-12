@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T09:21:40+00:00",
+  "generated_at": "2026-09-12T09:02:35+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -227,6 +227,55 @@
       "resolved_at": "2026-09-11T09:21:29+00:00"
     },
     {
+      "film_id": "amelie z montmartru",
+      "title_cz": "Amélie z Montmartru",
+      "title_en": "Amélie",
+      "original_title": "Le Fabuleux Destin d'Amélie Poulain",
+      "year": 2001,
+      "synopsis": "Amélie žije v pařížské čtvrti Montmartre, která je světem sama pro sebe. Je číšnicí v místním bistru, nakupuje u místního zelináře, zdraví sousedy jako na malém městě. V jejím životě se nikdy neudálo nic zvláštního, až na matčinu kuriózní smrt, nad níž Améliin tatínek stále truchlí. Amélie by asi zůstala smířená se svým osamělým údělem, kdyby jednoho dne neobjevila ve svém bytě ukrytý poklad v podobě staré krabice s památkami na dětství někdejšího nájemníka. Nejenže se Amélie rozhodne po letech doručit krabici jejímu majiteli, ale dospěje současně k poznání, že může pomáhat zlepšit a napravovat okolní svět. Když pak jednoho dne objeví člověka sbírajícího u nádražních fotoautomatů zahozené podobenky cizích lidí, Amélie se zamiluje. Trvá to ale ještě nějaký čas, než se seznámí s Ninem a než mu dovolí rozšifrovat její tajemné zprávy.",
+      "synopsis_language": "cs",
+      "runtime_min": 117,
+      "genres": [
+        "Komedie",
+        "Romantický"
+      ],
+      "director": [
+        "Jean-Pierre Jeunet"
+      ],
+      "screenwriter": [
+        "Guillaume Laurant",
+        "Jean-Pierre Jeunet"
+      ],
+      "cast": [
+        "Audrey Tautou",
+        "Mathieu Kassovitz",
+        "Rufus",
+        "Serge Merlin",
+        "Jamel Debbouze",
+        "Clotilde Mollet",
+        "Claire Maurier",
+        "Isabelle Nanty"
+      ],
+      "production_company": [
+        "Victoires Productions",
+        "Tapioca Films",
+        "France 3 Cinéma",
+        "MMC Independent",
+        "UGC"
+      ],
+      "poster_path": "/taIfqSxEdYiIWX7niu3CgeMgjAE.jpg",
+      "poster_fallback_url": "https://www.kinopritomnost.cz/uploads/images/movies/2024/10/30/671803cd9dc75741d609dffb34ba038f.jpg",
+      "backdrop_path": "/6n53UI4mX9QMfe2S0Pgt8mGebY1.jpg",
+      "trailer_youtube_key": "h6nASqVczdc",
+      "age_rating": "U",
+      "tmdb_id": 194,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Am%C3%A9lie+z+Montmartru+2001",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.11, title 1.00)",
+      "match_score": 1.115,
+      "resolved_at": "2026-09-12T09:02:14+00:00"
+    },
+    {
       "film_id": "ange",
       "title_cz": "Ange",
       "title_en": "Ange",
@@ -270,44 +319,6 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-09-09T09:26:08+00:00"
-    },
-    {
-      "film_id": "architektura cssr 58 89",
-      "title_cz": "Architektura ČSSR 58–89",
-      "title_en": "Czechoslovak Architecture 58–89",
-      "original_title": "Architektura ČSSR 58–89",
-      "year": 2024,
-      "synopsis": "Brutálně krásná, ale brutálně opomíjená. Vedle šedé záplavy prefabrikovaných paneláků vznikaly ve druhé polovině dvacátého století také výjimečné, spirituální a nadčasové stavby, které budily pozornost i na Západě. Jan Zajíček natočil podle námětu Vladimira 518 unikátní celovečerní výpravu do předrevoluční architektonické scény. Na pozadí impozantních záběrů nejzajímavějších českých i slovenských poválečných budov, doplněných o svědectví předních architektů a teoretiků, vyvstává plastický portrét doby, kde vedle oficiálního a řízeně strukturovaného bujelo mnoho organického, moderního a inspirativního.",
-      "synopsis_language": "cs",
-      "runtime_min": 126,
-      "genres": [
-        "Dokumentární"
-      ],
-      "director": [
-        "Jan Zajíček"
-      ],
-      "screenwriter": [
-        "Jan Zajíček",
-        "Henrieta Moravčíková"
-      ],
-      "cast": [],
-      "production_company": [
-        "Film Kolektiv",
-        "Azyl Production",
-        "Česká televize",
-        "RTVS"
-      ],
-      "poster_path": "/7onVRqPdy9J9GqRM3XcRlwhCaDF.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/wOxyfgdMQN47pAp7WN5eZ8W1Y9f.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "U",
-      "tmdb_id": 1301895,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Architektura+%C4%8CSSR+58%E2%80%9389+2024",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:27:39+02:00"
     },
     {
       "film_id": "auta",
@@ -459,52 +470,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Avengers: Endgame Special Edition IV'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "az na krev",
-      "title_cz": "Až na krev",
-      "title_en": "There Will Be Blood",
-      "original_title": "There Will Be Blood",
-      "year": 2007,
-      "synopsis": "Daniel Plainview a jeho syn jsou nezávislí prospektoři, kteří hledají ropná naleziště v Kalifornii na počátku 20. století. Do cesty se jim postaví stejně ambiciózní mladý kazatel Eli Sunday. Jejich bitva se stane centrem temně komického historického příběhu o sestupu do hlubin šílenství.",
-      "synopsis_language": "cs",
-      "runtime_min": 158,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Paul Thomas Anderson"
-      ],
-      "screenwriter": [
-        "Paul Thomas Anderson"
-      ],
-      "cast": [
-        "Daniel Day-Lewis",
-        "Paul Dano",
-        "Kevin J. O'Connor",
-        "Ciarán Hinds",
-        "Dillon Freasier",
-        "Hope Elizabeth Reeves",
-        "Colleen Foy",
-        "Barry Del Sherman"
-      ],
-      "production_company": [
-        "Paramount Vantage",
-        "Miramax",
-        "JoAnne Sellar Productions",
-        "Ghoulardi Film Company"
-      ],
-      "poster_path": "/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2025/12/02/a8ec5532bc9877e833af6c8235540bf3.jpg",
-      "backdrop_path": "/9UAKA6ceZi6TgQwTAAMt7DWwYPI.jpg",
-      "trailer_youtube_key": "-bEwlq_7f4s",
-      "age_rating": "15",
-      "tmdb_id": 7345,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=A%C5%BE+na+krev+2007",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-09-04T09:21:23+00:00"
     },
     {
       "film_id": "backrooms",
@@ -984,6 +949,42 @@
       "resolved_at": "2026-09-11T09:21:30+00:00"
     },
     {
+      "film_id": "call",
+      "title_cz": "Call",
+      "title_en": "Call",
+      "original_title": "Call",
+      "year": 2021,
+      "synopsis": "A woman is taking an old elevator up to her new apartment that she has just moved into. The oddly old and ringing phone inside the cabin is freaking her out. Over the line she is told about nightmares that are about to become true.",
+      "synopsis_language": "en",
+      "runtime_min": 8,
+      "genres": [
+        "Horor"
+      ],
+      "director": [
+        "Deniz Arora"
+      ],
+      "screenwriter": [
+        "Tevfik Başer"
+      ],
+      "cast": [
+        "Katja Sallay",
+        "Georgios Tsivanoglou",
+        "Noah Saavedra"
+      ],
+      "production_company": [],
+      "poster_path": "/c0T3PivMCgR0DrwYRTf8Ig86vpw.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 857403,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Call+2021",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-12T09:02:15+00:00"
+    },
+    {
       "film_id": "carmen zaznam opery",
       "title_cz": "Carmen (Záznam opery)",
       "title_en": "",
@@ -1342,6 +1343,53 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Děvče ze Západu (Opera)'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "die my love",
+      "title_cz": "Die My Love",
+      "title_en": "Die My Love",
+      "original_title": "Die My Love",
+      "year": 2025,
+      "synopsis": "Grace a Jackson jsou po uši zamilovaní. Po narození dítěte a přestěhování na venkov si malují společnou budoucnost plnou nadějí a snů. Jenže Grace, vyčerpaná mateřstvím a otrávená vlastním životem, v sobě cítí narůstat něco divokého – nespoutanou energii, kterou nedokáže zastavit. Nekompromisní, temně komický psychothriller Lynne Ramsay vás vtáhne do chaosu ženské duše jako málokterý film.",
+      "synopsis_language": "cs",
+      "runtime_min": 119,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Lynne Ramsay"
+      ],
+      "screenwriter": [
+        "Enda Walsh",
+        "Lynne Ramsay",
+        "Alice Birch"
+      ],
+      "cast": [
+        "Jennifer Lawrence",
+        "Robert Pattinson",
+        "Sissy Spacek",
+        "LaKeith Stanfield",
+        "Nick Nolte",
+        "Gabrielle Rose",
+        "Clare Coulter",
+        "Sarah Lind"
+      ],
+      "production_company": [
+        "Excellent Cadaver",
+        "Sikelia Productions",
+        "Black Label Media"
+      ],
+      "poster_path": "/kajpShbFhOdpl6yCrLezMrr9tB4.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/dEkFlZzj2cb5F7SShvqkL54E4lr.jpg",
+      "trailer_youtube_key": "2jzXHW6Qe70",
+      "age_rating": "15+",
+      "tmdb_id": 1033148,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Die+My+Love+2025",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-12T09:02:16+00:00"
     },
     {
       "film_id": "divka v oblacich",
@@ -2229,52 +2277,29 @@
       "resolved_at": "2026-08-05T22:28:02+02:00"
     },
     {
-      "film_id": "hraci",
-      "title_cz": "Hráči",
-      "title_en": "Shade",
-      "original_title": "Shade",
-      "year": 2003,
-      "synopsis": "V temné atmosféře losangeleského tajného hráčského doupěte se scházejí karbaníci. Uznávají jen jediné pravidlo: podvádět. Po dálnici k L.A. se velkou rychlostí blíží automobil. Řidič drží v ruce balíček karet, které s lehkostí snímá: kouzelník, který předvádí své triky. Falešný hráč Vernon. Jeho stará láska Tiffany je žena, která by vyřízla muži srdce, kdyby jí to mělo rychle vydělat prachy. Všichni mají společný cíl: chtějí vyhrát nad Deanem, nepřekonatelným falešným hráčem, kterému ostatní dají všechny své peníze, jen aby mohli říct, že seděli u jeho stolu. A tak přichází ke slovu ON. Velký učitel podvodů a triků Steven (SYLVESTER STALLONE) - král všech hráčů. Karty jsou rozdány a hra začíná!",
-      "synopsis_language": "cs",
-      "runtime_min": 86,
-      "genres": [
-        "Akční",
-        "Thriller",
-        "Krimi"
-      ],
-      "director": [
-        "Damian Nieman"
-      ],
-      "screenwriter": [
-        "Damian Nieman"
-      ],
-      "cast": [
-        "Stuart Townsend",
-        "Sylvester Stallone",
-        "Jamie Foxx",
-        "Gabriel Byrne",
-        "Thandiwe Newton",
-        "Melanie Griffith",
-        "Hal Holbrook",
-        "Roger Guenveur Smith"
-      ],
-      "production_company": [
-        "Judgement Pictures",
-        "Cobalt Media Group",
-        "Hammond Entertainment",
-        "RKO Pictures"
-      ],
-      "poster_path": "/2uK217wp1SSFgbIcwDaPrzlLd7X.jpg",
+      "film_id": "hovory pod platnem vaclav zmolik hovori s petrem kostkou",
+      "title_cz": "Hovory pod plátnem - Václav Žmolík hovoří s Petrem Kostkou",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
       "poster_fallback_url": "",
-      "backdrop_path": "/4bPNy1jpf75bwHk4T7iIuEYayEJ.jpg",
-      "trailer_youtube_key": "0rCOxEgyzWQ",
-      "age_rating": "R (US)",
-      "tmdb_id": 14576,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Hr%C3%A1%C4%8Di+2003",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-05T08:50:52+00:00"
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Hovory+pod+pl%C3%A1tnem+-+V%C3%A1clav+%C5%BDmol%C3%ADk+hovo%C5%99%C3%AD+s+Petrem+Kostkou",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Hovory pod plátnem - Václav Žmolík hovoří s Petrem Kostkou'",
+      "match_score": 0.0
     },
     {
       "film_id": "hranice vernosti",
@@ -2570,29 +2595,52 @@
       "match_score": 0.0
     },
     {
-      "film_id": "kinospunti a kapybary",
-      "title_cz": "Kinošpunti a kapybary",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Kino%C5%A1punti+a+kapybary",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Kinošpunti a kapybary'",
-      "match_score": 0.0
+      "film_id": "kojot vraci uder",
+      "title_cz": "Kojot vrací úder",
+      "title_en": "Coyote vs. Acme",
+      "original_title": "Coyote vs. Acme",
+      "year": 2026,
+      "synopsis": "Celé roky padal z útesů, vybuchoval, přejížděly ho kamiony a na vlastní kůži testoval snad každý nebezpečný výrobek, který kdy opustil továrnu ACME. A zatímco Kojot Vilda sbíral jednu životní ránu za druhou, jeho staří známí z Looney Tunes si užívali slávu a dostávali hlavní role – nejen Kačer Daffy, ale i kanárek Tweety, nemluvě o Bugs Bunnym, který si vysloužil dokonce hvězdu na Hollywoodském chodníku slávy. A on? Pořád někde padá do rokle. Jenže s tím je konec! Po letech marného pronásledování Ptáka Uličníka a jeho nesnesitelného „mig, mig“ se Kojot Vilda rozhodne vzít spravedlnost do svých rukou a vrátit úder. S pomocí právníka, který má k úspěchu asi stejně daleko jako on k chycení Ptáka Uličníka, vyráží do boje proti ACME!",
+      "synopsis_language": "cs",
+      "runtime_min": 103,
+      "genres": [
+        "Komedie",
+        "Dobrodružný",
+        "Rodinný"
+      ],
+      "director": [
+        "Dave Green"
+      ],
+      "screenwriter": [
+        "Samy Burch"
+      ],
+      "cast": [
+        "Will Forte",
+        "Lana Condor",
+        "John Cena",
+        "Tone Bell",
+        "Martha Kelly",
+        "Luis Guzmán",
+        "P.J. Byrne",
+        "John Early"
+      ],
+      "production_company": [
+        "Troll Court Entertainment",
+        "Keylight Pictures",
+        "Warner Animation Group",
+        "Warner Bros. Pictures"
+      ],
+      "poster_path": "/fFjf76Ngjf8BXCDsGPhIqpZUAkY.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/09/04/1a058abb9473db885e67104b11d3d05f.webp",
+      "backdrop_path": "/l9mFW9HQnAZ4r1ChZJHoOT3jaal.jpg",
+      "trailer_youtube_key": "kMsiD1Nky5I",
+      "age_rating": "U",
+      "tmdb_id": 1204680,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kojot+vrac%C3%AD+%C3%BAder+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-09-12T09:02:17+00:00"
     },
     {
       "film_id": "konec oak street",
@@ -2618,6 +2666,206 @@
       "resolved": false,
       "match_reason": "best candidate 'The End of Oak Street' only scored 0.65",
       "match_score": 0.649
+    },
+    {
+      "film_id": "kralovska opera carmen 2026 27",
+      "title_cz": "Královská opera: CARMEN (2026/27)",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1lovsk%C3%A1+opera%3A+CARMEN+%282026%2F27%29",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Královská opera: CARMEN (2026/27)'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "kralovska opera cosi fan tutte 2026 27",
+      "title_cz": "Královská opera: COSÌ FAN TUTTE (2026/27)",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1lovsk%C3%A1+opera%3A+COS%C3%8C+FAN+TUTTE+%282026%2F27%29",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Královská opera: COSÌ FAN TUTTE (2026/27)'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "kralovska opera soumrak bohu 2026 2027",
+      "title_cz": "Královská opera: SOUMRAK BOHŮ (2026/2027)",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1lovsk%C3%A1+opera%3A+SOUMRAK+BOH%C5%AE+%282026%2F2027%29",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Královská opera: SOUMRAK BOHŮ (2026/2027)'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "kralovsky balet alenka v risi divu 2026 27",
+      "title_cz": "Královský balet: ALENKA V ŘÍŠI DIVŮ (2026/27)",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1lovsk%C3%BD+balet%3A+ALENKA+V+%C5%98%C3%8D%C5%A0I+DIV%C5%AE+%282026%2F27%29",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Královský balet: ALENKA V ŘÍŠI DIVŮ (2026/27)'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "kralovsky balet labuti jezero 2026 27",
+      "title_cz": "Královský balet: LABUTÍ JEZERO (2026/27)",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1lovsk%C3%BD+balet%3A+LABUT%C3%8D+JEZERO+%282026%2F27%29",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Královský balet: LABUTÍ JEZERO (2026/27)'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "kralovsky balet louskacek 2026 27",
+      "title_cz": "Královský balet: LOUSKÁČEK (2026/27)",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1lovsk%C3%BD+balet%3A+LOUSK%C3%81%C4%8CEK+%282026%2F27%29",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Královský balet: LOUSKÁČEK (2026/27)'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "kralovsky balet manon 2026 27",
+      "title_cz": "Královský balet: MANON (2026/27)",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1lovsk%C3%BD+balet%3A+MANON+%282026%2F27%29",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Královský balet: MANON (2026/27)'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "kralovsky balet romeo a julie 2026 27",
+      "title_cz": "Královský balet: ROMEO A JULIE (2026/27)",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kr%C3%A1lovsk%C3%BD+balet%3A+ROMEO+A+JULIE+%282026%2F27%29",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Královský balet: ROMEO A JULIE (2026/27)'",
+      "match_score": 0.0
     },
     {
       "film_id": "kralovstvi mydlovych bublin",
@@ -2744,6 +2992,50 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Kuzma UA ZNÉNÍ'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "laska",
+      "title_cz": "Láska",
+      "title_en": "Láska",
+      "original_title": "Láska",
+      "year": 2026,
+      "synopsis": "Třicetiletá Anna hledá stabilní základ ve svých vztazích, ale nevědomky opakuje manipulativní vzorce, které se naučila od své matky. Když se setká s nevyléčitelně nemocným pacientem a jeho oddanou manželkou, zažije Anna hlubokou lásku, která jí změní život.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Marko Škop"
+      ],
+      "screenwriter": [
+        "Marko Škop"
+      ],
+      "cast": [
+        "Jana Kovalčiková",
+        "Rebeka Poláková",
+        "Milan Ondrík",
+        "Richard Autner",
+        "Ingrid Timková",
+        "Dana Droppová",
+        "Ivana Chýlková",
+        "Dušan Cinkota"
+      ],
+      "production_company": [
+        "Cinepoint",
+        "Artileria"
+      ],
+      "poster_path": "/lQt8leY727HHOXvAWMmLrL6ZeXJ.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1508101,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=L%C3%A1ska+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-12T09:02:23+00:00"
     },
     {
       "film_id": "lecive ucinky sebeklamu",
@@ -2957,6 +3249,34 @@
       "resolved_at": "2026-08-11T05:52:33+00:00"
     },
     {
+      "film_id": "ma vlast",
+      "title_cz": "Má vlast",
+      "title_en": "My Homeland",
+      "original_title": "Má Vlast",
+      "year": 2025,
+      "synopsis": "The Czech Philharmonic, DEKKADANCERS, the Forman Brothers Theatre and Jatka78 perform Bedřich Smetana's masterpiece, \"Má Vlast.\" Six symphonic poems resonate through the Czech landscape and history as a colorful map of memories, feelings and moments. The unyielding “Šárka”, the combative “Tábor”, the mythical “Vyšehrad” and “Blaník”, the magical “Vltava” and the romantic “Luhy a háje” come to life on stage thanks to classical music, contemporary dance and the poetics of the new circus.",
+      "synopsis_language": "en",
+      "runtime_min": 98,
+      "genres": [],
+      "director": [
+        "Adam Oľha"
+      ],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "/A6i2waFQ3EJLul513xC6eJ9zDA5.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1553735,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=M%C3%A1+vlast+2025",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-12T09:02:24+00:00"
+    },
+    {
       "film_id": "macbeth opera",
       "title_cz": "Macbeth (Opera)",
       "title_en": "MACBETH - OPERA DIRECTO",
@@ -3155,6 +3475,31 @@
       "resolved_at": "2026-09-11T09:21:33+00:00"
     },
     {
+      "film_id": "maly unaveny joe prednaska a medailon s karlem jordanem",
+      "title_cz": "Malý unavený Joe + přednáška a medailon s Karlem Jordánem",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Mal%C3%BD+unaven%C3%BD+Joe+%2B+p%C5%99edn%C3%A1%C5%A1ka+a+medailon+s+Karlem+Jord%C3%A1nem",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Malý unavený Joe + přednáška a medailon s Karlem Jordánem'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "manon opera",
       "title_cz": "Manon (Opera)",
       "title_en": "",
@@ -3249,6 +3594,52 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Mezinárodní festival krátkých filmů BOO'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "michael",
+      "title_cz": "Michael",
+      "title_en": "Michael",
+      "original_title": "Michael",
+      "year": 2026,
+      "synopsis": "Michael podrobně mapuje kariéru budoucího Krále popu od jeho prvních kroků v rodinné skupině Jackson Five, kde od začátku prokazoval největší talent, i když byl nejmladším členem kapely. Stále populárnější skupinu vede pevnou rukou jeho táta Joe, možná až příliš pevnou pro křehkého Michaela. Když se o Jackson Five začnou zajímat hudební producenti, všichni si okamžitě uvědomí, že Michael je nejcennějším členem skupiny. Ti nejodvážnější z nich dokonce začínají mluvit o tom, jak by jeho kariéře prospělo, kdyby se vydal na sólovou dráhu. Joe, despotický otec a tvrdý manažer v jedné osobě, o tom samozřejmě nechce ani slyšet. Michael však touží jít vlastní cestou. A tak nad Jacksonovými zavládne klid před bouří, ze které se zrodí hudební legenda a některé z nejlepších písní v historii populární hudby.",
+      "synopsis_language": "cs",
+      "runtime_min": 128,
+      "genres": [
+        "Hudební",
+        "Drama"
+      ],
+      "director": [
+        "Antoine Fuqua"
+      ],
+      "screenwriter": [
+        "John Logan"
+      ],
+      "cast": [
+        "Jaafar Jackson",
+        "Colman Domingo",
+        "Nia Long",
+        "Juliano Krue Valdi",
+        "KeiLyn Durrel Jones",
+        "Miles Teller",
+        "Larenz Tate",
+        "Laura Harrier"
+      ],
+      "production_company": [
+        "Lionsgate",
+        "GK Films",
+        "Optimum Productions"
+      ],
+      "poster_path": "/dueFqKLvjftnELZaGYwY7xinfaI.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
+      "trailer_youtube_key": "k-YAcjaLuSI",
+      "age_rating": "12+",
+      "tmdb_id": 936075,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Michael+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-12T09:02:26+00:00"
     },
     {
       "film_id": "milovnik ne bojovnik cz tady vary",
@@ -4540,6 +4931,51 @@
       "resolved_at": "2026-08-05T22:28:25+02:00"
     },
     {
+      "film_id": "padli andele",
+      "title_cz": "Padlí andělé",
+      "title_en": "Fallen Angels",
+      "original_title": "墮落天使",
+      "year": 1995,
+      "synopsis": "Profesionální zabiják se chystá na svou poslední zakázku. Nejprve ale musí nějak překonat svou náklonost ke své chladné kolegyni. Uvědomuje si, že zaplést se s kolegyní je nejen nevhodné, ale i nebezpečné. Pod nepříjemně temnou, až surrealistickou noční oblohou velkoměsta se setkává s tulačkou, která pátrá po svém bývalém příteli. A zaujme zabijáka svými nekonvenčními způsoby, kterými se na sebe snaží upoutat pozornost.",
+      "synopsis_language": "cs",
+      "runtime_min": 97,
+      "genres": [
+        "Akční",
+        "Romantický",
+        "Krimi"
+      ],
+      "director": [
+        "Wong Kar-Wai"
+      ],
+      "screenwriter": [
+        "Wong Kar-Wai"
+      ],
+      "cast": [
+        "Leon Lai Ming",
+        "Michele Reis",
+        "Takeshi Kaneshiro",
+        "Charlie Yeung Choi-Nei",
+        "Karen Mok Man-Wai",
+        "Chan Man-Lei",
+        "Toru Saito",
+        "Benz Kong To-Hoi"
+      ],
+      "production_company": [
+        "Jet Tone Production"
+      ],
+      "poster_path": "/pWNdnogj33XDtAMjz41sYZzTbRn.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/lInQVVbPjKFGX7GDcxNMXALy2Y4.jpg",
+      "trailer_youtube_key": "uxaT19BlH0M",
+      "age_rating": "12+",
+      "tmdb_id": 11220,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Padl%C3%AD+and%C4%9Bl%C3%A9+1995",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-12T09:02:27+00:00"
+    },
+    {
       "film_id": "papucovy den s filmem chica checa",
       "title_cz": "Papučový den s filmem Chica Checa",
       "title_en": "",
@@ -4914,51 +5350,6 @@
       "resolved_at": "2026-08-27T16:05:53+00:00"
     },
     {
-      "film_id": "poklad na sierra madre",
-      "title_cz": "Poklad na Sierra Madre",
-      "title_en": "The Treasure of the Sierra Madre",
-      "original_title": "The Treasure of the Sierra Madre",
-      "year": 1948,
-      "synopsis": "Na dva tulácké smolaře a mrzutého zlatokopa se usměje štěstí a objeví zlato. Ovládne je chamtivost, která zcela pomate jejich mysl.",
-      "synopsis_language": "cs",
-      "runtime_min": 126,
-      "genres": [
-        "Dobrodružný",
-        "Drama",
-        "Western"
-      ],
-      "director": [
-        "John Huston"
-      ],
-      "screenwriter": [
-        "John Huston"
-      ],
-      "cast": [
-        "Humphrey Bogart",
-        "Walter Huston",
-        "Tim Holt",
-        "Bruce Bennett",
-        "Barton MacLane",
-        "Alfonso Bedoya",
-        "Arturo Soto Rangel",
-        "Manuel Dondé"
-      ],
-      "production_company": [
-        "Warner Bros. Pictures"
-      ],
-      "poster_path": "/pWcst7zVbi8Z8W6GFrdNE7HHRxL.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/07/ba8ef4d111df167fc7b98ea9b77a2c68.jpg",
-      "backdrop_path": "/osytHgkv86CTFKxo46l9P7ACEjm.jpg",
-      "trailer_youtube_key": "1DwXNmorsa0",
-      "age_rating": "U",
-      "tmdb_id": 3090,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Poklad+na+Sierra+Madre+1948",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-09-04T09:21:24+00:00"
-    },
-    {
       "film_id": "pomoc neviditelnych",
       "title_cz": "Pomoc neviditelných",
       "title_en": "Help of the invisibles",
@@ -5330,6 +5721,31 @@
       "match_score": 0.0
     },
     {
+      "film_id": "prazske prazeni o zahadach a badani",
+      "title_cz": "Pražské pražení: O záhadách a bádání",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Pra%C5%BEsk%C3%A9+pra%C5%BEen%C3%AD%3A+O+z%C3%A1had%C3%A1ch+a+b%C3%A1d%C3%A1n%C3%AD",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Pražské pražení: O záhadách a bádání'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "predator",
       "title_cz": "Predátor",
       "title_en": "Predator",
@@ -5465,6 +5881,54 @@
       "resolved_at": "2026-09-08T09:24:03+00:00"
     },
     {
+      "film_id": "princezna mononoke",
+      "title_cz": "Princezna Mononoke",
+      "title_en": "Princess Mononoke",
+      "original_title": "もののけ姫",
+      "year": 1997,
+      "synopsis": "Za dávných časů, v divokých hvozdech Japonska začíná mýtický boj mezi rozrůstající se civilizací lidí a zvířecími božstvy, která vládnou lesům. A také příběh lásky lidského dítěte vlčí bohyně - princezny Mononoke - a válečníka věřícího v mír mezi lidmi a přírodou - prince Ashitaky.",
+      "synopsis_language": "cs",
+      "runtime_min": 133,
+      "genres": [
+        "Dobrodružný",
+        "Fantasy",
+        "Animovaný"
+      ],
+      "director": [
+        "Hayao Miyazaki"
+      ],
+      "screenwriter": [
+        "Hayao Miyazaki"
+      ],
+      "cast": [
+        "Yoji Matsuda",
+        "Yuriko Ishida",
+        "Yuko Tanaka",
+        "Kaoru Kobayashi",
+        "Masahiko Nishimura",
+        "Tsunehiko Kamijô",
+        "Akihiro Miwa",
+        "Mitsuko Mori"
+      ],
+      "production_company": [
+        "Studio Ghibli",
+        "dentsu",
+        "Tokuma Shoten",
+        "Nippon Television Network Corporation"
+      ],
+      "poster_path": "/mVdz3vlmioKWZaHTGfu99zIuayZ.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2024/03/06/b0eccc0133fb2334d602b5cd10daf99c.jpg",
+      "backdrop_path": "/gl0jzn4BupSbL2qMVeqrjKkF9Js.jpg",
+      "trailer_youtube_key": "I1dHzoRl0sQ",
+      "age_rating": "U",
+      "tmdb_id": 128,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Princezna+Mononoke+1997",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-09-12T09:02:28+00:00"
+    },
+    {
       "film_id": "pripad ztraceneho elektrokola",
       "title_cz": "Případ ztraceného elektrokola",
       "title_en": "",
@@ -5535,6 +5999,53 @@
       "resolved_at": "2026-08-05T22:28:35+02:00"
     },
     {
+      "film_id": "prisera z michiganskeho jezera",
+      "title_cz": "Příšera z Michiganského jezera",
+      "title_en": "Lake Michigan Monster",
+      "original_title": "Lake Michigan Monster",
+      "year": 2018,
+      "synopsis": "An eccentric sea captain assembles a motley ship crew in a revenge mission to slay the sea monster lurking in Lake Michigan that killed his father.",
+      "synopsis_language": "en",
+      "runtime_min": 78,
+      "genres": [
+        "Komedie",
+        "Fantasy",
+        "Horor",
+        "Dobrodružný"
+      ],
+      "director": [
+        "Ryland Brickson Cole Tews"
+      ],
+      "screenwriter": [
+        "Ryland Brickson Cole Tews",
+        "Mike Cheslik"
+      ],
+      "cast": [
+        "Ryland Brickson Cole Tews",
+        "Beulah Peters",
+        "Erick West",
+        "Daniel Long",
+        "Steve Hoelter",
+        "Wayne Tews",
+        "Lucille Tews",
+        "Aylah Hutchison"
+      ],
+      "production_company": [
+        "SRH"
+      ],
+      "poster_path": "/acx4vsJJcXVNa2gEVgluY6ljiHz.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2024/04/23/889ed81d062f7c6fc36072170a2def0e.jpg",
+      "backdrop_path": "/s5hz3C6YaXgfGe4UWVCpLRLaxpp.jpg",
+      "trailer_youtube_key": "yarP9W5nhbo",
+      "age_rating": "",
+      "tmdb_id": 543988,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=P%C5%99%C3%AD%C5%A1era+z+Michigansk%C3%A9ho+jezera+2018",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-09-12T09:02:29+00:00"
+    },
+    {
       "film_id": "pro deti",
       "title_cz": "PRO DĚTI | Amazonie",
       "title_en": "The Children's Train",
@@ -5603,31 +6114,6 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Pro%C4%8D+Izrael",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Proč Izrael'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "pta et al chamtivost a krev",
-      "title_cz": "PTA et al. - Chamtivost a krev",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/07/5163c0c7dfb3ffdd518d98222dff7e79.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=PTA+et+al.+-+Chamtivost+a+krev",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'PTA et al. - Chamtivost a krev'",
       "match_score": 0.0
     },
     {
@@ -5899,6 +6385,31 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-09-09T09:26:17+00:00"
+    },
+    {
+      "film_id": "robert richardson bily dabel",
+      "title_cz": "Robert Richardson: Bílý ďábel",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Robert+Richardson%3A+B%C3%ADl%C3%BD+%C4%8F%C3%A1bel",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Robert Richardson: Bílý ďábel'",
+      "match_score": 0.0
     },
     {
       "film_id": "robin hood kral zbojniku",
@@ -6870,6 +7381,31 @@
       "resolved_at": "2026-08-05T22:28:52+02:00"
     },
     {
+      "film_id": "tady vary 1",
+      "title_cz": "TADY VARY 1 | Milovník, ne bojovník",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=TADY+VARY+1+%7C+Milovn%C3%ADk%2C+ne+bojovn%C3%ADk",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'TADY VARY 1'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "tahle zeme neni pro slimaky",
       "title_cz": "Tahle země není pro slimáky",
       "title_en": "",
@@ -7024,6 +7560,59 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-09-11T09:21:39+00:00"
+    },
+    {
+      "film_id": "takovi normalni zabijaci",
+      "title_cz": "Takoví normální zabijáci",
+      "title_en": "Natural Born Killers",
+      "original_title": "Natural Born Killers",
+      "year": 1994,
+      "synopsis": "Mallory neměla mnoho důvodů být šťastná. Otec ji tyranizoval a sexuálně obtěžoval, matka nepodnikala nic na dceřinu obranu. Když se dívka náhodně setkala s Mickeym, byla z toho láska na první pohled. Ještě téhož večera si tajně vypůjčili auto Malloryina otce a vyrazili na projížďku. Otec nahlásil krádež policii, uprchlíci byli dopadeni a Mickey putoval za mříže. Podařilo se mu však utéct, a tak se zanedlouho znovu objevil u Mallory. Jejich setkání mělo hrůzný průběh: nejprve zbili dívčina otce, pak ho utopili v akváriu, a poté přišla na řadu matka tu polili v posteli benzínem a Mallory ji zapálila. Mladí milenci se dávají na útěk a nechávají za sebou další mrtvé. Jejich řádění sledují sdělovací prostředky, policie je jim na stopě...",
+      "synopsis_language": "cs",
+      "runtime_min": 119,
+      "genres": [
+        "Krimi",
+        "Thriller",
+        "Drama"
+      ],
+      "director": [
+        "Oliver Stone"
+      ],
+      "screenwriter": [
+        "Richard Rutowski",
+        "Oliver Stone",
+        "Quentin Tarantino",
+        "David Veloz"
+      ],
+      "cast": [
+        "Woody Harrelson",
+        "Juliette Lewis",
+        "Robert Downey Jr.",
+        "Tommy Lee Jones",
+        "Tom Sizemore",
+        "Rodney Dangerfield",
+        "Edie McClurg",
+        "Jared Harris"
+      ],
+      "production_company": [
+        "Warner Bros. Pictures",
+        "Regency Enterprises",
+        "Alcor Films",
+        "Ixtlan Productions",
+        "New Regency Pictures",
+        "JD Productions"
+      ],
+      "poster_path": "/6omcsys8ph0sx1ufAIVDZAB4lPy.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/k3TOt50cHvTLXWYPnXP0szhiXB8.jpg",
+      "trailer_youtube_key": "XJyLi-3qsDs",
+      "age_rating": "15+",
+      "tmdb_id": 241,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Takov%C3%AD+norm%C3%A1ln%C3%AD+zabij%C3%A1ci+1994",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-12T09:02:31+00:00"
     },
     {
       "film_id": "terminator 2 den zuctovani",
@@ -7739,6 +8328,51 @@
       "resolved_at": "2026-08-22T05:24:41+00:00"
     },
     {
+      "film_id": "v srdci divociny",
+      "title_cz": "V srdci divočiny",
+      "title_en": "Heart of the Beast",
+      "original_title": "Heart of the Beast",
+      "year": 2026,
+      "synopsis": "James Belmont, penzionovaný vojenský expert, se se svým psem Odinem, taktéž válečným veteránem, vydává na výlet do aljašské divočiny. Jejich výprava se povážlivě zkomplikuje, když James vinou zdravotní indispozice nezvládne pilotování malého letadla a havaruje. Ti dva už v minulosti ve válečné zóně dokázali, že se jeden na druhého můžou stoprocentně spolehnout. Zvládnou ale spolu zdolat nástrahy aljašské divočiny, kde číhá smrtelné nebezpečí na každém kroku? A poté, co oba letecká havárie nepěkně pocuchala? A protože jedinou nadějí na přežití je pro oba návrat do civilizace, musí se vydat na cestu, která se promění v boj s přírodou v její nejdrsnější podobě. Když ale máte po boku dobrého parťáka, lze zvládnout cokoliv.",
+      "synopsis_language": "cs",
+      "runtime_min": 101,
+      "genres": [
+        "Dobrodružný",
+        "Thriller"
+      ],
+      "director": [
+        "David Ayer"
+      ],
+      "screenwriter": [
+        "Cameron Alexander"
+      ],
+      "cast": [
+        "Brad Pitt",
+        "Uber",
+        "J.K. Simmons",
+        "Anna Lambe"
+      ],
+      "production_company": [
+        "Paramount Pictures",
+        "Wild Chickens Productions",
+        "Temple Hill Entertainment",
+        "Domain Entertainment",
+        "GulfStream Pictures",
+        "Kino World"
+      ],
+      "poster_path": "/6D731WxnK4jkkoWjRGYCTtLuf4o.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
+      "trailer_youtube_key": "UkMuGKqAux4",
+      "age_rating": "12+",
+      "tmdb_id": 1263337,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=V+srdci+divo%C4%8Diny+2026",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-12T09:02:31+00:00"
+    },
+    {
       "film_id": "verejny prostor frantiska skaly",
       "title_cz": "Veřejný prostor Františka Skály",
       "title_en": "Public Space of František Skála",
@@ -7775,6 +8409,121 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:29:03+02:00"
+    },
+    {
+      "film_id": "vikend na chate",
+      "title_cz": "Víkend na chatě",
+      "title_en": "Games People Play",
+      "original_title": "Seurapeli",
+      "year": 2020,
+      "synopsis": "Roky nevázaného mládí vystřídaly nažehlené konvence střední třídy a blížící se polokulaté narozeniny společné kamarádky Mitzi tak snadno zavdají příčinu k návštěvě chaty, kde kdysi všichni pařili jako náctiletí.",
+      "synopsis_language": "cs",
+      "runtime_min": 105,
+      "genres": [
+        "Drama",
+        "Komedie"
+      ],
+      "director": [
+        "Jenni Toivoniemi"
+      ],
+      "screenwriter": [
+        "Jenni Toivoniemi"
+      ],
+      "cast": [
+        "Eero Milonoff",
+        "Emmi Parviainen",
+        "Laura Birn",
+        "Christian Hillborg",
+        "Iida-Maria Heinonen",
+        "Paavo Kinnunen",
+        "Paula Vesala",
+        "Samuli Niittymäki"
+      ],
+      "production_company": [
+        "Tuffi Films"
+      ],
+      "poster_path": "/5lYz3Two9BQHPdyGKJhw1diXWP7.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/spzAUftam5GtqcjoW9VeX3ybYZ7.jpg",
+      "trailer_youtube_key": "TFEWSCsFhBc",
+      "age_rating": "",
+      "tmdb_id": 657430,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=V%C3%ADkend+na+chat%C4%9B+2020",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-12T09:02:32+00:00"
+    },
+    {
+      "film_id": "vitezove a porazeni",
+      "title_cz": "Vítězové a poražení",
+      "title_en": "Any Given Sunday",
+      "original_title": "Any Given Sunday",
+      "year": 1999,
+      "synopsis": "Filmu odkrývá osudy fotbalového klubu Miami Sharks. Na padesátiyardové linii tohoto světa fotbalového hřiště stojí Tony D’Amato, zapálený trenér Sharks, který musí čelit zuřícím nesvárům v mužstvu a navíc i marketingem posedlé nové majitelce klubu, která si myslí, že Tony je z příliš staré školy. Také zraněný zadák, a prchlivý a tvrdohlavý záložní zadák, slizký týmový lékař a obránce s povzbudivou smlouvou prožívají příběhy, které se klikatí podobně jako náčrtky útočných formací.",
+      "synopsis_language": "cs",
+      "runtime_min": 150,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Oliver Stone"
+      ],
+      "screenwriter": [
+        "Oliver Stone",
+        "John Logan"
+      ],
+      "cast": [
+        "Al Pacino",
+        "Cameron Diaz",
+        "Dennis Quaid",
+        "James Woods",
+        "Jamie Foxx",
+        "LL Cool J",
+        "Matthew Modine",
+        "Jim Brown"
+      ],
+      "production_company": [
+        "Warner Bros. Pictures",
+        "Ixtlan Productions",
+        "The Donners' Company"
+      ],
+      "poster_path": "/nNQQ6kz24wgENCR3QPGW7bO7EyT.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/lqASDYSyYMgC1gYY7VHqK9Tnv0I.jpg",
+      "trailer_youtube_key": "cC2rkQThgX0",
+      "age_rating": "12+",
+      "tmdb_id": 9563,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=V%C3%ADt%C4%9Bzov%C3%A9+a+pora%C5%BEen%C3%AD+1999",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-12T09:02:33+00:00"
+    },
+    {
+      "film_id": "vlak cervena ruta",
+      "title_cz": "Vlak Červená Ruta",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7934S2R1.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Vlak+%C4%8Cerven%C3%A1+Ruta",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Vlak Červená Ruta'",
+      "match_score": 0.0
     },
     {
       "film_id": "vzhlizet ke hvezdam",
@@ -8017,6 +8766,55 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Zápas století'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "zapomenuty ostrov",
+      "title_cz": "Zapomenutý ostrov",
+      "title_en": "Forgotten Island",
+      "original_title": "Forgotten Island",
+      "year": 2026,
+      "synopsis": "Divoká Jo a intelektuálka Raisa jsou každá z jiného těsta, přesto mezi nimi vznikne přátelství s velkým „P“. Jako nejlepší kámošky přežijí nástrahy základní a střední školy. Na jejím konci se ale objeví první velká výzva. Raisa má opustit rodné město, aby pokračovala ve studiích na univerzitě, Jo čeká hledání práce. Jejich poslední společný večer není vůbec lehký, jako by si uvědomovaly, že rozdělené životní cesty se už nikdy nemusí spojit. Jenže pak se před nimi otevře tajemný portál, který vede na mýty opředený ostrov Nakali. Portálu je nemilosrdně pohltí a Jo s Raisou se rázem ocitnou ve světě, který funguje podle vlastních, jim naprosto nesrozumitelných pravidel. Poměrně brzy dívky zjistí, že ostrov se živí jejich vzpomínkami. Dokážou z něj uniknout dřív, než zapomenou?",
+      "synopsis_language": "cs",
+      "runtime_min": 109,
+      "genres": [
+        "Animovaný",
+        "Dobrodružný",
+        "Fantasy",
+        "Komedie",
+        "Rodinný"
+      ],
+      "director": [
+        "Januel Mercado",
+        "Joel Crawford"
+      ],
+      "screenwriter": [
+        "Joel Crawford",
+        "Januel Mercado"
+      ],
+      "cast": [
+        "H.E.R.",
+        "Liza Soberano",
+        "Dave Franco",
+        "Lea Salonga",
+        "Manny Jacinto",
+        "Jenny Slate",
+        "Dolly de Leon",
+        "Jo Koy"
+      ],
+      "production_company": [
+        "DreamWorks Animation"
+      ],
+      "poster_path": "/qMHplzO6DhSEClxTVVtnF5KRp1Z.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/2o9FzuBzCqrDTdlHRuEVnGD2d5h.jpg",
+      "trailer_youtube_key": "PhgY8cOJiQA",
+      "age_rating": "U",
+      "tmdb_id": 1465063,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Zapomenut%C3%BD+ostrov+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-12T09:02:35+00:00"
     },
     {
       "film_id": "zivy ktery sel okolo zprava karskeho",

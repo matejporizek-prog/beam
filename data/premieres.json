@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T09:21:42+00:00",
+  "generated_at": "2026-09-12T09:02:36+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -767,46 +767,6 @@
       "release_date": "2026-09-30"
     },
     {
-      "film_id": "vez",
-      "title_cz": "Věž",
-      "title_en": "The Tower",
-      "original_title": "Věž",
-      "year": 2026,
-      "synopsis": "Tereza cherishes moments of being the carefree girl she once was. She enjoys time with her boyfriend, but her thoughts drift to fears about raising Karla. She keeps her worlds apart, but one night changes everything. The Tower is a short film about losing oneself and how life's most important roles are often thrust upon us.",
-      "synopsis_language": "en",
-      "runtime_min": 23,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Marie-Magdalena Kochová"
-      ],
-      "screenwriter": [
-        "Josef Kokta"
-      ],
-      "cast": [
-        "Adam Ernest",
-        "Luna Sofie Bauerová",
-        "Luciana Tomášová"
-      ],
-      "production_company": [
-        "FAMU",
-        "Fork Film"
-      ],
-      "poster_path": "/rh9INRrHI8CEIBzqnjxU40imapI.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1524583,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=V%C4%9B%C5%BE+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-22T05:24:43+00:00",
-      "release_date": "2026-09-30"
-    },
-    {
       "film_id": "digger",
       "title_cz": "Digger",
       "title_en": "Digger",
@@ -1118,52 +1078,6 @@
       "release_date": "2026-10-08"
     },
     {
-      "film_id": "victorian psycho",
-      "title_cz": "Victorian Psycho",
-      "title_en": "Victorian Psycho",
-      "original_title": "Victorian Psycho",
-      "year": 2026,
-      "synopsis": "When eccentric young governess Winifred Notty arrives at a remote Gothic manor, a string of unsettling events leads the household to suspect she isn't who she claims to be—but the truth may be far more dangerous than they imagine.",
-      "synopsis_language": "en",
-      "runtime_min": 90,
-      "genres": [
-        "Horor",
-        "Thriller"
-      ],
-      "director": [
-        "Zachary Wigon"
-      ],
-      "screenwriter": [
-        "Virginia Feito"
-      ],
-      "cast": [
-        "Maika Monroe",
-        "Thomasin McKenzie",
-        "Ruth Wilson",
-        "Jason Isaacs",
-        "Evie Templeton",
-        "Jacobi Jupe",
-        "Amy De Bhrún",
-        "Katherine Moran"
-      ],
-      "production_company": [
-        "Anton",
-        "Traffic.",
-        "Anonymous Content"
-      ],
-      "poster_path": "/9LHVZevgdsdbjJdkFr6bk9EwX7q.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/92FSzMpBSkMH59ZCDz9tUjIWKAS.jpg",
-      "trailer_youtube_key": "eLtzPZvvJRs",
-      "age_rating": "R (US)",
-      "tmdb_id": 1379486,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Victorian+Psycho+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "release_date": "2026-10-08"
-    },
-    {
       "film_id": "wirbel",
       "title_cz": "Wirbel",
       "title_en": "Wirbel",
@@ -1286,52 +1200,6 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
-      "release_date": "2026-10-15"
-    },
-    {
-      "film_id": "everytime",
-      "title_cz": "Everytime",
-      "title_en": "Everytime",
-      "original_title": "Everytime",
-      "year": 2026,
-      "synopsis": "A tragedy brings a mother, daughter, and teenage boy together. Struggling with blame and forgiveness, the unlikely trio take a trip to Tenerife  for a family holiday that never happened. Under the glow of the sun,  past and present quietly start to overlap.",
-      "synopsis_language": "en",
-      "runtime_min": 119,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Sandra Wollner"
-      ],
-      "screenwriter": [
-        "Sandra Wollner"
-      ],
-      "cast": [
-        "Birgit Minichmayr",
-        "Tristán López",
-        "Lotte Keiling",
-        "Carla Hüttermann",
-        "Hermann Beyer",
-        "Eva Weißenborn",
-        "Knut Berger",
-        "Lilly Marie Tschörtner"
-      ],
-      "production_company": [
-        "The Barricades",
-        "ZDF",
-        "Panama Film"
-      ],
-      "poster_path": "/bOEoQxzC74eGMGbSq6xW7eLZjWn.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/5WPckRy930hu9vAQQnBorz1wSBo.jpg",
-      "trailer_youtube_key": "ORAun-RMCeY",
-      "age_rating": "",
-      "tmdb_id": 1655419,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Everytime+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-21T05:29:37+00:00",
       "release_date": "2026-10-15"
     },
     {
@@ -1484,48 +1352,6 @@
       "release_date": "2026-10-15"
     },
     {
-      "film_id": "ali g who iz i",
-      "title_cz": "Ali G: Who Iz I?",
-      "title_en": "Ali G: Who Iz I?",
-      "original_title": "Ali G: Who Iz I?",
-      "year": 2026,
-      "synopsis": "Plot details TBA.",
-      "synopsis_language": "en",
-      "runtime_min": null,
-      "genres": [
-        "Komedie"
-      ],
-      "director": [
-        "Sacha Baron Cohen"
-      ],
-      "screenwriter": [
-        "Sacha Baron Cohen"
-      ],
-      "cast": [
-        "Sacha Baron Cohen"
-      ],
-      "production_company": [
-        "Four by Two Films",
-        "MRC",
-        "Film4 Productions",
-        "Working Title Films",
-        "Alfresco Enterprises",
-        "Revolution Films"
-      ],
-      "poster_path": "/e0hUYHJyLuOQTjTEITPYAbVORd1.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/AfjusltCcByJ3rH2XHu4RRLKc2R.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "R (US)",
-      "tmdb_id": 1727734,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Ali+G%3A+Who+Iz+I%3F+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-25T05:29:15+00:00",
-      "release_date": "2026-10-22"
-    },
-    {
       "film_id": "clayface",
       "title_cz": "Clayface",
       "title_en": "Clayface",
@@ -1576,53 +1402,49 @@
       "release_date": "2026-10-22"
     },
     {
-      "film_id": "klara and the sun",
-      "title_cz": "Klara and the Sun",
-      "title_en": "Klara and the Sun",
-      "original_title": "Klara and the Sun",
+      "film_id": "everytime",
+      "title_cz": "Everytime",
+      "title_en": "Everytime",
+      "original_title": "Everytime",
       "year": 2026,
-      "synopsis": "When Klara, an Artificial Friend who wants nothing more than to find the perfect home, meets Josie, each immediately senses a kindred spirit in the other. Josie has a fraught relationship with her mother and they've suffered great loss, but Klara's innocent wonder and unwavering loyalty begin to heal the family and bring light to Josie's complicated world.",
+      "synopsis": "A tragedy brings a mother, daughter, and teenage boy together. Struggling with blame and forgiveness, the unlikely trio take a trip to Tenerife  for a family holiday that never happened. Under the glow of the sun,  past and present quietly start to overlap.",
       "synopsis_language": "en",
-      "runtime_min": 116,
+      "runtime_min": 119,
       "genres": [
-        "Vědeckofantastický",
-        "Drama",
-        "Komedie"
+        "Drama"
       ],
       "director": [
-        "Taika Waititi"
+        "Sandra Wollner"
       ],
       "screenwriter": [
-        "Dahvi Waller",
-        "Taika Waititi"
+        "Sandra Wollner"
       ],
       "cast": [
-        "Jenna Ortega",
-        "Mia Tharia",
-        "Amy Adams",
-        "Natasha Lyonne",
-        "Aran Murphy",
-        "Rachel House",
-        "Steve Buscemi",
-        "Davida McKenzie"
+        "Birgit Minichmayr",
+        "Tristán López",
+        "Lotte Keiling",
+        "Carla Hüttermann",
+        "Hermann Beyer",
+        "Eva Weißenborn",
+        "Knut Berger",
+        "Lilly Marie Tschörtner"
       ],
       "production_company": [
-        "3000 Pictures",
-        "Heyday Films",
-        "Defender Films",
-        "TSG Entertainment",
-        "Spyglass Media Group"
+        "The Barricades",
+        "ZDF",
+        "Panama Film"
       ],
-      "poster_path": "/xqovj2p6HRsgHxN81qYAYF4StgM.jpg",
+      "poster_path": "/bOEoQxzC74eGMGbSq6xW7eLZjWn.jpg",
       "poster_fallback_url": "",
-      "backdrop_path": "/1ZwcLnQMFvoAEbnGOsXJplgic6.jpg",
-      "trailer_youtube_key": "wixzainceAE",
-      "age_rating": "PG-13 (US)",
-      "tmdb_id": 858035,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Klara+and+the+Sun+2026",
+      "backdrop_path": "/5WPckRy930hu9vAQQnBorz1wSBo.jpg",
+      "trailer_youtube_key": "ORAun-RMCeY",
+      "age_rating": "",
+      "tmdb_id": 1655419,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Everytime+2026",
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "resolved_at": "2026-08-21T05:29:37+00:00",
       "release_date": "2026-10-22"
     },
     {
@@ -1847,49 +1669,6 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "release_date": "2026-10-29"
-    },
-    {
-      "film_id": "valka s mloky",
-      "title_cz": "Válka s mloky",
-      "title_en": "War with the Newts",
-      "original_title": "Válka s mloky",
-      "year": 2026,
-      "synopsis": "Kapitán Van Toc objeví v Tichém oceánu zdánlivě vyhynulý druh velemloka, který vykazuje známky inteligence. Postupně s nimi kapitán a zástupci obchodních společností začnou uzavírat dohody, kde výměnou za nože získávají perly, které mloci loví v mořích. Postupně se mloci stanou levnou pracovní silou i objektem vědeckého výzkumu. S pomocí člověka však také získávají stále větší moc k získání nadvlády nad lidskou rasou.",
-      "synopsis_language": "cs",
-      "runtime_min": null,
-      "genres": [
-        "Vědeckofantastický"
-      ],
-      "director": [
-        "Aurel Klimt"
-      ],
-      "screenwriter": [
-        "Aurel Klimt"
-      ],
-      "cast": [
-        "Jaroslav Dušek",
-        "Petr Čtvrtníček",
-        "Robert Nebřenský",
-        "Csongor Kassai",
-        "Lazar Ristovski",
-        "Ján Kvasnička",
-        "Miroslav Táborský",
-        "Jaromír Dulava"
-      ],
-      "production_company": [
-        "CinemArt"
-      ],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1623405,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=V%C3%A1lka+s+mloky+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "release_date": "2026-11-05"
     },
     {
       "film_id": "wild horse nine",
@@ -2124,6 +1903,148 @@
       "match_score": 1.0,
       "resolved_at": "2026-08-11T05:52:38+00:00",
       "release_date": "2026-11-12"
+    },
+    {
+      "film_id": "victorian psycho",
+      "title_cz": "Victorian Psycho",
+      "title_en": "Victorian Psycho",
+      "original_title": "Victorian Psycho",
+      "year": 2026,
+      "synopsis": "When eccentric young governess Winifred Notty arrives at a remote Gothic manor, a string of unsettling events leads the household to suspect she isn't who she claims to be—but the truth may be far more dangerous than they imagine.",
+      "synopsis_language": "en",
+      "runtime_min": 90,
+      "genres": [
+        "Horor",
+        "Thriller"
+      ],
+      "director": [
+        "Zachary Wigon"
+      ],
+      "screenwriter": [
+        "Virginia Feito"
+      ],
+      "cast": [
+        "Maika Monroe",
+        "Thomasin McKenzie",
+        "Ruth Wilson",
+        "Jason Isaacs",
+        "Evie Templeton",
+        "Jacobi Jupe",
+        "Amy De Bhrún",
+        "Katherine Moran"
+      ],
+      "production_company": [
+        "Anton",
+        "Traffic.",
+        "Anonymous Content"
+      ],
+      "poster_path": "/9LHVZevgdsdbjJdkFr6bk9EwX7q.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/92FSzMpBSkMH59ZCDz9tUjIWKAS.jpg",
+      "trailer_youtube_key": "eLtzPZvvJRs",
+      "age_rating": "R (US)",
+      "tmdb_id": 1379486,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Victorian+Psycho+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-11-12"
+    },
+    {
+      "film_id": "cizinec",
+      "title_cz": "Cizinec",
+      "title_en": "The Stranger",
+      "original_title": "L'Étranger",
+      "year": 2025,
+      "synopsis": "Alžír 1938. Meursault, tichý, nenápadný zaměstnanec kolem třiceti let, se bez viditelných emocí účastní pohřbu své matky. Následující den začíná milostný poměr s Marií, svou bývalou kolegyní z práce, a vrací se ke svému obvyklému každodennímu životu. Ten je však brzy narušen jeho sousedem Raymondem, který Meursaulta vtáhne do pochybných machinací – až do osudového dramatu, k němuž dojde jednoho žhavého dne na pláži... Film, natočený černobílou kamerou podle literárního klasika Alberta Camuse, měl premiéru na Mezinárodním filmovém festivalu v Benátkách v roce 2025",
+      "synopsis_language": "cs",
+      "runtime_min": 120,
+      "genres": [
+        "Drama",
+        "Krimi"
+      ],
+      "director": [
+        "François Ozon"
+      ],
+      "screenwriter": [
+        "François Ozon"
+      ],
+      "cast": [
+        "Benjamin Voisin",
+        "Rebecca Marder",
+        "Pierre Lottin",
+        "Denis Lavant",
+        "Swann Arlaud",
+        "Christophe Malavoy",
+        "Nicolas Vaude",
+        "Jean-Charles Clichet"
+      ],
+      "production_company": [
+        "FOZ",
+        "France 2 Cinéma",
+        "Gaumont",
+        "SCOPE Pictures",
+        "Macassar Productions"
+      ],
+      "poster_path": "/7hpPl0WVyy3w9JfIfalDLkRBj3E.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/aTjFGxR7K32HPxrdvJOVeXX1UCe.jpg",
+      "trailer_youtube_key": "aYCze1vl2jU",
+      "age_rating": "",
+      "tmdb_id": 1429348,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Cizinec+2025",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "release_date": "2026-11-19"
+    },
+    {
+      "film_id": "club kid",
+      "title_cz": "Club Kid",
+      "title_en": "Club Kid",
+      "original_title": "Club Kid",
+      "year": 2026,
+      "synopsis": "A hard-partying New York City club promoter sees his whirlwind lifestyle upended by the arrival of the 10-year-old son he never knew he had.",
+      "synopsis_language": "en",
+      "runtime_min": 126,
+      "genres": [
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "Jordan Firstman"
+      ],
+      "screenwriter": [
+        "Jordan Firstman"
+      ],
+      "cast": [
+        "Jordan Firstman",
+        "Reggie Absolom",
+        "Diego Calva",
+        "Cara Delevingne",
+        "Saturn Risin9",
+        "Miss Benny",
+        "Alaska Riley",
+        "Colleen Camp"
+      ],
+      "production_company": [
+        "Topic Studios",
+        "Stay Gold Features",
+        "Rapt Films",
+        "Twin Productions"
+      ],
+      "poster_path": "/3CdM37GtEDMAp7fGlRn9MCpFjn1.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/AjrgF2JZb8WAeIFTvUjJK6VA2CG.jpg",
+      "trailer_youtube_key": "guKEdb_iRXw",
+      "age_rating": "R (US)",
+      "tmdb_id": 1585239,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Club+Kid+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-12T09:02:36+00:00",
+      "release_date": "2026-11-19"
     },
     {
       "film_id": "hunger games usvit sklizne",
@@ -2766,54 +2687,6 @@
       "release_date": "2026-12-25"
     },
     {
-      "film_id": "cizinec",
-      "title_cz": "Cizinec",
-      "title_en": "The Stranger",
-      "original_title": "L'Étranger",
-      "year": 2025,
-      "synopsis": "Alžír 1938. Meursault, tichý, nenápadný zaměstnanec kolem třiceti let, se bez viditelných emocí účastní pohřbu své matky. Následující den začíná milostný poměr s Marií, svou bývalou kolegyní z práce, a vrací se ke svému obvyklému každodennímu životu. Ten je však brzy narušen jeho sousedem Raymondem, který Meursaulta vtáhne do pochybných machinací – až do osudového dramatu, k němuž dojde jednoho žhavého dne na pláži... Film, natočený černobílou kamerou podle literárního klasika Alberta Camuse, měl premiéru na Mezinárodním filmovém festivalu v Benátkách v roce 2025",
-      "synopsis_language": "cs",
-      "runtime_min": 120,
-      "genres": [
-        "Drama",
-        "Krimi"
-      ],
-      "director": [
-        "François Ozon"
-      ],
-      "screenwriter": [
-        "François Ozon"
-      ],
-      "cast": [
-        "Benjamin Voisin",
-        "Rebecca Marder",
-        "Pierre Lottin",
-        "Denis Lavant",
-        "Swann Arlaud",
-        "Christophe Malavoy",
-        "Nicolas Vaude",
-        "Jean-Charles Clichet"
-      ],
-      "production_company": [
-        "FOZ",
-        "France 2 Cinéma",
-        "Gaumont",
-        "SCOPE Pictures",
-        "Macassar Productions"
-      ],
-      "poster_path": "/7hpPl0WVyy3w9JfIfalDLkRBj3E.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/aTjFGxR7K32HPxrdvJOVeXX1UCe.jpg",
-      "trailer_youtube_key": "aYCze1vl2jU",
-      "age_rating": "",
-      "tmdb_id": 1429348,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Cizinec+2025",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "release_date": "2026-12-31"
-    },
-    {
       "film_id": "lajna konecne film",
       "title_cz": "Lajna - konečně film!",
       "title_en": "Lajna - konečně film!",
@@ -2848,7 +2721,7 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
-      "release_date": "2026-12-31"
+      "release_date": "2027-01-07"
     },
     {
       "film_id": "vlkodlak",
@@ -3088,37 +2961,6 @@
       "age_rating": "U",
       "tmdb_id": 1384758,
       "csfd_url": "https://www.csfd.cz/hledat/?q=Ice+Age%3A+Boiling+Point+2027",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-07T09:56:46+00:00",
-      "release_date": "2027-02-04"
-    },
-    {
-      "film_id": "princezna zakleta v case 3",
-      "title_cz": "Princezna zakletá v čase 3",
-      "title_en": "Princess Cursed in Time 3",
-      "original_title": "Princezna zakletá v čase 3",
-      "year": 2027,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [
-        "Rodinný",
-        "Fantasy",
-        "Dobrodružný"
-      ],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1165422,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Princezna+zaklet%C3%A1+v+%C4%8Dase+3+2027",
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
