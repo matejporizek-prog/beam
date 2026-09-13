@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T09:02:36+00:00",
+  "generated_at": "2026-09-13T10:00:53+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -1718,6 +1718,54 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "release_date": "2026-11-05"
+    },
+    {
+      "film_id": "0 0",
+      "title_cz": "ゴジラ-0.0",
+      "title_en": "Godzilla Minus Zero",
+      "original_title": "ゴジラ-0.0",
+      "year": 2026,
+      "synopsis": "War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as humanity managed to cling to a hard-won peace, a new threat strikes, crushing hope in an instant.",
+      "synopsis_language": "en",
+      "runtime_min": 135,
+      "genres": [
+        "Vědeckofantastický",
+        "Horor",
+        "Akční"
+      ],
+      "director": [
+        "Takashi Yamazaki"
+      ],
+      "screenwriter": [
+        "Takashi Yamazaki"
+      ],
+      "cast": [
+        "Ryunosuke Kamiki",
+        "Minami Hamabe",
+        "Yuki Yamada",
+        "Kuranosuke Sasaki",
+        "Jun Kunimura",
+        "Miou Tanaka",
+        "Sakura Ando",
+        "Masami Nagasawa"
+      ],
+      "production_company": [
+        "TOHO",
+        "Robot Communications",
+        "TOHO Studios"
+      ],
+      "poster_path": "/zlZeAIoHiIYiTNOk8H9j2l4sW02.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
+      "trailer_youtube_key": "-9MA9BnA7Uo",
+      "age_rating": "",
+      "tmdb_id": 1381071,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%E3%82%B4%E3%82%B8%E3%83%A9-0.0+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-13T10:00:53+00:00",
+      "release_date": "2026-11-06"
     },
     {
       "film_id": "drevorubec",
