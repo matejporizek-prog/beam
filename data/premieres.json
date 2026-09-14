@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T10:00:53+00:00",
+  "generated_at": "2026-09-14T10:21:25+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -3014,6 +3014,126 @@
       "match_score": 1.0,
       "resolved_at": "2026-09-07T09:56:46+00:00",
       "release_date": "2027-02-04"
+    },
+    {
+      "film_id": "bobule a bobulky",
+      "title_cz": "Bobule a bobulky",
+      "title_en": "Bobule a bobulky",
+      "original_title": "Bobule a bobulky",
+      "year": 2027,
+      "synopsis": "Dva hlavní hrdinové předchozích dílů oblíbené filmové série z prostředí jižní Moravy si tentokrát do  jisté míry prohodí role. Z obou jsou dnes ne úplně spořádaní tátové a na scénu přicházejí bobulky –  nová generace, která si hledá vlastní cestu.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Komedie",
+        "Rodinný"
+      ],
+      "director": [
+        "Marta Ferencová"
+      ],
+      "screenwriter": [
+        "Natália Bobocká",
+        "Marta Ferencová"
+      ],
+      "cast": [
+        "Kryštof Hádek",
+        "Lukáš Langmajer",
+        "Tom Sean",
+        "Prokop Zach",
+        "Jakub Uličník",
+        "Michal Isteník",
+        "Bolek Polívka",
+        "Zlata Adamovská"
+      ],
+      "production_company": [
+        "Bioscop"
+      ],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "/ptZIVkTZrsl6htRbDRbHhPyMzAa.jpg",
+      "trailer_youtube_key": "u-dHg9fOKyg",
+      "age_rating": "",
+      "tmdb_id": 1734429,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Bobule+a+bobulky+2027",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-14T10:21:24+00:00",
+      "release_date": "2027-02-11"
+    },
+    {
+      "film_id": "narnia the magician s nephew",
+      "title_cz": "Narnia: The Magician's Nephew",
+      "title_en": "Narnia: The Magician's Nephew",
+      "original_title": "Narnia: The Magician's Nephew",
+      "year": 2027,
+      "synopsis": "The new upcoming film by Greta Gerwig.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Fantasy",
+        "Dobrodružný",
+        "Rodinný"
+      ],
+      "director": [
+        "Greta Gerwig"
+      ],
+      "screenwriter": [
+        "Greta Gerwig"
+      ],
+      "cast": [
+        "David McKenna",
+        "Beatrice Campbell",
+        "Emma Mackey",
+        "Carey Mulligan",
+        "Ciarán Hinds",
+        "Daniel Craig",
+        "Meryl Streep",
+        "Kobna Holdbrook-Smith"
+      ],
+      "production_company": [
+        "Pascal Pictures",
+        "C.S. Lewis Company"
+      ],
+      "poster_path": "/xmzEkG8wrpoQeX6AKRL7EBpCxio.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/yrsI7srveMyG3YlvWRRvcIMOMYi.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1147572,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Narnia%3A+The+Magician%27s+Nephew+2027",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-14T10:21:25+00:00",
+      "release_date": "2027-02-11"
+    },
+    {
+      "film_id": "trable s laskou",
+      "title_cz": "Trable s láskou",
+      "title_en": "Trable s láskou",
+      "original_title": "Trable s láskou",
+      "year": 2027,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1526264,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Trable+s+l%C3%A1skou+2027",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-14T10:21:25+00:00",
+      "release_date": "2027-02-11"
     }
   ]
 }
