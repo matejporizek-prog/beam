@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T09:46:59+00:00",
+  "generated_at": "2026-09-16T09:40:35+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -1445,6 +1445,59 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "resolved_at": "2026-08-21T05:29:37+00:00",
+      "release_date": "2026-10-22"
+    },
+    {
+      "film_id": "general golian",
+      "title_cz": "Generál Golian",
+      "title_en": "The General",
+      "original_title": "Generál Golian",
+      "year": 2026,
+      "synopsis": "Píše se rok 1944. Po deseti letech marných pokusů se manželům Golianovým konečně narodí vytoužené dítě. Má to jen jeden háček. Stane se tak uprostřed zuřící 2. světové války, jen 3 týdny před tím, než vypukne velké ozbrojené povstání, kterému má velit právě Jan Golian. Manželé stojí před velkým dilematem: hrdinství nebo rodina? V sázce je nejen budoucnost Slovenska, ale i budoucnost jejich syna. V zemi, která je stále spojencem nacistického Německa, padá na ramena jednoho muže hlavní zodpovědnost za průběh událostí, které se později zapíší do dějin jako Slovenské národní povstání.",
+      "synopsis_language": "cs",
+      "runtime_min": 136,
+      "genres": [
+        "Historický",
+        "Drama"
+      ],
+      "director": [
+        "Juraj Štepka"
+      ],
+      "screenwriter": [
+        "Juraj Štepka",
+        "Peter Rajčák",
+        "Jan Gardner"
+      ],
+      "cast": [
+        "Ondrej Hraška",
+        "Anna Prášilová Fialová",
+        "Milan Mikulčík",
+        "Rainer Wöss",
+        "Robert Ritter",
+        "Matúš Kvietik",
+        "Leona Skleničková",
+        "Juraj Bača"
+      ],
+      "production_company": [
+        "Bright Sight Pictures",
+        "Bona Idea",
+        "Inicio Films",
+        "STVR",
+        "CINETECH",
+        "Česká televize",
+        "Studio 727"
+      ],
+      "poster_path": "/A4PuRauX4hwYeTtq5MF2DFIBw41.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/g5VfdK41IOtrFRsA6ePeAmszN4V.jpg",
+      "trailer_youtube_key": "2arlQRan_9E",
+      "age_rating": "",
+      "tmdb_id": 1545360,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Gener%C3%A1l+Golian+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-16T09:40:35+00:00",
       "release_date": "2026-10-22"
     },
     {
