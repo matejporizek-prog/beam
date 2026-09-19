@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T09:23:22+00:00",
+  "generated_at": "2026-09-19T09:10:59+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -369,6 +369,57 @@
       "resolved_at": "2026-09-15T09:46:45+00:00"
     },
     {
+      "film_id": "arco",
+      "title_cz": "Arco",
+      "title_en": "Arco",
+      "original_title": "Arco",
+      "year": 2025,
+      "synopsis": "Je rok 2075. Desetiletá Iris vidí spadnout z nebe tajemného chlapce v duhovém obleku. Jmenuje se Arco a pochází z budoucnosti. Mezi Iris a Arcem vzniká přátelství, křehké a krásné spojení dvou odlišných světů. Společně s robotem Mikkim se vydají na cestu s cílem dostat chlapce zpět domů. Zároveň jsou možná jediní, kteří dokáží zachránit planetu. Arco je okouzlující, vizuálně dechberoucí a dojemná odysea plná naděje a optimismu, kterou produkovala Natalie Portman. Film Uga Bienvenu měl premiéru na festivalu v Cannes a získal hlavní cenu za nejlepší celovečerní film na festivalu animovaného filmu v Annecy.",
+      "synopsis_language": "cs",
+      "runtime_min": 88,
+      "genres": [
+        "Dobrodružný",
+        "Animovaný",
+        "Rodinný",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Ugo Bienvenu"
+      ],
+      "screenwriter": [
+        "Ugo Bienvenu",
+        "Félix de Givry"
+      ],
+      "cast": [
+        "Margot Ringard Oldra",
+        "Oscar Tresanini",
+        "Nathanaël Perrot",
+        "Alma Jodorowsky",
+        "Swann Arlaud",
+        "Vincent Macaigne",
+        "Louis Garrel",
+        "William Lebghil"
+      ],
+      "production_company": [
+        "Remembers",
+        "MountainA",
+        "France 3 Cinéma",
+        "Fit Via Vi",
+        "Sons of Rigor Films"
+      ],
+      "poster_path": "/rWvbMnqLTpyTHmNii4TrnmgzpcS.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/reQELo8rDiLIOoYIA7M6q7KGRW0.jpg",
+      "trailer_youtube_key": "j7Tpaj-Iet8",
+      "age_rating": "U",
+      "tmdb_id": 804370,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Arco+2025",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-19T09:10:55+00:00"
+    },
+    {
       "film_id": "auta",
       "title_cz": "Auta",
       "title_en": "Cars",
@@ -442,6 +493,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Auta+%2820.+v%C3%BDro%C4%8D%C3%AD%29",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Auta (20. výročí)'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "auta obnovena premiera",
+      "title_cz": "Auta - obnovená premiéra",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Auta+-+obnoven%C3%A1+premi%C3%A9ra",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Auta - obnovená premiéra'",
       "match_score": 0.0
     },
     {
@@ -945,42 +1021,6 @@
       "resolved_at": "2026-08-05T22:27:42+02:00"
     },
     {
-      "film_id": "birthday party",
-      "title_cz": "Birthday Party",
-      "title_en": "Birthday Party",
-      "original_title": "Birthday Party",
-      "year": null,
-      "synopsis": "Cheryl throws a birthday party for her new friend who hates birthday parties.",
-      "synopsis_language": "en",
-      "runtime_min": 7,
-      "genres": [
-        "Komedie"
-      ],
-      "director": [
-        "David S. Heiser Jr."
-      ],
-      "screenwriter": [
-        "David S. Heiser Jr."
-      ],
-      "cast": [
-        "Zoe Edwards",
-        "Yael Jeshion-Nelson",
-        "David S. Heiser Jr."
-      ],
-      "production_company": [],
-      "poster_path": "/wNA8ZUCICHb7N7DSPbE0B4z0lDR.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1475254,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Birthday+Party",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.00, title 1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:27:43+02:00"
-    },
-    {
       "film_id": "bojovnik",
       "title_cz": "Bojovník",
       "title_en": "Southpaw",
@@ -1288,6 +1328,52 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-09-13T10:00:49+00:00"
+    },
+    {
+      "film_id": "ceta",
+      "title_cz": "Četa",
+      "title_en": "Platoon",
+      "original_title": "Platoon",
+      "year": 1986,
+      "synopsis": "Píše se rok 1967 a do vietnamského pekla přilétá zelenáč Chris Taylor. Už první pohled na vozík naloženými igelitovými pytli s mrtvolami mu napovídá, jaký pobyt ho zde čeká. Když dorazí k četě, ke které byl přidělen, velmi brzy zjišťuje, že četa nebojuje jen s příslušníky Vietcongu, ale boj zuří i uvnitř. Právě zde vidí názornou ukázku střetávání pomyslného „dobra se zlem“, které ztělesňují brutální a nekompromisní seržant Barnes a na druhé straně člověk, který si v sobě snaží uchovat ještě trochu lidskosti, seržant Elias. Taylor brzy stojí před úkolem „vybrat si tu správnou stranu“. Po několika průzkumných pochodech se mu jako lepší jeví seržant Elias. Spory v četě postupně začínají nabírat na intenzitě a nevraživé pohledy a řeči se postupně začínají přesouvat ve fyzické souboje. Každému je jasné, že četě může velet pouze jeden z nich. Mezitím však muži musí držet pozornost před nepřítelem oficiálním, kterými jsou všudypřítomní příslušníci Vietcongu.",
+      "synopsis_language": "cs",
+      "runtime_min": 120,
+      "genres": [
+        "Drama",
+        "Válečný",
+        "Akční"
+      ],
+      "director": [
+        "Oliver Stone"
+      ],
+      "screenwriter": [
+        "Oliver Stone"
+      ],
+      "cast": [
+        "Charlie Sheen",
+        "Willem Dafoe",
+        "Tom Berenger",
+        "Kevin Dillon",
+        "Forest Whitaker",
+        "Mark Moses",
+        "Keith David",
+        "Richard Edson"
+      ],
+      "production_company": [
+        "Hemdale Film Corporation",
+        "Arnold Kopelson Productions"
+      ],
+      "poster_path": "/r87EU7Sz7bj9epSziSjx6GOlAKq.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/vr0gwTvit5pTZs2wXOkvpsxCfli.jpg",
+      "trailer_youtube_key": "R8weLPF4qBQ",
+      "age_rating": "18+",
+      "tmdb_id": 792,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C4%8Ceta+1986",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-19T09:10:55+00:00"
     },
     {
       "film_id": "chica checa",
@@ -2791,6 +2877,31 @@
       "resolved_at": "2026-09-16T09:40:24+00:00"
     },
     {
+      "film_id": "harakiri nazivo a naposledy podruhe",
+      "title_cz": "Harakiri! Naživo a naposledy… podruhé",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Harakiri%21+Na%C5%BEivo+a+naposledy%E2%80%A6+podruh%C3%A9",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Harakiri! Naživo a naposledy… podruhé'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "haxan carodejnictvi v prubehu veku",
       "title_cz": "Häxan: Čarodějnictví v průběhu věků",
       "title_en": "Häxan",
@@ -3232,6 +3343,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Jirka+vysv%C4%9Btluje+v%C4%9Bci%3A+Peklo+J%C3%A1chymov",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Jirka vysvětluje věci: Peklo Jáchymov'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "jozef czapski 1896 1993 svedek stoleti witness to the century",
+      "title_cz": "Jozef Czapski 1896-1993 : Svědek století/ Witness to the Century",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Jozef+Czapski+1896-1993+%3A+Sv%C4%9Bdek+stolet%C3%AD%2F+Witness+to+the+Century",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Jozef Czapski 1896-1993 : Svědek století/ Witness to the Century'",
       "match_score": 0.0
     },
     {
@@ -6446,6 +6582,42 @@
       "resolved_at": "2026-09-09T09:26:14+00:00"
     },
     {
+      "film_id": "podoby milostneho vztahu ke svetu",
+      "title_cz": "Podoby milostného vztahu ke světu",
+      "title_en": "Because I Have To",
+      "original_title": "Podoby milostného vztahu ke světu",
+      "year": null,
+      "synopsis": "Miloš Šejn ležící, bdící. A hlavně tvořící. Dokumentární esej sleduje umělce, jehož tvorba je „zrozena z úžasu“ a který dokáže nenuceně navigovat vytouženou cestou z města. Namísto nekonečného přísunu vjemů nabízí film prostor pro soustředění a vnímavost – prostor, který dost možná přesáhne sedmdesát minut v kině. Debutující režisér Jakub Kučera si do svého tvůrčího týmu přizval střihače Alexandera Kascheeva či hudebníka Olivera Torra, kteří pomáhají rozvíjet dopad netradičního portrétu unikavé osobnosti. Když observace ústí v kontemplaci.",
+      "synopsis_language": "cs",
+      "runtime_min": 71,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Jakub Kučera"
+      ],
+      "screenwriter": [
+        "Jakub Kučera"
+      ],
+      "cast": [
+        "Miloš Šejn"
+      ],
+      "production_company": [
+        "Perfilm"
+      ],
+      "poster_path": "/4TvusRMJQkRH8fl0RdnrCqLemiD.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1726607,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Podoby+milostn%C3%A9ho+vztahu+ke+sv%C4%9Btu",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-19T09:10:57+00:00"
+    },
+    {
       "film_id": "podzimni sonata",
       "title_cz": "Podzimní sonáta",
       "title_en": "Autumn Sonata",
@@ -7632,6 +7804,51 @@
       "match_score": 0.0
     },
     {
+      "film_id": "rodina",
+      "title_cz": "Rodina",
+      "title_en": "The Family",
+      "original_title": "Ailə",
+      "year": 1998,
+      "synopsis": "Konec 80. let znamenal začátek konce sovětské éry. První „oheň“ „zapálili“ arménští nacionalisté. Vznesli své územní nároky na Náhorní Karabach. Kremelská elita raději mlčela, než aby k této otázce vyjádřila svůj postoj. Ázerbájdžánci byli tak násilně vyhnáni z Arménie, ze své rodové vlasti...",
+      "synopsis_language": "cs",
+      "runtime_min": 95,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Rustam Ibragimbekov",
+        "Ramiz Hasanoghlu"
+      ],
+      "screenwriter": [
+        "Rustam Ibragimbekov"
+      ],
+      "cast": [
+        "Hasanagha Turabov",
+        "Sayavush Karimi",
+        "Svetlana Metkina",
+        "Rafik Aliyev",
+        "Tahmina Mammadova",
+        "Natalya Tagiyeva",
+        "Mehriban Zaki",
+        "Fuad Poladov"
+      ],
+      "production_company": [
+        "Ibrus",
+        "Mir-Telefilm IYB"
+      ],
+      "poster_path": "/in780kgChbjjjow1xLl6FWqEjZ.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/d5dHkIQG3h2Wx77U1dggYQy3iU0.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 531655,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Rodina+1998",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.01, title 1.00)",
+      "match_score": 1.015,
+      "resolved_at": "2026-09-19T09:10:58+00:00"
+    },
+    {
       "film_id": "romeo a julie",
       "title_cz": "Romeo a Julie",
       "title_en": "",
@@ -8807,6 +9024,31 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-09-15T09:46:56+00:00"
+    },
+    {
+      "film_id": "tady havel slysite me diskuse",
+      "title_cz": "Tady Havel, slyšíte mě? + Diskuse",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Tady+Havel%2C+sly%C5%A1%C3%ADte+m%C4%9B%3F+%2B+Diskuse",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Tady Havel, slyšíte mě? + Diskuse'",
+      "match_score": 0.0
     },
     {
       "film_id": "tady vary 1",
@@ -10071,31 +10313,6 @@
       "match_score": 0.0
     },
     {
-      "film_id": "vyprodano film drink hanebny pancharti",
-      "title_cz": "VYPRODÁNO: Film & Drink: Hanebný pancharti",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=VYPROD%C3%81NO%3A+Film+%26+Drink%3A+Hanebn%C3%BD+pancharti",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'VYPRODÁNO: Film & Drink: Hanebný pancharti'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "vzhlizet ke hvezdam",
       "title_cz": "Vzhlížet ke hvězdám",
       "title_en": "The Dog Stars",
@@ -10435,6 +10652,52 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Živý, který šel okolo + Zpráva Karského'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "zjizvena tvar",
+      "title_cz": "Zjizvená tvář",
+      "title_en": "Scarface",
+      "original_title": "Scarface",
+      "year": 1983,
+      "synopsis": "V květnu 1980 otevřel Fidel Castro kubánský přístav Mariel s jasným záměrem nechat některé občany odjet za příbuznými do USA. Do sedmdesáti dvou hodin bylo 3000 amerických lodí na cestě na Kubu. Brzy se ukázalo, že Castro přinutil majitele lodí, aby odvezli nejen příbuzné, ale i nejhorší kubánské vězně. Mezi 125 000 uprchlíky, kteří se vylodili na Floridě, bylo 25 000 trestanců. A jedním z nich byl i kubánský politický vězeň Tony Montana. Tony ale hned po příjezdu skončí ve vězení, kde dostane nabídku: zabije komunistu a drogová mafie ho dostane ven i s jeho parťákem. Tony Montana se velmi rychle adaptuje v nových podmínkách svobodného světa. Se svým přítelem Mannym vykonávají příležitostné práce v místním podsvětí a při jedné předávce drog skončí v jejich rukou ukradené peníze, za něž Montana vybuduje vlastní drogové impérium. S mocí a bohatstvím ovšem roste i jeho ego a především paranoia, že jej o jeho výdobytky připraví někdo stejným způsobem, jako to udělal on.",
+      "synopsis_language": "cs",
+      "runtime_min": 170,
+      "genres": [
+        "Akční",
+        "Krimi",
+        "Drama"
+      ],
+      "director": [
+        "Brian De Palma"
+      ],
+      "screenwriter": [
+        "Oliver Stone"
+      ],
+      "cast": [
+        "Al Pacino",
+        "Steven Bauer",
+        "Michelle Pfeiffer",
+        "Mary Elizabeth Mastrantonio",
+        "Robert Loggia",
+        "Miriam Colon",
+        "F. Murray Abraham",
+        "Paul Shenar"
+      ],
+      "production_company": [
+        "Universal Pictures",
+        "Martin Bregman Productions"
+      ],
+      "poster_path": "/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/cCvp5Sni75agCtyJkNOMapORUQV.jpg",
+      "trailer_youtube_key": "lZMIrD36MG8",
+      "age_rating": "18+",
+      "tmdb_id": 111,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Zjizven%C3%A1+tv%C3%A1%C5%99+1983",
+      "resolved": true,
+      "match_reason": "title match, unverified (1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-19T09:10:59+00:00"
     },
     {
       "film_id": "zlaty vek",
