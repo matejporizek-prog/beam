@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T09:38:00+00:00",
+  "generated_at": "2026-09-21T10:27:32+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -2782,6 +2782,105 @@
       "match_score": 1.0,
       "resolved_at": "2026-09-14T10:21:25+00:00",
       "release_date": "2027-02-11"
+    },
+    {
+      "film_id": "cocomelon ve filmu",
+      "title_cz": "Cocomelon ve filmu",
+      "title_en": "CoComelon: The Movie",
+      "original_title": "CoComelon: The Movie",
+      "year": 2027,
+      "synopsis": "JJ embarks on the biggest adventure of his life: Kindergarten. But when, on his first day at school, JJ discovers that his beloved stuffed bear Boba has gone missing, JJ and his friends Cody, CeCe and Nina will begin a quest that will transport them into a magical land ruled by Princess Harmony, who has created a world with one rule: No singing.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Animovaný",
+        "Rodinný",
+        "Dobrodružný",
+        "Fantasy",
+        "Komedie"
+      ],
+      "director": [
+        "Kathleen Good"
+      ],
+      "screenwriter": [
+        "Adam Pava"
+      ],
+      "cast": [
+        "Connor Esterson",
+        "Camden Brooks",
+        "Aerina DeBoer",
+        "Olivia London Leyva",
+        "SZA",
+        "Ike Barinholtz",
+        "Nicholas Hoult",
+        "Rhys Darby"
+      ],
+      "production_company": [
+        "Moonbug Entertainment",
+        "Flywheel Media",
+        "DreamWorks Animation",
+        "DNEG",
+        "Prime Focus Studios"
+      ],
+      "poster_path": "/dDYSKF9VWmcgOy2sruIJkHs5DDG.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/fjLFbfay5SfILVkIGVGpJx1EQ7K.jpg",
+      "trailer_youtube_key": "HGZZJClFIa0",
+      "age_rating": "",
+      "tmdb_id": 1480503,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Cocomelon+ve+filmu+2027",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-21T10:27:32+00:00",
+      "release_date": "2027-02-18"
+    },
+    {
+      "film_id": "la gradiva",
+      "title_cz": "La Gradiva",
+      "title_en": "La Gradiva",
+      "original_title": "La Gradiva",
+      "year": 2026,
+      "synopsis": "A small group of French high school students goes on a school trip to Pompeii to discover its ruins and the bodies petrified by Vesuvius in 79 CE. It is in this ghost town that they are suddenly overcome by a dizzying sensation. One after another, James, Toni, Suzanne, and their Latin teacher, Mme Mercier, allow themselves to be engulfed by desire, anger, and despair—until they surrender to it completely and lose everything.",
+      "synopsis_language": "en",
+      "runtime_min": 145,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Marine Atlan"
+      ],
+      "screenwriter": [
+        "Marine Atlan",
+        "Anne Brouillet"
+      ],
+      "cast": [
+        "Colas Quignard",
+        "Antonia Buresi",
+        "Mitia Capellier-Audat",
+        "Suzanne Gerin",
+        "Hadya Fofana",
+        "Rouge Isaac",
+        "Lou-Ann Le Glorennec",
+        "Chamathka Warahena"
+      ],
+      "production_company": [
+        "Les Films du Poisson",
+        "BiBi Film",
+        "ARTE France Cinéma"
+      ],
+      "poster_path": "/xT6h3UFA8wseou1CpryLPjddJlv.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/9BmIu8JMoSWSyqNsIW9ue9CthPZ.jpg",
+      "trailer_youtube_key": "mJcYelIGoZk",
+      "age_rating": "",
+      "tmdb_id": 1154730,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=La+Gradiva+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-21T10:27:31+00:00",
+      "release_date": "2027-02-18"
     }
   ]
 }
