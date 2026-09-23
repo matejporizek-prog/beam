@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T09:38:08+00:00",
+  "generated_at": "2026-09-23T09:44:13+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -1317,6 +1317,46 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "release_date": "2026-10-29"
+    },
+    {
+      "film_id": "george michael the faith tour",
+      "title_cz": "George Michael: The Faith Tour",
+      "title_en": "George Michael: The Faith Tour",
+      "original_title": "George Michael: The Faith Tour",
+      "year": 2026,
+      "synopsis": "George Michael byl jednou z nejvlivnějších hvězd své generace; jeho hlas a skladatelská práce definovaly celou éru. Tento nový koncertní film, sestavený ze znovuobjevených, dosud neviděných a neslyšených během jeho vystoupení v roce 1988 v Palais Omnisports de Paris-Bercy, zachycuje George na vrcholu během přelomového turné Faith Tour.",
+      "synopsis_language": "cs",
+      "runtime_min": 113,
+      "genres": [
+        "Hudební",
+        "Dokumentární"
+      ],
+      "director": [
+        "Andy Morahan",
+        "David Austin"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "George Michael",
+        "Herb Ritts"
+      ],
+      "production_company": [
+        "Mercury Studios",
+        "George Michael Entertainment",
+        "Universal Pictures Content Group"
+      ],
+      "poster_path": "/pwATb2af44N7Z8C0GI4FRElXvGV.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/srq06Q5iFZrgNUuFwvGS5vqwHAh.jpg",
+      "trailer_youtube_key": "H_NwyHRY9yk",
+      "age_rating": "NR (US)",
+      "tmdb_id": 1649403,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=George+Michael%3A+The+Faith+Tour+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-23T09:44:13+00:00",
+      "release_date": "2026-11-05"
     },
     {
       "film_id": "wild horse nine",
