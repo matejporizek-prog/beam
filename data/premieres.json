@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T09:44:13+00:00",
+  "generated_at": "2026-09-24T09:44:26+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -2653,6 +2653,37 @@
       "match_score": 1.0,
       "resolved_at": "2026-08-24T05:37:46+00:00",
       "release_date": "2027-01-21"
+    },
+    {
+      "film_id": "pod snezkou",
+      "title_cz": "Pod Sněžkou",
+      "title_en": "Pod Sněžkou",
+      "original_title": "Pod Sněžkou",
+      "year": 2027,
+      "synopsis": "Připravuje se",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [],
+      "director": [
+        "Jiří Matoušek"
+      ],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [
+        "Bontonfilm"
+      ],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1777958,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Pod+Sn%C4%9B%C5%BEkou+2027",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-24T09:44:26+00:00",
+      "release_date": "2027-01-28"
     },
     {
       "film_id": "ice age boiling point",
