@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T09:44:24+00:00",
+  "generated_at": "2026-09-25T10:00:10+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -422,6 +422,60 @@
       "resolved_at": "2026-09-19T09:10:55+00:00"
     },
     {
+      "film_id": "arrietty ze sveta pujcovnicku",
+      "title_cz": "Arrietty ze světa půjčovníčků",
+      "title_en": "Arrietty",
+      "original_title": "借りぐらしのアリエッティ",
+      "year": 2010,
+      "synopsis": "To jsou malinkatí lidé žijící v prostorech mezi zdmi či pod podlahami starých domů, kteří si vše, co potřebují k životu, půjčují od jejich obyvatel. Mladá Arrietty takto se svými rodiči žije v domě, kde bydlí babička mladého chlapce Šóa. V den, kdy Šó přijede, zrovna Arrietty čeká její první výprava s tatínkem pro zásoby do světa velkých lidí.",
+      "synopsis_language": "cs",
+      "runtime_min": 94,
+      "genres": [
+        "Fantasy",
+        "Animovaný",
+        "Rodinný"
+      ],
+      "director": [
+        "Hiromasa Yonebayashi"
+      ],
+      "screenwriter": [
+        "Hayao Miyazaki",
+        "Keiko Niwa"
+      ],
+      "cast": [
+        "Mirai Shida",
+        "Ryunosuke Kamiki",
+        "Tomokazu Miura",
+        "Keiko Takeshita",
+        "Kirin Kiki",
+        "Shinobu Otake",
+        "Tatsuya Fujiwara",
+        "Shin'ichi Hatori"
+      ],
+      "production_company": [
+        "Studio Ghibli",
+        "Hakuhodo DY Media Partners",
+        "dentsu",
+        "TOHO",
+        "Nippon Television Network Corporation",
+        "Wild Bunch",
+        "Walt Disney Japan",
+        "d-rights",
+        "Mitsubishi"
+      ],
+      "poster_path": "/sUSkcFebnw9AoXldXeSM4vmtELV.jpg",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2024/09/10/5d0671a0e20a3d699a7c2c08d92d4f3d.jpg",
+      "backdrop_path": "/7Z7WVzJsSReG8B0CaPk0bvWD7tK.jpg",
+      "trailer_youtube_key": "S75QfDA3rDA",
+      "age_rating": "U",
+      "tmdb_id": 51739,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Arrietty+ze+sv%C4%9Bta+p%C5%AFj%C4%8Dovn%C3%AD%C4%8Dk%C5%AF+2010",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-09-25T10:00:04+00:00"
+    },
+    {
       "film_id": "audience",
       "title_cz": "Audience | NT Live",
       "title_en": "",
@@ -784,6 +838,31 @@
       "match_score": 0.0
     },
     {
+      "film_id": "be2can",
+      "title_cz": "BE2CAN | Rudé skály",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=BE2CAN+%7C+Rud%C3%A9+sk%C3%A1ly",
+      "resolved": false,
+      "match_reason": "no candidate scored above 0.75",
+      "match_score": 0.364
+    },
+    {
       "film_id": "be2can festival pass",
       "title_cz": "Be2Can – Festival Pass",
       "title_en": "",
@@ -952,6 +1031,56 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Betty Bossi: hospodyňka národa'",
       "match_score": 0.0
+    },
+    {
+      "film_id": "blade runner 2049",
+      "title_cz": "Blade Runner 2049",
+      "title_en": "Blade Runner 2049",
+      "original_title": "Blade Runner 2049",
+      "year": 2017,
+      "synopsis": "V roce 2049 odhaluje nový Blade Runner a důstojník policie dlouho ukryté tajemství, které by mohlo zcela rozvrátit poslední zbytky lidské společnosti. Toto odhalení ho nutí zahájit pátrání po již 30 let nezvěstném bývalém Blade Runnerovi.",
+      "synopsis_language": "cs",
+      "runtime_min": 164,
+      "genres": [
+        "Vědeckofantastický",
+        "Drama"
+      ],
+      "director": [
+        "Denis Villeneuve"
+      ],
+      "screenwriter": [
+        "Hampton Fancher",
+        "Michael Green"
+      ],
+      "cast": [
+        "Ryan Gosling",
+        "Harrison Ford",
+        "Ana de Armas",
+        "Dave Bautista",
+        "Robin Wright",
+        "Sylvia Hoeks",
+        "Mackenzie Davis",
+        "Jared Leto"
+      ],
+      "production_company": [
+        "Alcon Entertainment",
+        "Columbia Pictures",
+        "Scott Free Productions",
+        "Bud Yorkin Productions",
+        "Torridon Films",
+        "16:14 Entertainment"
+      ],
+      "poster_path": "/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
+      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/09/09/7ffd8a67edafdbbd10408abf5252eba9.jpg",
+      "backdrop_path": "/gNdLJU9TxrpGx4dkZidjys3fyy0.jpg",
+      "trailer_youtube_key": "0dcw-4PgQLc",
+      "age_rating": "15+",
+      "tmdb_id": 335984,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Blade+Runner+2049+2017",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-09-25T10:00:05+00:00"
     },
     {
       "film_id": "bts world tour arirang in buenos aires live viewing",
@@ -1861,6 +1990,53 @@
       "resolved_at": "2026-09-11T09:21:31+00:00"
     },
     {
+      "film_id": "donnie darko",
+      "title_cz": "Donnie Darko",
+      "title_en": "Donnie Darko",
+      "original_title": "Donnie Darko",
+      "year": 2001,
+      "synopsis": "Někdo by si mohl myslet, že Donnie Darko je typický puberťák. Jenže Donnie je zklamaný kluk, trpící vizemi o obrovském králíkovi, který se ho snaží dostat pod svůj zničující vliv. Aby tomu zabránil, dopustí se činů, které ho přivedou až na psychoterapii. Přežije nesnáze středoškolského života i lásky a unikne bizarní smrti, která mu hrozí při pádu motoru z letadla. Donnie bojuje se svými démony, v přeneseném i skutečném slova smyslu, a prožívá příběhy, související s putováním v čase, s fundamentalistickými guru, osudem i machinacemi s vesmírem.",
+      "synopsis_language": "cs",
+      "runtime_min": 114,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Mysteriózní"
+      ],
+      "director": [
+        "Richard Kelly"
+      ],
+      "screenwriter": [
+        "Richard Kelly"
+      ],
+      "cast": [
+        "Jake Gyllenhaal",
+        "Jena Malone",
+        "James Duval",
+        "Drew Barrymore",
+        "Beth Grant",
+        "Maggie Gyllenhaal",
+        "Mary McDonnell",
+        "Holmes Osborne"
+      ],
+      "production_company": [
+        "Flower Films",
+        "Pandora Cinema",
+        "Newmarket Films"
+      ],
+      "poster_path": "/j2AtZFsflxiluaNtajMTI0Avm8C.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/07/66047a66a960176f44b187aea28b285d.jpg",
+      "backdrop_path": "/msCHK5Kh1YbdZ0zPJ2nzPUhhSN9.jpg",
+      "trailer_youtube_key": "71RaE7JYTUU",
+      "age_rating": "15",
+      "tmdb_id": 141,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Donnie+Darko+2001",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.10, title 1.00)",
+      "match_score": 1.1,
+      "resolved_at": "2026-09-25T10:00:06+00:00"
+    },
+    {
       "film_id": "drama",
       "title_cz": "Drama",
       "title_en": "The Drama",
@@ -1906,6 +2082,58 @@
       "match_reason": "verified against director/runtime (1.05, title 1.00)",
       "match_score": 1.05,
       "resolved_at": "2026-09-24T09:44:15+00:00"
+    },
+    {
+      "film_id": "drive my car",
+      "title_cz": "Drive My Car",
+      "title_en": "Drive My Car",
+      "original_title": "ドライブ・マイ・カー",
+      "year": 2021,
+      "synopsis": "Když vám nečekaná tragédie rozkolísá svět, uvítáte jakýkoliv pevný bod. Divadelní režisér Kafuku, zvyklý každý den řídit své auto, si proto zoufá, když mu v divadle proti jeho vůli přidělí osobního řidiče. Nečekaný souputník má ale i světlé stránky.",
+      "synopsis_language": "cs",
+      "runtime_min": 179,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Ryusuke Hamaguchi"
+      ],
+      "screenwriter": [
+        "Ryusuke Hamaguchi",
+        "Takamasa Oe"
+      ],
+      "cast": [
+        "Hidetoshi Nishijima",
+        "Toko Miura",
+        "Masaki Okada",
+        "Reika Kirishima",
+        "Park Yu-rim",
+        "Jin Dae-yeon",
+        "Sonia Yuan",
+        "Ahn Hwi-tae"
+      ],
+      "production_company": [
+        "Bitters End",
+        "C&I entertainment",
+        "Culture Entertainment",
+        "nekojarashi",
+        "Quaras",
+        "Bungeishunju",
+        "Nippan Group Holdings",
+        "The Asahi Shimbun",
+        "L'espace Vision"
+      ],
+      "poster_path": "/f31Mhc2pehHGNly7nWdmm3XiaEG.jpg",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2022/03/31/d4c802691a45bce6bf2fd825ef136f5c.png",
+      "backdrop_path": "/r6aqhlmJmu8Dv5E7QYEruaEXKYm.jpg",
+      "trailer_youtube_key": "zWijAnZBaHk",
+      "age_rating": "NR (US)",
+      "tmdb_id": 758866,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Drive+My+Car+2021",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-09-25T10:00:07+00:00"
     },
     {
       "film_id": "duna cast treti",
@@ -2321,31 +2549,6 @@
       "match_score": 0.0
     },
     {
-      "film_id": "flight club pycha a predsudek",
-      "title_cz": "Flight Club: Pýcha a předsudek",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Flight+Club%3A+P%C3%BDcha+a+p%C5%99edsudek",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Flight Club: Pýcha a předsudek'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "fremont",
       "title_cz": "Fremont",
       "title_en": "Fremont",
@@ -2391,6 +2594,31 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-09-10T09:25:05+00:00"
+    },
+    {
+      "film_id": "fukusima jaderna nocni mura",
+      "title_cz": "Fukušima: Jaderná noční můra",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/09/09/f5f1854a27e76f6695ff224bbfdc878c.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Fuku%C5%A1ima%3A+Jadern%C3%A1+no%C4%8Dn%C3%AD+m%C5%AFra",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Fukušima: Jaderná noční můra'",
+      "match_score": 0.0
     },
     {
       "film_id": "guru",
@@ -3041,31 +3269,6 @@
       "match_score": 0.0
     },
     {
-      "film_id": "kino nehraje",
-      "title_cz": "Kino nehraje",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.kinosvetozor.cz/images/kino-svetozor02-small.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Kino+nehraje",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Kino nehraje'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "kinospunti a kapybary",
       "title_cz": "Kinošpunti a kapybary",
       "title_en": "",
@@ -3252,6 +3455,53 @@
       "resolved": false,
       "match_reason": "best candidate 'The End of Oak Street' only scored 0.65",
       "match_score": 0.649
+    },
+    {
+      "film_id": "koralina a svet za tajnymi dvermi",
+      "title_cz": "Koralína a svět za tajnými dveřmi",
+      "title_en": "Coraline",
+      "original_title": "Coraline",
+      "year": 2009,
+      "synopsis": "Dva báječní muži s nekonečnou fantazií a třetí rozměr. Kombinace těchto faktorů stvořila temnou pohádku Koralína a svět za tajnými dveřmi. Dobrodružný příběh, který vzdáleně připomíná Alenčinu výpravu do světa za zrcadlem, se zrodil v hlavě Neila Gaimana, jednoho z nejlepších autorů fantasy současnosti. V jiné hlavě, která patřila tvůrci slavné Předvánoční noční můry Henrymu Selickovi, se zase vylíhnul nápad na jeho filmové zpracování. A ne ledajaké. Poprvé v historii kinematografie Selick zkombinoval metodu tradiční stop-motion animace a stereoskopického 3-D. Vznikl nikoliv pouhý film, ale zážitek, který lze jen velmi obtížně popsat slovy. Jedenáctiletá Koralína Jonesová je zvědavé a neposedné děvče s rašící pubertou. O to bolestněji na ni doléhá, že se z města tepajícího životem odstěhovala do barabizny kdesi v „pustoprázdnu“, kde na ni rodiče permanentně nemají čas a jediným vrstevníkem je kluk jménem Wybie, z něhož se vyklubal velmi otravný protiva.",
+      "synopsis_language": "cs",
+      "runtime_min": 100,
+      "genres": [
+        "Animovaný",
+        "Rodinný",
+        "Fantasy",
+        "Horor"
+      ],
+      "director": [
+        "Henry Selick"
+      ],
+      "screenwriter": [
+        "Henry Selick"
+      ],
+      "cast": [
+        "Dakota Fanning",
+        "Teri Hatcher",
+        "Jennifer Saunders",
+        "Dawn French",
+        "Keith David",
+        "John Hodgman",
+        "Robert Bailey Jr.",
+        "Ian McShane"
+      ],
+      "production_company": [
+        "LAIKA",
+        "Pandemonium"
+      ],
+      "poster_path": "/4jeFXQYytChdZYE9JYO7Un87IlW.jpg",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/09/15/fe4fd2afc278af4826480f0008f9b859.jpg",
+      "backdrop_path": "/hofnlIyF6bePkgQOpcuRWLvzf15.jpg",
+      "trailer_youtube_key": "T6iQnnHNF50",
+      "age_rating": "15+",
+      "tmdb_id": 14836,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Koral%C3%ADna+a+sv%C4%9Bt+za+tajn%C3%BDmi+dve%C5%99mi+2009",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.11, title 1.00)",
+      "match_score": 1.115,
+      "resolved_at": "2026-09-25T10:00:08+00:00"
     },
     {
       "film_id": "kralovska opera carmen 2026 27",
@@ -3967,6 +4217,61 @@
       "resolved": false,
       "match_reason": "no candidate scored above 0.75",
       "match_score": 0.595
+    },
+    {
+      "film_id": "metropolis 2001",
+      "title_cz": "Metropolis (2001)",
+      "title_en": "Metropolis",
+      "original_title": "メトロポリス",
+      "year": 2001,
+      "synopsis": "Příběh chlapce a jeho strýce, který je soukromým detektivem, se odehrává v daleké budoucnosti, kdy vedle sebe žijí lidé a roboti, nikoliv však ve shodě. Mnozí roboti jsou nuceni obývat vyhrazené oblasti a je jim přisouzena úloha pouhých lidských sluhů, což samozřejmě nepřispívá ke klidu ani k harmonickému soužití. Když se chlapec setkává s robotem Timou, dostávají se spolu do mnoha komplikovaných situací, v nichž pochopí, jak důležité jsou city, které lidi odlišují od ostatních bytostí.",
+      "synopsis_language": "cs",
+      "runtime_min": 107,
+      "genres": [
+        "Animovaný",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Rintaro"
+      ],
+      "screenwriter": [
+        "Katsuhiro Otomo"
+      ],
+      "cast": [
+        "Yuka Imoto",
+        "Kohki Okada",
+        "Kosei Tomita",
+        "Kei Kobayashi",
+        "Rikako Aikawa",
+        "Masashi Ebara",
+        "Shigeru Chiba",
+        "Taro Ishida"
+      ],
+      "production_company": [
+        "Bandai Visual",
+        "Destination Films",
+        "TOHO",
+        "dentsu Music and Entertainment",
+        "King Records",
+        "Madhouse",
+        "KADOKAWA Shoten",
+        "Tezuka Productions",
+        "IMAGICA",
+        "STUDIO4℃",
+        "Sony Pictures Television Japan",
+        "dentsu"
+      ],
+      "poster_path": "/tOehVz3MhBhzvpvizEnsC8Gylo1.jpg",
+      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2022/08/11/08edac5c35d4763f4d5a91b7c5ee4d26.webp",
+      "backdrop_path": "/1FBByew9RnXQ2HFqf7b6EWkyzTP.jpg",
+      "trailer_youtube_key": "XxQeZAJZl0g",
+      "age_rating": "PG-13 (US)",
+      "tmdb_id": 9606,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Metropolis+%282001%29+2001",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-09-25T10:00:10+00:00"
     },
     {
       "film_id": "mezinarodni festival kratkych filmu boo",
@@ -5394,75 +5699,6 @@
       "resolved_at": "2026-09-05T08:50:57+00:00"
     },
     {
-      "film_id": "pitt a pes double feature",
-      "title_cz": "Pitt a pes double feature",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/07/f8a9dfa0fc4ad5eaddaf8fd267562234.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Pitt+a+pes+double+feature",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Pitt a pes double feature'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "podfu c k",
-      "title_cz": "Podfu(c)k",
-      "title_en": "Snatch",
-      "original_title": "Snatch",
-      "year": 2000,
-      "synopsis": "Ukrást obří briliant v Antverpách je jedna věc, dostat ho přes Londýn do New Yorku druhá. Chlápek, který má transport diamantu na starosti, totiž holduje hazardu, v ilegálním boxerském ringu se schyluje k předem zaplacenému zápasu a na ukradený čtyřiaosmdesáti karátový diamant má zálusk další zloděj - chladnokrevný zabiják Boris. A pak je tu ještě Brick Top promotér ilegálního boxu, majitel prasečí farmy a jeden z nejodpornějších padouchů londýnského podsvětí. Svou práci má rád a rozumí jí - šestnáct prasat sežere mrtvolu rozřezanou na šest dílů za pár chvil a je jedno, jestli šlo o nepohodlného svědka, nebo boxera, který se nenechal knokautovat ve čtvrtém kole, jak bylo domluveno. Není divu, že v tomhle zápase o diamant veliký jako vyražené oko, brzy nejde o vítězství, ale o holé přežití. Nebo alespoň pohřeb vcelku.",
-      "synopsis_language": "cs",
-      "runtime_min": 99,
-      "genres": [
-        "Krimi",
-        "Komedie"
-      ],
-      "director": [
-        "Guy Ritchie"
-      ],
-      "screenwriter": [
-        "Guy Ritchie"
-      ],
-      "cast": [
-        "Jason Statham",
-        "Alan Ford",
-        "Stephen Graham",
-        "Brad Pitt",
-        "Dennis Farina",
-        "Robbie Gee",
-        "Lennie James",
-        "Benicio del Toro"
-      ],
-      "production_company": [
-        "Marv"
-      ],
-      "poster_path": "/8nS5bYLiPC0gbceRmOwvfxgywGE.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/08/07/8a0237c3b8a25c8c5a505348cc1cac8f.jpg",
-      "backdrop_path": "/gTghF8ardwJ48XLHkiapWk3ZmSo.jpg",
-      "trailer_youtube_key": "ni4tEtuTccc",
-      "age_rating": "12+",
-      "tmdb_id": 107,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Podfu%28c%29k+2000",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-09-17T09:53:10+00:00"
-    },
-    {
       "film_id": "podivny pripad doktora jekylla a pana hydea",
       "title_cz": "Podivný případ doktora Jekylla a pana Hydea",
       "title_en": "Dr. Jekyll and Mr. Hyde",
@@ -6410,31 +6646,6 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-09-15T09:46:52+00:00"
-    },
-    {
-      "film_id": "proc izrael",
-      "title_cz": "Proč Izrael",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Pro%C4%8D+Izrael",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Proč Izrael'",
-      "match_score": 0.0
     },
     {
       "film_id": "pub kviz",
@@ -8911,31 +9122,6 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Z%C3%A1pas+stolet%C3%AD",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Zápas století'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "zapomenuti dobrodruzi ceskych dejin",
-      "title_cz": "Zapomenutí dobrodruzi českých dějin",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/09/18/8001851d349154c3ba401e2518f08d47.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Zapomenut%C3%AD+dobrodruzi+%C4%8Desk%C3%BDch+d%C4%9Bjin",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Zapomenutí dobrodruzi českých dějin'",
       "match_score": 0.0
     },
     {
