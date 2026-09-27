@@ -1,56 +1,7 @@
 {
-  "generated_at": "2026-09-26T09:45:46+00:00",
+  "generated_at": "2026-09-27T10:22:03+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
-    {
-      "film_id": "12 opic",
-      "title_cz": "12 opic",
-      "title_en": "Twelve Monkeys",
-      "original_title": "Twelve Monkeys",
-      "year": 1995,
-      "synopsis": "V budoucí společnosti, kterou zpustošila nemoc -- a donutila přeživší žít v podzemí -- je vězeň poslán zpátky v čase, aby shromáždil informace o viru, který vyhubil většinu lidstva.",
-      "synopsis_language": "cs",
-      "runtime_min": 124,
-      "genres": [
-        "Vědeckofantastický",
-        "Thriller",
-        "Mysteriózní"
-      ],
-      "director": [
-        "Terry Gilliam"
-      ],
-      "screenwriter": [
-        "David Webb Peoples",
-        "Janet Peoples"
-      ],
-      "cast": [
-        "Bruce Willis",
-        "Madeleine Stowe",
-        "Brad Pitt",
-        "Christopher Plummer",
-        "David Morse",
-        "Jon Seda",
-        "Christopher Meloni",
-        "Joey Perillo"
-      ],
-      "production_company": [
-        "Universal Pictures",
-        "Atlas Entertainment",
-        "Classico",
-        "Twelve Monkeys Productions"
-      ],
-      "poster_path": "/3TTSc0VCS2FlAnXvfHLFeLNtJi8.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/mKIkGoyuR71qz6FdiEiOjxvBQcS.jpg",
-      "trailer_youtube_key": "Xwh1xBzsc1Q",
-      "age_rating": "12+",
-      "tmdb_id": 63,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=12+opic+1995",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-08-05T22:27:32+02:00"
-    },
     {
       "film_id": "2001 vesmirna odysea",
       "title_cz": "2001: Vesmírná odysea",
@@ -368,6 +319,56 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Alejandro+G.+I%C3%B1%C3%A1rritu+double+feature",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Alejandro G. Iñárritu double feature'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "archeditace",
+      "title_cz": "Archeditace",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/08/24/6734604bb5d1f38195b2822f481585b3.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Archeditace",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Archeditace'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "archi shorts a kde teda budeme bydlet",
+      "title_cz": "Archi shorts: A kde teda budeme bydlet?",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/09/01/2fc620a85ceb5fabd36949cafcb0683e.png",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Archi+shorts%3A+A+kde+teda+budeme+bydlet%3F",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Archi shorts: A kde teda budeme bydlet?'",
       "match_score": 0.0
     },
     {
@@ -1620,6 +1621,44 @@
       "match_score": 0.708
     },
     {
+      "film_id": "copan",
+      "title_cz": "Copan",
+      "title_en": "Copan",
+      "original_title": "Copan",
+      "year": 2026,
+      "synopsis": "In the heart of São Paulo, the Copan building houses more than five thousand residents and becomes the stage for a heated election. The building manager, who has held the position for 30 years, fights to keep his job, while an even bigger dispute unfolds outside the building's walls, with Lula and Jair Bolsonaro vying for the presidency of Brazil.",
+      "synopsis_language": "en",
+      "runtime_min": 98,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Carine Wallauer"
+      ],
+      "screenwriter": [
+        "Carine Wallauer"
+      ],
+      "cast": [
+        "KL Jay"
+      ],
+      "production_company": [
+        "Clariô Filmes",
+        "MVM Movimentos Culturais",
+        "O Par Produções"
+      ],
+      "poster_path": "/bSgcjkUf0MJkD0rAkCfcCO1v4iv.jpg",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/08/27/0ec984129a79c789f8d7433cd2ba0dfb.jpg",
+      "backdrop_path": "/AiYeDOseSBzN2BlvweAUCUdfVNC.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1434942,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Copan+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-09-27T10:22:00+00:00"
+    },
+    {
       "film_id": "cosi fan tutte opera",
       "title_cz": "Cosi fan tutte (Opera)",
       "title_en": "Così Fan Tutte - Opéra de Lausanne",
@@ -1816,6 +1855,31 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-09-16T09:40:22+00:00"
+    },
+    {
+      "film_id": "digitalni tsunami",
+      "title_cz": "Digitální tsunami",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/09/09/b34b15f8f7885fde138dc8977bd42886.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Digit%C3%A1ln%C3%AD+tsunami",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Digitální tsunami'",
+      "match_score": 0.0
     },
     {
       "film_id": "divka v oblacich",
@@ -3336,48 +3400,6 @@
       "match_score": 0.0
     },
     {
-      "film_id": "kocici odysea",
-      "title_cz": "Kočičí odysea",
-      "title_en": "Flow",
-      "original_title": "Straume",
-      "year": 2024,
-      "synopsis": "Svět se zdá být na konci, plný pozůstatků lidské přítomnosti. Kočka je samotářské zvíře, ale když je její domov zničen velkou povodní, najde útočiště na lodi obývané různými druhy, se kterými se musí spojit navzdory jejich odlišnostem. Na osamělé lodi plující mystickou zaplavenou krajinou se tak vyrovnávají s výzvami a nebezpečími, které jim přináší adaptace na tento nový svět.",
-      "synopsis_language": "cs",
-      "runtime_min": 85,
-      "genres": [
-        "Dobrodružný",
-        "Animovaný",
-        "Rodinný",
-        "Fantasy"
-      ],
-      "director": [
-        "Gints Zilbalodis"
-      ],
-      "screenwriter": [
-        "Matīss Kaža",
-        "Gints Zilbalodis"
-      ],
-      "cast": [],
-      "production_company": [
-        "Dream Well Studio",
-        "Sacrebleu Productions",
-        "Take Five",
-        "ARTE France Cinéma",
-        "RTBF"
-      ],
-      "poster_path": "/jloXRl1PtsXyvFLQ9JP7YBQRgGT.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/pZfpUMEJzw9BZHtXuZzzOrRxtMa.jpg",
-      "trailer_youtube_key": "1ewCDRKpWUU",
-      "age_rating": "U",
-      "tmdb_id": 823219,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Ko%C4%8Di%C4%8D%C3%AD+odysea+2024",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-23T09:44:05+00:00"
-    },
-    {
       "film_id": "kojot vraci uder",
       "title_cz": "Kojot vrací úder",
       "title_en": "Coyote vs. Acme",
@@ -3995,49 +4017,6 @@
       "resolved_at": "2026-08-11T05:52:33+00:00"
     },
     {
-      "film_id": "lumpik spuntik",
-      "title_cz": "Lumpík Špuntík",
-      "title_en": "Curly Burly",
-      "original_title": "Krølle Bølle",
-      "year": 2026,
-      "synopsis": "Na dánském ostrově Bornholm žijí trolové hluboko pod zemí, kde jim život plný zábavy řídí přísná pravidla. To nejdůležitější zní jasně: nikdy nevycházet na povrch, protože lidé jsou nebezpeční. Zvědavý a nezbedný Špuntík se má stát příštím pánem jeskyně a chránit troly před lidmi. Jenže místo toho raději vyvádí žerty a létá na hřbetech netopýrů. Když se jednoho dne ozve z povrchu podivné dunění, tajně se vydá nahoru zjistit, co se děje. Nečekaně ho však následuje jeho malá sestra – a jejich nevinná výprava se brzy změní v nečekané dobrodružství ve světě lidí, plné nebezpečí, magie a zážitků, které Špuntíkovi otevřou úplně nový svět.",
-      "synopsis_language": "cs",
-      "runtime_min": 80,
-      "genres": [
-        "Animovaný"
-      ],
-      "director": [
-        "Jan Rahbek"
-      ],
-      "screenwriter": [
-        "Toke Westmark Steensen",
-        "Philip LaZebnik",
-        "Søren Frellesen"
-      ],
-      "cast": [
-        "Carl Løber Roliggaard",
-        "Dagmar Celinder Norrbom",
-        "Mille Lehfeldt",
-        "Sonny Lahey",
-        "Hadi Ka-Koush",
-        "Ellen Hillingsø",
-        "Troels Malling Thaarup",
-        "Kjeld Nørgaard"
-      ],
-      "production_company": [],
-      "poster_path": "/vhiUZsyBayxdKiJU5Y0jDPMMXtM.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/aTYbctfVUmRIHw7aLikUd0Tyv7O.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "U",
-      "tmdb_id": 1583409,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Lump%C3%ADk+%C5%A0punt%C3%ADk+2026",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-16T09:40:26+00:00"
-    },
-    {
       "film_id": "macbeth opera",
       "title_cz": "Macbeth (Opera)",
       "title_en": "MACBETH - OPERA DIRECTO",
@@ -4653,6 +4632,51 @@
       "match_reason": "verified against director/runtime (1.05, title 1.00)",
       "match_score": 1.05,
       "resolved_at": "2026-09-14T10:21:18+00:00"
+    },
+    {
+      "film_id": "na jednu noc",
+      "title_cz": "na jednu noc",
+      "title_en": "One Night Only",
+      "original_title": "One Night Only",
+      "year": 2026,
+      "synopsis": "V Americe se v poslední době dějí divné věci, takže představa, že v ní bude vládnout strana, která zakáže nemanželský sex, není tak úplně nereálná. Z tohoto brutálního pravidla existuje jedna výjimka. Jediná noc v roce, kdy se nesezdaní mohou spustit, kdykoliv, kdekoliv a kolikrát budou chtít. Právě během ní se celý příběh odehrává. Owen tuhle noc nenávidí, zvlášť když ho jeho přítelkyně právě poslala k šípku. Nejraději by se zamknul ve své pizzerii a nějak ji celou přečkal. Zato zpěvačka Allie je připravená vyrazit na lov a ráno se probudit s pocitem, že si to užila na sto procent. Když na sebe ti dva poprvé náhodou narazí, rozhodně to není láska na první pohled, dokonce ani chuť se s tím druhým prostě jen tak vyspat, když se to smí. Možná by se dalo říct, že ti dva na sebe mají alergii, která se prohlubuje, jak ty dva osud nebo náhoda pořád svádí dohromady. Ani jednomu se navíc vůbec nedaří naplnit představu, s jakou do téhle výjimečné noci šel...",
+      "synopsis_language": "cs",
+      "runtime_min": 103,
+      "genres": [
+        "Romantický",
+        "Komedie"
+      ],
+      "director": [
+        "Will Gluck"
+      ],
+      "screenwriter": [
+        "Travis Braun"
+      ],
+      "cast": [
+        "Monica Barbaro",
+        "Callum Turner",
+        "Maya Hawke",
+        "King Princess",
+        "Molly Ringwald",
+        "LeVar Burton",
+        "Charlie Gillespie",
+        "Quintessa Swindell"
+      ],
+      "production_company": [
+        "Universal Pictures",
+        "Olive Bridge Entertainment"
+      ],
+      "poster_path": "/69DjidqqyAzw9orqGg73iuQyaTU.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/mfgNUnFB25BNIwe9iPJ17cUN64S.jpg",
+      "trailer_youtube_key": "lDsAVq9lo9g",
+      "age_rating": "15+",
+      "tmdb_id": 1433367,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=na+jednu+noc+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-27T10:22:02+00:00"
     },
     {
       "film_id": "na skok do divociny",
@@ -5726,52 +5750,6 @@
       "resolved_at": "2026-09-19T09:10:57+00:00"
     },
     {
-      "film_id": "podzimni sonata",
-      "title_cz": "Podzimní sonáta",
-      "title_en": "Autumn Sonata",
-      "original_title": "Höstsonaten",
-      "year": 1978,
-      "synopsis": "I v Podzimní sonátě zůstává Bergman věrný svým obrazům světa lidských duší. Komorní drama dvou žen, matky, jež se snaží utéci před odpovědností za nenaplněné životní osudy svých dcer a mladé ženy, jež v sobě koncentruje minulá utrpení. Napětí mezi nimi vrcholí a ukáže se jak hluboce se ženy od sebe vzdálily a jak nepřekonatelné je jejich neporozumění.",
-      "synopsis_language": "cs",
-      "runtime_min": 93,
-      "genres": [
-        "Drama",
-        "Hudební"
-      ],
-      "director": [
-        "Ingmar Bergman"
-      ],
-      "screenwriter": [
-        "Ingmar Bergman"
-      ],
-      "cast": [
-        "Ingrid Bergman",
-        "Liv Ullmann",
-        "Lena Nyman",
-        "Halvar Björk",
-        "Marianne Aminoff",
-        "Arne Bang-Hansen",
-        "Gunnar Björnstrand",
-        "Erland Josephson"
-      ],
-      "production_company": [
-        "Suede Film",
-        "Personafilm",
-        "ITC Entertainment"
-      ],
-      "poster_path": "/7q8H7zlKLffcqcxoyL4ivdC1aIh.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/ozNapY9iczRr6FYKRbLLM00szCW.jpg",
-      "trailer_youtube_key": "WDOTDB2cTSg",
-      "age_rating": "PG (US)",
-      "tmdb_id": 12761,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Podzimn%C3%AD+son%C3%A1ta+1978",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-11T09:21:37+00:00"
-    },
-    {
       "film_id": "poeta",
       "title_cz": "Poeta",
       "title_en": "A Poet",
@@ -5822,44 +5800,6 @@
       "match_reason": "verified against director/runtime (0.77, title 0.77)",
       "match_score": 0.769,
       "resolved_at": "2026-08-27T16:05:53+00:00"
-    },
-    {
-      "film_id": "pohadky tisice a jedne noci",
-      "title_cz": "Pohádky tisíce a jedné noci",
-      "title_en": "Tales of 1,001 Nights",
-      "original_title": "Pohádky tisíce a jedné noci",
-      "year": 1974,
-      "synopsis": "Klasik domácího trikového filmu Karel Zeman se na od 70. let začal vracet k čistě animované tvorbě. Jako inspirace mu posloužily arabské pohádky o námořníku Sindbádovi. Původně samostatné krátké snímky (celkem jich bylo sedm) později sestavil do celovečerního tvaru, aniž by potlačil epizodický charakter: líčí, jak se hlavní hrdina ocitl v zemi obrů, jak zmáhal nástrahy magnetové hory či mořského sultána, nechybí ani létající koberec. Výtvarně se Zeman pokusil napodobit styl perských a arabských miniatur.",
-      "synopsis_language": "cs",
-      "runtime_min": 93,
-      "genres": [
-        "Animovaný",
-        "Dobrodružný",
-        "Fantasy"
-      ],
-      "director": [
-        "Karel Zeman"
-      ],
-      "screenwriter": [
-        "Karel Zeman"
-      ],
-      "cast": [
-        "Jan Tříska"
-      ],
-      "production_company": [
-        "Krátký film Praha – Filmové studio Gottwaldov"
-      ],
-      "poster_path": "/9kwA0mlVi47VaKKREHS5I58emI6.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/nSIrVPrBszqAiAUgxXbUTqVn7WL.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "U",
-      "tmdb_id": 46657,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Poh%C3%A1dky+tis%C3%ADce+a+jedn%C3%A9+noci+1974",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-16T09:40:29+00:00"
     },
     {
       "film_id": "pomoc neviditelnych",
@@ -6010,53 +5950,6 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-09-09T09:26:16+00:00"
-    },
-    {
-      "film_id": "posledni viking",
-      "title_cz": "Poslední Viking",
-      "title_en": "The Last Viking",
-      "original_title": "Den sidste viking",
-      "year": 2025,
-      "synopsis": "Po patnáctiletém trestu za loupež je Anker propuštěn z vězení. Peníze za loupeže zakopal Ankerův bratr Manfred. Jen on ví, kde jsou. Bohužel se u Manfreda mezitím objevily psychické problémy, kvůli kterým na všechno zapomněl. Bratři se společně vydávají na neočekávanou cestu, aby peníze našli a zjistili, kdo vlastně jsou.",
-      "synopsis_language": "cs",
-      "runtime_min": 116,
-      "genres": [
-        "Komedie",
-        "Krimi",
-        "Drama"
-      ],
-      "director": [
-        "Anders Thomas Jensen"
-      ],
-      "screenwriter": [
-        "Anders Thomas Jensen"
-      ],
-      "cast": [
-        "Mads Mikkelsen",
-        "Nikolaj Lie Kaas",
-        "Sofie Gråbøl",
-        "Søren Malling",
-        "Bodil Jørgensen",
-        "Lars Brygmann",
-        "Nicolas Bro",
-        "Kardo Razzazi"
-      ],
-      "production_company": [
-        "Zentropa Entertainments",
-        "Film i Väst",
-        "Zentropa International Sweden"
-      ],
-      "poster_path": "/52tvR7dG2IoNbc0p0HrRqWzJUYu.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/zo1SfeASCrbHFaXJN9y1RW7uU2m.jpg",
-      "trailer_youtube_key": "YdFbqryfdxg",
-      "age_rating": "15+",
-      "tmdb_id": 1295400,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Posledn%C3%AD+Viking+2025",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-11T09:21:37+00:00"
     },
     {
       "film_id": "potopa",
@@ -7486,55 +7379,6 @@
       "resolved_at": "2026-09-05T08:50:59+00:00"
     },
     {
-      "film_id": "spasitel",
-      "title_cz": "Spasitel",
-      "title_en": "Project Hail Mary",
-      "original_title": "Project Hail Mary",
-      "year": 2026,
-      "synopsis": "Učitel přírodopisu Ryland Grace se probudí na vesmírné lodi vzdálené světelné roky od domova, aniž by si pamatoval, kdo je a jak se tam dostal. Když se mu paměť vrátí, začne odhalovat svůj úkol: vyřešit záhadu tajemné látky, která způsobuje vyhasínání Slunce. Musí využít svých vědeckých znalostí a neortodoxních nápadů, aby zachránil vše na Zemi před zánikem… ale díky nečekanému přátelství na to možná nebude muset být sám.",
-      "synopsis_language": "cs",
-      "runtime_min": 157,
-      "genres": [
-        "Vědeckofantastický",
-        "Dobrodružný"
-      ],
-      "director": [
-        "Phil Lord",
-        "Christopher Miller"
-      ],
-      "screenwriter": [
-        "Drew Goddard"
-      ],
-      "cast": [
-        "Ryan Gosling",
-        "Sandra Hüller",
-        "James Ortiz",
-        "Lionel Boyce",
-        "Milana Vayntrub",
-        "Ken Leung",
-        "Priya Kansara",
-        "Mia Soteriou"
-      ],
-      "production_company": [
-        "Lord Miller",
-        "Amazon MGM Studios",
-        "Pascal Pictures",
-        "Open Invite Entertainment",
-        "Waypoint Entertainment"
-      ],
-      "poster_path": "/sjG9ODJhSKDluawRsyhW3ijwjbQ.jpg",
-      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/02/12/559eaedd5cda3424862716c2e2613557.jpg",
-      "backdrop_path": "/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
-      "trailer_youtube_key": "26708YSDK-4",
-      "age_rating": "U",
-      "tmdb_id": 687163,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Spasitel+2026",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-09-23T09:44:10+00:00"
-    },
-    {
       "film_id": "speed networking",
       "title_cz": "Speed Networking",
       "title_en": "",
@@ -7607,6 +7451,56 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-08-05T22:28:50+02:00"
+    },
+    {
+      "film_id": "star trek ii khanuv hnev reziserska verze",
+      "title_cz": "Star Trek II: Khanův hněv / režisérská verze",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/09/21/427a9db942ca1af49e52288e56bd204f.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Star+Trek+II%3A+Khan%C5%AFv+hn%C4%9Bv+%2F+re%C5%BEis%C3%A9rsk%C3%A1+verze",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Star Trek II: Khanův hněv / režisérská verze'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "stardust pribeh lasky a architektury",
+      "title_cz": "Stardust: Příběh lásky a architektury",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/08/20/2ffc68aed7f65075ddc3654c33c79ef4.png",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Stardust%3A+P%C5%99%C3%ADb%C4%9Bh+l%C3%A1sky+a+architektury",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Stardust: Příběh lásky a architektury'",
+      "match_score": 0.0
     },
     {
       "film_id": "stastni spolu",
@@ -9387,52 +9281,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Živý, který šel okolo + Zpráva Karského'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "zjizvena tvar",
-      "title_cz": "Zjizvená tvář",
-      "title_en": "Scarface",
-      "original_title": "Scarface",
-      "year": 1983,
-      "synopsis": "V květnu 1980 otevřel Fidel Castro kubánský přístav Mariel s jasným záměrem nechat některé občany odjet za příbuznými do USA. Do sedmdesáti dvou hodin bylo 3000 amerických lodí na cestě na Kubu. Brzy se ukázalo, že Castro přinutil majitele lodí, aby odvezli nejen příbuzné, ale i nejhorší kubánské vězně. Mezi 125 000 uprchlíky, kteří se vylodili na Floridě, bylo 25 000 trestanců. A jedním z nich byl i kubánský politický vězeň Tony Montana. Tony ale hned po příjezdu skončí ve vězení, kde dostane nabídku: zabije komunistu a drogová mafie ho dostane ven i s jeho parťákem. Tony Montana se velmi rychle adaptuje v nových podmínkách svobodného světa. Se svým přítelem Mannym vykonávají příležitostné práce v místním podsvětí a při jedné předávce drog skončí v jejich rukou ukradené peníze, za něž Montana vybuduje vlastní drogové impérium. S mocí a bohatstvím ovšem roste i jeho ego a především paranoia, že jej o jeho výdobytky připraví někdo stejným způsobem, jako to udělal on.",
-      "synopsis_language": "cs",
-      "runtime_min": 170,
-      "genres": [
-        "Akční",
-        "Krimi",
-        "Drama"
-      ],
-      "director": [
-        "Brian De Palma"
-      ],
-      "screenwriter": [
-        "Oliver Stone"
-      ],
-      "cast": [
-        "Al Pacino",
-        "Steven Bauer",
-        "Michelle Pfeiffer",
-        "Mary Elizabeth Mastrantonio",
-        "Robert Loggia",
-        "Miriam Colon",
-        "F. Murray Abraham",
-        "Paul Shenar"
-      ],
-      "production_company": [
-        "Universal Pictures",
-        "Martin Bregman Productions"
-      ],
-      "poster_path": "/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/cCvp5Sni75agCtyJkNOMapORUQV.jpg",
-      "trailer_youtube_key": "lZMIrD36MG8",
-      "age_rating": "18+",
-      "tmdb_id": 111,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Zjizven%C3%A1+tv%C3%A1%C5%99+1983",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-19T09:10:59+00:00"
     },
     {
       "film_id": "zlaty vek",
