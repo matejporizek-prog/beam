@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T10:22:04+00:00",
+  "generated_at": "2026-09-28T11:27:58+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -2630,6 +2630,51 @@
       "match_score": 1.0,
       "resolved_at": "2026-09-21T10:27:31+00:00",
       "release_date": "2027-02-18"
+    },
+    {
+      "film_id": "hubata",
+      "title_cz": "Hubatá",
+      "title_en": "Hubatá",
+      "original_title": "Hubatá",
+      "year": 2027,
+      "synopsis": "Lucie je komička se svéráznou pusou a ještě svéráznějším vkusem na muže. Slušně vychovaný David celý život pomáhal lidem a nyní se rozhodl kandidovat na prezidenta. Jeho slibně rozjetou kariéru může zhatit jediné: že se do jeho života připlete žena, která je vším, jen ne důstojnou adeptkou na první dámu. Tedy právě Lucie.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Komedie"
+      ],
+      "director": [
+        "Jiří Vejdělek"
+      ],
+      "screenwriter": [
+        "Lucie Macháčková",
+        "Jiří Vejdělek"
+      ],
+      "cast": [
+        "Tereza Ramba",
+        "David Švehlík",
+        "Pavel Kříž",
+        "Patricie Solaříková",
+        "Jana Švandová",
+        "Beáta Hrnčiříková",
+        "Vojtěch Vodochodský",
+        "Eva Leinweberová"
+      ],
+      "production_company": [
+        "CinemArt"
+      ],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1744418,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Hubat%C3%A1+2027",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-28T11:27:58+00:00",
+      "release_date": "2027-02-25"
     }
   ]
 }
