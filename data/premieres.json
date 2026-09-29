@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T11:27:58+00:00",
+  "generated_at": "2026-09-29T11:04:40+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -2330,6 +2330,63 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "resolved_at": "2026-08-24T05:37:46+00:00",
+      "release_date": "2027-01-21"
+    },
+    {
+      "film_id": "ojczyzna",
+      "title_cz": "Ojczyzna",
+      "title_en": "Fatherland",
+      "original_title": "Ojczyzna",
+      "year": 2026,
+      "synopsis": "In 1949, German writer Thomas Mann and his daughter Erika embark on a road trip across a Germany in ruins, from US-dominated Frankfurt to Soviet-controlled Weimar.",
+      "synopsis_language": "en",
+      "runtime_min": 82,
+      "genres": [
+        "Drama",
+        "Historický"
+      ],
+      "director": [
+        "Paweł Pawlikowski"
+      ],
+      "screenwriter": [
+        "Paweł Pawlikowski",
+        "Hendrik Handloegten"
+      ],
+      "cast": [
+        "Sandra Hüller",
+        "Hanns Zischler",
+        "August Diehl",
+        "Anna Madeley",
+        "Devid Striesow",
+        "David Menkin",
+        "Joachim Meyerhoff",
+        "Enno Trebs"
+      ],
+      "production_company": [
+        "Our Films",
+        "Extreme Emotions",
+        "Nine Hours",
+        "Chapter 2",
+        "Wytwórnia Filmów Fabularnych we Wrocławiu",
+        "CANAL+ Polska",
+        "Dolnośląskie Centrum Filmowe",
+        "Silesia Film",
+        "Circle One",
+        "ARTE France Cinéma",
+        "Pathé",
+        "MUBI"
+      ],
+      "poster_path": "/7VjwmvDG5mksJBXMcmK6PudqH88.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/zKoBjLggS4v22a9ZiCvmLaZrht7.jpg",
+      "trailer_youtube_key": "52zHLYf25M0",
+      "age_rating": "",
+      "tmdb_id": 1437696,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ojczyzna+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-09-29T11:04:40+00:00",
       "release_date": "2027-01-21"
     },
     {

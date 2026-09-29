@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T11:27:57+00:00",
+  "generated_at": "2026-09-29T11:04:38+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -792,53 +792,6 @@
       "match_score": 0.0
     },
     {
-      "film_id": "bee team na stope",
-      "title_cz": "Béé team na stopě",
-      "title_en": "The Sheep Detectives",
-      "original_title": "The Sheep Detectives",
-      "year": 2026,
-      "synopsis": "V této vtipné, novátorské detektivce je George pastýř, který každou noc čte svým milovaným ovcím detektivní romány v domnění, že jim stejně nemohou rozumět. Když však záhadná událost naruší život na farmě, ovce si uvědomí, že se samy musí stát detektivy. Při sledování stop a vyšetřování lidských podezřelých dokazují, že i ovce mohou být brilantními řešiteli zločinů.",
-      "synopsis_language": "cs",
-      "runtime_min": 109,
-      "genres": [
-        "Komedie",
-        "Rodinný",
-        "Mysteriózní"
-      ],
-      "director": [
-        "Kyle Balda"
-      ],
-      "screenwriter": [
-        "Craig Mazin"
-      ],
-      "cast": [
-        "Hugh Jackman",
-        "Nicholas Braun",
-        "Nicholas Galitzine",
-        "Molly Gordon",
-        "Julia Louis-Dreyfus",
-        "Bryan Cranston",
-        "Chris O'Dowd",
-        "Regina Hall"
-      ],
-      "production_company": [
-        "Working Title Films",
-        "Three Strange Angels",
-        "Amazon MGM Studios"
-      ],
-      "poster_path": "/xVp94erqT2xq7KlNDv1LjXjfPvn.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/a8uQvrplTkhGJQog6GZ6CqF8An6.jpg",
-      "trailer_youtube_key": "826SRt1CFbg",
-      "age_rating": "U",
-      "tmdb_id": 1301421,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=B%C3%A9%C3%A9+team+na+stop%C4%9B+2026",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-16T09:40:21+00:00"
-    },
-    {
       "film_id": "behemot",
       "title_cz": "Behemot!",
       "title_en": "Behemoth",
@@ -1116,44 +1069,39 @@
       "resolved_at": "2026-09-23T09:44:02+00:00"
     },
     {
-      "film_id": "budoucnost utvari minulost kauza hilsner",
-      "title_cz": "Budoucnost utváří minulost: Kauza Hilsner",
-      "title_en": "The Future Shapes the Past: The Hilsner Case",
-      "original_title": "The Future Shapes the Past: The Hilsner Case",
+      "film_id": "building on the edge",
+      "title_cz": "Building on the Edge",
+      "title_en": "Building on the Edge",
+      "original_title": "Building on the Edge",
       "year": 2025,
-      "synopsis": "V roce 1899 vyvolala vražda mladé ženy ve městě Polná krvavou pomluvu, která vešla do dějin jako hilsneriáda. Nové důkazy ukazují na skutečného pachatele, ale české soudy odmítají očistit židovského muže obviněného z vraždy.  In 1899, the murder of a young woman in the woods of Bohemia sparked a blood libel that still haunts the Czech Republic today. More than a century later, the Czech justice system has never overturned the verdict against Leopold Hilsner, the Jewish man wrongly convicted in one of the country’s most infamous antisemitic political trials. Can a nation truly confront its role in the Holocaust while this injustice still stands?",
-      "synopsis_language": "cs",
-      "runtime_min": 80,
+      "synopsis": "A group of architecture students embark on an epic adventure when they set out to design and build a research station on one of the least hospitable places on the planet, Antarctica. Over two years, a group of graduate students from CU Denver and their professor, Rick Sommerfeld, embarked on a journey that tested their skills, endurance and teamwork, culminating in the completion of four cutting-edge structures that would support NOAA scientists studying seals and penguins. The juxtaposition of the fragile beauty and the unforgiving conditions of Antarctica creates an inspiring and visually stunning story. These students push the boundaries of design, sustainability and construction in an environment where every material choice and structural decision can mean the difference between success and failure.",
+      "synopsis_language": "en",
+      "runtime_min": 73,
       "genres": [
-        "Dokumentární",
-        "Historický"
+        "Dokumentární"
       ],
       "director": [
-        "Bryan Felber"
+        "Mike Scalisi",
+        "Bruce Borowski"
       ],
-      "screenwriter": [],
-      "cast": [
-        "Bryan Felber",
-        "Jan Prchal",
-        "Martin Šmok",
-        "Hillel Kieval",
-        "Jaroslav Mareš",
-        "Jaroslav Róna",
-        "Pavel Štingl",
-        "Kateřina Čapková"
+      "screenwriter": [
+        "Mike Scalisi"
       ],
-      "production_company": [],
-      "poster_path": "/lQR4NxmIswkZTfMy44EVMaIHMjY.jpg",
-      "poster_fallback_url": "",
+      "cast": [],
+      "production_company": [
+        "Pixel Mill Studios"
+      ],
+      "poster_path": "/vlgwXecMhKM7oJWGwPj1fbspPNl.jpg",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/08/27/d4d6ccf42710cb8c7fa4a212717c3537.jpg",
       "backdrop_path": "",
-      "trailer_youtube_key": "I6Dn8X3fF7w",
-      "age_rating": "12+",
-      "tmdb_id": 1717850,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Budoucnost+utv%C3%A1%C5%99%C3%AD+minulost%3A+Kauza+Hilsner+2025",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1675359,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Building+on+the+Edge+2025",
       "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-11T09:21:30+00:00"
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-09-29T11:04:34+00:00"
     },
     {
       "film_id": "call",
@@ -1684,6 +1632,31 @@
       "resolved_at": "2026-09-23T09:44:03+00:00"
     },
     {
+      "film_id": "detska nedele pat a mat zpatky na venkove",
+      "title_cz": "Dětská neděle - Pat a Mat: Zpátky na venkově",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/1616S3SX2.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=D%C4%9Btsk%C3%A1+ned%C4%9Ble+-+Pat+a+Mat%3A+Zp%C3%A1tky+na+venkov%C4%9B",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Dětská neděle - Pat a Mat: Zpátky na venkově'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "devce ze zapadu opera",
       "title_cz": "Děvče ze Západu (Opera)",
       "title_en": "",
@@ -2093,58 +2066,6 @@
       "resolved_at": "2026-09-24T09:44:15+00:00"
     },
     {
-      "film_id": "drive my car",
-      "title_cz": "Drive My Car",
-      "title_en": "Drive My Car",
-      "original_title": "ドライブ・マイ・カー",
-      "year": 2021,
-      "synopsis": "Když vám nečekaná tragédie rozkolísá svět, uvítáte jakýkoliv pevný bod. Divadelní režisér Kafuku, zvyklý každý den řídit své auto, si proto zoufá, když mu v divadle proti jeho vůli přidělí osobního řidiče. Nečekaný souputník má ale i světlé stránky.",
-      "synopsis_language": "cs",
-      "runtime_min": 179,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Ryusuke Hamaguchi"
-      ],
-      "screenwriter": [
-        "Ryusuke Hamaguchi",
-        "Takamasa Oe"
-      ],
-      "cast": [
-        "Hidetoshi Nishijima",
-        "Toko Miura",
-        "Masaki Okada",
-        "Reika Kirishima",
-        "Park Yu-rim",
-        "Jin Dae-yeon",
-        "Sonia Yuan",
-        "Ahn Hwi-tae"
-      ],
-      "production_company": [
-        "Bitters End",
-        "C&I entertainment",
-        "Culture Entertainment",
-        "nekojarashi",
-        "Quaras",
-        "Bungeishunju",
-        "Nippan Group Holdings",
-        "The Asahi Shimbun",
-        "L'espace Vision"
-      ],
-      "poster_path": "/f31Mhc2pehHGNly7nWdmm3XiaEG.jpg",
-      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2022/03/31/d4c802691a45bce6bf2fd825ef136f5c.png",
-      "backdrop_path": "/r6aqhlmJmu8Dv5E7QYEruaEXKYm.jpg",
-      "trailer_youtube_key": "zWijAnZBaHk",
-      "age_rating": "NR (US)",
-      "tmdb_id": 758866,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Drive+My+Car+2021",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-09-25T10:00:07+00:00"
-    },
-    {
       "film_id": "duna cast treti",
       "title_cz": "Duna: Část třetí",
       "title_en": "Dune: Part Three",
@@ -2380,31 +2301,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'FILM ZA STODVACET'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "filmovy klub",
-      "title_cz": "FILMOVÝ KLUB | Love Boat",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=FILMOV%C3%9D+KLUB+%7C+Love+Boat",
-      "resolved": false,
-      "match_reason": "no candidate scored above 0.75",
-      "match_score": 0.48
     },
     {
       "film_id": "filmovy kviz",
@@ -3233,8 +3129,8 @@
       "match_score": 0.0
     },
     {
-      "film_id": "kinospunti a kapybary",
-      "title_cz": "Kinošpunti a kapybary",
+      "film_id": "kluci to vidi jinak nez holky cz damska jizda",
+      "title_cz": "Kluci to vidí jinak než holky CZ (Dámská jízda)",
       "title_en": "",
       "original_title": "",
       "year": null,
@@ -3252,9 +3148,9 @@
       "trailer_youtube_key": "",
       "age_rating": "",
       "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Kino%C5%A1punti+a+kapybary",
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kluci+to+vid%C3%AD+jinak+ne%C5%BE+holky+CZ+%28D%C3%A1msk%C3%A1+j%C3%ADzda%29",
       "resolved": false,
-      "match_reason": "TMDb returned no results for 'Kinošpunti a kapybary'",
+      "match_reason": "TMDb returned no results for 'Kluci to vidí jinak než holky CZ (Dámská jízda)'",
       "match_score": 0.0
     },
     {
@@ -5409,6 +5305,31 @@
       "resolved_at": "2026-09-28T11:27:56+00:00"
     },
     {
+      "film_id": "ovecka shaun ve filmu prisera z mossy bottom detska nedele",
+      "title_cz": "Ovečka Shaun ve filmu: Příšera z Mossy Bottom Dětská neděle",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ove%C4%8Dka+Shaun+ve+filmu%3A+P%C5%99%C3%AD%C5%A1era+z+Mossy+Bottom+D%C4%9Btsk%C3%A1+ned%C4%9Ble",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Ovečka Shaun ve filmu: Příšera z Mossy Bottom Dětská neděle'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "padle ovoce",
       "title_cz": "Padlé ovoce",
       "title_en": "Fruit Gathering",
@@ -5845,6 +5766,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Porotcovsk%C3%BD+den+12%2BBOO",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Porotcovský den 12+BOO'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "posedli dakarem talk show",
+      "title_cz": "Posedlí Dakarem TALK SHOW",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Posedl%C3%AD+Dakarem+TALK+SHOW",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Posedlí Dakarem TALK SHOW'",
       "match_score": 0.0
     },
     {
@@ -6293,57 +6239,6 @@
       "resolved_at": "2026-08-27T16:05:54+00:00"
     },
     {
-      "film_id": "princezna kosmolesba",
-      "title_cz": "Princezna kosmolesba",
-      "title_en": "Lesbian Space Princess",
-      "original_title": "Lesbian Space Princess",
-      "year": 2025,
-      "synopsis": "Introvertní princezna Saira, dcera okázalých lesbických královen planety Clitopolis, je zdrcená, když se s ní její přítelkyně, lovkyně lidí Kiki, náhle rozejde, protože přespříliš vyžaduje jeji pozornost. Když je Kiki unesena heterosexuálními bílými mufouny – zapomenutými inceli budoucnosti –, musí Saira opustit pohodlí homosexuálního vesmíru, aby doručila požadované výkupné: její královský labrys, nejmocnější zbraň známou lesbickému druhu. Jediný problém je... že ji Saira nemá! Saira má na získání zbraně a záchranu Kiki pouhých 24 hodin, a tak se vydává na inter-gay-laktickou cestu sebepoznání, která zahrnuje setkání s problematickou vesmírnou lodí a nově nalezené přátelství s gay-popovou uprchlicí Willow. Bujaré, cukrkandlově barevné animované komediální dobrodružství napříč všeobjímající rozlehlostí queer vesmíru.",
-      "synopsis_language": "cs",
-      "runtime_min": 87,
-      "genres": [
-        "Animovaný",
-        "Komedie",
-        "Vědeckofantastický",
-        "Dobrodružný"
-      ],
-      "director": [
-        "Leela Varghese",
-        "Emma Hough Hobbs"
-      ],
-      "screenwriter": [
-        "Emma Hough Hobbs",
-        "Leela Varghese"
-      ],
-      "cast": [
-        "Shabana Azeez",
-        "Gemma Chua-Tran",
-        "Richard Roxburgh",
-        "Bernie Van Tiel",
-        "Kween Kong",
-        "Jordan Raskopoulos",
-        "Madeleine Sami",
-        "Zachary Ruane"
-      ],
-      "production_company": [
-        "We Made a Thing Studios",
-        "South Australian Film Corporation",
-        "Screen Australia",
-        "Umbrella Entertainment"
-      ],
-      "poster_path": "/fFa0cGVdQAU6RiNvE1SUpmnBhCc.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2025/09/15/42aa89cdf00b52cf9fac3be3a1e67f2b.jpg",
-      "backdrop_path": "/rS0ewRtB2ugDvbaVUoCXOpBOppM.jpg",
-      "trailer_youtube_key": "Nra14aUNYS8",
-      "age_rating": "15+",
-      "tmdb_id": 1333141,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Princezna+kosmolesba+2025",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-09-08T09:24:03+00:00"
-    },
-    {
       "film_id": "prisaham ze za to nemuzu",
       "title_cz": "Přísahám, že za to nemůžu",
       "title_en": "I Swear",
@@ -6474,6 +6369,31 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-09-15T09:46:52+00:00"
+    },
+    {
+      "film_id": "protagonista reporter v hledacku narkomafie",
+      "title_cz": "Protagonista: Reportér v hledáčku narkomafie",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/09/09/0c0f7f4e6b8a09b8451b5546523229fd.png",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Protagonista%3A+Report%C3%A9r+v+hled%C3%A1%C4%8Dku+narkomafie",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Protagonista: Reportér v hledáčku narkomafie'",
+      "match_score": 0.0
     },
     {
       "film_id": "pub kviz",
@@ -7059,6 +6979,51 @@
       "resolved_at": "2026-08-22T05:24:35+00:00"
     },
     {
+      "film_id": "sanatorium",
+      "title_cz": "Sanatorium",
+      "title_en": "Sanatorium",
+      "original_title": "Sanatorium",
+      "year": 2013,
+      "synopsis": "On a bitterly cold December night, a paranormal investigations team has set their sights on the bloody Hillcrest Sanatorium to answer the age old question: Is there life after death? With rumours of hauntings and local children gone missing, they may just get their answer the hard way when members of the team mysteriously disappear, leaving behind unnerving evidence.",
+      "synopsis_language": "en",
+      "runtime_min": 90,
+      "genres": [
+        "Horor",
+        "Mysteriózní",
+        "Thriller"
+      ],
+      "director": [
+        "Brant Sersen"
+      ],
+      "screenwriter": [
+        "Brant Sersen"
+      ],
+      "cast": [
+        "Kate Riley",
+        "Don Fanelli",
+        "DJ Hazard",
+        "Megan Neuringer",
+        "Charlie Fersko",
+        "Lauren Hunter",
+        "Tim Martin",
+        "Katherine Puma"
+      ],
+      "production_company": [
+        "Goldmine Pictures"
+      ],
+      "poster_path": "/u5wE05STbRVDqoBUmqFOPK1QcJx.jpg",
+      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/08/27/6dd2a7d5502e8c7e670677c93bc54fc9.jpg",
+      "backdrop_path": "/l4tkQijvUpycBHS3zMUkkV0KNDD.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "R (US)",
+      "tmdb_id": 248576,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Sanatorium+2013",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (0.95, title 1.00)",
+      "match_score": 0.95,
+      "resolved_at": "2026-09-29T11:04:38+00:00"
+    },
+    {
       "film_id": "schindler architekt prostoru",
       "title_cz": "Schindler: Architekt prostoru",
       "title_en": "",
@@ -7336,31 +7301,6 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=SirYakari+LIVE+TOUR+2026",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'SirYakari LIVE TOUR 2026'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "soutez studentskych filmu",
-      "title_cz": "Soutěž studentských filmů",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/09/09/8c302e4e924d1965c24c80333dfca21f.png",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Sout%C4%9B%C5%BE+studentsk%C3%BDch+film%C5%AF",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Soutěž studentských filmů'",
       "match_score": 0.0
     },
     {
@@ -7777,56 +7717,6 @@
       "match_score": 0.0
     },
     {
-      "film_id": "tahle zeme neni pro stary",
-      "title_cz": "Tahle země není pro starý",
-      "title_en": "No Country for Old Men",
-      "original_title": "No Country for Old Men",
-      "year": 2007,
-      "synopsis": "Poté, co lovec v západním Texasu narazí na několik mrtvých těl, skrýš heroinu a více než dva miliony dolarů v hotovosti, dojde k násilí a chaosu.",
-      "synopsis_language": "cs",
-      "runtime_min": 123,
-      "genres": [
-        "Krimi",
-        "Thriller",
-        "Western"
-      ],
-      "director": [
-        "Joel Coen",
-        "Ethan Coen"
-      ],
-      "screenwriter": [
-        "Ethan Coen",
-        "Joel Coen"
-      ],
-      "cast": [
-        "Javier Bardem",
-        "Tommy Lee Jones",
-        "Josh Brolin",
-        "Woody Harrelson",
-        "Kelly Macdonald",
-        "Garret Dillahunt",
-        "Tess Harper",
-        "Barry Corbin"
-      ],
-      "production_company": [
-        "Miramax",
-        "Paramount Vantage",
-        "Scott Rudin Productions",
-        "Mike Zoss Productions"
-      ],
-      "poster_path": "/nOWzVncZPGyuS4h1SfJnahzao47.jpg",
-      "poster_fallback_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/02/17/7b8bea449865a878c1fc00a9d3d892f0.webp",
-      "backdrop_path": "/gddUsvfyySrM5k8B8wwJy2VRlBx.jpg",
-      "trailer_youtube_key": "A0oNrgumrlE",
-      "age_rating": "18+",
-      "tmdb_id": 6977,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Tahle+zem%C4%9B+nen%C3%AD+pro+star%C3%BD+2007",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-09-24T09:44:23+00:00"
-    },
-    {
       "film_id": "tajemstvi dzungle",
       "title_cz": "Tajemství džungle",
       "title_en": "Born in the Jungle",
@@ -8048,80 +7938,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-09-26T09:45:45+00:00"
-    },
-    {
-      "film_id": "ten film je o tobe",
-      "title_cz": "Ten film je o tobě",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/09/04/2eba6080aaa765269d36a84f13541f8d.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Ten+film+je+o+tob%C4%9B",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Ten film je o tobě'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "terminator 2 den zuctovani",
-      "title_cz": "Terminátor 2: Den zúčtování",
-      "title_en": "Terminator 2: Judgment Day",
-      "original_title": "Terminator 2: Judgment Day",
-      "year": 1991,
-      "synopsis": "Deset let po neúspěšném pokusu zabít Sarah Connorovou, matku budoucího vůdce lidstva ve válce proti strojům, se do Los Angeles vrací z budoucnosti nový Terminátor, typ T-1000, aby zlikvidoval už narozeného Johna Connora. Dospělý Connor v roce 2029 na svoji ochranu posílá do minulosti druhého terminátora T-800. Oba stroje nezávisle na sobě pátrají po malém Johnovi. Chlapec zjišťuje, že T-800 je naprogramován na jeho ochranu a s jeho pomocí osvobodí svou matku z psychiatrického ústavu, kde je léčena z údajné schizofrenie. T-800 oběma vysvětluje, co přinese budoucnost. Tu je však možné změnit...a při tom všem hrdiny stíhá nemilosrdný a zřejmě nezničitelný T-1000.",
-      "synopsis_language": "cs",
-      "runtime_min": 137,
-      "genres": [
-        "Akční",
-        "Thriller",
-        "Vědeckofantastický"
-      ],
-      "director": [
-        "James Cameron"
-      ],
-      "screenwriter": [
-        "James Cameron",
-        "William Wisher"
-      ],
-      "cast": [
-        "Arnold Schwarzenegger",
-        "Linda Hamilton",
-        "Edward Furlong",
-        "Robert Patrick",
-        "Earl Boen",
-        "Joe Morton",
-        "S. Epatha Merkerson",
-        "Castulo Guerra"
-      ],
-      "production_company": [
-        "Carolco Pictures",
-        "Pacific Western",
-        "Lightstorm Entertainment",
-        "Le Studio Canal+"
-      ],
-      "poster_path": "/k6hLkz7721IluWLO9wFaJo5EK2D.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/izkMjmhauFx9DjoBQqM5sM5WAwE.jpg",
-      "trailer_youtube_key": "BuBD2s2NmEM",
-      "age_rating": "12+",
-      "tmdb_id": 280,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Termin%C3%A1tor+2%3A+Den+z%C3%BA%C4%8Dtov%C3%A1n%C3%AD+1991",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-16T09:40:32+00:00"
     },
     {
       "film_id": "the apprentice pribeh trumpa",
@@ -9486,6 +9302,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Zr%C3%A1dci+jsou+zp%C4%9Bt+i+v+kinech%21+%28epizoda+3.%29",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Zrádci jsou zpět i v kinech! (epizoda 3.)'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "zradci jsou zpet i v kinech epizoda 4",
+      "title_cz": "Zrádci jsou zpět i v kinech! (epizoda 4.)",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Zr%C3%A1dci+jsou+zp%C4%9Bt+i+v+kinech%21+%28epizoda+4.%29",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Zrádci jsou zpět i v kinech! (epizoda 4.)'",
       "match_score": 0.0
     },
     {
