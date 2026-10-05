@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T10:53:47+00:00",
+  "generated_at": "2026-10-05T12:02:26+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -2504,6 +2504,97 @@
       "match_score": 1.0,
       "resolved_at": "2026-09-28T11:27:58+00:00",
       "release_date": "2027-02-25"
+    },
+    {
+      "film_id": "kocicino nero",
+      "title_cz": "Kočičíno Nero",
+      "title_en": "Gatto",
+      "original_title": "Gatto",
+      "year": 2027,
+      "synopsis": "Nero se po letech života v Benátkách, městě protkaném kanály a opředeném pověrami, začíná ptát, jestli své životy prožil správně. Zadlužený u Rocca, místního kočičího mafiánského bosse, se Nero ocitá v zapeklité situaci a je nucen navázat skutečně nečekané přátelství, které ho možná konečně dovede k jeho životnímu poslání — pokud ho ovšem Benátky nepřelstí dřív.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Animovaný",
+        "Komedie",
+        "Krimi",
+        "Rodinný"
+      ],
+      "director": [
+        "Enrico Casarosa"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "Mark Ruffalo",
+        "Laurence Fishburne",
+        "Enrico Casarosa"
+      ],
+      "production_company": [
+        "Pixar"
+      ],
+      "poster_path": "/9y0I6Qnj4qgYzTiGC6nFCj9WdG0.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/etB2OT0nUknOAPZV7EgbEbt6HJh.jpg",
+      "trailer_youtube_key": "WKIxT_d-6hc",
+      "age_rating": "",
+      "tmdb_id": 1497464,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ko%C4%8Di%C4%8D%C3%ADno+Nero+2027",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-05T12:02:25+00:00",
+      "release_date": "2027-03-04"
+    },
+    {
+      "film_id": "the thomas crown affair",
+      "title_cz": "The Thomas Crown Affair",
+      "title_en": "The Thomas Crown Affair",
+      "original_title": "The Thomas Crown Affair",
+      "year": 2027,
+      "synopsis": "A debonair, adventuresome man believes he has pulled off the perfect multi-million dollar heist, only to match wits with an insurance investigator who will do anything to get her man.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Krimi",
+        "Romantický",
+        "Thriller"
+      ],
+      "director": [
+        "Michael B. Jordan"
+      ],
+      "screenwriter": [
+        "Alan Trustman",
+        "Drew Pearce",
+        "Jason Hall"
+      ],
+      "cast": [
+        "Michael B. Jordan",
+        "Adria Arjona",
+        "Kenneth Branagh",
+        "Lily Gladstone",
+        "Danai Gurira",
+        "Pilou Asbæk",
+        "Aiysha Hart"
+      ],
+      "production_company": [
+        "Outlier Society",
+        "AGBO",
+        "Atlas Entertainment",
+        "Amazon MGM Studios",
+        "Toberoff Productions"
+      ],
+      "poster_path": "/sT1TQeAy1PdRfPIb6rrM2DB7DB.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/4IwoYgyFdBCELwCr9VmEH1u0wwF.jpg",
+      "trailer_youtube_key": "gnm4HgIAVmU",
+      "age_rating": "",
+      "tmdb_id": 615121,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=The+Thomas+Crown+Affair+2027",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-05T12:02:26+00:00",
+      "release_date": "2027-03-04"
     }
   ]
 }
