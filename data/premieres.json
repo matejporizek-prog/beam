@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:02:26+00:00",
+  "generated_at": "2026-10-06T11:48:30+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -76,6 +76,44 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-10-08"
+    },
+    {
+      "film_id": "podoby milostneho vztahu ke svetu",
+      "title_cz": "Podoby milostného vztahu ke světu",
+      "title_en": "Because I Have To",
+      "original_title": "Podoby milostného vztahu ke světu",
+      "year": 2026,
+      "synopsis": "Miloš Šejn ležící, bdící. A hlavně tvořící. Dokumentární esej sleduje umělce, jehož tvorba je „zrozena z úžasu“ a který dokáže nenuceně navigovat vytouženou cestou z města. Namísto nekonečného přísunu vjemů nabízí film prostor pro soustředění a vnímavost – prostor, který dost možná přesáhne sedmdesát minut v kině. Debutující režisér Jakub Kučera si do svého tvůrčího týmu přizval střihače Alexandera Kascheeva či hudebníka Olivera Torra, kteří pomáhají rozvíjet dopad netradičního portrétu unikavé osobnosti. Když observace ústí v kontemplaci.",
+      "synopsis_language": "cs",
+      "runtime_min": 71,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Jakub Kučera"
+      ],
+      "screenwriter": [
+        "Jakub Kučera"
+      ],
+      "cast": [
+        "Miloš Šejn"
+      ],
+      "production_company": [
+        "Perfilm",
+        "Artyčok TV"
+      ],
+      "poster_path": "/4TvusRMJQkRH8fl0RdnrCqLemiD.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/wPnxashgN9uRfcXA2haXfu2FKxi.jpg",
+      "trailer_youtube_key": "r6PVnawQlqY",
+      "age_rating": "",
+      "tmdb_id": 1726607,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Podoby+milostn%C3%A9ho+vztahu+ke+sv%C4%9Btu+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-06T11:48:30+00:00",
       "release_date": "2026-10-08"
     },
     {
