@@ -1,7 +1,104 @@
 {
-  "generated_at": "2026-10-06T11:48:30+00:00",
+  "generated_at": "2026-10-07T11:35:28+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
+    {
+      "film_id": "sladky domov",
+      "title_cz": "Sladký domov",
+      "title_en": "Home Sweet Home",
+      "original_title": "Dom dobry",
+      "year": 2025,
+      "synopsis": "Hlavní postavou příběhu je Gośka, která věří, že konečně potkala svou životní lásku. A zpočátku to tak i vypadá… Grzesiek se chová jako zamilovaný muž. Mluví o společných plánech, budoucnosti a nakonec v romantických Benátkách požádá svou vyvolenou o ruku. Jenže idylku brzy vystřídá tragédie a Gośka na vlastní kůži zažije Grzesiekovu násilnickou povahu.",
+      "synopsis_language": "cs",
+      "runtime_min": 108,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "director": [
+        "Wojtek Smarzowski"
+      ],
+      "screenwriter": [
+        "Wojtek Smarzowski"
+      ],
+      "cast": [
+        "Agata Turkot",
+        "Tomasz Schuchardt",
+        "Agata Kulesza",
+        "Maria Sobocińska",
+        "Łukasz Gawroński",
+        "Arkadiusz Jakubik",
+        "Magdalena Smalara",
+        "Nadia Samagalska"
+      ],
+      "production_company": [
+        "Lucky Bob",
+        "TVN Warner Bros. Discovery",
+        "Mazowiecki Instytut Kultury",
+        "Kantor Sztuki",
+        "Grupa Moderator Studio Filmowe",
+        "Atlas Sztuki",
+        "Fale Loki Koki",
+        "dFlights",
+        "Amor Vacui Films"
+      ],
+      "poster_path": "/ezLtPFCzGYYvCp6NPxIBKI43tDs.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/qoUVkstQfGZlKlKdYC0T98kNrek.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1035047,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Sladk%C3%BD+domov+2025",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-07T11:35:27+00:00",
+      "release_date": "2026-10-07"
+    },
+    {
+      "film_id": "anton spelec ostrostrelec",
+      "title_cz": "Anton Špelec, ostrostřelec",
+      "title_en": "Anton Špelec, Sharp-Shooter",
+      "original_title": "Anton Špelec, ostrostřelec",
+      "year": 1932,
+      "synopsis": "Anton Špelec je sice svým povoláním výrobcem hudebních nástrojů, ale tělem i duší je ostrostřelec. V provinčním maloměstě se chystá velká paráda, při níž budou zasloužilí ostrostřelci dekorováni medailemi. Anton věří, že tentokrát přijde řada i na něho, ale je zklamaný, neboť jedna medaile chybí a on musí zase rok čekat. V hospodě se pak opije natolik, že urazí císaře pána a má jít za to do vězení. Je však třeba dokončit zakázku, a tak se Anton rozhodne poslat za sebe do vězení svého zaměstnance Josefa Kukačku a sám doma tajně pracuje. Ale ani Kukačkovi se do vězení nechce a pošle tam místo sebe tuláka, který by rád přečkal ve vězení zimu...",
+      "synopsis_language": "cs",
+      "runtime_min": 90,
+      "genres": [
+        "Komedie"
+      ],
+      "director": [
+        "Martin Frič"
+      ],
+      "screenwriter": [
+        "Josef Neuberg"
+      ],
+      "cast": [
+        "Vlasta Burian",
+        "Růžena Šlemrová",
+        "Jaroslav Marvan",
+        "Theodor Pištěk",
+        "Jindřich Plachta",
+        "Jiří Dréman",
+        "Ella Nollová",
+        "Karel Postranecký"
+      ],
+      "production_company": [
+        "Meissner Film Prague"
+      ],
+      "poster_path": "/iYuxKeZ32r5vWAek2E9wK2uz23V.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/o7dTicm5pEKTxFbrHBk612QZ7ZY.jpg",
+      "trailer_youtube_key": "kDYYxNhC4iA",
+      "age_rating": "U",
+      "tmdb_id": 253062,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Anton+%C5%A0pelec%2C+ostrost%C5%99elec+1932",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-07T11:35:27+00:00",
+      "release_date": "2026-10-08"
+    },
     {
       "film_id": "milovnik ne bojovnik",
       "title_cz": "Milovník, ne bojovník",
@@ -117,6 +214,54 @@
       "release_date": "2026-10-08"
     },
     {
+      "film_id": "rolling loud bez zabran",
+      "title_cz": "Rolling Loud: Bez zábran",
+      "title_en": "Rolling Loud: The Movie",
+      "original_title": "Rolling Loud: The Movie",
+      "year": 2026,
+      "synopsis": "Sblížit se se svým dospívajícím synem je dobrý nápad. Vzít ho bez vědomí manželky na obrovský hiphopový festival už o něco méně. A ztratit ho uprostřed davu? To je naprostá katastrofa! Nejdivočejší noc jeho života právě začíná. Owen Wilson září v bláznivé komedii o otci, který se během jednoho hektického festivalového večera snaží najít svého syna, nerozčílit manželku, a přitom přežít chaos největšího hiphopového festivalu.",
+      "synopsis_language": "cs",
+      "runtime_min": 99,
+      "genres": [
+        "Komedie"
+      ],
+      "director": [
+        "Jeremy Garelick"
+      ],
+      "screenwriter": [
+        "Jeremy Garelick",
+        "Zion Garelick"
+      ],
+      "cast": [
+        "Owen Wilson",
+        "Christian Convery",
+        "Jolene",
+        "Travis Scott",
+        "Matt Rife",
+        "Olivia Luccardi",
+        "Christine Ko",
+        "Dani Oliveros"
+      ],
+      "production_company": [
+        "American High",
+        "Live Nation Studios",
+        "Cactus Jack Films",
+        "Ketchup Entertainment"
+      ],
+      "poster_path": "/8NMYWNLrwLuiNgRKfuWNhzBH9pO.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/eQC3h5fyEjNhSULe7yQlFaDkSub.jpg",
+      "trailer_youtube_key": "t9IKFAPhUtY",
+      "age_rating": "15+",
+      "tmdb_id": 1336166,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Rolling+Loud%3A+Bez+z%C3%A1bran+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-07T11:35:28+00:00",
+      "release_date": "2026-10-08"
+    },
+    {
       "film_id": "wirbel",
       "title_cz": "Wirbel",
       "title_en": "Wirbel",
@@ -201,6 +346,46 @@
       "match_score": 1.0,
       "resolved_at": "2026-09-06T09:10:52+00:00",
       "release_date": "2026-10-08"
+    },
+    {
+      "film_id": "always lalisa",
+      "title_cz": "Always Lalisa",
+      "title_en": "Always Lalisa",
+      "original_title": "Always Lalisa",
+      "year": 2026,
+      "synopsis": "Documentary following global superstar LISA during a transformative year away from BLACKPINK, the K-pop phenomenon that made her one of the world's most recognizable performers. Documenting a year of risk, reinvention, and self-discovery as LISA begins to define her next chapter.",
+      "synopsis_language": "en",
+      "runtime_min": 98,
+      "genres": [
+        "Dokumentární",
+        "Hudební"
+      ],
+      "director": [
+        "Sue Kim"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "LISA"
+      ],
+      "production_company": [
+        "Sony Music Vision",
+        "Tremolo Productions",
+        "Salt Water Productions",
+        "LLOUD",
+        "RCA Records"
+      ],
+      "poster_path": "/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/wJwTuwy1ZajIA6ivGjoe0Ee08XN.jpg",
+      "trailer_youtube_key": "s6NUEu1x64I",
+      "age_rating": "15+",
+      "tmdb_id": 1489932,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Always+Lalisa+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-07T11:35:28+00:00",
+      "release_date": "2026-10-12"
     },
     {
       "film_id": "divocina",
