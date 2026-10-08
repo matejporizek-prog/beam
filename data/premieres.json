@@ -1,60 +1,7 @@
 {
-  "generated_at": "2026-10-07T11:35:28+00:00",
+  "generated_at": "2026-10-08T11:49:03+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
-    {
-      "film_id": "sladky domov",
-      "title_cz": "Sladký domov",
-      "title_en": "Home Sweet Home",
-      "original_title": "Dom dobry",
-      "year": 2025,
-      "synopsis": "Hlavní postavou příběhu je Gośka, která věří, že konečně potkala svou životní lásku. A zpočátku to tak i vypadá… Grzesiek se chová jako zamilovaný muž. Mluví o společných plánech, budoucnosti a nakonec v romantických Benátkách požádá svou vyvolenou o ruku. Jenže idylku brzy vystřídá tragédie a Gośka na vlastní kůži zažije Grzesiekovu násilnickou povahu.",
-      "synopsis_language": "cs",
-      "runtime_min": 108,
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "director": [
-        "Wojtek Smarzowski"
-      ],
-      "screenwriter": [
-        "Wojtek Smarzowski"
-      ],
-      "cast": [
-        "Agata Turkot",
-        "Tomasz Schuchardt",
-        "Agata Kulesza",
-        "Maria Sobocińska",
-        "Łukasz Gawroński",
-        "Arkadiusz Jakubik",
-        "Magdalena Smalara",
-        "Nadia Samagalska"
-      ],
-      "production_company": [
-        "Lucky Bob",
-        "TVN Warner Bros. Discovery",
-        "Mazowiecki Instytut Kultury",
-        "Kantor Sztuki",
-        "Grupa Moderator Studio Filmowe",
-        "Atlas Sztuki",
-        "Fale Loki Koki",
-        "dFlights",
-        "Amor Vacui Films"
-      ],
-      "poster_path": "/ezLtPFCzGYYvCp6NPxIBKI43tDs.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/qoUVkstQfGZlKlKdYC0T98kNrek.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1035047,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Sladk%C3%BD+domov+2025",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-10-07T11:35:27+00:00",
-      "release_date": "2026-10-07"
-    },
     {
       "film_id": "anton spelec ostrostrelec",
       "title_cz": "Anton Špelec, ostrostřelec",
@@ -388,6 +335,36 @@
       "release_date": "2026-10-12"
     },
     {
+      "film_id": "pitoma priroda",
+      "title_cz": "Pitomá příroda",
+      "title_en": "Pitomá příroda",
+      "original_title": "Pitomá příroda",
+      "year": 2026,
+      "synopsis": "Předškolák Maty by rád nastoupil do první třídy spolu se svým nejlepším kamarádem Šímou. Ale podle paní učitelky by měl ještě rok zůstat ve školce, protože je příliš divoký, šišlá a neposlouchá ani maminku. Jeho dědeček je naštěstí tak trochu kouzelný dědeček. Zná jedno indiánské tajemství, které by mohlo jeho vnukovi pomoct. Vezme Matyho na svou chatu daleko od civilizace a uprostřed probouzející se jarní přírody se ho pokusí na blížící se pohovor u zápisu připravit. První chvíle v divočině nejsou pro městského kluka vůbec jednoduché, protože na chatě není PlayStation ani televize.",
+      "synopsis_language": "cs",
+      "runtime_min": 60,
+      "genres": [
+        "Rodinný",
+        "Komedie"
+      ],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "/AgLmB0rvtgtPsksVHAPh4tiDt9Q.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/74wRcggQpcyuw4KyT3EAThePn3n.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 1791470,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Pitom%C3%A1+p%C5%99%C3%ADroda+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-08T11:49:01+00:00",
+      "release_date": "2026-10-14"
+    },
+    {
       "film_id": "divocina",
       "title_cz": "Divočina",
       "title_en": "Divočina",
@@ -482,6 +459,369 @@
       "release_date": "2026-10-15"
     },
     {
+      "film_id": "hadi tanec",
+      "title_cz": "Hadí tanec",
+      "title_en": "Serpentine Dance",
+      "original_title": "Danse serpentine",
+      "year": 1897,
+      "synopsis": "Ručně kolorovaný film zachycuje tanec, při němž se látka, světlo a barvy neustále proměňují.",
+      "synopsis_language": "cs",
+      "runtime_min": 1,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Louis Lumière"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "Caroline Hipple Holpin"
+      ],
+      "production_company": [
+        "Lumière"
+      ],
+      "poster_path": "/dNLfpXPiv0TPVSwnKMi5sorzP6a.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/bAssPWtifLHEb0H0vLq8LMGp68c.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 162767,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Had%C3%AD+tanec+1897",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-08T11:48:57+00:00",
+      "release_date": "2026-10-15"
+    },
+    {
+      "film_id": "hnizdo",
+      "title_cz": "Hnízdo",
+      "title_en": "Crawlers",
+      "original_title": "Crawlers",
+      "year": 2026,
+      "synopsis": "Tenants at Paradiso Palms apartments fight a deadly spider invasion while the cunning building manager might be their only hope for survival.",
+      "synopsis_language": "en",
+      "runtime_min": 80,
+      "genres": [
+        "Horor",
+        "Thriller"
+      ],
+      "director": [
+        "Ángel Gómez Hernández"
+      ],
+      "screenwriter": [
+        "Jayson Rothwell"
+      ],
+      "cast": [
+        "Matilda Lutz",
+        "Gregg Sulkin",
+        "Melina Matthews",
+        "Paul S. Tracey",
+        "Andrea Scott Méndez",
+        "William Miller",
+        "Gary Anthony Stennette",
+        "Chris Rogers"
+      ],
+      "production_company": [
+        "Badlands",
+        "Thunder Road",
+        "Sagesse Productions",
+        "Fresco Film",
+        "Renegade Capital"
+      ],
+      "poster_path": "/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/ayJsUQ4bEG6yY0UB6lMboiaDfYE.jpg",
+      "trailer_youtube_key": "uLpZTosf6uI",
+      "age_rating": "15+",
+      "tmdb_id": 1376400,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Hn%C3%ADzdo+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-08T11:49:00+00:00",
+      "release_date": "2026-10-15"
+    },
+    {
+      "film_id": "l arrivee d un train a la ciotat",
+      "title_cz": "L'arrivée d'un train à La Ciotat",
+      "title_en": "The Arrival of a Train at La Ciotat",
+      "original_title": "L'arrivée d'un train à La Ciotat",
+      "year": 1896,
+      "synopsis": "A group of people are standing along the platform of a railway station in La Ciotat, waiting for a train. One is seen coming, at some distance, and eventually stops at the platform. Doors of the railway-cars open and attendants help passengers off and on.  Popular legend has it that, when this film was shown, the first-night audience fled the café in terror, fearing being run over by the \"approaching\" train. This legend has since been identified as promotional embellishment, though there is evidence to suggest that people were astounded at the capabilities of the Lumières' cinématographe.",
+      "synopsis_language": "en",
+      "runtime_min": 1,
+      "genres": [
+        "Historický",
+        "Dokumentární"
+      ],
+      "director": [
+        "Louis Lumière",
+        "Auguste Lumière"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "Madeleine Koehler",
+        "Marcel Koehler",
+        "Marguerite Lumière",
+        "Jeanne-Joséphine Lumière",
+        "Rose Lumière",
+        "Suzanne Lumière"
+      ],
+      "production_company": [
+        "Lumière"
+      ],
+      "poster_path": "/y3A15HpugKsPjVyxKa9POLTEX6B.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/kLDi7ST92diaAzISLgd94BYO6Zw.jpg",
+      "trailer_youtube_key": "J7laguPTT-Q",
+      "age_rating": "U",
+      "tmdb_id": 160,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=L%27arriv%C3%A9e+d%27un+train+%C3%A0+La+Ciotat+1896",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-08T11:48:57+00:00",
+      "release_date": "2026-10-15"
+    },
+    {
+      "film_id": "laska",
+      "title_cz": "Láska",
+      "title_en": "For Love",
+      "original_title": "Láska",
+      "year": 2026,
+      "synopsis": "Třicetiletá Anna hledá stabilní základ ve svých vztazích, ale nevědomky opakuje manipulativní vzorce, které se naučila od své matky. Když se setká s nevyléčitelně nemocným pacientem a jeho oddanou manželkou, zažije Anna hlubokou lásku, která jí změní život.",
+      "synopsis_language": "cs",
+      "runtime_min": 101,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Marko Škop"
+      ],
+      "screenwriter": [
+        "Marko Škop"
+      ],
+      "cast": [
+        "Jana Kovalčiková",
+        "Rebeka Poláková",
+        "Milan Ondrík",
+        "Richard Autner",
+        "Ingrid Timková",
+        "Dana Droppová",
+        "Ivana Chýlková",
+        "Dušan Cinkota"
+      ],
+      "production_company": [
+        "Cinepoint",
+        "Artileria"
+      ],
+      "poster_path": "/lQt8leY727HHOXvAWMmLrL6ZeXJ.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "15+",
+      "tmdb_id": 1508101,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=L%C3%A1ska+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-08T11:49:00+00:00",
+      "release_date": "2026-10-15"
+    },
+    {
+      "film_id": "maly cousteau",
+      "title_cz": "Malý Cousteau",
+      "title_en": "The Little Cousteau",
+      "original_title": "Malý Cousteau",
+      "year": 2026,
+      "synopsis": "Undersea adventure in snowy city. A short cartoon film as a homage to Jacques Cousteau.",
+      "synopsis_language": "en",
+      "runtime_min": 9,
+      "genres": [
+        "Animovaný"
+      ],
+      "director": [
+        "Jakub Kouřil"
+      ],
+      "screenwriter": [
+        "Jakub Kouřil"
+      ],
+      "cast": [],
+      "production_company": [
+        "FAMU"
+      ],
+      "poster_path": "/rgvt4hr1BJCVeKFnfQSyXdFsrmj.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 1066802,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Mal%C3%BD+Cousteau+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-08T11:49:02+00:00",
+      "release_date": "2026-10-15"
+    },
+    {
+      "film_id": "minotaur",
+      "title_cz": "Minotaur",
+      "title_en": "Minotaur",
+      "original_title": "Minotaure",
+      "year": 2026,
+      "synopsis": "Rusko, rok 2022. Úspěšný podnikatel Gleb žije se svou ženou Galinou a jejich malým synem v krásném domě u vody. Ačkoli má Gleb politické konexe, není imunní vůči radikálním změnám v ruské společnosti a ocitá se pod extrémním tlakem, aby potlačil paniku a udržel svou firmu v chodu. Galina mezitím na sobě pociťuje neustálý tlak být dokonalou manželkou a matkou. Když začne mít Gleb podezření, že má Galina milostný poměr, tento obvykle rozvážný muž udělá osudové rozhodnutí, které ho přivede na pokraj emočního a morálního zhroucení.",
+      "synopsis_language": "cs",
+      "runtime_min": 135,
+      "genres": [
+        "Drama",
+        "Krimi",
+        "Thriller"
+      ],
+      "director": [
+        "Andrey Zvyagintsev"
+      ],
+      "screenwriter": [
+        "Simon Liashenko",
+        "Andrey Zvyagintsev"
+      ],
+      "cast": [
+        "Dmitriy Mazurov",
+        "Iris Lebedeva",
+        "Varvara Shmykova",
+        "Juris Žagars",
+        "Anatoliy Belyy",
+        "Vladimir Friedman",
+        "Anastasia Mischenko",
+        "Yurii Zavalnyuk"
+      ],
+      "production_company": [
+        "MK Productions",
+        "CG Cinéma",
+        "Razor Film Produktion",
+        "Forma Pro Films",
+        "ARTE France Cinéma",
+        "ZDF",
+        "whiz movies",
+        "LEAF Entertainment"
+      ],
+      "poster_path": "/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/i5HacpkXOKQ85lfbnMO3jXvAnPy.jpg",
+      "trailer_youtube_key": "hTHeFP0mcuk",
+      "age_rating": "15+",
+      "tmdb_id": 848700,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Minotaur+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-08T11:49:01+00:00",
+      "release_date": "2026-10-15"
+    },
+    {
+      "film_id": "muj stastny konec",
+      "title_cz": "Můj šťastný konec",
+      "title_en": "My Happy End",
+      "original_title": "My Happy End",
+      "year": 2026,
+      "synopsis": "Co když se psí ocas osamostatní a stane se nejlepším přítelem svého majitele? Hravá animace ukazuje, že ve filmu se může stát možné téměř cokoli.",
+      "synopsis_language": "cs",
+      "runtime_min": 5,
+      "genres": [
+        "Animovaný"
+      ],
+      "director": [
+        "Milen Vitanov"
+      ],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [
+        "Filmuniversität Babelsberg KONRAD WOLF"
+      ],
+      "poster_path": "/1QbcrDqQ9QUKddVYaNXyOrW43ei.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/w9qnmKLVBQxfcHm4x40gKtLxduy.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 427538,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=M%C5%AFj+%C5%A1%C5%A5astn%C3%BD+konec+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-08T11:49:03+00:00",
+      "release_date": "2026-10-15"
+    },
+    {
+      "film_id": "pejsek fesak",
+      "title_cz": "Pejsek Fešák",
+      "title_en": "Yugly",
+      "original_title": "Yugly",
+      "year": 2026,
+      "synopsis": "Yugly, an irresistibly ugly dog, is determined to compete in the World's Best Dog Show, rallied by a bunch of flamboyant strays.",
+      "synopsis_language": "en",
+      "runtime_min": 81,
+      "genres": [
+        "Dobrodružný",
+        "Animovaný",
+        "Komedie",
+        "Rodinný"
+      ],
+      "director": [
+        "Jérémie Degruson",
+        "Yanis Belaid"
+      ],
+      "screenwriter": [
+        "Greg Brooker"
+      ],
+      "cast": [],
+      "production_company": [
+        "nWave Pictures",
+        "Octopolis"
+      ],
+      "poster_path": "/v0k03CaQh6uFc5Ot8Jjhvr5BMYu.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/sJZkcbSeK7CYJW9NP5NcpQIjfdB.jpg",
+      "trailer_youtube_key": "g7Pu1eEmqAw",
+      "age_rating": "U",
+      "tmdb_id": 1218069,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Pejsek+Fe%C5%A1%C3%A1k+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-08T11:48:59+00:00",
+      "release_date": "2026-10-15"
+    },
+    {
+      "film_id": "sally",
+      "title_cz": "Sally",
+      "title_en": "Sally",
+      "original_title": "Sally",
+      "year": 2026,
+      "synopsis": "Kuličky se pohybují prostorem a pohrávají si s gravitací, perspektivou i naší představou o tom, kde je nahoře a kde dole.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [],
+      "director": [
+        "Roel Wouters",
+        "Luna Maurer"
+      ],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "/wwFTvuOFiHBHI6Eg25hn1VRr26d.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 771012,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Sally+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-08T11:49:03+00:00",
+      "release_date": "2026-10-15"
+    },
+    {
       "film_id": "street fighter",
       "title_cz": "Street Fighter",
       "title_en": "Street Fighter",
@@ -528,6 +868,110 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-10-15"
+    },
+    {
+      "film_id": "virtuozni virtualita",
+      "title_cz": "Virtuózní virtualita",
+      "title_en": "Virtuoso Virtuell",
+      "original_title": "Virtuos Virtuell",
+      "year": 2013,
+      "synopsis": "Inkoust se pohybuje v rytmu hudby a z abstraktních tvarů před našima očima vznikají obrazy a příběhy.",
+      "synopsis_language": "cs",
+      "runtime_min": 8,
+      "genres": [],
+      "director": [
+        "Thomas Stellmach",
+        "Maja Oschmann"
+      ],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "/x7WMQjCwiLAk8eYZ4LpiYdW6XGp.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 254857,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Virtu%C3%B3zn%C3%AD+virtualita+2013",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-08T11:48:58+00:00",
+      "release_date": "2026-10-15"
+    },
+    {
+      "film_id": "vosoustej mi synka",
+      "title_cz": "Vošoustej mi synka!",
+      "title_en": "Fuck My Son!",
+      "original_title": "Fuck My Son!",
+      "year": 2025,
+      "synopsis": "An X-Rated descent into demented comedy and maniacal horror, as a desperate mother drags an innocent stranger into an absurd, filthy nightmare beyond comprehension. An unflinchingly loyal adaptation of transgressive artist Johnny Ryan’s joyfully disgusting comic book. Adults only.",
+      "synopsis_language": "en",
+      "runtime_min": 94,
+      "genres": [
+        "Komedie",
+        "Horor"
+      ],
+      "director": [
+        "Todd Rohal"
+      ],
+      "screenwriter": [
+        "Todd Rohal"
+      ],
+      "cast": [
+        "Steve Little",
+        "Tipper Newton",
+        "Robert Longstreet",
+        "Kynzie Colmery",
+        "George Sample III",
+        "Bryan Connolly",
+        "Jennifer Finney",
+        "Isabelle Avena"
+      ],
+      "production_company": [
+        "Professional Motion Picture"
+      ],
+      "poster_path": "/iLd0PFYNOCENDQBPXMwfVhjdtoW.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/fBtCSzqg3nZWy479NfysS2mdnVG.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "18+",
+      "tmdb_id": 1518306,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Vo%C5%A1oustej+mi+synka%21+2025",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-08T11:48:58+00:00",
+      "release_date": "2026-10-15"
+    },
+    {
+      "film_id": "veci",
+      "title_cz": "Věci",
+      "title_en": "Things",
+      "original_title": "Things",
+      "year": 2026,
+      "synopsis": "Hra s předměty, jejich stíny, detailem a celkem otevírá otázku, co vlastně při sledování obrazu vidíme.",
+      "synopsis_language": "cs",
+      "runtime_min": 2,
+      "genres": [
+        "Animovaný"
+      ],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 1791509,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=V%C4%9Bci+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-08T11:49:02+00:00",
       "release_date": "2026-10-15"
     },
     {
@@ -765,6 +1209,57 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-10-22"
+    },
+    {
+      "film_id": "ovecka shaun prisera z mossy bottom",
+      "title_cz": "Ovečka Shaun: Příšera z Mossy Bottom",
+      "title_en": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "original_title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "year": 2026,
+      "synopsis": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go wrong when a wild beast appears in the woods.",
+      "synopsis_language": "en",
+      "runtime_min": 81,
+      "genres": [
+        "Animovaný",
+        "Komedie",
+        "Rodinný",
+        "Dobrodružný",
+        "Horor"
+      ],
+      "director": [
+        "Steve Cox",
+        "Matthew Walker"
+      ],
+      "screenwriter": [
+        "Mark Burton",
+        "Giles Pilbrow"
+      ],
+      "cast": [
+        "Justin Fletcher",
+        "John Sparkes",
+        "Nina Sosanya",
+        "Kate Harbour",
+        "Rich Webber",
+        "Emma Tate",
+        "Simon Greenall",
+        "Andy Nyman"
+      ],
+      "production_company": [
+        "Aardman",
+        "StudioCanal"
+      ],
+      "poster_path": "/mMOptSPBVGUA9GHgnpsC35GzZ7e.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+      "trailer_youtube_key": "daZMq0AyOMc",
+      "age_rating": "PG (US)",
+      "tmdb_id": 1477104,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ove%C4%8Dka+Shaun%3A+P%C5%99%C3%AD%C5%A1era+z+Mossy+Bottom+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-08T11:48:59+00:00",
       "release_date": "2026-10-22"
     },
     {

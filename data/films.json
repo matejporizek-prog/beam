@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T11:35:25+00:00",
+  "generated_at": "2026-10-08T11:48:54+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -189,31 +189,6 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Ach%2C+tato+pr%C3%A1zdnota%2C+tato+stra%C5%A1liv%C3%A1+pr%C3%A1zdnota",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Ach, tato prázdnota, tato strašlivá prázdnota'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "aero naslepo",
-      "title_cz": "Aero naslepo",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2021/09/24/28a6125ad3f3bc6a23eb203337ad059b.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Aero+naslepo",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Aero naslepo'",
       "match_score": 0.0
     },
     {
@@ -2735,6 +2710,31 @@
       "match_score": 0.0
     },
     {
+      "film_id": "gryfest",
+      "title_cz": "Gryfest",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/10/06/44ce9d876a33a59a7aea43aebc741201.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Gryfest",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Gryfest'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "haxan carodejnictvi v prubehu veku",
       "title_cz": "Häxan: Čarodějnictví v průběhu věků",
       "title_en": "Häxan",
@@ -3207,6 +3207,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Jej%C3%AD+soukrom%C3%A9+peklo",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Její soukromé peklo'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "joe hill debata",
+      "title_cz": "Joe Hill (debata)",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Joe+Hill+%28debata%29",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Joe Hill (debata)'",
       "match_score": 0.0
     },
     {
@@ -4247,31 +4272,6 @@
       "resolved_at": "2026-08-11T05:52:33+00:00"
     },
     {
-      "film_id": "m kastnerova a p vasova jak zvladat nejistotu ve vztazich",
-      "title_cz": "M. Kastnerová a P. Vášová - Jak zvládat nejistotu ve vztazích",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.kinopritomnost.cz/uploads/images/movies/2026/06/29/2f7cde048f0ce65606e376f6d7cf6d5e.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=M.+Kastnerov%C3%A1+a+P.+V%C3%A1%C5%A1ov%C3%A1+-+Jak+zvl%C3%A1dat+nejistotu+ve+vztaz%C3%ADch",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'M. Kastnerová a P. Vášová - Jak zvládat nejistotu ve vztazích'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "macbeth opera",
       "title_cz": "Macbeth (Opera)",
       "title_en": "MACBETH - OPERA DIRECTO",
@@ -4689,48 +4689,6 @@
       "resolved": false,
       "match_reason": "title matched 'Misantropi' but runtime contradict it",
       "match_score": 0.897
-    },
-    {
-      "film_id": "mistryne",
-      "title_cz": "Mistryně",
-      "title_en": "Everything As It Should Be",
-      "original_title": "Mistryně",
-      "year": null,
-      "synopsis": "Monika má život, o kterém snila: je úspěšnou lékařkou a čeká dítě ve spokojeném vztahu s Lukášem. Je ale opravdu šťastná? Když se po letech znovu potká s bývalým manželem Petrem, její nejistotu to prohloubí. Krátká schůzka se promění v dlouhou procházku letním Libercem, během které se začnou otevírat nezodpovězené otázky: „Proč jsme se vlastně tenkrát rozešli?“ a „Co by bylo, kdybychom se rozhodli jinak?“ Skrze dialog a jemný humor sledujeme, jak se mezi nimi v nenápadných momentech – v dešti, v tramvaji, v parku – znovu objevuje blízkost. Režisér Bohdan Karásek natočil citlivé vztahové drama s Marií Švestkovou a Jiřím Havelkou v hlavních rolích.",
-      "synopsis_language": "cs",
-      "runtime_min": 101,
-      "genres": [
-        "Romantický",
-        "Drama"
-      ],
-      "director": [
-        "Bohdan Karásek"
-      ],
-      "screenwriter": [
-        "Bohdan Karásek"
-      ],
-      "cast": [
-        "Marie Švestková",
-        "Jiří Havelka",
-        "Lukáš Bouzek",
-        "Taťjana Medvecká"
-      ],
-      "production_company": [
-        "Beginner's Mind",
-        "Česká televize",
-        "Magiclab"
-      ],
-      "poster_path": "/7OV1Xb6NjUgjtv46cs5livuR1oc.jpg",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/06/22/f620138313b4b2a76e0e58ae4b979edf.jpg",
-      "backdrop_path": "/dkSXpwrIVo9v7WEhcJUeHZHBAzp.jpg",
-      "trailer_youtube_key": "iwF5DWe2Dqc",
-      "age_rating": "",
-      "tmdb_id": 1704483,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Mistryn%C4%9B",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-05T22:28:16+02:00"
     },
     {
       "film_id": "muj soused totoro",
@@ -5159,6 +5117,61 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-10-06T11:48:18+00:00"
+    },
+    {
+      "film_id": "nezne monstrum",
+      "title_cz": "Něžné monstrum",
+      "title_en": "Gentle Monster",
+      "original_title": "Gentle Monster",
+      "year": 2026,
+      "synopsis": "After relocating with her family to the countryside, a renowned pianist uncovers a life-shattering truth that forces her to confront the complexities of love, trust, and deception.",
+      "synopsis_language": "en",
+      "runtime_min": 114,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Marie Kreutzer"
+      ],
+      "screenwriter": [
+        "Marie Kreutzer"
+      ],
+      "cast": [
+        "Léa Seydoux",
+        "Catherine Deneuve",
+        "Jella Haase",
+        "Laurence Rupp",
+        "Sylvester Groth",
+        "Katharina Lorenz",
+        "Regina Fritsch",
+        "Raphael Nicholas"
+      ],
+      "production_company": [
+        "Film AG",
+        "Komplizen Film",
+        "Kazak Productions",
+        "Kjellson & Wik",
+        "Film i Väst",
+        "ORF",
+        "ZDF",
+        "ZDF/Arte",
+        "DESMAR",
+        "IPR.VC",
+        "mk2 Films",
+        "Ad Vitam Production",
+        "Alamode Film"
+      ],
+      "poster_path": "/jX0i2WufQ8mbPpktylUOGPEyRXb.jpg",
+      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/06/22/7c0715b6faf52dd9ebd84e63907a388c.jpg",
+      "backdrop_path": "/ozpCKXUhZjhH3mM6GzC5dnvXcSF.jpg",
+      "trailer_youtube_key": "hsOgBqDSi9M",
+      "age_rating": "15+",
+      "tmdb_id": 1473148,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=N%C4%9B%C5%BEn%C3%A9+monstrum+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (0.79, title 0.64)",
+      "match_score": 0.793,
+      "resolved_at": "2026-10-08T11:48:54+00:00"
     },
     {
       "film_id": "nizka ocekavani",
@@ -7764,6 +7777,31 @@
       "match_score": 0.0
     },
     {
+      "film_id": "slavte s nami nespoutany django",
+      "title_cz": "SLAVTE S NÁMI: Nespoutaný Django",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/1959S2R.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=SLAVTE+S+N%C3%81MI%3A+Nespoutan%C3%BD+Django",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'SLAVTE S NÁMI: Nespoutaný Django'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "slavte s nami pirati z karibiku salazarova pomsta",
       "title_cz": "SLAVTE S NÁMI: Piráti z Karibiku: Salazarova pomsta",
       "title_en": "",
@@ -7811,31 +7849,6 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=SLAVTE+S+N%C3%81MI%3A+Skyfall",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'SLAVTE S NÁMI: Skyfall'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "slavte s nami tenkrat v hollywoodu",
-      "title_cz": "SLAVTE S NÁMI: Tenkrát v Hollywoodu",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/3391S2R.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=SLAVTE+S+N%C3%81MI%3A+Tenkr%C3%A1t+v+Hollywoodu",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'SLAVTE S NÁMI: Tenkrát v Hollywoodu'",
       "match_score": 0.0
     },
     {
@@ -9711,45 +9724,29 @@
       "resolved_at": "2026-10-06T11:48:28+00:00"
     },
     {
-      "film_id": "vsechna ta krasa a zabijeni",
-      "title_cz": "Všechna ta krása a zabíjení",
-      "title_en": "All the Beauty and the Bloodshed",
-      "original_title": "All the Beauty and the Bloodshed",
-      "year": 2022,
-      "synopsis": "Život mezinárodně uznávané umělkyně a aktivistky Nan Goldinové je vyprávěn prostřednictvím jejích diapozitivů, intimních rozhovorů, průkopnických fotografií a vzácných záběrů z jejího osobního boje za to, aby rodina Sacklerových nesla odpovědnost za krizi předávkování.",
-      "synopsis_language": "cs",
-      "runtime_min": 122,
-      "genres": [
-        "Dokumentární"
-      ],
-      "director": [
-        "Laura Poitras"
-      ],
+      "film_id": "vzdycky jsem mela stesti na hodny lidi",
+      "title_cz": "Vždycky jsem měla štěstí na hodný lidi...",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
       "screenwriter": [],
-      "cast": [
-        "Nan Goldin",
-        "Marina Berio",
-        "Noemi Bonazzi",
-        "Harry Cullen",
-        "Megan Kapler",
-        "Annatina Miescher",
-        "Mike Quinn",
-        "Patrick Radden Keefe"
-      ],
-      "production_company": [
-        "Participant"
-      ],
-      "poster_path": "/44HQEf83fhGnkBRi9vqhWpz2Bb7.jpg",
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
       "poster_fallback_url": "",
-      "backdrop_path": "/anw7ONmtm1BrHd1Du0GQ5FoNd6r.jpg",
-      "trailer_youtube_key": "45t8Ii_lyFQ",
-      "age_rating": "18+",
-      "tmdb_id": 1004663,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=V%C5%A1echna+ta+kr%C3%A1sa+a+zab%C3%ADjen%C3%AD+2022",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-09-26T09:45:46+00:00"
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=V%C5%BEdycky+jsem+m%C4%9Bla+%C5%A1t%C4%9Bst%C3%AD+na+hodn%C3%BD+lidi...",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Vždycky jsem měla štěstí na hodný lidi...'",
+      "match_score": 0.0
     },
     {
       "film_id": "vzhlizet ke hvezdam",
@@ -10366,31 +10363,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-09-16T09:40:33+00:00"
-    },
-    {
-      "film_id": "zradci jsou zpet i v kinech epizoda 4",
-      "title_cz": "Zrádci jsou zpět i v kinech! (epizoda 4.)",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Zr%C3%A1dci+jsou+zp%C4%9Bt+i+v+kinech%21+%28epizoda+4.%29",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Zrádci jsou zpět i v kinech! (epizoda 4.)'",
-      "match_score": 0.0
     },
     {
       "film_id": "zradci jsou zpet i v kinech epizoda 5",
