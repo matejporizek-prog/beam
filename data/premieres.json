@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T11:12:03+00:00",
+  "generated_at": "2026-10-12T12:44:31+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -4901,6 +4901,51 @@
       "match_score": 1.0,
       "resolved_at": "2026-10-05T12:02:26+00:00",
       "release_date": "2027-03-04"
+    },
+    {
+      "film_id": "line kralovstvi",
+      "title_cz": "Líné království",
+      "title_en": "Líné království",
+      "original_title": "Líné království",
+      "year": 2027,
+      "synopsis": "Princezna Amálie se po studiích vrací domů a zjišťuje, že její maminka zmizela a zemi ovládla čarodějnice Drahomíra. Aby odhalila pravdu, musí se vydat na nebezpečnou cestu, během které pozná mladého kováře Jeníka. Ona věří knihám, vědě a přesným výpočtům, on vlastnímu úsudku a rukám. Postupně zjistí, že každý umí právě to, co tomu druhému chybí.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [
+        "Rodinný",
+        "Fantasy"
+      ],
+      "director": [
+        "Ivo Macharáček"
+      ],
+      "screenwriter": [
+        "Ivo Macharáček"
+      ],
+      "cast": [
+        "Sofie Anna Švehlíková",
+        "Adam Bardy",
+        "Jaroslav Plesl",
+        "Veronika Khek Kubařová",
+        "Elizaveta Maximová",
+        "Maxmilián Dolanský",
+        "Jaromír Dulava",
+        "Pavel Kříž"
+      ],
+      "production_company": [
+        "Bioscop"
+      ],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1772918,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=L%C3%ADn%C3%A9+kr%C3%A1lovstv%C3%AD+2027",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-12T12:44:31+00:00",
+      "release_date": "2027-03-11"
     }
   ]
 }

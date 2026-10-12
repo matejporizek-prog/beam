@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T11:12:01+00:00",
+  "generated_at": "2026-10-12T12:44:28+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -329,58 +329,6 @@
       "match_reason": "verified against director/runtime (1.15, title 1.00)",
       "match_score": 1.15,
       "resolved_at": "2026-10-09T11:39:14+00:00"
-    },
-    {
-      "film_id": "auta",
-      "title_cz": "Auta",
-      "title_en": "Cars",
-      "original_title": "Cars",
-      "year": 2006,
-      "synopsis": "Když se začínající, avšak velmi ambiciózní závodní auto Blesk McQueen během cesty na velkolepý šampionát Zlatý píst neočekávaně zatoulá do ospalé Kardanové lhoty u Silnice 66, naučí se, že opravdová radost ze života se neskrývá za cílovou rovinkou, ale na cestě k ní. Auta ze lhoty, s nimiž se v průběhu svého putování napříč Amerikou seznámí, mu ukáží, že na světě existují i důležitější věci než trofeje, sláva a sponzoři.",
-      "synopsis_language": "cs",
-      "runtime_min": 116,
-      "genres": [
-        "Animovaný",
-        "Dobrodružný",
-        "Komedie",
-        "Rodinný"
-      ],
-      "director": [
-        "John Lasseter"
-      ],
-      "screenwriter": [
-        "Dan Fogelman",
-        "Joe Ranft",
-        "Jørgen Klubien",
-        "Phil Lorin",
-        "John Lasseter",
-        "Kiel Murray"
-      ],
-      "cast": [
-        "Owen Wilson",
-        "Paul Newman",
-        "Bonnie Hunt",
-        "Larry the Cable Guy",
-        "Cheech Marin",
-        "Tony Shalhoub",
-        "Guido Quaroni",
-        "Jenifer Lewis"
-      ],
-      "production_company": [
-        "Pixar",
-        "Walt Disney Pictures"
-      ],
-      "poster_path": "/i9RThm8vdRPdjjjZaPgA6KVNCE6.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/sOLgkBKf1gjMRc4yXxM5aciXdfr.jpg",
-      "trailer_youtube_key": "FE3fkXpvrz4",
-      "age_rating": "G (US)",
-      "tmdb_id": 920,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Auta+2006",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.05, title 1.00)",
-      "match_score": 1.05,
-      "resolved_at": "2026-10-06T11:48:06+00:00"
     },
     {
       "film_id": "avengers doomsday",
@@ -817,31 +765,6 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Be2Can%3A+Vzpom%C3%ADnka+na+princeznu+Mumbi",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Be2Can: Vzpomínka na princeznu Mumbi'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "be2can zadni dobri muzi",
-      "title_cz": "Be2Can: Žádní dobří muži",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/7200D3I1.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Be2Can%3A+%C5%BD%C3%A1dn%C3%AD+dob%C5%99%C3%AD+mu%C5%BEi",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Be2Can: Žádní dobří muži'",
       "match_score": 0.0
     },
     {
@@ -1637,31 +1560,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-10-06T11:48:07+00:00"
-    },
-    {
-      "film_id": "cosi fan tutte",
-      "title_cz": "Cosi fan tutte | Wolfgang Amadeus Mozart",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/05/21/a0f09ed830cce05c20c3a7f50c589622.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Cosi+fan+tutte+%7C+Wolfgang+Amadeus+Mozart",
-      "resolved": false,
-      "match_reason": "title matched 'Così fan tutte' but runtime contradict it",
-      "match_score": 0.95
     },
     {
       "film_id": "dalajlama ocean moudrosti",
@@ -3126,6 +3024,54 @@
       "resolved_at": "2026-09-09T09:26:11+00:00"
     },
     {
+      "film_id": "hnizdo",
+      "title_cz": "Hnízdo",
+      "title_en": "Crawlers",
+      "original_title": "Crawlers",
+      "year": 2026,
+      "synopsis": "Tenants at Paradiso Palms apartments fight a deadly spider invasion while the cunning building manager might be their only hope for survival.",
+      "synopsis_language": "en",
+      "runtime_min": 80,
+      "genres": [
+        "Horor",
+        "Thriller"
+      ],
+      "director": [
+        "Ángel Gómez Hernández"
+      ],
+      "screenwriter": [
+        "Jayson Rothwell"
+      ],
+      "cast": [
+        "Matilda Lutz",
+        "Gregg Sulkin",
+        "Melina Matthews",
+        "Paul S. Tracey",
+        "Andrea Scott Méndez",
+        "William Miller",
+        "Gary Anthony Stennette",
+        "Chris Rogers"
+      ],
+      "production_company": [
+        "Badlands",
+        "Thunder Road",
+        "Sagesse Productions",
+        "Fresco Film",
+        "Renegade Capital"
+      ],
+      "poster_path": "/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/ayJsUQ4bEG6yY0UB6lMboiaDfYE.jpg",
+      "trailer_youtube_key": "uLpZTosf6uI",
+      "age_rating": "15+",
+      "tmdb_id": 1376400,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Hn%C3%ADzdo+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.01, title 1.00)",
+      "match_score": 1.015,
+      "resolved_at": "2026-10-12T12:44:25+00:00"
+    },
+    {
       "film_id": "hodnej",
       "title_cz": "Hodnej",
       "title_en": "",
@@ -3378,6 +3324,31 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-10-02T10:53:19+00:00"
+    },
+    {
+      "film_id": "hrdinka",
+      "title_cz": "Hrdinka",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/09/14/3a46c0a148609ec29c01d40958b80efa.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Hrdinka",
+      "resolved": false,
+      "match_reason": "no candidate scored above 0.75",
+      "match_score": 0.5
     },
     {
       "film_id": "i love you i leave you",
@@ -5326,6 +5297,31 @@
       "resolved_at": "2026-10-02T10:53:20+00:00"
     },
     {
+      "film_id": "nejosamelejsi clovek ve meste",
+      "title_cz": "Nejosamělejší člověk ve městě",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/09/14/5fa89907ae2120c0d7758abce2868f4f.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Nejosam%C4%9Blej%C5%A1%C3%AD+%C4%8Dlov%C4%9Bk+ve+m%C4%9Bst%C4%9B",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Nejosamělejší člověk ve městě'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "nenavist",
       "title_cz": "Nenávist",
       "title_en": "The Grudge",
@@ -6414,7 +6410,7 @@
       "match_score": 0.0
     },
     {
-      "film_id": "pat mat zpatky na venkove",
+      "film_id": "pat a mat zpatky na venkove",
       "title_cz": "Pat a Mat: Zpátky na venkově",
       "title_en": "Pat & Mat: Zpátky na venkově",
       "original_title": "Pat & Mat: Zpátky na venkově",
@@ -6443,7 +6439,7 @@
       "resolved": true,
       "match_reason": "verified against director/runtime (0.96, title 0.96)",
       "match_score": 0.962,
-      "resolved_at": "2026-10-10T10:58:56+00:00"
+      "resolved_at": "2026-10-12T12:44:26+00:00"
     },
     {
       "film_id": "pearl",
@@ -7080,55 +7076,6 @@
       "match_score": 0.0
     },
     {
-      "film_id": "pramen",
-      "title_cz": "Pramen",
-      "title_en": "Only Beautiful Things to Look At",
-      "original_title": "Pramen",
-      "year": 2026,
-      "synopsis": "Ingrid works as a gynecologist in a district hospital in Slovakia in the late 1980s. Her marriage is at a standstill, she has an affair with a younger colleague in the hospital, and after work, she sits on the abortion committee where they offer Roma women sterilization after the abortion is approved. Eighteen-year-old Agáta, who grew up in a children’s home, comes to work as a nurse at the hospital. Ingrid unexpectedly becomes close to her.",
-      "synopsis_language": "en",
-      "runtime_min": 88,
-      "genres": [
-        "Drama",
-        "Historický"
-      ],
-      "director": [
-        "Ivan Ostrochovský"
-      ],
-      "screenwriter": [
-        "Marek Leščák",
-        "Ivan Ostrochovský"
-      ],
-      "cast": [
-        "Anna Geislerová",
-        "Eva Mores",
-        "Vlad Ivanov",
-        "Éva Bandor",
-        "Simona Boledovičová",
-        "Attila Mokos",
-        "Martin Šulík",
-        "Milan Mikulčík"
-      ],
-      "production_company": [
-        "Punkchart films",
-        "Negativ",
-        "Proton Cinema",
-        "Česká televize",
-        "STVR"
-      ],
-      "poster_path": "/vg2KV2VT3h4TT0IxB9dCH0Ox2R4.jpg",
-      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/06/22/9e0f368a903b30f10736ffec5dc53ae0.webp",
-      "backdrop_path": "/nfpgKDea6asqL8LKvOLiRXUD72u.jpg",
-      "trailer_youtube_key": "s5t0fGkkxL8",
-      "age_rating": "12+",
-      "tmdb_id": 1397737,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Pramen+2026",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-08-05T22:28:33+02:00"
-    },
-    {
       "film_id": "pravda nebo lez",
       "title_cz": "Pravda nebo lež",
       "title_en": "Where the Truth Lies",
@@ -7274,31 +7221,6 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-10-02T10:53:22+00:00"
-    },
-    {
-      "film_id": "primetime english friendly",
-      "title_cz": "Primetime (English friendly)",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Primetime+%28English+friendly%29",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Primetime (English friendly)'",
-      "match_score": 0.0
     },
     {
       "film_id": "princezna kosmolesba",
@@ -7532,45 +7454,6 @@
       "resolved": false,
       "match_reason": "best candidate 'Pán prstenů' only scored 0.71",
       "match_score": 0.706
-    },
-    {
-      "film_id": "queen budapest",
-      "title_cz": "QUEEN BUDAPEST",
-      "title_en": "Queen Budapest",
-      "original_title": "Queen Budapest",
-      "year": 2012,
-      "synopsis": "Nezapomenutelný koncert rockové kapely Queen na budapešťském Népstationu v červenci 1986. Byl to jeden z prvních velkých koncertů západní kapely v tehdejším východním bloku. Do jeho rozkladu ještě zbývaly tři roky, ale mezi 80 000 diváky už bylo i několik fanoušků z tehdejšího Československa. Ti si tak mohli užít hity jako Radio Ga Ga, We Will Rock You nebo Bohemian Rhapsody na vlastní oči a uši. Tyto a další písně rozhodně nemůžou chybět v hodinovém sestřihu z tohoto koncertu. Navíc málokdo asi tušil, že se jedná o jedno z posledních živých vystoupení zpěváka kapely Freddieho Mercuryho s kapelou. Po skončení The Magic Tour už s kapelou nikdy nevystoupil.",
-      "synopsis_language": "cs",
-      "runtime_min": 59,
-      "genres": [
-        "Hudební"
-      ],
-      "director": [
-        "János Zsombolyai"
-      ],
-      "screenwriter": [],
-      "cast": [
-        "Freddie Mercury",
-        "Brian May",
-        "Roger Taylor",
-        "John Deacon",
-        "Spike Edney"
-      ],
-      "production_company": [
-        "Mafilm",
-        "Queen Films"
-      ],
-      "poster_path": "/dCsCez4aVeXqMiALdWYp4LFsztI.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/vhPl9k80mgiTbR3hkaGjTU0fyQI.jpg",
-      "trailer_youtube_key": "CnWgjtNWKXI",
-      "age_rating": "",
-      "tmdb_id": 142773,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=QUEEN+BUDAPEST+2012",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.05, title 1.00)",
-      "match_score": 1.05,
-      "resolved_at": "2026-08-27T16:05:55+00:00"
     },
     {
       "film_id": "rammstein live in mexico city",
@@ -8145,31 +8028,6 @@
       "resolved_at": "2026-09-28T11:27:56+00:00"
     },
     {
-      "film_id": "siryakari live tour 2026",
-      "title_cz": "SirYakari LIVE TOUR 2026",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=SirYakari+LIVE+TOUR+2026",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'SirYakari LIVE TOUR 2026'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "skatulaci",
       "title_cz": "Škatuláci",
       "title_en": "The Boxtrolls",
@@ -8728,6 +8586,54 @@
       "resolved_at": "2026-09-17T09:53:11+00:00"
     },
     {
+      "film_id": "street fighter",
+      "title_cz": "Street Fighter",
+      "title_en": "Street Fighter",
+      "original_title": "Street Fighter",
+      "year": 2026,
+      "synopsis": "Bývalá legenda bojových umění Ken Mastersprávě na vlastní kůži poznává, že světská sláva je fakt jen polní sláva, protože po letech vítězství, obdivu, bohatství, chlastu a holek, mu zbyl už jen ten chlast. Když mu tedy lehce záhadná Chun-Li nabídne, aby se zúčastnil připravovaného celosvětového turnaje těch největších ranařů, zatáhne rostoucí panděro a bez ohledu na možné důsledky s účastí souhlasí. Absence formy nebude jediným problémem, se kterým se bude Ken potýkat. Turnaje se totiž zúčastní i Ryu, jeho bývalý pokrevní bratr, se kterým se kdysi rozhádal. A to pořád není ta hlavní špatná zpráva. Organizátorovi turnaje nejde o ty nejkvalitnější sportovní výkony a korunovaci nejlepšího bojovníka, ale chce realizovat děsivě ďábelský plán, jenž mu při souhře okolností pomůže ovládnout celý svět. Před Kenem tak leží pořádná výzva a jestli v ní neuspěje, bude to pro všechny znamenat GAME OVER.",
+      "synopsis_language": "cs",
+      "runtime_min": 120,
+      "genres": [
+        "Akční",
+        "Fantasy"
+      ],
+      "director": [
+        "Kitao Sakurai"
+      ],
+      "screenwriter": [
+        "Dalan Musson",
+        "Gary Dauberman",
+        "T.J. Fixman",
+        "Kitao Sakurai"
+      ],
+      "cast": [
+        "Andrew Koji",
+        "Noah Centineo",
+        "Callina Liang",
+        "Joe Anoa'i",
+        "David Dastmalchian",
+        "Cody Rhodes",
+        "Andrew Schulz",
+        "Eric Andre"
+      ],
+      "production_company": [
+        "Capcom",
+        "Legendary Pictures"
+      ],
+      "poster_path": "/dJPT2Uf12X6aFg8i5N67NTpIZ9t.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg",
+      "trailer_youtube_key": "U6sbm1OaJb8",
+      "age_rating": "12+",
+      "tmdb_id": 1153576,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Street+Fighter+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.01, title 1.00)",
+      "match_score": 1.015,
+      "resolved_at": "2026-10-12T12:44:28+00:00"
+    },
+    {
       "film_id": "street fighter english friendly",
       "title_cz": "Street Fighter (English friendly)",
       "title_en": "",
@@ -9062,6 +8968,31 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-09-26T09:45:45+00:00"
+    },
+    {
+      "film_id": "ted se nedivej",
+      "title_cz": "Teď se nedívej",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/09/15/3d9a6d3feb1572a5bd9d6745e19e35dd.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Te%C4%8F+se+ned%C3%ADvej",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Teď se nedívej'",
+      "match_score": 0.0
     },
     {
       "film_id": "tenkrat na zapadnim brehu",
@@ -10435,6 +10366,31 @@
       "match_reason": "verified against director/runtime (1.00, title 1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-10-03T10:13:04+00:00"
+    },
+    {
+      "film_id": "young short",
+      "title_cz": "Young & Short",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Young+%26+Short",
+      "resolved": false,
+      "match_reason": "no candidate scored above 0.75",
+      "match_score": 0.579
     },
     {
       "film_id": "z makove hurky",
