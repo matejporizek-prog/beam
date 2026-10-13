@@ -1,47 +1,7 @@
 {
-  "generated_at": "2026-10-12T12:44:31+00:00",
+  "generated_at": "2026-10-13T12:27:44+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
-    {
-      "film_id": "always lalisa",
-      "title_cz": "Always Lalisa",
-      "title_en": "Always Lalisa",
-      "original_title": "Always Lalisa",
-      "year": 2026,
-      "synopsis": "Documentary following global superstar LISA during a transformative year away from BLACKPINK, the K-pop phenomenon that made her one of the world's most recognizable performers. Documenting a year of risk, reinvention, and self-discovery as LISA begins to define her next chapter.",
-      "synopsis_language": "en",
-      "runtime_min": 98,
-      "genres": [
-        "Dokumentární",
-        "Hudební"
-      ],
-      "director": [
-        "Sue Kim"
-      ],
-      "screenwriter": [],
-      "cast": [
-        "LISA"
-      ],
-      "production_company": [
-        "Sony Music Vision",
-        "Tremolo Productions",
-        "Salt Water Productions",
-        "LLOUD",
-        "RCA Records"
-      ],
-      "poster_path": "/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/wJwTuwy1ZajIA6ivGjoe0Ee08XN.jpg",
-      "trailer_youtube_key": "s6NUEu1x64I",
-      "age_rating": "15+",
-      "tmdb_id": 1489932,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Always+Lalisa+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-10-07T11:35:28+00:00",
-      "release_date": "2026-10-12"
-    },
     {
       "film_id": "pitoma priroda",
       "title_cz": "Pitomá příroda",
@@ -2498,6 +2458,47 @@
       "release_date": "2026-11-12"
     },
     {
+      "film_id": "navrat do nezname zeme",
+      "title_cz": "Návrat do neznámé země",
+      "title_en": "Return to a Strange Land",
+      "original_title": "Return to a Strange Land",
+      "year": 2026,
+      "synopsis": "Vizuálně působivý portrét věhlasného choreografa Jiřího Kyliána a jeho celoživotní múzy a osudové lásky Sabine Kupferberg je osobním zamyšlením nad lidskou existencí a neúprosným plynutím času. Prostřednictvím poetického a filozofického vyprávění Jiří a Sabine zkoumají svůj hluboký vztah k umění, tanci a jednoho k druhému, přičemž jádrem jejich letité umělecké spolupráce jsou humor a cit i neutuchající schopnost nacházet krásu života v jeho nejkřehčích okamžicích. Ačkoliv Jiří vytvořil v uplynulých dekádách pro Sabine řadu choreografií, v tomto filmu se poprvé v životě, ve svých devětasedmdesáti letech, objevuje po jejím boku jako hlavní protagonista. Snímek zasazený do úchvatné krajiny nizozemského ostrova Terschelling vykresluje vizuální i emocionální paralely mezi cykly přírody a koloběhem lidského života.",
+      "synopsis_language": "cs",
+      "runtime_min": 72,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Olga Malířová",
+        "Jiří Kylián"
+      ],
+      "screenwriter": [
+        "Olga Malířová"
+      ],
+      "cast": [
+        "Jiří Kylián",
+        "Sabine Kupferberg"
+      ],
+      "production_company": [
+        "Kylián Productions",
+        "Lonely Production",
+        "Heaven's Gate"
+      ],
+      "poster_path": "/o50zyVuCdSVOhR3wXvUaMb402Yx.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/46rdYT08DHEQCf7GIreQLzOKVEM.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 1676385,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=N%C3%A1vrat+do+nezn%C3%A1m%C3%A9+zem%C4%9B+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-13T12:27:44+00:00",
+      "release_date": "2026-11-12"
+    },
+    {
       "film_id": "papaja",
       "title_cz": "Papája",
       "title_en": "Papaya",
@@ -2733,6 +2734,39 @@
       "match_score": 1.0,
       "resolved_at": "2026-10-09T11:39:38+00:00",
       "release_date": "2026-11-12"
+    },
+    {
+      "film_id": "eos james mcneill whistler",
+      "title_cz": "EOS: James McNeill Whistler",
+      "title_en": "James McNeill Whistler",
+      "original_title": "James McNeill Whistler",
+      "year": 2026,
+      "synopsis": "Tate Britain is now holding the first major retrospective of Whistler in three decades. This blockbuster exhibition promises to reawaken the world to just how important Whistler is to art history, uniting world-famous masterpieces with rarely seen works. Exhibition on Screen will bring these stunning works and the incredible story behind them to cinemas around the world while the exhibition is still running, bringing this truly global artist to a global audience. This will be an unmissable chance to get to know this visually spectacular artist and the influence he has had on those who followed.",
+      "synopsis_language": "en",
+      "runtime_min": 90,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "David Bickerstaff"
+      ],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [
+        "Seventh Art Productions"
+      ],
+      "poster_path": "/wMVPRZGPL9DhyZHtSJvAkzhcp0E.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/kA4fWNVG2f629SxoNLwDhvtiqI5.jpg",
+      "trailer_youtube_key": "vAiN-useAN8",
+      "age_rating": "",
+      "tmdb_id": 1739735,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=EOS%3A+James+McNeill+Whistler+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-13T12:27:43+00:00",
+      "release_date": "2026-11-17"
     },
     {
       "film_id": "saul tiche vody",
@@ -3003,6 +3037,51 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-11-19"
+    },
+    {
+      "film_id": "nejosamelejsi muz ve meste",
+      "title_cz": "Nejosamělejší muž ve městě",
+      "title_en": "The Loneliest Man in Town",
+      "original_title": "The Loneliest Man in Town",
+      "year": 2026,
+      "synopsis": "Blues musician Al Cook lives in an apartment filled with memories. Outside, the world carries on without him. But when his home is slated for demolition, out of the ruins of his existence, a long-forgotten dream suddenly resurfaces.",
+      "synopsis_language": "en",
+      "runtime_min": 86,
+      "genres": [
+        "Hudební",
+        "Drama"
+      ],
+      "director": [
+        "Tizza Covi",
+        "Rainer Frimmel"
+      ],
+      "screenwriter": [
+        "Tizza Covi"
+      ],
+      "cast": [
+        "Alois Koch",
+        "Brigitte Meduna",
+        "Alfred Blechinger",
+        "Flurina Schneider",
+        "Sarah Morrissette",
+        "Natascha Hiermann",
+        "Ingrid Schaffernack"
+      ],
+      "production_company": [
+        "Vento Film"
+      ],
+      "poster_path": "/dm8HprLOd4uKCuik8gpXhpc8LwB.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/zeDYPzldn22WfFsnTfuBkCCFJIZ.jpg",
+      "trailer_youtube_key": "-M4x9qXC71k",
+      "age_rating": "",
+      "tmdb_id": 1426957,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Nejosam%C4%9Blej%C5%A1%C3%AD+mu%C5%BE+ve+m%C4%9Bst%C4%9B+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-13T12:27:44+00:00",
       "release_date": "2026-11-19"
     },
     {
@@ -3364,37 +3443,6 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "resolved_at": "2026-10-09T11:39:30+00:00",
-      "release_date": "2026-11-26"
-    },
-    {
-      "film_id": "milan baros srdcar",
-      "title_cz": "Milan Baroš: Srdcař",
-      "title_en": "Milan Baroš: Srdcař",
-      "original_title": "Milan Baroš: Srdcař",
-      "year": 2026,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [
-        "Dokumentární"
-      ],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [
-        "VDN Promo"
-      ],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1792358,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Milan+Baro%C5%A1%3A+Srdca%C5%99+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-10-09T11:39:39+00:00",
       "release_date": "2026-11-26"
     },
     {
@@ -4408,6 +4456,37 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "resolved_at": "2026-08-24T05:37:46+00:00",
+      "release_date": "2027-01-21"
+    },
+    {
+      "film_id": "milan baros srdcar",
+      "title_cz": "Milan Baroš: Srdcař",
+      "title_en": "Milan Baroš: Srdcař",
+      "original_title": "Milan Baroš: Srdcař",
+      "year": 2026,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [
+        "VDN Promo"
+      ],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1792358,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Milan+Baro%C5%A1%3A+Srdca%C5%99+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-09T11:39:39+00:00",
       "release_date": "2027-01-21"
     },
     {
