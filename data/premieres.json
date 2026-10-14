@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T12:27:44+00:00",
+  "generated_at": "2026-10-14T09:55:49+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -3841,6 +3841,48 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "resolved_at": "2026-09-01T09:47:59+00:00",
+      "release_date": "2026-12-03"
+    },
+    {
+      "film_id": "zasej obojky a sklidis psy",
+      "title_cz": "Zasej obojky a sklidíš psy",
+      "title_en": "Sow Leashes and Reap Dogs",
+      "original_title": "Zasej obojky a sklidíš psy",
+      "year": 2026,
+      "synopsis": "WWW Neurobeat is one of the pioneers of Czech rap, yet they never let themselves be bound by its rules. Alice Lacková’s documentary traces the band’s evolution from the 1990s to the present, primarily through interviews, archival footage, and concert recordings. How did an underground phenomenon become a unique artistic project straddling the boundaries of experimental music, poetry, and visual art? And how can the sound of a saw be transformed into music?",
+      "synopsis_language": "en",
+      "runtime_min": 67,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Alice Lacková"
+      ],
+      "screenwriter": [
+        "Alice Lacková"
+      ],
+      "cast": [
+        "Ondřej Anděra",
+        "Lubomír Typlt",
+        "Milesa Anděra Zrnić",
+        "Monika Načeva"
+      ],
+      "production_company": [
+        "Offside Men",
+        "Česká televize",
+        "Slice of Space"
+      ],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1796214,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Zasej+obojky+a+sklid%C3%AD%C5%A1+psy+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-14T09:55:49+00:00",
       "release_date": "2026-12-03"
     },
     {
