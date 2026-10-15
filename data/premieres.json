@@ -1,37 +1,7 @@
 {
-  "generated_at": "2026-10-14T09:55:49+00:00",
+  "generated_at": "2026-10-15T09:38:12+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
-    {
-      "film_id": "pitoma priroda",
-      "title_cz": "Pitomá příroda",
-      "title_en": "Pitomá příroda",
-      "original_title": "Pitomá příroda",
-      "year": 2026,
-      "synopsis": "Předškolák Maty by rád nastoupil do první třídy spolu se svým nejlepším kamarádem Šímou. Ale podle paní učitelky by měl ještě rok zůstat ve školce, protože je příliš divoký, šišlá a neposlouchá ani maminku. Jeho dědeček je naštěstí tak trochu kouzelný dědeček. Zná jedno indiánské tajemství, které by mohlo jeho vnukovi pomoct. Vezme Matyho na svou chatu daleko od civilizace a uprostřed probouzející se jarní přírody se ho pokusí na blížící se pohovor u zápisu připravit. První chvíle v divočině nejsou pro městského kluka vůbec jednoduché, protože na chatě není PlayStation ani televize.",
-      "synopsis_language": "cs",
-      "runtime_min": 60,
-      "genres": [
-        "Rodinný",
-        "Komedie"
-      ],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "/AgLmB0rvtgtPsksVHAPh4tiDt9Q.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/74wRcggQpcyuw4KyT3EAThePn3n.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "U",
-      "tmdb_id": 1791470,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Pitom%C3%A1+p%C5%99%C3%ADroda+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-10-08T11:49:01+00:00",
-      "release_date": "2026-10-14"
-    },
     {
       "film_id": "divocina",
       "title_cz": "Divočina",
@@ -1156,6 +1126,39 @@
       "match_score": 1.0,
       "resolved_at": "2026-10-09T11:39:29+00:00",
       "release_date": "2026-10-22"
+    },
+    {
+      "film_id": "snila jsem o muzi co snil o konich",
+      "title_cz": "Snila jsem o muži co snil o koních",
+      "title_en": "Soñaba con un hombre que soñaba con caballos",
+      "original_title": "Soñaba con un hombre que soñaba con caballos",
+      "year": 2026,
+      "synopsis": "Yimel, kubánský hudebník a disident, čeká v České republice na rozhodnutí o své žádosti o azyl. Nemůže se vrátit na Kubu, a tak bloudí průmyslovým Havířovem, mezi životem, který opustil, a budoucností, která zůstává nejistá. Tichý portrét duše zavěšené mezi dvěma světy, který diváka vtahuje do světa samoty, nekonečného čekání a limba.",
+      "synopsis_language": "cs",
+      "runtime_min": 20,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Lucie Zpěváková"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "Yimel García Góngora"
+      ],
+      "production_company": [],
+      "poster_path": "/7rfV02fcGshuz8YLBIMNmjlCbs3.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1797276,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Snila+jsem+o+mu%C5%BEi+co+snil+o+kon%C3%ADch+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-15T09:38:12+00:00",
+      "release_date": "2026-10-27"
     },
     {
       "film_id": "fantom opery",
