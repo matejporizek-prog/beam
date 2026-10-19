@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T09:21:29+00:00",
+  "generated_at": "2026-10-19T10:30:01+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -595,39 +595,6 @@
       "release_date": "2026-10-27"
     },
     {
-      "film_id": "snila jsem o muzi co snil o konich",
-      "title_cz": "Snila jsem o muži co snil o koních",
-      "title_en": "Soñaba con un hombre que soñaba con caballos",
-      "original_title": "Soñaba con un hombre que soñaba con caballos",
-      "year": 2026,
-      "synopsis": "Yimel, kubánský hudebník a disident, čeká v České republice na rozhodnutí o své žádosti o azyl. Nemůže se vrátit na Kubu, a tak bloudí průmyslovým Havířovem, mezi životem, který opustil, a budoucností, která zůstává nejistá. Tichý portrét duše zavěšené mezi dvěma světy, který diváka vtahuje do světa samoty, nekonečného čekání a limba.",
-      "synopsis_language": "cs",
-      "runtime_min": 20,
-      "genres": [
-        "Dokumentární"
-      ],
-      "director": [
-        "Lucie Zpěváková"
-      ],
-      "screenwriter": [],
-      "cast": [
-        "Yimel García Góngora"
-      ],
-      "production_company": [],
-      "poster_path": "/7rfV02fcGshuz8YLBIMNmjlCbs3.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1797276,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Snila+jsem+o+mu%C5%BEi+co+snil+o+kon%C3%ADch+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-10-15T09:38:12+00:00",
-      "release_date": "2026-10-27"
-    },
-    {
       "film_id": "fantom opery",
       "title_cz": "Fantom opery",
       "title_en": "Le Fantôme de l'Opéra",
@@ -988,6 +955,37 @@
       "match_score": 1.0,
       "resolved_at": "2026-10-09T11:39:36+00:00",
       "release_date": "2026-10-29"
+    },
+    {
+      "film_id": "zit",
+      "title_cz": "žít",
+      "title_en": "living",
+      "original_title": "vivre",
+      "year": 2026,
+      "synopsis": "A short documentary set in a chicken slaughterhouse, where, amidst the filth, stench, decaying remains of animal carcasses and swarms of insects, a cat and her kittens manage to survive. In a place so deeply marked by human indifference to the death of other creatures, they paradoxically provide at least a hint of the unyielding desire to play, explore, or simply to live.",
+      "synopsis_language": "en",
+      "runtime_min": 13,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Eric Marcus Weglehner"
+      ],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1795974,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%BE%C3%ADt+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-19T10:30:00+00:00",
+      "release_date": "2026-10-30"
     },
     {
       "film_id": "rammstein live in mexico city",
@@ -4627,6 +4625,61 @@
       "match_score": 1.0,
       "resolved_at": "2026-10-12T12:44:31+00:00",
       "release_date": "2027-03-11"
+    },
+    {
+      "film_id": "jezek sonic 4",
+      "title_cz": "Ježek Sonic 4",
+      "title_en": "Sonic the Hedgehog 4",
+      "original_title": "Sonic the Hedgehog 4",
+      "year": 2027,
+      "synopsis": "Sonic the Hedgehog, joined by a new hero named Amy, faces a new technological nemesis known as Metal Sonic.",
+      "synopsis_language": "en",
+      "runtime_min": 120,
+      "genres": [
+        "Komedie",
+        "Akční",
+        "Rodinný",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Jeff Fowler"
+      ],
+      "screenwriter": [
+        "Pat Casey",
+        "Josh Miller",
+        "John Whittington"
+      ],
+      "cast": [
+        "Ben Schwartz",
+        "Jim Carrey",
+        "Kristen Bell",
+        "Idris Elba",
+        "Keanu Reeves",
+        "James Marsden",
+        "Tika Sumpter",
+        "Ben Kingsley"
+      ],
+      "production_company": [
+        "Paramount Pictures",
+        "Original Film",
+        "Blur Studio",
+        "Marza Animation Planet",
+        "SEGA",
+        "SEGA of America",
+        "Domain Entertainment"
+      ],
+      "poster_path": "/t8uoHBODkFlSQJRL6qc4IclUBlH.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/4Sh2c33WHf1KxX8UYuYLIroaVEv.jpg",
+      "trailer_youtube_key": "YShjCIA9aXk",
+      "age_rating": "",
+      "tmdb_id": 1401586,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Je%C5%BEek+Sonic+4+2027",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-19T10:30:01+00:00",
+      "release_date": "2027-03-18"
     }
   ]
 }
