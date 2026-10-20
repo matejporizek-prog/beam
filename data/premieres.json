@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T10:30:01+00:00",
+  "generated_at": "2026-10-20T09:50:27+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -1259,6 +1259,69 @@
       "release_date": "2026-11-05"
     },
     {
+      "film_id": "maj",
+      "title_cz": "Máj",
+      "title_en": "May",
+      "original_title": "Máj",
+      "year": 2026,
+      "synopsis": "May was filmed as a backdrop to part of a theatre performance D36-D37 under the E. F. Burian's lead inspired by the classic Czech poem of the same name by Karel Hynek Macha.",
+      "synopsis_language": "en",
+      "runtime_min": 11,
+      "genres": [],
+      "director": [
+        "E. F. Burian",
+        "Čeněk Zahradníček"
+      ],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 291095,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=M%C3%A1j+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-20T09:50:27+00:00",
+      "release_date": "2026-11-05"
+    },
+    {
+      "film_id": "na prazskem hrade",
+      "title_cz": "Na Pražském hradě",
+      "title_en": "The Prague Castle",
+      "original_title": "Na Pražském hradě",
+      "year": 1931,
+      "synopsis": "Film o architektuře Pražského hradu, natočený avantgardním fotografem a filmařem a obdivovatelem funkcionalismu.",
+      "synopsis_language": "cs",
+      "runtime_min": 11,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Alexander Hammid"
+      ],
+      "screenwriter": [
+        "Alexander Hammid"
+      ],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "/1Eluc9JvtfqeEUTcQQySqsbdIJS.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 324185,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Na+Pra%C5%BEsk%C3%A9m+hrad%C4%9B+1931",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-20T09:50:24+00:00",
+      "release_date": "2026-11-05"
+    },
+    {
       "film_id": "povstani za svobodu",
       "title_cz": "Povstání za svobodu",
       "title_en": "The Uprising",
@@ -1307,6 +1370,45 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "resolved_at": "2026-10-09T11:39:32+00:00",
+      "release_date": "2026-11-05"
+    },
+    {
+      "film_id": "pribeh vojaka",
+      "title_cz": "Příběh vojáka",
+      "title_en": "The Story of a Soldier",
+      "original_title": "Příběh vojáka",
+      "year": 1934,
+      "synopsis": "Příběh mladého muže, jehož zastihne mobilizace. V bojích se však stává pouhou bezbrannou figurkou na válečné šachovnici.",
+      "synopsis_language": "cs",
+      "runtime_min": 9,
+      "genres": [
+        "Drama",
+        "Válečný"
+      ],
+      "director": [
+        "Čeněk Zahradníček",
+        "Vladimír Šmejkal"
+      ],
+      "screenwriter": [
+        "Vladimír Šmejkal"
+      ],
+      "cast": [
+        "Vladimír Šmejkal",
+        "Milena Chlapcová",
+        "Anna Suchardová-Podzemná"
+      ],
+      "production_company": [],
+      "poster_path": "/3c01PpwjNt2OZV7c8IjhFDdRcoM.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 266107,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=P%C5%99%C3%ADb%C4%9Bh+voj%C3%A1ka+1934",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-20T09:50:25+00:00",
       "release_date": "2026-11-05"
     },
     {
@@ -1544,6 +1646,38 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-11-05"
+    },
+    {
+      "film_id": "skolni ukol",
+      "title_cz": "Školní úkol",
+      "title_en": "School Assignment",
+      "original_title": "Školní úkol",
+      "year": 2026,
+      "synopsis": "A school boy cannot think what to write in an essay assignment about spring. His father cannot come up with any new ideas either.",
+      "synopsis_language": "en",
+      "runtime_min": 4,
+      "genres": [
+        "Rodinný"
+      ],
+      "director": [
+        "Alexander Hammid",
+        "Elmar Klos"
+      ],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "/v6s3EqcuZnyGegNIHbc9uK5fx3r.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 1604206,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%A0koln%C3%AD+%C3%BAkol+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-20T09:50:26+00:00",
       "release_date": "2026-11-05"
     },
     {
