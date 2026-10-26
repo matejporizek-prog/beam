@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T09:36:31+00:00",
+  "generated_at": "2026-10-26T10:47:43+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -4258,6 +4258,99 @@
       "match_score": 1.0,
       "resolved_at": "2026-10-19T10:30:01+00:00",
       "release_date": "2027-03-18"
+    },
+    {
+      "film_id": "not alone",
+      "title_cz": "Not Alone",
+      "title_en": "Not Alone",
+      "original_title": "Not Alone",
+      "year": 2027,
+      "synopsis": "While preparing for a revolutionary space launch, an introverted rocket mechanic and a brilliant astro-botanist spark an unexpected romance—only for three runaway aliens to crash-land in his home, looking for a ride back to the stars.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Animovaný",
+        "Komedie",
+        "Rodinný",
+        "Romantický",
+        "Vědeckofantastický"
+      ],
+      "director": [
+        "Eric Guillon",
+        "Claire Dodgson",
+        "Jonathan del Val"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "Timothée Chalamet",
+        "Selena Gomez",
+        "Rob Brydon",
+        "Diane Morgan",
+        "Jamie Demetriou",
+        "Brett Goldstein",
+        "Allison Janney",
+        "Lamorne Morris"
+      ],
+      "production_company": [
+        "Illumination",
+        "Universal Pictures"
+      ],
+      "poster_path": "/9HqA8Hxwd7KNs6ttYqRbXtYHLpv.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/pu9qQUWDfWdp50Cy6sz9Apd9K7P.jpg",
+      "trailer_youtube_key": "wtUdmUTNbO4",
+      "age_rating": "",
+      "tmdb_id": 1718699,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Not+Alone+2027",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-26T10:47:43+00:00",
+      "release_date": "2027-03-25"
+    },
+    {
+      "film_id": "po cem holky touzi",
+      "title_cz": "Po čem holky touží",
+      "title_en": "Po čem holky touží",
+      "original_title": "Po čem holky touží",
+      "year": 2027,
+      "synopsis": "Dvě sedmnáctileté holky, Lída a Alice, jsou nerozlučné kamarádky z gymplu, které mají plné zuby svých matek. Připadají jim unavené, nudné a nepochopitelné. Jednoho dne se však stane něco neuvěřitelného: během bouřky do nich udeří blesk... a ony se probudí ve zcela jiných tělech. Tělech svých čtyřicetiletých matek. Najednou mají práci, manžela, dvě děti a bolesti zad.",
+      "synopsis_language": "cs",
+      "runtime_min": 100,
+      "genres": [
+        "Komedie"
+      ],
+      "director": [
+        "Rudolf Havlík"
+      ],
+      "screenwriter": [
+        "Lucie Korcová"
+      ],
+      "cast": [
+        "Jitka Čvančarová",
+        "Linda Rybová",
+        "Josefína Veronika Prachařová",
+        "Amélie Lavaud",
+        "Tereza Kostková",
+        "Saša Rašilov",
+        "Jiří Vyorálek",
+        "Matouš Ruml"
+      ],
+      "production_company": [
+        "DonArt production"
+      ],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1741023,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Po+%C4%8Dem+holky+tou%C5%BE%C3%AD+2027",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-10-26T10:47:43+00:00",
+      "release_date": "2027-03-25"
     }
   ]
 }
