@@ -1,43 +1,7 @@
 {
-  "generated_at": "2026-10-27T10:14:04+00:00",
+  "generated_at": "2026-10-28T10:59:53+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
-    {
-      "film_id": "jedina vterina",
-      "title_cz": "Jediná vteřina",
-      "title_en": "A single second",
-      "original_title": "Jediná vteřina",
-      "year": 2026,
-      "synopsis": "Jediná vteřina is a feature-length documentary by Vít Klusák about the fine line between everyday bad driving habits and a tragedy that cannot be undone. Using a mobile phone at the wheel, fatigue, rushing through a yellow light, or the feeling that we have everything under control. Bad habits behind the wheel that usually go unpunished. But what happens when they don’t? The film follows four stories of road accidents and the people involved, who must come to terms with the moment when the lives of so many were changed forever. Through intimate portraits, cinematic reconstructions and unusual encounters between the perpetrators and their victims or bereaved families, it explores responsibility, guilt and the possibility of forgiveness. The film reveals our ability to excuse our own failings and poses a disturbing question: what if we are less different from the people who caused the accidents than we would like to admit?",
-      "synopsis_language": "en",
-      "runtime_min": 88,
-      "genres": [
-        "Dokumentární"
-      ],
-      "director": [
-        "Vít Klusák"
-      ],
-      "screenwriter": [
-        "Vít Klusák"
-      ],
-      "cast": [],
-      "production_company": [
-        "Hypermarket Film",
-        "Bontonfilm"
-      ],
-      "poster_path": "/y3i3BKh74YOu8S5Y3raG8tNnwT5.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "nzxfNbMhmLE",
-      "age_rating": "",
-      "tmdb_id": 1799373,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Jedin%C3%A1+vte%C5%99ina+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-10-17T09:01:10+00:00",
-      "release_date": "2026-10-27"
-    },
     {
       "film_id": "fantom opery",
       "title_cz": "Fantom opery",
