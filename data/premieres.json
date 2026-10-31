@@ -1,38 +1,7 @@
 {
-  "generated_at": "2026-10-30T11:10:37+00:00",
+  "generated_at": "2026-10-31T10:43:42+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
-    {
-      "film_id": "zit",
-      "title_cz": "žít",
-      "title_en": "living",
-      "original_title": "vivre",
-      "year": 2026,
-      "synopsis": "A short documentary set in a chicken slaughterhouse, where, amidst the filth, stench, decaying remains of animal carcasses and swarms of insects, a cat and her kittens manage to survive. In a place so deeply marked by human indifference to the death of other creatures, they paradoxically provide at least a hint of the unyielding desire to play, explore, or simply to live.",
-      "synopsis_language": "en",
-      "runtime_min": 13,
-      "genres": [
-        "Dokumentární"
-      ],
-      "director": [
-        "Eric Marcus Weglehner"
-      ],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1795974,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%BE%C3%ADt+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-10-19T10:30:00+00:00",
-      "release_date": "2026-10-30"
-    },
     {
       "film_id": "rammstein live in mexico city",
       "title_cz": "Rammstein – Live in Mexico City",
