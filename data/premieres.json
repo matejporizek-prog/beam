@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T11:40:22+00:00",
+  "generated_at": "2026-11-02T13:05:11+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -1420,54 +1420,6 @@
       "release_date": "2026-11-19"
     },
     {
-      "film_id": "club kid",
-      "title_cz": "Club Kid",
-      "title_en": "Club Kid",
-      "original_title": "Club Kid",
-      "year": 2026,
-      "synopsis": "A hard-partying New York City club promoter sees his whirlwind lifestyle upended by the arrival of the 10-year-old son he never knew he had.",
-      "synopsis_language": "en",
-      "runtime_min": 126,
-      "genres": [
-        "Komedie",
-        "Drama"
-      ],
-      "director": [
-        "Jordan Firstman"
-      ],
-      "screenwriter": [
-        "Jordan Firstman"
-      ],
-      "cast": [
-        "Jordan Firstman",
-        "Reggie Absolom",
-        "Diego Calva",
-        "Cara Delevingne",
-        "Saturn Risin9",
-        "Miss Benny",
-        "Alaska Riley",
-        "Colleen Camp"
-      ],
-      "production_company": [
-        "Topic Studios",
-        "Stay Gold Features",
-        "Rapt Films",
-        "Twin Productions"
-      ],
-      "poster_path": "/3CdM37GtEDMAp7fGlRn9MCpFjn1.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/AjrgF2JZb8WAeIFTvUjJK6VA2CG.jpg",
-      "trailer_youtube_key": "guKEdb_iRXw",
-      "age_rating": "R (US)",
-      "tmdb_id": 1585239,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Club+Kid+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-09-12T09:02:36+00:00",
-      "release_date": "2026-11-19"
-    },
-    {
       "film_id": "hunger games usvit sklizne",
       "title_cz": "Hunger Games: Úsvit sklizně",
       "title_en": "The Hunger Games: Sunrise on the Reaping",
@@ -2014,6 +1966,53 @@
       "release_date": "2026-11-26"
     },
     {
+      "film_id": "mala morska vila",
+      "title_cz": "Malá mořská víla",
+      "title_en": "The Little Mermaid",
+      "original_title": "Malá mořská víla",
+      "year": 1976,
+      "synopsis": "Pohádkový film Malá mořská víla byl natočen podle stejnojmenné pohádky dánského spisovatele Hanse Christiana Andersena. Vypráví o tragické lásce mořské bytosti k pozemskému princi, pro nějž obětuje to nejcennější, co má - svůj hlas a život. Příběh zahrnuje prvky opravdové lidské tragiky a životního dramatu. Proto je určen nejen dětem, ale i dospělým. Ve filmu byla použita řada náročných triků, velkou roli v něm hraje výtvarná stránka i pohybový projev představitelů obyvatel podmořského světa?",
+      "synopsis_language": "cs",
+      "runtime_min": 84,
+      "genres": [
+        "Fantasy",
+        "Romantický"
+      ],
+      "director": [
+        "Karel Kachyňa"
+      ],
+      "screenwriter": [
+        "Ota Hofman",
+        "Karel Kachyňa"
+      ],
+      "cast": [
+        "Miroslava Šafránková",
+        "Radovan Lukavský",
+        "Petr Svojtka",
+        "Marie Rosůlková",
+        "Milena Dvorská",
+        "Libuše Šafránková",
+        "Jiří Ornest",
+        "Dagmar Patrasová"
+      ],
+      "production_company": [
+        "Filmové studio Barrandov",
+        "Mosfilm"
+      ],
+      "poster_path": "/uy6LlhlQbVoUTQlWbqX15NkbTqj.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/l7tW8m1HfHtdFciZcGG6kUstHeS.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 74873,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Mal%C3%A1+mo%C5%99sk%C3%A1+v%C3%ADla+1976",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-02T13:05:02+00:00",
+      "release_date": "2026-11-26"
+    },
+    {
       "film_id": "milovany",
       "title_cz": "Milovaný",
       "title_en": "The Beloved",
@@ -2100,6 +2099,50 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "resolved_at": "2026-10-09T11:39:40+00:00",
+      "release_date": "2026-11-26"
+    },
+    {
+      "film_id": "po stopach krve",
+      "title_cz": "Po stopách krve",
+      "title_en": "On the Trail of Blood",
+      "original_title": "Po stopách krve",
+      "year": 1970,
+      "synopsis": "Tentokrát se v případu sexuálně úchylného vraha musí major Kalaš obejít bez svého spolupracovníka Vargy. Na příkaz svého nadřízeného odjíždí do Dubé v Severních Čechách, kde bylo objeveno tělo mrtvého cikánského chlapce. Pátrání se rozbíhá v několika rovinách, ani další mrtvý chlapec však kriminalisty nepřivede k pachateli...",
+      "synopsis_language": "cs",
+      "runtime_min": 94,
+      "genres": [
+        "Krimi"
+      ],
+      "director": [
+        "Petr Schulhoff"
+      ],
+      "screenwriter": [
+        "Petr Schulhoff"
+      ],
+      "cast": [
+        "Rudolf Hrušínský",
+        "Vladimír Ptáček",
+        "Ilja Prachař",
+        "Karel Dellapina",
+        "Vladimír Huber",
+        "Milada Ježková",
+        "Michal Kožuch",
+        "Luděk Nešleha"
+      ],
+      "production_company": [
+        "Filmové studio Barrandov"
+      ],
+      "poster_path": "/iPA3pfqmQCPAtKXF3ndA3KH830X.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/82NJCgBB9HclOBYCioU562HzCZw.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "12+",
+      "tmdb_id": 366526,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Po+stop%C3%A1ch+krve+1970",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-02T13:05:02+00:00",
       "release_date": "2026-11-26"
     },
     {
@@ -2412,6 +2455,60 @@
       "release_date": "2026-12-03"
     },
     {
+      "film_id": "la venus electrique",
+      "title_cz": "La Vénus électrique",
+      "title_en": "La Vénus électrique",
+      "original_title": "La Vénus électrique",
+      "year": 2026,
+      "synopsis": "A painter in 1928 Paris, unable to work since his wife’s death, unknowingly participates in fake spiritualist shows staged by a carnival worker. As he regains his inspiration, she falls in love with the man she is deceiving.",
+      "synopsis_language": "en",
+      "runtime_min": 122,
+      "genres": [
+        "Drama",
+        "Komedie"
+      ],
+      "director": [
+        "Pierre Salvadori"
+      ],
+      "screenwriter": [
+        "Pierre Salvadori",
+        "Benoît Graffin",
+        "Benjamin Charbit"
+      ],
+      "cast": [
+        "Pio Marmaï",
+        "Anaïs Demoustier",
+        "Gilles Lellouche",
+        "Vimala Pons",
+        "Gustave Kervern",
+        "Madeleine Baudot",
+        "Charline Cerri",
+        "Edwin Gillet"
+      ],
+      "production_company": [
+        "Les Films Pelléas",
+        "Versus Production",
+        "France 2 Cinéma",
+        "Pio & Co",
+        "Tovo Films",
+        "RTBF",
+        "Proximus",
+        "BeTV & Orange"
+      ],
+      "poster_path": "/6mGCyYnuGpxGT3Wx4xuRMV20EEi.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/hKV9IrDUAY8jGkvxDgcHyUxjSSW.jpg",
+      "trailer_youtube_key": "UduHymnELtA",
+      "age_rating": "12+",
+      "tmdb_id": 1442669,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=La+V%C3%A9nus+%C3%A9lectrique+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-02T13:05:04+00:00",
+      "release_date": "2026-12-03"
+    },
+    {
       "film_id": "primetime",
       "title_cz": "Primetime",
       "title_en": "Primetime",
@@ -2458,6 +2555,149 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "resolved_at": "2026-09-01T09:47:59+00:00",
+      "release_date": "2026-12-03"
+    },
+    {
+      "film_id": "robert richardson bily dabel",
+      "title_cz": "Robert Richardson: Bílý ďábel",
+      "title_en": "Robert Richardson: The White Devil",
+      "original_title": "Robert Richardson: The White Devil",
+      "year": 2026,
+      "synopsis": "What started as a student exercise and master’s degree project soon evolved into a creative partnership and personal friendship between Jana Hojdová, a former cinematography student at Prague’s FAMU, and distinguished cinematographer Robert Richardson.",
+      "synopsis_language": "en",
+      "runtime_min": 105,
+      "genres": [
+        "Dokumentární"
+      ],
+      "director": [
+        "Jana Hojdová"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "Jana Hojdová",
+        "Robert Richardson",
+        "Robert Downey Jr.",
+        "Woody Harrelson",
+        "Kate Hudson",
+        "Martin Scorsese",
+        "Andy Serkis",
+        "Oliver Stone"
+      ],
+      "production_company": [
+        "Barletta",
+        "Bridge Films",
+        "HN Film",
+        "CameRRaman",
+        "PPF Foundation"
+      ],
+      "poster_path": "/lZrCSXgyQ0hojglvleQxJFOT801.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/eKukYhhGU93rNsVflMiCcv2cm59.jpg",
+      "trailer_youtube_key": "Y03xvJ4SYQg",
+      "age_rating": "12+",
+      "tmdb_id": 1706746,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Robert+Richardson%3A+B%C3%ADl%C3%BD+%C4%8F%C3%A1bel+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-02T13:05:09+00:00",
+      "release_date": "2026-12-03"
+    },
+    {
+      "film_id": "vivaldi a ja",
+      "title_cz": "Vivaldi a já",
+      "title_en": "Primavera",
+      "original_title": "Primavera",
+      "year": 2025,
+      "synopsis": "A talented violinist, Cecilia, confined in an orphanage, meets Vivaldi who becomes her teacher. Under his mentorship and through his music, she gains courage to break free from the life she was destined for and pursue her passion.",
+      "synopsis_language": "en",
+      "runtime_min": 111,
+      "genres": [
+        "Historický",
+        "Drama",
+        "Hudební"
+      ],
+      "director": [
+        "Damiano Michieletto"
+      ],
+      "screenwriter": [
+        "Ludovica Rampoldi",
+        "Damiano Michieletto"
+      ],
+      "cast": [
+        "Tecla Insolia",
+        "Michele Riondino",
+        "Andrea Pennacchi",
+        "Fabrizia Sacchi",
+        "Hildegard De Stefano",
+        "Cosima Centurioni",
+        "Federica Girardello",
+        "Rebecca Antonaci"
+      ],
+      "production_company": [
+        "Indigo Film",
+        "Paradise City",
+        "Moana Films",
+        "Warner Bros. Entertainment Italia"
+      ],
+      "poster_path": "/6Giqb3a9ITCKhlkNeWtfzGWOxU0.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/hVQbT0JTPSFvmmSE6vASWSOCTAY.jpg",
+      "trailer_youtube_key": "J-fEjuVy5cQ",
+      "age_rating": "15+",
+      "tmdb_id": 1365683,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Vivaldi+a+j%C3%A1+2025",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-02T13:05:04+00:00",
+      "release_date": "2026-12-03"
+    },
+    {
+      "film_id": "vyvoleny",
+      "title_cz": "Vyvolený",
+      "title_en": "Gregorius, the Chosen One",
+      "original_title": "Vyvolený",
+      "year": 2026,
+      "synopsis": "Gregorius, vyvržený. Jako dítěte se ho rodiče museli zříct, protože byl plodem hříšné lásky bratra a sestry. Jako jinoch žil nepochopen v rybářské osadě. Jezero mu mělo být oceánem, loďka trůnem, oštěp žezlem. A přece cítil, že je povolán k vyšším věcem. Touha stát se rytířem a změnit svět v lepší místo nasměruje mladíka k pouti, která ukazuje nevyzpytatelnost cest božích. V každém hříšníkovi může dřímat i kus svatého. Jedno, ať jste vyvrhelem, rytířem, králem, ježkem, nebo papežem, existuje nakonec jen jedna správná cesta pod nebeskou klenbou – cesta ryzího srdce. Gregorius, vyvolený.",
+      "synopsis_language": "cs",
+      "runtime_min": 90,
+      "genres": [
+        "Komedie",
+        "Fantasy"
+      ],
+      "director": [
+        "Tomasz Mielnik"
+      ],
+      "screenwriter": [
+        "Tomasz Mielnik"
+      ],
+      "cast": [
+        "Jan František Uher",
+        "Miroslav Donutil",
+        "Petr Uhlík",
+        "Kristýna Boková",
+        "Petr Marek",
+        "Eliška Křenková",
+        "Marian Moštík",
+        "Michal Dalecký"
+      ],
+      "production_company": [
+        "Background Films",
+        "Mozaika Films",
+        "deFilm",
+        "Magiclab"
+      ],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "/6h6cu68VFeT8VRB40eyD4O4CcHL.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1707365,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Vyvolen%C3%BD+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
       "release_date": "2026-12-03"
     },
     {
@@ -2550,50 +2790,261 @@
       "release_date": "2026-12-03"
     },
     {
-      "film_id": "vyvoleny",
-      "title_cz": "Vyvolený",
-      "title_en": "Gregorius, the Chosen One",
-      "original_title": "Vyvolený",
+      "film_id": "",
+      "title_cz": "Довженко. Перший погляд",
+      "title_en": "Dovzhenko. First Sight",
+      "original_title": "Довженко. Перший погляд",
       "year": 2026,
-      "synopsis": "Gregorius, vyvržený. Jako dítěte se ho rodiče museli zříct, protože byl plodem hříšné lásky bratra a sestry. Jako jinoch žil nepochopen v rybářské osadě. Jezero mu mělo být oceánem, loďka trůnem, oštěp žezlem. A přece cítil, že je povolán k vyšším věcem. Touha stát se rytířem a změnit svět v lepší místo nasměruje mladíka k pouti, která ukazuje nevyzpytatelnost cest božích. V každém hříšníkovi může dřímat i kus svatého. Jedno, ať jste vyvrhelem, rytířem, králem, ježkem, nebo papežem, existuje nakonec jen jedna správná cesta pod nebeskou klenbou – cesta ryzího srdce. Gregorius, vyvolený.",
-      "synopsis_language": "cs",
-      "runtime_min": 90,
+      "synopsis": "Ukrainian Odesa, 1926: a city recovering from the war, a city where jazz sounds and cinema is born. Young artist Sashko Dovzhenko seeks freedom in art - and stumbles upon a system that does not forgive dreams. His first film may be his last. And he does not yet know that soon his name will be known to the whole world.",
+      "synopsis_language": "en",
+      "runtime_min": null,
       "genres": [
-        "Komedie",
-        "Fantasy"
+        "Historický",
+        "Thriller",
+        "Dobrodružný"
       ],
       "director": [
-        "Tomasz Mielnik"
+        "Kostiantyn Konovalov"
       ],
       "screenwriter": [
-        "Tomasz Mielnik"
+        "Kostiantyn Konovalov",
+        "Serhiy Trymbach"
       ],
       "cast": [
-        "Jan František Uher",
-        "Miroslav Donutil",
-        "Petr Uhlík",
-        "Kristýna Boková",
-        "Petr Marek",
-        "Eliška Křenková",
-        "Marian Moštík",
-        "Michal Dalecký"
+        "Hryhorii Baklanov",
+        "Maksym Samchyk",
+        "Polina Vasylyna",
+        "Bohdan Beniuk",
+        "Roman Yasynovskyi",
+        "Vadym Makhomed"
       ],
       "production_company": [
-        "Background Films",
-        "Mozaika Films",
-        "deFilm",
-        "Magiclab"
+        "Odesa Film Studio",
+        "Artbox"
       ],
-      "poster_path": "",
+      "poster_path": "/gv509TVGMmvgx4KHRTtCjCBuSmL.jpg",
       "poster_fallback_url": "",
-      "backdrop_path": "/6h6cu68VFeT8VRB40eyD4O4CcHL.jpg",
+      "backdrop_path": "/3Y0nJgdInp3nWJpJ00jCjDwXwS8.jpg",
       "trailer_youtube_key": "",
       "age_rating": "",
-      "tmdb_id": 1707365,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Vyvolen%C3%BD+2026",
+      "tmdb_id": 1483101,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%D0%94%D0%BE%D0%B2%D0%B6%D0%B5%D0%BD%D0%BA%D0%BE.+%D0%9F%D0%B5%D1%80%D1%88%D0%B8%D0%B9+%D0%BF%D0%BE%D0%B3%D0%BB%D1%8F%D0%B4+2026",
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "resolved_at": "2026-11-02T13:05:07+00:00",
+      "release_date": "2026-12-03"
+    },
+    {
+      "film_id": "tri tydny pod morem",
+      "title_cz": "Tři týdny pod mořem",
+      "title_en": "Three Weeks Under the Sea",
+      "original_title": "Tři týdny pod mořem",
+      "year": 2026,
+      "synopsis": "Ukraine after the annexation. Haunted and reckless, Mykhailo returns to bury his father, only to discover that the old man has effectively been a ghost for 20 years. Like Schrödinger's cat, he seems ready to reappear at any moment.",
+      "synopsis_language": "en",
+      "runtime_min": 162,
+      "genres": [
+        "Drama",
+        "Krimi"
+      ],
+      "director": [
+        "Martin Kuba"
+      ],
+      "screenwriter": [
+        "Martin Kuba",
+        "Marek Grajciar"
+      ],
+      "cast": [
+        "Makar Tikhomirov",
+        "Vytautas Kaniušonis",
+        "Tinatin Dalakishvili",
+        "Juhan Ulfsak",
+        "Hannusya Yarmolenko"
+      ],
+      "production_company": [
+        "Moloko Film",
+        "PubRes",
+        "FURIA Film"
+      ],
+      "poster_path": "/qARIF5IPtyr2Xsc1RRQcCajjI8d.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/4KGX4X8Z0HuNMKo3WM38oglgfim.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1796982,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=T%C5%99i+t%C3%BDdny+pod+mo%C5%99em+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-02T13:05:10+00:00",
+      "release_date": "2026-12-09"
+    },
+    {
+      "film_id": "ink",
+      "title_cz": "Ink",
+      "title_en": "Ink",
+      "original_title": "Ink",
+      "year": 2026,
+      "synopsis": "A group of misfits and visionaries had an idea for a new kind of news - one that would give the people what they want, and would change the face of the world we live in today.",
+      "synopsis_language": "en",
+      "runtime_min": 116,
+      "genres": [
+        "Drama",
+        "Historický"
+      ],
+      "director": [
+        "Danny Boyle"
+      ],
+      "screenwriter": [
+        "James Graham"
+      ],
+      "cast": [
+        "Jack O'Connell",
+        "Guy Pearce",
+        "Claire Foy",
+        "Blake Harrison",
+        "Patrick Kennedy",
+        "Angus Imrie",
+        "Brian Gleeson",
+        "Bertie Carvel"
+      ],
+      "production_company": [
+        "Media Res",
+        "House Productions",
+        "Decibel Films",
+        "StudioCanal"
+      ],
+      "poster_path": "/aZECpoGsveEXtxogaz0GMiyVB6n.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/sWtM1GfbjMkcvpj2riGW8QxlTr.jpg",
+      "trailer_youtube_key": "eokBqEFiVHs",
+      "age_rating": "R (US)",
+      "tmdb_id": 1532610,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ink+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-02T13:05:11+00:00",
+      "release_date": "2026-12-10"
+    },
+    {
+      "film_id": "kamenakovi",
+      "title_cz": "Kameňákovi",
+      "title_en": "Rock Bottom",
+      "original_title": "Gungo y Los Juegos Cavernícolas",
+      "year": 2026,
+      "synopsis": "Gungo is a scrawny, spoiled young caveman who has lived a life of luxury as the son of the tribal chief. In an age where only the strongest survive, he’d rather perform his “Tik-Rocks” dances than hunt or fight. But when he’s falsely accused and exiled after a plot to overthrow his father, Gungo is forced to prove himself in the brutal Caveman Games—an ancient competition where strength and bravery determine who leads. Banished to a dangerous and wild land, Gungo must now train with a group of misfits he once mocked. Together, they’ll face prehistoric perils, uncover the truth behind the conspiracy, and learn that real strength comes not from muscles, but from unity, acceptance, and the courage to lead with heart.",
+      "synopsis_language": "en",
+      "runtime_min": 88,
+      "genres": [
+        "Animovaný",
+        "Komedie",
+        "Dobrodružný"
+      ],
+      "director": [
+        "Gabriel Riva Palacio Alatriste",
+        "Rodolfo Riva Palacio Alatriste"
+      ],
+      "screenwriter": [],
+      "cast": [
+        "Ricky Limón",
+        "Karen Torres",
+        "Joaquín Cosío",
+        "Daniel Sosa",
+        "Gabriel Riva Palacio Alatriste",
+        "Claudio Herrera",
+        "Humberto Vélez",
+        "Silvia Navarro"
+      ],
+      "production_company": [
+        "3 Doubles Producciones",
+        "Huevocartoon Producciones"
+      ],
+      "poster_path": "/mQNBZITnRDwhRGRqWzM7dPEFoXn.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/upxQBHRpgUJx33d1iG6rpzg0M5S.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "U",
+      "tmdb_id": 1548369,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kame%C5%88%C3%A1kovi+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-02T13:05:06+00:00",
+      "release_date": "2026-12-10"
+    },
+    {
+      "film_id": "musi se zit",
+      "title_cz": "Musí se žít",
+      "title_en": "Musí se žít",
+      "original_title": "Musí se žít",
+      "year": null,
+      "synopsis": "Stručný popis děje",
+      "synopsis_language": "cs",
+      "runtime_min": 85,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1814915,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Mus%C3%AD+se+%C5%BE%C3%ADt",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-02T13:05:10+00:00",
+      "release_date": "2026-12-10"
+    },
+    {
+      "film_id": "na nove zacatky",
+      "title_cz": "Na nové začátky!",
+      "title_en": "To New Beginnings",
+      "original_title": "Det nye år",
+      "year": 2025,
+      "synopsis": "Je Silvestr. Přátelé Nomi, Jens, Charlotte a Kris se spolu se svými dětmi scházejí na slavnostní večeři, jak je již tradicí. Letos je však něco jinak než obvykle, protože jako překvapení dorazí i Nomiin nový přítel Finn.",
+      "synopsis_language": "cs",
+      "runtime_min": 95,
+      "genres": [
+        "Komedie",
+        "Drama"
+      ],
+      "director": [
+        "Paprika Steen"
+      ],
+      "screenwriter": [
+        "Jakob Weis"
+      ],
+      "cast": [
+        "Tuva Novotny",
+        "Anders W. Berthelsen",
+        "Birgitte Hjort Sørensen",
+        "Christian Tafdrup",
+        "Lars Brygmann",
+        "Solbjørg Højfeldt",
+        "Daniel Andreas Ørum-Hansen",
+        "Nikoline Rohold"
+      ],
+      "production_company": [
+        "TrustNordisk",
+        "Nordisk Film Denmark"
+      ],
+      "poster_path": "/bo6UGhD6cVHAyQ4MhgbvgNrt3zN.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/AkpT0jXUNIMZh3QDDPvQlHTgQvo.jpg",
+      "trailer_youtube_key": "vjZLr-NsNq8",
+      "age_rating": "15+",
+      "tmdb_id": 1541356,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Na+nov%C3%A9+za%C4%8D%C3%A1tky%21+2025",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-02T13:05:03+00:00",
       "release_date": "2026-12-10"
     },
     {
@@ -2688,6 +3139,56 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-12-17"
+    },
+    {
+      "film_id": "s",
+      "title_cz": "S Миколай та загублений лист",
+      "title_en": "A December Tale 2: The Lost Letter",
+      "original_title": "S Миколай та загублений лист",
+      "year": 2026,
+      "synopsis": "Whilst preparing for yet another round of spreading holiday cheer, saint Nicholas discovers an unopened letter that had been sent to him by a young boy named Borys 30 years ago. Now the latter is a sucssesful businessman who had lost the abbility to see the joys and whimsy of life after being severly beaten down by the world around him. The legendary giftgiver enters a race against time to help the broken man regain his childlike wonder, or else one will forever loose the abbility to feel joy and the other, his magical powers.",
+      "synopsis_language": "en",
+      "runtime_min": null,
+      "genres": [
+        "Rodinný",
+        "Komedie",
+        "Drama",
+        "Dobrodružný",
+        "Romantický",
+        "Fantasy"
+      ],
+      "director": [
+        "Oleksandr Kirienko"
+      ],
+      "screenwriter": [
+        "В’ячеслав Островцев",
+        "Oleksandr Brahin"
+      ],
+      "cast": [
+        "Viktor Zhdanov",
+        "Artemii Yehorov",
+        "Олександр Швець",
+        "Tetiana Malkova",
+        "Iryna Kudashova",
+        "Ivan Blindar",
+        "Iryna Soponaru",
+        "Mykhailo Kukuyuk"
+      ],
+      "production_company": [
+        "Big Hand Films"
+      ],
+      "poster_path": "/a38CR1ZdxVLvXyPyIkKzB6zuJYR.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/yftPoQlAbT989dpB4yDEVZfadXC.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1658835,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=S+%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9+%D1%82%D0%B0+%D0%B7%D0%B0%D0%B3%D1%83%D0%B1%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9+%D0%BB%D0%B8%D1%81%D1%82+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-02T13:05:08+00:00",
       "release_date": "2026-12-17"
     },
     {
@@ -2792,6 +3293,256 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "release_date": "2026-12-25"
+    },
+    {
+      "film_id": "nadherna rana",
+      "title_cz": "Nádherná rána",
+      "title_en": "Marvelous Mornings",
+      "original_title": "Les matins merveilleux",
+      "year": 2026,
+      "synopsis": "At her grandmother's funeral, Charlie learns that she already has a place reserved in the family vault. In search of an escape, she herself delivers the crate of disco vinyls her grandmother left to the wine merchant in a village in the south of France. In the deserted seaside resort, the records bring back bitter memories of lost loves. Here, time has a different value, and people are more bored than busy. Charlie only has eyes for Marina, the waitress at the pizzeria. Nothing predestined clumsy, overly sincere Charlie and wounded tornado Marina to mend fences together. But sometimes destiny reunites lost mermaids.",
+      "synopsis_language": "en",
+      "runtime_min": 87,
+      "genres": [
+        "Romantický",
+        "Komedie"
+      ],
+      "director": [
+        "Avril Besson"
+      ],
+      "screenwriter": [
+        "Avril Besson",
+        "Pauline Baduel"
+      ],
+      "cast": [
+        "India Hair",
+        "Raya Martigny",
+        "Éric Cantona",
+        "Mathias Minne",
+        "Jean Vincentelli",
+        "Michel Maignan",
+        "Fanny Sidney",
+        "Valérie de Gaulmyn"
+      ],
+      "production_company": [
+        "The Cup of Tea",
+        "To Be Continued"
+      ],
+      "poster_path": "/hZlmladO4eUrkdwcEn8nfDTFtQa.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/7Cc4N2mxLbZ5HFPn20zOVBPPVq5.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1000135,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=N%C3%A1dhern%C3%A1+r%C3%A1na+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-02T13:05:05+00:00",
+      "release_date": "2026-12-25"
+    },
+    {
+      "film_id": "the only living pickpocket in new york",
+      "title_cz": "The Only Living Pickpocket in New York",
+      "title_en": "The Only Living Pickpocket in New York",
+      "original_title": "The Only Living Pickpocket in New York",
+      "year": 2026,
+      "synopsis": "Harry Lehman is an aging pickpocket who plies his trade with ever-diminishing returns in a drastically changed New York. Wallets stuffed with cash have been replaced by easily cancelled credit cards, and Harry struggles to make ends meet as he cares for his disabled wife, Rosie. When he unwittingly purloins and fences a valuable USB stick, Harry finds himself in a race against time to return the loot or face the rage of a vengeful crime family.",
+      "synopsis_language": "en",
+      "runtime_min": 88,
+      "genres": [
+        "Krimi",
+        "Drama",
+        "Thriller"
+      ],
+      "director": [
+        "Noah Segan"
+      ],
+      "screenwriter": [
+        "Noah Segan"
+      ],
+      "cast": [
+        "John Turturro",
+        "Will Price",
+        "Steve Buscemi",
+        "Giancarlo Esposito",
+        "Jamie Lee Curtis",
+        "Tatiana Maslany",
+        "Karina Arroyave",
+        "Victoria Moroles"
+      ],
+      "production_company": [
+        "MRC",
+        "T-Street"
+      ],
+      "poster_path": "/pNdB9va2AEPQe9UfhKAdIt8nus9.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/uyNEBMVB9cqE7VkACf3TicGAVrU.jpg",
+      "trailer_youtube_key": "iXA7BmrBBxs",
+      "age_rating": "R (US)",
+      "tmdb_id": 1458099,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=The+Only+Living+Pickpocket+in+New+York+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-02T13:05:07+00:00",
+      "release_date": "2026-12-25"
+    },
+    {
+      "film_id": "znenadani",
+      "title_cz": "Znenadání",
+      "title_en": "All of a Sudden",
+      "original_title": "急に具合が悪くなる",
+      "year": 2026,
+      "synopsis": "Director of a care facility for the elderly, Marie-Lou strives to introduce an innovative care philosophy based on listening and respecting residents’ dignity, despite resistance from part of her staff. Her encounter with Mari, a Japanese theater director battling cancer, will profoundly reshape her path. By forming a deep, supportive friendship, the two women join forces in a shared struggle to make the impossible possible.",
+      "synopsis_language": "en",
+      "runtime_min": 196,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Ryusuke Hamaguchi"
+      ],
+      "screenwriter": [
+        "Ryusuke Hamaguchi",
+        "Léa Le Dimna"
+      ],
+      "cast": [
+        "Virginie Efira",
+        "Tao Okamoto",
+        "Kyōzō Nagatsuka",
+        "Kodai Kurosaki",
+        "Jean-Charles Clichet",
+        "Marie Bunel",
+        "Romain Cottard",
+        "Marie Denarnaud"
+      ],
+      "production_company": [
+        "Cinéfrance Studios",
+        "Office Shirous",
+        "Bitters End",
+        "Tarantula",
+        "Heimatfilm",
+        "ARTE France Cinéma",
+        "GapBusters",
+        "Same Player",
+        "Marignan Films",
+        "Fictive",
+        "Dauphin Films",
+        "Saudade Film"
+      ],
+      "poster_path": "/gniQjGg0LaLaiWQOqxdVJkMH0Jx.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/yF4vFj0BSle87KSuRLhtT1PPfvs.jpg",
+      "trailer_youtube_key": "2AxtdPvDojA",
+      "age_rating": "PG-13 (US)",
+      "tmdb_id": 1476614,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Znenad%C3%A1n%C3%AD+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-02T13:05:05+00:00",
+      "release_date": "2026-12-25"
+    },
+    {
+      "film_id": "kyvadlo",
+      "title_cz": "Kyvadlo",
+      "title_en": "Pendulum",
+      "original_title": "Pendulum",
+      "year": 2026,
+      "synopsis": "A couple, journeys to a retreat in New Mexico seeking healing. Patrick grows skeptical of the retreat's leader as Abigail falls under her influence. They wonder if the group's practices offer genuine healing or conceal a terrifying truth.",
+      "synopsis_language": "en",
+      "runtime_min": 109,
+      "genres": [
+        "Horor",
+        "Mysteriózní"
+      ],
+      "director": [
+        "Mark Heyman"
+      ],
+      "screenwriter": [
+        "Mark Heyman"
+      ],
+      "cast": [
+        "Joseph Gordon-Levitt",
+        "Phoebe Dynevor",
+        "Jena Malone",
+        "Norman Reedus",
+        "Jacki Weaver",
+        "Anna Deavere Smith",
+        "Kevin B. London",
+        "Rebekah Wiggins"
+      ],
+      "production_company": [
+        "Protozoa Pictures",
+        "Motel Mojave",
+        "C2 Motion Picture Group",
+        "Black Bear Pictures"
+      ],
+      "poster_path": "/shu3m0eShymGekTJW3X5ffEhlLB.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/zD8AaOuVE0YCXixuTztxsWnIGfM.jpg",
+      "trailer_youtube_key": "0z9o6EP6wvw",
+      "age_rating": "R (US)",
+      "tmdb_id": 1380163,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Kyvadlo+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-02T13:05:11+00:00",
+      "release_date": "2026-12-31"
+    },
+    {
+      "film_id": "zivot zeny",
+      "title_cz": "Život ženy",
+      "title_en": "A Woman's Life",
+      "original_title": "La vie d'une femme",
+      "year": 2026,
+      "synopsis": "Gabrielle, a dedicated surgeon and head of a hospital department, is stretched thin by the weight of responsibility. There is little time left for her private life: a loving husband and a mother who depends on her care. Yet this is the life she wanted, the life she chose. When a novelist comes to observe her at work for a book, her balance begins to shift.",
+      "synopsis_language": "en",
+      "runtime_min": 98,
+      "genres": [
+        "Drama",
+        "Komedie"
+      ],
+      "director": [
+        "Charline Bourgeois-Tacquet"
+      ],
+      "screenwriter": [
+        "Charline Bourgeois-Tacquet"
+      ],
+      "cast": [
+        "Léa Drucker",
+        "Mélanie Thierry",
+        "Charles Berling",
+        "Laurent Capelluto",
+        "Marie-Christine Barrault",
+        "Yumi Narita",
+        "Suzanne de Baecque",
+        "Erri De Luca"
+      ],
+      "production_company": [
+        "ARTE France Cinéma",
+        "Les Films Pelléas",
+        "Versus Production",
+        "Auvergne-Rhône-Alpes Cinéma",
+        "La Femme qui aimait les films",
+        "Proximus",
+        "BeTV & Orange",
+        "RTBF"
+      ],
+      "poster_path": "/9xAYLvWZGASDKJZjt5XgvD7ugsn.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/rFST4zAaG20VSIxSvYO57nhkkV4.jpg",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1258181,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%BDivot+%C5%BEeny+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-02T13:05:06+00:00",
+      "release_date": "2026-12-31"
     },
     {
       "film_id": "maso",
@@ -3108,6 +3859,48 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "resolved_at": "2026-08-17T05:34:42+00:00",
+      "release_date": "2027-01-14"
+    },
+    {
+      "film_id": "zitra se zamiluji",
+      "title_cz": "Zítra se zamiluji",
+      "title_en": "Love Lessons",
+      "original_title": "Demain, je tombe amoureux",
+      "year": 2026,
+      "synopsis": "On the eve of retirement, Émile delivers one final lesson about love and literature, urging his students to become the poets of their own lives. But is he still in love himself? Unable to answer, he returns home only to discover that his wife has left him. Émile must now live by the very words he’s been preaching, and thanks to unexpected encounters his life is turned upside down, helping him to reinvent himself.",
+      "synopsis_language": "en",
+      "runtime_min": 114,
+      "genres": [
+        "Komedie"
+      ],
+      "director": [
+        "Martin Provost"
+      ],
+      "screenwriter": [
+        "Martin Provost"
+      ],
+      "cast": [
+        "Fabrice Luchini",
+        "Emmanuelle Devos",
+        "Chiara Mastroianni",
+        "Carole Bouquet",
+        "Hélène Alexandridis",
+        "Simon Jaspart"
+      ],
+      "production_company": [
+        "Les Films du Kiosque"
+      ],
+      "poster_path": "/pAXDKVr5qErSlyv9WB3lJ8cdPip.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/1WVVqnO9Zz7S4T87Ly5at3WHiC.jpg",
+      "trailer_youtube_key": "_KjwZViG1-8",
+      "age_rating": "12+",
+      "tmdb_id": 1306291,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Z%C3%ADtra+se+zamiluji+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-02T13:05:08+00:00",
       "release_date": "2027-01-14"
     },
     {
