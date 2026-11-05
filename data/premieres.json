@@ -1,48 +1,7 @@
 {
-  "generated_at": "2026-11-04T12:46:48+00:00",
+  "generated_at": "2026-11-05T12:55:57+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
-    {
-      "film_id": "rammstein live in mexico city",
-      "title_cz": "Rammstein – Live in Mexico City",
-      "title_en": "Rammstein – Live in Mexico City",
-      "original_title": "Rammstein – Live in Mexico City",
-      "year": 2026,
-      "synopsis": "Snímek Rammstein – Live in Mexico City, natočený během tří vyprodaných večerů na stadionu Foro Sol s kapacitou 65 000 diváků, zachycuje jednu z klíčových zastávek monumentálního pětiletého světového turné kapely. Velkolepý koncertní film natočil dvojnásobný držitel ceny Primetime Emmy® Paul Dugdale. Turné zahrnovalo 135 koncertů, které po celém světě navštívilo šest milionů fanoušků, a napsalo zásadní kapitolu v kariéře Rammstein. Dvojnásobní nominanti na cenu GRAMMY® oslovili publikum po celém světě a přinesli na největší světová pódia německý rock kombinující kolosální zvuk a živou produkci v měřítku, které nemá obdoby. Film přináší 20 skladeb napříč celou jejich kariérou a vtáhne diváky přímo do srdce show, kde se 20 metrů vysoké plameny a tyčící se industriální architektura snoubí s okamžiky opravdového propojení mezi kapelou a publikem.",
-      "synopsis_language": "cs",
-      "runtime_min": 110,
-      "genres": [
-        "Dokumentární",
-        "Hudební"
-      ],
-      "director": [
-        "Paul Dugdale"
-      ],
-      "screenwriter": [],
-      "cast": [
-        "Till Lindemann",
-        "Richard Kruspe",
-        "Christoph Schneider",
-        "Paul Landers",
-        "Oliver Riedel",
-        "Christian Lorenz"
-      ],
-      "production_company": [
-        "SiFi Productions"
-      ],
-      "poster_path": "/jWASRyL51gUMeQJuZLdgDC3rTKa.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/cBJmuSvyJlFBYhhoJOIrAK7Mr1K.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "15+",
-      "tmdb_id": 1753205,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Rammstein+%E2%80%93+Live+in+Mexico+City+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-10-09T11:39:36+00:00",
-      "release_date": "2026-11-04"
-    },
     {
       "film_id": "de gaulle 1 odboj",
       "title_cz": "De Gaulle 1: Odboj",
