@@ -1202,7 +1202,7 @@ html.search-open .beam { display: none; }
 /* An installed PWA has no browser reload button, so the failure screen needs
    its own way to try again. */
 .boot-retry {
-  margin-top: 18px; padding: 10px 22px; border-radius: 10px;
+  margin-top: 18px; padding: 10px 22px; border-radius: 9px;
   background: transparent; color: var(--accent); border: 1px solid var(--accent);
   font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: .06em;
 }
