@@ -1199,6 +1199,13 @@ html.search-open .beam { display: none; }
 /* FIX (impeccable critique, P2): the raw error string used to print inline
    for everyone; now it's an opt-in disclosure, same pattern as .today-done
    etc. — quiet by default, still there for anyone who wants it. */
+/* An installed PWA has no browser reload button, so the failure screen needs
+   its own way to try again. */
+.boot-retry {
+  margin-top: 18px; padding: 10px 22px; border-radius: 10px;
+  background: transparent; color: var(--accent); border: 1px solid var(--accent);
+  font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: .06em;
+}
 .boot-err { margin-top: 14px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; }
 .boot-err summary { cursor: pointer; letter-spacing: .04em; }
 .boot-err[open] summary { margin-bottom: 8px; }

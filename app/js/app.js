@@ -8,15 +8,15 @@
    ========================================================================== */
 
 /* The ?v= must match index.html. See the note there. */
-import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=59';
-import { store } from './store.js?v=59';
+import { loadData, state, todayISO, titleOf, filmById, creatorNames, genreNames } from './data.js?v=60';
+import { store } from './store.js?v=60';
 import {
   renderDays, renderProgram, renderPremieres, renderWatchlist, renderMap,
   fillDetail, runSearch, activeFilterCount, renderDateJump,
-} from './screens.js?v=59';
-import { esc } from './format.js?v=59';
-import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=59';
-import { initSplash } from './splash.js?v=59';
+} from './screens.js?v=60';
+import { esc } from './format.js?v=60';
+import { isPushSupported, isSubscribed, enableNotifications, disableNotifications, syncWatchedFilms } from './push.js?v=60';
+import { initSplash } from './splash.js?v=60';
 
 /* ---------- app state ---------- */
 
@@ -94,7 +94,8 @@ async function boot() {
        to everyone by default. */
     $('prog-list').innerHTML =
       `<div class="boot">Data se nepodařilo načíst.<br><br>
-       Zkus stránku načíst znovu.
+       Zkus stránku načíst znovu.<br>
+       <button class="boot-retry" onclick="location.reload()">Zkusit znovu</button>
        <details class="boot-err"><summary>Technický detail</summary>${esc(error.message)}</details></div>`;
     // No brand moment to protect when what's showing next is a failure, not
     // Program — skip the splash's minimum-display wait.
