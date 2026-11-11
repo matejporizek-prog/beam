@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T13:14:59+00:00",
+  "generated_at": "2026-11-11T12:25:21+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
     {
@@ -563,6 +563,52 @@
       "release_date": "2026-11-12"
     },
     {
+      "film_id": "ministranti",
+      "title_cz": "Ministranti",
+      "title_en": "The Altar Boys",
+      "original_title": "Ministranci",
+      "year": 2025,
+      "synopsis": "Partu ministrantů štve, že věřící i církev jsou lhostejní k sociálním nespravedlnostem, které se dějí v kolem nich. Proto podlehnou mladistvé rebelii a vlastní interpretaci „svatého písma“ a rozhodnou se „konat dobro“. Ve zpovědnici instalují odposlouchávací zařízení, aby zjistili prohřešky svých sousedů. Maskovaní jako Zorro začnou trestat viníky a pomáhat potřebným. Jenže původně dobrý úmysl se postupně mění v nebezpečnou hru, při níž se mažou hranice mezi dobrem a zlem. Film doprovází rapová hudba, která mu dodává autentičnost a mladistvou energii. Zároveň je i odrazem vnitřního světa ministrantů, kteří bojují mezi vírou a existencí ve skutečném lidském světě.",
+      "synopsis_language": "cs",
+      "runtime_min": 110,
+      "genres": [
+        "Drama",
+        "Komedie"
+      ],
+      "director": [
+        "Piotr Domalewski"
+      ],
+      "screenwriter": [
+        "Piotr Domalewski"
+      ],
+      "cast": [
+        "Tobiasz Wajda",
+        "Bruno Błach-Baar",
+        "Mikołaj Juszczyk",
+        "Filip Juszczyk",
+        "Daria Kalinchuk",
+        "Kamila Urzędowska",
+        "Tomasz Schuchardt",
+        "Sławomir Orzechowski"
+      ],
+      "production_company": [
+        "Aurum Film",
+        "Mazowiecki Instytut Kultury"
+      ],
+      "poster_path": "/5s5ucjU72GyNf3kiQlmP4OlvdqD.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/hCiqaS1w1tS7Ag2W1AC7R5MiDJC.jpg",
+      "trailer_youtube_key": "QRa-4A3D9Fg",
+      "age_rating": "",
+      "tmdb_id": 1383172,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Ministranti+2025",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-11T12:25:20+00:00",
+      "release_date": "2026-11-15"
+    },
+    {
       "film_id": "eos james mcneill whistler",
       "title_cz": "EOS: James McNeill Whistler",
       "title_en": "James McNeill Whistler",
@@ -641,6 +687,33 @@
       "resolved": true,
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
+      "release_date": "2026-11-19"
+    },
+    {
+      "film_id": "duchove dzungle",
+      "title_cz": "Duchové džungle",
+      "title_en": "Duchové džungle",
+      "original_title": "Duchové džungle",
+      "year": null,
+      "synopsis": "Český ochranář Tomáš Ouhel se vydává se svým týmem do indonéské džungle, aby napomohl zastavit masivní drancování nejpašovanějšího savce planety, a zjišťuje, že čelí neúprosně organizované mafii. Z punkové výpravy se tak stává nekompromisní mise s jediným cílem: proniknout do podsvětí, rozbít pašeráckou síť a poslat místního bosse za mříže.",
+      "synopsis_language": "cs",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 1823175,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Duchov%C3%A9+d%C5%BEungle",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-11T12:25:21+00:00",
       "release_date": "2026-11-19"
     },
     {
@@ -1003,6 +1076,56 @@
       "match_reason": "TMDb discover: upcoming CZ theatrical release",
       "match_score": 1.0,
       "release_date": "2026-11-25"
+    },
+    {
+      "film_id": "buddy",
+      "title_cz": "Buddy",
+      "title_en": "Buddy",
+      "original_title": "Buddy",
+      "year": 2026,
+      "synopsis": "Kouzelný, zpívající oranžový jednorožec drží herce jako rukojmí v surrealistické dimenzi televizní show, zatímco se stává čím dál tím šílenějším.",
+      "synopsis_language": "cs",
+      "runtime_min": 95,
+      "genres": [
+        "Horor",
+        "Komedie",
+        "Fantasy"
+      ],
+      "director": [
+        "Casper Kelly"
+      ],
+      "screenwriter": [
+        "Casper Kelly",
+        "Jamie King"
+      ],
+      "cast": [
+        "Keegan-Michael Key",
+        "Delaney Quinn",
+        "Tristan Borders",
+        "Madison Skyy Polan",
+        "Caleb Williams",
+        "Cristin Milioti",
+        "Topher Grace",
+        "Patton Oswalt"
+      ],
+      "production_company": [
+        "BoulderLight Pictures",
+        "Low Spark Films",
+        "SIPUR",
+        "Substance"
+      ],
+      "poster_path": "/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/sMmG82PtjK8A9rVc34gwKQtCm3A.jpg",
+      "trailer_youtube_key": "Pc9MbCNYn3k",
+      "age_rating": "R (US)",
+      "tmdb_id": 1514026,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Buddy+2026",
+      "resolved": true,
+      "match_reason": "TMDb discover: upcoming CZ theatrical release",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-11T12:25:21+00:00",
+      "release_date": "2026-11-26"
     },
     {
       "film_id": "comedie francaise",
