@@ -1,40 +1,7 @@
 {
-  "generated_at": "2026-11-17T14:06:13+00:00",
+  "generated_at": "2026-11-18T13:40:11+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
-    {
-      "film_id": "eos james mcneill whistler",
-      "title_cz": "EOS: James McNeill Whistler",
-      "title_en": "James McNeill Whistler",
-      "original_title": "James McNeill Whistler",
-      "year": 2026,
-      "synopsis": "Tate Britain is now holding the first major retrospective of Whistler in three decades. This blockbuster exhibition promises to reawaken the world to just how important Whistler is to art history, uniting world-famous masterpieces with rarely seen works. Exhibition on Screen will bring these stunning works and the incredible story behind them to cinemas around the world while the exhibition is still running, bringing this truly global artist to a global audience. This will be an unmissable chance to get to know this visually spectacular artist and the influence he has had on those who followed.",
-      "synopsis_language": "en",
-      "runtime_min": 90,
-      "genres": [
-        "Dokumentární"
-      ],
-      "director": [
-        "David Bickerstaff"
-      ],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [
-        "Seventh Art Productions"
-      ],
-      "poster_path": "/wMVPRZGPL9DhyZHtSJvAkzhcp0E.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/kA4fWNVG2f629SxoNLwDhvtiqI5.jpg",
-      "trailer_youtube_key": "vAiN-useAN8",
-      "age_rating": "",
-      "tmdb_id": 1739735,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=EOS%3A+James+McNeill+Whistler+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-10-13T12:27:43+00:00",
-      "release_date": "2026-11-17"
-    },
     {
       "film_id": "cizinec",
       "title_cz": "Cizinec",
