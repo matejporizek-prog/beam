@@ -21,9 +21,16 @@
    ========================================================================== */
 
 /* Bump this to force clients onto new shell files. */
-const VERSION = 'beam-v59';
+const VERSION = 'beam-v60';
 const SHELL_CACHE = `${VERSION}-shell`;
-const DATA_CACHE = `${VERSION}-data`;
+/* Deliberately NOT versioned. The data cache is the offline/flaky-network
+   fallback for networkFirst() below, and a shipped update has nothing to do
+   with whether yesterday's program is still the best thing to show when the
+   network drops — but a versioned name made every update delete it, so the
+   first load after an update had no fallback at all and one bad request
+   meant the "Data se nepodařilo načíst" screen instead of slightly old data.
+   activate() migrates entries out of the old per-version caches. */
+const DATA_CACHE = 'beam-data';
 const IMAGE_CACHE = `${VERSION}-img`;
 
 /* Versioned to match the ?v= query the page actually requests, so these
@@ -36,15 +43,15 @@ const IMAGE_CACHE = `${VERSION}-img`;
 const SHELL_FILES = [
   './',
   './index.html',
-  './css/beam.css?v=61',
-  './js/app.js?v=61',
-  './js/data.js?v=61',
-  './js/format.js?v=61',
-  './js/screens.js?v=61',
-  './js/store.js?v=61',
-  './js/push.js?v=61',
-  './js/map.js?v=61',
-  './js/splash.js?v=61',
+  './css/beam.css?v=62',
+  './js/app.js?v=62',
+  './js/data.js?v=62',
+  './js/format.js?v=62',
+  './js/screens.js?v=62',
+  './js/store.js?v=62',
+  './js/push.js?v=62',
+  './js/map.js?v=62',
+  './js/splash.js?v=62',
   './manifest.webmanifest',
   './icons/icon.svg',
 ];
@@ -61,12 +68,33 @@ self.addEventListener('install', event => {
   );
 });
 
+/* Carry the last good data out of any old per-version data cache ("beam-vN-data",
+   the pre-fix naming) into the permanent one before those get deleted below,
+   without overwriting anything the permanent cache already has. */
+async function migrateOldDataCaches(keys) {
+  const permanent = await caches.open(DATA_CACHE);
+  for (const key of keys.filter(k => k !== DATA_CACHE && k.endsWith('-data'))) {
+    const old = await caches.open(key);
+    for (const request of await old.keys()) {
+      if (!(await permanent.match(request))) {
+        const response = await old.match(request);
+        if (response) await permanent.put(request, response);
+      }
+    }
+  }
+}
+
 self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys()
-      .then(keys => Promise.all(
-        keys.filter(key => !key.startsWith(VERSION)).map(key => caches.delete(key))
-      ))
+      .then(async keys => {
+        await migrateOldDataCaches(keys).catch(() => {});
+        await Promise.all(
+          keys
+            .filter(key => key !== DATA_CACHE && !key.startsWith(VERSION))
+            .map(key => caches.delete(key))
+        );
+      })
       .then(() => self.clients.claim())
   );
 });
@@ -137,7 +165,11 @@ self.addEventListener('fetch', event => {
   if (url.hostname.includes('youtube')) return;
 
   /* The generated data — always prefer fresh. */
-  if (url.pathname.endsWith('screenings.json') || url.pathname.endsWith('films.json')) {
+  if (
+    url.pathname.endsWith('screenings.json') ||
+    url.pathname.endsWith('films.json') ||
+    url.pathname.endsWith('premieres.json')
+  ) {
     event.respondWith(networkFirst(request, DATA_CACHE));
     return;
   }

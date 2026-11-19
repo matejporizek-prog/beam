@@ -33,39 +33,45 @@ export const state = {
 
 /* ---------- loading ---------- */
 
-/* One quick retry for a *network-level* failure (fetch() rejecting — what iOS
-   reports as "Load failed"): on a phone, a single dropped request on a
-   flaky mobile connection shouldn't cost the whole load when the very next
-   attempt would work. An HTTP error status is a real answer from the server,
-   so it's returned as-is rather than retried. */
-async function fetchData(name) {
+/* Fetch and parse one data file, retrying a *network-level* failure.
+
+   iOS reports a dropped connection as "Load failed" — and it does so both when
+   the request never gets an answer (fetch() rejects) and when the connection
+   dies part-way through *downloading* the body (res.json() rejects). So the
+   retry has to wrap both steps, not just fetch(): on a phone, one dropped
+   request on a flaky mobile connection shouldn't cost the whole load when the
+   next attempt would work. An HTTP error status is a real answer from the
+   server, so it's thrown straight away rather than retried.
+
+   Errors name the file, so the "Technický detail" on the failure screen says
+   which request actually failed instead of a bare "Load failed". */
+const RETRY_DELAYS_MS = [800, 2000];
+
+async function fetchJson(name) {
   const url = `${DATA_BASE}/${name}`;
-  try {
-    return await fetch(url, { cache: 'no-cache' });
-  } catch {
-    await new Promise(resolve => setTimeout(resolve, 800));
-    return fetch(url, { cache: 'no-cache' });
+  for (let attempt = 0; ; attempt++) {
+    try {
+      const res = await fetch(url, { cache: 'no-cache' });
+      if (!res.ok) throw Object.assign(new Error(`${res.status}`), { http: true });
+      return await res.json();
+    } catch (error) {
+      if (error.http || attempt >= RETRY_DELAYS_MS.length) {
+        throw new Error(`${name}: ${error.message}`);
+      }
+      await new Promise(resolve => setTimeout(resolve, RETRY_DELAYS_MS[attempt]));
+    }
   }
 }
 
 export async function loadData() {
-  const [screeningsRes, filmsRes, premieresRes] = await Promise.all([
-    fetchData('screenings.json'),
-    fetchData('films.json'),
+  const [screeningsData, filmsData, premieresData] = await Promise.all([
+    fetchJson('screenings.json'),
+    fetchJson('films.json'),
     // Premieres are additive, not core — an outage, a missing file, or a
-    // dropped connection there (a rejected fetch, not just a bad status)
-    // shouldn't take down the whole app the way missing screenings/films does.
-    fetchData('premieres.json').catch(() => null),
+    // dropped connection there shouldn't take down the whole app the way
+    // missing screenings/films does.
+    fetchJson('premieres.json').catch(() => ({ premieres: [] })),
   ]);
-
-  if (!screeningsRes.ok) throw new Error(`screenings.json: ${screeningsRes.status}`);
-  if (!filmsRes.ok) throw new Error(`films.json: ${filmsRes.status}`);
-  const premieresData = premieresRes && premieresRes.ok
-    ? await premieresRes.json().catch(() => ({ premieres: [] }))
-    : { premieres: [] };
-
-  const screeningsData = await screeningsRes.json();
-  const filmsData = await filmsRes.json();
 
   state.screenings = screeningsData.screenings || [];
   state.cinemas = screeningsData.cinemas || [];
