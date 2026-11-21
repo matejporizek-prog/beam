@@ -1,53 +1,7 @@
 {
-  "generated_at": "2026-11-20T13:49:47+00:00",
+  "generated_at": "2026-11-21T13:14:01+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
-    {
-      "film_id": "experiment 26",
-      "title_cz": "Experiment 26",
-      "title_en": "Experiment 26",
-      "original_title": "Experiment 26",
-      "year": 2026,
-      "synopsis": "Deset kluků bylo bez varování vytrženo z běžného režimu na dětském táboře TOM Radotín, aby odehráli náročnou hru Experiment 26 – drsnou psychologickou a fyzickou survival reality-show uprostřed hlubokých lesů. V této hře, kde nikdo neví, kdo je „nakažen“ a komu věřit a dále musí čelit izolaci, hladu a neustálému tlaku polní laboratoře. Tento strhující filmový dokument zachycuje 72 hodin paranoie a vyčerpání, kdy se kamarádství mění v nekompromisní boj o přežití a k vítězství vede jen schopnost obětovat ostatní pro vlastní záchranu.",
-      "synopsis_language": "cs",
-      "runtime_min": 74,
-      "genres": [
-        "Dokumentární"
-      ],
-      "director": [
-        "Jan Tománek"
-      ],
-      "screenwriter": [
-        "Jan Tománek",
-        "Jan Slonka",
-        "Samuel Filip"
-      ],
-      "cast": [
-        "Jan Slonka",
-        "Samuel Filip",
-        "Čeněk Hořejší",
-        "Tobiáš Zimanzl",
-        "Adam Čeřovský",
-        "David Sychra",
-        "Matyáš Markovič",
-        "Oldřich Podzimek"
-      ],
-      "production_company": [
-        "Art and Animation Studio"
-      ],
-      "poster_path": "/dpzcaQmvk0d7oY7Qrt3yp8GDtKu.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/qPJrYpW6yzvAc1zPz9XcBHdgDZA.jpg",
-      "trailer_youtube_key": "jvw-VGPo1CU",
-      "age_rating": "",
-      "tmdb_id": 1831051,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Experiment+26+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "resolved_at": "2026-11-20T13:49:47+00:00",
-      "release_date": "2026-11-20"
-    },
     {
       "film_id": "hexed",
       "title_cz": "Hexed",
