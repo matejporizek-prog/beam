@@ -1,48 +1,7 @@
 {
-  "generated_at": "2026-11-25T15:17:22+00:00",
+  "generated_at": "2026-11-26T14:43:32+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "premieres": [
-    {
-      "film_id": "hexed",
-      "title_cz": "Hexed",
-      "title_en": "Hexed",
-      "original_title": "Hexed",
-      "year": 2026,
-      "synopsis": "An impulsive and unconventional teenage girl named Billie discovers secret magical abilities which, once unleashed, hurtle her into a spectacle-filled journey out of suburbia and into a vast witch realm called Hexe. Forced to team up with her cautious mother, Alice, they uncover family mysteries that could change the world of witches forever.",
-      "synopsis_language": "en",
-      "runtime_min": null,
-      "genres": [
-        "Dobrodružný",
-        "Animovaný",
-        "Rodinný",
-        "Fantasy"
-      ],
-      "director": [
-        "Jason Hand",
-        "Fawn Veerasunthorn"
-      ],
-      "screenwriter": [],
-      "cast": [
-        "Hailee Steinfeld",
-        "Rashida Jones",
-        "Tracey Ullman",
-        "Stephen Fry"
-      ],
-      "production_company": [
-        "Walt Disney Animation Studios"
-      ],
-      "poster_path": "/zO1r0TvdmnUSO1aAtFaVeT5h1KW.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/nRUAjtySZPGurYv5se3R9pqDwWr.jpg",
-      "trailer_youtube_key": "mtC4sjABZNw",
-      "age_rating": "",
-      "tmdb_id": 1538497,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Hexed+2026",
-      "resolved": true,
-      "match_reason": "TMDb discover: upcoming CZ theatrical release",
-      "match_score": 1.0,
-      "release_date": "2026-11-25"
-    },
     {
       "film_id": "buddy",
       "title_cz": "Buddy",
