@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T14:43:31+00:00",
+  "generated_at": "2026-11-27T14:40:55+00:00",
   "attribution": "This product uses the TMDb API but is not endorsed or certified by TMDb.",
   "films": [
     {
@@ -26,52 +26,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'A tak přišla noc'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "addamsova rodina 2 1993",
-      "title_cz": "Addamsova rodina 2 (1993)",
-      "title_en": "Addams Family Values",
-      "original_title": "Addams Family Values",
-      "year": 1993,
-      "synopsis": "Addamsovi se vrací! Pochmurní, depresivní a morbidní. Ta nepodivnější rodinka na světě. Tentokrát přicházejí i s přírustkem. Morticii se narodí malý Adams. Dvě starší děti ho však nenávidí a žárlí na něho. Vezmou si do hlavy Addamsovské úsloví, že když se narodí malé dítě, jedno ze starších umře. Hrají s ním morbidní hry a všemožně se ho snaží zničit.",
-      "synopsis_language": "cs",
-      "runtime_min": 94,
-      "genres": [
-        "Komedie",
-        "Rodinný",
-        "Fantasy"
-      ],
-      "director": [
-        "Barry Sonnenfeld"
-      ],
-      "screenwriter": [
-        "Paul Rudnick"
-      ],
-      "cast": [
-        "Anjelica Huston",
-        "Raúl Juliá",
-        "Christopher Lloyd",
-        "Joan Cusack",
-        "Christina Ricci",
-        "Carol Kane",
-        "Jimmy Workman",
-        "David Krumholtz"
-      ],
-      "production_company": [
-        "Scott Rudin Productions",
-        "Paramount Pictures"
-      ],
-      "poster_path": "/j3HHCQlWRc2y546ioaKuwWBEMxK.jpg",
-      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/10/06/67a770b76a3016160a062bf6d86383b8.jpg",
-      "backdrop_path": "/sZhTfYouKM1iV3rVbgIVEQFQogA.jpg",
-      "trailer_youtube_key": "Bb2FTulPpOA",
-      "age_rating": "12+",
-      "tmdb_id": 2758,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Addamsova+rodina+2+%281993%29+1993",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.03, title 0.92)",
-      "match_score": 1.034,
-      "resolved_at": "2026-11-19T14:06:34+00:00"
     },
     {
       "film_id": "aero naslepo",
@@ -160,53 +114,6 @@
       "match_reason": "title match, unverified (1.00)",
       "match_score": 1.0,
       "resolved_at": "2026-11-18T13:39:54+00:00"
-    },
-    {
-      "film_id": "armony",
-      "title_cz": "Armony",
-      "title_en": "Armony",
-      "original_title": "Armony",
-      "year": 2026,
-      "synopsis": "Armony, a 55-year-old solitary truck driver, finds himself taking responsibility for his six-year-old niece Carlotta after the disappearance of his sister. By his side are Pamela, an elderly transgender woman, and Jenny, a neighbor who is expecting a baby. When social services threaten to take the child away, Armony is forced to fight with all his strength to obtain legal guardianship.",
-      "synopsis_language": "en",
-      "runtime_min": 104,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Dario Albertini"
-      ],
-      "screenwriter": [
-        "Dario Albertini",
-        "Simone Ranucci"
-      ],
-      "cast": [
-        "Valerio Mastandrea",
-        "Asia Argento",
-        "Clara Tramontano",
-        "Ornella Muti",
-        "Aurora Cherchi",
-        "Elena Lietti",
-        "Nando Paone",
-        "Pamela Schettino"
-      ],
-      "production_company": [
-        "The Apartment Pictures",
-        "Damocle",
-        "RAI Cinema",
-        "Fremantle Italia"
-      ],
-      "poster_path": "/lFiawC2A157N6qfmCmvaIc5rOXX.jpg",
-      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/11/12/67f07fe98cfa2b252b806af842a7577c.jpg",
-      "backdrop_path": "/kg867eHBGrvrPmGtrBJs6JWtEZD.jpg",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": 1729677,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Armony+2026",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.11, title 1.00)",
-      "match_score": 1.115,
-      "resolved_at": "2026-11-19T14:06:35+00:00"
     },
     {
       "film_id": "asterix a obelix kralovstvi nubie",
@@ -1052,31 +959,6 @@
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Čestmír LIVE'",
       "match_score": 0.0
-    },
-    {
-      "film_id": "changing sides",
-      "title_cz": "Changing sides",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/11/24/ad36b88a52dda601d094f5505b05d8a6.jpg",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Changing+sides",
-      "resolved": false,
-      "match_reason": "no candidate scored above 0.75",
-      "match_score": 0.25
     },
     {
       "film_id": "chungking express",
@@ -1976,6 +1858,51 @@
       "resolved_at": "2026-10-27T10:13:53+00:00"
     },
     {
+      "film_id": "duel",
+      "title_cz": "Duel",
+      "title_en": "Duel",
+      "original_title": "Duel",
+      "year": 1971,
+      "synopsis": "Strhující příběh nabitý nepřetržitou akcí a neustále rostoucí napětí si získalo i kritiky, kteří film oslavovali jako dílo, jemuž “…právem náleží čestné místo mezi nejlepšími napínavými filmy všech dob” (Daily Variety). Dennis Weaver si zahrál hlavní roli obchodního cestujícího, který vede zoufalý boj o přežití, když se bez zjevné příčiny stane terčem určeným k likvidaci. V Duelu se také objevila jedna z nejoriginálnějších záporných “postav” ve filmové historii: obrovský burácející čtyřicetitunový kamion, jenž má v sobě více čistého zla než většina ostatních záporných postav z masa a kostí.",
+      "synopsis_language": "cs",
+      "runtime_min": 74,
+      "genres": [
+        "Akční",
+        "Thriller",
+        "Televizní film"
+      ],
+      "director": [
+        "Steven Spielberg"
+      ],
+      "screenwriter": [
+        "Richard Matheson"
+      ],
+      "cast": [
+        "Dennis Weaver",
+        "Jacqueline Scott",
+        "Eddie Firestone",
+        "Gene Dynarski",
+        "Lucille Benson",
+        "Tim Herbert",
+        "Alexander Lockwood",
+        "Shirley O'Hara"
+      ],
+      "production_company": [
+        "Universal Television"
+      ],
+      "poster_path": "/w9Vk1Txx14vWvACELFYFlixrsfr.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/AoGLKkPvBcZP27jwSA85fY8emvJ.jpg",
+      "trailer_youtube_key": "Gdk1Igqu05Y",
+      "age_rating": "PG (US)",
+      "tmdb_id": 839,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Duel+1971",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.00, title 1.00)",
+      "match_score": 1.0,
+      "resolved_at": "2026-11-27T14:40:49+00:00"
+    },
+    {
       "film_id": "duna",
       "title_cz": "Duna",
       "title_en": "Dune",
@@ -2460,31 +2387,6 @@
       "resolved_at": "2026-10-06T11:48:10+00:00"
     },
     {
-      "film_id": "festival katalanskych kratkych filmu omnium cultural",
-      "title_cz": "Festival katalánských krátkých filmů Òmnium Cultural",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Festival+katal%C3%A1nsk%C3%BDch+kr%C3%A1tk%C3%BDch+film%C5%AF+%C3%92mnium+Cultural",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Festival katalánských krátkých filmů Òmnium Cultural'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "film z stodvacet",
       "title_cz": "FILM Z STODVACET | Sladký domov",
       "title_en": "",
@@ -2611,6 +2513,31 @@
       "resolved_at": "2026-09-16T09:40:24+00:00"
     },
     {
+      "film_id": "fotojatka 2026",
+      "title_cz": "Fotojatka 2026",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://kinoaero.cz/uploads/images/movies/2026/11/16/00c7d74685a21871e32bb6a370d5332b.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Fotojatka+2026",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Fotojatka 2026'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "garand 20 let na scene forum karlin live",
       "title_cz": "GARAND 20 LET NA SCÉNĚ - Forum Karlín (live)",
       "title_en": "",
@@ -2719,57 +2646,6 @@
       "match_reason": "verified against director/runtime (1.01, title 1.00)",
       "match_score": 1.015,
       "resolved_at": "2026-11-14T11:56:19+00:00"
-    },
-    {
-      "film_id": "hodnej",
-      "title_cz": "Hodnej",
-      "title_en": "Good Boy",
-      "original_title": "Good Boy",
-      "year": 2026,
-      "synopsis": "Tommy, provokativní internetový influencer šířící násilí a bezohlednost, se po jedné divoké noci probudí v zajetí na odlehlém venkovském sídle. Drží ho tam manželský pár, navenek klidný Chris a tichá Kathryn, kteří mu odeberou telefon, izolují ho od vnějšího světa a podrobí zvláštní „převýchově“. V domě neplatí běžná pravidla a Tommy postupně zjišťuje, že se nejedná o náhodný únos, ale o promyšlený plán jeho \"morální nápravy\".",
-      "synopsis_language": "cs",
-      "runtime_min": 110,
-      "genres": [
-        "Drama",
-        "Mysteriózní",
-        "Horor"
-      ],
-      "director": [
-        "Jan Komasa"
-      ],
-      "screenwriter": [
-        "Bartek Bartosik",
-        "Naqqash Khalid"
-      ],
-      "cast": [
-        "Anson Boon",
-        "Stephen Graham",
-        "Andrea Riseborough",
-        "Kit Rakusen",
-        "Monika Frajczyk",
-        "Savannah Steyn",
-        "Mila Jankowska",
-        "Callum Booth-Ford"
-      ],
-      "production_company": [
-        "Recorded Picture Company",
-        "Skopia Film",
-        "Wytwórnia Filmów Dokumentalnych i Fabularnych",
-        "Venatu Capital",
-        "CANAL+ Polska",
-        "TVN Warner Bros. Discovery"
-      ],
-      "poster_path": "/eWb841fMkSNly5gfL9J1N0xzVYI.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/6AYl4PU29o2WXUPZzAo56GVQs5r.jpg",
-      "trailer_youtube_key": "qWkPjI-Brkc",
-      "age_rating": "15+",
-      "tmdb_id": 1381027,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Hodnej+2026",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-11-17T14:06:01+00:00"
     },
     {
       "film_id": "honza vojtko pribeh lasky",
@@ -3335,76 +3211,6 @@
       "match_score": 0.0
     },
     {
-      "film_id": "killhouse",
-      "title_cz": "Killhouse",
-      "title_en": "Killhouse",
-      "original_title": "Killhouse",
-      "year": 2026,
-      "synopsis": "After a civilian couple ventures out to exhange their POW daughter for money, they're surrounded by Russian forces and the husband is mortally wounded. But, rescue comes when they're quickly noticed by a Ukrainian platoon, who plan on using drones to rescue the couple.",
-      "synopsis_language": "en",
-      "runtime_min": 152,
-      "genres": [
-        "Válečný",
-        "Akční",
-        "Drama",
-        "Thriller",
-        "Historický"
-      ],
-      "director": [
-        "Liubomyr Levytskyi"
-      ],
-      "screenwriter": [
-        "Liubomyr Levytskyi"
-      ],
-      "cast": [
-        "Serhiy Strelnykov",
-        "Denis Kapustin",
-        "Alexandra Soroka",
-        "Valeriy Velichko",
-        "Oleksandr Rudko",
-        "Olga Spytsia",
-        "Pavlo Tekuchev",
-        "Martin Hugh Henley"
-      ],
-      "production_company": [],
-      "poster_path": "/vSVzVlqgc2qZVb86bEXLq1iot0s.jpg",
-      "poster_fallback_url": "",
-      "backdrop_path": "/bCXMZOGe1heiudPoCAbR9ruFodd.jpg",
-      "trailer_youtube_key": "FGLnjGa32hw",
-      "age_rating": "",
-      "tmdb_id": 1493123,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Killhouse+2026",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-11-10T13:14:44+00:00"
-    },
-    {
-      "film_id": "kino brasil festivalova permanentka",
-      "title_cz": "Kino Brasil - festivalová permanentka",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/11/02/ba07874d1dd7d76565596cfdbdb76438.avif",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Kino+Brasil+-+festivalov%C3%A1+permanentka",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Kino Brasil - festivalová permanentka'",
-      "match_score": 0.0
-    },
-    {
       "film_id": "kinospunti a kapybary",
       "title_cz": "Kinošpunti a kapybary",
       "title_en": "",
@@ -3427,6 +3233,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Kino%C5%A1punti+a+kapybary",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Kinošpunti a kapybary'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "klepanim se neobtezuj",
+      "title_cz": "Klepáním se neobtěžuj",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/10/23/a3e9b6b4a6f008d35bd2e51a4ecff653.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Klep%C3%A1n%C3%ADm+se+neobt%C4%9B%C5%BEuj",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Klepáním se neobtěžuj'",
       "match_score": 0.0
     },
     {
@@ -3569,8 +3400,8 @@
       "resolved_at": "2026-10-26T10:47:31+00:00"
     },
     {
-      "film_id": "konkurz",
-      "title_cz": "Konkurz",
+      "film_id": "konkurs",
+      "title_cz": "Konkurs",
       "title_en": "Audition",
       "original_title": "オーディション",
       "year": 2000,
@@ -3608,11 +3439,11 @@
       "trailer_youtube_key": "2wr_om5LsuI",
       "age_rating": "R (US)",
       "tmdb_id": 11075,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Konkurz+2000",
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Konkurs+2000",
       "resolved": true,
-      "match_reason": "verified against director/runtime (1.01, title 0.86)",
-      "match_score": 1.007,
-      "resolved_at": "2026-11-26T14:43:25+00:00"
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-11-27T14:40:51+00:00"
     },
     {
       "film_id": "kralovska opera carmen 2026 27",
@@ -4741,6 +4572,31 @@
       "resolved_at": "2026-11-26T14:43:27+00:00"
     },
     {
+      "film_id": "na ceste s tatou",
+      "title_cz": "Na cestě s tátou",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.biooko.net/uploads/images/movies/2026/11/11/6170d996bd042cc04ff1bbe2f92347ad.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Na+cest%C4%9B+s+t%C3%A1tou",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Na cestě s tátou'",
+      "match_score": 0.0
+    },
+    {
       "film_id": "na nove zacatky",
       "title_cz": "Na nové začátky!",
       "title_en": "To New Beginnings",
@@ -5237,31 +5093,6 @@
       "match_reason": "verified against director/runtime (1.05, title 1.00)",
       "match_score": 1.05,
       "resolved_at": "2026-10-27T10:13:56+00:00"
-    },
-    {
-      "film_id": "nikos jdu na zavod v pousti",
-      "title_cz": "Nikos: jDU NA závod v poušti",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Nikos%3A+jDU+NA+z%C3%A1vod+v+pou%C5%A1ti",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Nikos: jDU NA závod v poušti'",
-      "match_score": 0.0
     },
     {
       "film_id": "nizka ocekavani",
@@ -5801,51 +5632,6 @@
       "resolved_at": "2026-11-21T13:13:58+00:00"
     },
     {
-      "film_id": "pet svestek",
-      "title_cz": "Pět švestek",
-      "title_en": "What a Way To Go",
-      "original_title": "Pět švestek",
-      "year": 2026,
-      "synopsis": "Věra žije sama a už ji v životě zdánlivě nic nečeká. Zasteskne se jí po době, kdy bývala  opravdu šťastná – když jezdila s přáteli na moře. Ze staré party však zbyly jen trosky a není  jisté, zda takové dobrodružství vůbec zvládnou. Přesto zatouží ještě jednou společně vyplout  na otevřené moře vstříc idylickým zátokám a západům slunce. Netuší, že největším  ohrožením jejich výpravy nebude moře, ani staré křivdy, které během cesty vyplují napovrch,  ale vlastní děti, které nemají pro bláznivý výlet starých rodičů pochopení.",
-      "synopsis_language": "cs",
-      "runtime_min": 100,
-      "genres": [
-        "Komedie"
-      ],
-      "director": [
-        "Jan Svěrák"
-      ],
-      "screenwriter": [
-        "Jan Svěrák"
-      ],
-      "cast": [
-        "Lenka Termerová",
-        "Oldřich Kaiser",
-        "Jan Vlasák",
-        "Dana Syslová",
-        "Petr Kostka",
-        "Petra Špalková",
-        "Petr Lněnička",
-        "Judit Pecháček"
-      ],
-      "production_company": [
-        "Biograf Jan Svěrák",
-        "Portobello Pictures",
-        "prima+"
-      ],
-      "poster_path": "/9WzSp58KeedU8NHcAcJkqYNYnuv.jpg",
-      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/05/04/cde1ab0bb62c28fc7ad49aa29f408241.jpg",
-      "backdrop_path": "/oPn4zwOQQYGaddNfoUAqdkc7Gvm.jpg",
-      "trailer_youtube_key": "Kmjyl3BhWM0",
-      "age_rating": "U",
-      "tmdb_id": 1678214,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=P%C4%9Bt+%C5%A1vestek+2026",
-      "resolved": true,
-      "match_reason": "verified against director/runtime (1.15, title 1.00)",
-      "match_score": 1.15,
-      "resolved_at": "2026-11-20T13:49:40+00:00"
-    },
-    {
       "film_id": "pitoma priroda",
       "title_cz": "Pitomá příroda",
       "title_en": "Stupid Nature",
@@ -6262,6 +6048,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Primetime+%28English+friendly%29",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Primetime (English friendly)'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "princezna se zlatou hvezdou digitalizovana verze",
+      "title_cz": "Princezna se zlatou hvězdou /digitalizovaná verze/",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Princezna+se+zlatou+hv%C4%9Bzdou+%2Fdigitalizovan%C3%A1+verze%2F",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Princezna se zlatou hvězdou /digitalizovaná verze/'",
       "match_score": 0.0
     },
     {
@@ -6797,6 +6608,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Rozum+a+cit+%28English+friendly%29",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Rozum a cit (English friendly)'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "s certy nejsou zerty digitalizovana verze",
+      "title_cz": "S čerty nejsou žerty /digitalizovaná verze/",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=S+%C4%8Derty+nejsou+%C5%BEerty+%2Fdigitalizovan%C3%A1+verze%2F",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'S čerty nejsou žerty /digitalizovaná verze/'",
       "match_score": 0.0
     },
     {
@@ -7360,6 +7196,55 @@
       "match_score": 0.0
     },
     {
+      "film_id": "spider man zbrusu zbrusu novy den",
+      "title_cz": "Spider-Man: (Zbrusu) Zbrusu nový den",
+      "title_en": "Spider-Man: Brand New Day",
+      "original_title": "Spider-Man: Brand New Day",
+      "year": 2026,
+      "synopsis": "Peter Parker dnes žije osamělý život. Jeho oběť pro záchranu multivesmíru jej vymazala z paměti a srdcí nejbližších přátel, a tak se z něj stal Spider-Man na plný úvazek. Ochrana města si však vybírá svoji daň a Petr čelí nečekaným fyzickým následkům. Zatímco bojuje o holý život, ve městě se vynořuje temná hrozba s nevídanou mocí. Dokáže Peter zachránit New York, když riskuje, že ztratí i to poslední, co mu zbylo – sama sebe?",
+      "synopsis_language": "cs",
+      "runtime_min": 145,
+      "genres": [
+        "Vědeckofantastický",
+        "Akční",
+        "Dobrodružný"
+      ],
+      "director": [
+        "Destin Daniel Cretton"
+      ],
+      "screenwriter": [
+        "Erik Sommers",
+        "Chris McKenna"
+      ],
+      "cast": [
+        "Tom Holland",
+        "Sadie Sink",
+        "Tramell Tillman",
+        "Zendaya",
+        "Jacob Batalon",
+        "Jon Bernthal",
+        "Mark Ruffalo",
+        "Florence Pugh"
+      ],
+      "production_company": [
+        "Marvel Studios",
+        "Columbia Pictures",
+        "Pascal Pictures",
+        "TSG Entertainment"
+      ],
+      "poster_path": "/4yIR61TftQu9Rk5EVJaHbhO5Dqc.jpg",
+      "poster_fallback_url": "",
+      "backdrop_path": "/r08LxMJCbf1SiJIWeyH9aJmdqwC.jpg",
+      "trailer_youtube_key": "P3uI5sLosKU",
+      "age_rating": "12+",
+      "tmdb_id": 969681,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Spider-Man%3A+%28Zbrusu%29+Zbrusu+nov%C3%BD+den+2026",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (0.88, title 0.88)",
+      "match_score": 0.881,
+      "resolved_at": "2026-11-27T14:40:53+00:00"
+    },
+    {
       "film_id": "strihoruky edward",
       "title_cz": "Střihoruký Edward",
       "title_en": "Edward Scissorhands",
@@ -7478,6 +7363,31 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Tady+Vary+4+%7C+Behemot%21",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Tady Vary 4'",
+      "match_score": 0.0
+    },
+    {
+      "film_id": "tady vary behemot",
+      "title_cz": "Tady Vary: Behemot!",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
+      "poster_fallback_url": "https://www.cinemacity.cz/xmedia-cw/repo/feats/posters/8441S2R1.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=Tady+Vary%3A+Behemot%21",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Tady Vary: Behemot!'",
       "match_score": 0.0
     },
     {
@@ -7714,31 +7624,6 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Tich%C3%A1+noc+%28Opera%29",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Tichá noc (Opera)'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "ticha povoden",
-      "title_cz": "Tichá povodeň",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Tich%C3%A1+povode%C5%88",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Tichá povodeň'",
       "match_score": 0.0
     },
     {
@@ -8242,8 +8127,53 @@
       "resolved_at": "2026-09-12T09:02:31+00:00"
     },
     {
-      "film_id": "veselovsky kosatik co by kdyby live",
-      "title_cz": "Veselovský & Kosatík: Co by kdyby? LIVE",
+      "film_id": "vanoce s alzbetou",
+      "title_cz": "Vánoce s Alžbětou",
+      "title_en": "Christmas with Elisabeth",
+      "original_title": "Vánoce s Alžbětou",
+      "year": 1968,
+      "synopsis": "Jedenadvacetiletou Alzbětu Tomajdesovou propustili na podmínku z nápravného zařízení. Ihned nastoupila do zaměstnání jako závoznice. Padesátiletý řidič, s nímž rozváží potravinářské zboží po venkovských prodejnách, dlouho hledá k uzavřené dívce osobnější vztah...",
+      "synopsis_language": "cs",
+      "runtime_min": 90,
+      "genres": [
+        "Drama",
+        "Romantický"
+      ],
+      "director": [
+        "Karel Kachyňa"
+      ],
+      "screenwriter": [
+        "Jan Procházka",
+        "Karel Kachyňa"
+      ],
+      "cast": [
+        "Vlado Müller",
+        "Pavla Kárníková",
+        "Zdena Hadrbolcová",
+        "Mnislav Hofmann",
+        "Svatopluk Skládal",
+        "Václav Kaňkovský",
+        "Jan Kotva",
+        "Rudolf Kutílek"
+      ],
+      "production_company": [
+        "Filmové studio Barrandov"
+      ],
+      "poster_path": "/4h0qq0BzH636K54Wg3V6rfrlHPF.jpg",
+      "poster_fallback_url": "https://www.kinolucerna.cz/uploads/images/movies/2026/10/23/3ed2b46e4804f5ee31f2c3d4cfa1ad75.jpg",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
+      "age_rating": "",
+      "tmdb_id": 325711,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=V%C3%A1noce+s+Al%C5%BEb%C4%9Btou+1968",
+      "resolved": true,
+      "match_reason": "verified against director/runtime (1.15, title 1.00)",
+      "match_score": 1.15,
+      "resolved_at": "2026-11-27T14:40:54+00:00"
+    },
+    {
+      "film_id": "veselovsky kosatik co by kdyby live co kdyby nevznikla verejnopravni media",
+      "title_cz": "VESELOVSKÝ & KOSATÍK: CO BY KDYBY LIVE - CO KDYBY NEVZNIKLA VEŘEJNOPRÁVNÍ MÉDIA?",
       "title_en": "",
       "original_title": "",
       "year": null,
@@ -8261,9 +8191,9 @@
       "trailer_youtube_key": "",
       "age_rating": "",
       "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Veselovsk%C3%BD+%26+Kosat%C3%ADk%3A+Co+by+kdyby%3F+LIVE",
+      "csfd_url": "https://www.csfd.cz/hledat/?q=VESELOVSK%C3%9D+%26+KOSAT%C3%8DK%3A+CO+BY+KDYBY+LIVE+-+CO+KDYBY+NEVZNIKLA+VE%C5%98EJNOPR%C3%81VN%C3%8D+M%C3%89DIA%3F",
       "resolved": false,
-      "match_reason": "TMDb returned no results for 'Veselovský & Kosatík: Co by kdyby? LIVE'",
+      "match_reason": "TMDb returned no results for 'VESELOVSKÝ & KOSATÍK: CO BY KDYBY LIVE - CO KDYBY NEVZNIKLA VEŘEJNOPRÁVNÍ MÉDIA?'",
       "match_score": 0.0
     },
     {
@@ -8289,31 +8219,6 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=VI.+Festival+kolumbijsk%C3%A9ho+filmu+v+Praze+%E2%80%93+Poeta",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'VI. Festival kolumbijského filmu v Praze – Poeta'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "videl jsem tri cerna svetla",
-      "title_cz": "Viděl jsem tři černá světla",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "https://www.kinosvetozor.cz/uploads/images/movies/2026/11/03/7899f489476c41b00e237f3f29a91b3f.png",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Vid%C4%9Bl+jsem+t%C5%99i+%C4%8Dern%C3%A1+sv%C4%9Btla",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Viděl jsem tři černá světla'",
       "match_score": 0.0
     },
     {
@@ -8434,31 +8339,6 @@
       "csfd_url": "https://www.csfd.cz/hledat/?q=Vlk+mezi+labut%C4%9Bmi",
       "resolved": false,
       "match_reason": "TMDb returned no results for 'Vlk mezi labutěmi'",
-      "match_score": 0.0
-    },
-    {
-      "film_id": "vratte mi me jmeno",
-      "title_cz": "Vraťte mi mé jméno",
-      "title_en": "",
-      "original_title": "",
-      "year": null,
-      "synopsis": "",
-      "synopsis_language": "",
-      "runtime_min": null,
-      "genres": [],
-      "director": [],
-      "screenwriter": [],
-      "cast": [],
-      "production_company": [],
-      "poster_path": "",
-      "poster_fallback_url": "",
-      "backdrop_path": "",
-      "trailer_youtube_key": "",
-      "age_rating": "",
-      "tmdb_id": null,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=Vra%C5%A5te+mi+m%C3%A9+jm%C3%A9no",
-      "resolved": false,
-      "match_reason": "TMDb returned no results for 'Vraťte mi mé jméno'",
       "match_score": 0.0
     },
     {
@@ -9072,56 +8952,29 @@
       "resolved_at": "2026-11-26T14:43:31+00:00"
     },
     {
-      "film_id": "zena na valecne stezce",
-      "title_cz": "Žena na válečné stezce",
-      "title_en": "Woman at War",
-      "original_title": "Kona fer í stríð",
-      "year": 2018,
-      "synopsis": "Je lepší metodou záchrany světa sabotáž stožárů vysokého napětí, nebo adoptování ukrajinského sirotka? Tuto otázku řeší svérázná „zenová teroristka“ ve šťavnatém, ironickém, nádherně nasnímaném a lahodně nazvučeném filmu Benedikta Erlingssona. Padesátnice Halla je zdánlivě spořádaná učitelka a sbormistryně, ale pod klidným zevnějškem dříme víc, než se na první pohled zdá. Tvrdá a nekompromisní žena má ještě druhý život – vede totiž soukromou válku s průmyslovými giganty, kteří ničí islandskou krajinu. Nejhledanější žena ostrova řeší s lukem v ruce dilema mnohých z nás: jak svým dílem přispět k tomu, aby nedošlo k ekologické a sociální katastrofě?",
-      "synopsis_language": "cs",
-      "runtime_min": 97,
-      "genres": [
-        "Drama",
-        "Thriller",
-        "Komedie"
-      ],
-      "director": [
-        "Benedikt Erlingsson"
-      ],
-      "screenwriter": [
-        "Benedikt Erlingsson",
-        "Ólafur Egill Egilsson"
-      ],
-      "cast": [
-        "Halldóra Geirharðsdóttir",
-        "Jóhann Sigurðarson",
-        "Davíð Þór Jónsson",
-        "Magnús Trygvason Eliassen",
-        "Ómar Guðjónsson",
-        "Iryna Danyleiko",
-        "Galyna Goncharenko",
-        "Susanna Kurpenko"
-      ],
-      "production_company": [
-        "Slot Machine",
-        "Gulldrengurinn",
-        "Vintage Pictures",
-        "Köggull Filmworks",
-        "Solar Media Entertainment",
-        "Ukrainian State Film Agency",
-        "Ministry of Culture of Ukraine"
-      ],
-      "poster_path": "/iVSWklWE8EOrWAJaqXpmVCn7KYw.jpg",
+      "film_id": "zena na valecne stezce noc evropskeho filmu",
+      "title_cz": "Žena na válečné stezce – NOC EVROPSKÉHO FILMU",
+      "title_en": "",
+      "original_title": "",
+      "year": null,
+      "synopsis": "",
+      "synopsis_language": "",
+      "runtime_min": null,
+      "genres": [],
+      "director": [],
+      "screenwriter": [],
+      "cast": [],
+      "production_company": [],
+      "poster_path": "",
       "poster_fallback_url": "",
-      "backdrop_path": "/7XolBNeZsAm4Gehx09Y4cPdvd5q.jpg",
-      "trailer_youtube_key": "JFFEPPoRkXM",
+      "backdrop_path": "",
+      "trailer_youtube_key": "",
       "age_rating": "",
-      "tmdb_id": 348657,
-      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%BDena+na+v%C3%A1le%C4%8Dn%C3%A9+stezce+2018",
-      "resolved": true,
-      "match_reason": "title match, unverified (1.00)",
-      "match_score": 1.0,
-      "resolved_at": "2026-11-18T13:40:09+00:00"
+      "tmdb_id": null,
+      "csfd_url": "https://www.csfd.cz/hledat/?q=%C5%BDena+na+v%C3%A1le%C4%8Dn%C3%A9+stezce+%E2%80%93+NOC+EVROPSK%C3%89HO+FILMU",
+      "resolved": false,
+      "match_reason": "TMDb returned no results for 'Žena na válečné stezce – NOC EVROPSKÉHO FILMU'",
+      "match_score": 0.0
     },
     {
       "film_id": "zeny v lihu",
